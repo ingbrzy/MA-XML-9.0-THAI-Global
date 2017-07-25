@@ -668,7 +668,6 @@
   <string name="miprofile_contact_header">รายชื่อที่เพิ่มนามบัตรได้</string>
   <string name="miprofile_contact_meaasge">รายชื่อในเครื่อง</string>
   <string name="miprofile_contact_verifying">กำลังยืนยัน</string>
-  <string name="miprofile_delete_alertdialog_message">@string/miprofile_switch_off_alertdialog_message</string>
   <string name="miprofile_edit_title">แก้ไขข้อมูลส่วนตัว</string>
   <string name="miprofile_error_accept_self">ไม่สามารถแลกนามบัตรกับตนเองได้</string>
   <string name="miprofile_error_no_miaccount">ลงชื่อเข้าใช้บัญชี Mi ของคุณ</string>

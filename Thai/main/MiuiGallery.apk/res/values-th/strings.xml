@@ -848,7 +848,6 @@
   <string name="view_by_gallery_tip">คลังภาพ MIUI</string>
   <string name="view_face_album">ดูอัลบั้ม</string>
   <string name="view_queuing_status">ตรวจสอบสถานะ</string>
-  <string name="welcome_to_auto_backup">@string/welcome_to_micloud</string>
   <string name="welcome_to_micloud">ยินดีต้อนรับสู่ Mi คลาวด์</string>
   <string name="welcome_to_slim">ปรับแต่งพื้นที่จัดเก็บในเครื่อง</string>
   <string name="where_is_barcode">รหัส QR อยู่ที่ไหน?</string>

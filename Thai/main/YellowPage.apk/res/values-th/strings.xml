@@ -367,7 +367,6 @@
   <string name="quick_yellow_page_tab_phones">โทรศัพท์</string>
   <string name="recharge_actual_price">ราคา:</string>
   <string name="recharge_charge_range">ราคา: %1$s-%2$s RMB</string>
-  <string name="recharge_charge_value">ราคา: %s RMB</string>
   <string name="recharge_follow_name">เติมเงิน</string>
   <string name="recharge_history">ประวัติการเติมเงิน</string>
   <string name="recharge_history_empty">ว่าง</string>
