@@ -551,7 +551,6 @@
   <string name="people_jump_failed">รอจนกว่ารูปภาพกับบุคคลซิงค์ไปยัง Mi คลาวด์เสร็จ และลองอีกครั้ง</string>
   <string name="people_page_label">บุคคล</string>
   <string name="people_page_unname">ไม่มีชื่อ</string>
-  <string name="percent_sign">%</string>
   <string name="pet_album_display_name">รูปภาพสัตว์เลี้ยง</string>
   <string name="petabyteShort">PB</string>
   <string name="photo">รูปภาพ</string>
@@ -662,8 +661,6 @@
   <string name="search_title_people">บุคคล</string>
   <string name="search_title_recommend">แนะนำ</string>
   <string name="search_title_tag">สิ่งของ</string>
-  <string name="search_transition_element_icon">search_icon</string>
-  <string name="search_transition_element_input">search_input</string>
   <string name="secret_album_card_description">ที่ที่ดีที่สุดสำหรับความลับทั้งหมดของคุณ</string>
   <string name="secret_album_card_title">เปิดอัลบั้มที่ซ่อนไว้</string>
   <string name="secret_album_display_name">อัลบั้มซ่อน</string>

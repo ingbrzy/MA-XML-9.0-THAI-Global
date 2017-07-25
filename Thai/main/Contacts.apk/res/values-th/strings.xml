@@ -866,8 +866,6 @@
   <string name="path_wipe_data">แอประบบ/รายชื่อ/จัดการรายชื่อ/ล้างข้อมูล</string>
   <string name="payphone">โทรศัพท์สาธารณะ</string>
   <string name="people">รายชื่อ</string>
-  <string name="percent_sign">%</string>
-  <string name="percentage">%s%%</string>
   <string name="phoneLabelsGroup">โทรศัพท์</string>
   <string name="phone_info_divider">" ｜ "</string>
   <string name="phone_number_too_long_toast">หมายเลขยาวเกินไป</string>
