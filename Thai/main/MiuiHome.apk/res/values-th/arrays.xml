@@ -50,11 +50,4 @@
         <item>มีฝุ่นละออง</item>
         <item>มีเมฆหมอก</item>
     </string-array>
-    <string-array name="editing_mode_entries">
-        <item>ธีม</item>
-        <item>วิดเจ็ต</item>
-        <item>ภาพพื้นหลัง</item>
-        <item>เอฟเฟกต์</item>
-        <item>ผัง</item>
-    </string-array>
 </resources>
