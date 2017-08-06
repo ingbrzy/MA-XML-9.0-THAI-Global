@@ -44,6 +44,9 @@
     <plurals name="hints_roaming_found_app_count_title">
         <item quantity="other">พบ %d แอป</item>
     </plurals>
+    <plurals name="om_ill_proc_multi_app_title">
+        <item quantity="other">"%d apps don't work properly and drain battery"</item>
+    </plurals>
     <plurals name="power_center_battery_day">
         <item quantity="other">"%d วัน "</item>
     </plurals>

@@ -4,6 +4,7 @@
   <string name="add_frequent_phrases">เพิ่มคำที่ถูกใช้บ่อย</string>
   <string name="all_call_livetalk_enable">ใช้แพ็คเกจเสริมสำหรับการโทรในประเทศและต่างประเทศ</string>
   <string name="all_call_livetalk_remain_mins">นาทีคงเหลือ: %1$s ในประเทศ / %2$s ระหว่างประเทศ</string>
+  <string name="always">Always</string>
   <string name="alwaysUsePrompt">จดจำตัวเลือกนี้</string>
   <string name="apply_password_action">ตกลง</string>
   <string name="apply_password_confirm_dlg_msg">ใช้รหัสผ่านหน้าจอล็อกเพื่อเข้าถึงการตั้งค่าสำหรับ %s.</string>
@@ -28,10 +29,13 @@
   <string name="call_record_sample_prefix_miui">โทร</string>
   <string name="caller_info_name_delimiter">" หรือ "</string>
   <string name="cancel_action">ยกเลิก</string>
+  <string name="close">Off</string>
   <string name="configure_input_methods">เลือกแป้นพิมพ์</string>
   <string name="copy">คัดลอก</string>
   <string name="cut">ตัด</string>
   <string name="default_name">ค่าเริ่มต้น</string>
+  <string name="description_title">Silent mode</string>
+  <string name="eighthours">8 hours</string>
   <string name="enable_livetalk_summary">ประหยัดค่าโทร 70%</string>
   <string name="enable_livetalk_title">เปิดใช้แพ็คเกจเสริม</string>
   <string name="fc_dialog_body">ต้องการส่งรายงานข้อบกพร่องนี้ไปยัง Mi เพื่อวิเคราะห์? รายงานนี้อาจมีข้อมูลส่วนบุคคล การรายงานจะช่วยแก้ไขข้อบกพร่องนี้ได้และจะไม่ถูกใช้ในทางการค้าแต่อย่างใด</string>
@@ -40,6 +44,7 @@
   <string name="fm_record_smaple_prefix_miui">บันทึกวิทยุ FM</string>
   <string name="force_exit_message">บังคับปิด %1$s</string>
   <string name="force_exit_skip_message">ไม่สามารถปิด %1$s ได้ เนื่องจากระบบกำลังใช้งานอยู่</string>
+  <string name="fourhours">2 hours</string>
   <string name="fp_nav_center_action_choose_dlg_msg">คุณสามารถกลับไปที่หน้าจอหลักของคุณด้วยการแตะเบาๆที่ปุ่มโฮม คุณสามารถเปิดปิดคุณลักษณะนี้ได้ในการตั้งค่า &gt; การตั้งค่าเพิ่มเติม &gt; ปุ่ม &gt; แตะปุ่มโฮมเพื่อย้อนกลับหน้าจอหลัก</string>
   <string name="fp_nav_center_action_choose_dlg_negative_btn_text">ในภายหลัง</string>
   <string name="fp_nav_center_action_choose_dlg_positive_btn_text">เปิดใช้งาน</string>
@@ -73,6 +78,7 @@
   <string name="memory_clear_nothing_result">ไม่มีแคชให้ล้างแล้ว</string>
   <string name="memory_clear_result">ทำความสะอาดแล้ว %1$sB</string>
   <string name="miui_upgrading_notification_title">กำลังโหลดระบบ คุณลักษณะบางอย่างอาจจะหยุดทำงาน</string>
+  <string name="onehour">30 minutes</string>
   <string name="package_delete_confirm_step_1">ลบ %s?</string>
   <string name="package_delete_confirm_step_2">การลบแอปนี้อาจทำให้ระบบของคุณจะไม่เสถียร</string>
   <string name="package_delete_confirm_step_3">คุณจะไม่สามารถที่จะเปิดแอปนี้ได้หลังจากที่คุณลบมัน</string>
@@ -85,6 +91,7 @@
   <string name="reboot_info_auto_boot">อุปกรณ์ตั้งเวลาเปิด/ปิดไว้ตอน %s</string>
   <string name="reboot_info_shutdown_alarm">แจ้งเตือนถัดไป: %s</string>
   <string name="reboot_progress">กำลังรีบูท…</string>
+  <string name="remain">Remaining:%s</string>
   <string name="replace">แทนที่</string>
   <string name="resource_select">เลือก</string>
   <string name="screen_button_notification_text">หากต้องการเปิดใช้งาน กดปุ่มโฮมและปุ่มเปิด/ปิดเครื่องพร้อมกัน</string>
@@ -111,10 +118,14 @@
   <string name="set_password_title">ตั้งรหัสผ่าน</string>
   <string name="shutdown_confirm_title">ปิดเครื่องตอนนี้?</string>
   <string name="shutdown_progress">กำลังปิดเครื่อง…</string>
+  <string name="silence_mode">Silent mode</string>
   <string name="sim_added_reboot_confirm">รีบูต</string>
   <string name="sim_added_reboot_title">การเปิดใช้งานซิมการ์ดจะเริ่มหลังจากที่คุณรีบูตเครื่อง</string>
   <string name="softap_notifif_summary">%d เชื่อมต่อแล้ว</string>
   <string name="softap_notifif_title">ฮอตสปอต \"%s\" เปิดใช้งานอยู่</string>
+  <string name="standard">Silent</string>
+  <string name="standard_description">[Silent] Silence ringtones for incoming calls and notification</string>
+  <string name="standard_title">Silent..</string>
   <string name="start_security_permission_verify_text">ยืนยันการอนุญาตด้วยบัญชี Mi ของคุณ</string>
   <string name="status_bar_toggle_auto_brightness">ความสว่าง</string>
   <string name="status_bar_toggle_battery_saver">ตัวประหยัดแบตเตอรี่</string>
@@ -140,10 +151,14 @@
   <string name="status_bar_toggle_wifi">Wi-Fi</string>
   <string name="status_bar_toggle_wifi_ap">ฮอตสปอต</string>
   <string name="subinfo_default_name">ซิม %d</string>
+  <string name="total">DND</string>
+  <string name="total_description">[DND] Silence sounds and turn off vibration for all items except the Alarm clock</string>
+  <string name="total_title">DND..</string>
   <string name="translation_more">เพิ่มเติม</string>
   <string name="translation_query_error">ไม่สามารถค้นหาผลลัพธ์ได้</string>
   <string name="translation_query_error_network">ไม่สามารถรับข้อมูลได้ ตรวจสอบการเชื่อมต่อเครือข่าย แล้วลองอีกครั้ง</string>
   <string name="turn_off">ปิดใช้งาน</string>
+  <string name="twohours">1 hour</string>
   <string name="unknown_caller">เลขหมายที่ไม่รู้จัก</string>
   <string name="user_switching_dialog_text">กำลังสลับ…</string>
   <string name="xspace_resolver_activity_title">เลือกแอป</string>

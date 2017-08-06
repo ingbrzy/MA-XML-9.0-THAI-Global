@@ -822,8 +822,13 @@
   <string name="talkback_download">ดาวน์โหลด</string>
   <string name="talkback_favorite">ถูกใช้เพลงนี้</string>
   <string name="talkback_mode">รายการเพลงวนซ้ำ</string>
+  <string name="talkback_mode_repeat_all">List loop mode</string>
+  <string name="talkback_mode_repeat_current">Single loop mode</string>
+  <string name="talkback_mode_repeat_shuffle">Random play mode</string>
   <string name="talkback_more">เมนูเพิ่มเติม</string>
   <string name="talkback_next">เพลงถัดไป</string>
+  <string name="talkback_nowplaying_bar">Play Bar</string>
+  <string name="talkback_nowplaying_circle">Play Circle</string>
   <string name="talkback_play">เล่น/พัก</string>
   <string name="talkback_pre">เพลงก่อนหน้า</string>
   <string name="talkback_progress">แถบความคืบหน้า</string>

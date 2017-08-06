@@ -108,6 +108,7 @@
   <string name="pref_camera_autoexposure_entry_frameaverage">เฉลี่ยทั้งภาพ</string>
   <string name="pref_camera_autoexposure_entry_spotmetering">วัดแสงเฉพาะจุด</string>
   <string name="pref_camera_autoexposure_title">การวัดแสงอัตโนมัติ</string>
+  <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
   <string name="pref_camera_beautify_entry_high">สูง</string>
   <string name="pref_camera_beautify_entry_low">ต่ำ</string>
   <string name="pref_camera_beautify_entry_normal">ปานกลาง</string>
@@ -232,6 +233,7 @@
   <string name="pref_camera_picturesize_entry_4208x3120">13M(4208x3120)</string>
   <string name="pref_camera_picturesize_entry_fullscreen">เต็มหน้าจอ 16:9</string>
   <string name="pref_camera_picturesize_entry_standard">มาตรฐาน 4:3</string>
+  <string name="pref_camera_picturesize_entry_widescreen">@string/pref_camera_picturesize_entry_fullscreen</string>
   <string name="pref_camera_picturesize_title_simple_mode">อัตราส่วนภาพ</string>
   <string name="pref_camera_portrait_mode_entry_off">โหมดถ่ายภาพคนปิดอยู่</string>
   <string name="pref_camera_portrait_mode_entry_on">โหมดถ่ายภาพคนเปิดอยู่</string>
@@ -358,6 +360,8 @@
   <string name="pref_video_time_lapse_frame_interval_title">ช่วงเวลาภาพเคลื่อนไหวเร็ว</string>
   <string name="preparing_sd">กำลังตรวจสอบพื้นที่จัดเก็บข้อมูลภายในเครื่อง…</string>
   <string name="record_back_pressed_hint">แตะอีกครั้งเพื่อหยุดการบันทึก</string>
+  <string name="screen_on_proximity_sensor_hint">หากต้องการปิดการใช้งานนี้ กดปุ่มเพิ่มเสียงและปุ่มย้อนกลับพร้อมกัน</string>
+  <string name="screen_on_proximity_sensor_summary">กรุณาอย่าปิดบังพื้นที่หูฟัง</string>
   <string name="search_settings">การตั้งค่ากล้อง;คุณภาพ;คุณภาพรูปถ่าย;ตำแหน่งรูป;ตำแหน่งรูปภาพ;การตรวจจับใบหน้า;เสียงกล้อง</string>
   <string name="see_qrcode_detals">เรียกดูรายละเอียดรหัส QR</string>
   <string name="simple_mode_button_asd_flash">ปิดแฟลช</string>

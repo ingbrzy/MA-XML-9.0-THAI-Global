@@ -149,7 +149,9 @@
   <string name="mipay">ชำระ</string>
   <string name="mipay_balance">สมดุล</string>
   <string name="mipay_bank_card">บัตรธนาคาร</string>
+  <string name="mipay_identitiy_no">ไม่</string>
   <string name="mipay_identity">รหัสยืนยันตัวตน</string>
+  <string name="mipay_indentity_done">เสร็จสิ้น</string>
   <string name="mipay_others">อื่นๆ</string>
   <string name="mipay_transit_card">บัตรรถเมย์</string>
   <string name="multi_user_not_show_sync_activity_message_1">ดูเหมือนว่าคุณกำลังใช้พื้นที่ปกติ ของบัญชี Mi อยู่</string>

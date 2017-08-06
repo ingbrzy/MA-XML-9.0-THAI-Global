@@ -42,4 +42,10 @@
     <plurals name="dirty_blocklist_count">
         <item quantity="other">%d รายการบล็อก</item>
     </plurals>
+    <plurals name="micloud_main_resume_sync_hour">
+        <item quantity="other">ซิงค์ต่อหลังจาก %d ชั่วโมง</item>
+    </plurals>
+    <plurals name="micloud_main_resume_sync_min">
+        <item quantity="other">ซิงค์ต่อหลังจาก %d นาที</item>
+    </plurals>
 </resources>

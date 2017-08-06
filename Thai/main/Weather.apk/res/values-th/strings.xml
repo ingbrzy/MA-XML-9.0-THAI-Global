@@ -22,6 +22,7 @@
   <string name="activity_main_update_time">อัพเดทล่าสุด %1$s</string>
   <string name="activity_main_update_time_expire">ข้อมูลหมดอายุ</string>
   <string name="activity_main_update_time_right_now">เมื่อสักครู่</string>
+  <string name="activity_minute_rain_location_fail_msg">Locating failed, default location of map is Beijing</string>
   <string name="activity_weathermain_locationg">ค้นหาตำแหน่งพิกัด…</string>
   <string name="activity_weathermain_locationg_error">ค้นหาตำแหน่งพิกัดไม่พบ</string>
   <string name="add_city">เพิ่มตำแหน่งพิกัด</string>
@@ -73,6 +74,9 @@
   <string name="commercial">เชิงพาณิชย์</string>
   <string name="common_loading_text">รอสักครู่…</string>
   <string name="connect_fail">เชื่อมต่อเครือข่ายไม่ได้ กรุณาลองอีกครั้ง</string>
+  <string name="content_desc_activity_main_add_city">Add city</string>
+  <string name="content_desc_activity_main_add_city_manage">City management</string>
+  <string name="content_desc_activity_main_more_settings">More settings</string>
   <string name="daily_forcast_drawer_on_bottom">ซ่อน</string>
   <string name="daily_forcast_no_stable_direction">ลมโชย</string>
   <string name="daily_forcast_no_wind">0</string>
@@ -142,6 +146,7 @@
   <string name="international_details_uv_index_title">รังสียูวี</string>
   <string name="international_details_wind_connect">%1$s %2$s</string>
   <string name="international_details_wind_title">ลม</string>
+  <string name="it_is_going_to_rain">It is going to rain</string>
   <string name="locate_fail_detail_err">"ไม่สามารถระบุตำแหน่งอุปกรณ์ได้
 แตะที่หน้าจอเพื่อเพิ่มด้วยตนเองหรือเปลี่ยนตำแหน่ง"</string>
   <string name="location_tag">ค้นหาตำแหน่งพิกัด</string>
@@ -165,12 +170,15 @@
   <string name="more_details">รายละเอียดเพิ่มเติม</string>
   <string name="network_not_available">ไม่สามารถเชื่อมต่อกับเครือข่ายได้</string>
   <string name="network_unavailable">ไม่สามารถเชื่อมต่อเครือข่ายได้</string>
+  <string name="night_not_disturb_settings_summary">Will not receive all weather notices from 23:00 to 07:00 the next day after opening</string>
+  <string name="night_not_disturb_settings_title">Do not disturb at night</string>
   <string name="no_network_btn">ลองอีกครั้ง</string>
   <string name="no_vote_ratio">ป้องกัน %1$s%%</string>
   <string name="open">เปิด</string>
   <string name="open_browser">เปิดในเบราว์เซอร์</string>
   <string name="open_now">เปิด</string>
   <string name="other">อื่นๆ</string>
+  <string name="other_warning_settings">Other Warning Settings</string>
   <string name="particulate_matter_exceeded">สูง</string>
   <string name="particulate_matter_not_exceeded">ปกติ</string>
   <string name="particulate_matter_serious_exceeded">สูงมาก</string>
@@ -181,11 +189,14 @@
   <string name="precipitation_degree_two">小</string>
   <string name="pressure_connect">%1$s mb</string>
   <string name="radar_cloud_image_title">雷达降水图</string>
+  <string name="rainfall_settings_summary">Rainfall Settings</string>
+  <string name="rainfall_settings_title">Rainfall Warning</string>
   <string name="realtime_aqi_title">ดัชนีคุณภาพอากาศ</string>
   <string name="realtime_humidity_title">ความชื้นสัมพัทธ์</string>
   <string name="realtime_temperature_no_data">ไม่มี</string>
   <string name="realtime_wind_default_title">ลม</string>
   <string name="refresh_fail">ไม่สามารถเชื่อมเครือข่ายได้</string>
+  <string name="reminder_from_xiaomi_weather_app">Reminder From Xiaomi Weather APP</string>
   <string name="retry">ลองอีกครั้ง</string>
   <string name="set">การตั้งค่า</string>
   <string name="set_degree_centigrade">°C</string>
@@ -231,6 +242,9 @@
   <string name="unit">หน่วย</string>
   <string name="unit_temperature">หน่วยอุณหภูมิ</string>
   <string name="unit_wind">หน่วยความเร็วลม</string>
+  <string name="update_night_setting_summary_text">Will not update automatically 23:00-07:00 after closed</string>
+  <string name="update_night_setting_title_text">Update Automatically At Night</string>
+  <string name="update_setting_title_text">Update Settings</string>
   <string name="video_dialog_no_play"/>
   <string name="video_dialog_play"/>
   <string name="video_dialog_subtitle"/>
@@ -246,4 +260,5 @@
   <string name="xiaomi_weather_description_content">สภาพอากาศจะให้ข้อมูลสภาพอากาศที่แม่นยำแก่คุณ หากไม่มีแอปนี้แถบสถานะและวิดเจ็ตสภาพอากาศของหน้าจอหลักจะทำงานได้ไม่ถูกต้อง ตรวจสอบว่าคุณรับรู้และเข้าใจถึงคุณสมบัติเหล่านี้ก่อนที่คุณจะทำการถอนการติดตั้งแอป</string>
   <string name="xiaomi_weather_description_title">เกี่ยวกับสภาพอากาศ</string>
   <string name="yes_vote_ratio">สำหรับ %1$s%%</string>
+  <string name="your_location">Your location</string>
 </resources>

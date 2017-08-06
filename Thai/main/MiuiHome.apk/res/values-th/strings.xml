@@ -155,17 +155,22 @@
   <string name="lock_screen_success_message">ใช้เป็นภาพหน้าจอล็อกแล้ว</string>
   <string name="lock_screen_wallpaper">ภาพพื้นหลังหน้าจอล็อก</string>
   <string name="menu_add">เพิ่ม</string>
+  <string name="menu_auto_fill">Auto Fill</string>
   <string name="menu_back_desktop">กลับไปยังหน้าจอหลัก</string>
+  <string name="menu_cell_setting">Screen Setting</string>
   <string name="menu_customize">การตั้งค่า</string>
   <string name="menu_edit">แก้ไขหน้าจอหลัก</string>
   <string name="menu_exit_scene">ออกจาก Mi Space</string>
   <string name="menu_item_add_item">วางบนหน้าจอหลัก</string>
   <string name="menu_launcher_setting">การตั้งค่าชุดเรียกใช้ระบบ</string>
+  <string name="menu_lock">Lock Screen</string>
+  <string name="menu_more">เพิ่มเติม</string>
   <string name="menu_picktheme">เลือกธีม</string>
   <string name="menu_reset_scene">รีเซ็ตเป็นการจัดหน้าเป็นค่าเริ่มต้น</string>
   <string name="menu_search">ค้นหา</string>
   <string name="menu_settings">การตั้งค่า</string>
   <string name="menu_sort">เรียงแอป</string>
+  <string name="menu_trans_effect">Transition Effect</string>
   <string name="menu_wallpaper">ภาพพื้นหลัง</string>
   <string name="menu_workspace_preview">ตัวอย่างรายการหน้าจอหลัก</string>
   <string name="mi_wallpaper">ร้านค้าธีม MIUI</string>
@@ -266,4 +271,5 @@
   <string name="widget_favorite_contacts_style">เปลี่ยนขนาด</string>
   <string name="widget_gadget_player">เพลง</string>
   <string name="widget_global_search">ค้นหา</string>
+  <string name="widget_quick_function">ฟังค์ชั่นทางลัด</string>
 </resources>

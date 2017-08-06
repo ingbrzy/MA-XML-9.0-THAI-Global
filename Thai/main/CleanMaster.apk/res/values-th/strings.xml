@@ -270,10 +270,10 @@
   <string name="mainbtn_text_quick_cleanup_default">ทำความสะอาด</string>
   <string name="megabyteShort">MB</string>
   <string name="memeory_check_content">จำนวน %1$d แอป หน่วยความจำ %2$s</string>
-  <string name="menu_add_to_white_list">Add to exceptions</string>
-  <string name="menu_clear">Clear</string>
-  <string name="menu_install">Install this app</string>
-  <string name="menu_view">View in folder</string>
+  <string name="menu_add_to_white_list">เพิ่มไปยังรายการยกเว้น</string>
+  <string name="menu_clear">ล้าง</string>
+  <string name="menu_install">ติดตั้งแอปนี้</string>
+  <string name="menu_view">เรียกดูในโฟลเดอร์</string>
   <string name="month_day_format">dd MMM</string>
   <string name="msg_cleanup_db_update_checking">กำลังตรวจหาอัพเดท…</string>
   <string name="msg_cleanup_db_update_time_unknown">ไม่ทราบการอัพเดทล่าสุด</string>

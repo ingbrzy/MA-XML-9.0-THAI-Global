@@ -63,10 +63,13 @@
   <string name="keyguard_charging_info_tip_text4">ห้ามใช้อุปกรณ์ของคุณขณะที่กำลังชาร์จเพื่อหลีกเลี่ยงไม่ให้เครื่องร้อนเกิน</string>
   <string name="keyguard_charging_info_tip_text5">แบตจะชาร์จนานเมื่อมันร้อนกว่าปกติ</string>
   <string name="keyguard_charging_info_tip_text6">ปิดหน้าจอและปล่อยไว้สักครู่เพื่อให้มันเย็นลง</string>
+  <string name="keyguard_left_bankcard">Mi Pay</string>
+  <string name="keyguard_left_buscard">บัตรโดยสาร</string>
+  <string name="keyguard_left_remotecentral">รีโมท Mi</string>
+  <string name="keyguard_left_smarthome">Mi Home</string>
   <string name="keyguard_quick_charging_info_click_to_detail">กำลังชาร์จเร็ว แตะเพื่อเรียกดูรายละเอียด</string>
   <string name="keyguard_quickly_charging_info_charging_text">กำลังชาร์จเร็ว…</string>
   <string name="keyguard_torch_cover_text">กดปุ่มเปิด-ปิดเครื่องหากต้องการเปิดไฟฉายค้างไว้</string>
-  <string name="left_action_default_hint_text">รีโมท Mi</string>
   <string name="lock_screen_date">EEEE d MMMM</string>
   <string name="lock_screen_date_12">EEEE d MMMM</string>
   <string name="lock_wallpaper_enter">ป้อน</string>
@@ -82,8 +85,8 @@
  คุณสามารถลองปลดล็อกได้อีกครั้งในอีก %d วินาที"</string>
   <string name="lockscreen_failed_attempts_now_wiping">คุณปลดล็อกเครื่องโทรศัพท์ผิดพลาดเป็นจำนวน %d ครั้งแล้ว ระบบจะดำเนินการเรียกคืนค่าโรงงานของโทรศัพท์เครื่องนี้</string>
   <string name="miui_keyguard_ble_unlock_succeed_msg">ปลดล็อกโดยใช้อุปกรณ์บลูทูธ</string>
-  <string name="open_camera_hint_text">ปัดไปทางซ้ายเพื่อเปิด %s</string>
-  <string name="open_remote_center_hint_text">ปัดไปทางขวาเพื่อเปิด %s</string>
+  <string name="open_camera_hint_text">ปัดไปทางซ้ายเพื่อเปิดกล้อง</string>
+  <string name="open_remote_center_hint_text">Swipe right to open mi remote</string>
   <string name="phone_locked_foget_password">ลืมรหัสผ่าน?</string>
   <string name="phone_locked_foget_password_content">"คุณสามารถลงชื่อเข้าใช้ i.mi.com โดยใช้บัญชี Mi ซึ่งมีความเกี่ยวข้องกับอุปกรณ์นี้และล้างข้อมูลทั้งหมด          กระบวนการนี้จะลบข้อมูลส่วนบุคคลทั้งหมดที่เก็บไว้ในอุปกรณ์นี้ หลังจากนี้คุณสามารถรีบูตเครื่องและเรียกคืนรายชื่อ, ข้อความ, ภาพถ่าย, และรายการอื่น ๆ จาก Mi คลาวด์          
 

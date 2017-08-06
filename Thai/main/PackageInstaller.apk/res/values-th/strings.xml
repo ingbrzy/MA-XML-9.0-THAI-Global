@@ -118,6 +118,7 @@
   <string name="confirm_enable_oem_unlock_title">อนุญาตการปลดล็อก OEM ไหม</string>
   <string name="connected_via_passpoint">เชื่อมต่อผ่าน %1$s แล้ว</string>
   <string name="connected_via_wfa">เชื่อมต่อผ่านตัวช่วย Wi-Fi อยู่</string>
+  <string name="content_description_menu_button">เมนู</string>
   <string name="convert_to_fbe_warning">"แปลงพาร์ทิชันข้อมูลเป็นการเข้ารหัสแบบไฟล์
  !!คำเตือน!! การดำเนินการนี้จะลบข้อมูลทั้งหมดของคุณ
  คุณลักษณะนี้เป็นแบบอัลฟา และอาจทำงานไม่เป็นปกติ
@@ -150,6 +151,8 @@
   <string name="debug_networking_category">เครือข่าย</string>
   <string name="debug_view_attributes">เปิดใช้การตรวจสอบแอตทริบิวต์มุมมอง</string>
   <string name="default_permission_description">ดำเนินการทำงานที่ไม่รู้จัก</string>
+  <string name="dev_logpersist_clear_warning_message">เมื่อเราเลิกตรวจสอบด้วยตัวบันทึกถาวร เราต้องลบ Resident ของข้อมูลตัวบันทึกบนอุปกรณ์ของคุณ</string>
+  <string name="dev_logpersist_clear_warning_title">ล้างพื้นที่เก็บข้อมูลถาวรของตัวบันทึกไหม</string>
   <string name="dev_settings_warning_message">การตั้งค่านี้มีไว้เพื่อการพัฒนาเท่านั้น จึงอาจทำให้อุปกรณ์และแอปพลิเคชันที่มีอยู่เสียหายหรือทำงานผิดพลาดได้</string>
   <string name="dev_settings_warning_title">อนุญาตการตั้งค่าสำหรับการพัฒนาหรือไม่</string>
   <string name="development_settings_enable">เปิดใช้ตัวเลือกสำหรับนักพัฒนาซอฟต์แวร์</string>
@@ -259,7 +262,6 @@
   <string name="lb_search_bar_hint_with_title">ค้นหา %1$s</string>
   <string name="lb_search_bar_hint_with_title_speech">พูดเพื่อทำการค้นหาใน %1$s</string>
   <string name="lb_time_separator">:</string>
-  <string name="legacy_dhcp_client_summary">ใช้ไคลเอ็นต์ DHCP จาก Lollipop แทนไคลเอ็นต์ DHCP ใหม่บน Android</string>
   <string name="loading">กำลังโหลด…</string>
   <string name="local_backup_password_summary_change">แตะเพื่อเปลี่ยนแปลงหรือลบรหัสผ่านสำหรับการสำรองข้อมูลเต็มรูปแบบในเดสก์ท็อป</string>
   <string name="local_backup_password_summary_none">การสำรองข้อมูลเต็มรูปแบบในเดสก์ท็อป ไม่ได้รับการป้องกันในขณะนี้</string>
@@ -341,10 +343,13 @@
   <string name="screen_zoom_summary_large">ใหญ่</string>
   <string name="screen_zoom_summary_small">เล็ก</string>
   <string name="screen_zoom_summary_very_large">ใหญ่ขึ้น</string>
+  <string name="search_menu_title">ค้นหา</string>
   <string name="security_settings_desc">อนุญาตให้แอปพลิเคชันนี้:</string>
   <string name="select_application">เลือกแอปพลิเคชัน</string>
   <string name="select_logd_size_dialog_title">เลือกขนาด Logger ต่อบัฟเฟอร์ไฟล์บันทึก</string>
   <string name="select_logd_size_title">ขนาดบัฟเฟอร์ของ Logger</string>
+  <string name="select_logpersist_dialog_title">เลือกบัฟเฟอร์บันทึกที่จะจัดเก็บอย่างถาวรบนอุปกรณ์</string>
+  <string name="select_logpersist_title">เก็บข้อมูลตัวบันทึกอย่างถาวรบนอุปกรณ์</string>
   <string name="select_usb_configuration_dialog_title">เลือกการกำหนดค่า USB</string>
   <string name="select_usb_configuration_title">เลือกการกำหนดค่า USB</string>
   <string name="select_webview_provider_dialog_title">ตั้งค่าการใช้งาน WebView</string>
@@ -353,8 +358,6 @@
   <string name="settings">การตั้งค่า</string>
   <string name="show_all_anrs">แสดง ANR ทั้งหมด</string>
   <string name="show_all_anrs_summary">แสดงหน้าต่างแอปไม่ตอบสนอง สำหรับแอปพื้นหลัง</string>
-  <string name="show_cpu_usage">แสดงการใช้ CPU</string>
-  <string name="show_cpu_usage_summary">การวางซ้อนหน้าจอที่แสดงการใช้ CPU ในปัจจุบัน</string>
   <string name="show_hw_layers_updates">แสดงอัปเดตเลเยอร์ฮาร์ดแวร์</string>
   <string name="show_hw_layers_updates_summary">เลเยอร์ฮาร์ดแวร์กะพริบเป็นสีเขียว เมื่อมีการอัปเดต</string>
   <string name="show_hw_screen_updates">แสดงการอัปเดตมุมมอง GPU</string>
@@ -448,7 +451,8 @@
   <string name="wifi_display_certification">การรับรองการแสดงผลแบบไร้สาย</string>
   <string name="wifi_display_certification_summary">แสดงตัวเลือกสำหรับการรับรองการแสดงผล แบบไร้สาย</string>
   <string name="wifi_fail_to_scan">ไม่สามารถสแกนหาเครือข่าย</string>
-  <string name="wifi_no_internet">ไม่พบการเข้าถึงอินเทอร์เน็ต ระบบจะไม่เชื่อมต่อใหม่โดยอัตโนมัติ</string>
+  <string name="wifi_no_internet">ไม่สามารถเข้าถึงอินเทอร์เน็ต</string>
+  <string name="wifi_no_internet_no_reconnect">ไม่พบการเข้าถึงอินเทอร์เน็ต ระบบจะไม่เชื่อมต่อใหม่โดยอัตโนมัติ</string>
   <string name="wifi_not_in_range">ไม่อยู่ในพื้นที่ให้บริการ</string>
   <string name="wifi_remembered">บันทึกแล้ว</string>
   <string name="wifi_security_none">ไม่มี</string>

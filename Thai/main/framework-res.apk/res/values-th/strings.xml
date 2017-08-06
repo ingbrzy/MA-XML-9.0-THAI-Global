@@ -82,7 +82,7 @@
   <string name="android_upgrading_complete">เสร็จสิ้นการบูต</string>
   <string name="android_upgrading_fstrim">กำลังเพิ่มประสิทธิภาพพื้นที่จัดเก็บข้อมูล</string>
   <string name="android_upgrading_notification_body">แอปบางแอปอาจทำงานไม่ถูกต้องจนกว่าจะอัปเกรดเสร็จ</string>
-  <string name="android_upgrading_notification_title">Android กำลังอัปเกรด</string>
+  <string name="android_upgrading_notification_title">กำลังทำการอัปเดต Android ให้เสร็จสิ้น…</string>
   <string name="android_upgrading_starting_apps">กำลังเริ่มต้นแอปพลิเคชัน</string>
   <string name="android_upgrading_title">กำลังอัปเกรด Android ...</string>
   <string name="anr_activity_application">"%2$s ไม่ตอบสนอง
@@ -100,6 +100,7 @@
   <string name="app_not_found">ไม่พบแอปพลิเคชันสำหรับการทำงานนี้</string>
   <string name="app_running_notification_text">แตะเพื่อดูข้อมูลเพิ่มเติมหรือเพื่อหยุดแอป</string>
   <string name="app_running_notification_title">%1$s กำลังทำงาน</string>
+  <string name="app_upgrading_toast">กำลังอัปเกรด %1$s…</string>
   <string name="audit_safemode_notification">รีเซ็ตเป็นค่าเริ่มต้นเพื่อใช้อุปกรณ์นี้โดยไร้ข้อจำกัด</string>
   <string name="audit_safemode_notification_details">แตะเพื่อเรียนรู้เพิ่มเติม</string>
   <string name="autofill_address_name_separator"/>
@@ -185,6 +186,7 @@
   <string name="close_button_text">ปิด</string>
   <string name="common_name">ชื่อทั่วไป:</string>
   <string name="condition_provider_service_binding_label">ผู้เสนอเงื่อนไข</string>
+  <string name="conference_call">การประชุมสาย</string>
   <string name="configure_input_methods">เลือกแป้นพิมพ์</string>
   <string name="contentServiceSync">ซิงค์</string>
   <string name="contentServiceSyncNotificationTitle">ซิงค์</string>
@@ -244,6 +246,12 @@
   <string name="delete">ลบ</string>
   <string name="deleteText">ลบ</string>
   <string name="deleted_key">ลบ %1$s แล้ว</string>
+  <string name="demo_restarting_message">กำลังรีเซ็ตอุปกรณ์…</string>
+  <string name="demo_starting_message">กำลังเริ่มการสาธิต…</string>
+  <string name="demo_user_inactivity_timeout_countdown">การเปลี่ยนแปลงของคุณจะหายไปและการสาธิตจะเริ่มต้นอีกครั้งใน %1$s วินาที…</string>
+  <string name="demo_user_inactivity_timeout_left_button">ยกเลิก</string>
+  <string name="demo_user_inactivity_timeout_right_button">รีเซ็ตทันที</string>
+  <string name="demo_user_inactivity_timeout_title">รีเซ็ตอุปกรณ์ไหม</string>
   <string name="deny">ปฏิเสธ</string>
   <string name="description_target_unlock_tablet">กวาดเพื่อปลดล็อก</string>
   <string name="dial_number_using">"หมุนหมายเลข 
@@ -376,6 +384,7 @@
   <string name="gigabyteShort">GB</string>
   <string name="global_action_assist">ผู้ช่วย</string>
   <string name="global_action_bug_report">รายงานข้อบกพร่อง</string>
+  <string name="global_action_emergency">เหตุฉุกเฉิน</string>
   <string name="global_action_lock">ล็อกหน้าจอ</string>
   <string name="global_action_lockdown">ล็อกเลย</string>
   <string name="global_action_power_off">ปิดเครื่อง</string>
@@ -625,6 +634,7 @@
   <string name="lockscreen_sim_unlock_progress_dialog_message">กำลังปลดล็อกซิมการ์ด…</string>
   <string name="lockscreen_sound_off_label">ปิดเสียง</string>
   <string name="lockscreen_sound_on_label">เปิดเสียง</string>
+  <string name="lockscreen_storage_locked">ปลดล็อกคุณลักษณะและข้อมูลทั้งหมด</string>
   <string name="lockscreen_too_many_failed_attempts_countdown">ลองใหม่อีกครั้งใน%d วินาที</string>
   <string name="lockscreen_too_many_failed_attempts_dialog_message" formatted="false">"คุณวาดรูปแบบการปลดล็อกไม่ถูกต้องไป %d ครั้งแล้ว 
 
@@ -766,6 +776,10 @@
   <string name="negative_duration">−%1$s</string>
   <string name="network_available_sign_in">ลงชื่อเข้าใช้เครือข่าย</string>
   <string name="network_available_sign_in_detailed">%1$s</string>
+  <string name="network_switch_metered">เปลี่ยนเป็น %1$s</string>
+  <string name="network_switch_metered_detail">อุปกรณ์จะใช้ %1$s เมื่อ %2$s ไม่สามารถเข้าถึงอินเทอร์เน็ต อาจมีค่าบริการ</string>
+  <string name="network_switch_metered_toast">เปลี่ยนจาก %1$s เป็น %2$s</string>
+  <string name="network_switch_type_name_unknown">ประเภทเครือข่ายที่ไม่รู้จัก</string>
   <string name="new_app_action">เริ่มต้น %1$s</string>
   <string name="new_app_description">หยุดการทำงานของแอปพลิเคชันเก่าโดยไม่บันทึก</string>
   <string name="new_sms_notification_content">เปิดแอป SMS เพื่อดู</string>
@@ -1117,6 +1131,7 @@
   <string name="reboot_to_update_title">การอัปเดตระบบ Android</string>
   <string name="recent_tasks_title">เมื่อเร็วๆ นี้</string>
   <string name="redo">ทำซ้ำ</string>
+  <string name="region_picker_section_all">ภูมิภาคทั้งหมด</string>
   <string name="relationTypeAssistant">ผู้ช่วย</string>
   <string name="relationTypeBrother">พี่ชาย-น้องชาย</string>
   <string name="relationTypeChild">บุตร</string>
@@ -1136,6 +1151,8 @@
   <string name="replace">แทนที่...</string>
   <string name="report">รายงาน</string>
   <string name="reset">รีเซ็ต</string>
+  <string name="reset_retail_demo_mode_text">แตะเพื่อรีเซ็ตอุปกรณ์</string>
+  <string name="reset_retail_demo_mode_title">รีเซ็ตอุปกรณ์ไหม</string>
   <string name="restr_pin_confirm_pin">ยืนยัน PIN ใหม่</string>
   <string name="restr_pin_create_pin">สร้าง PIN สำหรับการแก้ไขข้อจำกัด</string>
   <string name="restr_pin_enter_admin_pin">ป้อน PIN ของผู้ดูแลระบบ</string>
@@ -1373,6 +1390,7 @@
   <string name="vpn_lockdown_config">แตะเพื่อกำหนดค่า</string>
   <string name="vpn_lockdown_connected">เชื่อมต่อ VPN แบบเปิดตลอดเวลาแล้ว</string>
   <string name="vpn_lockdown_connecting">กำลังเชื่อมต่อ VPN แบบเปิดตลอดเวลา…</string>
+  <string name="vpn_lockdown_disconnected">ยกเลิกการเชื่อมต่อ VPN แบบเปิดตลอดเวลาแล้ว</string>
   <string name="vpn_lockdown_error">ข้อผิดพลาดของ VPN แบบเปิดตลอดเวลา</string>
   <string name="vpn_text">แตะเพื่อจัดการเครือข่าย</string>
   <string name="vpn_text_long">เชื่อมต่อกับ %s แตะเพื่อจัดการเครือข่าย</string>

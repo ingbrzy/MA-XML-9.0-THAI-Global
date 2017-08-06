@@ -32,6 +32,7 @@
 ตัวประหยัดแบตเตอรี่จะเลือกแอปที่สำคัญเอาไว้"</string>
   <string name="config_suggest_suffix_title">ตัวประหยัดแบตเตอรี่ MIUI (แนะนำ)</string>
   <string name="config_suggest_title">ตัวประหยัดแบตเตอรี่ MIUI</string>
+  <string name="confirm">Confirm</string>
   <string name="disable_hide_mode">ปิดใช้งานตัวประหยัดแบตเตอรี่ MIUI</string>
   <string name="disable_hide_mode_warning">ปิดใช้งานตัวประหยัดแบตเตอรี่ MIUI อาจทำอุปกรณ์ใช้พลังงานมากขึ้น</string>
   <string name="disabled">ปิด</string>
@@ -50,6 +51,7 @@
   <string name="hide_system_app">ซ่อนแอประบบ</string>
   <string name="high">ประสิทธิภาพสูง</string>
   <string name="hints_loading_text">รอสักครู่…</string>
+  <string name="important_warning">Warning</string>
   <string name="invalid_size_value">ไม่ทราบขนาดไฟล์</string>
   <string name="location_disable_description">แอปที่ทำงานบนพื้นหลังสามารถเข้าถึงตำแหน่งพิกัดได้เพียงชั่วระยะเวลาจำกัด โดยจะไม่ได้รับข้อมูลตำแหน่งพิกัดแบบตลอดเวลา</string>
   <string name="location_disable_title">จำกัด</string>
@@ -174,14 +176,13 @@
   <string name="set_lcd_mode">โหมดใช้หน้าจอ</string>
   <string name="settings_safetylegal_activity_loading">รอสักครู่…</string>
   <string name="show_system_app">แสดงแอประบบ</string>
-  <string name="sleep_config_enhance_description">ปรับปรุงการใช้พลังงานเครื่องสแตนด์บายในเวลากลางคืน</string>
+  <string name="sleep_config_enhance_description">predict user sleep time by machine learning, whithin the sleep time, we may clear some background apps, restrict to use NFC, KeyGauard Notification, Sync, Bluetooth, GPS, mobile and wifi data, etc.</string>
   <string name="sleep_config_enhance_title">โหมดพักหน้าจอ</string>
   <string name="still">รูปภาพ</string>
   <string name="ui">มาตรฐาน</string>
   <string name="user_define_mode">ชื่อ</string>
   <string name="vip_feedback">ข้อเสนอแนะ VIP</string>
-  <string name="vip_feedback_apply">ร้องขอข้อเสนอแนะ VIP</string>
-  <string name="vip_feedback_apply_msg">กรุณาติดต่อ vip-feedback-system@xiaomi.com เพื่อร้องขอข้อเสนอแนะ Vip</string>
   <string name="vip_feedback_enable">เปิดใช้งานข้อเสนอแนะ VIP อัตโนมัติ</string>
   <string name="warm_configure">Warm control configure</string>
+  <string name="warm_performance_tip">In high load scenarios, the cell phone temperature is higher than the default mode</string>
 </resources>

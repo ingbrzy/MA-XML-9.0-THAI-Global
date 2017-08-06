@@ -392,6 +392,7 @@
   <string name="contactUpdateSuccess">แก้ไขรายชื่อในซิมการ์ดเรียบร้อยแล้ว</string>
   <string name="contactdeleteFailed">ไม่สามารถลบรายชื่อจากซิมการ์ดได้</string>
   <string name="contactdeleteSuccess">ลบรายชื่อในซิมการ์ดเรียบร้อยแล้ว</string>
+  <string name="content_description_menu_button">เมนู</string>
   <string name="convert_to_fbe_warning">"แปลงพาร์ทิชันข้อมูลเป็นการเข้ารหัสแบบไฟล์
  !!คำเตือน!! การดำเนินการนี้จะลบข้อมูลทั้งหมดของคุณ
  คุณลักษณะนี้เป็นแบบอัลฟา และอาจทำงานไม่เป็นปกติ
@@ -431,6 +432,9 @@
   <string name="debug_view_attributes">เปิดใช้การตรวจสอบแอตทริบิวต์มุมมอง</string>
   <string name="default_notification_description">เสียงเริ่มต้น (%1$s)</string>
   <string name="default_preference_summary">&lt;ไม่ได้ตั้งค่า&gt;</string>
+  <string name="default_preference_summary_domain_address">&lt;ไม่ได้ตั้งค่า&gt;</string>
+  <string name="default_preference_summary_password">&lt;ไม่ได้ตั้งค่า&gt;</string>
+  <string name="default_preference_summary_username">&lt;ไม่ได้ตั้งค่า&gt;</string>
   <string name="default_sim_setting">ซิมการ์ดเริ่มต้น:</string>
   <string name="delete">ลบ</string>
   <string name="deleteAllSimEntries">ลบผู้ติดต่อทั้งหมดในซิมการ์ด</string>
@@ -455,6 +459,8 @@
   <string name="description_image_button_two">สอง</string>
   <string name="description_image_button_zero">ศูนย์</string>
   <string name="description_voicemail_button">ข้อความเสียง</string>
+  <string name="dev_logpersist_clear_warning_message">เมื่อเราเลิกตรวจสอบด้วยตัวบันทึกถาวร เราต้องลบ Resident ของข้อมูลตัวบันทึกบนอุปกรณ์ของคุณ</string>
+  <string name="dev_logpersist_clear_warning_title">ล้างพื้นที่เก็บข้อมูลถาวรของตัวบันทึกไหม</string>
   <string name="dev_settings_warning_message">การตั้งค่านี้มีไว้เพื่อการพัฒนาเท่านั้น จึงอาจทำให้อุปกรณ์และแอปพลิเคชันที่มีอยู่เสียหายหรือทำงานผิดพลาดได้</string>
   <string name="dev_settings_warning_title">อนุญาตการตั้งค่าสำหรับการพัฒนาหรือไม่</string>
   <string name="development_settings_enable">เปิดใช้ตัวเลือกสำหรับนักพัฒนาซอฟต์แวร์</string>
@@ -759,7 +765,6 @@
   <string name="lafs_enable">ตารางเที่ยวบินในพื้นที่เปิดใช้งาน</string>
   <string name="launch_defaults_none">ไม่ได้ตั้งค่าเริ่มต้น</string>
   <string name="launch_defaults_some">ตั้งค่าเริ่มต้นไว้บางส่วน</string>
-  <string name="legacy_dhcp_client_summary">ใช้ไคลเอ็นต์ DHCP จาก Lollipop แทนไคลเอ็นต์ DHCP ใหม่บน Android</string>
   <string name="list_language_dtitle">ภาษา</string>
   <string name="list_language_summary">เลือกภาษาข่าว</string>
   <string name="list_language_title">ภาษา</string>
@@ -1313,9 +1318,42 @@
   <string name="screen_zoom_summary_large">ใหญ่</string>
   <string name="screen_zoom_summary_small">เล็ก</string>
   <string name="screen_zoom_summary_very_large">ใหญ่ขึ้น</string>
+  <string name="search_answer_state_setting_title">@string/answer_state_setting_title</string>
   <string name="search_antispam_setting">รายการบล็อก</string>
   <string name="search_app_name">โทรศัพท์;บันทึกการโทร;การโอนสาย;โอนสาย;กำลังรอสาย;รายการบล็อก;รหัสประเทศ;รหัสพื้นที่;รหัสประเทศ;บันทึกการโทร;บันทึกการโทร;แป้นโทร;โทร;โทร;โทรศัพท์;VoIP;VoLTE;สายที่ไม่ได้รับ;สายที่ไม่ได้รับ;SIP;T9;โทรศัพท์บนเครือข่าย;FDN</string>
+  <string name="search_auto_answer_pref_title">@string/auto_answer_pref_title</string>
+  <string name="search_auto_retry_mode_title">@string/auto_retry_mode_title</string>
+  <string name="search_autoip_phone">@string/autoip_phone</string>
+  <string name="search_call_background_setting">@string/call_background_setting</string>
+  <string name="search_call_forwarding_settings">@string/call_forwarding_settings</string>
+  <string name="search_call_record_auto_title">@string/call_record_auto_title</string>
+  <string name="search_call_record_setting">@string/call_record_setting</string>
+  <string name="search_call_recording_notification_toggle_title">@string/call_recording_notification_toggle_title</string>
+  <string name="search_call_waiting_title">@string/call_waiting_title</string>
+  <string name="search_call_waiting_tone_title">@string/call_waiting_tone_title</string>
+  <string name="search_caller_id_title">@string/caller_id_title</string>
+  <string name="search_cloud_antispam_title">@string/cloud_antispam_title</string>
+  <string name="search_connect_disconnect_vibrate_title">@string/connect_disconnect_vibrate_title</string>
+  <string name="search_crescendo_ringer_title">@string/crescendo_ringer_title</string>
+  <string name="search_dtmf_tones_title">@string/dtmf_tones_title</string>
+  <string name="search_enable_antispam_strange_title">@string/enable_antispam_strange_title</string>
+  <string name="search_enable_proximity_title">@string/enable_proximity_title</string>
+  <string name="search_fdn">@string/fdn</string>
+  <string name="search_flash_when_ring_title">@string/flash_when_ring_title</string>
+  <string name="search_handon_ringer_title">@string/handon_ringer_title</string>
+  <string name="search_missed_call_notify_times_title">@string/missed_call_notify_times_title</string>
   <string name="search_networks">ค้นหาเครือข่าย</string>
+  <string name="search_preference_dial_pad_touch_tone_title">@string/preference_dial_pad_touch_tone_title</string>
+  <string name="search_preference_telocation_title">@string/preference_telocation_title</string>
+  <string name="search_reject_via_sms">@string/reject_via_sms</string>
+  <string name="search_sip_settings">@string/sip_settings</string>
+  <string name="search_t9_indexing_method_title">@string/t9_indexing_method_title</string>
+  <string name="search_telocation_auto_country_code">@string/telocation_auto_country_code</string>
+  <string name="search_telocation_contacts_countrycode">@string/telocation_contacts_countrycode</string>
+  <string name="search_telocation_custom_location_title">@string/telocation_custom_location_title</string>
+  <string name="search_telocation_enable_title">@string/telocation_enable_title</string>
+  <string name="search_turnover_mute_title">@string/turnover_mute_title</string>
+  <string name="search_voicemail_settings">@string/voicemail_settings</string>
   <string name="selectContact">เลือกรายชื่อผู้ติดต่อ</string>
   <string name="select_application">เลือกแอปพลิเคชัน</string>
   <string name="select_automatically">เลือกอัตโนมัติ</string>
@@ -1323,6 +1361,8 @@
   <string name="select_continue">ดำเนินการต่อ</string>
   <string name="select_logd_size_dialog_title">เลือกขนาด Logger ต่อบัฟเฟอร์ไฟล์บันทึก</string>
   <string name="select_logd_size_title">ขนาดบัฟเฟอร์ของ Logger</string>
+  <string name="select_logpersist_dialog_title">เลือกบัฟเฟอร์บันทึกที่จะจัดเก็บอย่างถาวรบนอุปกรณ์</string>
+  <string name="select_logpersist_title">เก็บข้อมูลตัวบันทึกอย่างถาวรบนอุปกรณ์</string>
   <string name="select_ok">ตกลง</string>
   <string name="select_one_sim_title">ใช้ได้เฉพาะซิม %1$d เท่านั้น</string>
   <string name="select_sim_hint">ไม่สามารถใช้ซิม %2$d ขณะที่ซิม %1$d ใช้งานอยู่</string>
@@ -1345,8 +1385,6 @@
   <string name="settings_label">การตั้งค่าเครือข่าย</string>
   <string name="show_all_anrs">แสดง ANR ทั้งหมด</string>
   <string name="show_all_anrs_summary">แสดงหน้าต่างแอปไม่ตอบสนอง สำหรับแอปพื้นหลัง</string>
-  <string name="show_cpu_usage">แสดงการใช้ CPU</string>
-  <string name="show_cpu_usage_summary">การวางซ้อนหน้าจอที่แสดงการใช้ CPU ในปัจจุบัน</string>
   <string name="show_hw_layers_updates">แสดงอัปเดตเลเยอร์ฮาร์ดแวร์</string>
   <string name="show_hw_layers_updates_summary">เลเยอร์ฮาร์ดแวร์กะพริบเป็นสีเขียว เมื่อมีการอัปเดต</string>
   <string name="show_hw_screen_updates">แสดงการอัปเดตมุมมอง GPU</string>
@@ -1656,7 +1694,8 @@
   <string name="wifi_display_certification">การรับรองการแสดงผลแบบไร้สาย</string>
   <string name="wifi_display_certification_summary">แสดงตัวเลือกสำหรับการรับรองการแสดงผล แบบไร้สาย</string>
   <string name="wifi_fail_to_scan">ไม่สามารถสแกนหาเครือข่าย</string>
-  <string name="wifi_no_internet">ไม่พบการเข้าถึงอินเทอร์เน็ต ระบบจะไม่เชื่อมต่อใหม่โดยอัตโนมัติ</string>
+  <string name="wifi_no_internet">ไม่สามารถเข้าถึงอินเทอร์เน็ต</string>
+  <string name="wifi_no_internet_no_reconnect">ไม่พบการเข้าถึงอินเทอร์เน็ต ระบบจะไม่เชื่อมต่อใหม่โดยอัตโนมัติ</string>
   <string name="wifi_not_in_range">ไม่อยู่ในพื้นที่ให้บริการ</string>
   <string name="wifi_only">Wi-Fi เท่านั้น</string>
   <string name="wifi_pref_none">ไม่ได้ตั้งค่า</string>

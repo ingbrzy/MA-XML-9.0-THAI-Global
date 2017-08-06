@@ -116,8 +116,10 @@
   <string name="my_gifts_received">ได้รับมา</string>
   <string name="no_data">ไม่สามารถเชื่อมต่อกับเครือข่ายได้</string>
   <string name="online_no_network">ไม่สามารถเชื่อมต่อกับเครือข่ายได้</string>
+  <string name="online_precust_dreams">Dreams</string>
+  <string name="online_precust_midnight">Midnight</string>
   <string name="online_search_hint">ค้นหาจากแหล่งข้อมูลออนไลน์</string>
-  <string name="present_local_themes">ดาวน์โหลดไว้</string>
+  <string name="present_local_themes">My resources</string>
   <string name="present_online_themes">รับธีมเพิ่มเติมได้ฟรี</string>
   <string name="provision_default_theme_title">ค่าเริ่มต้น</string>
   <string name="provision_loading_tips">รอสักครู่…</string>

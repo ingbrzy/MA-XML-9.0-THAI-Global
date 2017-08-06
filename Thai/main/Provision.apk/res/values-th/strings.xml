@@ -20,6 +20,7 @@
   <string name="enable_accessibility_dialog_message">แตะสองนิ้วบนหน้าจอค้างไว้ 10 วิ เพื่อเปิด TalkBack, TalkBack ให้การตอบรับด้วยเสียงสำหรับผู้ที่มีความบกพร่องทางสายตา ถ้าคุณเปิดใช้งานโดยไม่ได้ตั้งใจให้แตะปุ่มยกเลิกแล้วแตะสองครั้งที่หน้าจอ</string>
   <string name="enable_accessibility_dialog_negative_btn">ยกเลิก</string>
   <string name="enable_accessibility_dialog_positive_btn">ตกลก</string>
+  <string name="fail_to_generate_qr_code">Fail to generate QR code, please reenter this page.</string>
   <string name="ime_privacy_policy">นโยบายความเป็นส่วนตัวสำหรับแป้นพิมพ์ที่เลือก</string>
   <string name="ime_privacy_policy_no_network">ไม่พบการเชื่อมต่อเครือข่าย กรุณาอ่านนโยบายความเป็นส่วนตัวของแป้นพิมพ์นี้ได้จาก %s</string>
   <string name="input_method_category">กรุณาเลือกแป้นพิมพ์ที่คุณต้องการใช้เป็นค่าเริ่มต้นในการเขียนข้อความ, บันทึกย่อหรืออื่นๆ คุณสามารถเลือกติดตั้งแป้นพิมพ์ภายนอกเพิ่มได้ในภายหลัง</string>
@@ -38,8 +39,6 @@
   <string name="other_settings_auto_update_summary">MIUI จะเลือกเวลาที่ดีที่สุดในการติดตั้งการอัปเดต</string>
   <string name="other_settings_location">ตำแหน่งพิกัด</string>
   <string name="other_settings_location_summary">อนุญาตให้แอปเข้าถึงตำแหน่งพิกัดของคุณ</string>
-  <string name="other_settings_mifg_online_content">ภาพพื้นหลังรายวัน</string>
-  <string name="other_settings_mifg_online_content_summary">อนุญาตให้ภาพพื้นหลังรายวันเชื่อมต่ออินเตอร์เน็ตในการดาวน์โหลดรูปภาพใหม่</string>
   <string name="other_settings_upload_debug_log_summary">ข้อมูลที่ทางเรารวบรวมจะใช้ในการระบุและวิเคราะห์ปัญหาในระบบ ซึ่งอาจจะประกอบด้วยข้อมูลส่วนบุคคล โดยจะไม่มีการนำข้อมูลมาใช้เพื่อระบุตัวตนของคุณ</string>
   <string name="other_settings_upload_debug_log_title">ส่งข้อมูลการวินิจฉัยโดยอัตโนมัติ</string>
   <string name="other_settings_user_experience">โปรแกรมประสบการณ์ผู้ใช้</string>
@@ -63,8 +62,10 @@
   <string name="terms_of_use">ข้อตกลงและเงื่อนไข</string>
   <string name="terms_of_use_label">"Your privacy is very important to us. Please read our Terms of Service and Privacy Policy to understand what information we collect, how we use it, and what choices are available to you.
 
-You must agree to our Terms of Service and Privacy Policy before you can use MIUI. During the activation, Mi services, Mi SIM activation services, Mi Cloud, Find device, Home screen modules, Game Service, MAB and MSA system components, Direct Service, Quick Card, statistic, and Mi Account components will connect to the internet and acquire your location."</string>
+You must agree to our Terms of Service and Privacy Policy before you can use MIUI. During the activation, Mi services, Mi SIM activation services, Mi Cloud, Find device, Home screen modules, Game Service, MAB and MSA system components, Direct Service, Quick Card, statistic, MiSmartCards, and Mi Account components will connect to the internet and acquire your location."</string>
   <string name="title_fingerprint">เพิ่มลายนิ้วมือ</string>
+  <string name="two_dimensional_code_scan">QR code scan</string>
   <string name="user_agreement">ข้อตกลงและเงื่อนไขการใช้งาน</string>
+  <string name="user_strayed_warning">The page is designed for factory test, Click back button to exit.</string>
   <string name="welcome">ยินดีต้อนรับ</string>
 </resources>

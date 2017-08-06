@@ -191,14 +191,13 @@
   <string name="micloud_detail_lastest_with_off">ซิงค์แล้ว</string>
   <string name="micloud_detail_need_charge_or_sleep">ชาร์จและปิดใช้งานหน้าจอเพื่อซิงค์</string>
   <string name="micloud_detail_not_sync">%d กำลังรอซิงค์</string>
+  <string name="micloud_detail_not_syncable">Not syncable</string>
   <string name="micloud_detail_not_synced">ไม่ได้ซิงค์</string>
   <string name="micloud_detail_ok">ตกลง</string>
   <string name="micloud_detail_pause">พักการซิงค์ไว้</string>
   <string name="micloud_detail_pending">กำลังรอ</string>
   <string name="micloud_detail_preference_sync_items">รายการ</string>
   <string name="micloud_detail_query_error">ไม่สามารถขอรับข้อมูลความคืบหน้าการซิงค์ได้</string>
-  <string name="micloud_detail_query_error_detail">ไม่สามารถยืนยันได้ว่าบริการบางอย่างได้ซิงค์เรียบร้อยแล้ว คุณสามารถติดต่อกับทางผู้พัฒนาผ่านแอปข้อเสนอแนะได้</string>
-  <string name="micloud_detail_query_error_title">ไม่สามารถขอรับข้อมูลความคืบหน้าการซิงค์ได้</string>
   <string name="micloud_detail_success">ซิงค์แล้ว</string>
   <string name="micloud_detail_sync_now">ซิงค์ตอนนี้</string>
   <string name="micloud_detail_syncing">กำลังซิงค์</string>
@@ -245,24 +244,33 @@
   <string name="micloud_full_influence_title">เมื่อ Mi คลาวด์ของคุณเต็ม…</string>
   <string name="micloud_main_battery_low">แบตเหลือไม่เพียงพอที่จะซิงค์</string>
   <string name="micloud_main_battery_message">เสียบชาร์จเพื่อซิงค์</string>
+  <string name="micloud_main_button_activate">เปิดใช้งาน</string>
+  <string name="micloud_main_button_authorize">อนุญาต</string>
+  <string name="micloud_main_button_set_internet">Setting</string>
   <string name="micloud_main_cancel_sync">ยกเลิกการซิงค์</string>
   <string name="micloud_main_clear_now">ล้าง</string>
   <string name="micloud_main_detail">ดูรายละเอียด</string>
+  <string name="micloud_main_error_activated_fail">โปรดเปิดใช้งานซิมการ์ด</string>
+  <string name="micloud_main_error_network_disallowed">Please ensure the permission of accessing Internet.</string>
+  <string name="micloud_main_error_permission_limit">Please authorize access database permission for micloud.</string>
   <string name="micloud_main_last_sync_time">ซิงค์ล่าสุด %s</string>
+  <string name="micloud_main_master_sync_on">ซิงค์เปิดอยู่</string>
   <string name="micloud_main_memory_low_message">ลบบางรายการที่คุณได้เก็บไว้ในคลาวด์เพื่อทำการซิงค์</string>
   <string name="micloud_main_memory_low_title">ที่จัดเก็บข้อมูลภายในของโทรศัพท์ใกล้จะเต็มแล้ว</string>
+  <string name="micloud_main_message_master_sync_off">Auto sync setting is in notification bar.</string>
   <string name="micloud_main_message_not_synced">มี %s ข้อมูลยังไม่ได้ซิงค์</string>
-  <string name="micloud_main_multi_user_error_message">"คุณลงชื่อเข้าใช้ด้วยบัญชีเดียวกันกับพื้นที่ปกติ เพื่อป้องกันการรั่วไหลของข้อมูล Mi คลาวด์จะถูกระงับใช้ชั่วคราวหากคุณต้องการสำรองข้อมูลไฟล์:
-
-1. ใช้บัญชีอื่น
-2. ย้ายรายการไปยังพื้นที่ปกติ"</string>
+  <string name="micloud_main_multi_user_error_message">"คุณลงชื่อเข้าใช้ด้วยบัญชีเดียวกับในพื้นที่ปกติเกิดข้อผิดพลาดเนื่องจาก Mi คลาวด์ ผิดพลาด 
+ใช้บัญชีอื่น"</string>
   <string name="micloud_main_multi_user_error_title">Mi คลาวด์ขัดข้อง</string>
   <string name="micloud_main_network_abnormal">ไม่สามารถใช้งานเครือข่ายได้</string>
   <string name="micloud_main_network_error">เชื่อมต่อเครือข่ายไม่ได้</string>
+  <string name="micloud_main_query_again">Query</string>
   <string name="micloud_main_query_error_message">ไม่สามารถยืนยันได้ว่าบริการบางอย่างได้ซิงค์เรียบร้อยแล้ว</string>
   <string name="micloud_main_query_error_title">ไม่สามารถขอรับข้อมูลความคืบหน้าการซิงค์ได้</string>
+  <string name="micloud_main_resume_sync_soon">ดำเนินการซิงค์ในเร็วๆนี้</string>
   <string name="micloud_main_set_internet">เครือข่าย</string>
   <string name="micloud_main_space_full">พื้นที่ในคลาวด์เต็ม</string>
+  <string name="micloud_main_space_full_message">Upgrade to member will obtain more storage space</string>
   <string name="micloud_main_space_full_title">พื้นที่จัดเก็บข้อมูลไม่เพียงพอ การซิงค์ถูกหยุด</string>
   <string name="micloud_main_space_low">พื้นที่ใกล้เต็มแล้ว</string>
   <string name="micloud_main_stop_sync">การซิงค์หยุดลง</string>
@@ -271,7 +279,6 @@
   <string name="micloud_main_suggest_sync">ไม่สามารถซิงค์ทุกรายการได้</string>
   <string name="micloud_main_sync_exception">พบข้อผิดพลาดในการซิงค์</string>
   <string name="micloud_main_sync_init">กำลังรับข้อมูล</string>
-  <string name="micloud_main_sync_need_charge">กรุณาชาร์ทแบตอุปกรณ์ของคุณ</string>
   <string name="micloud_main_sync_need_charge_or_sleep">ชาร์จและปิดใช้งานหน้าจอเพื่อซิงค์</string>
   <string name="micloud_main_sync_now">ซิงค์ตอนนี้</string>
   <string name="micloud_main_sync_on">ซิงค์เปิดอยู่</string>
@@ -288,6 +295,11 @@
   <string name="micloud_main_title_sync_off">การซิงค์ปิดอยู่</string>
   <string name="micloud_main_title_sync_on_wifi">ใช้เครือข่าย Wi-Fi</string>
   <string name="micloud_main_update_space">เพิ่มเนื้อที่จัดเก็บบนคลาวด์.</string>
+  <string name="micloud_main_wait_charge">Waiting for connecting charger</string>
+  <string name="micloud_main_wait_charge_sleep">Waiting for connecting charger and turn off screen</string>
+  <string name="micloud_main_wait_wlan">กำลังรอ Wi-Fi</string>
+  <string name="micloud_main_wait_wlan_charge">Waiting for Wi-Fi, connecting charger</string>
+  <string name="micloud_main_wait_wlan_charge_sleep">Waiting for Wi-Fi, connecting charger and turn off screen</string>
   <string name="micloud_main_wlan_sync_data_count">รายการที่กำลังรอการซิงค์: %d</string>
   <string name="micloud_member">สมาชิกภาพ Mi คลาวด์</string>
   <string name="micloud_member_advantage">เพิ่มเนื้อที่จัดเก็บ</string>

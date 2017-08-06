@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="status_bar_settings_disabled_header_title">
-        <item quantity="other">%s แอปไม่สามารถแจ้งเตือนได้</item>
+        <item quantity="other">"%d apps can't show notifications"</item>
     </plurals>
     <plurals name="status_bar_settings_enabled_header_title">
-        <item quantity="other">%s แอปสามารถแจ้งเตือนได้</item>
+        <item quantity="other">%d apps can show notifications</item>
     </plurals>
     <plurals name="settings_toggle_position_divider_page">
         <item quantity="other">%1$d toggles placed above bar are active</item>

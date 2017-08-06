@@ -51,4 +51,11 @@
         <item>อื่นๆ</item>
         <item>กำหนดเอง</item>
     </string-array>
+    <string-array name="network_switch_type_name">
+        <item>เน็ตมือถือ</item>
+        <item>Wi-Fi</item>
+        <item>บลูทูธ</item>
+        <item>อีเทอร์เน็ต</item>
+        <item>VPN</item>
+    </string-array>
 </resources>

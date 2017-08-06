@@ -167,6 +167,7 @@
   <string name="color_picker_dialog_title">เลือกสี</string>
   <string name="color_picker_hue">โทนสี</string>
   <string name="color_picker_saturation">ความอิ่มสี</string>
+  <string name="color_picker_value">ค่าสี</string>
   <string name="comment_app_menu">ข้อคิดเห็น</string>
   <string name="comment_description">ความคิดเห็น</string>
   <string name="comment_hint">ความคิดเห็น</string>
@@ -200,8 +201,7 @@
   <string name="current_version_pad">แป้น</string>
   <string name="current_version_pc">เดสท็อป</string>
   <string name="current_version_phone">โทรศัพท์</string>
-  <string name="custom_head_card_text">"เชื่ออยู่เสมอว่าสิ่งดีๆ
-กำลังจะเกิดขึ้น"</string>
+  <string name="custom_head_card_text">Always believe that something wonderful is about to happen</string>
   <string name="custom_head_card_text_incognito">"คุณอยู่ในโหมดไม่ระบุตัวตน!
 หน้าที่คุณเปิดจะไม่ปรากฏอยู่ในประวัติการเข้าชม"</string>
   <string name="data_traffic_prompt_change">การชมวิดีโอนี้ผ่านเครือข่ายข้อมูลมือถือต้องใช้ปริมาณการถ่ายโอนข้อมูลสูง ซึ่งหากใช้เกินกว่าที่แพ็คเกจจำกัดไว้ อาจทำให้คุณต้องเสียค่าบริการเพิ่มเติมให้แก่ผู้ให้บริการเครือข่าย</string>
@@ -417,6 +417,7 @@
   <string name="miuichromium_error_page_btn_close">ปิด</string>
   <string name="miuichromium_error_page_btn_refresh">รีเฟรช</string>
   <string name="miuichromium_error_page_btn_report_issue">รายงานปัญหา</string>
+  <string name="miuichromium_error_page_description_no_connection" formatted="false">เชื่อมต่อเครือข่ายไม่ได้ เครือข่ายไม่ดีหรือราวเตอร์มีปัญหา กรุณาตรวจสอบ %s1การตั้งค่าเครือข่าย%s2 และลองอีกครั้ง</string>
   <string name="miuichromium_error_page_diagnose">การวินิจฉัยเครือข่าย</string>
   <string name="miuichromium_error_page_diagnose_banner">การวินิจฉัยเครือข่าย</string>
   <string name="miuichromium_error_page_diagnose_certificate">ไม่สามารถตรวจสอบโปรโตคอลเครือข่ายได้</string>
@@ -433,9 +434,57 @@
   <string name="miuichromium_error_page_network_hijack">เครือข่ายปัจจุบันไม่ปลอดภัย</string>
   <string name="miuichromium_error_page_network_off">เปิดใช้ Wi-Fi หรือข้อมูลมือถือ</string>
   <string name="miuichromium_error_page_no_network">เชื่อมต่อเครือข่ายไม่ได้</string>
-  <string name="miuichromium_error_page_reload">รีเฟรช</string>
+  <string name="miuichromium_error_page_problem_access_denied">%s0 ปฏิเสธการเข้าถึง</string>
+  <string name="miuichromium_error_page_problem_cache_miss">หน้านี้ไม่สามารถโหลดจากหน่วยความจำแคชได้</string>
+  <string name="miuichromium_error_page_problem_cannot_open_page">ไม่สามารถเปิดหน้านี้ได้</string>
+  <string name="miuichromium_error_page_problem_cannot_reach_site">ไม่สามารถเข้าถึงเว็บไซต์นี้ได้</string>
+  <string name="miuichromium_error_page_problem_connection_interrupted">ถูกตัดการเชื่อมต่อ</string>
+  <string name="miuichromium_error_page_problem_file_not_found">ไม่พบไฟล์</string>
+  <string name="miuichromium_error_page_problem_gateway_timed_out">%s0 ไม่ตอบสนองเป็นระยะเวลานาน</string>
+  <string name="miuichromium_error_page_problem_network_access_denied">การเข้าถึงเครือข่ายถูกจำกัด</string>
+  <string name="miuichromium_error_page_problem_no_internet_connection">ปรับเทียบล้มเหลว: หมดเวลาการเชื่อมต่ออินเตอร์เน็ต</string>
+  <string name="miuichromium_error_page_problem_page_moved">%s0 หน้านี้อาจถูกย้ายหรือถูกลบออกแล้ว</string>
+  <string name="miuichromium_error_page_problem_page_not_found">%s0 ไม่พบหน้าที่คุณค้นหา</string>
+  <string name="miuichromium_error_page_problem_page_not_working">หน้าเว็บนี้ไม่สามารถทำงานได้</string>
+  <string name="miuichromium_error_page_problem_security_error">ไม่สามารถสร้างความปลอดภัยการเชื่อมต่อในเว็บไซต์นี้ได้</string>
+  <string name="miuichromium_error_page_problem_server_fault">%s0 ไม่สามารถดำเนินการตามคำร้องขอได้ชั่วคราว</string>
+  <string name="miuichromium_error_page_reason_bad_client_cert">" เนื่องจาก %s0 ไม่ยอมรับใบรับรองของคุณ"</string>
+  <string name="miuichromium_error_page_reason_bad_server_cert">. เนื่องจาก %s0 ไม่ได้ทำทามมาตรฐานความปลอดภัย</string>
+  <string name="miuichromium_error_page_reason_blocked_by_response">. การเข้าถึงถูกบล็อกโดย %s0</string>
+  <string name="miuichromium_error_page_reason_connection_closed">. เนื่องจาก %s0 ตัดการเชื่อมต่อ</string>
+  <string name="miuichromium_error_page_reason_connection_refused">. เนื่องจาก %s0 ปฏิเสธการเชื่อมต่อ</string>
+  <string name="miuichromium_error_page_reason_connection_reset">. เนื่องจากการเชื่อมต่อถูกรีเซ็ต</string>
+  <string name="miuichromium_error_page_reason_device_slept">" when your device went to sleep"</string>
+  <string name="miuichromium_error_page_reason_empty_response">" เนื่องจาก %s0 ไม่ส่งกลับข้อมูลใดๆ"</string>
+  <string name="miuichromium_error_page_reason_invalid_address">ที่อยู่ IP หรือหมายเลข port ไม่ถูกต้อง</string>
+  <string name="miuichromium_error_page_reason_invalid_response">" เนื่องจาก %s0 การตอบสนองของการส่งกลับไม่ถูกต้อง"</string>
+  <string name="miuichromium_error_page_reason_invalid_url">เนื่องจาก URL ไม่ถูกต้อง</string>
+  <string name="miuichromium_error_page_reason_moved_or_deleted">. It might be moved or deleted</string>
+  <string name="miuichromium_error_page_reason_name_collision">เนื่องจากเว็ปไซต์นี้ใช้ URL เหมือนกับเว็ปไซต์ภายนอก</string>
+  <string name="miuichromium_error_page_reason_name_not_resolved">. เนื่องจาก %s0 ไม่พบที่อยู่ DNS</string>
+  <string name="miuichromium_error_page_reason_network_changed">" เนื่องจากเครือข่ายมีการเปลี่ยนแปลง"</string>
+  <string name="miuichromium_error_page_reason_proxy_error">เนื่องจากเซิร์ฟเวอร์พร็อกซี่ผิดพลาดหรือที่อยู่พร็อกซี่ไม่ถูกต้อง</string>
+  <string name="miuichromium_error_page_reason_site_unreachable">. เนื่องจาก %s0 ไม่สามารถเชื่อมต่อได้ชั่วคราว</string>
+  <string name="miuichromium_error_page_reason_timed_out">. เนื่องจาก %s0ไม่ตอบสนองเป็นระยะเวลานานเกินไป</string>
+  <string name="miuichromium_error_page_reason_too_many_redirects">" because %s0 redirected you too many times"</string>
+  <string name="miuichromium_error_page_reason_unsafe_port">. เนื่องจาก %s0 ใช้หมายเลข port ไม่ปลอดภัย</string>
+  <string name="miuichromium_error_page_reason_unsafe_redirect">. เนื่องจากการเปลี่ยนเส้นทางของ %s0 ไม่ปลอดภัย</string>
+  <string name="miuichromium_error_page_reason_unsupported_protocol">. เนื่องจาก %s0 ใช้โปรโตคอลที่ไม่รองรับ</string>
+  <string name="miuichromium_error_page_reload">โหลดใหม่</string>
   <string name="miuichromium_error_page_safe_network">โหมดปลอดภัย</string>
   <string name="miuichromium_error_page_server_error">มีอุปกรณ์กำลังพยายามเชื่อมต่อมากเกินไป</string>
+  <string name="miuichromium_error_page_suggestion_check_app_proxy">ตรวจสอบการตั้งค่าการติดตั้งพร็อกซี่แอปของอุปกรณ์ของคุณ</string>
+  <string name="miuichromium_error_page_suggestion_check_connetion">ตรวจสอบการเชื่อมต่ออินเตอร์เน็ตของคุณ</string>
+  <string name="miuichromium_error_page_suggestion_check_mobile_proxy" formatted="false">(ข้อมูลมือถือ) รีเซ็ต%s1การตั้งค่า APN %s2</string>
+  <string name="miuichromium_error_page_suggestion_check_url">ตรวจสอบ URL ที่คุณเข้า</string>
+  <string name="miuichromium_error_page_suggestion_check_wifi_proxy" formatted="false">(WiFi) ตรวจสอบ %s1การตั้งค่าพร็อกซี่%s2 ว่าถูกต้อง</string>
+  <string name="miuichromium_error_page_suggestion_clear_cache" formatted="false">ล้างหน่วยความจำแคช (%s1Settings%s2 - ล้างข้อมูล).</string>
+  <string name="miuichromium_error_page_suggestion_clear_cache_and_cookies" formatted="false">ล้างหน่วยความจำแคชและคุ้กกี้ (%s1การตั้งค่า%s2 - ล้างข้อมูล) นี่อาจทำให้ข้อมูลการเข้าใช้ต่างๆของคุณหายไป</string>
+  <string name="miuichromium_error_page_suggestion_connect_and_retry">โหลดใหม่หลังจากเชื่อมต่ออินเตอร์เน็ต</string>
+  <string name="miuichromium_error_page_suggestion_contact_admin">ติดต่อแอดมินระบบของคุณ</string>
+  <string name="miuichromium_error_page_suggestion_correct_url">ตรวจสอบและป้อนที่อยู่ URL ที่ถูกต้องใหม่</string>
+  <string name="miuichromium_error_page_suggestion_grant_permission">โหลดใหม่หลังจากเปิดสิทธิ์การเข้าถึงการใช้งานอินเตอร์เน็ตของเบราว์เซอร์</string>
+  <string name="miuichromium_error_page_suggestion_title">. แนะนำ:</string>
   <string name="miuichromium_error_page_title">เกิดข้อผิดพลาด</string>
   <string name="miuichromium_error_page_unknown_error">ดูเหมือนมีบางอย่างผิดพลาด</string>
   <string name="miuichromium_error_page_wlan">เปิดใช้งาน Wi-Fi</string>
