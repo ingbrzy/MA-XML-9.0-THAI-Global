@@ -494,7 +494,6 @@
   <string name="battery_saver_off_summary">ปิด / %1$s</string>
   <string name="battery_saver_on_summary">เปิด / %1$s</string>
   <string name="battery_saver_turn_on_automatically_never">ไม่ใช้เลย</string>
-  <string name="battery_saver_turn_on_automatically_pct">ที่แบตเตอรี่ %1$s</string>
   <string name="battery_saver_turn_on_automatically_title">เปิดอัตโนมัติ</string>
   <string name="battery_settings">แบตเตอรี่</string>
   <string name="battery_settings_title">แบตเตอรี่</string>
@@ -505,6 +504,7 @@
   <string name="battery_stats_duration">%1$s ตั้งแต่ถอดปลั๊ก</string>
   <string name="battery_stats_flashlight_on_label">ไฟฉายเปิดอยู</string>
   <string name="battery_stats_gps_on_label">เปิดใช้ GPS</string>
+  <string name="battery_stats_last_duration">@string/menu_stats_last_unplugged</string>
   <string name="battery_stats_on_battery">%1$s เมื่อใช้แบตเตอรี่</string>
   <string name="battery_stats_phone_signal_label">สัญญาณเครือข่ายมือถือ</string>
   <string name="battery_stats_screen_on_label">เปิดใช้หน้าจอ</string>
@@ -618,7 +618,6 @@
   <string name="bluetooth_empty_list_user_restricted">คุณไม่มีสิทธิ์ในการเปลี่ยนการตั้งค่าบลูทูธ</string>
   <string name="bluetooth_enable">บลูทูธ</string>
   <string name="bluetooth_enable_alphanumeric_pin">PIN ประกอบดัวยตัวอักษรหรือสัญลักษณ์</string>
-  <string name="bluetooth_enter_passkey_msg">พิมพ์รหัสการจับคู่แล้วกด Return หรือ Enter</string>
   <string name="bluetooth_enter_passkey_other_device">คุณอาจจำเป็นต้องพิมพ์รหัสผ่านนี้ลงในอุปกรณ์อีกเครื่องหนึ่งด้วยเช่นกัน</string>
   <string name="bluetooth_enter_pin_other_device">คุณอาจจำเป็นต้องพิมพ์รหัส PIN นี้ลงในอุปกรณ์อีกเครื่องหนึ่งด้วยเช่นกัน</string>
   <string name="bluetooth_error_title"/>
@@ -2731,9 +2730,9 @@
   <string name="open_miui_optimization_warning_message">อุปกรณ์ของคุณจะรีบูตเพื่อนำการเปลี่ยนแปลงนี้ไปใช้</string>
   <string name="open_personal_assistant_dialog_btn_cancel">ยกเลิก</string>
   <string name="open_personal_assistant_dialog_btn_confirm">ปิด</string>
-  <string name="open_personal_assistant_dialog_desc">คุณไม่สามารถใช้ตัวช่วยอัจฉริยะและรับการอัพเดต ปิดใช้งานทันที?</string>
-  <string name="open_personal_assistant_dialog_title">ปิดใช้งานตัวช่วยอัจฉริยะ</string>
-  <string name="open_personal_assistant_title">เปิดใช้งานตัวช่วยอัจฉริยะ</string>
+  <string name="open_personal_assistant_dialog_desc">"You won't be able to use QuickCard and receive its updates. Turn off now?"</string>
+  <string name="open_personal_assistant_dialog_title">Turn off QuickCard</string>
+  <string name="open_personal_assistant_title">Turn on QuickCard</string>
   <string name="open_sdcard_optimization_title">open emulated sdcard optimization</string>
   <string name="open_sdcard_optimization_warning_message">Your device will reboot to apply this change.</string>
   <string name="open_wifi_connect_summary">แตะเพื่อดูรายละเอียด</string>
@@ -2871,19 +2870,7 @@
   <string name="power_cell">สแตนด์บายเครือข่าย</string>
   <string name="power_center">แบตเตอรี่</string>
   <string name="power_charge_remaining">อีก %1$s จะชาร์จเต็ม</string>
-  <string name="power_charging">%1$s - %2$s</string>
-  <string name="power_charging_duration">%1$s - %2$s จนกว่าจะเต็ม</string>
-  <string name="power_charging_duration_ac">%1$s - %2$s จนกว่าจะเต็มเมื่อชาร์จผ่าน AC</string>
-  <string name="power_charging_duration_ac_short">%1$s - %2$s</string>
-  <string name="power_charging_duration_short">%1$s - %2$s</string>
-  <string name="power_charging_duration_usb">%1$s - %2$s จนกว่าจะเต็มเมื่อชาร์จผ่าน USB</string>
-  <string name="power_charging_duration_usb_short">%1$s - %2$s</string>
-  <string name="power_charging_duration_wireless">%1$s - %2$s จนกว่าจะเต็มเมื่อชาร์จผ่านระบบไร้สาย</string>
-  <string name="power_charging_duration_wireless_short">%1$s - %2$s</string>
   <string name="power_checker">ตรวจสอบการใช้พลังงาน</string>
-  <string name="power_discharge_remaining">เหลืออีก %1$s</string>
-  <string name="power_discharging_duration">%1$s - เหลือประมาณ %2$s</string>
-  <string name="power_discharging_duration_short">%1$s - %2$s left</string>
   <string name="power_flashlight">ไฟฉาย</string>
   <string name="power_hide_mode_summary">ประหยัดแบตด้วยการจำกัดการทำงานของแต่ละแอป รวมถึงการใช้งาน Wi-Fi เครือข่ายข้อมูลมือถือและจีพีเอส</string>
   <string name="power_hide_mode_title">จัดการการใช้แบตเตอรี่ของแอป</string>
@@ -3056,8 +3043,6 @@
   <string name="process_stats_run_time">เวลาที่แสดง</string>
   <string name="process_stats_summary">สถิติเชิงลึกเกี่ยวกับกระบวนงานที่ทำงานอยู่</string>
   <string name="process_stats_summary_title">สถิติเกี่ยวกับกระบวนงาน</string>
-  <string name="process_stats_total_duration">ใช้ %1$s จาก %2$s ในช่วง %3$s ล่าสุด</string>
-  <string name="process_stats_total_duration_percentage">ใช้ RAM %1$s ในช่วง %2$s</string>
   <string name="process_stats_type_background">พื้นหลัง</string>
   <string name="process_stats_type_cached">แคช</string>
   <string name="process_stats_type_foreground">พื้นหน้า</string>
@@ -4368,6 +4353,7 @@ PIN อาจไม่ถูกต้อง"</string>
   <string name="turn_off_common_password_confirm_msg">การล็อกหน้าจอจะถูกปิดไปด้วย</string>
   <string name="turn_off_keyguard_password_alert_title">ปิดใช้งาน</string>
   <string name="turn_off_keyguard_password_confirm_msg">คุณลักษณะด้านความปลอดภัยบางอย่างจะไม่ทำงานหากไม่มีรหัสผ่านของคุณ</string>
+  <string name="turn_off_keyguard_password_wait_dialog">Closing password</string>
   <string name="turn_off_keyguard_password_with_fingerprint_confirm_msg">คุณจะไม่สามารถปลดล็อคอุปกรณ์ด้วยลายนิ้วมือของคุณหลังจากคุณปิดใช้งานรหัสผ่าน</string>
   <string name="turn_off_keyguard_password_with_fingerprint_confirm_msg_delete">หลังจากที่คุณปิดรหัสปลดล็อกหน้าจอ ลายนิ้วมือที่บันทึกไว้จะถูกลบออก คุณจะไม่สามารถปลดล็อกอุปกรณ์โดยใช้ลายนิ้วมือได้</string>
   <string name="turn_off_radio">ปิดวิทยุ</string>
@@ -4375,6 +4361,7 @@ PIN อาจไม่ถูกต้อง"</string>
   <string name="turn_on_keyguard_password">เปิดใช้งานรหัสปลดล็อกหน้าจอ</string>
   <string name="turn_on_radio">เปิดวิทยุ</string>
   <string name="turn_on_security_lock">เลือกการล็อกหน้าจอ</string>
+  <string name="turn_update_keyguard_password_wait_dialog">Modifying password</string>
   <string name="twohours">1 hours</string>
   <string name="uicc_eject">ตัดการเชื่อมต่อกับที่เก็บข้อมูล UICC</string>
   <string name="uicc_eject_summary">ตัดการเชื่อมต่อกับที่เก็บข้อมูล UICC เพื่อถอดอุปกรณ์อย่างปลอดภัย</string>
@@ -5052,9 +5039,11 @@ PIN อาจไม่ถูกต้อง"</string>
   <string name="wifi_security_eap">802.1x EAP</string>
   <string name="wifi_security_none">ไม่มี</string>
   <string name="wifi_security_passpoint">Passpoint</string>
+  <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
   <string name="wifi_security_short_WAPI_CERT">WAPI CERT</string>
   <string name="wifi_security_short_WAPI_PSK">WAPI PSK</string>
   <string name="wifi_security_short_eap">802.1x</string>
+  <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
   <string name="wifi_security_short_wep">WEP</string>
   <string name="wifi_security_short_wpa">WPA</string>
   <string name="wifi_security_short_wpa2">WPA2</string>

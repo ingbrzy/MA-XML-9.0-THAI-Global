@@ -18,6 +18,7 @@
   <string name="enable_find_device_success">การค้นหาอุปกรณ์เปิดใช้งาน</string>
   <string name="find_device">ค้นหาอุปกรณ์</string>
   <string name="find_device_crash">การค้นหาอุปกรณ์ถูกปิดโดยไม่คาดคิด</string>
+  <string name="find_device_error_access_denied">Access denied.</string>
   <string name="find_device_error_account_sys_timeout">"เชื่อมต่อกับบัญชี Mi ไม่สำเร็จ "</string>
   <string name="find_device_error_account_unknown_error">ข้อผิดพลาดบัญชี Mi (%s)</string>
   <string name="find_device_error_network">ข้อผิดพลาดเครือข่าย</string>
@@ -50,6 +51,10 @@
   <string name="phone_locked_account_phone">, หมายเลขโทรศัพท์ที่เกี่ยวข้อง: %s</string>
   <string name="stop_on_empty_captcha">ไม่สามารถเว้นว่างรหัสผ่านที่มองเห็นได้</string>
   <string name="stop_on_empty_password">รหัสผ่านไม่สามารถเว้นว่างได้</string>
+  <string name="sys_notification_async_open_failed_content">Tap to try again or cancel.</string>
+  <string name="sys_notification_async_open_failed_title">"Couldn't turn on Find device"</string>
+  <string name="sys_notification_async_verify_content">Our updated Security Policy requires that Find device should be reactivated.</string>
+  <string name="sys_notification_async_verify_title">Reactivate Find device</string>
   <string name="time_correction_failure">ไม่สามารถแก้ไขเวลาได้ %s</string>
   <string name="time_correction_success">แก้ไขเวลาแล้ว</string>
   <string name="unlock">เปิดใช้งาน</string>

@@ -8,7 +8,7 @@
   <string name="app_name">ข้อเสนอแนะ</string>
   <string name="btn_send">ส่ง</string>
   <string name="bugreport_dialog_not_show_again">ไม่ต้องแสดงอีก</string>
-  <string name="bugreport_dialog_submit_content">ข้อเสนอแนะของคุณต้องระบุข้อมูลส่วนบุคคล</string>
+  <string name="bugreport_dialog_submit_content">Your feedback may contain personal info and location data.</string>
   <string name="bugreport_dump_complete_notification_summary"/>
   <string name="bugreport_dump_complete_notification_title">สร้างรายงานปัญหาแล้ว</string>
   <string name="bugreport_dump_start_notification_summary">ใช้เวลาประมาณสองสามนาที</string>
@@ -254,7 +254,7 @@
   <string name="section_screenshot">ภาพหน้าจอ</string>
   <string name="submit_dialog_cancel">ยกเลิก</string>
   <string name="submit_dialog_confirm">ส่ง</string>
-  <string name="submit_dialog_content">ข้อเสนอแนะพร้อมกับไฟล์แนบและบันทึกการใช้งานของคุณจะถูกส่งไปยังเซิร์ฟเวอร์ MIUI ซึ่งอาจรวมถึงข้อมูลส่วนบุคคล</string>
+  <string name="submit_dialog_content">"Your feedback, along with attachments and logs, will be sent to MIUI's servers. It may contain personal info and your location data."</string>
   <string name="submit_dialog_title">ส่งรายงาน</string>
   <string name="submit_feedback_info_failed">ไม่สามารถส่งรายงานได้</string>
   <string name="suggestion_description">ใส่รายละเอียดเพิ่มเติมได้ที่นี่</string>

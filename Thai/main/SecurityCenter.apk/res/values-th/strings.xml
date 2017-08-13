@@ -15,18 +15,16 @@
   <string name="ac_firstUseApplock_title">ตั้งรหัสผ่านเพื่อป้องกันแอปของคุณ</string>
   <string name="ac_summaryOff">ปิดใช้งาน ไม่ต้องใช้รหัสผ่านเพื่อเปิดแอป</string>
   <string name="ac_summaryOn">เปิดใช้งาน ต้องใช้รหัสผ่านเพื่อเปิดแอป</string>
+  <string name="access_control_failed_need_to_unlock_nofingerprint">Password is required to open apps</string>
+  <string name="access_control_fingerprint_not_identified_msg">"Couldn't read fingerprint."</string>
   <string name="access_control_need_password">"%sเพิ่มล็อกเรียบร้อยแล้ว
 "</string>
-  <string name="access_control_need_to_unlock">"สแกนลายนิ้วมือ
-หรือป้อนรหัสผ่านล็อกแอป"</string>
   <string name="access_control_need_to_unlock_nofingerprint">ป้อนรหัสผ่านล็อกแอป</string>
   <string name="action_button_text_100">เพิ่มประสิทธิภาพ</string>
   <string name="action_button_text_60">ซ่อมแซม</string>
   <string name="action_button_text_60_80">ซ่อมแซม</string>
   <string name="action_button_text_80_100">เพิ่มประสิทธิภาพ</string>
   <string name="action_source_sms_title">บล็อคข้อความแล้ว</string>
-  <string name="activate_fingerprint_dialog_message">ลายนิ้วมือใช้งานไม่ได้ กรุณาป้อนรหัสผ่านของคุณเพื่อเปิดใช้งานลายนิ้วมือ</string>
-  <string name="activate_fingerprint_dialog_title">ป้อนรหัสผ่าน</string>
   <string name="activity_title_antispam">รายการบล็อก</string>
   <string name="activity_title_antivirus">สแกนด้านความปลอดภัย</string>
   <string name="activity_title_apps_manager">แอป</string>
@@ -71,7 +69,7 @@
   <string name="adjust_traffic_carrier_summary_two_day_before">อัพเดทเมื่อ 2 วันก่อน</string>
   <string name="adjust_traffic_carrier_summary_yesterday">อัพเดทเมื่อวานตอน %s</string>
   <string name="adjust_traffic_data">ตั้งการใช้ข้อมูล</string>
-  <string name="after_the_lock_screen">แอปถูกล็อกพร้อมกับหน้าจอ คุณสามารถเปลี่ยนได้ในการตั้งค่าการล็อกแอป</string>
+  <string name="after_the_lock_screen">App is locked together with the screen</string>
   <string name="all_address_choose_hint">ทุกเลขหมายในจังหวัดนี้</string>
   <string name="anim_gamebooster_text">Just a sec…</string>
   <string name="anti_disturb_msg_detail">Turn off all notifications except for incoming calls</string>
@@ -218,14 +216,15 @@
   <string name="application_item_already_permission">Allowed</string>
   <string name="application_item_disable">Restricted</string>
   <string name="applock_add_account">เพิ่ม</string>
-  <string name="applock_add_account_info">"เพิ่มบัญชี Mi เพื่อทำการตั้งรหัสผ่านของคุณใหม่
-ในกรณีที่ลืมรหัสผ่าน"</string>
+  <string name="applock_add_account_info">Add your Mi Account to be able to reset your password in case you forget it.</string>
   <string name="applock_add_account_setting">บัญชี &amp; ความเป็นส่วนตัว</string>
+  <string name="applock_bind_account_title">Resetting your password</string>
   <string name="applock_close_dialog_summary">แอปจะไม่ได้รับการป้องกันอีกต่อไปและรหัสผ่านของคุณจะถูกลบหลังจากคุณปิดการล็อกแอป</string>
   <string name="applock_close_dialog_title">ปิดใช้งานล็อกแอป</string>
   <string name="applock_exit_account_info">บัญชีจะถูกลบโดยอัตโนมัติเมื่อคุณลงชื่อออก</string>
+  <string name="applock_header_text_less_than_half">Too little space for this app. Drag the separator further.</string>
   <string name="applock_login_and_add_account">ลงชื่อเข้าใช้ &amp; เพิ่ม</string>
-  <string name="applock_not_add_account">ในภายหลัง</string>
+  <string name="applock_not_add_account">&lt;u&gt;Not now&lt;/u&gt;</string>
   <string name="applock_not_login_account">คุณไม่สามารถลงชื่อเข้าใช้ได้</string>
   <string name="apps_item_sign_dialog_content">ลายเซ็นต์ \"%s\" แตกต่างจากเวอร์ชั่นในแอปสโตร์ ลบแอปดังกล่าวและติดตั้งเวอร์ชั่นเป็นทางการ? หมายเหตุ: การติดตั้งแอปด้วยลายเซ็นต์ที่ขัดแย้งกันอาจทำให้ข้อมูลแอปสูญหาย</string>
   <string name="apps_item_sign_dialog_title">ติดตั้งแอปอย่างเป็นทางการ</string>
@@ -447,8 +446,7 @@
   <string name="card_main_private_space_summary">การใช้พื้นที่ทับซ้อนเปรียบได้กับการมีมือถือสองเครื่อง</string>
   <string name="card_main_private_space_title">พื้นที่ทับซ้อน</string>
   <string name="card_main_sectool_title">เครื่องมือ</string>
-  <string name="card_main_speeddetail_title">ความเร็วการเชื่อมต่อ</string>
-  <string name="card_main_speeddetailt_summary">เรียกดูความเร็วการเชื่อมต่อแต่ละแอป</string>
+  <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
   <string name="card_main_xspace_action">สร้าง</string>
   <string name="card_main_xspace_summary">สร้างบัญชีโคลนสำหรับแอปต่างๆ</string>
   <string name="card_main_xspace_title">แอปโคลน</string>
@@ -477,7 +475,7 @@
   <string name="cmcc_app_check_dialog_title">ซ่อมแซมระบบเรียบร้อย</string>
   <string name="confirmSecondSpacePassword">ยืนยันรหัสผ่านพื้นที่ทับซ้อน</string>
   <string name="confirm_bind_xiaomi_account_dialog_title">กำลังเพิ่มบัญชี Mi</string>
-  <string name="confirm_fingerprint_msg">วางนิ้วมือลงบนเซ็นเซอร์</string>
+  <string name="confirm_fingerprint_msg">Verify your fingerprint</string>
   <string name="confirm_prompt_all_permission">ต้องการตั้งค่าการอนุญาตแอปทั้งหมดเป็นสอบถาม?</string>
   <string name="confirm_reject_all_permission">จำกัดแอปทั้งหมดจากการใช้คุณลักษณะนี้?</string>
   <string name="connect_internet_by_mobiledata">เชื่อมต่อเครือข่ายข้อมูลมือถือ</string>
@@ -617,8 +615,8 @@
   <string name="exception_notify_message">网络统计模块异常，建议重启恢复</string>
   <string name="exception_titile">网络助手异常</string>
   <string name="exit">ออก</string>
-  <string name="finger_remind_message">คุณยังสามารถใช้ลายนิ้วมือของคุณเพื่อล็อกแอปได้อีกด้วย</string>
-  <string name="fingerprint_identify_msg">สแกนลายนิ้วมือของคุณ</string>
+  <string name="finger_remind_message">Add your fingerprint first. Tap to open Settings.</string>
+  <string name="fingerprint_identify_msg">Turn on Fingerprint unlock</string>
   <string name="fingerprint_not_identified_msg">ไม่สามารถอ่านลายนิ้วมือได้ ป้อนรหัสผ่านของคุณ</string>
   <string name="fingerprint_not_remind">ไม่ต้องถามอีก</string>
   <string name="fingerprint_remind_dialog_title">ปลดล็อกด้วยลายนิ้วมือ</string>
@@ -654,7 +652,8 @@
   <string name="five_percent_total_pkg">%s (5%% ของข้อมูลรายเดือน)</string>
   <string name="foreground_traffic">เบื้องหน้า %s</string>
   <string name="forget_password_button_text">&lt;u&gt;&amp;#3621;&amp;#3639;&amp;#3617;&amp;#3619;&amp;#3627;&amp;#3633;&amp;#3626;&amp;#3612;&amp;#3656;&amp;#3634;&amp;#3609;&lt;/u&gt;</string>
-  <string name="forget_pattern">&lt;u&gt;&amp;#3621;&amp;#3639;&amp;#3617;&amp;#3619;&amp;#3641;&amp;#3611;&amp;#3649;&amp;#3610;&amp;#3610;&lt;/u&gt;</string>
+  <string name="forget_password_button_text_normal">Forgot password</string>
+  <string name="forget_pattern">&lt;u&gt;Forgot password&lt;/u&gt;</string>
   <string name="free_time_traffic">เพดานข้อมูลนอกช่วงปกติ</string>
   <string name="free_time_traffic_hint">ป้อนเพดานข้อมูลนอกช่วงปกติ</string>
   <string name="free_time_traffic_settings">เพดานข้อมูลนอกช่วงปกติ</string>
@@ -801,10 +800,12 @@
   <string name="lock_screen_warning_switch_summary">แจ้งเตือนบนหน้าจอล็อกเมื่อใช้ปริมาณเครือข่ายข้อมูลเกินจำนวนที่กำหนดไว้</string>
   <string name="lock_screen_warning_switch_title">แสดงการแจ้งเตือนบนหน้าจอล็อก</string>
   <string name="lock_screen_warning_value">แจ้งเตือนการใช้ข้อมูล</string>
+  <string name="lockpattern_access_need_to_unlock_wrong_fingerprint">"Couldn't recognize fingerprint, try again."</string>
+  <string name="lockpattern_access_need_to_unlock_wrong_pattern">Password is incorrect, try again.</string>
   <string name="lockpattern_confirm_button_text">ตกลง</string>
   <string name="lockpattern_continue_button_text">ถัดไป</string>
   <string name="lockpattern_need_to_confirm">วาดรูปแบบอีกครั้งเพื่อยืนยัน:</string>
-  <string name="lockpattern_need_to_unlock_wrong">ลองอีกครั้ง</string>
+  <string name="lockpattern_need_to_unlock_wrong">"Passwords don't match, try again."</string>
   <string name="lockpattern_pattern_confirmed_header">รูปแบบปลดล็อกใหม่</string>
   <string name="lockpattern_pattern_entered_header">เพิ่มรูปแบบแล้ว</string>
   <string name="lockpattern_recording_incorrect_too_short">เชื่อมกันอย่างน้อย %d จุด</string>
@@ -962,6 +963,7 @@
   <string name="mi_service_app_detail">รายละเอียดการใช้ข้อมูล</string>
   <string name="mi_service_traffic_detail">รายละเอียด Framework</string>
   <string name="mian_page_primary_txt">การโรมมิ่งข้อมูล</string>
+  <string name="modify_password_mode">&lt;u&gt;Change password type&lt;/u&gt;</string>
   <string name="modifypassword">เปลี่ยนรหัสผ่าน</string>
   <string name="monitor_app_add">เพิ่ม</string>
   <string name="monitor_app_more">เพิ่มเติม</string>
@@ -1158,9 +1160,11 @@ This activity shortens battery life."</string>
   <string name="package_setted_error_notification_titile">ไม่สามารถตั้งแพ็คเกจข้อมูลได้</string>
   <string name="packages_subtitle">แพ็คเกจรวม</string>
   <string name="passwordIncorrect">ชื่อผู้ใช้หรือรหัสผ่านไม่ถูกต้อง</string>
-  <string name="password_forget_pattern_confirm">สำรองข้อมูล</string>
-  <string name="password_forget_pattern_message">สำรองข้อมูลข้อมูลของคุณก่อน และดำเนินการรีเซ็ตข้อมูลโรงงาน หลังจากนั้นคุณถึงจะสามารถเปลี่ยนรหัสผ่านของคุณได้</string>
-  <string name="password_forget_pattern_title">สำรองข้อมูลของคุณ</string>
+  <string name="password_forget_pattern_confirm">Got it</string>
+  <string name="password_forget_pattern_message">Due to security reasons, you can only reset your password after a factory data reset. Tap to reset.</string>
+  <string name="password_forget_pattern_message_none">"Apps aren't locked. You can reset your password."</string>
+  <string name="password_forget_pattern_reset">Reset</string>
+  <string name="password_forget_pattern_title">Attention</string>
   <string name="password_promotion_not_login_xiaomi_account_message">เพิ่มบัญชี Mi ของคุณเพื่อทำการตั้งรหัสผ่านของคุณใหม่ในกรณีที่ลืมรหัสผ่าน</string>
   <string name="password_promotion_postbutton_text">เพิ่ม</string>
   <string name="password_promotion_title">เพิ่มบัญชี Mi</string>
@@ -1600,7 +1604,7 @@ This activity shortens battery life."</string>
   <string name="see_detail">รายละเอียด</string>
   <string name="set_applock_password">ตั้งรหัสผ่าน</string>
   <string name="setting">Settings</string>
-  <string name="setting_privacy_password">ตั้งรหัสผ่านล็อกแอป</string>
+  <string name="setting_privacy_password">Add pattern</string>
   <string name="settings">การตั้งค่าการใช้ข้อมูล</string>
   <string name="settings_battery_consume_abnormal_summary">รับการแจ้งเตือนเมื่อแบตเตอรี่มีการลดลงอย่างผิดปกติ</string>
   <string name="settings_battery_consume_abnormal_title">แจ้งเตือนการกินแบตผิดปกติ</string>
@@ -2051,6 +2055,8 @@ This activity shortens battery life."</string>
   <string name="uninstall_app_dialog_title">ถอนการติดตั้งตอนนี้?</string>
   <string name="uninstall_app_done">ถอนการติดตั้งเรียบร้อยแล้ว</string>
   <string name="unlike">ไม่ ขอบคุณ</string>
+  <string name="unlock_pattern">&lt;u&gt;Pattern&lt;/u&gt;</string>
+  <string name="unlock_pattern_to_bind_fingerprint">Enter password to activate fingerprint</string>
   <string name="updating_diagnostic_botton">กำลังวิเคราะห์ข้อมูล…</string>
   <string name="usage_sorted_activity_lable">การใช้ข้อมูล</string>
   <string name="usage_sorted_empty_text">ไม่มี</string>

@@ -4,6 +4,7 @@
   <string name="account">บัญชี</string>
   <string name="account_related">อุปกรณ์ของคุณผูกอยู่กับบัญชีอื่นอยู่ก่อนแล้ว (%s) เชื่อมต่อเครือข่ายเพื่อยืนยันอุปกรณ์</string>
   <string name="activate">เปิดใช้</string>
+  <string name="activate_find_device_success">Find device has been activated.</string>
   <string name="activate_finddevice">กรุณาเชื่อมต่อเครือข่ายเพื่อเปิดใช้งานอุปกรณ์</string>
   <string name="activate_number_change_dialog_message">ระบุหมายเลขโทรศัพท์ที่ใช้แสดงเมื่อโทรผ่านเน็ต</string>
   <string name="activating">กำลังเปิดใช้งาน…</string>
@@ -46,6 +47,8 @@
   <string name="cloud_back_up_title">สำรองข้อมูลอุปกรณ์</string>
   <string name="cloud_backup_dialog_title">สำรองข้อมูลด้วย Mi คลาวด์</string>
   <string name="cloud_find_device">ค้นหาอุปกรณ์</string>
+  <string name="cloud_find_device_off">Off</string>
+  <string name="cloud_find_device_on">On</string>
   <string name="cloud_restore_title">คืนค่าจากข้อมูลสำรอง</string>
   <string name="cloud_space_upgrade_message">แตะเพื่อเพิ่มพื้นที่ %sGB ในคลาวด์ของคุณ</string>
   <string name="cloud_space_upgrade_no_quota_info">ไม่ได้รับข้อมูลการจัดเก็บ</string>
@@ -98,6 +101,12 @@
   <string name="find_device_notice_p2">i.mi.com</string>
   <string name="find_device_notice_p3">"ใช้ในการค้นหา ล็อกเครื่องหรือกู้คืนเครื่อง
 ในกรณีที่คุณสลับซิมการ์ด ระบบจะส่งข้อความอีกครั้งโดยอัตโนมัติเพื่อเปิดใช้งานบริการนี้"</string>
+  <string name="find_device_operation_failure_rpc">"Couldn't perform the operation due to RPC error."</string>
+  <string name="find_device_pref_alert_content">"Find device is associated with your Mi Account. You need to set a password or enter the password you've set. Make sure you always remember your Mi Account ID and password. An outgoing SMS may be required to activate this service. Your carrier will charge you for this message. When you switch SIM cards, a message will be sent automatically to reactivate this feature."</string>
+  <string name="find_device_pref_alert_negtive">No thanks</string>
+  <string name="find_device_pref_alert_positive">OK</string>
+  <string name="find_device_pref_alert_title">Remember your Mi Account ID and password</string>
+  <string name="find_device_pref_initializing">Initializing…</string>
   <string name="find_device_reading_status">กำลังโหลดสถานะ…</string>
   <string name="find_device_reading_status_failure">ไม่สามารถโหลดสถานะได้</string>
   <string name="find_device_send_sms_alert">"
@@ -209,10 +218,21 @@
   <string name="micloud_dialog_sync_now_title">เชื่อมต่อกับ Wi-Fi เพื่อทำการซิงค์</string>
   <string name="micloud_dspt">ใช้ Mi คลาวด์ ได้ทั้งการซิงค์ข้อมูลและค้นหาเครื่อง</string>
   <string name="micloud_dspt_provision">ใช้ Mi คลาวด์ในการซิงค์ข้อมูล ค้นหาเครื่องและแชร์สิ่งต่างๆกับเพื่อนของคุณ</string>
+  <string name="micloud_find_device_close_alert_content">"If you turn this feature off, you wan't be able to locate your device in case it's lost."</string>
+  <string name="micloud_find_device_close_alert_negtive">Turn off anyway</string>
+  <string name="micloud_find_device_close_alert_positive">Keep on</string>
+  <string name="micloud_find_device_close_alert_title">Turn off Find device?</string>
+  <string name="micloud_find_device_close_fail">"Couldn't turn off Find device"</string>
+  <string name="micloud_find_device_close_progress">Turning off Find device…</string>
   <string name="micloud_find_device_finish">เสร็จสิ้น</string>
+  <string name="micloud_find_device_guide_alert_content">"Find device is associated with your Mi Account. You need to set a password or enter the password you've set. Make sure you always remember your Mi Account ID and password."</string>
+  <string name="micloud_find_device_guide_alert_negtive">No thanks</string>
+  <string name="micloud_find_device_guide_alert_negtive_activate">No thanks</string>
+  <string name="micloud_find_device_guide_alert_positive">OK</string>
+  <string name="micloud_find_device_guide_alert_title">Remember your Mi Account ID and password</string>
   <string name="micloud_find_device_guide_button">เปิดใช้การค้นหาอุปกรณ์</string>
   <string name="micloud_find_device_guide_content">อาจมีข้อความ SMS ขาออกเพื่อเปิดใช้งานบริการนี้ ผู้ให้บริการของคุณจะเรียกเก็บเงินจากคุณสำหรับข้อความนี้ เมื่อคุณเปลี่ยนซิมการ์ดข้อความจะถูกส่งโดยอัตโนมัติเพื่อเปิดใช้งานคุณลักษณะนี้อีกครั้ง</string>
-  <string name="micloud_find_device_guide_fail_reopen">เปิดใช้การค้นหาอุปกรณ์ใน Mi คลาวด์</string>
+  <string name="micloud_find_device_guide_fail_reopen">You can turn on Find device in Mi Account - Mi Cloud</string>
   <string name="micloud_find_device_guide_fail_sub_net">กรุณาตรวจสอบการเชื่อมต่อเครือข่ายแล้วลองใหม่</string>
   <string name="micloud_find_device_guide_fail_sub_timeout">การเชื่อมต่อหมดเวลา ลองใหม่อีกครั้ง</string>
   <string name="micloud_find_device_guide_micloud">เปิดใช้การซิงค์กับ Mi คลาวด์</string>
@@ -226,12 +246,16 @@
   <string name="micloud_find_device_guide_noti_title_by_app_change_wx">WeChat แนะนำให้คุณเปิดใช้การค้นหาอุปกรณ์</string>
   <string name="micloud_find_device_guide_noti_title_by_app_change_zfb">Alipay แนะนำให้คุณเปิดใช้การค้นหาอุปกรณ์</string>
   <string name="micloud_find_device_guide_progress">กำลังเปิดการค้นหาอุปกรณ์…</string>
-  <string name="micloud_find_device_guide_title">ลงชื่อเข้าสู่ระบบ %s เพื่อระบุตำแหน่งและล็อกเครื่องหรือลบอุปกรณ์ของคุณ</string>
+  <string name="micloud_find_device_guide_title">"Sign in to &lt;font color=#FF0000&gt;&lt;b&gt;i.mi.com&lt;/b&gt;&lt;/font&gt; to locate, lock, or erase your device. This might help you to find your device in case it's lost.&lt;br /&gt;If you lose your device, you could contact the security service of the apps you use frequently (e.g., Alipay, WeChat, QQ) to protect your accounts on &lt;font color=#FF0000&gt;&lt;b&gt;i.mi.com&lt;/b&gt;&lt;/font&gt;."</string>
   <string name="micloud_find_device_open_fail">ไม่สามารถปิดใช้การค้นหาอุปกรณ์ได้</string>
   <string name="micloud_find_device_opened">การค้นหาอุปกรณ์เปิดใช้งาน</string>
   <string name="micloud_find_device_opened_content">ค้นหาอุปกรณ์ของคุณใน %s</string>
   <string name="micloud_find_device_opened_content_url">i.mi.com</string>
   <string name="micloud_find_device_opened_content_url_int">www.mi.com/micloud</string>
+  <string name="micloud_find_device_verify_button">Reactivate Find device</string>
+  <string name="micloud_find_device_verify_close">Turn off Find device</string>
+  <string name="micloud_find_device_verify_fail">"Couldn't reactivate Find device"</string>
+  <string name="micloud_find_device_verify_progress">Reactivating Find device…</string>
   <string name="micloud_first_login_summary"/>
   <string name="micloud_first_login_title"/>
   <string name="micloud_full_influence_dspt">"บรรดาภาพถ่าย วิดีโอ และแอปต่างๆ จะได้รับการสำรองข้อมูลเก็บไว้บนคลาวด์ 

@@ -669,6 +669,7 @@
   <string name="miprofile_contact_header">รายชื่อที่เพิ่มนามบัตรได้</string>
   <string name="miprofile_contact_meaasge">รายชื่อในเครื่อง</string>
   <string name="miprofile_contact_verifying">กำลังยืนยัน</string>
+  <string name="miprofile_delete_alertdialog_message">@string/miprofile_switch_off_alertdialog_message</string>
   <string name="miprofile_edit_title">แก้ไขข้อมูลส่วนตัว</string>
   <string name="miprofile_error_accept_self">ไม่สามารถแลกนามบัตรกับตนเองได้</string>
   <string name="miprofile_error_no_miaccount">ลงชื่อเข้าใช้บัญชี Mi ของคุณ</string>
@@ -867,6 +868,8 @@
   <string name="path_wipe_data">แอประบบ/รายชื่อ/จัดการรายชื่อ/ล้างข้อมูล</string>
   <string name="payphone">โทรศัพท์สาธารณะ</string>
   <string name="people">รายชื่อ</string>
+  <string name="percent_sign">%</string>
+  <string name="percentage">%s%%</string>
   <string name="phoneLabelsGroup">โทรศัพท์</string>
   <string name="phone_info_divider">" ｜ "</string>
   <string name="phone_number_too_long_toast">หมายเลขยาวเกินไป</string>
@@ -935,7 +938,7 @@
   <string name="preference_phone_more_title">การตั้งค่าการโทร</string>
   <string name="preference_remove_duplicate">ควบรวมรายชื่อซ้ำเข้าด้วยกัน</string>
   <string name="preference_show_yellowpage_tab_description">ปิดแถบสมุดหน้าเหลือง ฟังก์ชันสมุดหน้าเหลืองจะไม่ทำงาน</string>
-  <string name="preference_show_yellowpage_tab_title">แสดงแถบสมุดหน้าเหลือง</string>
+  <string name="preference_show_yellowpage_tab_title">Show the YellowPage entry</string>
   <string name="preference_simple_mode_description">แสดงรูปภาพและข้อมูลติดต่อในมุมมองรายการ</string>
   <string name="preference_simple_mode_title">แสดงรูปภาพและข้อมูล</string>
   <string name="preference_smart_group_company_summary">จัดกลุ่มตามบริษัท</string>
