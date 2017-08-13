@@ -14,9 +14,7 @@
   <string name="dialog_data_limit_button1">Wait for WI-Fi</string>
   <string name="dialog_data_limit_button2">Download now</string>
   <string name="dialog_data_limit_msg1">%s of mobile data will be used to download this file. Download now?</string>
-  <string name="dialog_data_limit_msg2">@string/dialog_tip_limit</string>
   <string name="dialog_data_limit_msg3">Change limit</string>
-  <string name="dialog_data_limit_sel_title">@string/dialog_tip_limit</string>
   <string name="dialog_data_limit_title">Data usage warning</string>
   <string name="dialog_insufficient_space_on_cache">ที่จัดเก็บข้อมูลการดาวน์โหลดภายในมีพื้นที่ไม่เพียงพอ</string>
   <string name="dialog_insufficient_space_on_external">ที่จัดเก็บข้อมูลภายนอกมีพื้นที่ไม่เพียงพอ</string>
