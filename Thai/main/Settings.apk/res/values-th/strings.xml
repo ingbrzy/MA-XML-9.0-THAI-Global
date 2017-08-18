@@ -504,6 +504,7 @@
   <string name="battery_stats_duration">%1$s ตั้งแต่ถอดปลั๊ก</string>
   <string name="battery_stats_flashlight_on_label">ไฟฉายเปิดอยู</string>
   <string name="battery_stats_gps_on_label">เปิดใช้ GPS</string>
+  <string name="battery_stats_last_duration">@string/menu_stats_last_unplugged</string>
   <string name="battery_stats_on_battery">%1$s เมื่อใช้แบตเตอรี่</string>
   <string name="battery_stats_phone_signal_label">สัญญาณเครือข่ายมือถือ</string>
   <string name="battery_stats_screen_on_label">เปิดใช้หน้าจอ</string>
@@ -2254,6 +2255,7 @@
   <string name="lockscreen_glogin_checking_password">กำลังตรวจสอบ…</string>
   <string name="lockscreen_glogin_password_hint">รหัสผ่าน</string>
   <string name="lockscreen_glogin_submit_button">ลงชื่อเข้าใช้</string>
+  <string name="lockscreen_magazine">Wallpaper Carousel</string>
   <string name="lockscreen_magazine_title">Wallpaper Carousel</string>
   <string name="lockscreen_remote_input">หากอุปกรณ์ล็อกอยู่ จะป้องกันไม่ให้มีการพิมพ์คำตอบหรือข้อความอื่นๆ ในการแจ้งเตือน</string>
   <string name="login_account_dialog_message">ลงชื่อเข้าใช้ด้วยบัญชี Mi ของคุณและเปิดใช้ซิงค์กับ Mi คลาวด์</string>
@@ -2269,6 +2271,7 @@
   <string name="man_add_application">เพิ่มแอปที่เริ่มต้นอัตโนมัติ</string>
   <string name="manage_device_admin">โปรแกรมควบคุมอุปกรณ์</string>
   <string name="manage_device_admin_summary">ดูหรือปิดการใช้งานผู้ดูแลอุปกรณ์</string>
+  <string name="manage_fakecell_settings">Protection from fake base stations</string>
   <string name="manage_fingerprint_text">จัดการลายนิ้วมือ</string>
   <string name="manage_mobile_plan_title">แผนบริการอุปกรณ์เคลื่อนที่</string>
   <string name="manage_notification_access_summary_zero">แอปไม่สามารถอ่านการแจ้งเตือน</string>
@@ -2619,6 +2622,8 @@
   <string name="no_updates_warning2">ไม่ต้องห่วง เราจะแจ้งให้คุณทราบหากมีอัพเดท :)</string>
   <string name="no_vr_listeners">แอปที่ติดตั้งอยู่ไม่ได้ขอให้เรียกใช้เป็นบริการตัวช่วยความเป็นจริงเสมือน</string>
   <string name="noise_suppression">ลดเสียงรบกวนรอบข้าง</string>
+  <string name="normal">Normal</string>
+  <string name="normal_info">All the volume is normal</string>
   <string name="normal_smartcover_title">ฝาปิดแบบทึบแสง</string>
   <string name="not_battery_optimizing">ไม่ได้ใช้การเพิ่มประสิทธิภาพแบตเตอรี่</string>
   <string name="not_installed">ไม่ได้ติดตั้งสำหรับผู้ใช้นี้</string>
@@ -2974,6 +2979,7 @@
   <string name="privacy_factory_reset_dlg_title">สำรองข้อมูลของคุณ</string>
   <string name="privacy_file">ไฟล์</string>
   <string name="privacy_gallery">รูปภาพ</string>
+  <string name="privacy_header_text_less_than_half">Too little space for this app. Drag the separator further.</string>
   <string name="privacy_mms">ข้อความ</string>
   <string name="privacy_mode_dialog_message">ซ่อนข้อความ บันทึก รูปภาพ การตั้งค่าและสายเรียกเข้า?</string>
   <string name="privacy_mode_dialog_title">โหมดเยี่ยมชม</string>
@@ -3175,7 +3181,6 @@
   <string name="remove_managed_profile_label">นำโปรไฟล์งานออก</string>
   <string name="repeat">กำหนดการซ้ำ</string>
   <string name="repeat_call">Repeated caller reminder</string>
-  <string name="repeat_call_info">In the Silent mode, if the same person in 15 minutes two calls, allowing Ling Ling reminders</string>
   <string name="repeat_title">เล่นซ้ำ</string>
   <string name="reset_aaid">รีเซ็ตตัวระบุโฆษณา</string>
   <string name="reset_app_preferences">รีเซ็ตค่ากำหนดแอปพลิเคชัน</string>
@@ -3789,10 +3794,11 @@
   <string name="shut_down_find_device_network_failure_content">ไม่สามารถปิดใช้การค้นหาอุปกรณ์ ตรวจดูให้แน่ใจว่าอุปกรณ์ของคุณมีการเชื่อมต่ออินเทอร์เน็ต</string>
   <string name="shut_down_find_device_network_failure_title">ไม่สามารถเชื่อมต่อกับเครือข่ายได้</string>
   <string name="shuting_down_find_device">ปิดการค้นหาอุปกรณ์…</string>
+  <string name="silent_duration">Duration</string>
   <string name="silent_mode">Silent Mode</string>
   <string name="silent_mode_title">โหมดปิดเสียง</string>
   <string name="silent_off">Turn off</string>
-  <string name="silent_settings">Silent Mode</string>
+  <string name="silent_settings">Silence/DND</string>
   <string name="silent_standard">Silent</string>
   <string name="silent_time">Slience Duration</string>
   <string name="silent_total">DND</string>
@@ -3991,6 +3997,8 @@ PIN อาจไม่ถูกต้อง"</string>
   <string name="status_bar_settings_style">การแจ้งเตือนและการจัดเรียงปุ่มเปิด-ปิด</string>
   <string name="status_bar_settings_toggle_collapse_after_clicked">ซ่อนแถบแจ้งเตือนเมื่อมีการแตะ</string>
   <string name="status_bar_settings_toggle_position">ตำแหน่งปุ่มเปิด-ปิด</string>
+  <string name="status_bar_settings_user_fold">Notifications folder</string>
+  <string name="status_bar_settings_user_fold_summary">All unimportant notifications will appear in a separate folder</string>
   <string name="status_bar_style_list">หน้าเดียว</string>
   <string name="status_bar_style_page">แยกหน้า</string>
   <string name="status_bt_address">ที่อยู่บลูทูธ</string>
@@ -4358,6 +4366,13 @@ PIN อาจไม่ถูกต้อง"</string>
   <string name="turn_off_radio">ปิดวิทยุ</string>
   <string name="turn_off_security_lock">ปิดใช้การล็อก</string>
   <string name="turn_on_keyguard_password">เปิดใช้งานรหัสปลดล็อกหน้าจอ</string>
+  <string name="turn_on_keyguard_password_alert">"Remember your password. If you forget it, you won't be able to restore it."</string>
+  <string name="turn_on_keyguard_password_alert_choose">"Remember your password. If you forget it, you'll have to erase all data on your device to set a new one."</string>
+  <string name="turn_on_keyguard_password_alert_foget_cacel">Not now</string>
+  <string name="turn_on_keyguard_password_alert_foget_ok">Got it</string>
+  <string name="turn_on_keyguard_password_alert_foget_ok_time">Got it(%dsecond)</string>
+  <string name="turn_on_keyguard_password_alert_forget_content">"Remember your Lock screen password. If you forget it, you'll have to erase all data on your device, including photos and contacts, and then set a new one."</string>
+  <string name="turn_on_keyguard_password_alert_forget_title">"If you forget it, you won't be able to restore it."</string>
   <string name="turn_on_radio">เปิดวิทยุ</string>
   <string name="turn_on_security_lock">เลือกการล็อกหน้าจอ</string>
   <string name="turn_update_keyguard_password_wait_dialog">Modifying password</string>
@@ -5038,9 +5053,11 @@ PIN อาจไม่ถูกต้อง"</string>
   <string name="wifi_security_eap">802.1x EAP</string>
   <string name="wifi_security_none">ไม่มี</string>
   <string name="wifi_security_passpoint">Passpoint</string>
+  <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
   <string name="wifi_security_short_WAPI_CERT">WAPI CERT</string>
   <string name="wifi_security_short_WAPI_PSK">WAPI PSK</string>
   <string name="wifi_security_short_eap">802.1x</string>
+  <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
   <string name="wifi_security_short_wep">WEP</string>
   <string name="wifi_security_short_wpa">WPA</string>
   <string name="wifi_security_short_wpa2">WPA2</string>

@@ -286,7 +286,7 @@
   <string name="auto_task_notify_task_canceled_title">ฟังก์ชั่นถูกยกเลิก</string>
   <string name="auto_task_notify_task_continue_do">เริ่มต้นฟังก์ชั่น</string>
   <string name="auto_task_notify_task_count_down">ฟังก์ชั่นอัตโนมัติจะเริ่มต้นในอีก 5 วินาที</string>
-  <string name="auto_task_notify_task_exit_task">Exit task</string>
+  <string name="auto_task_notify_task_exit_task">Cancel task</string>
   <string name="auto_task_operation_airplane_mode">โหมดเครื่องบิน</string>
   <string name="auto_task_operation_auto_brightness">ความสว่างอัตโนมัติ</string>
   <string name="auto_task_operation_bluetooth">บลูทูธ</string>
@@ -408,17 +408,17 @@
   <string name="button_text_update_now">อัพเดต</string>
   <string name="button_to_setting">การตั้งค่า</string>
   <string name="byteShort">B</string>
-  <string name="call_address">Area Blacklist</string>
+  <string name="call_address">Area blocklist</string>
   <string name="call_and_contact">การโทรและผู้ติดต่อ</string>
-  <string name="call_blacklist">Call Blacklist</string>
-  <string name="call_cloud_block">Cloud Intercept</string>
-  <string name="call_contact_block">Contacts Intercept</string>
+  <string name="call_blacklist">Call blocklist</string>
+  <string name="call_cloud_block">Cloud blocklist</string>
+  <string name="call_contact_block">Block calls from contacts</string>
   <string name="call_delete_hint">ลบสายเรียกเข้าที่ถูกบล็อกทั้งหมดจากเลขหมายนี้?</string>
   <string name="call_delete_title">ลบประวัติการโทร</string>
-  <string name="call_prefix">Prefix Blacklist</string>
-  <string name="call_private">Private Call</string>
-  <string name="call_stranger_block">Stranger Intercept</string>
-  <string name="call_transfer_block">Forwarded Call</string>
+  <string name="call_prefix">Prefix blocklist</string>
+  <string name="call_private">Block calls from hidden numbers</string>
+  <string name="call_stranger_block">Block calls from strangers</string>
+  <string name="call_transfer_block">Block forwarded calls</string>
   <string name="call_transfer_info">บล็อกสายที่ถูกโอนมาจากเลขหมายที่ไม่รู้จัก</string>
   <string name="cancal_to_setting_fingerprint">ยกเลิก</string>
   <string name="cancel">ยกเลิก</string>
@@ -446,6 +446,7 @@
   <string name="card_main_private_space_summary">การใช้พื้นที่ทับซ้อนเปรียบได้กับการมีมือถือสองเครื่อง</string>
   <string name="card_main_private_space_title">พื้นที่ทับซ้อน</string>
   <string name="card_main_sectool_title">เครื่องมือ</string>
+  <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
   <string name="card_main_xspace_action">สร้าง</string>
   <string name="card_main_xspace_summary">สร้างบัญชีโคลนสำหรับแอปต่างๆ</string>
   <string name="card_main_xspace_title">แอปโคลน</string>
@@ -682,6 +683,7 @@
   <string name="gigabyteShort">GB</string>
   <string name="go_to">ดำเนินการ</string>
   <string name="go_to_setting_fingerprint">การตั้งค่า</string>
+  <string name="google_base_app_install_choice">\"%s\" requires Google Service Framework apps to work normally, download and install them?</string>
   <string name="gs_anto_clean_memory_whitelist">Exceptions</string>
   <string name="gs_app_back_self_start">Battery saver</string>
   <string name="gs_auto_clean_memory">Clear cache</string>
@@ -1034,8 +1036,6 @@
   <string name="notification_mask_title">ซ่อนเนื้อหา</string>
   <string name="notification_subtitle">แตะเพื่อเปิดใช้งาน</string>
   <string name="notification_summary_cmcc_app_check">แตะเพื่อดูรายละเอียด</string>
-  <string name="notification_sysapp_cracked_text">เวอร์ชั่นปัจจุบันของ MIUI ได้รับดัดแปลง</string>
-  <string name="notification_sysapp_cracked_title">ตรวจพบความเสี่ยงด้านความปลอดภัย</string>
   <string name="notify_daily_data_usage_body">การตั้งเพดานการใช้ข้อมูลโดยอัตโนมัติ จำเป็นต้องระบุแพ็คเกจรายเดือนของคุณก่อน</string>
   <string name="notify_daily_limit_body">แตะเพื่อตั้งเพดานข้อมูล</string>
   <string name="notify_daily_limit_title">ใช้ไป %s ในวันนี้</string>
@@ -1633,19 +1633,19 @@ This activity shortens battery life."</string>
   <string name="sim_state_exception_summary">ระบบพบความผิดปกติจากค่าที่อ่านได้จากสถานะของซิมการ์ดของคุณ</string>
   <string name="sip_phone">โทรศัพท์ SIP</string>
   <string name="skin_change_close_toast">การเปลี่ยนแปลงจะถูกใช้งานครั้งถัดไป เวลาที่คุณเปิดใช้ความปลอดภัย</string>
-  <string name="sms_address">Area Blacklist</string>
-  <string name="sms_blacklist">Message Blacklist</string>
-  <string name="sms_cloud_block">Cloud Intercept</string>
-  <string name="sms_contact_block">Contacts Intercept</string>
+  <string name="sms_address">Area blocklist</string>
+  <string name="sms_blacklist">SMS blocklist</string>
+  <string name="sms_cloud_block">Cloud blocklist</string>
+  <string name="sms_contact_block">Block SMS from contacts</string>
   <string name="sms_delete_hint">ลบข้อความที่ถูกบล็อกทั้งหมดจากเลขหมายนี้?</string>
   <string name="sms_delete_title">ลบข้อความ</string>
-  <string name="sms_filter">Smart Filter</string>
-  <string name="sms_keywords">Keyword Blacklist</string>
-  <string name="sms_malicious_url">ลิงก์ URL น่าสงสัย</string>
-  <string name="sms_prefix">Prefix Blacklist</string>
-  <string name="sms_service">Service Intercept</string>
+  <string name="sms_filter">Smart filter</string>
+  <string name="sms_keywords">Keyword blocklist</string>
+  <string name="sms_malicious_url">Block SMS with malicious URLs</string>
+  <string name="sms_prefix">Prefix blocklist</string>
+  <string name="sms_service">Block service SMS</string>
   <string name="sms_smart_engine_update">อัพเดตตัวกรองข้อความโดยอัตโนมัติ</string>
-  <string name="sms_stranger_block">Stranger Intercept</string>
+  <string name="sms_stranger_block">Block SMS from strangers</string>
   <string name="sorted_dialog_title">เรียงตาม</string>
   <string name="sp_background_risk_dialog_summary">, ตรวจสอบและแก้ไขปัญหาการชำระเงิน</string>
   <string name="sp_background_risk_dialog_title">แจ้งเตือน</string>
@@ -1658,6 +1658,8 @@ This activity shortens battery life."</string>
   <string name="sp_empty_title_sign_exception">กดค้างแอปที่ต้องการเพื่อเพิ่มไปยังรายการยกเว้น</string>
   <string name="sp_monitored_apps_count_zero">ไม่มีแอปชำระเงินได้รับการป้องกัน</string>
   <string name="sp_monitored_apps_list_title">การตั้งค่าการตรวจสอบ</string>
+  <string name="sp_network_privacy_dialog_message">"Security app can't work properly because you've restricted the internet connection. Allow Security to connect to the internet?"</string>
+  <string name="sp_network_privacy_dialog_title">"Can't use security scan"</string>
   <string name="sp_scan_item_monitor">ตรวจสอบการชำระเงิน</string>
   <string name="sp_scan_item_url_antispam">การป้องกันจากลิงค์ URL ที่เป็นอันตราย</string>
   <string name="sp_settings_check_item_summary_sign_exception">จัดการลายเซ็นต์รายการยกเว้น</string>
@@ -1675,6 +1677,7 @@ This activity shortens battery life."</string>
   <string name="sp_toast_removed_from_sign_white_list">ลบจากรายการยกเว้น รายการจะถูกสแกนในเวลาถัดไป</string>
   <string name="special_number_group">บล็อกเลขหมายที่มีผู้รายงาน</string>
   <string name="sponsored_sec_fb">ให้การสนับสนุน</string>
+  <string name="ss_activity_main_support_text">Powered by %s</string>
   <string name="st_antispam_black_adress_add">เพิ่มตำแหน่งพิกัด</string>
   <string name="st_antispam_bw_adress_add">เพิ่มตำแหน่งพิกัด</string>
   <string name="st_antispam_bw_choose_modes">เพิ่มในรายการ</string>
@@ -1707,35 +1710,35 @@ This activity shortens battery life."</string>
   <string name="st_antispam_title_null_incoming">เลขหมายส่วนตัว</string>
   <string name="st_antispam_title_service_sms">แจ้งเตือนบริการ</string>
   <string name="st_antispam_title_whitelist">รายการยกเว้น</string>
-  <string name="st_call_backsound_group">BackSound</string>
-  <string name="st_call_intercept_contacts">Intercept calls from contacts</string>
-  <string name="st_call_intercept_forwarding">Intercept forwarding calls</string>
-  <string name="st_call_intercept_reported">Intercept reported calls</string>
-  <string name="st_call_intercept_stranger">Intercept calls from strangers</string>
-  <string name="st_call_intercept_unknown">Intercept calls from unknown numbers</string>
+  <string name="st_call_backsound_group">Blocklist sound</string>
+  <string name="st_call_intercept_contacts">Block calls from contacts</string>
+  <string name="st_call_intercept_forwarding">Block forwarded calls</string>
+  <string name="st_call_intercept_reported">Block calls from reported numbers</string>
+  <string name="st_call_intercept_stranger">Block calls from strangers</string>
+  <string name="st_call_intercept_unknown">Block calls from hidden numbers</string>
   <string name="st_call_other_group">อื่นๆ</string>
-  <string name="st_call_settings">Call Intercept</string>
-  <string name="st_call_stranger_group">Calls From Strangers</string>
+  <string name="st_call_settings">Call blocklist</string>
+  <string name="st_call_stranger_group">Block calls from strangers</string>
   <string name="st_confirm_dialog_btn_open">เปิด</string>
-  <string name="st_confirm_dialog_summary_contact_call">โปรดทราบ! การโทรทั้งหมดจากรายชื่อผู้ติดต่อจะถูกระงับ</string>
-  <string name="st_confirm_dialog_summary_stranger_call">โปรดทราบ! การโทรทั้งหมดจากคนแปลกหน้าจะถูกระงับ</string>
+  <string name="st_confirm_dialog_summary_contact_call">All calls from contacts will be blocked.</string>
+  <string name="st_confirm_dialog_summary_stranger_call">All calls from strangers will be blocked.</string>
   <string name="st_filter_keywords_setting_summary1">ข้อความจากเลขหมายที่ไม่รู้จักที่มีข้อความที่กำหนดไว้ในรายการนี้จะถูกบล็อกตามที่คุณต้องการ</string>
   <string name="st_filter_keywords_setting_summary2">"
 (ใช้เครื่องหมายจุลภาคเพื่อคั่นระหว่างคีย์เวิร์ด)"</string>
-  <string name="st_group_list_management">List Management</string>
+  <string name="st_group_list_management">Manage blocklist</string>
   <string name="st_hint_add_head_number">ป้อนเลขหมายขึ้นต้น</string>
   <string name="st_hint_add_phonenumber">ป้อนหมายเลขโทรศัพท์</string>
   <string name="st_message_SMS_AntiSpam">บล็อก SMS</string>
-  <string name="st_message_SMSpass">Allow Message</string>
+  <string name="st_message_SMSpass">Allow SMS</string>
   <string name="st_message_phone_AntiSpam">บล็อกการโทร</string>
   <string name="st_message_phonepass">อนุญาตการโทร</string>
-  <string name="st_msg_intercept_contacts">Intercept msg from contacts</string>
-  <string name="st_msg_keyword_group">Keywords Blacklist</string>
+  <string name="st_msg_intercept_contacts">Block SMS from contacts</string>
+  <string name="st_msg_keyword_group">Keyword blocklist</string>
   <string name="st_msg_other_group">อื่นๆ</string>
-  <string name="st_msg_settings">Msg Intercept</string>
-  <string name="st_msg_stranger_group">Msg From Strangers</string>
+  <string name="st_msg_settings">SMS blocklist</string>
+  <string name="st_msg_stranger_group">Block SMS from strangers</string>
   <string name="st_settings_name">การตั้งค่ารายการบล็อก</string>
-  <string name="st_share_settings">Share settings with Sim 1</string>
+  <string name="st_share_settings">Use SIM 1 settings</string>
   <string name="st_sub_title_customize_mode_name">ชื่อ</string>
   <string name="st_sub_title_whiteblack_list_group">รายการบล็อก</string>
   <string name="st_sum_call_wait">ระบบจะตั้งเสียงปฏิเสธรับสายเป็นสายไม่ว่างขณะมีการโทรเข้าด้วย</string>
@@ -1745,7 +1748,7 @@ This activity shortens battery life."</string>
   <string name="st_summary_special_numbers">บล็อกหมายเลขโทรศัพท์ที่ติดธงทำเครื่องหมายไว้</string>
   <string name="st_summary_whitelist_numbers">อนุญาตการโทรและข้อความตามหมายเลขและพื้นที่ที่กำหนด</string>
   <string name="st_summary_whitelist_numbers_international">อนุญาตโทรและข้อความเฉพาะหมายเลขที่เจาะจง</string>
-  <string name="st_tab_title">%1$s(ซิม%2$d)</string>
+  <string name="st_tab_title">%1$s (SIM %2$d)</string>
   <string name="st_title_addblacklist">เพิ่มไปยังบัญชีดำ</string>
   <string name="st_title_addwhitelist">เพิ่มไปยังรายการยกเว้น</string>
   <string name="st_title_adress">เพิ่มตำแหน่งพิกัด</string>
@@ -1784,6 +1787,7 @@ This activity shortens battery life."</string>
   <string name="start_downloading_app">กำลังดาวน์โหลด: %1$s</string>
   <string name="start_game">Start</string>
   <string name="start_tc_button">ปรับเทียบ</string>
+  <string name="still_retain_btn">Keep</string>
   <string name="suggest_app_tolock">ข้อเสนอแนะ</string>
   <string name="suggest_scan_again">Complete the scan to avoid security risks.</string>
   <string name="summary_app_lock_disable">ป้องกันข้อมูลของคุณด้วยล็อกแอป</string>
@@ -1824,16 +1828,6 @@ This activity shortens battery life."</string>
   <string name="summary_xiaomi_roaming">0.01 CNY/MB สำหรับการโรมมิ่งข้อมูลมือถือ</string>
   <string name="support_game_booster_tips">Boost speed &amp; improve gaming experience</string>
   <string name="sys_app_prot_cracked_confirm">รับทราบ</string>
-  <string name="sys_app_prot_cracked_login">ลงชื่อเข้าใช้ด้วยบัญชี Mi</string>
-  <string name="sys_app_prot_cracked_text_login">"เวอร์ชั่นปัจจุบันของ MIUI ได้รับการดัดแปลง ซึ่งทำให้อุปกรณ์ของคุณมีความเสี่ยงด้านความปลอดภัย
-
- ตรวจสอบให้แน่ใจเกี่ยวกับแหล่งที่มาของอุปกรณ์และติดต่อกับศูนย์บริการที่ได้รับมอบอำนาจจากทาง Xiaomi"</string>
-  <string name="sys_app_prot_cracked_text_unlogin">"เวอร์ชั่นปัจจุบันของ MIUI ได้รับการดัดแปลง ซึ่งทำให้อุปกรณ์ของคุณมีความเสี่ยงด้านความปลอดภัย
-
-ลงชื่อเข้าใช้ด้วยบัญชี Mi ของคุณเพื่อปิดการแจ้งเตือนนี้
-
-หากคุณไม่ได้ทำการดัดแปลง MIUI ตรวจสอบให้แน่ใจเกี่ยวกับแหล่งที่มาของอุปกรณ์และติดต่อกับศูนย์บริการที่ได้รับมอบอำนาจจากทาง Xiaomi"</string>
-  <string name="sys_app_prot_cracked_title">ความเสี่ยงด้านความปลอดภัย</string>
   <string name="sys_cpu_title">CPU usage</string>
   <string name="sys_freememory_title">Available</string>
   <string name="sys_title_gamebooster_unit_gb">G</string>
@@ -2053,6 +2047,10 @@ This activity shortens battery life."</string>
   <string name="uninstall_app_dialog_msg">เมื่อถอนการติดตั้งแล้วข้อมูลในแอปทั้งหมดจะถูกลบออก</string>
   <string name="uninstall_app_dialog_title">ถอนการติดตั้งตอนนี้?</string>
   <string name="uninstall_app_done">ถอนการติดตั้งเรียบร้อยแล้ว</string>
+  <string name="uninstall_danagerous_btn">Uninstall</string>
+  <string name="uninstall_danagerous_desc">\"%s\" may damage your device</string>
+  <string name="uninstall_danagerous_msg">\"%s\" may damage your device, lower its performance, or cause reboots.</string>
+  <string name="uninstall_danagerous_title">Uninstall malicious app</string>
   <string name="unlike">ไม่ ขอบคุณ</string>
   <string name="unlock_pattern">&lt;u&gt;Pattern&lt;/u&gt;</string>
   <string name="unlock_pattern_to_bind_fingerprint">Enter password to activate fingerprint</string>

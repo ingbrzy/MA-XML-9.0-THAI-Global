@@ -37,7 +37,7 @@
   <string name="error_filename_too_long">ชื่อไฟล์ยาวเกินกำหนด</string>
   <string name="error_sdcard_access">อ่านที่จัดเก็บไม่ได้</string>
   <string name="error_sdcard_unmounted">กรุณาใส่ SD การ์ดตอนนี้</string>
-  <string name="export_to_note">ส่งออกไปยังบันทึกย่อ</string>
+  <string name="export_to_note">Export</string>
   <string name="head_set_tip_dialog_msg">ถอดหูฟังเพื่อให้สามารถบันทึกเสียงได้ด้วยที่ตั้งไว้ที่เฉพาะเจาะจง (e.g., เพลง, เสียง).</string>
   <string name="head_set_tip_dialog_ok">รับทราบ</string>
   <string name="head_set_tip_dialog_title">ใช้ไมค์ภายใน</string>

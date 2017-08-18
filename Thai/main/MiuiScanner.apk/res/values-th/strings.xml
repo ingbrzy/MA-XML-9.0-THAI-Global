@@ -44,6 +44,7 @@
   <string name="document_ocr_result_title">รูปภาพเอกสาร</string>
   <string name="document_ocr_tip_msg">กำลังอ่าน…</string>
   <string name="document_recognize_fail_tip">ไม่สามารถอ่านแล้วเอกสารได้</string>
+  <string name="document_recognize_null_tip">Document result is empty</string>
   <string name="document_rectify">ปรับแต่ง</string>
   <string name="document_rectify_tip_msg">กำลังปรับ…</string>
   <string name="document_save_succeed_tip">เอกสารบันทึกไปยัง %1$s</string>

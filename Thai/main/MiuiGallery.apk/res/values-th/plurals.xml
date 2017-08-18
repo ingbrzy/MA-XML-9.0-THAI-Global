@@ -96,9 +96,6 @@
     <plurals name="cloud_storage_video_num">
         <item quantity="other">%d วิดีโอ</item>
     </plurals>
-    <plurals name="add_to_secret_successful">
-        <item quantity="other">เพิ่ม %1$d รูปภาพไปยังอัลบั้มซ่อนแล้ว</item>
-    </plurals>
     <plurals name="number_of_images_synced">
         <item quantity="other">%1$d รูป</item>
     </plurals>

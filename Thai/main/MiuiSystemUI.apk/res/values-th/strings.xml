@@ -251,6 +251,7 @@
   <string name="dlg_error_title">การดำเนินการ USB ไม่สำเร็จ</string>
   <string name="dlg_ok">ตกลง</string>
   <string name="dock_forced_resizable">App may not work with split-screen.</string>
+  <string name="dock_keyguard_locked_failed_to_dock_text">KeyGuard not support multi window, exit multi window mode.</string>
   <string name="dock_non_resizeble_failed_to_dock_text">App does not support split-screen</string>
   <string name="drive_mode_tip">คุณอยู่ในโหมดขับรถ</string>
   <string name="enable_adb">การแก้ไขข้อบกพร่อง USB</string>
@@ -638,9 +639,11 @@
   <string name="wifi_security_eap">802.1x EAP</string>
   <string name="wifi_security_none">ไม่มี</string>
   <string name="wifi_security_passpoint">Passpoint</string>
+  <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
   <string name="wifi_security_short_WAPI_CERT">WAPI CERT</string>
   <string name="wifi_security_short_WAPI_PSK">WAPI PSK</string>
   <string name="wifi_security_short_eap">802.1x</string>
+  <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
   <string name="wifi_security_short_wep">WEP</string>
   <string name="wifi_security_short_wpa">WPA</string>
   <string name="wifi_security_short_wpa2">WPA2</string>

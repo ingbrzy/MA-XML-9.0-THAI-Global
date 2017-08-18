@@ -108,6 +108,7 @@
   <string name="pref_camera_autoexposure_entry_frameaverage">เฉลี่ยทั้งภาพ</string>
   <string name="pref_camera_autoexposure_entry_spotmetering">วัดแสงเฉพาะจุด</string>
   <string name="pref_camera_autoexposure_title">การวัดแสงอัตโนมัติ</string>
+  <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
   <string name="pref_camera_beautify_entry_high">สูง</string>
   <string name="pref_camera_beautify_entry_low">ต่ำ</string>
   <string name="pref_camera_beautify_entry_normal">ปานกลาง</string>
@@ -232,6 +233,7 @@
   <string name="pref_camera_picturesize_entry_4208x3120">13M(4208x3120)</string>
   <string name="pref_camera_picturesize_entry_fullscreen">เต็มหน้าจอ 16:9</string>
   <string name="pref_camera_picturesize_entry_standard">มาตรฐาน 4:3</string>
+  <string name="pref_camera_picturesize_entry_widescreen">@string/pref_camera_picturesize_entry_fullscreen</string>
   <string name="pref_camera_picturesize_title_simple_mode">อัตราส่วนภาพ</string>
   <string name="pref_camera_portrait_mode_entry_off">โหมดถ่ายภาพคนปิดอยู่</string>
   <string name="pref_camera_portrait_mode_entry_on">โหมดถ่ายภาพคนเปิดอยู่</string>

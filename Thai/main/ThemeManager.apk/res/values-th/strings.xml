@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-  <string name="account_info">บัญชีของฉัน</string>
+  <string name="account_info">Me</string>
   <string name="account_name_not_login">เข้าสู่ระบบ</string>
   <string name="account_unactivated">บัญชียังไม่ได้เปิดใช้</string>
   <string name="ad_app_download_start">กำลังดาวน์โหลด…</string>
@@ -24,6 +24,11 @@
   <string name="both_all_apply_failured">ไม่สามารถใช้ภาพพื้นหลังนี้ได้</string>
   <string name="both_all_apply_success">ใช้งานภาพพื้นหลังแล้ว</string>
   <string name="browser_local_resource">แหล่งข้อมูลในเครื่อง</string>
+  <string name="can_not_apply">Can not apply</string>
+  <string name="card_data_request_error">Data request exception, please try again later~</string>
+  <string name="card_loading">Loading...</string>
+  <string name="card_no_network">No network now, please connect and try again~</string>
+  <string name="card_retry">Retry</string>
   <string name="change_host_hint">เปลี่ยนโฮสต์</string>
   <string name="change_wallpaper">ภาพพื้นหลัง</string>
   <string name="close">ปิด</string>
@@ -52,6 +57,7 @@
   <string name="fail_to_add_account">ไม่สามารถเพิ่มบัญชีได้</string>
   <string name="favorite_list">รายการโปรด</string>
   <string name="favorite_list_format">%1$s รายการโปรด</string>
+  <string name="find_more_wallpapers">Find more</string>
   <string name="gift_anonymous">ไม่ระบุชื่อ</string>
   <string name="gift_operation_fail_dlg_abandon">ยกเลิก</string>
   <string name="gift_operation_fail_dlg_retry">ลองอีกครั้ง</string>
@@ -86,14 +92,21 @@
   <string name="gift_used">ส่งไปแล้ว</string>
   <string name="home_apply_failured">ไม่สามารถเรียกใช้งานภาพพื้นหลังหน้าจอหลักได้</string>
   <string name="home_apply_success">ใช้งานภาพพื้นหลังหน้าจอหลักแล้ว</string>
-  <string name="incompatible_dialog_message">ธีมดังกล่าวไม่รองรับ MIUI 8 โดยสมบูรณ์ องค์ประกอบบางอย่างอาจแสดงได้ไม่ถูกต้อง</string>
+  <string name="in_the_end">No more</string>
+  <string name="incompatible_dialog_message">This theme isnt fully compatible with MIUI 9. Some elements may be displayed incorrectly.</string>
   <string name="incompatible_dialog_ok">รับทราบ</string>
   <string name="incompatible_dialog_title">ปัญหาความเข้ากันได้</string>
   <string name="is_setting_wallpaper_message">กำลังตั้งค่าภาพพื้นหลัง…</string>
+  <string name="item_resource_audio_divider">│</string>
+  <string name="item_resource_audio_optional_alarm_ring">alarm ring</string>
+  <string name="item_resource_audio_optional_color_ring">color ring</string>
+  <string name="item_resource_audio_optional_notification_ring">notification ring</string>
+  <string name="item_resource_audio_optional_phone_ring">phone ring</string>
   <string name="live_wallpaper">ภาพเคลื่อนไหว</string>
   <string name="loading">รอสักครู่…</string>
   <string name="loading_resource_detail_fail">ไม่สามารถโหลดข้อมูล</string>
   <string name="loading_resource_detail_info">รอสักครู่…</string>
+  <string name="local_photos">Local photos</string>
   <string name="local_resouce_creator_name">นักพัฒนา: %1$s</string>
   <string name="lockscreen_apply_failured">นำภาพพื้นหลังไปใช้บนหน้าจอล็อกไม่ได้</string>
   <string name="lockscreen_apply_failured_but_home_apply_success">ใช้งานภาพพื้นหลังหน้าจอหลักแล้ว แต่ไม่สามารถเรียกใช้งานภาพพื้นหลังหน้าจอล็อกได้</string>
@@ -128,6 +141,7 @@
   <string name="purchased_list">ซื้อแล้ว</string>
   <string name="purchased_list_current">MIUI 8</string>
   <string name="purchased_list_legacy">ธีมที่ซื้อไว้</string>
+  <string name="recently_used">Recently used</string>
   <string name="reload">ลองอีกครั้ง</string>
   <string name="resource_account_abnormal_state">บัญชีผิดพลาด รอประมาณ 1-2 นาทีแล้วลองใหม่อีกครั้ง</string>
   <string name="resource_account_fail_to_add">ไม่สามารถเพิ่มบัญชีได้</string>
@@ -265,6 +279,10 @@
   <string name="resource_ranking">ยอดนิยม</string>
   <string name="resource_ranking_free">ฟรี</string>
   <string name="resource_ranking_purchase">ซื้อไว้</string>
+  <string name="resource_ring_ranking_list_divider">-</string>
+  <string name="resource_ring_ranking_list_rank_1">1</string>
+  <string name="resource_ring_ranking_list_rank_2">2</string>
+  <string name="resource_ring_ranking_list_rank_3">3</string>
   <string name="resource_ringtone_default">เสียงเรียกเข้า</string>
   <string name="resource_ringtone_playing_error">ผิดพลาด</string>
   <string name="resource_ringtone_volume_mute">ปิดเสียงอยู่</string>
@@ -320,12 +338,14 @@
   <string name="resource_user_know">ตกลง</string>
   <string name="resource_waiting_download">กำลังรอ</string>
   <string name="resource_waiting_pause">หยุดพัก</string>
+  <string name="ringtone_set_success">Set successfully</string>
   <string name="sdcard_not_mounted_dialog_message">"กรุณาใส่ SD การ์ด
 "</string>
   <string name="sdcard_not_mounted_dialog_title">ไม่พบการ์ด SD</string>
   <string name="search_hint_header_text">คำค้นยอดนิยม</string>
   <string name="selected_resource_file_invalid">ไม่สามารถใช้งานไฟล์ที่เลือกได้</string>
   <string name="settings">การตั้งค่า</string>
+  <string name="system_precust">System precust</string>
   <string name="the_picture_is_not_support">ไม่รองรับรูปภาพนี้</string>
   <string name="the_picture_is_too_small">รูปภาพเล็กเกินไป</string>
   <string name="theme_apply_audio_dialog_item_alarm">การปลุก</string>
@@ -398,7 +418,7 @@
   <string name="theme_user_agreement_content3"> และ </string>
   <string name="theme_user_agreement_content4">นโยบายความเป็นส่วนตัว</string>
   <string name="theme_user_agreement_content5">" การใช้งานแอปนี้ต้องเชื่อมต่อกับอินเตอร์เน็ตในการทำงานตามปกติ "</string>
-  <string name="theme_user_agreement_exit">ออก</string>
+  <string name="theme_user_agreement_exit">Disagree</string>
   <string name="theme_user_agreement_remind_again">แสดงข้อตกลงและเงื่อนไขการใช้งาน</string>
   <string name="theme_user_agreement_remind_never">ไม่ต้องแสดงอีก</string>
   <string name="theme_user_agreement_remind_summary">แสดงข้อตกลงและเงื่อนไขการใช้งานทุกครั้งที่เปิดธีม การตั้งค่านี้จะมีผลหลังจากที่คุณรีบูตเครื่องแล้ว</string>
@@ -415,7 +435,7 @@
   <string name="uid_change_dialog_message">คุณได้ลบการอัพเดต กรุณารีบูตอุปกรณ์เพื่อสามารถใช้ธีมได้</string>
   <string name="uid_change_dialog_ok">รับทราบ</string>
   <string name="uid_change_dialog_title">รีบูตอุปกรณ์</string>
-  <string name="wallpaper_auto_change_title">หน้าจอล็อค</string>
+  <string name="wallpaper_apply">Apply</string>
   <string name="wallpaper_crop">ตัดภาพ</string>
   <string name="wallpaper_decoded_error">ไม่สามารถโหลดภาพพื้นหลังได้</string>
   <string name="wallpaper_scroll_type_tips">การเลื่อนภาพพื้นหลัง</string>
@@ -423,8 +443,8 @@
   <string name="wallpaper_set_as_destop">ตั้งค่าเป็นหน้าจอหลัก</string>
   <string name="wallpaper_set_as_lockscreen">ตั้งเป็นหน้าจอล็อก</string>
   <string name="wallpaper_settings">การตั้งค่าภาพพื้นหลัง</string>
-  <string name="wallpaper_settings_change_wallpaper">เปลี่ยน</string>
-  <string name="wallpaper_settings_desktop_text">หน้าจอหลัก</string>
-  <string name="wallpaper_settings_lockscreen_text">หน้าจอล็อค</string>
+  <string name="wallpaper_settings_loading_text">Loading</string>
+  <string name="wallpaper_settings_no_history">No history</string>
+  <string name="wallpaper_settings_pad_more_page_title">More wallpapers</string>
   <string name="wallpaper_settings_page_title">ภาพพื้นหลัง</string>
 </resources>

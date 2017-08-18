@@ -167,6 +167,7 @@
   <string name="color_picker_dialog_title">เลือกสี</string>
   <string name="color_picker_hue">โทนสี</string>
   <string name="color_picker_saturation">ความอิ่มสี</string>
+  <string name="color_picker_value">ค่าสี</string>
   <string name="comment_app_menu">ข้อคิดเห็น</string>
   <string name="comment_description">ความคิดเห็น</string>
   <string name="comment_hint">ความคิดเห็น</string>
@@ -479,6 +480,8 @@
   <string name="miuichromium_error_page_suggestion_check_wifi_proxy" formatted="false">(WiFi) ตรวจสอบ %s1การตั้งค่าพร็อกซี่%s2 ว่าถูกต้อง</string>
   <string name="miuichromium_error_page_suggestion_clear_cache" formatted="false">ล้างหน่วยความจำแคช (%s1Settings%s2 - ล้างข้อมูล).</string>
   <string name="miuichromium_error_page_suggestion_clear_cache_and_cookies" formatted="false">ล้างหน่วยความจำแคชและคุ้กกี้ (%s1การตั้งค่า%s2 - ล้างข้อมูล) นี่อาจทำให้ข้อมูลการเข้าใช้ต่างๆของคุณหายไป</string>
+  <string name="miuichromium_error_page_suggestion_clear_cache_and_cookies_no_invoke">Clear cache and cookies (your account info may be lost).</string>
+  <string name="miuichromium_error_page_suggestion_clear_cache_no_invoke">Clear cache.</string>
   <string name="miuichromium_error_page_suggestion_connect_and_retry">โหลดใหม่หลังจากเชื่อมต่ออินเตอร์เน็ต</string>
   <string name="miuichromium_error_page_suggestion_contact_admin">ติดต่อแอดมินระบบของคุณ</string>
   <string name="miuichromium_error_page_suggestion_correct_url">ตรวจสอบและป้อนที่อยู่ URL ที่ถูกต้องใหม่</string>
@@ -658,6 +661,7 @@
   <string name="pull_to_refresh_pull_label">ลางลงเพื่อรีเฟรช</string>
   <string name="pull_to_refresh_release_label">ปล่อยเพื่อทำการแนะนำและรีเฟรช</string>
   <string name="qr_code_title">รหัส QR</string>
+  <string name="qr_description">Scan QR code</string>
   <string name="quicklink_bookmark_save">บันทึกไปยัง</string>
   <string name="quicklink_cannot_save_url">ไม่สามารถเพิ่มหน้าลิงก์ URL นี้ได้</string>
   <string name="quicklink_folder_text">แอปยอดนิยม</string>
@@ -756,8 +760,8 @@
   <string name="send_comment_title">ข้อคิดเห็น</string>
   <string name="senddesktop">หน้าจอหลัก</string>
   <string name="sendstartpage">หน้าเริ่มต้น</string>
-  <string name="share_image_text">ดูซิฉันพบอะไร!</string>
-  <string name="share_page_text">ดูซิว่าฉันพบอะไร: %1$s | %2$s</string>
+  <string name="share_image_text">Look what I shared! @MIUI</string>
+  <string name="share_page_text">Look what I shared: %1$s @MIUI| %2$s</string>
   <string name="show_check_security_url_check_tip_dialog_description">เบราว์เซอร์ต้องการเชื่อมต่ออินเตอร์เน็ตเพื่อให้ทำงานได้ตามปกติ เพื่อปรับปรุงความปลอดภัยและรับข้อเสนอแนะที่เกี่ยวเนื่องกันเพิ่มเติม กรุณาอนุญาตเบราว์เซอร์เพื่อรับ URL ของเว็บไซต์ที่คุณได้เยี่ยมชมและเข้าถึงข้อมูลตำแหน่งพิกัดของคุณ</string>
   <string name="show_check_security_url_check_tip_dialog_description_international">เบราว์เซอร์ต้องการเชื่อมต่ออินเตอร์เน็ตเพื่อให้ทำงานได้ตามปกติ เพื่อรับข้อเสนอแนะที่เกี่ยวเนื่องกันเพิ่มเติม กรุณาอนุญาตเบราว์เซอร์เพื่อรับ URL ของเว็บไซต์ที่คุณได้เยี่ยมชมและเข้าถึงข้อมูลตำแหน่งพิกัดของคุณ</string>
   <string name="show_security_tip_dialog_title">เงื่อนไขการให้บริการ</string>
@@ -767,12 +771,13 @@
   <string name="skip_current_version">ข้ามเวอร์ชั่นนี้</string>
   <string name="snapshot">ในเครื่อง</string>
   <string name="snapshot_failed">บันทึกหน้าเพจไม่สำเร็จ</string>
-  <string name="snapshot_successed">บันทึกหน้าเพจเรียบร้อยแล้ว</string>
+  <string name="snapshot_successed">Open Bookmarks/History-&gt;LOCAL to view page</string>
   <string name="ssl_bad_clock_date_settings">ตั้งวันที่</string>
   <string name="ssl_bad_clock_warning" formatted="false">การเชื่อมต่อส่วนตัวไปยัง %s1 ไม่สามารถสร้างได้เนื่องจากวันที่และเวลาของอุปกรณ์ (%s2) ไม่ถูกต้อง</string>
   <string name="ssl_certificate">ใบรับรองความปลอดภัย</string>
   <string name="ssl_certificate_is_valid">ใบรับรองนี้ถูกต้อง</string>
   <string name="ssl_continue">ดำเนินการต่อ</string>
+  <string name="ssl_date_error_warnings_header">"The certificate of this site has expired or isn't valid yet. You are advised to leave this page.\""</string>
   <string name="ssl_date_invalid">วันที่ที่ปรากฎในใบรับรองนี้ไม่ถูกต้อง</string>
   <string name="ssl_expired">ใบรับรองนี้หมดอายุแล้ว</string>
   <string name="ssl_go_back">ย้อนกลับไป</string>
@@ -905,6 +910,7 @@
   <string name="view_document_downloaded_files">เรียกดูไฟล์ที่ดาวน์โหลดไว้ในดาวน์โหลด</string>
   <string name="voice_check_network">ตรวจสอบการตั้งค่าเครือข่ายของคุณแล้วลองใหม่อีกครั้ง</string>
   <string name="voice_connect_network">ไม่สามารถเชื่อมต่อเครือข่ายได้</string>
+  <string name="voice_description">Voice search</string>
   <string name="voice_network_connection">ค้นหาด้วยเสียงจำเป็นต้องเชื่อมต่ออินเตอร์เน็ตเพื่อให้ใช้งานได้ตามปกติ</string>
   <string name="voice_search_permission">การค้นหาด้วยเสียงจำเป็นต้องเข้าถึงไมค์ของคุณเพื่อให้ทำงานได้</string>
   <string name="voice_semantic_analysis">เบราว์เซอร์จะสามารถวิเคราะห์ความหมายได้หลังจากที่คุณอนุญาตให้เชื่อมต่อ</string>

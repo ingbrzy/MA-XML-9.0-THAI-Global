@@ -25,6 +25,7 @@
   <string name="input_password_after_boot_msg">เพื่อปลดล็อกอุปกรณ์ กรุณาป้อนรหัสผ่าน</string>
   <string name="input_password_after_boot_msg_can_not_switch_when_calling">ไม่สามารถสลับระหว่างพื้นที่ขณะโทรได้</string>
   <string name="input_password_after_boot_msg_must_enter_owner_space">คุณจำเป็นต้องเข้าสู่พื้นที่ปกติก่อนที่อุปกรณ์จะทำการรีบูต</string>
+  <string name="input_password_handle_sdcard_fs">进入分身前需要在开发者选项中关闭“模拟SD卡优化”</string>
   <string name="input_password_hint_text">ป้อนรหัสผ่าน</string>
   <string name="input_pattern_hint_text">วาดรูปแบบของคุณเพื่อปลดล็อก:</string>
   <string name="input_pin_code">ป้อนรหัส PIN</string>
@@ -88,13 +89,14 @@
   <string name="open_camera_hint_text">ปัดไปทางซ้ายเพื่อเปิดกล้อง</string>
   <string name="open_remote_center_hint_text">Swipe right to open mi remote</string>
   <string name="phone_locked_foget_password">ลืมรหัสผ่าน?</string>
-  <string name="phone_locked_foget_password_content">"คุณสามารถลงชื่อเข้าใช้ i.mi.com โดยใช้บัญชี Mi ซึ่งมีความเกี่ยวข้องกับอุปกรณ์นี้และล้างข้อมูลทั้งหมด          กระบวนการนี้จะลบข้อมูลส่วนบุคคลทั้งหมดที่เก็บไว้ในอุปกรณ์นี้ หลังจากนี้คุณสามารถรีบูตเครื่องและเรียกคืนรายชื่อ, ข้อความ, ภาพถ่าย, และรายการอื่น ๆ จาก Mi คลาวด์          
-
-คุณจะไม่สามารถที่จะทำได้ ถ้าคุณไม่ได้ลงชื่อเข้าใช้บัญชี Mi ของคุณ บนอุปกรณ์นี้ มิฉะนั้นคุณจะต้องแฟลชอุปกรณ์อีกครั้ง"</string>
-  <string name="phone_locked_foget_password_footer">"ขั้นตอน:
- เข้าสู่ระบบ i.mi.com ให้ไปที่ \"ค้นหาอุปกรณ์\" เลือกอุปกรณ์และกด \"ลบอุปกรณ์\""</string>
-  <string name="phone_locked_foget_password_header">ฉันควรทำอย่างไรเมื่อลืมรหัสผ่าน?</string>
+  <string name="phone_locked_foget_password_mehod_back">Back</string>
+  <string name="phone_locked_foget_password_method">Forgot password?</string>
+  <string name="phone_locked_foget_password_method_content">&lt;Data&gt;You have to &amp;lt;font color=#a5220e&amp;gt;erase all data &amp;lt;/font&amp;gt; on your device, including photos and contacts, and then set a new Lock screen password.&lt;/Data&gt;</string>
+  <string name="phone_locked_foget_password_method_next">Next</string>
   <string name="phone_locked_foget_password_ok">รับทราบ</string>
+  <string name="phone_locked_forget_password_suggesstion_one_content">&lt;Data&gt;Power off your device, press and hold the &amp;lt;font color=#a5220e&amp;gt;Power button &amp;lt;/font&amp;gt; and the &amp;lt;font color=#a5220e&amp;gt;Volume up button &amp;lt;/font&amp;gt;simultaneously until you see ml.&lt;/Data&gt;</string>
+  <string name="phone_locked_forget_password_suggesstion_two_content">&lt;Data&gt;Select &amp;lt;font color=#a5220e&amp;gt;\"Wipe &amp;amp;amp; Reset\"&amp;lt;/font&amp;gt; and wait until the device reboots.&lt;/Data&gt;</string>
+  <string name="phone_locked_forget_password_suggesstions_title">How to erase data?</string>
   <string name="phone_locked_string">โทรศัพท์ถูกล็อก</string>
   <string name="phone_locked_timeout_minutes_string">ลองอีกครั้งใน %d นาที</string>
   <string name="phone_locked_timeout_seconds_string">ลองอีกครั้งใน %d วินาที</string>

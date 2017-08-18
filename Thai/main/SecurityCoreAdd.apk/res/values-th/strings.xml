@@ -179,6 +179,7 @@
   <string name="scanner_fingerprint_tips_desc">เลือกลายนิ้วมือที่มีอยู่สำหรับการเข้าสู่พื้นที่ทับซ้อน คุณจะไม่สามารถใช้ลายนิ้วมือนี้ในพื้นที่ปกติได้</string>
   <string name="scanner_fingerprint_tips_title">เข้าสู่พื้นที่ทับซ้อนโดยใช้ลายนิ้วมือที่มีอยู่</string>
   <string name="scanner_second_space_fingerprint">สแกนลายนิ้วมือพื้นที่ทับซ้อน</string>
+  <string name="sdcardfs_dialog_message">进入分身前需要在开发者选项中关闭”模拟SD卡优化“</string>
   <string name="search_input_txt_na">"&lt;font color='#ff0000'&gt;%s&lt;/font&gt;"</string>
   <string name="search_result_text">"Couldn't find any apps"</string>
   <string name="secondSpace">พื้นที่ทับซ้อน</string>

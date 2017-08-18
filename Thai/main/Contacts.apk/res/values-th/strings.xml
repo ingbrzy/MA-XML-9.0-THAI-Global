@@ -88,6 +88,7 @@
   <string name="call_radio">โทรวิทยุ</string>
   <string name="call_record_setting_miui">การตั้งค่าการบันทึก</string>
   <string name="call_settings">การตั้งค่า</string>
+  <string name="call_settings_primary_user_only">Call settings can only be changed by the primary user.</string>
   <string name="call_sim1_description">ซิม 1</string>
   <string name="call_sim1_menu_title">โทรซิม 1</string>
   <string name="call_sim2_description">ซิม 2</string>
@@ -669,6 +670,7 @@
   <string name="miprofile_contact_header">รายชื่อที่เพิ่มนามบัตรได้</string>
   <string name="miprofile_contact_meaasge">รายชื่อในเครื่อง</string>
   <string name="miprofile_contact_verifying">กำลังยืนยัน</string>
+  <string name="miprofile_delete_alertdialog_message">@string/miprofile_switch_off_alertdialog_message</string>
   <string name="miprofile_edit_title">แก้ไขข้อมูลส่วนตัว</string>
   <string name="miprofile_error_accept_self">ไม่สามารถแลกนามบัตรกับตนเองได้</string>
   <string name="miprofile_error_no_miaccount">ลงชื่อเข้าใช้บัญชี Mi ของคุณ</string>
@@ -867,6 +869,8 @@
   <string name="path_wipe_data">แอประบบ/รายชื่อ/จัดการรายชื่อ/ล้างข้อมูล</string>
   <string name="payphone">โทรศัพท์สาธารณะ</string>
   <string name="people">รายชื่อ</string>
+  <string name="percent_sign">%</string>
+  <string name="percentage">%s%%</string>
   <string name="phoneLabelsGroup">โทรศัพท์</string>
   <string name="phone_info_divider">" ｜ "</string>
   <string name="phone_number_too_long_toast">หมายเลขยาวเกินไป</string>
@@ -1148,6 +1152,10 @@
   <string name="strequentList">รายการโปรด</string>
   <string name="success_message_import_from_account">นำเข้ารายชื่อแล้ว</string>
   <string name="summary_kind_title">สรุป</string>
+  <string name="t9_search_empty_create_contact">New contact</string>
+  <string name="t9_search_empty_edit_contact">Add to contact</string>
+  <string name="t9_search_empty_send_sms">Send message</string>
+  <string name="t9_search_empty_video_call">Video call</string>
   <string name="t9_search_guide_pinyin_title1">ป้อนเลขหมายเพื่อค้นหารายชื่อ</string>
   <string name="t9_search_guide_pinyin_title2">ป้อน \"9\" และ \"4\" เพื่อค้นหา \"&lt;font fgcolor=""&gt;X&lt;/font&gt;avier &lt;font fgcolor=""&gt;H&lt;/font&gt;enry\"</string>
   <string name="t9_search_guide_zhuyin_title1">ป้อนเลขหมายเพื่อค้นหารายชื่อ</string>
@@ -1179,10 +1187,12 @@
   <string name="type_outgoing">สายโทรออก</string>
   <string name="type_voicemail">ข้อความเสียง</string>
   <string name="unable_get_device_id">ไม่สามารถขอรับ IMEI</string>
+  <string name="unfold_all">unfold all</string>
   <string name="unknow_phone_number_call_failed">ไม่สามารถโทรออกไปยังหมายเลขที่ไม่รู้จัก</string>
   <string name="unknow_phone_number_mms_failed">ไม่สามารถส่งข้อความถึงหมายเลขที่ไม่รู้จัก</string>
   <string name="unknown">ไม่รู้จัก</string>
   <string name="unknown_contact_name">รายชื่อที่ไม่รู้จัก</string>
+  <string name="unknown_details_new_contact">New contact</string>
   <string name="update_sim_contact_photo_toast">ไม่สามารถตั้งค่ารูปภาพโปรไฟล์จากรายชื่อซิมได้</string>
   <string name="upgrade_in_progress">กำลังอัพเดทรายชื่อผู้ติดต่อ</string>
   <string name="upgrade_out_of_memory">"รายชื่ออยู่ระหว่างขั้นตอนการอัปเกรด 

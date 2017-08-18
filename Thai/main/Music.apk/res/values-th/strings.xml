@@ -109,9 +109,6 @@
   <string name="cancel_running_download">ยกเลิก</string>
   <string name="change_download_quality">แก้ไขคุณภาพการดาวน์โหลด</string>
   <string name="channel_list_fragment_title">วิทยุ</string>
-  <string name="chinese_female">ศิลปินหญิง (จีน)</string>
-  <string name="chinese_group">วง (จีน)</string>
-  <string name="chinese_male">ศิลปินชาย (จีน)</string>
   <string name="choose_download_quality">เลือกคุณภาพการดาวน์โหลด</string>
   <string name="choose_stream_quality">เลือกคุณภาพการรับฟัง</string>
   <string name="click_modify">แตะเพื่อแก้ไขเนื้อเพลง</string>
@@ -124,8 +121,6 @@
   <string name="cloud_loading_message">กำลังค้นหาเพลง…</string>
   <string name="cloud_music">เพลงใน Mi คลาวด์</string>
   <string name="cloud_settings">ซิงค์ค่าที่ตั้งไว้</string>
-  <string name="cloud_space_full">ไม่เหลือพื้นที่ว่างแล้ว</string>
-  <string name="cloud_space_full_message">พื้นที่บน Mi คลาวด์ของคุณเต็มแล้ว ไม่สามารถเพิ่มเพลงได้อีก อัพเกรดบัญชี Mi ของคุณเพื่อขอรับพื้นที่เพิ่มเติม</string>
   <string name="cloud_state_cloud_space_full">ที่จัดเก็บข้อมูล Mi คลาวด์ ไม่เพียงพอ การสำรองข้อมูลหยุดชั่วคราว</string>
   <string name="cloud_state_low_power">เสียบสายชาร์จเพื่อสำรองข้อมูลต่อ</string>
   <string name="cloud_state_network_data">ไม่พบเครือข่าย Wi-Fi การสำรองข้อมูลหยุดชั่วคราว</string>
@@ -209,7 +204,6 @@
   <string name="disable_auto_payment_success_message">ปิดใช้การต่ออายุโดยอัตโนมัติ หลังจากสมาชิกปัจจุบันของคุณหมดอายุ คุณจะต้องสมัครสมาชิกใหม่อีกครั้งเพื่อดาวน์โหลดเพลง</string>
   <string name="disallow_add_to_fm">ไม่สามารถเพิ่มเพลงไปยังวิทยุ FM</string>
   <string name="disallow_add_to_personal_radio">ไม่สามารถเพิ่มเพลงไปยังวิทยุส่วนตัว</string>
-  <string name="do_not_remind_again">ไม่ต้องแสดงอีก</string>
   <string name="doc_filter">เอกสาร</string>
   <string name="done">เสร็จสิ้น</string>
   <string name="download">ดาวน์โหลด</string>
@@ -303,9 +297,6 @@
   <string name="enable_auto_payment_success">ต่ออายุโดยอัตโนมัติ</string>
   <string name="enable_auto_payment_success_message">เปิดใช้การต่ออายุโดยอัตโนมัติ การชำระเงินครั้งหน้าวันที่ %s</string>
   <string name="enabled">เปิดใช้งาน</string>
-  <string name="english_female">ศิลปินหญิง (อเมริกัน/ยุโรป)</string>
-  <string name="english_group">วง (อเมริกัน/ยุโรป)</string>
-  <string name="english_male">ศิลปินชาย (อเมริกัน/ยุโรป)</string>
   <string name="enter_garbage_clean">ทำความสะอาดพื้นที่จัดเก็บภายใน</string>
   <string name="eq_auto">กำหนดเอง</string>
   <string name="eq_blues">บลูส์</string>
@@ -342,7 +333,6 @@
   <string name="favorites">รายการชื่นชอบ</string>
   <string name="favourite_music_left_half">หากต้องการเพิ่มเพลงใส่ในรายการเพลงนี้ แตะที่</string>
   <string name="favourite_music_right_half">ไอคอนเพลงโปรดอยู่ด้านขวาของชื่อเพลงแต่ละเพลง</string>
-  <string name="female_artist">ศิลปินหญิง</string>
   <string name="file_not_found">ไม่พบไฟล์นี้</string>
   <string name="filter_by_duration">ตามความยาว</string>
   <string name="filter_by_duration_format">%2$dน %5$2dวิ</string>
@@ -398,7 +388,6 @@
   <string name="global_search_title_movie">เพลงประกอบภาพยนตร์</string>
   <string name="global_search_title_prenatal">เพลงกล่อม</string>
   <string name="global_search_title_radar">การตรวจจับเพลง</string>
-  <string name="group_artist">วง</string>
   <string name="handle_later">ภายหลัง</string>
   <string name="higher_quality_music">เสียงคุณภาพสูง</string>
   <string name="higher_quality_music_summary">รับฟังและดาวน์โหลดเพลงที่มีบิตเรทสูงกว่า</string>
@@ -425,9 +414,6 @@
   <string name="is_scanning">กำลังตรวจสอบพื้นที่จัดเก็บ</string>
   <string name="is_scanning_support_online">"กำลังตรวจสอบที่จัดเก็บ…
 (ระหว่างรอคุณสามารถฟังเพลงออนไลน์ได้)"</string>
-  <string name="japan_korea_female">ศิลปินหญิง (ญี่ปุ่น/เกาหลี)</string>
-  <string name="japan_korea_group">วง (ญี่ปุ่น/เกาหลี)</string>
-  <string name="japan_korea_male">ศิลปินชาย (ญี่ปุ่น/เกาหลี)</string>
   <string name="keep_queued_download">เก็บไว้</string>
   <string name="ktv_playlist">รายการเพลง KTV</string>
   <string name="latest_song">ประวัติการเล่น (%d)</string>
@@ -459,7 +445,6 @@
   <string name="lyric_is_empty">ไม่พบเนื้อเพลง</string>
   <string name="lyric_open_other_connect">ดาวน์โหลดเนื้อเพลงผ่านเครือข่ายข้อมูลมือถือ</string>
   <string name="lyric_setting">การตั้งค่าเนื้อเพลง</string>
-  <string name="male_artist">ศิลปินชาย</string>
   <string name="manager_cloud_space">จัดการที่จัดเก็บข้อมูล Mi คลาวด์</string>
   <string name="media_filter">สื่อมีเดีย</string>
   <string name="menu_all_task_pause">พักชั่วคราวทั้งหมด</string>
@@ -565,7 +550,6 @@
   <string name="no_song_downloaded">ไม่สามารถเชื่อมต่อกับเซิร์ฟเวอร์ได้</string>
   <string name="normal_quality">ดี</string>
   <string name="not_login">ยังไม่ลงชื่อเข้าใช้</string>
-  <string name="not_now">ไม่ใช่ตอนนี้</string>
   <string name="not_selected">กรุณาเลือกเพลง</string>
   <string name="notif_text_engine_off">ตัวเร่งดาวน์โหลด Xunlei ปิดใช้งานอยู่</string>
   <string name="notif_text_engine_on">กำลังเร่งดาวน์โหลด…</string>
@@ -884,7 +868,6 @@
   <string name="upgrade">อัพเกรด:</string>
   <string name="upgrade_force">ระบบได้หยุดการให้บริการรับฟังเพลงเนื่องจากข้อขัดข้องทางลิขสิทธิ์ กรุณาอัพเดทแอปเพลงเวอร์ชั่นล่าสุดเพื่อใช้ในการรับฟังเพลงคุณภาพสูง</string>
   <string name="upgrade_immediate">อัพเดทตอนนี้</string>
-  <string name="upgrade_membership">รับพื้นที่เพิ่มเติม</string>
   <string name="upgrade_music">อัพเดทเพลง</string>
   <string name="upgrade_music_message">ไฟล์อัพเดทพร้อมแล้ว รีสตาร์ทเพื่ออัพเดท</string>
   <string name="upgrade_nobeta">ระบบได้หยุดการให้บริการรับฟังเพลงลงเนื่องจากข้อขัดข้องด้านลิขสิทธิ์ ขออภัยในความไม่สะดวก ณ ที่นี้ :(</string>
