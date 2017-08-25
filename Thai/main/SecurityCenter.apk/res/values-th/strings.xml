@@ -450,7 +450,6 @@
   <string name="card_main_private_space_summary">การใช้พื้นที่ทับซ้อนเปรียบได้กับการมีมือถือสองเครื่อง</string>
   <string name="card_main_private_space_title">พื้นที่ทับซ้อน</string>
   <string name="card_main_sectool_title">เครื่องมือ</string>
-  <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
   <string name="card_main_xspace_action">สร้าง</string>
   <string name="card_main_xspace_summary">สร้างบัญชีโคลนสำหรับแอปต่างๆ</string>
   <string name="card_main_xspace_title">แอปโคลน</string>

@@ -618,7 +618,6 @@
   <string name="people_mark_mode_title_no_mark_name">เลือกสักคน</string>
   <string name="people_page_label">บุคคล</string>
   <string name="people_page_unname">ไม่มีชื่อ</string>
-  <string name="percent_sign">%</string>
   <string name="pet_album_display_name">รูปภาพสัตว์เลี้ยง</string>
   <string name="petabyteShort">PB</string>
   <string name="photo">รูปภาพ</string>
@@ -753,8 +752,6 @@
   <string name="search_title_recommend">แนะนำ</string>
   <string name="search_title_suggestion">ข้อเสนอแนะ</string>
   <string name="search_title_tag">สิ่งของ</string>
-  <string name="search_transition_element_icon">search_icon</string>
-  <string name="search_transition_element_input">search_input</string>
   <string name="secret_album_card_description">ที่ที่ดีที่สุดสำหรับความลับทั้งหมดของคุณ</string>
   <string name="secret_album_card_title">เปิดอัลบั้มที่ซ่อนไว้</string>
   <string name="secret_album_display_name">อัลบั้มซ่อน</string>
@@ -953,7 +950,6 @@
   <string name="view_by_gallery_tip">คลังภาพ MIUI</string>
   <string name="view_face_album">ดูอัลบั้ม</string>
   <string name="view_queuing_status">ตรวจสอบสถานะ</string>
-  <string name="welcome_to_auto_backup">@string/welcome_to_micloud</string>
   <string name="welcome_to_micloud">ยินดีต้อนรับสู่ Mi คลาวด์</string>
   <string name="welcome_to_slim">ปรับแต่งพื้นที่จัดเก็บในเครื่อง</string>
   <string name="where_is_barcode">รหัส QR อยู่ที่ไหน?</string>
