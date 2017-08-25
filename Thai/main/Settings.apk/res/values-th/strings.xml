@@ -332,7 +332,7 @@
   <string name="apply_now_button_text">อัพเดท</string>
   <string name="apply_password_to_category_title">ต้องปลดล็อก</string>
   <string name="apply_update_fail">ไม่สามารถอัพเดทได้</string>
-  <string name="approve_title">การตรวจสอบ</string>
+  <string name="approve_title">Verification</string>
   <string name="apps_storage">พื้นที่เก็บแอป</string>
   <string name="apps_summary">ติดตั้งแล้ว %1$d แอป</string>
   <string name="apps_summary_example">ติดตั้งแล้ว 24 แอป</string>
@@ -382,7 +382,7 @@
   <string name="auto_rule">schedule rule</string>
   <string name="auto_silent">Timing Muted</string>
   <string name="auto_startup_application_manage">เริ่มต้นอัตโนมัติ</string>
-  <string name="auto_startup_count">อนุญาตให้ %d แอปเริ่มต้นทำงานอัตโนมัติ</string>
+  <string name="auto_startup_count">%d apps are allowed to autostart</string>
   <string name="automatic_brightness">ปรับความสว่างอัตโนมัติ</string>
   <string name="available_size">ใช้งานได้ %s</string>
   <string name="available_via_passpoint">สามารถเชื่อมต่อผ่าน %1$s</string>
@@ -504,6 +504,7 @@
   <string name="battery_stats_duration">%1$s ตั้งแต่ถอดปลั๊ก</string>
   <string name="battery_stats_flashlight_on_label">ไฟฉายเปิดอยู</string>
   <string name="battery_stats_gps_on_label">เปิดใช้ GPS</string>
+  <string name="battery_stats_last_duration">@string/menu_stats_last_unplugged</string>
   <string name="battery_stats_on_battery">%1$s เมื่อใช้แบตเตอรี่</string>
   <string name="battery_stats_phone_signal_label">สัญญาณเครือข่ายมือถือ</string>
   <string name="battery_stats_screen_on_label">เปิดใช้หน้าจอ</string>
@@ -913,7 +914,6 @@
   <string name="clear_failed_dlg_title">ล้างข้อมูล</string>
   <string name="clear_uri_btn_text">ล้างการเข้าถึง</string>
   <string name="clear_user_data_text">ล้างข้อมูล</string>
-  <string name="close_gesture">ปิดการใช้ท่าทาง</string>
   <string name="close_install_and_connect">ไม่ ขอบคุณ</string>
   <string name="close_miui_optimization_title">ปิดใช้การเพิ่มประสิทธิภาพ MIUI</string>
   <string name="close_miui_optimization_warning_message">อุปกรณ์ของคุณจะรีบูตเพื่อนำการเปลี่ยนแปลงนี้ไปใช้ หมายเหตุ: การปิดใช้คุณลักษณะนี้จะมีผลการเปลี่ยนแปลงที่สำคัญต่อรูปแบบและองค์ประกอบอื่นๆของ UI</string>
@@ -1270,7 +1270,7 @@
   <string name="device_available_memory">หน่วยความจำที่พร้อมใช้งาน</string>
   <string name="device_battery">แบตเตอรี่</string>
   <string name="device_build_id">หมายเลขเวอร์ชั่น</string>
-  <string name="device_complete_parameters">เสร็จสิ้น</string>
+  <string name="device_complete_parameters">Complete</string>
   <string name="device_cpu">CPU</string>
   <string name="device_cpu10_info">Deca-core</string>
   <string name="device_cpu2_info">Dual-core</string>
@@ -1783,7 +1783,6 @@
   <string name="google_backup_enable">เปิดใช้งานการสำรองข้อมูล</string>
   <string name="google_backup_section_title">การตั้งค่าใหม่และสำรองข้อมูลโดย Google</string>
   <string name="google_title">Google</string>
-  <string name="got_it">รับทราบ</string>
   <string name="gsm_to_wifi_connect_type_title">GSM สู่ Wi-Fi</string>
   <string name="handy_mode">โหมดถนัดมือ</string>
   <string name="handy_mode_enable">โหมดถนัดมือ</string>
@@ -1820,8 +1819,6 @@
   <string name="heavy_weight_stop_description">ไม่สามารถหยุดการทำงานของแอปพลิเคชันนี้ได้อย่างปลอดภัย หากคุณหยุดการทำงาน คุณอาจสูญเสียงานปัจจุบันบางส่วน</string>
   <string name="help_feedback_label">ช่วยเหลือ &amp; ข้อเสนอแนะ</string>
   <string name="help_label">ช่วยเหลือและความเห็น</string>
-  <string name="hide">ซ่อน</string>
-  <string name="hide_screen_button">ซ่อนปุ่มหน้าจอ</string>
   <string name="high_performance_notif_summary">เครื่องอาจร้อนขึ้นในระหว่างการใช้งานหนัก</string>
   <string name="high_performance_notif_title">เปิดใช้งานโหมดประสิทธิภาพสูงอยู่</string>
   <string name="high_performance_title">คุณอยู่ในการทดสอบมาตรฐาน กรุณาตั้งค่าการเปิด-ปิดเพื่อให้ผลลัพธ์ของประสิทธิภาพการทำงานดีที่สุด</string>
@@ -2061,15 +2058,15 @@
   <string name="location_agps_pref_reset_type_title">วิธีการรีเซ็ตที่เลือกก่อน</string>
   <string name="location_agps_pref_si_title">โหมดที่ต้องการก่อน</string>
   <string name="location_agps_register_network_type">ประเภทของเครือข่ายที่เข้าถึง</string>
-  <string name="location_agps_register_network_type_dialog_summary">เลือกเครือข่าย</string>
-  <string name="location_agps_register_network_type_dialog_title">เลือกเครือข่าย</string>
+  <string name="location_agps_register_network_type_dialog_summary">Choose a network</string>
+  <string name="location_agps_register_network_type_dialog_title">ใช้ GPS แบบแม่นยำ</string>
   <string name="location_agps_register_network_type_summary">เลือกเครือข่ายสำหรับใช้งาน GPS แบบแม่นยำ</string>
   <string name="location_agps_reset_type">วิธีการรีเซ็ต</string>
   <string name="location_agps_reset_type_choose_dialog_title">วิธีการรีเซ็ต</string>
   <string name="location_agps_reset_type_summary">เลือกวิธีการรีเซ็ตที่เลือกใช้ก่อน</string>
   <string name="location_agps_roaming_help">การเลือกเครือข่ายทุกเครือข่ายอาจทำให้เสียค่าบริการในการโรมมิ่งข้อมูล ซึ่งหากใช้ไปเกินเพดานที่ผู้ให้บริการเครือข่ายกำหนดไว้ คุณจะต้องเสียค่าบริการเพิ่มเติม</string>
   <string name="location_agps_si_mode">โหมด A-GPS SI</string>
-  <string name="location_agps_si_mode_dialog_title">วิธีค้นหาตำแหน่งพิกัด A-GPS</string>
+  <string name="location_agps_si_mode_dialog_title">รูปแบบ A-GPS</string>
   <string name="location_agps_si_mode_summary">วิธีค้นหาตำแหน่งพิกัด A-GPS ที่เลือกใช้งานก่อน</string>
   <string name="location_agps_supl_server_addr">ที่อยู่เซิร์ฟเวอร์</string>
   <string name="location_agps_supl_server_port">พอร์ตเซิร์ฟเวอร์</string>
@@ -2200,12 +2197,12 @@
   <string name="lockpassword_password_too_short">รหัสผ่านจะต้องมีอักขระอย่างน้อย %d ตัว</string>
   <string name="lockpassword_pattern_set_toast">กำหนดรูปแบบแล้ว</string>
   <string name="lockpassword_pin_contains_non_digits">รหัส PIN ต้องเป็นตัวเลขเท่านั้น</string>
-  <string name="lockpassword_pin_fixed_length">"รหัส PIN ต้องเป็นตัวเลข  %d หลัก"</string>
+  <string name="lockpassword_pin_fixed_length">PIN must be %d digits</string>
   <string name="lockpassword_pin_no_sequential_digits">ห้ามมิให้มีการเรียงจากน้อยไปมาก จากมากไปน้อย หรือเรียงลำดับตัวเลขที่ซ้ำกัน</string>
   <string name="lockpassword_pin_recently_used">แอดมินของอุปกรณ์ไม่อนุญาตให้มีการปลดล็อกรหัส PIN</string>
   <string name="lockpassword_pin_set_toast">ตั้งรหัส PIN แล้ว</string>
-  <string name="lockpassword_pin_too_long">รหัส PIN จะต้องน้อยกว่า %d หลัก</string>
-  <string name="lockpassword_pin_too_short">รหัส PIN ต้องเป็นตัวเลข %d หลักขึ้นไป</string>
+  <string name="lockpassword_pin_too_long">PIN ต้องยาวไม่เกิน %d หลัก</string>
+  <string name="lockpassword_pin_too_short">PIN ต้องมีตัวเลขอย่างน้อย %d หลัก</string>
   <string name="lockpassword_press_continue">แตะ ดำเนินการต่อ เมื่อเสร็จสิ้น</string>
   <string name="lockpassword_strong_auth_required_reason_restart_device_password">ป้อนรหัสผ่านอุปกรณ์เพื่อดำเนินการต่อ ต้องทำหลังอุปกรณ์รีสตาร์ท</string>
   <string name="lockpassword_strong_auth_required_reason_restart_device_pattern">ใช้รูปแบบของอุปกรณ์เพื่อดำเนินการต่อ ต้องทำหลังอุปกรณ์รีสตาร์ท</string>
@@ -2224,7 +2221,7 @@
   <string name="lockpattern_pattern_same_with_others">ควรจะแตกต่างจากรหัสผ่านพื้นที่อื่นๆ</string>
   <string name="lockpattern_pattern_same_with_owner">ควรจะแตกต่างจากรหัสผ่านพื้นที่ปกติ</string>
   <string name="lockpattern_pattern_same_with_security_space">ควรจะแตกต่างจากรหัสผ่านพื้นที่ทับซ้อน</string>
-  <string name="lockpattern_recording_incorrect_too_short">เชื่อมกันอย่างน้อย %d จุด ลองอีกครั้ง</string>
+  <string name="lockpattern_recording_incorrect_too_short">โยงอย่างน้อย %d จุด ลองอีกครั้ง</string>
   <string name="lockpattern_recording_inprogress">ยกนิ้วของคุณออกเมื่อเสร็จสิ้น</string>
   <string name="lockpattern_recording_intro_footer">กดเมนูเพื่อขอความช่วยเหลือ</string>
   <string name="lockpattern_recording_intro_header">วาดรูปแบบปลดล็อก:</string>
@@ -2246,8 +2243,7 @@
   <string name="lockpattern_settings_require_pattern_before_startup_summary">ต้องใช้รูปแบบเพื่อเริ่มต้นอุปกรณ์ เมื่อปิดอยู่ อุปกรณ์จะไม่สามารถรับสาย ข้อความ การแจ้งเตือน หรือการปลุกได้</string>
   <string name="lockpattern_settings_require_pin_before_startup_summary">ต้องใช้ PIN เพื่อเริ่มต้นอุปกรณ์ เมื่อปิดอยู่ อุปกรณ์จะไม่สามารถรับสาย ข้อความ การแจ้งเตือน หรือการปลุกได้</string>
   <string name="lockpattern_settings_title">รูปแบบปลดล็อก</string>
-  <string name="lockpattern_too_many_failed_confirmation_attempts">ปลดล็อกผิดพลาดเกินจำนวนครั้งที่กำหนด ลองใหม่อีก %d วินาที</string>
-  <string name="lockpattern_too_many_failed_confirmation_attempts_footer">รอเป็นเวลา%d วินาทีและลองใหม่อีกครั้ง</string>
+  <string name="lockpattern_too_many_failed_confirmation_attempts">ดำเนินการไม่ถูกต้องหลายครั้งเกินไป ลองอีกครั้งใน %d วินาที</string>
   <string name="lockpattern_too_many_failed_confirmation_attempts_header">มีการพยายามมากครั้งเกินที่ระบบกำหนด</string>
   <string name="lockpattern_tutorial_cancel_label">ยกเลิก</string>
   <string name="lockpattern_tutorial_continue_label">ถัดไป</string>
@@ -2332,6 +2328,7 @@
   <string name="master_clear_progress_title">กำลังลบ</string>
   <string name="master_clear_summary">ลบข้อมูลทั้งหมดบนโทรศัพท์</string>
   <string name="master_clear_title">รีเซ็ตข้อมูลเป็นค่าเริ่มต้น</string>
+  <string name="max_aspect_settings_all_app_display_loading">Just a sec…</string>
   <string name="max_cpu10_info">"Deca-core Max "</string>
   <string name="max_cpu2_info">Dual-core Max</string>
   <string name="max_cpu4_info">"Quad-core Max "</string>
@@ -3218,6 +3215,7 @@
   <string name="restore_default_apn_completed">รีเซ็ตการตั้งค่า APN กลับเป็นค่าเริ่มต้นเรียบร้อยแล้ว</string>
   <string name="restr_pin_enter_admin_pin">ป้อน PIN ของผู้ดูแลระบบ</string>
   <string name="restrict_background_blacklisted">ปิดใช้ข้อมูลแบ็กกราวด์</string>
+  <string name="restrict_max_aspect_ratio_title">Suggest disable max aspect ratio</string>
   <string name="restriction_bluetooth_config_summary">อนุญาตให้แก้ไขการจับคู่บลูทูธและการตั้งค่า</string>
   <string name="restriction_bluetooth_config_title">บลูทูธ</string>
   <string name="restriction_location_enable_summary">ให้แอปพลิเคชันใช้ข้อมูลตำแหน่งของคุณ</string>
@@ -3278,8 +3276,6 @@
   <string name="saved_wifi">จัดการเครือข่ายที่บันทึก</string>
   <string name="saved_wifi_delete">ลบ</string>
   <string name="screen">หน้าจอ</string>
-  <string name="screen_button">ปุ่มหน้าจอ</string>
-  <string name="screen_button_tips">ปัดลงเพื่อซ่อนปุ่มหน้าจอ</string>
   <string name="screen_cells_config_title">รูปแบบหน้าจอหลัก</string>
   <string name="screen_color_and_optimize">สีและความเปรียบต่าง</string>
   <string name="screen_color_and_optimize_disabled">ไม่สามารถปรับอุณหภูมิสีในโหมดการอ่านได้</string>
@@ -3295,6 +3291,8 @@
   <string name="screen_key_press">กดปุ่มลัด</string>
   <string name="screen_key_press_action">เรียกใช้งาน</string>
   <string name="screen_locking_sounds_title">เสียงล็อกหน้าจอ</string>
+  <string name="screen_max_aspect_ratio_desc">Whether app can show fullscreen</string>
+  <string name="screen_max_aspect_ratio_title">Max aspect ratio settings</string>
   <string name="screen_monochrome_mode_apps_loading">รอสักครู่…</string>
   <string name="screen_monochrome_mode_apps_title">ใช้โหมดโมโน</string>
   <string name="screen_monochrome_mode_global_summary">ใช้โหมดโมโนสำหรับทุกแอป</string>
@@ -3956,9 +3954,9 @@ PIN อาจไม่ถูกต้อง"</string>
   <string name="status_bar_app_enable_message">สัญลักษณ์ไอคอนแอป</string>
   <string name="status_bar_key_position_custom">ย้ายตำแหน่งปุ่ม</string>
   <string name="status_bar_notification_info_overflow">999+</string>
-  <string name="status_bar_screen_button_desc">ปัดลงเพื่อซ่อนปุ่มหน้าจอ</string>
+  <string name="status_bar_screen_button_force_immersive_desc">Swipe up from the bottom of the screen to show soft buttons</string>
   <string name="status_bar_screen_button_key">ปุ่มหน้าจอ</string>
-  <string name="status_bar_screen_button_key_can_hide">สามารถซ่อนปุ่มหน้าจอได้</string>
+  <string name="status_bar_screen_button_key_force_immersive">Hide soft buttons</string>
   <string name="status_bar_screen_key_back">ปุ่มย้อนกลับ</string>
   <string name="status_bar_screen_key_home">ปุ่มโฮม</string>
   <string name="status_bar_screen_key_menu">ปุ่มเมนู</string>
@@ -4172,6 +4170,7 @@ PIN อาจไม่ถูกต้อง"</string>
   <string name="sub_activate_success">เปิดใช้งานเรียบร้อย</string>
   <string name="sub_deactivate_failed">ปิดใช้งานล้มเหลว</string>
   <string name="sub_deactivate_success">ปิดใช้งานเรียบร้อย</string>
+  <string name="suggest_unrestrict_max_aspect_ratio_title">Suggest enable max aspect ratio</string>
   <string name="suggested_fingerprint_lock_settings_summary">ปลดล็อกด้วยลายนิ้วมือ</string>
   <string name="suggested_lock_settings_summary">ปกป้องอุปกรณ์ของคุณ</string>
   <string name="suggested_lock_settings_title">ล็อกหน้าจอ</string>
@@ -4186,8 +4185,6 @@ PIN อาจไม่ถูกต้อง"</string>
   <string name="supl_not_set">&lt;ไม่ได้กำหนด&gt;</string>
   <string name="sure_sync_now">ซิงค์รายการทันที?</string>
   <string name="suspend_gesture_enabled">พลิกโทรศัพท์เพื่อปิดหน้าจอ</string>
-  <string name="suspension_ball_enable">ปุ่มเมนูลัด</string>
-  <string name="suspension_ball_enable_desc">เปิดใช้งานเมนูลัดและปิดใช้งานปุ่มลัด</string>
   <string name="suw_back_button_label">กลับ</string>
   <string name="suw_more_button_label">เพิ่มเติม</string>
   <string name="suw_next_button_label">ถัดไป</string>
@@ -4457,6 +4454,7 @@ PIN อาจไม่ถูกต้อง"</string>
   <string name="unlock_set_unlock_summary">ตั้งการล็อกหน้าจอ</string>
   <string name="unlock_setup_wizard_fingerprint_details">เมื่อคุณได้ตั้งค่าการล็อกหน้าจอแล้ว คุณยังสามารถตั้งค่าลายนิ้วมือได้ในการตั้งค่า &gt; ความปลอดภัย</string>
   <string name="unmount_inform_text">ที่เก็บข้อมูล USB จะถูกยกเลิกการต่อเชื่อม</string>
+  <string name="unrestrict_max_aspect_ratio_title">Support max aspect radio</string>
   <string name="unrestricted_app_summary">อนุญาตให้เข้าถึงข้อมูลได้ไม่จำกัดเมื่อเปิดโปรแกรมประหยัดอินเทอร์เน็ต</string>
   <string name="unrestricted_app_title">ใช้อินเทอร์เน็ตได้ไม่จำกัด</string>
   <string name="unrestricted_data_saver">เข้าถึงข้อมูลได้ไม่จำกัด</string>
@@ -4679,7 +4677,7 @@ PIN อาจไม่ถูกต้อง"</string>
   <string name="virtual_sim_title">บริการเครือข่ายข้อมูลมือถือแบบโรมมิ่ง</string>
   <string name="virus_scan">สแกนไวรัส</string>
   <string name="virus_scan_app_continue">สแกนต่อ</string>
-  <string name="virus_scan_app_find_risk">พบ %d ความเสี่ยง</string>
+  <string name="virus_scan_app_find_risk">%d risks found</string>
   <string name="virus_scan_app_finish">สแกนเสร็จสิ้น</string>
   <string name="virus_scan_app_force_stop">หยุดการสแกนชั่วคราว</string>
   <string name="virus_scan_app_is_stop_scan">หยุดสแกน?</string>
@@ -5052,9 +5050,11 @@ PIN อาจไม่ถูกต้อง"</string>
   <string name="wifi_security_eap">802.1x EAP</string>
   <string name="wifi_security_none">ไม่มี</string>
   <string name="wifi_security_passpoint">Passpoint</string>
+  <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
   <string name="wifi_security_short_WAPI_CERT">WAPI CERT</string>
   <string name="wifi_security_short_WAPI_PSK">WAPI PSK</string>
   <string name="wifi_security_short_eap">802.1x</string>
+  <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
   <string name="wifi_security_short_wep">WEP</string>
   <string name="wifi_security_short_wpa">WPA</string>
   <string name="wifi_security_short_wpa2">WPA2</string>
@@ -5118,7 +5118,7 @@ PIN อาจไม่ถูกต้อง"</string>
   <string name="wifi_share_connect">เชื่อมต่อ</string>
   <string name="wifi_share_connected_summary">คุณกำลังเชื่อมต่อกับเครือข่าย Wi-Fi สาธารณะที่แชร์โดยผู้ใช้อื่น</string>
   <string name="wifi_share_connected_title">Wi-Fi ที่แชร์ผ่าน MIUI</string>
-  <string name="wifi_share_count">แชร์อยู่ %d เครือข่าย</string>
+  <string name="wifi_share_count">Shared %d networks</string>
   <string name="wifi_share_current_network">เครือข่ายปัจจุบัน</string>
   <string name="wifi_share_know">ตกลง</string>
   <string name="wifi_share_list_empty">ไม่พบเครือข่ายที่แชร์</string>

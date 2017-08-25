@@ -19,9 +19,7 @@
   <string name="fingerprint_try_again_text">ลองอีกครั้ง</string>
   <string name="forget_password_string">ลืมรหัสผ่าน</string>
   <string name="incorrect_pincode">รหัส PIN ไม่ถูกต้อง</string>
-  <string name="incorrect_pincode_remaining_attempts">รหัส PIN ไม่ถูกต้อง ป้อนได้อีก %d ครั้ง</string>
   <string name="incorrect_pukcode">รหัส PUK ไม่ถูกต้อง</string>
-  <string name="incorrect_pukcode_remaining_attempts">รหัส PUK ไม่ถูกต้อง ป้อนได้อีก %d ครั้ง</string>
   <string name="input_password_after_boot_msg">เพื่อปลดล็อกอุปกรณ์ กรุณาป้อนรหัสผ่าน</string>
   <string name="input_password_after_boot_msg_can_not_switch_when_calling">ไม่สามารถสลับระหว่างพื้นที่ขณะโทรได้</string>
   <string name="input_password_after_boot_msg_must_enter_owner_space">คุณจำเป็นต้องเข้าสู่พื้นที่ปกติก่อนที่อุปกรณ์จะทำการรีบูต</string>
@@ -35,24 +33,15 @@
   <string name="invalid_sim_puk_hint">รหัส PUK ต้องประกอบด้วยตัวเลขอย่างน้อย 8 หลัก</string>
   <string name="keyguard_charging_info_battery_temperature_text">อุณหภูมิแบตเตอรี่</string>
   <string name="keyguard_charging_info_battery_used_time_text">ใช้แบตเตอรี่</string>
-  <string name="keyguard_charging_info_charging_full_need_hour_time__text">ประมาณ %d ชม. จะเต็ม</string>
-  <string name="keyguard_charging_info_charging_full_need_min_time__text">ประมาณ %d นาทีจะเต็ม</string>
-  <string name="keyguard_charging_info_charging_full_need_time__text" formatted="false">ประมาณ %d ชม. %d นาทีจะเต็ม</string>
   <string name="keyguard_charging_info_charging_text">กำลังชาร์จ</string>
   <string name="keyguard_charging_info_charging_voltage_text">แรงดันไฟฟ้า</string>
   <string name="keyguard_charging_info_click_to_detail">เรียกดูรายละเอียด</string>
-  <string name="keyguard_charging_info_could_use_hour_time_text">ใช้ได้อีกประมาณ %d ชม.</string>
-  <string name="keyguard_charging_info_could_use_min_time_text">ใช้ได้อีกประมาณ %d นาที</string>
-  <string name="keyguard_charging_info_could_use_time_text" formatted="false">ใช้ได้อีกประมาณ %d ชม. %d นาที</string>
   <string name="keyguard_charging_info_current_now_text">มอนิเตอร์เรลทาม</string>
   <string name="keyguard_charging_info_data_c">%s℃</string>
   <string name="keyguard_charging_info_data_ma">%smA</string>
   <string name="keyguard_charging_info_data_percent">%s%%</string>
   <string name="keyguard_charging_info_data_v">%sV</string>
-  <string name="keyguard_charging_info_drained_hour_time_format">%d ชม.</string>
-  <string name="keyguard_charging_info_drained_min_time_format">%d นาที</string>
   <string name="keyguard_charging_info_drained_power_percent_text">การใช้แบต</string>
-  <string name="keyguard_charging_info_drained_time_format" formatted="false">%d ชม. %d นาที</string>
   <string name="keyguard_charging_info_finished_charging_text">แบตเตอรี่เต็ม</string>
   <string name="keyguard_charging_info_last_charge_time">d/M H:mm</string>
   <string name="keyguard_charging_info_last_charge_today_time">วันนี้ %s</string>
@@ -98,8 +87,6 @@
   <string name="phone_locked_forget_password_suggesstion_two_content">&lt;Data&gt;Select &amp;lt;font color=#a5220e&amp;gt;\"Wipe &amp;amp;amp; Reset\"&amp;lt;/font&amp;gt; and wait until the device reboots.&lt;/Data&gt;</string>
   <string name="phone_locked_forget_password_suggesstions_title">How to erase data?</string>
   <string name="phone_locked_string">โทรศัพท์ถูกล็อก</string>
-  <string name="phone_locked_timeout_minutes_string">ลองอีกครั้งใน %d นาที</string>
-  <string name="phone_locked_timeout_seconds_string">ลองอีกครั้งใน %d วินาที</string>
   <string name="unlock_string">ปลดล็อก</string>
   <string name="unlocking_sim_card">กำลังปลดล็อกซิมการ์ด</string>
   <string name="unlockscreen_low_battery">กรุณาชาร์จแบตทันที</string>

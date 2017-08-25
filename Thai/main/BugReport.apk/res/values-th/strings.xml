@@ -55,6 +55,7 @@
   <string name="feedback_choose_module">เลือกรายการ</string>
   <string name="feedback_choose_module_hint">จำเป็นต้องระบุ</string>
   <string name="feedback_collect_log_failed">รับบันทึกการใช้ไม่ได้</string>
+  <string name="feedback_contact_info_hint">Phone number/Email</string>
   <string name="feedback_continue">ดำเนินการต่อกับข้อเสนอแนะ</string>
   <string name="feedback_description">คำอธิบาย</string>
   <string name="feedback_description_bugreport_hint">ในกรณีที่ (…) โทรศัพท์ของฉันเกิดอาการผิดปกติของ (…)</string>
@@ -196,6 +197,7 @@
   <string name="module_data">ที่จัดเก็บข้อมูล &amp; แอปโคลน</string>
   <string name="module_desktop">หน้าจอหลัก &amp; การตั้งค่า</string>
   <string name="module_finance">การเงิน &amp; Mi Wallet</string>
+  <string name="module_google_apps">Google apps</string>
   <string name="module_item_less">ซ่อน</string>
   <string name="module_item_more">เพิ่มเติม</string>
   <string name="module_medias">สื่อมีเดีย</string>

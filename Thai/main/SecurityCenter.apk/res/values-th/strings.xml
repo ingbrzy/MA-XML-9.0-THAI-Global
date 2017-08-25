@@ -244,6 +244,7 @@
   <string name="apps_list_header_title_sms_access">จำกัดการเข้าถึงรหัสยืนยัน</string>
   <string name="auto_atsk_condition_battery_level_text_down">เมื่อแบตเตอรี่อยู่ในระดับ %s</string>
   <string name="auto_atsk_condition_battery_level_text_up">เมื่อชาร์จแบตเตอรี่ถึงระดับ %s</string>
+  <string name="auto_clean_close">Automatic cleanups are off</string>
   <string name="auto_handle_title">ทั่วไป</string>
   <string name="auto_import_games">Put all your games in one place</string>
   <string name="auto_task_condition_choose_battery_level_down">เมื่อแบตเตอรี่อยู่ในระดับที่กำหนด</string>
@@ -348,6 +349,7 @@
   <string name="battery_status_unknown">ขัดข้องไม่ทราบสาเหตุ</string>
   <string name="battery_temperature_title">อุณหภูมิ</string>
   <string name="begin_date">วันที่รีเซ็ตรอบการใช้</string>
+  <string name="best_booster_status">Gaming speed is the best available now.</string>
   <string name="bind_xiaomi_account_cancel">ยกเลิก</string>
   <string name="bind_xiaomi_account_confirm">เพิ่ม</string>
   <string name="bind_xiaomi_account_dialog_summery">คุณกำลังจะเพิ่มบัญชี Mi %s หากคุณลืมรหัสผ่าน คุณสามารถใช้บัญชีนี้เพื่อตั้งรหัสผ่านใหม่ บัญชีจะถูกลบออกโดยอัตโนมัติหากคุณลงชื่อออกจากระบบ</string>
@@ -427,11 +429,13 @@
   <string name="card_main_applock_summary">ป้องกันรายการส่วนตัวด้วยล็อกแอป</string>
   <string name="card_main_applock_title">ล็อกแอป</string>
   <string name="card_main_deepclean_action">ล้าง</string>
+  <string name="card_main_deepclean_qq_title">QQ cleaner</string>
   <string name="card_main_deepclean_summary">ลบไฟล์ที่ไม่จำเป็น</string>
   <string name="card_main_deepclean_title">ทำความสะอาดเชิงลึก</string>
   <string name="card_main_deepclean_wechat_action">ล้าง</string>
   <string name="card_main_deepclean_wechat_summary">ล้างแคช WeChat เพื่อเพิ่มพื้นที่เก็บข้อมูล</string>
   <string name="card_main_deepclean_wechat_title">หน่วยความจำแคช WeChat</string>
+  <string name="card_main_gamebooster_title">Gaming speed boost</string>
   <string name="card_main_hbassistant_summary">ใช้เครื่องมือนี้เพื่อรับอั่งเปาเร็วขึ้น</string>
   <string name="card_main_hbassistant_title">ตัวช่วยอั่งเปา</string>
   <string name="card_main_monthreport_action">เรียกดู</string>
@@ -446,6 +450,7 @@
   <string name="card_main_private_space_summary">การใช้พื้นที่ทับซ้อนเปรียบได้กับการมีมือถือสองเครื่อง</string>
   <string name="card_main_private_space_title">พื้นที่ทับซ้อน</string>
   <string name="card_main_sectool_title">เครื่องมือ</string>
+  <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
   <string name="card_main_xspace_action">สร้าง</string>
   <string name="card_main_xspace_summary">สร้างบัญชีโคลนสำหรับแอปต่างๆ</string>
   <string name="card_main_xspace_title">แอปโคลน</string>
@@ -586,6 +591,7 @@
   <string name="dlg_white_antispam_message">เพิ่มเลขหมายนี้ไปยังข้อยกเว้น?</string>
   <string name="dns_exception_summary">ตรวจสอบการตั้งค่า DNS ของเราเตอร์</string>
   <string name="dns_exception_title">ตรวจสอบการตั้งค่า DNS</string>
+  <string name="do_clean">Clearing…</string>
   <string name="domestic_roaming_setting">โรมมิ่งระหว่างประเทศ</string>
   <string name="dont_bore">"Don't let buttons and notifications distract you"</string>
   <string name="dont_bore_text">Silence notifications and turn off buttons to remove distractions</string>
@@ -653,6 +659,8 @@
   <string name="forget_password_button_text">&lt;u&gt;&amp;#3621;&amp;#3639;&amp;#3617;&amp;#3619;&amp;#3627;&amp;#3633;&amp;#3626;&amp;#3612;&amp;#3656;&amp;#3634;&amp;#3609;&lt;/u&gt;</string>
   <string name="forget_password_button_text_normal">Forgot password</string>
   <string name="forget_pattern">&lt;u&gt;Forgot password&lt;/u&gt;</string>
+  <string name="free_send_net_booster">Free Network speed boost</string>
+  <string name="free_send_net_booster_tip">Enjoy smooth gaming with the free Network speed boost.</string>
   <string name="free_time_traffic">เพดานข้อมูลนอกช่วงปกติ</string>
   <string name="free_time_traffic_hint">ป้อนเพดานข้อมูลนอกช่วงปกติ</string>
   <string name="free_time_traffic_settings">เพดานข้อมูลนอกช่วงปกติ</string>
@@ -756,6 +764,7 @@
   <string name="item_dev_mode">ตัวเลือกโหมดผู้พัฒนาระบบ</string>
   <string name="item_install_monitor">เฝ้าระวังการติดตั้งแอป</string>
   <string name="item_mms">กรองข้อความไม่พึงประสงค์</string>
+  <string name="item_system_auto_download">Download updates automatically</string>
   <string name="item_usb_debug">การดีบักผ่าน USB</string>
   <string name="item_virus_lib">อัพเดทฐานข้อมูลไวรัสโดยอัตโนมัติ</string>
   <string name="keywords_antispam">รายการบล็อก;ดำ;บัญชีดำ;รายการบล็อกอัจฉริยะ;มิจฉาชีพ;ขาย;ตัวแทน;รายการบล็อกสายเรียกเข้า;รายการบล็อกข้อความ;รายการบล็อกข้อความ;รายการบล็อกข้อความ SMS;บัญชีดำ;บัญชีดำ;รายการบล็อก;รายการบล็อก;มิจฉาชีพ;รายการบล็อก;รายการบล็อก</string>
@@ -914,6 +923,7 @@
   <string name="memory_clean_running_process_title">Monitoring apps (%d)</string>
   <string name="memory_cleaned_memory_info">Available memory</string>
   <string name="memory_cleaned_memory_up">Speed boost</string>
+  <string name="memory_clear_unused">Clear cache (%s)</string>
   <string name="menu_add">เพิ่ม</string>
   <string name="menu_bl_call_log">แสดงสายเรียกเข้าที่ถูกบล็อก</string>
   <string name="menu_bl_remove">เลิกบล็อก</string>
@@ -956,6 +966,7 @@
   <string name="menu_text_networkassistants_unit_gb">GB</string>
   <string name="menu_text_networkassistants_unit_kb">KB</string>
   <string name="menu_text_networkassistants_unit_mb">MB</string>
+  <string name="menu_text_optimize_manage">Boost speed</string>
   <string name="menu_text_power_manager">การใช้แบตเตอรี่</string>
   <string name="menu_text_power_percent_title">แบตเตอรี่ %s</string>
   <string name="menu_text_power_percent_title_default">แบตเตอรี่</string>
@@ -970,7 +981,16 @@
   <string name="monitor_requests_from_pc">จัดการการติดตั้งแอปผ่าน USB</string>
   <string name="more_game">More games</string>
   <string name="name">ชื่อ</string>
+  <string name="net_booster">Network speed boost</string>
+  <string name="net_booster_expire_notification">Network speed boost session is about to end</string>
+  <string name="net_booster_expire_notification_tip">%d d remaining before Network speed boost session ends. Renew the session to avoid network speed problems.</string>
+  <string name="net_booster_overdue_notification">Network speed boost session is about to end</string>
+  <string name="net_booster_overdue_notification_tip">Network speed boost session will end soon. Renew the session?</string>
+  <string name="net_booster_tip">Turn on Network speed boost to make Wi-Fi connection more stable and reduce network delay.</string>
+  <string name="net_booster_title">Network speed boost</string>
+  <string name="net_boosting">Boosting speed…</string>
   <string name="net_delay_title">Delay</string>
+  <string name="net_overdue">Session ended</string>
   <string name="network_blocked_connected_open_wifi">เชื่อมต่อกับเครือข่ายสาธารณะอยู่</string>
   <string name="network_blocked_notification_summary">ทดสอบเครือข่าย</string>
   <string name="network_blocked_switch_wifi">เปลี่ยนเครือข่าย</string>
@@ -1507,6 +1527,7 @@ This activity shortens battery life."</string>
   <string name="reach_daily_limit_value_body">ลดปริมาณการใช้ข้อมูลมือถือ</string>
   <string name="reach_daily_limit_value_title">ใช้เกินเพดานข้อมูลรายวันแล้ว</string>
   <string name="read_all_sms">อ่านทั้งหมด</string>
+  <string name="receive_now">Receive</string>
   <string name="recently_reject_message">ปฏิเสธการติดตั้ง %1$s กับอีก %2$d แอปอื่นๆแล้ว</string>
   <string name="recently_reject_message_one">ปฏิเสธคำร้องขอการติดตั้ง %1$s</string>
   <string name="recommend_news">รับข้อเสนอแนะ</string>
@@ -1514,8 +1535,10 @@ This activity shortens battery life."</string>
   <string name="reject_all">จำกัดทั้งหมด</string>
   <string name="reject_countdown">ปฎิเสธ (%d)</string>
   <string name="reject_usb_install">ปฏิเสธการติดตั้งแอปต่อไปนี้ผ่านทาง USB</string>
+  <string name="release_meminfo">Free up %dMB</string>
   <string name="release_memory">Clear cache</string>
   <string name="renew_ip">ลองใหม่</string>
+  <string name="renew_now">Renew</string>
   <string name="repair">ซ่อมแซม</string>
   <string name="repair_loading_text">รอสักครู่…</string>
   <string name="repeated_marked_number_summary">ไม่ต้องบล็อกสายเรียกซ้ำจากเลขหมายเดียวกันใน 3 นาที</string>
@@ -1836,6 +1859,8 @@ This activity shortens battery life."</string>
   <string name="tab_blacklist">บัญชีดำ</string>
   <string name="tab_block_log_unKnowNumber">เลขหมายส่วนตัว</string>
   <string name="tab_call">การโทร</string>
+  <string name="tab_gift">Gifts</string>
+  <string name="tab_guide">Guide</string>
   <string name="tab_sms">ข้อความ SMS</string>
   <string name="tab_title">บัญชีดำ</string>
   <string name="tc_diagnostic_all_error_notification_summary">แตะเพื่อรายงานปัญหา</string>
@@ -1927,6 +1952,7 @@ This activity shortens battery life."</string>
   <string name="title_app_lock_disable">ล็อกแอป</string>
   <string name="title_app_update">พบอัพเดทสำหรับแอป</string>
   <string name="title_auto_update">อัพเดทโดยอัตโนมัติ</string>
+  <string name="title_chain_start">Restrict chain start</string>
   <string name="title_cleaner_cloudscan">สแกนขยะคลาวด์</string>
   <string name="title_cloud_account">บัญชี Mi</string>
   <string name="title_cloud_service">Mi คลาวด์</string>
@@ -1935,8 +1961,11 @@ This activity shortens battery life."</string>
   <string name="title_cmcc_app_check">การตรวจสอบยังไม่เสร็จสิ้น</string>
   <string name="title_consume_power_rank">การใช้แบตเตอรี่</string>
   <string name="title_data_flow">ควบคุมข้อมูลมือถือ</string>
+  <string name="title_data_flow_monitor">Data usage monitor is on</string>
+  <string name="title_dev_model_off">"Developer's options are off"</string>
   <string name="title_dev_no">ตัวเลือกสำหรับผู้พัฒนาระบบเปิดอยู่</string>
   <string name="title_dev_yes">ตัวเลือกสำหรับผู้พัฒนาระบบปิดอยู่</string>
+  <string name="title_device_not_root">"Root access wasn't granted"</string>
   <string name="title_find_device">ค้นหาอุปกรณ์</string>
   <string name="title_flow_notification">การแจ้งเตือนข้อมูลมือถือ</string>
   <string name="title_flow_purchase">ซื้อข้อมูลมือถือ</string>
@@ -1944,17 +1973,20 @@ This activity shortens battery life."</string>
   <string name="title_flow_verify">เปรียบเทียบข้อมูลการใช้งาน</string>
   <string name="title_flow_verify_failed">การปรับเทียบล้มเหลวเนื่องจากเกิน 5 วัน</string>
   <string name="title_garbage_clean">ขนาดแคชของแอปมากถึง %s</string>
+  <string name="title_garbage_less">App cache is small</string>
   <string name="title_garbage_lib">อัพเดทฐานข้อมูลขยะ</string>
   <string name="title_install_virus_no">ปิดการตรวจสอบการติดตั้งแอป</string>
   <string name="title_install_virus_yes">เปิดการตรวจสอบการติดตั้งแอป</string>
   <string name="title_limit_traffic_per_day">เพดานการใช้ข้อมูลในแต่ละวัน</string>
   <string name="title_mifi_insurance">ขยายการรับประกัน</string>
   <string name="title_miui_update">พบอัพเดทของระบบ</string>
+  <string name="title_miui_update_latest">MIUI is up to date</string>
   <string name="title_mms_no">ตัวกรองข้อความปิดใช้งาน</string>
   <string name="title_mms_yes">ตัวกรองข้อความเปิดใช้งาน</string>
   <string name="title_network_switch">การเชื่อมต่อกับเครือข่าย</string>
   <string name="title_of_app_manage">แอป</string>
   <string name="title_of_auto_launch_manage">เริ่มต้นอัตโนมัติ</string>
+  <string name="title_payment_protection">Payments are secured</string>
   <string name="title_payment_risk">พบความเสี่ยงด้านการชำระเงิน</string>
   <string name="title_permission_no">ปิดใช้ตัวจัดการการอนุญาต</string>
   <string name="title_permission_root">เข้าถึงรูท</string>
@@ -1962,6 +1994,7 @@ This activity shortens battery life."</string>
   <string name="title_power_optimizer">ประหยัดแบตเตอรี่</string>
   <string name="title_realname_verify">การยืนยันตัวตน</string>
   <string name="title_show_notification">วิดเจ็ตแถบการแจ้งเตือน</string>
+  <string name="title_system_auto_download">Updates will be downloaded automatically</string>
   <string name="title_telecom_operator">ปรับอัตโนมัติ</string>
   <string name="title_usb_no">เปิดการดีบักผ่าน USB</string>
   <string name="title_usb_yes">ปิดการดีบักผ่าน USB</string>
@@ -2097,7 +2130,12 @@ This activity shortens battery life."</string>
   <string name="wifi_item_title_encryption">การเข้ารหัส Wi-Fi</string>
   <string name="wifi_item_title_fake">ตรวจพบ Wi-Fi ปลอมแปลง</string>
   <string name="wifi_network_blocked_notification_title">ไม่มีการเชื่อมกับต่ออินเตอร์เน็ต</string>
+  <string name="wifi_optizition_loading">Turning on Xunyou Network speed boost…</string>
+  <string name="wifi_optizition_tip">Turn on Wi-Fi speed boost to make Wi-Fi connection more stable. A small amount of mobile data will be used.</string>
+  <string name="wifi_optizition_title">Wi-Fi speed boost</string>
   <string name="wl_no_whitelist">ไม่มีรายการยกเว้น</string>
+  <string name="wlan_booster">Wi-Fi speed boost</string>
   <string name="wlan_change_protection_detail">"Don't switch to Wi-Fi automatically when connected to mobile data network"</string>
   <string name="wlan_change_protection_title">Prevent switching networks</string>
+  <string name="xunyou_pay_webview">Xunyou services</string>
 </resources>

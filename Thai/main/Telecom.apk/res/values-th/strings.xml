@@ -94,6 +94,7 @@
   <string name="bugreport_in_power">ทางลัดรายงานข้อบกพร่อง</string>
   <string name="bugreport_in_power_summary">แสดงปุ่มในเมนูเปิด/ปิดสำหรับการใช้รายงานข้อบกพร่อง</string>
   <string name="button_convert_fbe">ลบและแปลง…</string>
+  <string name="callFailed_simError">SIM card error</string>
   <string name="can_not_dial_vt_while_voice_prompt">ไม่สามารถวิดีโอคอลได้ขณะอยู่ระหว่างการโทร (เสียง)</string>
   <string name="can_not_dial_while_vt_prompt">ไม่สามารถต่อสายขณะทำการวิดีโอคอลได้</string>
   <string name="category_personal">ส่วนตัว</string>
@@ -105,6 +106,7 @@
   <string name="charge_length_format">%1$sที่ผ่านมา</string>
   <string name="choose_profile">เลือกโปรไฟล์</string>
   <string name="clear_adb_keys">ยกเลิกการให้สิทธิ์การแก้ปัญหา USB</string>
+  <string name="close">Close</string>
   <string name="confirm_enable_oem_unlock_text">คำเตือน: คุณลักษณะการปกป้องอุปกรณ์จะไม่ทำงานบนอุปกรณ์นี้ขณะที่การตั้งค่านี้เปิดอยู่</string>
   <string name="confirm_enable_oem_unlock_title">อนุญาตการปลดล็อก OEM ไหม</string>
   <string name="connected_via_passpoint">เชื่อมต่อผ่าน %1$s แล้ว</string>
@@ -189,6 +191,8 @@
   <string name="inactive_app_inactive_summary">ไม่ได้ใช้งาน แตะเพื่อสลับ</string>
   <string name="inactive_apps_title">แอปที่ไม่ได้ใช้งาน</string>
   <string name="incall_error_call_failed">ไม่สามารถโทรออกได้</string>
+  <string name="incall_error_power_off">Turn off airplane mode to make a call.</string>
+  <string name="incall_error_supp_service_unknown">"This service isn't supported."</string>
   <string name="keep_screen_on">เปิดหน้าจอค้าง</string>
   <string name="keep_screen_on_summary">หน้าจอจะไม่เข้าสู่โหมดสลีปขณะชาร์จ</string>
   <string name="launch_defaults_none">ไม่ได้ตั้งค่าเริ่มต้น</string>

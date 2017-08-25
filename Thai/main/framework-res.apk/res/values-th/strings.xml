@@ -7,9 +7,6 @@
   <string name="CLIRDefaultOnNextCallOn">หมายเลขผู้โทรได้รับการตั้งค่าเริ่มต้นเป็นถูกจำกัด การโทรครั้งต่อไป: ถูกจำกัด</string>
   <string name="CLIRPermanent">คุณไม่สามารถเปลี่ยนการตั้งค่าหมายเลขผู้โทร</string>
   <string name="CfMmi">การโอนสาย</string>
-  <string name="China_Mobile">China Mobile</string>
-  <string name="China_Telecom">China Telecom</string>
-  <string name="China_Unicom">China Unicom</string>
   <string name="ClipMmi">หมายเลขผู้โทรเข้า</string>
   <string name="ClirMmi">หมายเลขผู้โทรออก</string>
   <string name="CndMmi">การส่งหมายเลขที่โทร</string>
@@ -23,7 +20,6 @@
   <string name="Noon">เที่ยง</string>
   <string name="PinMmi">การเปลี่ยน PIN</string>
   <string name="PwdMmi">การเปลี่ยนรหัสผ่าน</string>
-  <string name="RestrictedChangedTitle">เปลี่ยนแปลงการเข้าถึงอย่างจำกัดแล้ว</string>
   <string name="RestrictedOnAll">บริการเสียง/ข้อมูล/SMS ทั้งหมดถูกบล็อก</string>
   <string name="RestrictedOnAllVoice">บริการเสียงทั้งหมดถูกบล็อก</string>
   <string name="RestrictedOnData">บริการข้อมูลถูกปิดกั้น</string>
@@ -56,82 +52,59 @@
   <string name="activity_resolver_work_profiles_support">%1$s ไม่สนับสนุนโปรไฟล์งาน</string>
   <string name="activitychooserview_choose_application">เลือกแอปพลิเคชัน</string>
   <string name="activitychooserview_choose_application_error">ไม่สามารถเปิด %s</string>
-  <string name="adb_active_notification_message">แตะเพื่อปิดใช้งานการแก้ไขข้อบกพร่อง USB</string>
+  <string name="adb_active_notification_message">แตะเพื่อปิดใช้การแก้ไขข้อบกพร่องของ USB</string>
   <string name="adb_active_notification_title">เชื่อมต่อการแก้ไขข้อบกพร่อง USB แล้ว</string>
   <string name="addToDictionary">เพิ่มในพจนานุกรม</string>
   <string name="add_account_button_label">เพิ่มบัญชี</string>
   <string name="add_account_label">เพิ่มบัญชี</string>
-  <string name="aerr_application">ขออภัย %1$s หยุดการทำงานแล้ว</string>
+  <string name="aerr_application">%1$s หยุดทำงาน</string>
   <string name="aerr_application_repeated">%1$s หยุดทำงานอยู่เรื่อยๆ</string>
   <string name="aerr_close">ปิด</string>
   <string name="aerr_close_app">ปิดแอป</string>
   <string name="aerr_mute">ปิดการแจ้งเตือนจนกว่าอุปกรณ์จะรีสตาร์ท</string>
-  <string name="aerr_process">ขออภัย กระบวนการ %1$s หยุดการทำงานแล้ว</string>
+  <string name="aerr_process">%1$s หยุดทำงาน</string>
   <string name="aerr_process_repeated">%1$s หยุดทำงานอยู่เรื่อยๆ</string>
   <string name="aerr_report">ส่งความคิดเห็น</string>
   <string name="aerr_restart">เปิดแอปอีกครั้ง</string>
-  <string name="aerr_title"/>
   <string name="aerr_wait">รอ</string>
   <string name="allow">อนุญาต</string>
-  <string name="alternate_eri_file">/data/eri.xml</string>
   <string name="alwaysUse">ใช้ค่าเริ่มต้นสำหรับการทำงานนี้</string>
   <string name="android_preparing_apk">กำลังเตรียม %1$s</string>
   <string name="android_start_title">Android กำลังเริ่มต้น…</string>
   <string name="android_system_label">ระบบ Android</string>
-  <string name="android_upgrading_apk">เพิ่มประสิทธิภาพแอป %1$d ของ %2$d.</string>
+  <string name="android_upgrading_apk">กำลังเพิ่มประสิทธิภาพแอปพลิเคชัน %1$d จาก %2$d รายการ</string>
   <string name="android_upgrading_complete">เสร็จสิ้นการบูต</string>
   <string name="android_upgrading_fstrim">กำลังเพิ่มประสิทธิภาพพื้นที่จัดเก็บข้อมูล</string>
   <string name="android_upgrading_notification_body">แอปบางแอปอาจทำงานไม่ถูกต้องจนกว่าจะอัปเกรดเสร็จ</string>
   <string name="android_upgrading_notification_title">กำลังทำการอัปเดต Android ให้เสร็จสิ้น…</string>
   <string name="android_upgrading_starting_apps">กำลังเริ่มต้นแอปพลิเคชัน</string>
   <string name="android_upgrading_title">กำลังอัปเกรด Android ...</string>
-  <string name="anr_activity_application">"%2$s ไม่ตอบสนอง
-
-คุณต้องการปิดหรือไม่"</string>
-  <string name="anr_activity_process">"กิจกรรม %1$s ไม่ตอบสนอง
-
-คุณต้องการปิดหรือไม่"</string>
-  <string name="anr_application_process">%1$s ไม่ตอบสนอง คุณต้องการปิดหรือไม่</string>
-  <string name="anr_process">"กระบวนการ %1$s ไม่ตอบสนอง
-
-คุณต้องการปิดหรือไม่"</string>
+  <string name="anr_activity_application">%2$s ไม่ตอบสนอง</string>
+  <string name="anr_activity_process">%1$s ไม่ตอบสนอง</string>
+  <string name="anr_application_process">%1$s ไม่ตอบสนอง</string>
+  <string name="anr_process">กระบวนการ %1$s ไม่ตอบสนอง</string>
   <string name="anr_title"/>
   <string name="app_info">ข้อมูลแอป</string>
   <string name="app_not_found">ไม่พบแอปพลิเคชันสำหรับการทำงานนี้</string>
-  <string name="app_running_notification_text">แตะเพื่อดูข้อมูลเพิ่มเติมหรือเพื่อหยุดแอป</string>
+  <string name="app_running_notification_text">แตะเพื่อดูข้อมูลเพิ่มเติมหรือหยุดแอป</string>
   <string name="app_running_notification_title">%1$s กำลังทำงาน</string>
   <string name="app_upgrading_toast">กำลังอัปเกรด %1$s…</string>
   <string name="audit_safemode_notification">รีเซ็ตเป็นค่าเริ่มต้นเพื่อใช้อุปกรณ์นี้โดยไร้ข้อจำกัด</string>
   <string name="audit_safemode_notification_details">แตะเพื่อเรียนรู้เพิ่มเติม</string>
-  <string name="autofill_address_name_separator"/>
+  <string name="autofill_address_name_separator">" "</string>
   <string name="autofill_address_summary_format">$1$2$3</string>
   <string name="autofill_address_summary_name_format">$1$2$3</string>
-  <string name="autofill_address_summary_separator">,</string>
-  <string name="autofill_address_type_same_as_re">เช่นเดียวกับ</string>
-  <string name="autofill_address_type_use_my_re">ใช้ของฉัน</string>
+  <string name="autofill_address_summary_separator">", "</string>
   <string name="autofill_area">พื้นที่</string>
-  <string name="autofill_area_code_notext_re">^\\($</string>
-  <string name="autofill_area_code_re">area.*code|acode|area</string>
-  <string name="autofill_attention_ignored_re">ความสนใจ | ติดต่อ</string>
-  <string name="autofill_billing_designator_re">บิล</string>
-  <string name="autofill_card_cvc_re">ตรวจสอบ | บัตรประจำตัว | cvn | รหัสความปลอดภัย | รหัส cvv กรุนด์ฟอส cvc</string>
-  <string name="autofill_card_ignored_re">^ การ์ด</string>
-  <string name="autofill_country_code_re">country.*code|ccode|_cc</string>
   <string name="autofill_county">อำเภอ</string>
   <string name="autofill_department">แผนก</string>
   <string name="autofill_district">เขต</string>
   <string name="autofill_emirate">เอมิเรต</string>
   <string name="autofill_island">เกาะ</string>
-  <string name="autofill_middle_initial_re">middle.*initial|m\\.i\\.|mi$</string>
-  <string name="autofill_name_on_card_contextual_re">ชื่อ</string>
   <string name="autofill_parish">เขตการปกครองท้องถิ่น</string>
-  <string name="autofill_phone_prefix_separator_re">^-$|^\\)$</string>
-  <string name="autofill_phone_suffix_re">คำเสริมท้าย</string>
-  <string name="autofill_phone_suffix_separator_re">^-$</string>
   <string name="autofill_postal_code">รหัสไปรษณีย์</string>
   <string name="autofill_prefecture">เขตปกครอง</string>
   <string name="autofill_province">จังหวัด</string>
-  <string name="autofill_shipping_designator_re">ขนส่ง</string>
   <string name="autofill_state">รัฐ</string>
   <string name="autofill_this_form">ป้อนอัตโนมัติ</string>
   <string name="autofill_zip_code">รหัสไปรษณีย์</string>
@@ -151,12 +124,11 @@
   <string name="bugreport_title">ใช้รายงานข้อบกพร่อง</string>
   <string name="byteShort">B</string>
   <string name="cancel">ยกเลิก</string>
-  <string name="candidates_style">&lt;u&gt;&amp;#3605;&amp;#3633;&amp;#3623;&amp;#3648;&amp;#3621;&amp;#3639;&amp;#3629;&amp;#3585;&lt;/u&gt;</string>
   <string name="capability_desc_canControlMagnification">ควบคุมระดับการซูมและการวางตำแหน่งของการแสดงผล</string>
   <string name="capability_desc_canPerformGestures">สามารถแตะ เลื่อน บีบ และทำท่าทางสัมผัสอื่นๆ</string>
   <string name="capability_desc_canRequestEnhancedWebAccessibility">อาจติดตั้งสคริปต์เพื่อทำให้สามารถเข้าถึงเนื้อหาแอปได้ง่ายขึ้น</string>
   <string name="capability_desc_canRequestFilterKeyEvents">รวมถึงข้อมูลส่วนบุคคล เช่น หมายเลขบัตรเครดิตและรหัสผ่าน</string>
-  <string name="capability_desc_canRequestTouchExploration">รายการที่แตะจะถูกพูดออกเสียง และการสำรวจหน้าจอสามารถทำได้ด้วยท่าทางสัมผัส</string>
+  <string name="capability_desc_canRequestTouchExploration">ระบบจะพูดออกเสียงรายการที่แตะและหน้าจอสามารถสำรวจได้ด้วยท่าทางสัมผัส</string>
   <string name="capability_desc_canRetrieveWindowContent">ตรวจสอบเนื้อหาของหน้าต่างที่คุณกำลังโต้ตอบอยู่</string>
   <string name="capability_title_canControlMagnification">ควบคุมการขยายการแสดงผล</string>
   <string name="capability_title_canPerformGestures">ทำท่าทางสัมผัส</string>
@@ -187,10 +159,9 @@
   <string name="common_name">ชื่อทั่วไป:</string>
   <string name="condition_provider_service_binding_label">ผู้เสนอเงื่อนไข</string>
   <string name="conference_call">การประชุมสาย</string>
-  <string name="configure_input_methods">เลือกแป้นพิมพ์</string>
   <string name="contentServiceSync">ซิงค์</string>
   <string name="contentServiceSyncNotificationTitle">ซิงค์</string>
-  <string name="contentServiceTooManyDeletesNotificationDesc">มีการลบ %s มากเกินไป</string>
+  <string name="contentServiceTooManyDeletesNotificationDesc">มีการนำออก %s มากเกินไป</string>
   <string name="content_description_sliding_handle">ที่จับสำหรับเลื่อน แตะค้างไว้</string>
   <string name="continue_to_enable_accessibility">ใช้สองนิ้วแตะค้างไว้เพื่อเปิดใช้งานการเข้าถึง</string>
   <string name="copy">คัดลอก</string>
@@ -213,12 +184,10 @@
   <string name="data_usage_restricted_body">แตะเพื่อนำข้อจำกัดออก</string>
   <string name="data_usage_restricted_title">จำกัดข้อมูลแบ็กกราวด์</string>
   <string name="data_usage_warning_body">แตะเพื่อดูการใช้งานและการตั้งค่า</string>
-  <string name="data_usage_warning_title">คำเตือนการใช้ข้อมูล</string>
+  <string name="data_usage_warning_title">การแจ้งเตือนการใช้อินเทอร์เน็ต</string>
   <string name="data_usage_wifi_limit_snoozed_title">เกินขีดจำกัดข้อมูล WiFi แล้ว</string>
   <string name="data_usage_wifi_limit_title">ถึงขีดจำกัดข้อมูล Wi-Fi แล้ว</string>
   <string name="date_and_time" formatted="false">%-k:%M:%S, %-e %b %Y</string>
-  <string name="date_picker_day_of_week_typeface">sans serif ขนาดกลาง</string>
-  <string name="date_picker_day_typeface">sans serif ขนาดกลาง</string>
   <string name="date_picker_decrement_day_button">ลดวัน</string>
   <string name="date_picker_decrement_month_button">ลดเดือน</string>
   <string name="date_picker_decrement_year_button">ลดปี</string>
@@ -226,7 +195,6 @@
   <string name="date_picker_increment_day_button">เพิ่มวัน</string>
   <string name="date_picker_increment_month_button">เพิ่มเดือน</string>
   <string name="date_picker_increment_year_button">เพิ่มปี</string>
-  <string name="date_picker_month_typeface">sans serif ขนาดกลาง</string>
   <string name="date_picker_next_month_button">เดือนหน้า</string>
   <string name="date_picker_prev_month_button">เดือนที่แล้ว</string>
   <string name="date_time">%2$s, %1$s</string>
@@ -262,9 +230,6 @@
   <string name="display_manager_overlay_display_name">การวางซ้อน #%1$d</string>
   <string name="display_manager_overlay_display_secure_suffix">, ปลอดภัย</string>
   <string name="display_manager_overlay_display_title">%1$s: %2$dx%3$d, %4$d dpi</string>
-  <string name="dlg_confirm_kill_storage_users_text">หากคุณเปิดที่จัดเก็บข้อมูล USB แอปพลิเคชันบางอย่างที่คุณใช้อยู่อาจหยุดทำงานและไม่สามารถใช้ได้จนกว่าจะปิดที่จัดเก็บข้อมูล USB</string>
-  <string name="dlg_confirm_kill_storage_users_title">เปิดที่เก็บข้อมูล USB</string>
-  <string name="dlg_error_title">การทำงานของ USB ไม่สำเร็จ</string>
   <string name="dlg_ok">ตกลง</string>
   <string name="done_label">เสร็จสิ้น</string>
   <string name="double_tap_toast">เคล็ดลับ: แตะสองครั้งเพื่อขยายและย่อ</string>
@@ -279,11 +244,11 @@
   <string name="durationHourMinutes">%1$d ชม. %2$d นาที</string>
   <string name="durationHours">%1$d ชม.</string>
   <string name="durationMinute">%1$d นาที</string>
-  <string name="durationMinuteSecond">%1$d นาที %2$d วิ</string>
-  <string name="durationMinuteSeconds">%1$d นาที %2$d วิ</string>
+  <string name="durationMinuteSecond">%1$d นาที %2$d วิ.</string>
+  <string name="durationMinuteSeconds">%1$d นาที %2$d วิ.</string>
   <string name="durationMinutes">%1$d นาที</string>
-  <string name="durationSecond">%1$d วิ</string>
-  <string name="durationSeconds">%1$d วิ</string>
+  <string name="durationSecond">%1$d วินาที</string>
+  <string name="durationSeconds">%1$d วินาที</string>
   <string name="editTextMenuTitle">การทำงานของข้อความ</string>
   <string name="elapsed_time_short_format_h_mm_ss">%1$d:%2$02d:%3$02d</string>
   <string name="elapsed_time_short_format_mm_ss">%1$02d:%2$02d</string>
@@ -338,7 +303,7 @@
   <string name="ext_media_status_unmounted">นำออกแล้ว</string>
   <string name="ext_media_status_unsupported">ไม่สนับสนุน</string>
   <string name="ext_media_unmount_action">นำอุปกรณ์ออก</string>
-  <string name="ext_media_unmountable_notification_message">%s ได้รับความเสียหาย แตะเพื่อแก้ไข</string>
+  <string name="ext_media_unmountable_notification_message">%s เสียหาย แตะเพื่อแก้ไข</string>
   <string name="ext_media_unmountable_notification_title">%s เสียหาย</string>
   <string name="ext_media_unmounting_notification_message">ห้ามนำออก</string>
   <string name="ext_media_unmounting_notification_title">ยังคงนำ %s ออก…</string>
@@ -352,8 +317,8 @@
   <string name="factorytest_no_action">ไม่พบแพ็กเกจที่มีการทำงาน FACTORY_TEST</string>
   <string name="factorytest_not_system">การทำงาน FACTORY_TEST ได้รับการสนับสนุนเฉพาะสำหรับแพ็คเก็จที่ติดตั้งใน /system/app เท่านั้น</string>
   <string name="factorytest_reboot">รีบูต</string>
-  <string name="fast_scroll_alphabet">กขฃคฅฆงจฉชซฌญฎฏฐฑฒณดตถทธนบปผฝพฟภมยรลวศษสหฬอฮ</string>
-  <string name="fast_scroll_numeric_alphabet">กขฃคฅฆงจฉชซฌญฎฏฐฑฒณดตถทธนบปผฝพฟภมยรลวศษสหฬอฮ</string>
+  <string name="fast_scroll_alphabet">" กขฃคฅฆงจฉชซฌญฎฏฐฑฒณดตถทธนบปผฝพฟภมยรลวศษสหฬอฮ"</string>
+  <string name="fast_scroll_numeric_alphabet">" กขฃคฅฆงจฉชซฌญฎฏฐฑฒณดตถทธนบปผฝพฟภมยรลวศษสหฬอฮ"</string>
   <string name="fcComplete">รหัสคุณลักษณะเสร็จสมบูรณ์</string>
   <string name="fcError">พบปัญหาในการเชื่อมต่อหรือรหัสคุณลักษณะไม่ถูกต้อง</string>
   <string name="fileSizeSuffix">%1$s %2$s</string>
@@ -388,7 +353,7 @@
   <string name="global_action_lock">ล็อกหน้าจอ</string>
   <string name="global_action_lockdown">ล็อกเลย</string>
   <string name="global_action_power_off">ปิดเครื่อง</string>
-  <string name="global_action_reboot">รีบูต</string>
+  <string name="global_action_reboot">เริ่มต้นการทำงานใหม่</string>
   <string name="global_action_settings">การตั้งค่า</string>
   <string name="global_action_silent_mode_off_status">เปิดเสียงแล้ว</string>
   <string name="global_action_silent_mode_on_status">ปิดเสียงไว้</string>
@@ -410,15 +375,12 @@
   <string name="granularity_label_line">บรรทัด</string>
   <string name="granularity_label_link">ลิงก์</string>
   <string name="granularity_label_word">คำ</string>
-  <string name="hardware">ฮาร์ดแวร์</string>
+  <string name="hardware">แสดงแป้นพิมพ์เสมือน</string>
   <string name="heavy_weight_notification">%1$s กำลังทำงาน</string>
-  <string name="heavy_weight_notification_detail">แตะเพื่อสลับไปยังแอปพลิเคชัน</string>
+  <string name="heavy_weight_notification_detail">แตะเพื่อสลับไปยังแอป</string>
   <string name="heavy_weight_switcher_text">มีแอปพลิเคชันอื่นที่กำลังทำงานอยู่แล้ว ซึ่งต้องหยุดทำงานก่อนที่คุณจะเริ่มแอปพลิเคชันใหม่ได้</string>
   <string name="heavy_weight_switcher_title">สลับแอปพลิเคชันหรือไม่</string>
-  <string name="high_definition_tag">%s</string>
   <string name="hour">ชั่วโมง</string>
-  <string name="hour_ampm" formatted="false">%-l%P</string>
-  <string name="hour_cap_ampm" formatted="false">%-l%p</string>
   <string name="hour_picker_description">ตัวเลื่อนหมุนระบุชั่วโมง</string>
   <string name="hours">ชั่วโมง</string>
   <string name="httpError">เกิดข้อผิดพลาดของเครือข่าย</string>
@@ -504,7 +466,7 @@
   <string name="keyguard_accessibility_unlock_area_expanded">ขยายพื้นที่ปลดล็อกแล้ว</string>
   <string name="keyguard_accessibility_user_selector">ตัวเลือกผู้ใช้</string>
   <string name="keyguard_accessibility_widget">วิดเจ็ต %1$s</string>
-  <string name="keyguard_accessibility_widget_changed">%1$s. วิดเจ็ด %2$d ของ %3$d.</string>
+  <string name="keyguard_accessibility_widget_changed">%1$s วิดเจ็ต %2$d ของ %3$d</string>
   <string name="keyguard_accessibility_widget_deleted">ลบวิดเจ็ต %1$s แล้ว</string>
   <string name="keyguard_accessibility_widget_empty_slot">ว่าง</string>
   <string name="keyguard_accessibility_widget_reorder_end">เรียงลำดับวิดเจ็ตใหม่เสร็จแล้ว</string>
@@ -529,8 +491,8 @@
   <string name="kg_invalid_puk">ใส่รหัส PUK ที่ถูกต้องอีกครั้ง การพยายามซ้ำหลายครั้งจะทำให้ซิมการ์ดถูกปิดใช้งานอย่างถาวร</string>
   <string name="kg_invalid_sim_pin_hint">พิมพ์ PIN ซึ่งเป็นเลข 4 ถึง 8 หลัก</string>
   <string name="kg_invalid_sim_puk_hint">รหัส PUK ต้องเป็นตัวเลข 8 หลัก</string>
-  <string name="kg_login_account_recovery_hint">"\"หากลืมชื่อผู้ใช้หรือรหัสผ่าน
-โปรดไปที่ \""&lt;b&gt;google.com/accounts/recovery&lt;/b&gt;</string>
+  <string name="kg_login_account_recovery_hint">"หากลืมชื่อผู้ใช้หรือรหัสผ่าน
+โปรดไปที่ "&lt;b&gt;google.com/accounts/recovery&lt;/b&gt;</string>
   <string name="kg_login_checking_password">กำลังตรวจสอบบัญชี…</string>
   <string name="kg_login_instructions">หากต้องการปลดล็อก ให้ลงชื่อเข้าใช้ด้วยบัญชี Google ของคุณ</string>
   <string name="kg_login_invalid_input">ชื่อผู้ใช้หรือรหัสผ่านไม่ถูกต้อง</string>
@@ -549,15 +511,15 @@
   <string name="kg_sim_unlock_progress_dialog_message">กำลังปลดล็อกซิมการ์ด…</string>
   <string name="kg_text_message_separator">" — "</string>
   <string name="kg_too_many_failed_attempts_countdown">ลองอีกครั้งในอีก %1$d วินาที</string>
-  <string name="kg_too_many_failed_password_attempts_dialog_message" formatted="false">"คุณพิมพ์รหัสผ่านไม่ถูกต้องไป %d ครั้งแล้ว 
+  <string name="kg_too_many_failed_password_attempts_dialog_message">"คุณพิมพ์รหัสผ่านไม่ถูกต้องไป %1$d ครั้งแล้ว 
 
-โปรดลองอีกครั้งใน %d วินาที"</string>
-  <string name="kg_too_many_failed_pattern_attempts_dialog_message" formatted="false">"คุณวาดรูปแบบการปลดล็อกไม่ถูกต้องไป %d ครั้งแล้ว 
+โปรดลองอีกครั้งใน %2$d วินาที"</string>
+  <string name="kg_too_many_failed_pattern_attempts_dialog_message">"คุณวาดรูปแบบการปลดล็อกไม่ถูกต้องไป %1$d ครั้งแล้ว 
 
-โปรดลองอีกครั้งใน %d วินาที"</string>
-  <string name="kg_too_many_failed_pin_attempts_dialog_message" formatted="false">"คุณพิมพ์ PIN ไม่ถูกต้องไป %d ครั้งแล้ว. 
+โปรดลองอีกครั้งใน %2$d วินาที"</string>
+  <string name="kg_too_many_failed_pin_attempts_dialog_message">"คุณพิมพ์ PIN ไม่ถูกต้องไป %1$d ครั้งแล้ว 
 
-ลองอีกครั้งใน %d วินาที"</string>
+โปรดลองอีกครั้งใน %2$d วินาที"</string>
   <string name="kg_wrong_password">รหัสผ่านไม่ถูกต้อง</string>
   <string name="kg_wrong_pattern">รูปแบบไม่ถูกต้อง</string>
   <string name="kg_wrong_pin">PIN ไม่ถูกต้อง</string>
@@ -570,9 +532,7 @@
   <string name="launch_warning_original">%1$s เปิดใช้ไว้แล้ว</string>
   <string name="launch_warning_replace">%1$s กำลังทำงานอยู่ในขณะนี้</string>
   <string name="launch_warning_title">แอปฯ ที่เปลี่ยนเส้นทาง</string>
-  <string name="list_delimeter">", "</string>
   <string name="loading">กำลังโหลด...</string>
-  <string name="locale_replacement"/>
   <string name="locale_search_menu">ค้นหา</string>
   <string name="lock_to_app_description">"การใช้งานหน้าจอเดี่ยวจะแสดงผลโดยตรึงหน้าจอนั้นไว้เต็มจอ
 
@@ -601,9 +561,9 @@
 
 โปรดลองอีกครั้งในอีก %3$d วินาที"</string>
   <string name="lockscreen_failed_attempts_now_wiping">คุณพยายามปลดล็อกโทรศัพท์อย่างไม่ถูกต้องแล้ว %d ครั้ง ขณะนี้โทรศัพท์จะถูกรีเซ็ตเป็นค่าเริ่มต้นจากโรงงาน</string>
-  <string name="lockscreen_forgot_pattern_button_text">ลืมรูปแบบหรือ?</string>
-  <string name="lockscreen_glogin_account_recovery_hint">"ลืมชื่อผู้ใช้หรือรหัสผ่าน?
-โปรดไปที่ \""&lt;b&gt;google.com/accounts/recovery&lt;/b&gt;</string>
+  <string name="lockscreen_forgot_pattern_button_text">ลืมรูปแบบหรือ</string>
+  <string name="lockscreen_glogin_account_recovery_hint">"หากลืมชื่อผู้ใช้หรือรหัสผ่าน
+โปรดไปที่ "&lt;b&gt;google.com/accounts/recovery&lt;/b&gt;</string>
   <string name="lockscreen_glogin_checking_password">กำลังตรวจสอบ…</string>
   <string name="lockscreen_glogin_forgot_pattern">ปลดล็อกบัญชี</string>
   <string name="lockscreen_glogin_instructions">หากต้องการปลดล็อก ให้ลงชื่อเข้าใช้ด้วยบัญชี Google ของคุณ</string>
@@ -635,16 +595,16 @@
   <string name="lockscreen_sound_off_label">ปิดเสียง</string>
   <string name="lockscreen_sound_on_label">เปิดเสียง</string>
   <string name="lockscreen_storage_locked">ปลดล็อกคุณลักษณะและข้อมูลทั้งหมด</string>
-  <string name="lockscreen_too_many_failed_attempts_countdown">ลองใหม่อีกครั้งใน%d วินาที</string>
-  <string name="lockscreen_too_many_failed_attempts_dialog_message" formatted="false">"คุณวาดรูปแบบการปลดล็อกไม่ถูกต้องไป %d ครั้งแล้ว 
+  <string name="lockscreen_too_many_failed_attempts_countdown">ลองใหม่อีกครั้งใน %d วินาที</string>
+  <string name="lockscreen_too_many_failed_attempts_dialog_message">"คุณวาดรูปแบบการปลดล็อกไม่ถูกต้องไป %1$d ครั้งแล้ว
 
-โปรดลองอีกครั้งในอีก %d วินาที"</string>
-  <string name="lockscreen_too_many_failed_password_attempts_dialog_message" formatted="false">"คุณพิมพ์รหัสผ่านไม่ถูกต้องไป %d ครั้งแล้ว 
+โปรดลองอีกครั้งในอีก %2$d วินาที"</string>
+  <string name="lockscreen_too_many_failed_password_attempts_dialog_message">"คุณพิมพ์รหัสผ่านไม่ถูกต้องไป %1$d ครั้งแล้ว
 
-ลองอีกครั้งใน %d วินาที."</string>
-  <string name="lockscreen_too_many_failed_pin_attempts_dialog_message" formatted="false">"คุณพิมพ์ PIN ไม่ถูกต้องไป %d ครั้งแล้ว. 
+ลองอีกครั้งใน %2$d วินาที"</string>
+  <string name="lockscreen_too_many_failed_pin_attempts_dialog_message">"คุณพิมพ์ PIN ไม่ถูกต้องไป %1$d ครั้งแล้ว
 
-ลองอีกครั้งใน %d วินาที"</string>
+ลองอีกครั้งใน %2$d วินาที"</string>
   <string name="lockscreen_transport_ffw_description">กรอไปข้างหน้า</string>
   <string name="lockscreen_transport_next_description">แทร็กถัดไป</string>
   <string name="lockscreen_transport_pause_description">หยุดชั่วคราว</string>
@@ -657,7 +617,7 @@
   <string name="low_internal_storage_view_text_no_boot">พื้นที่เก็บข้อมูลไม่เพียงพอสำหรับระบบ โปรดตรวจสอบว่าคุณมีพื้นที่ว่าง 250 MB แล้วรีสตาร์ท</string>
   <string name="low_internal_storage_view_title">พื้นที่จัดเก็บเหลือน้อย</string>
   <string name="low_memory">ที่เก็บข้อมูลโทรศัพท์เต็ม ลบบางไฟล์เพื่อเพิ่มที่ว่าง</string>
-  <string name="managed_profile_label">ที่ทำงาน</string>
+  <string name="managed_profile_label">เปลี่ยนไปใช้โปรไฟล์งาน</string>
   <string name="managed_profile_label_badge">%1$sที่ทำงาน</string>
   <string name="maximize_button_text">ขยายใหญ่สุด</string>
   <string name="me">ฉัน</string>
@@ -775,7 +735,6 @@
   <string name="needPuk2">พิมพ์ PUK2 เพื่อยกเลิกการปิดกั้นซิมการ์ด</string>
   <string name="negative_duration">−%1$s</string>
   <string name="network_available_sign_in">ลงชื่อเข้าใช้เครือข่าย</string>
-  <string name="network_available_sign_in_detailed">%1$s</string>
   <string name="network_switch_metered">เปลี่ยนเป็น %1$s</string>
   <string name="network_switch_metered_detail">อุปกรณ์จะใช้ %1$s เมื่อ %2$s ไม่สามารถเข้าถึงอินเทอร์เน็ต อาจมีค่าบริการ</string>
   <string name="network_switch_metered_toast">เปลี่ยนจาก %1$s เป็น %2$s</string>
@@ -794,7 +753,6 @@
   <string name="noon">เที่ยง</string>
   <string name="notification_hidden_by_policy_text">มีการซ่อนเนื้อหาโดยนโยบาย</string>
   <string name="notification_hidden_text">เนื้อหาถูกซ่อนไว้</string>
-  <string name="notification_inbox_ellipsis">…</string>
   <string name="notification_listener_binding_label">ตัวฟังการแจ้งเตือน</string>
   <string name="notification_messaging_title_template">%1$s: %2$s</string>
   <string name="notification_ranker_binding_label">บริการตัวจัดอันดับการแจ้งเตือน</string>
@@ -804,7 +762,7 @@
   <string name="number_picker_decrement_button">ลด</string>
   <string name="number_picker_increment_button">เพิ่ม</string>
   <string name="number_picker_increment_scroll_action">เลื่อนขึ้นเพื่อเพิ่มและเลื่อนลงเพื่อลด</string>
-  <string name="number_picker_increment_scroll_mode">แตะ %s ค้างไว้</string>
+  <string name="number_picker_increment_scroll_mode">%s แตะค้างไว้</string>
   <string name="ok">ตกลง</string>
   <string name="old_app_action">กลับสู่ %1$s</string>
   <string name="old_app_description">อย่าเริ่มแอปพลิเคชันใหม่</string>
@@ -831,15 +789,15 @@
   <string name="peerTtyModeOff">อีกฝั่งหนึ่งขอโหมด TTY เป็น \"ปิด\"</string>
   <string name="peerTtyModeVco">อีกฝั่งหนึ่งขอโหมด TTY เป็น \"VCO\"</string>
   <string name="perm_costs_money">รายการนี้อาจมีการเรียกเก็บเงิน</string>
-  <string name="permdesc_accessCoarseLocation">อนุญาตให้แอปพลิเคชัน รับตำแหน่งโดยประมาณของคุณ บริการตำแหน่งจะดึงตำแหน่งขึ้นมา โดยใช้ต้นทางของตำแหน่งอย่างเช่น เสาสัญญาณมือถือ และ WiFi บริการตำแหน่งเหล่านี้จะต้องถูกเปิดใช้งานอยู่สำหรับอุปกรณ์ของคุณเพื่อให้แอปพลิเคชันสามารถใช้งานได้ แอปพลิเคชันสามารถใช้บริการตำแหน่งนี้เพื่อตัดสินอย่างคร่าวๆ ว่าคุณอยู่ ณ จุดใด</string>
+  <string name="permdesc_accessCoarseLocation">อนุญาตให้แอปพลิเคชันรับตำแหน่งโดยประมาณของคุณ บริการตำแหน่งจะดึงตำแหน่งขึ้นมาโดยใช้ต้นทางของตำแหน่งอย่างเช่น เสาสัญญาณมือถือ และ WiFi บริการตำแหน่งเหล่านี้จะต้องถูกเปิดใช้งานอยู่สำหรับอุปกรณ์ของคุณเพื่อให้แอปพลิเคชันสามารถใช้งานได้ แอปพลิเคชันสามารถใช้บริการตำแหน่งนี้เพื่อตัดสินอย่างคร่าวๆ ว่าคุณอยู่ ณ จุดใด</string>
   <string name="permdesc_accessDrmCertificates">ช่วยให้แอปพลิเคชันสามารถจัดสรรและใช้ใบรับรอง DRM ได้ ไม่จำเป็นสำหรับแอปปกติทั่วไป</string>
-  <string name="permdesc_accessFineLocation">อนุญาตให้แอปพลิเคชัน รับตำแหน่งที่แม่นยำของคุณโดยใช้ Global Positioning System (GPS) หรือต้นทางของตำแหน่ง ในเครือข่ายอย่างเช่น เสาสัญญาณมือถือ และ WiFi บริการตำแหน่งเหล่านี้ จะต้องถูกเปิดใช้งานอยู่สำหรับอุปกรณ์ของคุณเพื่อให้แอปพลิเคชันสามารถใช้งานได้ แอปพลิเคชันสามารถใช้บริการตำแหน่งนี้เพื่อตัดสินว่าคุณอยู่ ณ จุดใด และอาจใช้พลังงานแบตเตอรี่มากกว่าปกติ</string>
+  <string name="permdesc_accessFineLocation">อนุญาตให้แอปพลิเคชันรับตำแหน่งที่แม่นยำของคุณโดยใช้ Global Positioning System (GPS) หรือต้นทางของตำแหน่งในเครือข่ายอย่างเช่น เสาสัญญาณมือถือ และ WiFi บริการตำแหน่งเหล่านี้จะต้องถูกเปิดใช้งานอยู่สำหรับอุปกรณ์ของคุณเพื่อให้แอปพลิเคชันสามารถใช้งานได้ แอปพลิเคชันสามารถใช้บริการตำแหน่งนี้เพื่อตัดสินว่าคุณอยู่ ณ จุดใด และอาจใช้พลังงานแบตเตอรี่มากกว่าปกติ</string>
   <string name="permdesc_accessImsCallService">อนุญาตให้แอปใช้บริการ IMS เพื่อโทรออกโดยคุณไม่ต้องดำเนินการใดๆ เลย</string>
-  <string name="permdesc_accessLocationExtraCommands">อนุญาตให้แอปเข้าถึง คำสั่งของผู้ให้บริการตำแหน่งเพิ่มเติม ซึ่งอาจทำให้แอปสามารถแทรกแซงการทำงาน ของ GPS หรือต้นทางของตำแหน่งอื่นๆ ได้</string>
+  <string name="permdesc_accessLocationExtraCommands">อนุญาตให้แอปเข้าถึงคำสั่งของผู้ให้บริการตำแหน่งเพิ่มเติม ซึ่งอาจทำให้แอปสามารถแทรกแซงการทำงานของ GPS หรือต้นทางของตำแหน่งอื่นๆ ได้</string>
   <string name="permdesc_accessNetworkConditions">อนุญาตให้แอปพลิเคชันฟังข้อสังเกตเกี่ยวกับสภาวะของเครือข่าย ไม่จำเป็นสำหรับแอปปกติ</string>
-  <string name="permdesc_accessNetworkState">อนุญาตให้แอปพลิเคชันเรียกดู ข้อมูลเกี่ยวกับการเชื่อมต่อเครือข่าย เช่น มีเครือข่ายใดอยู่บ้าง และมีการเชื่อมต่อเครือข่ายใด</string>
+  <string name="permdesc_accessNetworkState">อนุญาตให้แอปพลิเคชันดูข้อมูลเกี่ยวกับการเชื่อมต่อเครือข่าย เช่น มีเครือข่ายใดอยู่บ้าง และมีการเชื่อมต่อเครือข่ายใด</string>
   <string name="permdesc_accessNotifications">ทำให้แอปสามารถเรียกดู ตรวจสอบ และล้างการแจ้งเตือนได้ ซึ่งรวมถึงการแจ้งเตือนที่โพสต์โดยแอปอื่นๆ ด้วย</string>
-  <string name="permdesc_accessWifiState">อนุญาตให้แอปพลิเคชันดูข้อมูล เกี่ยวกับเครือข่าย WiFi เช่น เปิดใช้งาน WiFi อยู่หรือไม่ และชื่อของอุปกรณ์ WiFi ที่เชื่อมต่อ</string>
+  <string name="permdesc_accessWifiState">อนุญาตให้แอปพลิเคชันดูข้อมูลเกี่ยวกับเครือข่าย WiFi เช่น เปิดใช้งาน WiFi อยู่หรือไม่ และชื่อของอุปกรณ์ WiFi ที่เชื่อมต่อ</string>
   <string name="permdesc_accessWimaxState">อนุญาตให้แอปพลิเคชันตรวจสอบว่า WiMAX เปิดใช้งานอยู่หรือไม่และข้อมูลเกี่ยวกับเครือข่าย WiMAX ใดๆ ที่เชื่อมต่ออยู่</string>
   <string name="permdesc_access_notification_policy">อนุญาตให้แอปอ่านและเขียนการกำหนดค่าโหมดห้ามรบกวน</string>
   <string name="permdesc_addVoicemail">อนุญาตให้แอปพลิเคชันเพิ่มข้อความลงในกล่องข้อความเสียงของคุณ</string>
@@ -854,20 +812,19 @@
   <string name="permdesc_bluetoothAdmin">อนุญาตให้แอปพลิเคชันกำหนดค่าโทรศัพท์บลูทูธในตัวเครื่อง ตลอดจนค้นหาและจับคู่กับอุปกรณ์ที่อยู่ระยะไกล</string>
   <string name="permdesc_bodySensors">อนุญาตให้แอปเข้าถึงข้อมูลจากเซ็นเซอร์ที่ตรวจสอบสภาพทางกายภาพ เช่น อัตราการเต้นของหัวใจ</string>
   <string name="permdesc_broadcastSticky">อนุญาตให้แอปพลิเคชันส่งการกระจายข้อมูลที่ติดหนึบ ซึ่งจะยังคงอยู่หลังจากการกระจายข้อมูลจบไปแล้ว การใช้งานมากเกินไปอาจทำให้โทรศัพท์ทำงานช้าลงหรือไม่เสถียรโดยการใช้หน่วยความจำมากเกินไป</string>
-  <string name="permdesc_callPhone">อนุญาตให้แอปพลิเคชันโทรเข้าโทรศัพท์ โดยไม่ต้องให้คุณจัดการ ซึ่งอาจทำให้มีการเรียกเก็บเงินหรือการโทร ที่ไม่คาดคิด โปรดทราบว่าการทำงานนี้ไม่ได้อนุญาตให้แอปพลิเคชันโทรไปหมายเลขฉุกเฉิน แอปพลิเคชันที่เป็นอันตรายอาจทำให้คุณต้องเสียค่าบริการด้วยการโทร โดยไม่ขอการยืนยันจากคุณ</string>
-  <string name="permdesc_camera">อนุญาตให้แอปพลิเคชันถ่ายภาพและวิดีโอ ด้วยกล้องถ่ายรูปนี้ การอนุญาตนี้จะทำให้แอปพลิเคชันสามารถใช้กล้องถ่ายรูปได้ทุกเมื่อ โดยไม่ต้องรอการยืนยันจากคุณ</string>
+  <string name="permdesc_callPhone">อนุญาตให้แอปพลิเคชันโทรเข้าโทรศัพท์โดยไม่ต้องให้คุณจัดการ ซึ่งอาจทำให้มีการเรียกเก็บเงินหรือการโทรที่ไม่คาดคิด โปรดทราบว่าการทำงานนี้ไม่ได้อนุญาตให้แอปพลิเคชันโทรไปหมายเลขฉุกเฉิน แอปพลิเคชันที่เป็นอันตรายอาจทำให้คุณต้องเสียค่าบริการด้วยการโทรโดยไม่ขอการยืนยันจากคุณ</string>
+  <string name="permdesc_camera">อนุญาตให้แอปพลิเคชันถ่ายภาพและวิดีโอด้วยกล้องถ่ายรูปนี้ การอนุญาตนี้จะทำให้แอปพลิเคชันสามารถใช้กล้องถ่ายรูปได้ทุกเมื่อโดยไม่ต้องรอการยืนยันจากคุณ</string>
   <string name="permdesc_changeNetworkState">อนุญาตให้แอปพลิเคชันเปลี่ยนแปลงสถานะการเชื่อมต่อของเครือข่าย</string>
   <string name="permdesc_changeTetherState">อนุญาตให้แอปพลิเคชันเปลี่ยนแปลงสถานะการเชื่อมต่อของเครือข่ายการเชื่อมต่ออินเทอร์เน็ตผ่านมือถือ</string>
   <string name="permdesc_changeWifiMulticastState">อนุญาตให้แอปพลิเคชันรับแพ็คเก็ตที่ส่งไปยังทุกอุปกรณ์บนเครือข่าย WiFi โดยใช้ที่อยู่มัลติแคสต์ ไม่ใช่เพียงโทรศัพท์ของคุณเท่านั้น ซึ่งจะใช้พลังงานมากกว่าในโหมดที่ไม่ใช่มัลติแคสต์</string>
-  <string name="permdesc_changeWifiState">อนุญาตให้แอปพลิเคชันเชื่อมต่อและ หยุดเชื่อมต่อจากจุดเข้าใช้งาน WiFi และเปลี่ยนแปลงการกำหนดค่าอุปกรณ์ สำหรับเครือข่าย WiFi</string>
+  <string name="permdesc_changeWifiState">อนุญาตให้แอปพลิเคชันเชื่อมต่อและหยุดเชื่อมต่อจากจุดเข้าใช้งาน WiFi และเปลี่ยนแปลงการกำหนดค่าอุปกรณ์ำสำหรับเครือข่าย WiFi</string>
   <string name="permdesc_changeWimaxState">อนุญาตให้แอปพลิเคชันเชื่อมต่อและยกเลิกการเชื่อมต่อโทรศัพท์กับเครือข่าย WiMAX</string>
   <string name="permdesc_connection_manager">อนุญาตให้แอปจัดการการเชื่อมต่อโทรคมนาคม</string>
   <string name="permdesc_control_incall_experience">อนุญาตให้แอปมอบประสบการณ์ของผู้ใช้ขณะกำลังใช้สาย</string>
-  <string name="permdesc_createNetworkSockets">อนุญาตให้แอปพลิเคชันสร้าง ซ็อกเก็ตเครือข่ายและใช้โปรโตคอลเครือข่ายที่กำหนดเอง เบราว์เซอร์และแอปพลิเคชันอื่นๆ ให้วิธีการในการส่งข้อมูลไปยังอินเทอร์เน็ต จึงไม่จำเป็นต้องได้รับการอนุญาตนี้เพื่อที่จะส่งข้อมูลไปยังอินเทอร์เน็ต</string>
-  <string name="permdesc_disableKeyguard">อนุญาตให้แอปพลิเคชันปิดใช้งาน การล็อกปุ่มกดและการรักษาความปลอดภัยด้วยรหัสผ่านใดๆ ที่เกี่ยวข้อง ตัวอย่างเช่น โทรศัพท์ปิดใช้งานการล็อกปุ่มกดเมื่อรับสายเรียกเข้า จากนั้นจึงเปิดใช้งานการล็อกปุ่มกดใหม่หลังจากวางสาย</string>
+  <string name="permdesc_createNetworkSockets">อนุญาตให้แอปพลิเคชันสร้างซ็อกเก็ตเครือข่ายและใช้โปรโตคอลเครือข่ายที่กำหนดเอง เบราว์เซอร์และแอปพลิเคชันอื่นๆ ให้วิธีการในการส่งข้อมูลไปยังอินเทอร์เน็ต จึงไม่จำเป็นต้องได้รับการอนุญาตนี้เพื่อที่จะส่งข้อมูลไปยังอินเทอร์เน็ต</string>
+  <string name="permdesc_disableKeyguard">อนุญาตให้แอปพลิเคชันปิดใช้งานการล็อกปุ่มกดและการรักษาความปลอดภัยด้วยรหัสผ่านใดๆ ที่เกี่ยวข้อง ตัวอย่างเช่น โทรศัพท์ปิดใช้งานการล็อกปุ่มกดเมื่อรับสายเรียกเข้า จากนั้นจึงเปิดใช้งานการล็อกปุ่มกดใหม่หลังจากวางสาย</string>
   <string name="permdesc_enableCarMode">อนุญาตให้แอปพลิเคชันเปิดใช้งานโหมดรถยนต์</string>
   <string name="permdesc_expandStatusBar">อนุญาตให้แอปพลิเคชันขยายหรือยุบแถบสถานะ</string>
-  <string name="permdesc_flashlight">อนุญาตให้แอปพลิเคชันควบคุมไฟฉาย</string>
   <string name="permdesc_getAccounts">อนุญาตให้แอปพลิเคชันรับรายการบัญชีที่โทรศัพท์รู้จัก ซึ่งอาจรวมถึงบัญชีใดๆ ก็ตามที่แอปพลิเคชันซึ่งคุณติดตั้งไว้ได้สร้างขึ้น</string>
   <string name="permdesc_getPackageSize">อนุญาตให้แอปพลิเคชันเรียกดูรหัส ข้อมูล และขนาดแคชของตน</string>
   <string name="permdesc_getTasks">อนุญาตให้แอปพลิเคชันเรียกดูข้อมูลเกี่ยวกับงานที่ดำเนินการอยู่ในขณะนี้และเมื่อเร็วๆ นี้ ซึ่งอาจทำให้แอปพลิเคชันสามารถค้นข้อมูลได้ว่าอุปกรณ์นี้ใช้แอปพลิเคชันใดบ้าง</string>
@@ -880,7 +837,7 @@
   <string name="permdesc_manageProfileAndDeviceOwners">อนุญาตให้แอปตั้งค่าเจ้าของโปรไฟล์และเจ้าของอุปกรณ์</string>
   <string name="permdesc_modifyAudioSettings">อนุญาตให้แอปพลิเคชันปรับเปลี่ยนการตั้งค่าเสียงทั้งหมดได้ เช่น ระดับเสียงและลำโพงที่จะใช้งาน</string>
   <string name="permdesc_modifyNetworkAccounting">อนุญาตให้แอปพลิเคชันแก้ไขวิธีการบันทึกบัญชีการใช้งานเครือข่ายของแอปพลิเคชัน ไม่ใช้สำหรับแอปพลิเคชันทั่วไป</string>
-  <string name="permdesc_nfc">อนุญาตให้แอปพลิเคชันสื่อสาร กับแท็ก Near Field Communication (NFC) การ์ด และโปรแกรมอ่าน</string>
+  <string name="permdesc_nfc">อนุญาตให้แอปพลิเคชันสื่อสารกับแท็ก Near Field Communication (NFC) การ์ด และโปรแกรมอ่าน</string>
   <string name="permdesc_persistentActivity">อนุญาตให้แอปพลิเคชันทำให้ส่วนหนึ่งของตัวเองคงอยู่ถาวรในหน่วยความจำ ซึ่งจะจำกัดพื้นที่หน่วยความจำที่ใช้งานได้ของแอปพลิเคชันอื่นๆ และทำให้โทรศัพท์ทำงานช้าลง</string>
   <string name="permdesc_processOutgoingCalls">อนุญาตให้แอปดูหมายเลขที่โทรในระหว่างการโทรออกโดยสามารถเลือกเปลี่ยนเส้นทางการโทรไปยังหมายเลขอื่นหรือยกเลิกการโทรไปเลยได้</string>
   <string name="permdesc_readCalendar">อนุญาตให้แอปพลิเคชันอ่านกิจกรรมในปฏิทินทั้งหมดที่จัดเก็บไว้ในโทรศัพท์ของคุณ ซึ่งรวมถึงกิจกรรมของเพื่อนหรือเพื่อนร่วมงานด้วย ซึ่งอาจทำให้แอปพลิเคชันสามารถแชร์หรือบันทึกข้อมูลในปฏิทินของคุณได้ไม่ว่าจะมีการรักษาข้อมูลที่เป็นความลับหรือหรือข้อมูลที่อ่อนไหวแบบใดก็ตาม</string>
@@ -890,7 +847,7 @@
   <string name="permdesc_readHistoryBookmarks">อนุญาตให้แอปพลิเคชันอ่านประวัติของ URL ทั้งหมดที่เบราว์เซอร์เคยไป และบุ๊กมาร์กทั้งหมดของเบราว์เซอร์ หมายเหตุ: การอนุญาตนี้อาจไม่สามารถใช้งานได้กับเบราว์เซอร์ของบุคคลที่สามหรือแอปพลิเคชันอื่นๆ ที่มีความสามารถในการเรียกดูบนเว็บ</string>
   <string name="permdesc_readInstallSessions">อนุญาตให้แอปพลิเคชันอ่านเซสชันการติดตั้ง ซึ่งจะอนุญาตให้อ่านรายละเอียดเกี่ยวกับการติดตั้งแพ็กเกจที่ใช้งาน</string>
   <string name="permdesc_readNetworkUsageHistory">อนุญาตให้แอปพลิเคชันอ่านประวัติการใช้เครือข่ายสำหรับเครือข่ายและแอปพลิเคชันเฉพาะ</string>
-  <string name="permdesc_readPhoneState">อนุญาตให้แอปพลิเคชันเข้าถึงคุณลักษณะโทรศัพท์ ของอุปกรณ์ การอนุญาตนี้ทำให้แอปพลิเคชันสามารถตรวจสอบ หมายเลขโทรศัพท์และรหัสอุปกรณ์ ตรวจสอบว่ามีการโทรที่ทำงานอยู่หรือไม่ และตรวจสอบหมายเลขระยะไกล ที่เชื่อมต่อด้วยการโทร</string>
+  <string name="permdesc_readPhoneState">อนุญาตให้แอปพลิเคชันเข้าถึงคุณลักษณะโทรศัพท์ของอุปกรณ์ การอนุญาตนี้ทำให้แอปพลิเคชันสามารถตรวจสอบหมายเลขโทรศัพท์และรหัสอุปกรณ์ ตรวจสอบว่ามีการโทรที่ทำงานอยู่หรือไม่ และตรวจสอบหมายเลขระยะไกลที่เชื่อมต่อด้วยการโทร</string>
   <string name="permdesc_readSms">อนุญาตให้แอปพลิเคชันอ่านข้อความ SMS ที่จัดเก็บไว้ในโทรศัพท์หรือซิมการ์ด ซึ่งจะทำให้แอปพลิเคชันสามารถอ่านข้อความ SMS ทั้งหมดได้ไม่ว่าจะเป็นเนื้อหาใดหรือมีการรักษาข้อมูลที่เป็นความลับแบบใด</string>
   <string name="permdesc_readSyncSettings">อนุญาตให้แอปพลิเคชันอ่านการตั้งค่าการซิงค์ของบัญชี ตัวอย่างเช่น การอนุญาตนี้สามารถระบุได้ว่าแอปพลิเคชัน People ซิงค์กับบัญชีหรือไม่</string>
   <string name="permdesc_readSyncStats">อนุญาตให้แอปพลิเคชันอ่านสถานะการซิงค์ของบัญชี ซึ่งรวมถึงประวัติกิจกรรมการซิงค์และปริมาณข้อมูลที่ซิงค์</string>
@@ -898,7 +855,7 @@
   <string name="permdesc_receiveMms">อนุญาตให้แอปพลิเคชันรับและประมวลผลข้อความ MMS ซึ่งหมายความว่าแอปพลิเคชันจะสามารถตรวจสอบหรือลบข้อความที่ส่งมายังอุปกรณ์ของคุณได้โดยไม่ต้องแสดงให้คุณเห็น</string>
   <string name="permdesc_receiveSms">อนุญาตให้แอปพลิเคชันรับและประมวลผลข้อความ SMS ซึ่งหมายความว่าแอปพลิเคชันจะสามารถตรวจสอบหรือลบข้อความที่ส่งมายังอุปกรณ์ของคุณได้โดยไม่ต้องแสดงให้คุณเห็น</string>
   <string name="permdesc_receiveWapPush">อนุญาตให้แอปพลิเคชันรับและประมวลผลข้อความ WAP การอนุญาตนี้รวมถึงความสามารถในการตรวจสอบหรือลบข้อความที่ส่งมาให้คุณโดยไม่ต้องแสดงให้คุณเห็น</string>
-  <string name="permdesc_recordAudio">อนุญาตให้แอปพลิเคชันบันทึกเสียงด้วย ไมโครโฟน การอนุญาตนี้ทำให้แอปพลิเคชันสามารถบันทึกเสียงได้ทุกเมื่อ โดยไม่ต้องรอการยืนยันจากคุณ</string>
+  <string name="permdesc_recordAudio">อนุญาตให้แอปพลิเคชันบันทึกเสียงด้วยไมโครโฟน การอนุญาตนี้ทำให้แอปพลิเคชันสามารถบันทึกเสียงได้ทุกเมื่อโดยไม่ต้องรอการยืนยันจากคุณ</string>
   <string name="permdesc_register_call_provider">อนุญาตให้แอปลงทะเบียนการเชื่อมต่อโทรคมนาคมใหม่</string>
   <string name="permdesc_register_sim_subscription">อนุญาตให้แอปลงทะเบียนการเชื่อมต่อซิมโทรคมนาคมใหม่</string>
   <string name="permdesc_removeDrmCertificates">อนุญาตให้แอปพลิเคชันนำใบรับรอง DRM ออก แอปทั่วไปไม่จำเป็นต้องใช้</string>
@@ -952,9 +909,9 @@
   <string name="permission_request_notification_title">การอนุญาตที่ขอ</string>
   <string name="permission_request_notification_with_subtitle">"การอนุญาตที่ขอ
 สำหรับบัญชี %s"</string>
-  <string name="permlab_accessCoarseLocation">ตำแหน่งโดยประมาณ (อิงตามเครือข่าย)</string>
+  <string name="permlab_accessCoarseLocation">เข้าถึงตำแหน่งโดยประมาณ (อิงจากเครือข่าย)</string>
   <string name="permlab_accessDrmCertificates">เข้าถึงใบรับรอง DRM</string>
-  <string name="permlab_accessFineLocation">ตำแหน่งที่แม่นยำ (อิงตาม GPS และเครือข่าย)</string>
+  <string name="permlab_accessFineLocation">เข้าถึงตำแหน่งที่แม่นยำ (อิงจาก GPS และเครือข่าย)</string>
   <string name="permlab_accessImsCallService">เข้าถึงบริการโทร IMS</string>
   <string name="permlab_accessLocationExtraCommands">เข้าถึงคำสั่งของโปรแกรมแจ้งตำแหน่งพิเศษ</string>
   <string name="permlab_accessNetworkConditions">ฟังข้อสังเกตเกี่ยวกับสภาวะของเครือข่าย</string>
@@ -973,7 +930,7 @@
   <string name="permlab_bind_incall_service">โต้ตอบกับหน้าจอขณะกำลังใช้สาย</string>
   <string name="permlab_bluetooth">จับคู่กับอุปกรณ์บลูทูธ</string>
   <string name="permlab_bluetoothAdmin">เข้าถึงการตั้งค่าบลูทูธ</string>
-  <string name="permlab_bodySensors">เซ็นเซอร์ร่างกาย (เช่น วัดอัตราการเต้นของหัวใจ)</string>
+  <string name="permlab_bodySensors">เข้าถึงเซ็นเซอร์ร่างกาย (เช่น ตัววัดอัตราการเต้นของหัวใจ)</string>
   <string name="permlab_broadcastSticky">ส่งการกระจายข้อมูลที่ติดหนึบ</string>
   <string name="permlab_callPhone">โทรติดต่อหมายเลขโทรศัพท์โดยตรง</string>
   <string name="permlab_camera">ถ่ายภาพและวิดีโอ</string>
@@ -984,11 +941,10 @@
   <string name="permlab_changeWimaxState">เปลี่ยนสถานะของ WiMAX</string>
   <string name="permlab_connection_manager">จัดการการเชื่อมต่อโทรคมนาคม</string>
   <string name="permlab_control_incall_experience">มอบประสบการณ์ของผู้ใช้ขณะกำลังใช้สาย</string>
-  <string name="permlab_createNetworkSockets">การเข้าถึงเครือข่ายเต็มรูปแบบ</string>
+  <string name="permlab_createNetworkSockets">มีสิทธิ์เข้าถึงเครือข่ายเต็มรูปแบบ</string>
   <string name="permlab_disableKeyguard">ปิดใช้งานการล็อกหน้าจอของคุณ</string>
   <string name="permlab_enableCarMode">เปิดใช้งานโหมดใช้ในรถยนต์</string>
   <string name="permlab_expandStatusBar">ขยาย/ยุบแถบสถานะ</string>
-  <string name="permlab_flashlight">ควบคุมไฟฉาย</string>
   <string name="permlab_getAccounts">ค้นหาบัญชีในอุปกรณ์</string>
   <string name="permlab_getPackageSize">วัดพื้นที่เก็บข้อมูลของแอปพลิเคชัน</string>
   <string name="permlab_getTasks">เรียกแอปพลิเคชันที่ทำงานอยู่</string>
@@ -1034,9 +990,9 @@
   <string name="permlab_setTimeZone">ตั้งค่าเขตเวลา</string>
   <string name="permlab_setWallpaper">ตั้งค่าวอลเปเปอร์</string>
   <string name="permlab_setWallpaperHints">ปรับขนาดวอลเปเปอร์ของคุณ</string>
-  <string name="permlab_sim_communication">การสื่อสารกับ SIM</string>
+  <string name="permlab_sim_communication">ส่งคำสั่งไปยังซิม</string>
   <string name="permlab_statusBar">ปิดการใช้งานหรือแก้ไขแถบสถานะ</string>
-  <string name="permlab_statusBarService">แถบสถานะ</string>
+  <string name="permlab_statusBarService">เป็นแถบสถานะ</string>
   <string name="permlab_subscribedFeedsRead">อ่านฟีดข้อมูลที่สมัครไว้</string>
   <string name="permlab_systemAlertWindow">ปิดคลุมแอปอื่นๆ</string>
   <string name="permlab_transmitIr">ส่งสัญญาณอินฟราเรด</string>
@@ -1053,7 +1009,7 @@
   <string name="permlab_writeSettings">แก้ไขการตั้งค่าระบบ</string>
   <string name="permlab_writeSyncSettings">สลับระหว่างเปิดและปิดการซิงค์</string>
   <string name="perms_description_app">โดย %1$s</string>
-  <string name="perms_new_perm_prefix">&lt;font size="12" fgcolor="#ff33b5e5"&gt;\"&amp;#3651;&amp;#3627;&amp;#3617;&amp;#3656;: \"&lt;/font&gt;</string>
+  <string name="perms_new_perm_prefix">&lt;font size="12" fgcolor="#ff33b5e5"&gt;&amp;#3651;&amp;#3627;&amp;#3617;&amp;#3656;: &lt;/font&gt;</string>
   <string name="petabyteShort">PB</string>
   <string name="phoneTypeAssistant">ผู้ช่วย</string>
   <string name="phoneTypeCallback">ติดต่อกลับ</string>
@@ -1074,7 +1030,7 @@
   <string name="phoneTypeTelex">เทเล็กซ์</string>
   <string name="phoneTypeTtyTdd">TTY TDD</string>
   <string name="phoneTypeWork">ที่ทำงาน</string>
-  <string name="phoneTypeWorkMobile">โทรศัพท์มือถือที่ทำงาน</string>
+  <string name="phoneTypeWorkMobile">มือถือที่ทำงาน</string>
   <string name="phoneTypeWorkPager">เพจเจอร์ที่ทำงาน</string>
   <string name="pin_target">ปักหมุด</string>
   <string name="policydesc_disableCamera">ป้องกันการใช้กล้องถ่ายรูปของอุปกรณ์ทั้งหมด</string>
@@ -1084,7 +1040,7 @@
   <string name="policydesc_forceLock">ควบคุมว่าหน้าจอจะล็อกอย่างไรและเมื่อใด</string>
   <string name="policydesc_limitPassword">ควบคุมความยาวและอักขระที่สามารถใช้ในรหัสผ่านของการล็อกหน้าจอและ PIN</string>
   <string name="policydesc_resetPassword">เปลี่ยนการล็อกหน้าจอ</string>
-  <string name="policydesc_setGlobalProxy">ตั้งค่าพร็อกซีส่วนกลางของอุปกรณ์ ที่จะใช้ขณะที่เปิดใช้นโยบายอยู่ เฉพาะเจ้าของอุปกรณ์เท่านั้นที่สามารถตั้งค่าพร็อกซีส่วนกลาง</string>
+  <string name="policydesc_setGlobalProxy">ตั้งค่าพร็อกซีส่วนกลางของอุปกรณ์ที่จะใช้ขณะที่เปิดใช้นโยบายอยู่ เฉพาะเจ้าของอุปกรณ์เท่านั้นที่สามารถตั้งค่าพร็อกซีส่วนกลาง</string>
   <string name="policydesc_watchLogin">ตรวจสอบจำนวนการพิมพ์รหัสผ่านที่ไม่ถูกต้องขณะปลดล็อกหน้าจอ และล็อกโทรศัพท์หรือลบข้อมูลทั้งหมดในโทรศัพท์ถ้ามีการพิมพ์รหัสผ่านที่ไม่ถูกต้องมากเกินไป</string>
   <string name="policydesc_watchLogin_secondaryUser">ตรวจสอบจำนวนรหัสผ่านที่พิมพ์ไม่ถูกต้องเวลาปลดล็อกหน้าจอ และล็อกโทรศัพท์หรือลบข้อมูลทั้งหมดของผู้ใช้นี้หากพิมพ์รหัสผ่านไม่ถูกต้องบ่อยเกินไป</string>
   <string name="policydesc_wipeData">ลบข้อมูลของโทรศัพท์โดยไม่มีการเตือน ด้วยการดำเนินการรีเซ็ตข้อมูลเป็นค่าเริ่มต้น</string>
@@ -1116,13 +1072,10 @@
   <string name="profile_encrypted_message">แตะเพื่อปลดล็อกโปรไฟล์งาน</string>
   <string name="progress_erasing">กำลังลบที่จัดเก็บข้อมูล USB...</string>
   <string name="quick_contacts_not_available">ไม่พบแอปพลิเคชันที่ใช้ดูรายชื่อติดต่อนี้</string>
-  <string name="radial_numbers_typeface">sans Serif</string>
   <string name="reason_service_unavailable">บริการพิมพ์ไม่ได้เปิดใช้งาน</string>
   <string name="reason_unknown">ไม่ทราบ</string>
-  <string name="reboot_confirm">โทรศัพท์ของคุณจะรีบูต</string>
   <string name="reboot_safemode_confirm">คุณต้องการรีบูตเข้าสู่โหมดปลอดภัยหรือไม่ การดำเนินการนี้จะปิดใช้งานแอปพลิเคชันของบุคคลที่สามทั้งหมดที่คุณได้ติดตั้งไว้ โดยจะคืนค่าเมื่อคุณรีบูตอีกครั้ง</string>
   <string name="reboot_safemode_title">รีบูตเข้าสู่โหมดปลอดภัย</string>
-  <string name="reboot_title">รีบูต</string>
   <string name="reboot_to_reset_message">กำลังรีสตาร์ท…</string>
   <string name="reboot_to_reset_title">รีเซ็ตข้อมูลเป็นค่าเริ่มต้น</string>
   <string name="reboot_to_update_package">กำลังประมวลผลแพ็กเกจการอัปเดต…</string>
@@ -1187,7 +1140,6 @@
   <string name="safe_media_volume_warning">"นี่เป็นการเพิ่มระดับเสียงเกินระดับที่แนะนำ
 
 การฟังเสียงดังเป็นเวลานานอาจทำให้การได้ยินของคุณบกพร่องได้"</string>
-  <string name="sans_serif">sans Serif</string>
   <string name="save_password_label">ยืนยัน</string>
   <string name="save_password_message">คุณต้องการให้เบราว์เซอร์จำรหัสผ่านนี้หรือไม่</string>
   <string name="save_password_never">ไม่ต้องเลย</string>
@@ -1213,8 +1165,8 @@
   <string name="select_day">เลือกเดือนและวัน</string>
   <string name="select_hours">เลือกชั่วโมง</string>
   <string name="select_input_method">เปลี่ยนแป้นพิมพ์</string>
-  <string name="select_keyboard_layout_notification_message">แตะเพื่อเลือกรูปแบบแป้นพิมพ์</string>
-  <string name="select_keyboard_layout_notification_title">เลือกรูปแบบแป้นพิมพ์</string>
+  <string name="select_keyboard_layout_notification_message">แตะเพื่อเลือกภาษาและรูปแบบ</string>
+  <string name="select_keyboard_layout_notification_title">กำหนดค่าแป้นพิมพ์จริง</string>
   <string name="select_minutes">เลือกนาที</string>
   <string name="select_year">เลือกปี</string>
   <string name="sendText">เลือกการทำงานกับข้อความ</string>
@@ -1245,7 +1197,7 @@
   <string name="shareactionprovider_share_with">แชร์กับ</string>
   <string name="shareactionprovider_share_with_application">แชร์ด้วย %s</string>
   <string name="sharing_remote_bugreport_notification_title">กำลังแชร์รายงานข้อบกพร่อง…</string>
-  <string name="show_ime">แสดงวิธีการป้อนข้อมูล</string>
+  <string name="show_ime">เปิดทิ้งไว้บนหน้าจอในระหว่างใช้งานแป้นพิมพ์จริง</string>
   <string name="shutdown_confirm">โทรศัพท์ของคุณจะปิดเครื่อง</string>
   <string name="shutdown_confirm_question">คุณต้องการปิดการทำงานหรือไม่</string>
   <string name="shutdown_progress">กำลังปิด...</string>
@@ -1274,7 +1226,7 @@
   <string name="sms_short_code_confirm_deny">ยกเลิก</string>
   <string name="sms_short_code_confirm_message">&lt;b&gt;%1$s&lt;/b&gt; ต้องการส่งข้อความไปยัง &lt;b&gt;%2$s&lt;/b&gt;</string>
   <string name="sms_short_code_confirm_never_allow">ไม่อนุญาตเลย</string>
-  <string name="sms_short_code_details">&lt;b&gt;&amp;#3629;&amp;#3634;&amp;#3592;&amp;#3617;&amp;#3637;&amp;#3585;&amp;#3634;&amp;#3619;&amp;#3648;&amp;#3619;&amp;#3637;&amp;#3618;&amp;#3585;&amp;#3648;&amp;#3585;&amp;#3655;&amp;#3610;&amp;#3648;&amp;#3591;&amp;#3636;&amp;#3609;&lt;/b&gt;\"&amp;#3592;&amp;#3634;&amp;#3585;&amp;#3610;&amp;#3633;&amp;#3597;&amp;#3594;&amp;#3637;&amp;#3617;&amp;#3639;&amp;#3629;&amp;#3606;&amp;#3639;&amp;#3629;&amp;#3586;&amp;#3629;&amp;#3591;&amp;#3588;&amp;#3640;&amp;#3603;\"</string>
+  <string name="sms_short_code_details">&lt;b&gt;&amp;#3629;&amp;#3634;&amp;#3592;&amp;#3617;&amp;#3637;&amp;#3585;&amp;#3634;&amp;#3619;&amp;#3648;&amp;#3619;&amp;#3637;&amp;#3618;&amp;#3585;&amp;#3648;&amp;#3585;&amp;#3655;&amp;#3610;&amp;#3648;&amp;#3591;&amp;#3636;&amp;#3609;&lt;/b&gt;&amp;#3592;&amp;#3634;&amp;#3585;&amp;#3610;&amp;#3633;&amp;#3597;&amp;#3594;&amp;#3637;&amp;#3617;&amp;#3639;&amp;#3629;&amp;#3606;&amp;#3639;&amp;#3629;&amp;#3586;&amp;#3629;&amp;#3591;&amp;#3588;&amp;#3640;&amp;#3603;</string>
   <string name="sms_short_code_remember_choice">จดจำตัวเลือกของฉัน</string>
   <string name="sms_short_code_remember_undo_instruction">คุณสามารถเปลี่ยนค่านี้ภายหลังในการตั้งค่า &gt; แอปพลิเคชัน</string>
   <string name="smv_application">แอปพลิเคชัน %1$s (กระบวนการ %2$s) ละเมิดนโยบาย StrictMode ที่บังคับใช้ด้วยตัวเอง</string>
@@ -1282,7 +1234,6 @@
   <string name="ssl_ca_cert_noti_by_administrator">โดยผู้ดูแลโปรไฟล์งานของคุณ</string>
   <string name="ssl_ca_cert_noti_by_unknown">โดยบุคคลที่สามที่ไม่รู้จัก</string>
   <string name="ssl_ca_cert_noti_managed">โดย %s</string>
-  <string name="ssl_ca_cert_warning">เครือข่ายอาจได้รับการตรวจสอบ</string>
   <string name="ssl_certificate">ใบรับรองความปลอดภัย</string>
   <string name="ssl_certificate_is_valid">ใบรับรองนี้ใช้งานได้</string>
   <string name="status_bar_notification_info_overflow">999+</string>
@@ -1292,7 +1243,7 @@
   <string name="stk_cc_ussd_to_dial">คำขอ USSD ได้รับการแก้ไขให้เป็นคำขอ DIAL</string>
   <string name="stk_cc_ussd_to_ss">คำขอ USSD ได้รับการแก้ไขให้เป็นคำขอ SS</string>
   <string name="stk_cc_ussd_to_ussd">คำขอ USSD ได้รับการแก้ไขให้เป็นคำขอ USSD ใหม่</string>
-  <string name="storage_internal">ที่จัดเก็บข้อมูลภายใน</string>
+  <string name="storage_internal">ที่จัดเก็บข้อมูลที่ใช้ร่วมกันภายใน</string>
   <string name="storage_sd_card">การ์ด SD</string>
   <string name="storage_sd_card_label">การ์ด SD ของ %s</string>
   <string name="storage_usb">ที่เก็บข้อมูล USB</string>
@@ -1311,9 +1262,6 @@
   <string name="taking_remote_bugreport_notification_title">กำลังสร้างรายงานข้อบกพร่อง…</string>
   <string name="terabyteShort">TB</string>
   <string name="tethered_notification_message">แตะเพื่อตั้งค่า</string>
-  <string name="tethered_notification_multi_device_message">%1$s เชื่อมต่ออุปกรณ์แล้ว</string>
-  <string name="tethered_notification_no_device_message">ไม่มีอุปกรณ์เชื่อมต่อ</string>
-  <string name="tethered_notification_one_device_message">%1$s เชื่อมต่ออุปกรณ์แล้ว</string>
   <string name="tethered_notification_title">การปล่อยสัญญาณหรือฮอตสปอตทำงานอยู่</string>
   <string name="textSelectionCABTitle">การเลือกข้อความ</string>
   <string name="text_copied">คัดลอกข้อความไปยังคลิปบอร์ด</string>
@@ -1325,7 +1273,6 @@
   <string name="time_picker_increment_hour_button">เพิ่มชั่วโมง</string>
   <string name="time_picker_increment_minute_button">เพิ่มนาที</string>
   <string name="time_picker_increment_set_pm_button">ตั้งค่า PM</string>
-  <string name="time_placeholder">--</string>
   <string name="toolbar_collapse_description">ยุบ</string>
   <string name="turn_off_radio">ปิดระบบไร้สาย</string>
   <string name="turn_on_radio">เปิดระบบไร้สาย</string>
@@ -1338,7 +1285,7 @@
   <string name="untitled">&lt;ไม่มีชื่อ&gt;</string>
   <string name="upload_file">เลือกไฟล์</string>
   <string name="usb_accessory_notification_title">เชื่อมต่อกับอุปกรณ์เสริม USB แล้ว</string>
-  <string name="usb_charging_notification_title">USB สำหรับการชาร์จ</string>
+  <string name="usb_charging_notification_title">กำลังชาร์จอุปกรณ์นี้ด้วย USB</string>
   <string name="usb_midi_notification_title">USB สำหรับ MIDI</string>
   <string name="usb_midi_peripheral_manufacturer_name">Android</string>
   <string name="usb_midi_peripheral_name">อุปกรณ์สำหรับต่อพอร์ต USB ของ Android</string>
@@ -1348,19 +1295,6 @@
   <string name="usb_mtp_notification_title">USB สำหรับการโอนไฟล์</string>
   <string name="usb_notification_message">แตะเพื่อดูตัวเลือกเพิ่มเติม</string>
   <string name="usb_ptp_notification_title">USB สำหรับการโอนรูปภาพ</string>
-  <string name="usb_storage_activity_title">ที่จัดเก็บข้อมูลจำนวนมากแบบ USB</string>
-  <string name="usb_storage_button_mount">เปิดที่เก็บข้อมูล USB</string>
-  <string name="usb_storage_error_message">เกิดปัญหาในการใช้ที่จัดเก็บข้อมูล USB ของคุณเพื่อเก็บข้อมูลจำนวนมากแบบ USB</string>
-  <string name="usb_storage_message">คุณได้เชื่อมต่อกับคอมพิวเตอร์ผ่าน USB แล้ว แตะปุ่มด้านล่างหากคุณต้องการคัดลอกไฟล์ระหว่างคอมพิวเตอร์กับที่จัดเก็บข้อมูล USB ของ Android</string>
-  <string name="usb_storage_notification_message">แตะเพื่อคัดลอกไฟล์ไปยัง/จากคอมพิวเตอร์ของคุณ</string>
-  <string name="usb_storage_notification_title">เชื่อมต่อ USB แล้ว</string>
-  <string name="usb_storage_stop_button_mount">ปิดที่เก็บข้อมูล USB</string>
-  <string name="usb_storage_stop_error_message">เกิดปัญหาในการปิดที่จัดเก็บข้อมูล USB ตรวจสอบให้แน่ใจว่าคุณได้ยกเลิกการต่อเชื่อมโฮสต์ USB แล้ว จากนั้นลองใหม่อีกครั้ง</string>
-  <string name="usb_storage_stop_message">ก่อนปิดที่จัดเก็บข้อมูล USB ให้ยกเลิกการต่อเชื่อม (“ลบ”) ที่จัดเก็บข้อมูล USB ของ Android จากคอมพิวเตอร์แล้ว</string>
-  <string name="usb_storage_stop_notification_message">แตะเพื่อปิดที่จัดเก็บข้อมูล USB</string>
-  <string name="usb_storage_stop_notification_title">ปิดที่เก็บข้อมูล USB</string>
-  <string name="usb_storage_stop_title">ใช้การจัดเก็บใน USB</string>
-  <string name="usb_storage_title">เชื่อมต่อ USB แล้ว</string>
   <string name="usb_supplying_notification_title">กำลังจ่ายไฟให้อุปกรณ์ที่เชื่อมต่ออยู่ผ่าน USB</string>
   <string name="use_a_different_app">ใช้แอปอื่น</string>
   <string name="user_creation_account_exists">อนุญาตให้ %1$s สร้างผู้ใช้ใหม่ด้วย %2$s ไหม</string>
@@ -1369,7 +1303,7 @@
   <string name="user_encrypted_message">แตะเพื่อปลดล็อก</string>
   <string name="user_encrypted_title">อาจมีข้อจำกัดในบางฟังก์ชัน</string>
   <string name="user_logging_out_message">กำลังออกจากระบบ %1$s…</string>
-  <string name="user_owner_label">ส่วนตัว</string>
+  <string name="user_owner_label">เปลี่ยนไปใช้โปรไฟล์ส่วนตัว</string>
   <string name="user_switched">ผู้ใช้ปัจจุบัน %1$s</string>
   <string name="user_switching_message">กำลังเปลี่ยนเป็น %1$s…</string>
   <string name="validity_period">อายุการใช้งาน:</string>
@@ -1387,7 +1321,7 @@
   <string name="volume_notification">ระดับเสียงของการแจ้งเตือน</string>
   <string name="volume_ringtone">ระดับความดังเสียงเรียกเข้า</string>
   <string name="volume_unknown">ระดับเสียง</string>
-  <string name="vpn_lockdown_config">แตะเพื่อกำหนดค่า</string>
+  <string name="vpn_lockdown_config">แตะเพื่อตั้งค่า</string>
   <string name="vpn_lockdown_connected">เชื่อมต่อ VPN แบบเปิดตลอดเวลาแล้ว</string>
   <string name="vpn_lockdown_connecting">กำลังเชื่อมต่อ VPN แบบเปิดตลอดเวลา…</string>
   <string name="vpn_lockdown_disconnected">ยกเลิกการเชื่อมต่อ VPN แบบเปิดตลอดเวลาแล้ว</string>
@@ -1405,9 +1339,7 @@
   <string name="websearch">ค้นเว็บ</string>
   <string name="week">สัปดาห์</string>
   <string name="weeks">สัปดาห์</string>
-  <string name="wfcDataSpnFormat">%s</string>
   <string name="wfcRegErrorTitle">การโทรผ่าน Wi-Fi</string>
-  <string name="wfcSpnFormat">%s</string>
   <string name="wfc_mode_cellular_preferred_summary">ต้องการใช้เครือข่ายมือถือ</string>
   <string name="wfc_mode_wifi_only_summary">Wi-Fi เท่านั้น</string>
   <string name="wfc_mode_wifi_preferred_summary">ต้องการใช้ Wi-Fi</string>
@@ -1440,7 +1372,7 @@
   <string name="wifi_no_internet">Wi-Fi ไม่สามารถเข้าถึงอินเทอร์เน็ต</string>
   <string name="wifi_no_internet_detailed">แตะเพื่อดูตัวเลือก</string>
   <string name="wifi_p2p_dialog_title">WiFi Direct</string>
-  <string name="wifi_p2p_enabled_notification_message">แตะเพื่อตั้งค่า</string>
+  <string name="wifi_p2p_enabled_notification_message">แตะเพื่อดูการตั้งค่า</string>
   <string name="wifi_p2p_enabled_notification_title">เปิด WiFi Direct อยู่</string>
   <string name="wifi_p2p_enter_pin_message">พิมพ์ PIN ที่ต้องการ:</string>
   <string name="wifi_p2p_failed_message">ไม่สามารถเริ่ม WiFi Direct ได้</string>
@@ -1452,7 +1384,7 @@
   <string name="wifi_p2p_to_message">ถึง:</string>
   <string name="wifi_p2p_turnon_message">เริ่มการทำงาน WiFi Direct ซึ่งจะเป็นการปิดการทำงาน WiFi ไคลเอ็นต์/ฮอตสปอต</string>
   <string name="wifi_watchdog_network_disabled">ไม่สามารถเชื่อมต่อ WiFi</string>
-  <string name="wifi_watchdog_network_disabled_detailed">มีสัญญาณอินเทอร์เน็ตไม่ดี</string>
+  <string name="wifi_watchdog_network_disabled_detailed">" มีสัญญาณอินเทอร์เน็ตไม่ดี"</string>
   <string name="wireless_display_route_description">การแสดงผลแบบไร้สาย</string>
   <string name="work_mode_off_message">อนุญาตให้โปรไฟล์งานทำงานได้ ซึ่งรวมถึงแอป การซิงค์ในพื้นหลัง และคุณลักษณะอื่นที่เกี่ยวข้อง</string>
   <string name="work_mode_off_title">โหมดทำงานปิดอยู่</string>
@@ -1464,7 +1396,7 @@
   <string name="write_fail_reason_cancelled">ยกเลิก</string>
   <string name="write_fail_reason_cannot_write">ข้อผิดพลาดในการเขียนเนื้อหา</string>
   <string name="year">ปี</string>
-  <string name="years">ปี</string>
+  <string name="years">" ปี"</string>
   <string name="yes">ตกลง</string>
   <string name="zen_mode_alarm">จนถึงเวลา %1$s (การปลุกครั้งถัดไป)</string>
   <string name="zen_mode_default_events_name">กิจกรรม</string>

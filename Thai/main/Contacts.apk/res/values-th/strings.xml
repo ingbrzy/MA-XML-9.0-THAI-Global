@@ -473,7 +473,6 @@
   <string name="force_touch_miprofile">นามบัตร</string>
   <string name="force_touch_new_contact">รายชื่อใหม่</string>
   <string name="foundTooManyContacts">พบมากกว่า %d รายการ</string>
-  <string name="fraud_more_indemnity">เพิ่มเติม</string>
   <string name="frequentList">ใช้บ่อย</string>
   <string name="from_account_format">%1$s</string>
   <string name="full_name">ชื่อ</string>
@@ -670,6 +669,7 @@
   <string name="miprofile_contact_header">รายชื่อที่เพิ่มนามบัตรได้</string>
   <string name="miprofile_contact_meaasge">รายชื่อในเครื่อง</string>
   <string name="miprofile_contact_verifying">กำลังยืนยัน</string>
+  <string name="miprofile_delete_alertdialog_message">@string/miprofile_switch_off_alertdialog_message</string>
   <string name="miprofile_edit_title">แก้ไขข้อมูลส่วนตัว</string>
   <string name="miprofile_error_accept_self">ไม่สามารถแลกนามบัตรกับตนเองได้</string>
   <string name="miprofile_error_no_miaccount">ลงชื่อเข้าใช้บัญชี Mi ของคุณ</string>
@@ -868,6 +868,8 @@
   <string name="path_wipe_data">แอประบบ/รายชื่อ/จัดการรายชื่อ/ล้างข้อมูล</string>
   <string name="payphone">โทรศัพท์สาธารณะ</string>
   <string name="people">รายชื่อ</string>
+  <string name="percent_sign">%</string>
+  <string name="percentage">%s%%</string>
   <string name="phoneLabelsGroup">โทรศัพท์</string>
   <string name="phone_info_divider">" ｜ "</string>
   <string name="phone_number_too_long_toast">หมายเลขยาวเกินไป</string>
@@ -1048,7 +1050,8 @@
   <string name="search_wipe_data">จัดการ;รายชื่อ</string>
   <string name="searching_vcard_message">กำลังค้นหาข้อมูล vCard ในอุปกรณ์จัดเก็บ…</string>
   <string name="select_all">เลือกทั้งหมด</string>
-  <string name="select_done">ไม่มีให้เลือกแล้ว</string>
+  <string name="select_all_exceed">"Select no more than %1$d, can't select all"</string>
+  <string name="select_exceed">Select no more than %1$d</string>
   <string name="select_groups">เลือกกลุ่ม</string>
   <string name="select_none">ไม่มีรายการที่เลือก</string>
   <string name="select_show_contacts">รายชื่อผู้ติดต่อ</string>
@@ -1081,8 +1084,6 @@
   <string name="sim_capacity_content" formatted="false">ทั้งหมด %d | ใช้ไป %d</string>
   <string name="sim_card_no_free_space_message">พื้นที่ไม่เพียงพอ</string>
   <string name="sim_card_no_free_space_title">ซิมการ์ดเต็ม</string>
-  <string name="sim_contact_dropdown_menu_deselect_all_miui">ไม่เลือกทั้งหมด</string>
-  <string name="sim_contact_dropdown_menu_select_all_miui">เลือกทั้งหมด</string>
   <string name="sim_contact_existing">รายชื่อนี้มีอยู่แล้ว</string>
   <string name="sim_contact_invalid">รายชื่อในซิมการ์ดไม่ถูกต้อง</string>
   <string name="sim_contact_search_error">เกิดข้อผิดพลาด</string>
@@ -1159,8 +1160,6 @@
   <string name="t9_search_guide_zhuyin_title2">ป้อน \"5\" และ \"6\" เพื่อค้นหา \"&lt;font fgcolor=""&gt;J&lt;/font&gt;eff &lt;font fgcolor=""&gt;M&lt;/font&gt;ax\"</string>
   <string name="take_new_photo">ถ่ายภาพใหม่</string>
   <string name="take_photo">ถ่ายภาพ</string>
-  <string name="telecom_fraud_insurance">ประกันภัยการฉ้อฉลทางโทรศัพท์</string>
-  <string name="telecom_fraud_insurance_description">ประกันภัย 10,000 CNY |ข้อเสนอพิเศษเฉพาะ Xiaomi | 9.9 CNY ต่อปี</string>
   <string name="titleJoinContactDataWith">ควบรวมรายชื่อ</string>
   <string name="title_other_devices">อุปกรณ์อื่นที่พร้อมใช้งาน</string>
   <string name="title_paired_devices">อุปกรณ์ที่จับคู่กัน</string>
