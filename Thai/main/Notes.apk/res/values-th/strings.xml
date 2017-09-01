@@ -6,6 +6,7 @@
     <string name="sina_token_expired_warning">บัญชี Weibo หมดอายุ เพิ่มบัญชีอีกครั้ง</string>
     <string name="sina_token_invalid_warning">บัญชี Weibo ไม่ถูกต้อง เพิ่มบัญชีอีกครั้ง</string>
     <string name="sina_share_fail_content_repeat">คุณได้แชร์สิ่งนี้เรียบร้อยแล้ว</string>
+    <string name="search_title_notes">@string/app_name</string>
     <string name="search_keyword_notes">บันทึกย่อ;ความจำ</string>
     <string name="search_path_notes">แอประบบ/บันทึกย่อ</string>
     <string name="dlg_move_message">กำลังย้าย…</string>
@@ -100,7 +101,7 @@
     <string name="menu_send_weibo">ส่งไปที่ Weibo</string>
     <string name="info_note_enter_desktop">เพิ่มในหน้าจอหลักแล้ว</string>
     <string name="all_terms">%1$s และ %2$s</string>
-    <string name="alert_title_delete">ลบบันทึก?</string>
+    <string name="alert_title_delete">Delete note</string>
     <string name="alert_message_delete">ลบ %1$s?</string>
     <string name="alert_message_delete_note">ลบบันทึกนี้?</string>
     <string name="format_move_notes_to_folder">ย้าย %1$s ไปยัง %2$s แล้ว</string>
@@ -196,4 +197,5 @@
     <string name="edit_header_done_description">เสร็จสิ้น</string>
     <string name="refuse_to_share_as_pic_because_of_content">บันทึกนี้ใหญ่เกินไป ไม่สามารถแชร์ได้</string>
     <string name="refuse_to_share_as_pic_because_of_loading">รอจนกว่าจะโหลดเสร็จและลองใหม่</string>
+    <string name="toast_reach_text_limit_checkbox">"Can't add checkbox because note is too long"</string>
 </resources>

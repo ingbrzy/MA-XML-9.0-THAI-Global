@@ -602,6 +602,7 @@
     <string name="welcome_to_slim">ปรับแต่งพื้นที่จัดเก็บในเครื่อง</string>
     <string name="slim_introduce">เปลี่ยนรูปความละเอียดเต็มเป็นเวอร์ชั่นปรับปรุงหลังจากทำการสำรองข้อมูลไปยัง Mi คลาวด์ รูปความละเอียดเต็มจะยังคงถูกเก็บไว้บน Mi คลาวด์</string>
     <string name="slim_introduce_with_specific_size">เปลี่ยนไฟล์ความละเอียดเต็มเป็นเวอร์ชั่นปรับปรุงหลังจากทำการสำรองข้อมูลไปยัง Mi คลาวด์ รูปความละเอียดเต็มจะยังคงถูกเก็บไว้บน Mi คลาวด์ นี่จะช่วยให้คุณสามารถประหยัดพื้นที่ได้ %1$s (ต้องใช้บัญชี Mi)</string>
+    <string name="welcome_to_auto_backup">@string/welcome_to_micloud</string>
     <string name="auto_backup_introduce">สำรองข้อมูลรูปภาพและวิดีโอโดยอัตโนมัติ (ต้องใช้บัญชี Mi)</string>
     <string name="next">ถัดไป</string>
     <string name="login_and_enable_service">ลงชื่อเข้าใช้ด้วยบัญชี Mi</string>
@@ -678,12 +679,13 @@
     <string name="cloud_storage_ok_append_desc">ใช้งานได้ %s</string>
     <string name="cloud_storage_warn_title">ที่จัดเก็บข้อมูล Mi คลาวด์ ไม่เพียงพอ</string>
     <string name="cloud_storage_warn_desc">ซื้อ VIP คลาวด์เพื่อที่จัดเก็บข้อมูลพิเศษ</string>
+    <string name="percent_sign">%</string>
     <string name="cloud_storage_extend">Extend cloud space</string>
     <string name="user_agreement2">เงื่อนไขการให้บริการ</string>
     <string name="user_agreement4">นโยบายความเป็นส่วนตัว</string>
     <string name="user_agree">ตกลง</string>
     <string name="do_not_remind_me">ไม่ต้องแสดงอีก</string>
-    <string name="user_notice_identify_summary_format">โดยการใช้บริการนี้ คุณจะต้องยอมรับ%1$sและ%2$sของทาง Xiaomi</string>
+    <string name="user_notice_identify_summary_format">การใช้บริการนี้ คุณจะต้องยอมรับ%1$sและ%2$sของทาง Xiaomi</string>
     <string name="user_notice_title">ข้อตกลงและเงื่อนไข</string>
     <string name="secret_album_display_name">อัลบั้มซ่อน</string>
     <string name="add_to_secret_successful">Added to hidden album</string>
@@ -785,6 +787,8 @@
     <string name="search_setting_sub_title">ปรับปรุงการค้นหารูปภาพ</string>
     <string name="search_setting_sub_title_open">Applied. Wait a while before you start.</string>
     <string name="search_request_open">เข้าร่วมทีมทดสอบ</string>
+    <string name="search_transition_element_input">search_input</string>
+    <string name="search_transition_element_icon">search_icon</string>
     <string name="grant_permission_title">อนุญาตการเข้าถึง</string>
     <string name="grant_permission_text">"คลังภาพต้องการเข้าถึง 
 %s

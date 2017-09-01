@@ -282,11 +282,11 @@
     <string name="can_not_switch_when_calling">ไม่สามารถสลับระหว่างพื้นที่ขณะโทรได้</string>
     <string name="can_not_delete_when_calling">ไม่สามารถลบพื้นที่ขณะโทรได้</string>
     <string name="support_desc">Security services provided by Graphite</string>
-    <string name="sdcardfs_dialog_message">进入分身前需要在开发者选项中关闭”模拟SD卡优化“</string>
-    <string name="do_not_ask">不再询问</string>
-    <string name="gpg_message">双开游戏需要依赖谷歌游戏中心应用,是否同步双开谷歌游戏中心应用</string>
-    <string name="gpg_title">双开谷歌游戏中心</string>
-    <string name="gms_message">双开该应用需要依赖谷歌服务,是否同步双开谷歌服务</string>
-    <string name="gms_title">双开谷歌服务</string>
-    <string name="gms_open_button">开启</string>
+    <string name="sdcardfs_dialog_message">Turn off \"Mock SD card optimization\" in Developer options before entering Second space.</string>
+    <string name="do_not_ask">"Don't ask again"</string>
+    <string name="gpg_message">Creating dual apps for games requires working with Google Play Games. Create a dual app for Google Play Games?</string>
+    <string name="gpg_title">Dual app for Google Play Games</string>
+    <string name="gms_message">Creating dual apps requires working with Google services. Create a dual app for Google services?</string>
+    <string name="gms_title">Turn on Google services</string>
+    <string name="gms_open_button">Turn on</string>
 </resources>

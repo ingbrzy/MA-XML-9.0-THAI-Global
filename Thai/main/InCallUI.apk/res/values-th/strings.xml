@@ -127,6 +127,7 @@
     <string name="unlock_phone">ปลดล็อกเครื่องนี้</string>
     <string name="remind_unlock_message">อุปกรณ์ของคุณล็อกอยู่ตอนนี้ \"%s\" จะใช้งานได้หลังจากคุณปลดล็อกอุปกรณ์ของคุณแล้ว ปลดล็อกทันที?</string>
     <string name="user_locked_prompt">ปลดล็อกอุปกรณ์เพื่อเข้าถึงรายชื่อ</string>
+    <string name="package_not_available">\"%s\" is not available</string>
     <string name="select_voice_call_sim">กรุณาเลือกซิมการ์ด</string>
     <string name="msim_select_default_time_left">(%d วิ)</string>
     <string name="select_sim_hint">ไม่สามารถใช้ซิม %2$d ขณะที่ซิม %1$d ใช้งานอยู่</string>
@@ -230,6 +231,9 @@
     <string name="dialpad_seven">7</string>
     <string name="dialpad_eight">8</string>
     <string name="dialpad_nine">9</string>
+    <string name="no_vm_number">Missing voicemail number</string>
+    <string name="no_vm_number_msg">No voicemail numbers stored on SIM card.</string>
+    <string name="add_vm_number_str">Add number</string>
     <string name="alert_dialog_yes">ใช่</string>
     <string name="alert_dialog_no">ไม่ใช่</string>
     <string name="alert_dialog_dismiss">ปิด</string>
@@ -237,8 +241,8 @@
     <string name="call_record_button_label">กำลังบันทึก %s</string>
     <string name="livetalk_left_minute">คงเหลือ %s นาที</string>
     <string name="call_self">โทรหาเลขหมายตนเองไม่ได้</string>
+    <string name="cancel_call">วางสาย</string>
     <string name="dial_with_gsm_phone">โทรตามปกติ</string>
     <string name="purchase_now">ซื้อแพ็คเกจเพิ่ม</string>
-    <string name="cancel_call">วางสาย</string>
     <string name="onscreen_rcs_text">ข้อความ</string>
 </resources>

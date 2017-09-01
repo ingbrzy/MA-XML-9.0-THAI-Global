@@ -167,4 +167,7 @@
     <string name="miui_screen_ratio_hint_dont_show_again">"Don't show again"</string>
     <string name="miui_screen_ratio_hint_ok">OK</string>
     <string name="miui_screen_ratio_hint_go_to_settings">Go to Settings</string>
+    <string name="switching_tv">Switching…</string>
+    <string name="switch_desc_tv">Two spaces. One device.</string>
+    <string name="switch_brand_desc_tv">Security services provided by Graphite</string>
 </resources>

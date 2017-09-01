@@ -209,6 +209,8 @@
     <string name="lyric_open_other_connect">ดาวน์โหลดเนื้อเพลงผ่านเครือข่ายข้อมูลมือถือ</string>
     <string name="playback_failed_no_title_by_bad_file">ระบบไม่รองรับรูปแบบไฟล์เพลงหรือไม่พบไฟล์นี้</string>
     <string name="streamloadingtext">กำลังเชื่อมต่อกับ %s</string>
+    <string name="toast_new_playlist_name_too_long">Playlist name is too long</string>
+    <string name="toast_new_playlist_name_no_enter">"key 'Enter' has been deleted'"</string>
     <string name="error_title">ไม่สามารถซิงค์กับบัญชี Mi ได้</string>
     <string name="error_unauthorized">การซิงค์ถูกปิดใช้เนื่องจากการล็อกอินไม่ถูกต้องเกินจำนวนครั้งที่ระบบกำหนด</string>
     <string name="error_forbidden">การซิงค์ถูกปิด เนื่องจากเกิดข้อผิดพลาดกับบัญชี Mi ของคุณ</string>

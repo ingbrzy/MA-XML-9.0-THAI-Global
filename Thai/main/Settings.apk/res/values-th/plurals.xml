@@ -149,7 +149,7 @@
         <item quantity="other">พบ %d ความเสี่ยง</item>
     </plurals>
     <plurals name="auto_startup_count">
-        <item quantity="other">อนุญาตให้ %d แอปเริ่มต้นทำงานอัตโนมัติ</item>
+        <item quantity="other">%d apps are allowed to autostart</item>
     </plurals>
     <plurals name="lockpassword_pin_fixed_length">
         <item quantity="other">PIN must be %d digits</item>

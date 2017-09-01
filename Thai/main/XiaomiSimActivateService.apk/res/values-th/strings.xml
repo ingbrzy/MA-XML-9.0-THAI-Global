@@ -6,13 +6,13 @@
     <string name="explain_send_sms_permission_msg">เปิดใช้ %s กรอบการทำงานของ Xiaomi จะส่งข้อความ SMS เพื่อยืนยันหมายเลขโทรศัพท์ของคุณ คุณจะต้องเสียค่าบริการข้อความ SMS ให้กับทางผู้ให้บริการ.</string>
     <string name="explain_send_sms_permission_button">ยืนยัน</string>
     <string name="activate_phone_failed_notif_title">ไม่สามารถเปิดใช้งานซิมการ์ดได้</string>
-    <string name="activate_phone_failed_notif_title_msim">ไม่สามารถเปิดใช้งานซิมการ์ด %s ได้</string>
+    <string name="activate_phone_failed_notif_title_msim">"Can't activate SIM card %d"</string>
     <string name="activate_phone_success_notif_title">ซิมการ์ดเปิดใช้งาน</string>
-    <string name="activate_phone_success_notif_title_msim">ซิมการ์ด %s เปิดใช้งาน</string>
+    <string name="activate_phone_success_notif_title_msim">SIM card %d activated</string>
     <string name="activate_phone_cancel_notif_title">การเปิดใช้งานซิมการ์ดถูกยกเลิก</string>
-    <string name="activate_phone_cancel_notif_title_msim">การเปิดใช้งานซิมการ์ด %s ถูกยกเลิก</string>
+    <string name="activate_phone_cancel_notif_title_msim">SIM card %d activation cancelled</string>
     <string name="activate_status_title_activating">กำลังเปิดใช้งานซิมการ์ด…</string>
-    <string name="activate_status_title_activating_msim">กำลังเปิดใช้งานซิม %s…</string>
+    <string name="activate_status_title_activating_msim">Activating SIM card %d…</string>
     <string name="activate_auto_sms_notification_title">การเปิดใช้งานซิมการ์ด</string>
     <string name="activate_auto_sms_notification_desc_2_cards">ข้อความ SMS ส่งจากซิมการ์ด %s เพื่อเปิดใช้งาน \"ค้นหาอุปกรณ์\"</string>
     <string name="activate_auto_sms_notification_desc_1_card">ข้อความ SMS ส่งเพื่อเปิดใช้งาน \"ค้นหาอุปกรณ์\"</string>
@@ -108,4 +108,11 @@
     <string name="activate_history_multisim_success_overview">เปิดใช้งานซิมการ์ด %2$d เรียบร้อบ การเปิดใช้งานถูกเรียกใช้งานโดย %1$s\".</string>
     <string name="activate_history_multisim_canceled_overview">ยกเลิกเปิดใช้งานซิมการ์ด %2$d แล้ว การเปิดใช้งานถูกเรียกใช้งานโดย %1$s\".</string>
     <string name="activate_history_sms">ข้อความ SMS ถูกส่งไประหว่างการเปิดใช้งาน</string>
+    <string name="phone_verify_title">Agree %1$s to verify your phone number</string>
+    <string name="phone_verify_text">%1$s will not get your phone number，just verify your phone number is match。</string>
+    <string name="phone_verify_processing">verifying…</string>
+    <string name="phone_get_title">Agree %1$s to get your phone number</string>
+    <string name="phone_get_text">Do you agree %1$s to get your phone number：%2$s</string>
+    <string name="phone_get_processing">getting…</string>
+    <string name="agree">Agree</string>
 </resources>
