@@ -1132,6 +1132,7 @@ your device"</string>
     <string name="button_text_update_now">อัพเดต</string>
     <string name="button_text_fix_now">ซ่อมแซม</string>
     <string name="button_text_open_now">เปิด</string>
+    <string name="button_text_forbid_now">Forbid</string>
     <string name="button_text_disconnect_now">ตัดการเชื่อมต่อ</string>
     <string name="apps_item_sms_reset_button_text">เรียกคืนค่าเริ่มต้น</string>
     <string name="apps_item_sms_title">การตั้งค่าข้อความเริ่มต้น</string>
@@ -1561,6 +1562,11 @@ your device"</string>
     <string name="virus_auto_update_engine">Auto updates：%s</string>
     <string name="hints_scan_danger_result">Risk found, fix now</string>
     <string name="ss_activity_main_support_text">Powered by %s</string>
+    <string name="hints_virus_app_summary">%s (app)</string>
+    <string name="hints_virus_apk_summary">%s (apk)</string>
+    <string name="hints_risk_name_title">Risk:</string>
+    <string name="hints_risk_descx_title">Description:</string>
+    <string name="button_text_clear">Clear</string>
     <string name="toast_removed_from_virus_white_list">ลบจากรายการยกเว้น รายการจะถูกสแกนในเวลาถัดไป</string>
     <string name="long_click_dialog_title">โปรดทราบ</string>
     <string name="long_click_dialog_summary">กดค้างผลลัพธ์ในรายการเพื่อเพิ่มไปยังรายการยกเว้น</string>
@@ -1619,6 +1625,7 @@ your device"</string>
     <string name="card_main_deepclean_wechat_action">ล้าง</string>
     <string name="card_main_sectool_title">เครื่องมือ</string>
     <string name="card_main_monthreport_action">เรียกดู</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">ทดสอบเครือข่าย</string>
     <string name="card_main_netcheck_summary">ทดสอบการเชื่อมต่อสำหรับปัญหาเครือข่าย</string>
     <string name="card_main_netcheck_action">ทดสอบ</string>
@@ -1998,8 +2005,8 @@ your device"</string>
     <string name="net_booster_overdue_notification">Network speed boost session is about to end</string>
     <string name="net_booster_overdue_notification_tip">Network speed boost session will end soon. Renew the session?</string>
     <string name="net_booster_expire_notification">Network speed boost session is about to end</string>
-    <string name="net_booster_expire_notification_tip">%d d remaining before Network speed boost session ends. Renew the session to avoid network speed problems.</string>
     <string name="xunyou_pay_webview">Xunyou services</string>
+    <string name="net_booster_expire_notification_tip">%d d remaining before Network speed boost session ends. Renew the session to avoid network speed problems.</string>
     <string name="power_center_consume_rank">การใช้งานแบตเตอรี่</string>
     <string name="power_center_custom_title">ใช้โหมดพลังงาน</string>
     <string name="power_center_auto_shutdown_summary_default">ตั้งค่าการเปิดหรือปิดเครื่องตามเวลาที่กำหนดไว้ล่วงหน้า</string>

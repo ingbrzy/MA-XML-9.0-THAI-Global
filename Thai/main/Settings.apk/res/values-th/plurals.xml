@@ -7,7 +7,7 @@
         <item quantity="other">%d apps can show notifications</item>
     </plurals>
     <plurals name="settings_toggle_position_divider_page">
-        <item quantity="other">%1$d toggles placed above bar are active</item>
+        <item quantity="other">%1$d toggles will appear in the Notification shade</item>
     </plurals>
     <plurals name="show_dev_countdown">
         <item quantity="other">คุณกำลังจะได้เป็นนักพัฒนาซอฟต์แวร์ในอีก %1$d ขั้นตอน</item>

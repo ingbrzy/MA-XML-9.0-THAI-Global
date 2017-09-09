@@ -159,7 +159,7 @@
     <string name="expire_on">หมดอายุ: %s</string>
     <string name="exporting_progress_private_message">กำลังส่งออก…</string>
     <string name="fail_to_add_attachment">ไม่สามารถเพิ่มสิ่งที่แนบได้</string>
-    <string name="fail_to_view_attachment">ไฟล์แนบไม่พร้อมใช้งาน</string>
+    <string name="fail_to_view_attachment">"Attachment isn't available"</string>
     <string name="failed_to_add_media">ไม่สามารถแนบ %1$s นี้ในข้อความของคุณได้</string>
     <string name="failed_to_resize_image">รูปภาพไม่ถูกปรับขนาด</string>
     <string name="fake_cell_alert_hint">ดูเหมือนว่าข้อความนี้ถูกส่งมาจากหมายเลขโทรศัพท์ซึ่งจะแตกต่างจากที่แสดง กรุณาระมัดระวังข้อความ SMS ที่มีการเรียกร้องด้านการเงิน</string>
@@ -332,9 +332,9 @@
     <string name="mx_stranger_recommend_msg">แตะบล็อกข้อความ Mi จากเลขหมายที่ไม่รู้จัก</string>
     <string name="mx_type_guide">ระบบข้อความ Mi ใช้สำหรับส่งข้อความระหว่างผู้ใช้ MIUI ด้วยกันโดยไม่ต้องเสียค่าบริการใดๆ</string>
     <string name="need_download">กำลังซิงค์…</string>
-    <string name="networking_allow_continue">ตกลง</string>
-    <string name="networking_allow_desc">ข้อความสมาร์ททำให้คุณสามารถส่งข้อความและข้อความเสียงได้ฟรี แยกแยะหมายเลขที่ไม่รู้จัก กรองสแปม ฯลฯ โดยการใช้บริการดังกล่าว คุณจะต้องยอมรับ%1$sและ%2$sของทาง Xiaomi รวมถึงเปิดใช้สมุดหน้าเหลืองและเชื่อมต่อกับอินเทอร์เน็ตเพื่อใช้บริการนี้</string>
-    <string name="networking_allow_desc_without_mx">ข้อความสมาร์ททำให้คุณสามารถส่งข้อความและข้อความเสียงได้ฟรี แยกแยะหมายเลขที่ไม่รู้จัก กรองสแปม ฯลฯ โดยการใช้บริการดังกล่าว คุณจะต้องยอมรับ%1$sและ%2$sของทาง Xiaomi รวมถึงเปิดใช้สมุดหน้าเหลืองและเชื่อมต่อกับอินเทอร์เน็ตเพื่อใช้บริการนี้</string>
+    <string name="networking_allow_continue">Allow</string>
+    <string name="networking_allow_desc">Mi Message needs to connect to the internet to work normally. In order to provide free text and voice services, recognize unknown numbers, filter spam, and enable other features, Mi Message needs to use Yellow pages. Allow Yellow pages to connect to the internet, get your location info, and read your contacts?</string>
+    <string name="networking_allow_desc_without_mx">Mi Message needs to connect to the internet to work normally. In order to recognize unknown numbers, filter spam, and enable other features, Mi Message needs to use Yellow pages. Allow Yellow pages to connect to the internet, get your location info, and read your contacts?</string>
     <string name="networking_allow_title">โปรดทราบ</string>
     <string name="new_message">เขียน</string>
     <string name="new_message_arrived">คุณมีข้อความใหม่</string>

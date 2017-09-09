@@ -43,7 +43,7 @@
         <item quantity="other">%d ข้อความที่ส่งไม่ได้ในกำหนด</item>
     </plurals>
     <plurals name="timed_message_in_total">
-        <item quantity="other">(%d ข้อความ)</item>
+        <item quantity="other">(%d messages)</item>
     </plurals>
     <plurals name="to_count">
         <item quantity="other">%d ผู้รับ</item>

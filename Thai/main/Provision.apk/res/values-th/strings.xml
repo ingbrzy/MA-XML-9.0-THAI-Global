@@ -17,7 +17,7 @@
     <string name="other_settings_location">ตำแหน่งพิกัด</string>
     <string name="other_settings_location_summary">อนุญาตให้แอปเข้าถึงตำแหน่งพิกัดของคุณ</string>
     <string name="other_settings_user_experience">โปรแกรมประสบการณ์ผู้ใช้</string>
-    <string name="other_settings_user_experience_summary">ช่วยพัฒนาสินค้าและบริการด้วยการอนุญาตให้ส่งข้อมูลการใช้งานไปยัง Huami</string>
+    <string name="other_settings_user_experience_summary">ช่วยพัฒนาสินค้าและบริการของเรา​ด้วยการส่งข้อมูลการใช้งานแบบไม่​ระบุชื่อ</string>
     <string name="other_settings_upload_debug_log_title">ส่งข้อมูลการวินิจฉัยโดยอัตโนมัติ</string>
     <string name="other_settings_upload_debug_log_summary">ข้อมูลที่ทางเรารวบรวมจะใช้ในการระบุและวิเคราะห์ปัญหาในระบบ ซึ่งอาจจะประกอบด้วยข้อมูลส่วนบุคคล โดยจะไม่มีการนำข้อมูลมาใช้เพื่อระบุตัวตนของคุณ</string>
     <string name="other_settings_auto_update">ติดตั้งอัตโนมัติ</string>

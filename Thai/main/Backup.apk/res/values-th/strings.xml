@@ -227,6 +227,7 @@
     <string name="file_uploading">กำลังอัพโหลด…</string>
     <string name="new_backup">สำรองข้อมูล</string>
     <string name="restore_backup">คืนค่า</string>
+    <string name="digit_percent">%</string>
     <string name="state_waiting">รอสักครู่…</string>
     <string name="state_mounting">กำลังเข้าถึงพื้นที่จัดเก็บข้อมูลเราเตอร์…</string>
     <string name="abort_backup_confirm">ยังสำรองข้อมูลไม่เสร็จ ยกเลิกหรือไม่?</string>
@@ -352,9 +353,9 @@
     <string name="user_notice_message">การใช้งานคุณลักษณะนี้จำเป็นต้องเชื่อมกับต่ออินเตอร์เน็ตเพื่อการทำงานที่ปกติ</string>
     <string name="user_notice_declaration_ignore">ไม่ต้องแสดงอีก</string>
     <string name="total_size">, %s</string>
-    <string name="btn_got_it">Got it</string>
-    <string name="backup_security_tips_title">Backups may not work</string>
-    <string name="backup_security_tips_message">Some apps may not be able to be backed up or restored.</string>
-    <string name="trans_security_tips_title">Mi Mover compatibility</string>
-    <string name="trans_security_tips_message">"Some apps don't support Mi Mover."</string>
+    <string name="btn_got_it">รับทราบ</string>
+    <string name="backup_security_tips_title">การสำรองข้อมูลอาจไม่ทำงาน</string>
+    <string name="backup_security_tips_message">แอปบางแอปอาจไม่สามารถสำรองข้อมูลหรือเรียกคืนค่าได้</string>
+    <string name="trans_security_tips_title">ความเข้ากันได้ Mi Mover</string>
+    <string name="trans_security_tips_message">บางแอปไม่สนับสนุน Mi Mover</string>
 </resources>

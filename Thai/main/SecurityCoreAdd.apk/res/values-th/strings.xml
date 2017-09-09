@@ -61,11 +61,15 @@
     <string name="cancel_button">ยกเลิก</string>
     <string name="list_empty_text">ว่างเปล่า</string>
     <string name="xspace_label">แอปโคลน</string>
+    <string name="xspace_setting_label">双开设置</string>
+    <string name="xspace_account">双开帐号</string>
     <string name="declare_dialog_title">เกี่ยวแอปโคลน</string>
     <string name="xspace_loading_msg">กำลังโหลดแอป…</string>
     <string name="xspace_header">แอปโคลน</string>
     <string name="xspace_introduce">แนะนำ</string>
-    <string name="xspace_description">สร้างแอปโคลนเพื่อแยกใช้ต่างหาก แอปโคลนจะมีไอคอนบนหน้าจอหลักโดยเฉพาะ</string>
+    <string name="xspace_description">"双开应用将在桌面生成一个全新的应用副本，两者可同时运行互不影响。
+
+部分应用需要谷歌服务框架支持，双开这部分应用时会同步双开谷歌服务以保障体验。"</string>
     <string name="xspace_chocie">รองรับแอปโคลน</string>
     <string name="xspace_creating">กำลังสร้างแอปโคลน…</string>
     <string name="xspace_installing">กำลังติดตั้ง…</string>
@@ -289,4 +293,24 @@
     <string name="gms_message">Creating dual apps requires working with Google services. Create a dual app for Google services?</string>
     <string name="gms_title">Turn on Google services</string>
     <string name="gms_open_button">Turn on</string>
+    <string name="create_second_space">Created successfully</string>
+    <string name="set_space_password">Set password</string>
+    <string name="set_space_finger">Set fingerprint</string>
+    <string name="guide_start_text">Two spaces. One device.</string>
+    <string name="guide_start_ads_text">A completely new level of security</string>
+    <string name="skip">Skip</string>
+    <string name="input_space_password">Set now</string>
+    <string name="input_space_finger">Set now</string>
+    <string name="space_finger_sub_text">Set Second space fingerprint to switch faster</string>
+    <string name="set_space_finger_sub_text_suc">Set fingerprint successfully</string>
+    <string name="show_noti_from_owner">Notifications from the other space</string>
+    <string name="show_noti_from_owner_detail">Receive notifications in the current space when they come to the other one</string>
+    <string name="show_noti_quick_switch_icon">Notification shade shortcut</string>
+    <string name="show_noti_quick_switch_icon_detail">Show a shortcut for switching spaces in the Notification shade</string>
+    <string name="show_decktop_quick_switch_icon">Home screen shortcut</string>
+    <string name="show_decktop_quick_switch_icon_detail">Show a shortcut for switching spaces on the Home screen in First space</string>
+    <string name="has_created_second_space">"You can open Second space now.
+One device. Two spaces."</string>
+    <string name="privacy_password_fingerprint_dialog_title">Scan your fingerprint</string>
+    <string name="privacy_password_fingerprint_dialog_message">Put your finger on the sensor</string>
 </resources>

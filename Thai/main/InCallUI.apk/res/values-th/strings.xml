@@ -67,7 +67,7 @@
     <string name="card_title_threeway_call">โทรสามสาย</string>
     <string name="card_title_incoming_call">สายเรียกเข้า</string>
     <string name="card_title_answering">กำลังรับสาย</string>
-    <string name="card_title_answering_fail">ไม่สามารถรับสายได้ กรุณาลองอีกครั้ง</string>
+    <string name="card_title_answering_time_out">"Couldn't answer call, try again."</string>
     <string name="card_title_call_ended">"สิ้นสุดการสนทนา "</string>
     <string name="card_title_on_hold">"พักสายไว้ "</string>
     <string name="card_title_hanging_up">"กำลังวางสาย "</string>
@@ -180,10 +180,6 @@
     <string name="do_not_ask">ไม่ต้องแสดงอีก</string>
     <string name="time_left_livetalk">(%dวิ)</string>
     <string name="can_not_call_oneself">ไม่สามารถโทรไปยังหมายเลขนี้ได้</string>
-    <string name="jeejen_answer_call_text">รับสาย</string>
-    <string name="jeejen_reject_call_text">ปฏิเสธสาย</string>
-    <string name="jeejen_end_call_text">วางสาย</string>
-    <string name="jeejen_toggle_dialpad_text">แป้นโทร</string>
     <string name="miprofile_stranger_card">นามบัตรบุคคลแปลกหน้า</string>
     <string name="card_title_video_call_paused">พักสายวิดีโอไว้แล้ว</string>
     <string name="card_title_incoming_conference_call">สายเรียกเข้าแบบประชุมสาย</string>
@@ -239,10 +235,10 @@
     <string name="alert_dialog_dismiss">ปิด</string>
     <string name="contactPhoto">รูปภาพผู้ติดต่อ</string>
     <string name="call_record_button_label">กำลังบันทึก %s</string>
-    <string name="livetalk_left_minute">คงเหลือ %s นาที</string>
     <string name="call_self">โทรหาเลขหมายตนเองไม่ได้</string>
     <string name="cancel_call">วางสาย</string>
     <string name="dial_with_gsm_phone">โทรตามปกติ</string>
+    <string name="livetalk_left_minute">คงเหลือ %s นาที</string>
     <string name="purchase_now">ซื้อแพ็คเกจเพิ่ม</string>
     <string name="onscreen_rcs_text">ข้อความ</string>
 </resources>

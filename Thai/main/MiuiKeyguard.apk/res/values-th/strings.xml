@@ -21,7 +21,7 @@
     <string name="phone_locked_foget_password_mehod_back">Back</string>
     <string name="phone_locked_foget_password_method_next">Next</string>
     <string name="phone_locked_forget_password_suggesstions_title">How to erase data?</string>
-    <string name="phone_locked_forget_password_suggesstion_one_content"><Data>Power off your device, press and hold the &lt;font color=#a5220e>Power button &lt;/font> and the &lt;font color=#a5220e>Volume up button &lt;/font>simultaneously until you see ml.</Data></string>
+    <string name="phone_locked_forget_password_suggesstion_one_content"><Data>Power off your device, press and hold the &lt;font color=#a5220e>Power button &lt;/font> and the &lt;font color=#a5220e>Volume up button &lt;/font>simultaneously until you see the Mi logo.</Data></string>
     <string name="phone_locked_forget_password_suggesstion_two_content"><Data>Select &lt;font color=#a5220e>\"Wipe &amp;amp; Reset\"&lt;/font> and wait until the device reboots.</Data></string>
     <string name="phone_locked_foget_password_ok">รับทราบ</string>
     <string name="lockscreen_access_pattern_start">เริ่มต้นใส่รูปแบบ</string>
@@ -41,7 +41,7 @@
     <string name="invalid_confirm_pin_hint">รหัส PIN ที่ป้อนไม่ตรงกัน</string>
     <string name="unlock_string">ปลดล็อก</string>
     <string name="open_camera_hint_text">ปัดไปทางซ้ายเพื่อเปิดกล้อง</string>
-    <string name="open_remote_center_hint_text">Swipe right to open mi remote</string>
+    <string name="open_remote_center_hint_text">Swipe right to open Mi Remote</string>
     <string name="click_to_enter_text" />
     <string name="fingerprint_try_again_text">ลองอีกครั้ง</string>
     <string name="fingerprint_try_again_msg">ไม่สามารถยืนยันลายนิ้วมือได้ ลองใหม่อีกครั้ง</string>
@@ -57,7 +57,7 @@
     <string name="input_password_after_boot_msg">เพื่อปลดล็อกอุปกรณ์ กรุณาป้อนรหัสผ่าน</string>
     <string name="input_password_after_boot_msg_must_enter_owner_space">คุณจำเป็นต้องเข้าสู่พื้นที่ปกติก่อนที่อุปกรณ์จะทำการรีบูต</string>
     <string name="input_password_after_boot_msg_can_not_switch_when_calling">ไม่สามารถสลับระหว่างพื้นที่ขณะโทรได้</string>
-    <string name="input_password_handle_sdcard_fs">进入分身前需要在开发者选项中关闭“模拟SD卡优化”</string>
+    <string name="input_password_handle_sdcard_fs">Turn off \"Emulated SD card optimization\" before entering Second space.</string>
     <string name="accessibility_enter_lock_wallpaper">แตะเพื่อเปิดภาพพื้นหลังรวม</string>
     <string name="lock_wallpaper_learn_more">เพิ่มเติม</string>
     <string name="lock_wallpaper_enter">ป้อน</string>

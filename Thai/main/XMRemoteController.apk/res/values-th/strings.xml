@@ -19,7 +19,6 @@
     <string name="abc_shareactionprovider_share_with">แชร์กับ</string>
     <string name="abc_shareactionprovider_share_with_application">แชร์กับ %s</string>
     <string name="abc_toolbar_collapse_description">ยุบ</string>
-    <string name="search_menu_title">ค้นหา</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="ac_gree">Gree AC</string>
     <string name="ac_mode_auto">อัตโนมัติ</string>
@@ -63,13 +62,6 @@
     <string name="app_frequency_normal">ใช้ปกติ</string>
     <string name="app_install">ติดตั้งบนทีวี Mi</string>
     <string name="app_install_count">ติดตั้งแล้ว %1$s แอป</string>
-    <string name="app_install_dialog_install_complete">ติดตั้งเรียบร้อยแล้ว</string>
-    <string name="app_install_dialog_install_failed">ไม่สามารถติดตั้งได้</string>
-    <string name="app_install_dialog_installing">กำลังติดตั้ง…</string>
-    <string name="app_install_dialog_negative_text">ยกเลิก</string>
-    <string name="app_install_dialog_positive_text">ติดตั้ง</string>
-    <string name="app_install_dialog_search_failed">ค้นหาแอปไม่ได้</string>
-    <string name="app_install_dialog_searching">กำลังค้นหาแอป…</string>
     <string name="app_installing">กำลังติดตั้ง…</string>
     <string name="app_manager_get_data_failed">ไม่สามารถเรียกดูข้อมูลแอปได้</string>
     <string name="app_manager_no_data">ไม่พบแอป</string>
@@ -104,7 +96,7 @@
     <string name="by">"สนับสนุนโดย "</string>
     <string name="by_position">ตามที่ตั้ง</string>
     <string name="camera_shoot">ชัตเตอร์</string>
-    <string name="cancel">ออก</string>
+    <string name="cancel">ยกเลิก</string>
     <string name="cancel_select_all">ไม่เลือก</string>
     <string name="cancel_share">หยุดการแชร์</string>
     <string name="cancel_share_done">หยุดการแชร์แล้ว</string>
@@ -141,9 +133,8 @@
     <string name="cool_mode">เย็น</string>
     <string name="create_shortcut">เพิ่มปุ่มลัด</string>
     <string name="create_shortcut_cancel">ไม่ ขอบคุณ</string>
-    <string name="create_shortcut_confirm">เพิ่ม</string>
-    <string name="create_shortcut_done">เพิ่มเรียบร้อย</string>
-    <string name="create_shortcut_failed">ไม่สามารถเพิ่มวิดเจ็ตได้ ตรวจสอบให้แน่ใจว่า รีโมท Mi ได้รับการอนุญาตที่จำเป็น</string>
+    <string name="create_shortcut_confirm">สร้าง</string>
+    <string name="create_shortcut_done">สร้างเรียบร้อยแล้ว</string>
     <string name="current_place">"ตำแหน่งปัจจุบัน:  "</string>
     <string name="current_play">กำลังเล่นอยู่:</string>
     <string name="current_stb">"ปัจจุบัน:  "</string>
@@ -163,19 +154,6 @@
     <string name="device_model">รุ่น</string>
     <string name="device_responsed">อุปกรณ์ตอบสนอง</string>
     <string name="device_type">ประเภท</string>
-    <string name="devicetype1">ทีวี</string>
-    <string name="devicetype10">โปรเจคเตอร์</string>
-    <string name="devicetype10001">ทีวี Mi/Mi Box</string>
-    <string name="devicetype11">ทีวีดาวเทียม</string>
-    <string name="devicetype12">กล่อง</string>
-    <string name="devicetype13">DSLR</string>
-    <string name="devicetype14">หลอดไฟ</string>
-    <string name="devicetype2">กล่องเซ็ตท็อป</string>
-    <string name="devicetype3">แอร์</string>
-    <string name="devicetype4">DVD</string>
-    <string name="devicetype5">IPTV</string>
-    <string name="devicetype6">พัดลม</string>
-    <string name="devicetype8">ตัวสัญญาณ A/V</string>
     <string name="diagnose">ทดสอบรีโมท</string>
     <string name="diagnosis_intro">เครือข่ายการทดสอบสำหรับปัญหาการเชื่อมต่อ</string>
     <string name="dialog_install_assistant_content">ติดตั้งแอปฉายภาพหน้าจอ Mi เพื่อใช้งานร่วมกับทีวี Mi หรือMi Box</string>
@@ -238,16 +216,9 @@
     <string name="fav">ชอบ</string>
     <string name="favorite_channel">ช่องรายการล่าสุด</string>
     <string name="feedback">ข้อเสนอแนะ</string>
-    <string name="feedback_desc_default">ปุ่มบางปุ่มใช้งานไม่ได้</string>
-    <string name="feedback_desc_hint">อธิบายปัญหา</string>
     <string name="feedback_error">รายงานปัญหา</string>
     <string name="feedback_error_success_tip">ส่งเรียบร้อยแล้ว</string>
     <string name="feedback_error_tips">มีปัญหาในการใช้รีโมทนี้ แตะเพื่อรายงานปัญหา</string>
-    <string name="feedback_input_desc">อธิบายปัญหาที่นี่</string>
-    <string name="feedback_issue_desc">อธิบายปัญหา</string>
-    <string name="feedback_keys">ข้อเสนอแนะ</string>
-    <string name="feedback_keys_success">ขอบคุณสำหรับข้อเสนอแนะของคุณ!</string>
-    <string name="feedback_keys_tips">หากปุ่มใช้งานไม่ได้ กรุณาส่งข้อเสนอแนะของคุณให้เรา</string>
     <string name="find_adb_frame">ตรวจพบอุปกรณ์ ADB %1$d รายการ</string>
     <string name="find_milink_frame">ตรวจพบอุปกรณ์ Mi %1$d รายการ</string>
     <string name="fix_keys">ปุ่มซ่อมแซม</string>
@@ -271,7 +242,7 @@
     <string name="guid_zero">. อุปกรณ์ของคุณไม่รองรับอุปกรณ์อินฟราเรด แต่รองรับรีโมท Wi-Fi</string>
     <string name="guide">คำแนะนำ</string>
     <string name="has_installed">ติดตั้งแล้ว</string>
-    <string name="hd_channel_preferred">กล่องเซ็ตท็อป HD</string>
+    <string name="hd_channel_preferred">วิดีโอ HD (เลือกชมก่อน)</string>
     <string name="help">วิธีใช้</string>
     <string name="history_none">คุณยังไม่เคยชมวิดีโอใดๆ</string>
     <string name="history_title">ประวัติ</string>
@@ -299,7 +270,7 @@
     <string name="ir_device_air_cleaner">เครื่องฟอกอากาศ</string>
     <string name="ir_device_air_condition">แอร์</string>
     <string name="ir_device_all_ir">ทั้งหมด</string>
-    <string name="ir_device_amp">ตัวรับสัญญาณ A/V</string>
+    <string name="ir_device_amp">ตัวสัญญาณ A/V</string>
     <string name="ir_device_box">กล่อง</string>
     <string name="ir_device_camera">กล้อง</string>
     <string name="ir_device_dvb_s">กล่องเซ็ตท็อป</string>
@@ -320,7 +291,6 @@
     <string name="ir_device_sound">ลำโพง</string>
     <string name="ir_device_stb">กล่องเซ็ตท็อป</string>
     <string name="ir_device_tv">ทีวี</string>
-    <string name="ir_device_water_heater">เครื่องทำน้ำร้อน</string>
     <string name="ir_device_wifi">รีโมทไร้สาย</string>
     <string name="ir_not_supported_devices">* ทีวี Mi 3/บาร์ทีวี Mi/Mi Box 3/Mi Box ไม่รองรับอินฟาเรด ลองใช้รีโมท Wi-Fi</string>
     <string name="jump_to_mivideo">ดูบนอุปกรณ์มือถือ</string>
@@ -339,7 +309,6 @@
     <string name="loading_ir_data">รอสักครู่…</string>
     <string name="locate_current_place">ค้นหาตำแหน่งที่ตั้งปัจจุบัน</string>
     <string name="location_select">เปลี่ยนชื่ออุปกรณ์</string>
-    <string name="lock_screen_device_sum">%1$d</string>
     <string name="login">ลงชื่อเข้าใช้</string>
     <string name="login_directly">ลงชื่อเข้าใช้</string>
     <string name="login_done">ลงชื่อเข้าใช้แล้ว</string>
@@ -507,7 +476,6 @@
     <string name="oscillation">การสั่น</string>
     <string name="other">อื่นๆ</string>
     <string name="outdoor_temp_unknown">ไม่รู้จัก</string>
-    <string name="pair_server_data_only">เราแนะนำให้ใช้ข้อมูลออนไลน์สำหรับรีโมทใหม่</string>
     <string name="partner">สนับสนุน</string>
     <string name="place_frame">"ตำแหน่ง: "</string>
     <string name="play_in_phone">ดูบนโทรศัพท์</string>
@@ -518,7 +486,6 @@
     <string name="please_select_stb">เลือกกล่องเซ็ตท็อป</string>
     <string name="please_select_tv">เลือกทีวี</string>
     <string name="pm_2.5">PM2.5:</string>
-    <string name="pm_2.5_out">PM2.5 ภายนอก:</string>
     <string name="popup_installed_app_no_app">กำลังขอรับแอป รอสักครู่และลองอีกครั้ง</string>
     <string name="popup_installed_app_title">เลือกแอปที่คุณต้องการให้เปิดบนทีวี</string>
     <string name="popup_select_device">เลือกรีโมท Wi-Fi</string>
@@ -683,8 +650,6 @@
     <string name="supporting_soon">เร็วๆนี้</string>
     <string name="swipe_loading">รอสักครู่…</string>
     <string name="switch_place">เลือกเมือง</string>
-    <string name="tab_live">สด</string>
-    <string name="tab_store">ร้าน Mi Home</string>
     <string name="technical_support">ฝ่ายสนับสนุนด้านเทคนิค</string>
     <string name="temperature">อุณหภูมิ</string>
     <string name="temprature_frame">%1$d ℃</string>
@@ -778,12 +743,4 @@
     <string name="year_month_day_format">dd MMM yyyy</string>
     <string name="yes">ใช่</string>
     <string name="yesterday">เมื่อวานนี้</string>
-    <string name="catalyst_debugjs">Debug JS</string>
-    <string name="catalyst_element_inspector">ตรวจสอบอิลิเมนต์</string>
-    <string name="catalyst_jsload_error">Unable to download JS bundle</string>
-    <string name="catalyst_jsload_message">Fetching JS bundle</string>
-    <string name="catalyst_jsload_title">โปรดรอ...</string>
-    <string name="catalyst_reloadjs">Reload JS</string>
-    <string name="catalyst_settings">Dev Settings</string>
-    <string name="catalyst_settings_title">Catalyst Dev Settings</string>
 </resources>

@@ -210,7 +210,7 @@
     <string name="playback_failed_no_title_by_bad_file">ระบบไม่รองรับรูปแบบไฟล์เพลงหรือไม่พบไฟล์นี้</string>
     <string name="streamloadingtext">กำลังเชื่อมต่อกับ %s</string>
     <string name="toast_new_playlist_name_too_long">Playlist name is too long</string>
-    <string name="toast_new_playlist_name_no_enter">"key 'Enter' has been deleted'"</string>
+    <string name="toast_new_playlist_name_no_enter">"Can't start a new paragraph"</string>
     <string name="error_title">ไม่สามารถซิงค์กับบัญชี Mi ได้</string>
     <string name="error_unauthorized">การซิงค์ถูกปิดใช้เนื่องจากการล็อกอินไม่ถูกต้องเกินจำนวนครั้งที่ระบบกำหนด</string>
     <string name="error_forbidden">การซิงค์ถูกปิด เนื่องจากเกิดข้อผิดพลาดกับบัญชี Mi ของคุณ</string>
@@ -846,8 +846,8 @@
     <string name="talkback_favorite">ถูกใช้เพลงนี้</string>
     <string name="talkback_progress">แถบความคืบหน้า</string>
     <string name="talkback_back">ย้อนกลับ</string>
-    <string name="talkback_nowplaying_circle">Play Circle</string>
-    <string name="talkback_nowplaying_bar">Play Bar</string>
+    <string name="talkback_nowplaying_circle">Play circle</string>
+    <string name="talkback_nowplaying_bar">Play bar</string>
     <string name="cloud_music">เพลงใน Mi คลาวด์</string>
     <string name="backup_immediate">สำรองข้อมูล</string>
     <string name="backup_song_title">เลือกเพลงที่จะสำรองข้อมูล</string>

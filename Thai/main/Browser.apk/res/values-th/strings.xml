@@ -167,6 +167,7 @@
     <string name="color_picker_dialog_title">เลือกสี</string>
     <string name="color_picker_hue">โทนสี</string>
     <string name="color_picker_saturation">ความอิ่มสี</string>
+    <string name="color_picker_value">ค่าสี</string>
     <string name="comment_app_menu">ข้อคิดเห็น</string>
     <string name="comment_description">ความคิดเห็น</string>
     <string name="comment_hint">ความคิดเห็น</string>
@@ -180,6 +181,7 @@
     <string name="contextmenu_dial_dot">โทรออก…</string>
     <string name="contextmenu_download_image">บันทึกรูปภาพ</string>
     <string name="contextmenu_download_image_as">บันทึกรูปภาพ</string>
+    <string name="contextmenu_manually_block_ad">ทำเครื่องหมายเป็นโฆษณา</string>
     <string name="contextmenu_map">แผนที่</string>
     <string name="contextmenu_openlink">เปิด</string>
     <string name="contextmenu_openlink_newwindow">เปิดในแท็บใหม่</string>
@@ -200,7 +202,7 @@
     <string name="current_version_pad">แป้น</string>
     <string name="current_version_pc">เดสท็อป</string>
     <string name="current_version_phone">โทรศัพท์</string>
-    <string name="custom_head_card_text">Always believe that something wonderful is about to happen</string>
+    <string name="custom_head_card_text">เชื่ออยู่เสมอว่าสิ่งดีๆ กำลังจะเกิดขึ้น</string>
     <string name="custom_head_card_text_incognito">"คุณอยู่ในโหมดไม่ระบุตัวตน!
 หน้าที่คุณเปิดจะไม่ปรากฏอยู่ในประวัติการเข้าชม"</string>
     <string name="data_traffic_prompt_change">การชมวิดีโอนี้ผ่านเครือข่ายข้อมูลมือถือต้องใช้ปริมาณการถ่ายโอนข้อมูลสูง ซึ่งหากใช้เกินกว่าที่แพ็คเกจจำกัดไว้ อาจทำให้คุณต้องเสียค่าบริการเพิ่มเติมให้แก่ผู้ให้บริการเครือข่าย</string>
@@ -479,7 +481,7 @@
     <string name="miuichromium_error_page_suggestion_check_wifi_proxy" formatted="false">(WiFi) ตรวจสอบ %s1การตั้งค่าพร็อกซี่%s2 ว่าถูกต้อง</string>
     <string name="miuichromium_error_page_suggestion_clear_cache" formatted="false">ล้างหน่วยความจำแคช (%s1Settings%s2 - ล้างข้อมูล).</string>
     <string name="miuichromium_error_page_suggestion_clear_cache_and_cookies" formatted="false">ล้างหน่วยความจำแคชและคุ้กกี้ (%s1การตั้งค่า%s2 - ล้างข้อมูล) นี่อาจทำให้ข้อมูลการเข้าใช้ต่างๆของคุณหายไป</string>
-    <string name="miuichromium_error_page_suggestion_clear_cache_and_cookies_no_invoke">Clear cache and cookies (your account info may be lost).</string>
+    <string name="miuichromium_error_page_suggestion_clear_cache_and_cookies_no_invoke">ล้างหน่วยความจำแคชและคุ๊กกี้ (ข้อมูลบัญชีของคุณอาจถูกลบ)</string>
     <string name="miuichromium_error_page_suggestion_clear_cache_no_invoke">Clear cache.</string>
     <string name="miuichromium_error_page_suggestion_connect_and_retry">โหลดใหม่หลังจากเชื่อมต่ออินเตอร์เน็ต</string>
     <string name="miuichromium_error_page_suggestion_contact_admin">ติดต่อแอดมินระบบของคุณ</string>
@@ -558,8 +560,10 @@
     <string name="pref_accessibility_url_shortcut_enter_title">ใส่ URL แบบด่วน</string>
     <string name="pref_adblock_counts">บล็อกแล้ว %d รายการ</string>
     <string name="pref_adblock_title">ตัวบล็อกโฆษณา</string>
+    <string name="pref_advert_null">Unmarked advertising,You can press the label on the page</string>
     <string name="pref_auto_update_under_wifi">อัพเดทผ่าน Wi-Fi</string>
     <string name="pref_automatic_matching_searchengines_title">เปลี่ยนไปใช้เครื่องมือค้นหาที่ใช้บ่อย</string>
+    <string name="pref_cancel_screen">Cancel screen</string>
     <string name="pref_category_hint">หมวดหมู่</string>
     <string name="pref_check_security_url_summary">ส่งที่อยู่เว็บไซต์นี้ไปยังเซิร์ฟเวอร์ของ Mi เพื่อตรวจสอบว่าลิงก์นี้ปลอดภัยหรือไม่</string>
     <string name="pref_check_security_url_summary_international">อนุญาตเบราว์เซอร์ให้เข้าถึง URLs ของเว็บไซต์ที่คุณเยี่ยมชมเพื่อรับข้อเสนอแนะที่เกี่ยวเนื่องกันเพิ่มเติม</string>
@@ -603,6 +607,7 @@
     <string name="pref_force_userscalable_summary">ไม่อนุญาตให้เว็บไซต์ควบคุมการบังคับซูมเนื้อหาหน้าเพจ</string>
     <string name="pref_general_title">ทั่วไป</string>
     <string name="pref_key_gesture_title">ปุ่มและท่าทางที่ใช้</string>
+    <string name="pref_label_advert_manager">Manager labelled ads</string>
     <string name="pref_nav_mode_summary_pad">แป้น</string>
     <string name="pref_nav_mode_summary_phone">โทรศัพท์</string>
     <string name="pref_nav_mode_title">โหมดเบราว์เซอร์</string>
@@ -660,7 +665,7 @@
     <string name="pull_to_refresh_pull_label">ลางลงเพื่อรีเฟรช</string>
     <string name="pull_to_refresh_release_label">ปล่อยเพื่อทำการแนะนำและรีเฟรช</string>
     <string name="qr_code_title">รหัส QR</string>
-    <string name="qr_description">Scan QR code</string>
+    <string name="qr_description">สแกนรหัส QR</string>
     <string name="quicklink_bookmark_save">บันทึกไปยัง</string>
     <string name="quicklink_cannot_save_url">ไม่สามารถเพิ่มหน้าลิงก์ URL นี้ได้</string>
     <string name="quicklink_folder_text">แอปยอดนิยม</string>
@@ -759,8 +764,8 @@
     <string name="send_comment_title">ข้อคิดเห็น</string>
     <string name="senddesktop">หน้าจอหลัก</string>
     <string name="sendstartpage">หน้าเริ่มต้น</string>
-    <string name="share_image_text">Look what I shared! @MIUI</string>
-    <string name="share_page_text">Look what I shared: %1$s @MIUI| %2$s</string>
+    <string name="share_image_text">ดูซิว่าฉันแชร์อะไร! @MIUI</string>
+    <string name="share_page_text">ดูซิว่าฉันแชร์อะไร: %1$s @MIUI| %2$s</string>
     <string name="show_check_security_url_check_tip_dialog_description">เบราว์เซอร์ต้องการเชื่อมต่ออินเตอร์เน็ตเพื่อให้ทำงานได้ตามปกติ เพื่อปรับปรุงความปลอดภัยและรับข้อเสนอแนะที่เกี่ยวเนื่องกันเพิ่มเติม กรุณาอนุญาตเบราว์เซอร์เพื่อรับ URL ของเว็บไซต์ที่คุณได้เยี่ยมชมและเข้าถึงข้อมูลตำแหน่งพิกัดของคุณ</string>
     <string name="show_check_security_url_check_tip_dialog_description_international">เบราว์เซอร์ต้องการเชื่อมต่ออินเตอร์เน็ตเพื่อให้ทำงานได้ตามปกติ เพื่อรับข้อเสนอแนะที่เกี่ยวเนื่องกันเพิ่มเติม กรุณาอนุญาตเบราว์เซอร์เพื่อรับ URL ของเว็บไซต์ที่คุณได้เยี่ยมชมและเข้าถึงข้อมูลตำแหน่งพิกัดของคุณ</string>
     <string name="show_security_tip_dialog_title">เงื่อนไขการให้บริการ</string>
@@ -770,7 +775,7 @@
     <string name="skip_current_version">ข้ามเวอร์ชั่นนี้</string>
     <string name="snapshot">ในเครื่อง</string>
     <string name="snapshot_failed">บันทึกหน้าเพจไม่สำเร็จ</string>
-    <string name="snapshot_successed">Open Bookmarks/History->LOCAL to view page</string>
+    <string name="snapshot_successed">เปิดคั่นหน้า/ประวัติ->ในเครื่องเพื่อเรียกดู</string>
     <string name="ssl_bad_clock_date_settings">ตั้งวันที่</string>
     <string name="ssl_bad_clock_warning" formatted="false">การเชื่อมต่อส่วนตัวไปยัง %s1 ไม่สามารถสร้างได้เนื่องจากวันที่และเวลาของอุปกรณ์ (%s2) ไม่ถูกต้อง</string>
     <string name="ssl_certificate">ใบรับรองความปลอดภัย</string>
@@ -908,11 +913,14 @@
     <string name="view_certificate">ดูใบรับรอง</string>
     <string name="view_document_downloaded_files">เรียกดูไฟล์ที่ดาวน์โหลดไว้ในดาวน์โหลด</string>
     <string name="voice_check_network">ตรวจสอบการตั้งค่าเครือข่ายของคุณแล้วลองใหม่อีกครั้ง</string>
+    <string name="voice_close_description">ปิด</string>
     <string name="voice_connect_network">ไม่สามารถเชื่อมต่อเครือข่ายได้</string>
-    <string name="voice_description">Voice search</string>
+    <string name="voice_description">ค้นหาเสียง</string>
     <string name="voice_network_connection">ค้นหาด้วยเสียงจำเป็นต้องเชื่อมต่ออินเตอร์เน็ตเพื่อให้ใช้งานได้ตามปกติ</string>
     <string name="voice_search_permission">การค้นหาด้วยเสียงจำเป็นต้องเข้าถึงไมค์ของคุณเพื่อให้ทำงานได้</string>
     <string name="voice_semantic_analysis">เบราว์เซอร์จะสามารถวิเคราะห์ความหมายได้หลังจากที่คุณอนุญาตให้เชื่อมต่อ</string>
+    <string name="voice_start_description">เริ่ม</string>
+    <string name="voice_stop_description">หยุด</string>
     <string name="voice_sub_title">ไม่รู้จะพูดอะไร? ลอง \"เปิด mi.com!\"</string>
     <string name="voice_title">พูดคำสั่งของคุณ…</string>
     <string name="voice_title_distinguish">กำลังดำเนินการ…</string>
