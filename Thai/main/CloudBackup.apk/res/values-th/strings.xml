@@ -13,7 +13,7 @@
     <string name="cloud_app_restore_app_and_data">ตั้งค่าตัวเครื่อง</string>
     <string name="cloud_app_restore_data">ข้อมูลส่วนตัวและแอปที่เพิ่งลงไว้จะปรากฎในเครื่องของคุณอัตโนมัติ</string>
     <string name="cloud_app_dont_restore">ตั้งค่าเป็นเครื่องใหม่</string>
-    <string name="cloud_app_restore_wifi_prompt">ในการเรียกคืนค่าจากข้อมูลสำรองใน Mi คลาวด์ คุณจะต้องเชื่อมต่อเครือข่าย Wi-Fi ก่อน</string>
+    <string name="cloud_app_restore_wifi_prompt">เรียกคืนค่าจากข้อมูลสำรองใน Mi คลาวด์</string>
     <string name="cloud_backup_detail_state">สำรองข้อมูล Mi คลาวด์</string>
     <string name="cloud_backup_detail_state_summary">แอป, หน้าจอหลักและการตั้งค่าระบบ</string>
     <string name="cloud_backup_detail_frequence">ตารางเวลาการสำรองข้อมูล</string>
@@ -121,4 +121,5 @@
     <string name="btn_skip">ข้ามขั้นตอนนี้</string>
     <string name="can_not_restore_in_lite_mode">ไม่สามารถเรียกคืนค่าโหมดง่ายได้</string>
     <string name="can_not_backup_in_lite_mode">ไม่สามารถสำรองข้อมูลโหมดง่ายได้</string>
+    <string name="restore_data_title">คืนค่าข้อมูล</string>
 </resources>

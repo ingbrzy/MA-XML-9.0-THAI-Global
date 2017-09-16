@@ -94,6 +94,7 @@
     <string name="location_settings">การตั้งค่าระบุตำแหน่ง</string>
     <string name="location_warning">%1$s เป็นผู้ให้บริการการระบุตำแหน่งพิกัดสำหรับอุปกรณ์นี้ การเข้าถึงสถานที่ตั้งสามารถแก้ไขได้จากการตั้งค่าตำแหน่งพิกัด</string>
     <string name="permission_warning_template">อนุญาต %1$s ให้%2$s?</string>
+    <string name="permission_warning_template_ask">อนุญาต %1$s สำหรับสิทธิ์ต่อไปนี้?</string>
     <string name="screen_overlay_title">ตรวจพบการซ้อนทับหน้าจอ</string>
     <string name="screen_overlay_message">ในการเปลี่ยนการตั้งค่าการอนุญาตนี้ ก่อนอื่นคุณต้องปิดการซ้อนทับหน้าจอจากการตั้งค่า > แอป</string>
     <string name="screen_overlay_button">เปิดการตั้งค่า</string>

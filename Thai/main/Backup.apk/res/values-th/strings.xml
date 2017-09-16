@@ -32,6 +32,7 @@
     <string name="delete_backup_title">ลบข้อมูลสำรอง</string>
     <string name="delete">ลบ</string>
     <string name="cancel">ยกเลิก</string>
+    <string name="reconnect">เชื่อมต่อใหม่</string>
     <string name="delete_backup_process">กำลังลบ…</string>
     <string name="backup_error">การสำรองข้อมูลผิดพลาด</string>
     <string name="delete_failed_backup_confirm">ไฟล์ข้อมูลสำรองมีข้อผิดพลาด</string>
@@ -227,6 +228,7 @@
     <string name="file_uploading">กำลังอัพโหลด…</string>
     <string name="new_backup">สำรองข้อมูล</string>
     <string name="restore_backup">คืนค่า</string>
+    <string name="digit_percent">%</string>
     <string name="state_waiting">รอสักครู่…</string>
     <string name="state_mounting">กำลังเข้าถึงพื้นที่จัดเก็บข้อมูลเราเตอร์…</string>
     <string name="abort_backup_confirm">ยังสำรองข้อมูลไม่เสร็จ ยกเลิกหรือไม่?</string>
@@ -260,6 +262,7 @@
     <string name="notif_trans_receiving_completed">รับข้อมูลเรียบร้อยแล้ว</string>
     <string name="notif_trans_sending_failed">ส่งข้อมูลไม่สำเร็จ</string>
     <string name="notif_trans_receiving_failed">รับข้อมูลไม่สำเร็จ</string>
+    <string name="notif_trans_wait_for_reconnecting">อุปกรณ์ระยะไกลถูกตัดการเชื่อมต่อ โปรดเชื่อมต่ออีกครั้ง</string>
     <string name="custom_progress">%d รายการ</string>
     <string name="remote_receive">รับ</string>
     <string name="click_to_view" />
@@ -310,6 +313,7 @@
     <string name="trans_cancel_confirm">อยู่ระหว่างการโอนย้าย หยุดตอนนี้?</string>
     <string name="trans_cancelling">กำลังยกเลิก…</string>
     <string name="trans_device_disconnected">ถอดอุปกรณ์ออกแล้ว</string>
+    <string name="trans_device_wait_for_reconnecting">อุปกรณ์ถูกตัดการเชื่อมต่อ กรุณาเชื่อมต่อใหม่</string>
     <string name="trans_connecting_toast">กำลังเชื่อมต่อ…</string>
     <string name="trans_connect_failed_toast">เชื่อมต่อไม่ได้</string>
     <string name="trans_generate_qr_code_failed">ไม่สามารถสร้างรหัส QR</string>
@@ -325,6 +329,10 @@
 2. เปิดแอปและแตะเริ่มต้น
 3. สแกนรหัส QR ด้วยอุปกรณ์เก่าของคุณ"</string>
     <string name="trans_operate_old_phone_tips2">ไปที่ เมนูการตั้งค่า > การตั้งค่าเพิ่มเติม > ถ่ายโอน แตะ [เครื่องนี้เป็นผู้ส่ง]</string>
+    <string name="trans_operate_reconnect_new_tips">"รอจนกว่าโทรศัพท์ใหม่จะแสดง \"อุปกรณ์ถูกตัดการเชื่อมต่อ\" 
+ จากนั้นคลิก [Reconnect] เพื่อสร้างรหัส QR"</string>
+    <string name="trans_operate_reconnect_old_tips">"รอจนกว่าโทรศัพท์จะแสดง \"อุปกรณ์ถูกตัดการเชื่อมต่อ\" 
+ จากนั้นคลิก [Reconnect] เพื่อสแกนรหัส QR"</string>
     <string name="trans_wait_trans_data">"เชื่อมต่ออุปกรณ์เก่าแล้ว
 กำลังรอการถ่ายโอน…"</string>
     <string name="trans_select_data">เลือกรายการที่จะส่ง</string>
@@ -347,6 +355,7 @@
     <string name="trans_retry">ลองใหม่</string>
     <string name="trans_start_failed_title">ไม่สามารถเริ่มการถ่ายโอนได้</string>
     <string name="trans_start_failed_message">ไม่สามารถเริ่มการถ่ายโอนได้ ลองใหม่อีกครั้งหรือรีบูตอุปกรณ์</string>
+    <string name="trans_connect_failed_device_incompatible">อุปกรณ์ไม่เข้ากัน โปรดยกเลิกการโอนย้ายและลองอีกครั้ง</string>
     <string name="trans_connection_failed">ถอดอุปกรณ์ออกแล้ว</string>
     <string name="user_notice_title">โปรดทราบ</string>
     <string name="user_notice_message">การใช้งานคุณลักษณะนี้จำเป็นต้องเชื่อมกับต่ออินเตอร์เน็ตเพื่อการทำงานที่ปกติ</string>

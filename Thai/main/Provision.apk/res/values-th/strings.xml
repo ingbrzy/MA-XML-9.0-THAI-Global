@@ -36,12 +36,12 @@
     <string name="ime_privacy_policy">นโยบายความเป็นส่วนตัวสำหรับแป้นพิมพ์ที่เลือก</string>
     <string name="ime_privacy_policy_no_network">ไม่พบการเชื่อมต่อเครือข่าย กรุณาอ่านนโยบายความเป็นส่วนตัวของแป้นพิมพ์นี้ได้จาก %s</string>
     <string name="terms_of_use">ข้อตกลงและเงื่อนไข</string>
-    <string name="terms_of_use_label">"Your privacy is very important to us. Please read our Terms of Service and Privacy Policy to understand what information we collect, how we use it, and what choices are available to you.
+    <string name="terms_of_use_label">"ความเป็นส่วนตัวของคุณเป็นสิ่งสำคัญสำหรับเรา โปรดอ่านข้อกำหนดในการให้บริการและนโยบายความเป็นส่วนตัวของเราเพื่อทำความเข้าใจกับข้อมูลที่เราเก็บรวบรวม วิธีที่เราใช้และตัวเลือกที่มีให้คุณ 
 
-You must agree to our Terms of Service and Privacy Policy before you can use MIUI. During the activation, Mi services, Mi SIM activation services, Mi Cloud, Find device, Home screen modules, Game Service, MAB and MSA system components, Direct Service, Quick Card, statistic, MiSmartCards, and Mi Account components will connect to the internet and acquire your location."</string>
+ คุณต้องยอมรับข้อกำหนดในการให้บริการและนโยบายส่วนบุคคลของเราก่อนจึงจะสามารถใช้ MIUI ระหว่างการเปิดใช้บริการ Mi เปิดใช้งานบริการการ Mi ซิม, Mi คลาวด์, ค้นหาอุปกรณ์ โมดูลหน้าจอหลัก, บริการเกม, ส่วนประกอบของระบบ, MAB และ MSA, บริการโดยตรง, สถิติ, MiSmartCards, ข้อมูลการช่วยเหลือ และส่วนประกอบบัญชี Mi จะเชื่อมต่อกับอินเทอร์เน็ตและเข้าถึงตำแหน่งของคุณ"</string>
     <string name="user_agreement">ข้อตกลงและเงื่อนไขการใช้งาน</string>
     <string name="privacy_policy">นโยบายความเป็นส่วนตัว</string>
-    <string name="application_permissions">Application Permissions</string>
+    <string name="application_permissions">การอนุญาตแอปพลิเคชั่น</string>
     <string name="agree">ตกลง</string>
     <string name="disagree">ยกเลิก</string>
     <string name="setting_locale">การตั้งค่าพื้นที่…</string>
@@ -50,23 +50,25 @@ You must agree to our Terms of Service and Privacy Policy before you can use MIU
     <string name="miui_privacy_policy_no_network">คุณไม่ได้เชื่อมกับต่ออินเตอร์เน็ต กรุณาอ่านนโยบายความเป็นส่วนตัวได้ที่ %s</string>
     <string name="locale_picker_title">เลือกพื้นที่ของคุณ</string>
     <string name="install_preinstall_app">กำลังโหลดแอปต่างๆ…</string>
-    <string name="title_fingerprint">เพิ่มลายนิ้วมือ</string>
+    <string name="title_fingerprint">ตั้งรหัสผ่าน</string>
+    <string name="item_fingerprint">ลายนิ้วมือ</string>
+    <string name="item_lock_screen_password">เฉพาะล็อกหน้าจอ</string>
     <string name="desc_fingerprint">ใช้ลายนิ้วมือของคุณในการปลดล็อกเครื่อง ชำระเงินผ่าน Mi Pay หรือใช้เพื่อเข้าสู่ระบบของแอปหรือบริการต่างๆ</string>
     <string name="desc_extra_fingerprint" />
     <string name="next_fingerprint">ถัดไป</string>
     <string name="desc_extra_international_fingerprint" />
     <string name="desc_international_fingerprint">ใช้ลายนิ้วมือของคุณในการปลดล็อกเครื่อง ลงชื่อเข้าสู่แอปหรือบริการต่างๆ</string>
     <string name="content_description_start">เริ่มต้น</string>
-    <string name="content_description_miui_version">MIUI 8</string>
+    <string name="content_description_miui_version">MIUI 9</string>
     <string name="content_description_complete">เสร็จสมบูรณ์</string>
-    <string name="content_description_language_picker">เลือกภาษา</string>
     <string name="language_picker_other_languages_title">ภาษาเพิ่มเติม</string>
+    <string name="language_settings">เลือกภาษา</string>
     <string name="enable_accessibility_dialog_message">แตะสองนิ้วบนหน้าจอค้างไว้ 10 วิ เพื่อเปิด TalkBack, TalkBack ให้การตอบรับด้วยเสียงสำหรับผู้ที่มีความบกพร่องทางสายตา ถ้าคุณเปิดใช้งานโดยไม่ได้ตั้งใจให้แตะปุ่มยกเลิกแล้วแตะสองครั้งที่หน้าจอ</string>
     <string name="enable_accessibility_dialog_positive_btn">ตกลก</string>
     <string name="enable_accessibility_dialog_negative_btn">ยกเลิก</string>
     <string name="cm_terms_title">ข้อตกลงผู้ให้บริการเครือข่ายมือถือ</string>
     <string name="cm_terms_content">เพื่อปรับปรุงการบริการที่ดีขึ้นให้กับคุณ ผู้ดำเนินการเครือข่ายมือถือที่คุณเลือกอาจอัปโหลดข้อมูลส่วนบุคคลและข้อมูลเกี่ยวกับอุปกรณ์นี้ไปยังเซิร์ฟเวอร์โดยใช้เครือข่าย Wi-Fi หรือการเชื่อมต่อข้อมูลมือถือ ข้อมูลนี้จะถูกใช้เพื่อวัตถุประสงค์ทางสถิติเท่านั้นเพื่อปรับปรุงคุณภาพของบริการและให้เนื้อหาที่เป็นส่วนตัวมากขึ้น ข้อมูลนี้จะไม่ถูกใช้เพื่อระบุตัวคุณเป็นการส่วนตัวและจะไม่ถูกเปิดเผยต่อบุคคลที่สาม</string>
-    <string name="two_dimensional_code_scan">QR code scan</string>
-    <string name="user_strayed_warning">The page is designed for factory test, Click back button to exit.</string>
-    <string name="fail_to_generate_qr_code">Fail to generate QR code, please reenter this page.</string>
+    <string name="two_dimensional_code_scan">สแกนรหัส QR</string>
+    <string name="user_strayed_warning">หน้านี้ได้รับการออกแบบสำหรับการทดสอบจากโรงงาน คลิกปุ่มย้อนกลับเพื่อออก</string>
+    <string name="fail_to_generate_qr_code">ไม่สามารถสร้างรหัส QR กรุณาออกจากหน้านี้และเข้าใหม่</string>
 </resources>

@@ -7,6 +7,7 @@
     <string name="addBlackList">บล็อก</string>
     <string name="add_attachment">เพิ่มไฟล์แนบ</string>
     <string name="add_contact">vCard</string>
+    <string name="add_miui_contact">Mi Card</string>
     <string name="add_music">เพิ่มเพลง</string>
     <string name="add_number_to_sender">เพิ่มหมายเลขโทรศัพท์ใน %s</string>
     <string name="add_picture">เพิ่มรูปภาพ</string>
@@ -159,7 +160,7 @@
     <string name="expire_on">หมดอายุ: %s</string>
     <string name="exporting_progress_private_message">กำลังส่งออก…</string>
     <string name="fail_to_add_attachment">ไม่สามารถเพิ่มสิ่งที่แนบได้</string>
-    <string name="fail_to_view_attachment">"Attachment isn't available"</string>
+    <string name="fail_to_view_attachment">ไฟล์แนบไม่พร้อมใช้งาน</string>
     <string name="failed_to_add_media">ไม่สามารถแนบ %1$s นี้ในข้อความของคุณได้</string>
     <string name="failed_to_resize_image">รูปภาพไม่ถูกปรับขนาด</string>
     <string name="fake_cell_alert_hint">ดูเหมือนว่าข้อความนี้ถูกส่งมาจากหมายเลขโทรศัพท์ซึ่งจะแตกต่างจากที่แสดง กรุณาระมัดระวังข้อความ SMS ที่มีการเรียกร้องด้านการเงิน</string>
@@ -332,9 +333,9 @@
     <string name="mx_stranger_recommend_msg">แตะบล็อกข้อความ Mi จากเลขหมายที่ไม่รู้จัก</string>
     <string name="mx_type_guide">ระบบข้อความ Mi ใช้สำหรับส่งข้อความระหว่างผู้ใช้ MIUI ด้วยกันโดยไม่ต้องเสียค่าบริการใดๆ</string>
     <string name="need_download">กำลังซิงค์…</string>
-    <string name="networking_allow_continue">Allow</string>
-    <string name="networking_allow_desc">Mi Message needs to connect to the internet to work normally. In order to provide free text and voice services, recognize unknown numbers, filter spam, and enable other features, Mi Message needs to use Yellow pages. Allow Yellow pages to connect to the internet, get your location info, and read your contacts?</string>
-    <string name="networking_allow_desc_without_mx">Mi Message needs to connect to the internet to work normally. In order to recognize unknown numbers, filter spam, and enable other features, Mi Message needs to use Yellow pages. Allow Yellow pages to connect to the internet, get your location info, and read your contacts?</string>
+    <string name="networking_allow_continue">อนุญาต</string>
+    <string name="networking_allow_desc">Mi ข้อความ ต้องการเชื่อมต่ออินเทอร์เน็ตเพื่อทำงานได้ตามปกติ เพื่อให้บริการข้อความและเสียงฟรี จดจำหมายเลขที่ไม่รู้จัก กรองสแปมและเปิดใช้งานคุณลักษณะอื่นๆ Mi ข้อความ ต้องใช้สมุดหน้าเหลือง อนุญาตให้สมุดหน้าเหลืองเชื่อมต่อกับอินเทอร์เน็ต รับข้อมูลตำแหน่งของคุณและอ่านรายชื่อติดต่อของคุณหรือไม่?</string>
+    <string name="networking_allow_desc_without_mx">Mi ข้อความ ต้องการเชื่อมต่ออินเทอร์เน็ตเพื่อทำงานได้ตามปกติ จดจำหมายเลขที่ไม่รู้จัก กรองสแปมและเปิดใช้งานคุณลักษณะอื่นๆ Mi ข้อความ ต้องใช้สมุดหน้าเหลือง อนุญาตให้สมุดหน้าเหลืองเชื่อมต่อกับอินเทอร์เน็ต รับข้อมูลตำแหน่งของคุณและอ่านรายชื่อติดต่อของคุณหรือไม่?</string>
     <string name="networking_allow_title">โปรดทราบ</string>
     <string name="new_message">เขียน</string>
     <string name="new_message_arrived">คุณมีข้อความใหม่</string>
@@ -385,8 +386,10 @@
     <string name="pref_show_sms_template_in_summary">ตรวจจับรหัสผ่านแบบครั้งเดียวในข้อความ SMS โดยอัตโนมัติ</string>
     <string name="pref_show_sms_template_summary">เปิดการใช้งานคุณสมบัติอัจฉริยะของข้อความ Mi เช่น การคัดลอกรหัสยืนยัน, การเช็คยอดเงินและอื่นๆ</string>
     <string name="pref_smart_messages_settings">ข้อความอัจฉริยะ</string>
+    <string name="pref_sms_storage_title">ที่จัดเก็บข้อมูล</string>
     <string name="pref_sms_theme_title">แสดง</string>
     <string name="pref_summary_allow_si_sl_push">อนุญาตให้ข้อความโหลดเนื้อหาจากเว็บไซต์</string>
+    <string name="pref_summary_auto_delete">ลบข้อความเก่าเมื่อถึงขีดจำกัดแล้ว</string>
     <string name="pref_summary_delete_limit">%1$s ข้อความต่อการสนทนา</string>
     <string name="pref_summary_delivery_reports">แสดงสถานะการส่งข้อความที่คุณได้ส่งไป</string>
     <string name="pref_summary_delivery_ringtone">รับการแจ้งเตือนเสียงเมื่อส่งข้อความแล้ว</string>
@@ -404,6 +407,7 @@
     <string name="pref_system_title">ระบบ</string>
     <string name="pref_title_about_smart_sms">เกี่ยวกับหุ้นส่วนข้อความอัจฉริยะ</string>
     <string name="pref_title_allow_si_sl_push">อนุญาตให้ใช้การส่งข้อความแบบ WAP push (SI/SL)</string>
+    <string name="pref_title_auto_delete">ลบข้อความเก่า</string>
     <string name="pref_title_card_format">รูปแบบการใช้การ์ดร่วมกัน</string>
     <string name="pref_title_delivery_reports">รายงานการส่ง</string>
     <string name="pref_title_fwd_sender_info">ข้อความผู้ส่งต่อ</string>
@@ -412,6 +416,8 @@
     <string name="pref_title_mms_auto_retrieval">ดาวน์โหลดเนื้อหาข้อความ MMS โดยอัตโนมัติ</string>
     <string name="pref_title_mms_delete">กำหนดจำนวนข้อความ MMS ที่ส่งได้</string>
     <string name="pref_title_mms_read_reports">ข้อความ MMS ที่เปิดอ่าน</string>
+    <string name="pref_title_mms_retrieval_during_international_roaming">ดาวน์โหลดเนื้อหาข้อความ MMS ขณะโรมมิ่ง</string>
+    <string name="pref_title_mms_retrieval_during_national_roaming">ดาวน์โหลดเนื้อหาข้อความ MMS ขณะโรมมิ่ง</string>
     <string name="pref_title_mms_retrieval_during_roaming">ดาวน์โหลดเนื้อหาข้อความ MMS ขณะโรมมิ่ง</string>
     <string name="pref_title_mms_validity_period">ระยะเวลารอส่ง MMS</string>
     <string name="pref_title_notification_body_enabled">แสดงข้อความในหน้าจอล็อก</string>

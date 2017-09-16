@@ -80,11 +80,11 @@
         <item></item>
     </string-array>
     <string-array name="thermal_entries">
-        <item>Default warm control mode</item>
+        <item>โหมดควบคุมอุณหภูมิเริ่มต้น</item>
         <item>โหมดเน้นประสิทธิภาพ</item>
     </string-array>
     <string-array name="thermal_summaries">
-        <item>Current default mode</item>
-        <item>Current performance mode</item>
+        <item>โหมดค่าเริ่มต้นปัจจุบัน</item>
+        <item>โหมดประสิทธิภาพปัจจุบัน</item>
     </string-array>
 </resources>

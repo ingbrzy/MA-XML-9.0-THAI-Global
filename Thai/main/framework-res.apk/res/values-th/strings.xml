@@ -188,8 +188,6 @@
     <string name="global_actions">ตัวเลือกโทรศัพท์</string>
     <string name="global_action_lock">ล็อกหน้าจอ</string>
     <string name="global_action_power_off">ปิดเครื่อง</string>
-    <string name="global_action_reboot">เริ่มต้นการทำงานใหม่</string>
-    <string name="global_action_emergency">เหตุฉุกเฉิน</string>
     <string name="global_action_bug_report">รายงานข้อบกพร่อง</string>
     <string name="bugreport_title">ใช้รายงานข้อบกพร่อง</string>
     <string name="bugreport_message">การดำเนินการนี้จะรวบรวมข้อมูลเกี่ยวกับสถานะปัจจุบันของอุปกรณ์ของคุณ โดยจะส่งไปในรูปแบบข้อความอีเมล อาจใช้เวลาสักครู่ตั้งแต่เริ่มการสร้างรายงานข้อบกพร่องจนกระทั่งเสร็จสมบูรณ์ โปรดอดทนรอ</string>
@@ -551,7 +549,6 @@
     <string name="lockscreen_pattern_correct">ถูกต้อง!</string>
     <string name="lockscreen_pattern_wrong">ลองอีกครั้ง</string>
     <string name="lockscreen_password_wrong">ลองอีกครั้ง</string>
-    <string name="lockscreen_storage_locked">ปลดล็อกคุณลักษณะและข้อมูลทั้งหมด</string>
     <string name="faceunlock_multiple_failures">มีความพยายามที่จะใช้ Face Unlock เกินขีดจำกัด</string>
     <string name="lockscreen_missing_sim_message_short">ไม่พบซิมการ์ด</string>
     <string name="lockscreen_missing_sim_message">ไม่มีซิมการ์ดในโทรศัพท์</string>
@@ -803,9 +800,8 @@
     <string name="android_upgrading_title">กำลังอัปเกรด Android ...</string>
     <string name="android_start_title">Android กำลังเริ่มต้น…</string>
     <string name="android_upgrading_fstrim">กำลังเพิ่มประสิทธิภาพพื้นที่จัดเก็บข้อมูล</string>
-    <string name="android_upgrading_notification_title">กำลังทำการอัปเดต Android ให้เสร็จสิ้น…</string>
+    <string name="android_upgrading_notification_title">Android กำลังอัปเกรด</string>
     <string name="android_upgrading_notification_body">แอปบางแอปอาจทำงานไม่ถูกต้องจนกว่าจะอัปเกรดเสร็จ</string>
-    <string name="app_upgrading_toast">กำลังอัปเกรด %1$s…</string>
     <string name="android_upgrading_apk">กำลังเพิ่มประสิทธิภาพแอปพลิเคชัน %1$d จาก %2$d รายการ</string>
     <string name="android_preparing_apk">กำลังเตรียม %1$s</string>
     <string name="android_upgrading_starting_apps">กำลังเริ่มต้นแอปพลิเคชัน</string>
@@ -846,10 +842,6 @@
     <string name="network_available_sign_in">ลงชื่อเข้าใช้เครือข่าย</string>
     <string name="wifi_no_internet">Wi-Fi ไม่สามารถเข้าถึงอินเทอร์เน็ต</string>
     <string name="wifi_no_internet_detailed">แตะเพื่อดูตัวเลือก</string>
-    <string name="network_switch_metered">เปลี่ยนเป็น %1$s</string>
-    <string name="network_switch_metered_detail">อุปกรณ์จะใช้ %1$s เมื่อ %2$s ไม่สามารถเข้าถึงอินเทอร์เน็ต อาจมีค่าบริการ</string>
-    <string name="network_switch_metered_toast">เปลี่ยนจาก %1$s เป็น %2$s</string>
-    <string name="network_switch_type_name_unknown">ประเภทเครือข่ายที่ไม่รู้จัก</string>
     <string name="wifi_watchdog_network_disabled">ไม่สามารถเชื่อมต่อ WiFi</string>
     <string name="wifi_watchdog_network_disabled_detailed">" มีสัญญาณอินเทอร์เน็ตไม่ดี"</string>
     <string name="wifi_connect_alert_title">อนุญาตการเชื่อมต่อใช่ไหม</string>
@@ -925,6 +917,7 @@
     <string name="select_keyboard_layout_notification_message">แตะเพื่อเลือกภาษาและรูปแบบ</string>
     <string name="fast_scroll_alphabet">" กขฃคฅฆงจฉชซฌญฎฏฐฑฒณดตถทธนบปผฝพฟภมยรลวศษสหฬอฮ"</string>
     <string name="fast_scroll_numeric_alphabet">" กขฃคฅฆงจฉชซฌญฎฏฐฑฒณดตถทธนบปผฝพฟภมยรลวศษสหฬอฮ"</string>
+    <string name="candidates_style"><u>ตัวเลือก</u></string>
     <string name="ext_media_checking_notification_title">กำลังเตรียม %s</string>
     <string name="ext_media_checking_notification_message">กำลังตรวจหาข้อผิดพลาด</string>
     <string name="ext_media_new_notification_message">ตรวจพบ %s ใหม่</string>
@@ -1006,9 +999,8 @@
     <string name="vpn_text_long">เชื่อมต่อกับ %s แตะเพื่อจัดการเครือข่าย</string>
     <string name="vpn_lockdown_connecting">กำลังเชื่อมต่อ VPN แบบเปิดตลอดเวลา…</string>
     <string name="vpn_lockdown_connected">เชื่อมต่อ VPN แบบเปิดตลอดเวลาแล้ว</string>
-    <string name="vpn_lockdown_disconnected">ยกเลิกการเชื่อมต่อ VPN แบบเปิดตลอดเวลาแล้ว</string>
     <string name="vpn_lockdown_error">ข้อผิดพลาดของ VPN แบบเปิดตลอดเวลา</string>
-    <string name="vpn_lockdown_config">แตะเพื่อตั้งค่า</string>
+    <string name="vpn_lockdown_config">แตะเพื่อกำหนดค่า</string>
     <string name="upload_file">เลือกไฟล์</string>
     <string name="no_file_chosen">ไม่ได้เลือกไฟล์ไว้</string>
     <string name="reset">รีเซ็ต</string>
@@ -1087,7 +1079,7 @@
     <string name="storage_usb_drive_label">ไดรฟ์ USB ของ %s</string>
     <string name="storage_usb">ที่เก็บข้อมูล USB</string>
     <string name="extract_edit_menu_button">แก้ไข</string>
-    <string name="data_usage_warning_title">การแจ้งเตือนการใช้อินเทอร์เน็ต</string>
+    <string name="data_usage_warning_title">คำเตือนการใช้ข้อมูล</string>
     <string name="data_usage_warning_body">แตะเพื่อดูการใช้งานและการตั้งค่า</string>
     <string name="data_usage_3g_limit_title">ถึงขีดจำกัดข้อมูล 2G-3G แล้ว</string>
     <string name="data_usage_4g_limit_title">ถึงขีดจำกัดข้อมูล 4G แล้ว</string>
@@ -1371,7 +1363,6 @@
     <string name="search_language_hint">พิมพ์ชื่อภาษา</string>
     <string name="language_picker_section_suggested">แนะนำ</string>
     <string name="language_picker_section_all">ทุกภาษา</string>
-    <string name="region_picker_section_all">ภูมิภาคทั้งหมด</string>
     <string name="locale_search_menu">ค้นหา</string>
     <string name="work_mode_off_title">โหมดทำงานปิดอยู่</string>
     <string name="work_mode_off_message">อนุญาตให้โปรไฟล์งานทำงานได้ ซึ่งรวมถึงแอป การซิงค์ในพื้นหลัง และคุณลักษณะอื่นที่เกี่ยวข้อง</string>
@@ -1389,18 +1380,9 @@
     <string name="unpin_target">เลิกปักหมุด</string>
     <string name="app_info">ข้อมูลแอป</string>
     <string name="negative_duration">−%1$s</string>
-    <string name="reset_retail_demo_mode_title">รีเซ็ตอุปกรณ์ไหม</string>
-    <string name="reset_retail_demo_mode_text">แตะเพื่อรีเซ็ตอุปกรณ์</string>
-    <string name="demo_starting_message">กำลังเริ่มการสาธิต…</string>
-    <string name="demo_restarting_message">กำลังรีเซ็ตอุปกรณ์…</string>
-    <string name="demo_user_inactivity_timeout_title">รีเซ็ตอุปกรณ์ไหม</string>
-    <string name="demo_user_inactivity_timeout_countdown">การเปลี่ยนแปลงของคุณจะหายไปและการสาธิตจะเริ่มต้นอีกครั้งใน %1$s วินาที…</string>
-    <string name="demo_user_inactivity_timeout_left_button">ยกเลิก</string>
-    <string name="demo_user_inactivity_timeout_right_button">รีเซ็ตทันที</string>
     <string name="audit_safemode_notification">รีเซ็ตเป็นค่าเริ่มต้นเพื่อใช้อุปกรณ์นี้โดยไร้ข้อจำกัด</string>
     <string name="audit_safemode_notification_details">แตะเพื่อเรียนรู้เพิ่มเติม</string>
     <string name="suspended_widget_accessibility">ปิดใช้ %1$s</string>
-    <string name="conference_call">การประชุมสาย</string>
     <string name="lock_to_app_toast_accessible">กรุณาแตะปุ่มเปิด/ปิดและปุ่มโฮมค้างไว้พร้อมกันเพื่อยกเลิกการตรึงหน้าจอเดี่ยวไว้เต็มจอ</string>
     <string name="lock_to_app_description">"การใช้งานหน้าจอเดี่ยวจะแสดงผลโดยตรึงหน้าจอนั้นไว้เต็มจอ
 

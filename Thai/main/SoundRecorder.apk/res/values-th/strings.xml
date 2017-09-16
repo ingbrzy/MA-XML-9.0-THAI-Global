@@ -114,7 +114,7 @@
     <string name="text_btn_wave">คลื่น</string>
     <string name="text_finish">ยืนยัน</string>
     <string name="new_record_name">บันทึกใหม่</string>
-    <string name="export_to_note">Export</string>
+    <string name="export_to_note">ส่งออก</string>
     <string name="mark_point_list_title">ทำเครื่องหมายไว้</string>
     <string name="speech_recognition_running_tip">กำลังตรวจจับ</string>
     <string name="speech_recognition_complete">เสร็จสมบูรณ์</string>
@@ -147,7 +147,7 @@
     <string name="clear_records">ลบไฟล์บันทึกที่ซิงค์ไว้?</string>
     <string name="choose_call_records_count">%d รายการ</string>
     <string name="network_tip_dialog_title">จำเป็นต้องเชื่อมต่อกับอินเตอร์เน็ต</string>
-    <string name="network_tip_dialog_content">This app needs to connect to the internet, as well as read your contacts to label the recordings you record during calls.</string>
+    <string name="network_tip_dialog_content">แอปนี้ต้องเชื่อมต่อกับอินเทอร์เน็ตตลอดจนอ่านรายชื่อผู้ติดต่อของคุณเพื่อป้ายกำกับการบันทึกที่คุณบันทึกระหว่างการโทร</string>
     <string name="network_tip_dialog_ok">อนุญาต</string>
     <string name="network_tip_dialog_cancel">ยกเลิก</string>
     <string name="head_set_tip_dialog_title">ใช้ไมค์ภายใน</string>

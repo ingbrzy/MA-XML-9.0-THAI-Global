@@ -23,5 +23,5 @@
     <string name="ad_service">บริการโฆษณา</string>
     <string name="settings_ad_loading">รอสักครู่…</string>
     <string name="settings_ad_loading_unavailable">ไม่สามารถโหลดข้อมูลได้</string>
-    <string name="autoconnect">AutoConnect</string>
+    <string name="autoconnect">เชื่อมต่ออัตโนมัติ</string>
 </resources>

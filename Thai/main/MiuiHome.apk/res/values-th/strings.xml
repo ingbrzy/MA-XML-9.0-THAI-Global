@@ -91,7 +91,7 @@
     <string name="sort_by_abc">เรียงลำดับตามชื่อ</string>
     <string name="encryption">การเข้ารหัส</string>
     <string name="failed_to_drop">ไม่สามารถย้ายได้</string>
-    <string name="no_space_toast">Not enough space</string>
+    <string name="no_space_toast">พื้นที่ว่างไม่เพียงพอ</string>
     <string name="failed_to_drop_widget_invalid">วิดเจ็ตไม่ถูกต้อง</string>
     <string name="failed_to_delete_temporary">ไม่สามารถลบออก</string>
     <string name="confirm_btn_label">ตกลง</string>
@@ -266,12 +266,12 @@
     <string name="notification_open_button">เปิด</string>
     <string name="toast_screen_icons_misplaced">เรียกคืนจากแหล่งข้อมูลอื่นๆ บางไอคอนอาจจะอยู่ผิดที่</string>
     <string name="screen_locked_toast">การจัดเรียงหน้าจอหลักล็อกอยู่</string>
-    <string name="widget_quick_function">Quick functions</string>
-    <string name="menu_trans_effect">Transition effects</string>
-    <string name="menu_default_screen_preview">Set default screen</string>
-    <string name="menu_cell_setting">Home screen layout</string>
-    <string name="menu_auto_fill">Fill empty cells</string>
-    <string name="menu_lock">Lock Home screen layout</string>
+    <string name="widget_quick_function">ฟังค์ชั่นทางลัด</string>
+    <string name="menu_trans_effect">เอฟเฟคต์เปลี่ยน</string>
+    <string name="menu_default_screen_preview">ตั้งค่าหน้าจอเริ่มต้น</string>
+    <string name="menu_cell_setting">รูปแบบหน้าจอหลัก</string>
+    <string name="menu_auto_fill">เติมเต็มเซลล์ที่ว่างเปล่า</string>
+    <string name="menu_lock">รูปแบบล็อคหน้าจอหลัก</string>
     <string name="menu_more">เพิ่มเติม</string>
-    <string name="default_screen_preview_title">Tap to set default screen</string>
+    <string name="default_screen_preview_title">แตะเพื่อตั้งค่าหน้าจอเริ่มต้น</string>
 </resources>

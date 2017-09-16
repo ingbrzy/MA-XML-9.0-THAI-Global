@@ -61,15 +61,15 @@
     <string name="cancel_button">ยกเลิก</string>
     <string name="list_empty_text">ว่างเปล่า</string>
     <string name="xspace_label">แอปโคลน</string>
-    <string name="xspace_setting_label">双开设置</string>
-    <string name="xspace_account">双开帐号</string>
+    <string name="xspace_setting_label">การตั้งค่าแอปโคลน</string>
+    <string name="xspace_account">บัญชีแอปโคลน</string>
     <string name="declare_dialog_title">เกี่ยวแอปโคลน</string>
     <string name="xspace_loading_msg">กำลังโหลดแอป…</string>
     <string name="xspace_header">แอปโคลน</string>
     <string name="xspace_introduce">แนะนำ</string>
-    <string name="xspace_description">"双开应用将在桌面生成一个全新的应用副本，两者可同时运行互不影响。
+    <string name="xspace_description">"แอปโคลนคือสำเนาแอปที่สามารถใช้แยกกันได้โดยใช้บัญชีที่แตกต่าง 
 
-部分应用需要谷歌服务框架支持，双开这部分应用时会同步双开谷歌服务以保障体验。"</string>
+แอปโคลนบางแอปต้องการการสนับสนุน Google Services Framework ในกรณีนี้จะมีการสร้าง Google Services Framework แบบคู่ไว้"</string>
     <string name="xspace_chocie">รองรับแอปโคลน</string>
     <string name="xspace_creating">กำลังสร้างแอปโคลน…</string>
     <string name="xspace_installing">กำลังติดตั้ง…</string>
@@ -256,7 +256,7 @@
     <string name="xspace_guide_des">ใช้ 2 บัญชีโดยไม่ต้องเปลี่ยน</string>
     <string name="xpsace_guide_button">สร้าง</string>
     <string name="search_input_txt_na">"&lt;font color='#ff0000'>%s&lt;/font>"</string>
-    <string name="search_result_text">"Couldn't find any apps"</string>
+    <string name="search_result_text">ไม่พบแอปไดๆ</string>
     <string name="space_name_default">พื้นที่ทำงาน</string>
     <string name="space_des_default">พื้นที่บางแห่งที่มีการเข้ารหัสข้อมูล</string>
     <string name="create_work_space">สร้างพื้นที่ทำงาน</string>
@@ -285,32 +285,32 @@
     <string name="function_not_support">ไม่รองรับบนอุปกรณ์นี้</string>
     <string name="can_not_switch_when_calling">ไม่สามารถสลับระหว่างพื้นที่ขณะโทรได้</string>
     <string name="can_not_delete_when_calling">ไม่สามารถลบพื้นที่ขณะโทรได้</string>
-    <string name="support_desc">Security services provided by Graphite</string>
-    <string name="sdcardfs_dialog_message">Turn off \"Mock SD card optimization\" in Developer options before entering Second space.</string>
-    <string name="do_not_ask">"Don't ask again"</string>
-    <string name="gpg_message">Creating dual apps for games requires working with Google Play Games. Create a dual app for Google Play Games?</string>
-    <string name="gpg_title">Dual app for Google Play Games</string>
-    <string name="gms_message">Creating dual apps requires working with Google services. Create a dual app for Google services?</string>
-    <string name="gms_title">Turn on Google services</string>
-    <string name="gms_open_button">Turn on</string>
-    <string name="create_second_space">Created successfully</string>
-    <string name="set_space_password">Set password</string>
-    <string name="set_space_finger">Set fingerprint</string>
-    <string name="guide_start_text">Two spaces. One device.</string>
-    <string name="guide_start_ads_text">A completely new level of security</string>
-    <string name="skip">Skip</string>
-    <string name="input_space_password">Set now</string>
-    <string name="input_space_finger">Set now</string>
-    <string name="space_finger_sub_text">Set Second space fingerprint to switch faster</string>
-    <string name="set_space_finger_sub_text_suc">Set fingerprint successfully</string>
-    <string name="show_noti_from_owner">Notifications from the other space</string>
-    <string name="show_noti_from_owner_detail">Receive notifications in the current space when they come to the other one</string>
-    <string name="show_noti_quick_switch_icon">Notification shade shortcut</string>
-    <string name="show_noti_quick_switch_icon_detail">Show a shortcut for switching spaces in the Notification shade</string>
-    <string name="show_decktop_quick_switch_icon">Home screen shortcut</string>
-    <string name="show_decktop_quick_switch_icon_detail">Show a shortcut for switching spaces on the Home screen in First space</string>
-    <string name="has_created_second_space">"You can open Second space now.
-One device. Two spaces."</string>
-    <string name="privacy_password_fingerprint_dialog_title">Scan your fingerprint</string>
-    <string name="privacy_password_fingerprint_dialog_message">Put your finger on the sensor</string>
+    <string name="support_desc">บริการรักษาความปลอดภัยโดย Graphite</string>
+    <string name="sdcardfs_dialog_message">ปิดใช้งาน \"การเพิ่มประสิทธิภาพ Mock SD การ์ด\" ในตัวเลือกสำหรับนักพัฒนาซอฟต์แวร์ก่อนที่จะป้อนพื้นที่ทับซ้อน</string>
+    <string name="do_not_ask">ไม่ต้องถามอีก</string>
+    <string name="gpg_message">การสร้างแอปโคลนสำหรับเกมต้องใช้ Google Play Games สร้างแอปโคลนสำหรับ Google Play Games หรือไม่?</string>
+    <string name="gpg_title">แอปโคลนสำหรับเกมส์ Google Play</string>
+    <string name="gms_message">การสร้างแอปโคลนจำเป็นต้องทำงานกับบริการต่างๆของ Google สร้างโคลนสำหรับบริการของ Google หรือไม่?</string>
+    <string name="gms_title">เปิดใช้งานบริการ Google</string>
+    <string name="gms_open_button">เปิดใช้งาน</string>
+    <string name="create_second_space">สร้างเรียบร้อยแล้ว</string>
+    <string name="set_space_password">ตั้งรหัสผ่าน</string>
+    <string name="set_space_finger">ตั้งลายนิ้วมือ</string>
+    <string name="guide_start_text">สองพื้นที่ในเครื่องเดียว</string>
+    <string name="guide_start_ads_text">ระดับการรักษาความปลอดภัยใหม่อย่างสมบูรณ์</string>
+    <string name="skip">ข้าม</string>
+    <string name="input_space_password">ตั้งค่าตอนนี้</string>
+    <string name="input_space_finger">ตั้งค่าตอนนี้</string>
+    <string name="space_finger_sub_text">ตั้งค่าลายนิ้วมือพื้นที่ทับซ้อนเพื่อการสลับที่เร็วขึ้น</string>
+    <string name="set_space_finger_sub_text_suc">ตั้งค่าลายนิ้วมือเรียบร้อยแล้ว</string>
+    <string name="show_noti_from_owner">การแจ้งเตือนจากส่วน</string>
+    <string name="show_noti_from_owner_detail">รับการแจ้งเตือนในพื้นที่ปัจจุบัน เมื่อมีการแจ้งเตือนจากหน้าอื่น</string>
+    <string name="show_noti_quick_switch_icon">ปุ่มลัดแถบการแจ้งเตือน</string>
+    <string name="show_noti_quick_switch_icon_detail">แสดงปุ่มลัดสำหรับการสลับพื้นที่ในแถบการแจ้งเตือน</string>
+    <string name="show_decktop_quick_switch_icon">ปุ่มลัดหน้าจอหลัก</string>
+    <string name="show_decktop_quick_switch_icon_detail">แสดงปุ่มลัดสำหรับการสลับพื้นที่บนหน้าจอหลักในพื้นที่ปกติ</string>
+    <string name="has_created_second_space">"คุณสามารถเปิดพื้นที่ทับซ้อนได้แล้ว 
+ สองพื้นที่ ในหนึ่งเครื่อง"</string>
+    <string name="privacy_password_fingerprint_dialog_title">สแกนลายนิ้วมือของคุณ</string>
+    <string name="privacy_password_fingerprint_dialog_message">วางนิ้วมือของคุณลงบนเซ็นเซอร์</string>
 </resources>

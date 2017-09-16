@@ -130,6 +130,6 @@
     <string name="fastboot_locked_answer_3">คุณควรใช้เครื่องมือปลดล็อกจากเว็บไซต์ MIUI ในการปลดล็อกอุปกรณ์เราต้องตรวจสอบให้แน่ใจว่าอุปกรณ์นั้นเป็นของคุณ นั่นเป็นเหตุผลที่คุณควรลงชื่อเข้าใช้ด้วยบัญชี Mi ของคุณและเปิดใช้การค้นหาอุปกรณ์</string>
     <string name="fastboot_unlock_web_title">ไปยังเว็บไซต์ทางการของ MIUI เพื่อรับเครื่องมือปลดล็อก</string>
     <string name="fastboot_unlock_web_home">https://unlock.update.miui.com</string>
-    <string name="gb_weixinpay_can_not_complete">"Can't complete payment. Install to continue."</string>
-    <string name="gb_alipays_can_not_complete">"Can't complete payment. Install to continue."</string>
+    <string name="gb_weixinpay_can_not_complete">ไม่สามารถทำการชำระเงินได้ ติดตั้งเพื่อดำเนินการต่อ</string>
+    <string name="gb_alipays_can_not_complete">ไม่สามารถทำการชำระเงินได้ ติดตั้งเพื่อดำเนินการต่อ</string>
 </resources>

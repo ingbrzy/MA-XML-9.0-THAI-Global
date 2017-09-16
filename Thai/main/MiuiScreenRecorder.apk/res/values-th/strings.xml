@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Screen Recorder</string>
+    <string name="app_name">เครื่องบันทึกหน้าจอ</string>
     <string name="app_info">กำลังบันทึก แตะเพื่อหยุด</string>
     <string name="app_notification_title">เครื่องบันทึกเสียงหน้าจอ</string>
     <string name="screen_record_params">คุณภาพการบันทึก</string>

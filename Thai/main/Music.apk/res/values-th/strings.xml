@@ -209,8 +209,8 @@
     <string name="lyric_open_other_connect">ดาวน์โหลดเนื้อเพลงผ่านเครือข่ายข้อมูลมือถือ</string>
     <string name="playback_failed_no_title_by_bad_file">ระบบไม่รองรับรูปแบบไฟล์เพลงหรือไม่พบไฟล์นี้</string>
     <string name="streamloadingtext">กำลังเชื่อมต่อกับ %s</string>
-    <string name="toast_new_playlist_name_too_long">Playlist name is too long</string>
-    <string name="toast_new_playlist_name_no_enter">"Can't start a new paragraph"</string>
+    <string name="toast_new_playlist_name_too_long">ชื่อรายการเพลงยาวเกินไป</string>
+    <string name="toast_new_playlist_name_no_enter">ไม่สามารถเริ่มบรรทัดใหม่ได้</string>
     <string name="error_title">ไม่สามารถซิงค์กับบัญชี Mi ได้</string>
     <string name="error_unauthorized">การซิงค์ถูกปิดใช้เนื่องจากการล็อกอินไม่ถูกต้องเกินจำนวนครั้งที่ระบบกำหนด</string>
     <string name="error_forbidden">การซิงค์ถูกปิด เนื่องจากเกิดข้อผิดพลาดกับบัญชี Mi ของคุณ</string>
@@ -494,6 +494,7 @@
     <string name="please_search_or_select">ค้นหาหรือเลือกข้อมูลที่ต้องการ</string>
     <string name="in_searching_please_wait">กำลังค้นหา…</string>
     <string name="no_file_picker_find">คุณไม่ได้ติดตั้งแอปจัดการไฟล์ในเครื่องนี้</string>
+    <string name="no_system_cropper_find">ระบบไม่มีตัวตัดภาพสำหรับรูปภาพ</string>
     <string name="set_lyric_successful">บันทึกเนื้อเพลงแล้ว</string>
     <string name="set_album_successful">บันทึกอัลบั้มแล้ว</string>
     <string name="set_id3_successful">บันทึกข้อมูลเพลงแล้ว</string>
@@ -652,9 +653,9 @@
     <string name="vip_auto_renew_title">ต่ออายุสมาชิก</string>
     <string name="vip_auto_renew_message">การสมัครสมาชิกเพลงของคุณจะได้รับการต่ออายุโดยอัตโนมัติในเย็นนี้ ตรวจดูให้แน่ใจว่าคุณมี Mi เครดิตพอในบัญชีของคุณสำหรับการชำระเงินนี้</string>
     <string name="vip_tomorrow_renew_message">คุณจะไม่สามารถสตรีมเสียงคุณภาพสูงได้ แต่บางเพลงสามารถฟังได้ในคุณภาพปกติ</string>
-    <string name="vip_tomorrow_auto_renew_message">การสมัครสมาชิกเพลงของคุณจะได้รับการต่ออายุโดยอัตโนมัติในเย็นวันพรุ่งนี้ ตรวจดูให้แน่ใจว่าคุณมี Mi เครดิตพอในบัญชีของคุณสำหรับการชำระเงินนี้</string>
+    <string name="vip_tomorrow_auto_renew_message">การสมัครรับข้อมูลเพลงของคุณจะได้รับการต่ออายุโดยอัตโนมัติในเย็นวันพรุ่งนี้ ตรวจดูให้แน่ใจว่าคุณมี Mi เครดิตพอในบัญชีของคุณสำหรับการชำระเงินนี้</string>
     <string name="vip_after_tomorrow_renew_message">คุณจะไม่สามารถสตรีมเสียงคุณภาพสูงได้ แต่บางเพลงสามารถฟังได้ในคุณภาพปกติ</string>
-    <string name="vip_after_tomorrow_auto_renew_message">การสมัครสมาชิกเพลงของคุณจะได้รับการต่ออายุโดยอัตโนมัติหลังเย็นของวันพรุ่งนี้ ตรวจดูให้แน่ใจว่าคุณมี Mi เครดิตพอในบัญชีของคุณสำหรับการชำระเงินนี้</string>
+    <string name="vip_after_tomorrow_auto_renew_message">การสมัครรับข้อมูลเพลงของคุณจะได้รับการต่ออายุโดยอัตโนมัติหลังเย็นของวันพรุ่งนี้ ตรวจดูให้แน่ใจว่าคุณมี Mi เครดิตพอในบัญชีของคุณสำหรับการชำระเงินนี้</string>
     <string name="to_mi_pay">Mi เครดิต</string>
     <string name="confirm_to_renew">ต่ออายุ</string>
     <string name="create_order_fail">สร้างรายการสั่งซื้อไม่ได้ ลองอีกครั้ง</string>
@@ -838,9 +839,9 @@
     <string name="talkback_download">ดาวน์โหลด</string>
     <string name="talkback_share">แชร์</string>
     <string name="talkback_mode">รายการเพลงวนซ้ำ</string>
-    <string name="talkback_mode_repeat_all">List loop mode</string>
-    <string name="talkback_mode_repeat_current">Single loop mode</string>
-    <string name="talkback_mode_repeat_shuffle">Random play mode</string>
+    <string name="talkback_mode_repeat_all">โหมดเล่นตามรายการ</string>
+    <string name="talkback_mode_repeat_current">โหมดเล่นเพลงเดียว</string>
+    <string name="talkback_mode_repeat_shuffle">โหมดเล่นสุ่ม</string>
     <string name="talkback_device">เล่นบนอุปกรณ์อื่นๆ</string>
     <string name="talkback_more">เมนูเพิ่มเติม</string>
     <string name="talkback_favorite">ถูกใช้เพลงนี้</string>

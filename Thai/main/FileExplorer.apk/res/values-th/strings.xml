@@ -199,7 +199,7 @@
     <string name="port_range">Port ต้องอยู่ระหว่าง 1024–65535</string>
     <string name="file_name_invalid">ชื่อไฟล์ไม่สามารถประกอบด้วยอักขระดังต่อไปนี้: /\\:*?&lt;></string>
     <string name="rename_alert">หากคุณแก้ไขนามสกุลไฟล์ อาจทำให้ไม่สามารถเปิดไฟล์ได้</string>
-    <string name="rename_alert2">如果修改后缀名，文件将可能无法打开。</string>
+    <string name="rename_alert2">ไฟล์จะถูกซ่อนหลังจากที่คุณเปลี่ยนนามสกุล</string>
     <string name="search_file_type_picture">รูปภาพ</string>
     <string name="search_file_type_video">วิดีโอ</string>
     <string name="search_file_type_music">เพลง</string>
@@ -247,7 +247,7 @@
     <string name="app_name_midrop">Mi ดรอป</string>
     <string name="data_consumption_title">การเชื่อมกับต่ออินเตอร์เน็ต</string>
     <string name="data_consumption_message">แอปจำเป็นต้องเชื่อมต่อกับอินเทอร์เน็ตผ่าน Wi-Fi เพื่อทำงานตามปกติ</string>
-    <string name="data_consumption_message1">Videos and Stickers needs to connect to the internet using Wi-Fi to work normally.</string>
+    <string name="data_consumption_message1">จัดการไฟล์ต้องการเชื่อมต่ออินเทอร์เน็ตเพื่อสร้างวิดีโอยอดนิยมและสติกเกอร์</string>
     <string name="data_consumption_checkbox_hint">ไม่ต้องแสดงอีก</string>
     <string name="data_consumption_confirm">ตกลง</string>
     <string name="data_consumption_cancel">ออก</string>
@@ -409,7 +409,7 @@
     <string name="enable_documentsui">เปิด %s ในเมนู การตั้งค่า > แอปที่ติดตั้งก่อน</string>
     <string name="not_installed_documentsui">เอกสาร UI ไม่ได้ติดตั้ง</string>
     <string name="title_enable_documentsui">เปิดใช้เอกสาร UI</string>
-    <string name="server_error">Sever error, try again later. (Error %s)</string>
+    <string name="server_error">เซิร์ฟเวอร์ผิดพลาด ลองใหม่ในภายหลัง (ข้อผิดพลาด %s)</string>
     <string name="network_not_available">ไม่สามารถเชื่อมต่อกับเครือข่ายได้</string>
     <string name="request_timeout">การร้องขอเครือข่ายเกินเวลาที่กำหนด</string>
     <string name="login_expired">สิ้นสุดการเข้าสู่ระบบแล้ว ลองเข้าสู่ระบบอีกครั้ง</string>

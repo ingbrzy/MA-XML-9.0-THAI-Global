@@ -69,13 +69,14 @@
     <string name="sync_dspt_provision2_int">www.mi.com/micloud</string>
     <string name="sync_dspt_provision3">"คุณสามารถเปิด-ปิดการการใช้งานนี้จากเมนูการตั้งค่าได้ตลอดเวลา
 "</string>
-    <string name="sync_dspt_entrance_provision">"ซิงค์รูปภาพ รายชื่อในโทรศัพท์ ประวัติการโทรและข้อความของคุณระหว่างเครื่อง คุณสามารถเข้าถึงสิ่งที่คุณซิงค์ไว้ผ่านเบราว์เซอร์ได้ที่ %s "</string>
+    <string name="sync_dspt_entrance_provision">"Mi คลาวด์ ช่วยให้คุณสามารถซิงค์รูปภาพ รายชื่อผู้ติดต่อและอื่นๆ ได้ในทุกอุปกรณ์ คุณสามารถเข้าถึงสิ่งที่คุณซิงค์จากเบราว์เซอร์ใดก็ได้ที่ %s "</string>
     <string name="sync_dspt_entrance_provision_2">เรียนรู้เพิ่มเติม</string>
     <string name="sync_dspt_entrance_provision_confirm_close">ไม่ใช้</string>
     <string name="sync_dspt_entrance_provision_confirm_open">ใช้ Mi คลาวด์</string>
     <string name="sync_dspt_entrance_provision_confirm_title">ไม่ต้องการใช้ Mi คลาวด์?</string>
     <string name="sync_dspt_entrance_provision_confirm_content">แอปภายในระบบ MIUI อาศัย Mi คลาวด์ในการสำรองข้อมูลรูปภาพ รายชื่อผู้ติดต่อ บันทึกย่อ และอื่นๆ บริการ Mi คลาวด์นั้นไม่คิดค่าบริการและพร้อมใช้ได้ทันที</string>
     <string name="sync_dspt_entrance_provision_skip">ข้ามขั้นตอนนี้</string>
+    <string name="sync_dspt_entrance_provision_network">แอปนี้ต้องการเชื่อมต่ออินเทอร์เน็ตเพื่อให้ทำงานตามปกติ การซิงค์ข้อมูลอาจต้องเชื่อมต่อกับเครือข่ายข้อมูลและเปิด Wi-Fi</string>
     <string name="find_device_dspt_provision">ในกรณีที่เครื่องโทรศัพท์ของคุณหาย คุณสามารถเข้าไปที่ %s เพื่อค้นหาพิกัดเครื่อง ทำการล็อกหรือรีเซ็ต โดยคุณสามารถเปิด-ปิดคุณลักษณะนี้ได้ตลอดเวลาในเมนูการตั้งค่า</string>
     <string name="find_device_dspt_provision_2">i.mi.com</string>
     <string name="find_device_dspt_provision_2_int">www.mi.com/micloud</string>
@@ -122,7 +123,7 @@
     <string name="activate_find_device_success">พบอุปกรณ์ที่เปิดใช้งานแล้ว</string>
     <string name="disable_find_device_success">ค้นหาอุปกรณ์ปิดอยู่</string>
     <string name="find_device_pref_alert_title">จดจำรหัสบัญชี Mi และรหัสผ่านของคุณ</string>
-    <string name="find_device_pref_alert_content">"Find device is associated with your Mi Account. You need to set a password or enter the password you've set. Make sure you always remember your Mi Account ID and password. An outgoing SMS may be required to activate this service. Your carrier will charge you for this message. When you switch SIM cards, a message will be sent automatically to reactivate this feature."</string>
+    <string name="find_device_pref_alert_content">ค้นหาอุปกรณ์ที่เชื่อมโยงกับบัญชี Mi ของคุณ คุณต้องตั้งรหัสผ่านหรือป้อนรหัสผ่านที่คุณได้ตั้งไว้ ตรวจสอบให้แน่ใจว่าคุณจำรหัสบัญชีและรหัสผ่านของบัญชี Mi ได้ ซึ่งอาจต้องมี SMS ขาออกเพื่อเปิดใช้งานบริการนี้ ผู้ให้บริการของคุณจะเรียกเก็บเงินจากคุณสำหรับข้อความนี้ เมื่อคุณเปลี่ยนซิมการ์ดข้อความจะถูกส่งโดยอัตโนมัติเพื่อเปิดใช้งานคุณลักษณะนี้อีกครั้ง</string>
     <string name="find_device_pref_alert_positive">ตกลก</string>
     <string name="find_device_pref_alert_negtive">ไม่ ขอบคุณ</string>
     <string name="enable_find_device_error">\"ไม่สามารถเปิดใช้การค้นหาอุปกรณ์ \"%1$s</string>
@@ -268,7 +269,7 @@
     <string name="micloud_main_space_low">พื้นที่ใกล้เต็มแล้ว</string>
     <string name="micloud_main_update_space">เพิ่มเนื้อที่จัดเก็บบนคลาวด์.</string>
     <string name="micloud_main_space_full_title">พื้นที่จัดเก็บข้อมูลไม่เพียงพอ การซิงค์ถูกหยุด</string>
-    <string name="micloud_main_space_full_message">Upgrade to member will obtain more storage space</string>
+    <string name="micloud_main_space_full_message">อัพเกรดเป็นสมาชิกเพื่อเพิ่มพื้นที่เก็บข้อมูลมากขึ้น</string>
     <string name="micloud_main_memory_low_title">ที่จัดเก็บข้อมูลภายในของโทรศัพท์ใกล้จะเต็มแล้ว</string>
     <string name="micloud_main_memory_low_message">ลบบางรายการที่คุณได้เก็บไว้ในคลาวด์เพื่อทำการซิงค์</string>
     <string name="micloud_main_clear_now">ล้าง</string>
@@ -278,14 +279,14 @@
     <string name="micloud_main_multi_user_error_message">"คุณลงชื่อเข้าใช้ด้วยบัญชีเดียวกับในพื้นที่ปกติเกิดข้อผิดพลาดเนื่องจาก Mi คลาวด์ ผิดพลาด 
 ใช้บัญชีอื่น"</string>
     <string name="micloud_main_cancel_sync">ยกเลิกการซิงค์</string>
-    <string name="micloud_main_query_again">Query</string>
+    <string name="micloud_main_query_again">สอบถาม</string>
     <string name="micloud_main_wait_wlan">กำลังรอ Wi-Fi</string>
-    <string name="micloud_main_wait_wlan_charge_sleep">Waiting for Wi-Fi, connecting charger and turn off screen</string>
-    <string name="micloud_main_wait_wlan_charge">Waiting for Wi-Fi, connecting charger</string>
-    <string name="micloud_main_wait_charge_sleep">Waiting for connecting charger and turn off screen</string>
-    <string name="micloud_main_wait_charge">Waiting for connecting charger</string>
+    <string name="micloud_main_wait_wlan_charge_sleep">กำลังรอ Wi-Fi เสียบสายชาร์จและปิดหน้าจอ</string>
+    <string name="micloud_main_wait_wlan_charge">กำลังรอ Wi-Fi เสียบสายชาร์จ</string>
+    <string name="micloud_main_wait_charge_sleep">กำลังรอการเชื่อมต่อ เสียบสายชาร์จและปิดหน้าจอ</string>
+    <string name="micloud_main_wait_charge">กำลังรอการเชื่อมต่อ เสียบสายชาร์จ</string>
     <string name="micloud_main_resume_sync_soon">ดำเนินการซิงค์ในเร็วๆนี้</string>
-    <string name="micloud_main_button_set_internet">Setting</string>
+    <string name="micloud_main_button_set_internet">การตั้งค่า</string>
     <string name="micloud_main_button_activate">เปิดใช้งาน</string>
     <string name="micloud_main_button_authorize">อนุญาต</string>
     <string name="micloud_detail_syncing">กำลังซิงค์</string>
@@ -294,7 +295,7 @@
     <string name="micloud_detail_pending">กำลังรอ</string>
     <string name="micloud_detail_success">ซิงค์แล้ว</string>
     <string name="micloud_detail_fail">ซิงค์ไม่ได้</string>
-    <string name="micloud_detail_not_syncable">Not syncable</string>
+    <string name="micloud_detail_not_syncable">ไม่สามารถซิงค์ได้</string>
     <string name="micloud_detail_lastest">ซิงค์แล้ว</string>
     <string name="micloud_detail_lastest_with_off">ซิงค์แล้ว</string>
     <string name="micloud_detail_not_synced">ไม่ได้ซิงค์</string>
@@ -410,10 +411,10 @@
     <string name="micloud_main_title_sync_on_wifi">ใช้เครือข่าย Wi-Fi</string>
     <string name="micloud_main_title_sync_off">การซิงค์ปิดอยู่</string>
     <string name="micloud_main_title_master_sync_off">ปิดใช้งานการซิงค์อัตโนมัติ</string>
-    <string name="micloud_main_message_master_sync_off">Auto sync setting is in notification bar.</string>
-    <string name="micloud_main_error_network_disallowed">Please ensure the permission of accessing Internet.</string>
+    <string name="micloud_main_message_master_sync_off">คุณปิดการซิงค์อัตโนมัติในแถบการแจ้งเตือน</string>
+    <string name="micloud_main_error_network_disallowed">กรุณาตรวจสอบสิทธิ์ในการเข้าถึงอินเทอร์เน็ต</string>
     <string name="micloud_main_error_activated_fail">โปรดเปิดใช้งานซิมการ์ด</string>
-    <string name="micloud_main_error_permission_limit">Please authorize access database permission for micloud.</string>
+    <string name="micloud_main_error_permission_limit">กรุณาอนุญาตสิทธิ์การเข้าถึงฐานข้อมูลสำหรับ Mi คลาวด์</string>
     <string name="micloud_confusion_no">ไม่</string>
     <string name="micloud_confusion_yes">ใช่</string>
     <string name="micloud_confusion_cancel">ยกเลิก</string>
@@ -473,7 +474,7 @@
     <string name="micloud_notif_content_multi_user_error">คุณลงชื่อเข้าใช้ด้วยบัญชีเดียวกันกับพื้นที่ปกติ</string>
     <string name="micloud_notif_title_dirty_data">รายการที่คุณซิงค์แล้ว</string>
     <string name="micloud_notif_content_dirty_data">รายละเอียด</string>
-    <string name="micloud_find_device_guide_title">"Sign in to &lt;font color=#FF0000>&lt;b>i.mi.com&lt;/b>&lt;/font> to locate, lock, or erase your device. This might help you to find your device in case it's lost.&lt;br />If you lose your device, you could contact the security service of the apps you use frequently (e.g., Alipay, WeChat, QQ) to protect your accounts on &lt;font color=#FF0000>&lt;b>i.mi.com&lt;/b>&lt;/font>."</string>
+    <string name="micloud_find_device_guide_title">ลงชื่อเข้าใช้ &lt;font color=#FF0000>&lt;b>i.mi.com&lt;/b>&lt;/font> เพื่อค้นหาล็อกหรือลบข้อมูลอุปกรณ์ของคุณ ซึ่งอาจช่วยให้คุณสามารถค้นหาอุปกรณ์ของคุณได้ในกรณีที่สูญหาย &lt;br />หากคุณทำอุปกรณ์หายคุณสามารถติดต่อบริการรักษาความปลอดภัยของแอป ที่คุณใช้บ่อยๆ (เช่น Alipay, WeChat, QQ) เพื่อปกป้องบัญชีของคุณบน &lt;font color=#FF0000>&lt;b>i.mi.com&lt;/b>&lt;/font></string>
     <string name="micloud_find_device_guide_content">อาจมีข้อความ SMS ขาออกเพื่อเปิดใช้งานบริการนี้ ผู้ให้บริการของคุณจะเรียกเก็บเงินจากคุณสำหรับข้อความนี้ เมื่อคุณเปลี่ยนซิมการ์ดข้อความจะถูกส่งโดยอัตโนมัติเพื่อเปิดใช้งานคุณลักษณะนี้อีกครั้ง</string>
     <string name="micloud_find_device_guide_button">เปิดใช้การค้นหาอุปกรณ์</string>
     <string name="micloud_find_device_guide_progress">กำลังเปิดการค้นหาอุปกรณ์…</string>
@@ -503,12 +504,12 @@
     <string name="micloud_find_device_guide_noti_title_by_app_change_qq">QQ แนะนำให้คุณเปิดใช้การค้นหาอุปกรณ์</string>
     <string name="micloud_find_device_guide_noti_content_by_app_change_qq">ข้อมูล QQ ของคุณจะปลอดภัยแม้ว่าอุปกรณ์ของคุณจะสูญหาย</string>
     <string name="micloud_find_device_guide_alert_title">จดจำรหัสบัญชี Mi และรหัสผ่านของคุณ</string>
-    <string name="micloud_find_device_guide_alert_content">"Find device is associated with your Mi Account. You need to set a password or enter the password you've set. Make sure you always remember your Mi Account ID and password."</string>
+    <string name="micloud_find_device_guide_alert_content">ค้นหาอุปกรณ์ที่เชื่อมโยงกับบัญชี Mi ของคุณ คุณต้องตั้งรหัสผ่านหรือป้อนรหัสผ่านที่คุณได้ตั้งไว้ ตรวจสอบให้แน่ใจว่าคุณจำรหัสบัญชีและรหัสผ่านของบัญชี Mi ได้</string>
     <string name="micloud_find_device_guide_alert_positive">ตกลก</string>
     <string name="micloud_find_device_guide_alert_negtive">ไม่ ขอบคุณ</string>
     <string name="micloud_find_device_guide_alert_negtive_activate">ไม่ ขอบคุณ</string>
     <string name="micloud_find_device_close_alert_title">ปิดใช้การค้นหาอุปกรณ์?</string>
-    <string name="micloud_find_device_close_alert_content">"If you turn this feature off, you wan't be able to locate your device in case it's lost."</string>
+    <string name="micloud_find_device_close_alert_content">หากปิดคุณลักษณะนี้คุณจะไม่สามารถค้นหาอุปกรณ์ของคุณได้ในกรณีที่อุปกรณ์สูญหาย</string>
     <string name="micloud_find_device_close_alert_positive">เปิดไว้</string>
     <string name="micloud_find_device_close_alert_negtive">ปิดใช้งาน</string>
     <string name="activate_finddevice">กรุณาเชื่อมต่อเครือข่ายเพื่อเปิดใช้งานอุปกรณ์</string>

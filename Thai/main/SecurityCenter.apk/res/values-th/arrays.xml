@@ -50,6 +50,11 @@
         <item>เมื่ออุปกรณ์ถูกล็อกหรือออกจากแอป</item>
         <item>เมื่ออุปกรณ์ถูกล็อกหรือหลังออกจากแอป 1 นาที</item>
     </string-array>
+    <string-array name="lock_mode_value">
+        <item>1</item>
+        <item>0</item>
+        <item>2</item>
+    </string-array>
     <string-array name="sort_type">
         <item>สถานะ</item>
         <item>ชื่อแอป</item>
@@ -73,10 +78,10 @@
         <item>update_time</item>
     </string-array>
     <string-array name="title_app_info">
-        <item>Installation source</item>
-        <item>Installation time</item>
-        <item>Last update source</item>
-        <item>Last update time</item>
+        <item>แหล่งการติดตั้ง</item>
+        <item>เวลาการติดตั้ง</item>
+        <item>แหล่งที่มาอัพเดทล่าสุด</item>
+        <item>เวลาอัพเดทล่าสุด</item>
     </string-array>
     <string-array name="sms_report_type">
         <item>การใช้งานข้อมูล</item>
@@ -123,5 +128,10 @@
         <item>ไม่สั่น</item>
         <item>สั่นเมื่อปิดเสียง</item>
         <item>สั่นเสมอ</item>
+    </string-array>
+    <string-array name="power_dialog_vibration_items_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
     </string-array>
 </resources>

@@ -120,7 +120,7 @@
     <string-array name="debug_hw_overdraw_entries">
         <item>ปิด</item>
         <item>แสดงพื้นที่การวาดเกิน</item>
-        <item>Show areas for Deuteranomaly</item>
+        <item>แสดงพื้นที่สำหรับตาบอดสี (Deuteranomaly)</item>
     </string-array>
     <string-array name="app_process_limit_entries">
         <item>ขอบเขตมาตรฐาน</item>
@@ -135,7 +135,7 @@
         <item>MTP (โอนไฟล์)</item>
         <item>PTP (โอนรูปภาพ)</item>
         <item>RNDIS (ต่อ USB)</item>
-        <item>Audio Source</item>
+        <item>แหล่งที่มาของเสียง</item>
         <item>MIDI</item>
     </string-array>
     <string-array name="tts_rate_entries">
@@ -149,15 +149,26 @@
         <item>อย่างเร็วมาก</item>
         <item>เร็วที่สุด</item>
     </string-array>
+    <string-array name="tts_rate_values">
+        <item>60</item>
+        <item>80</item>
+        <item>100</item>
+        <item>150</item>
+        <item>200</item>
+        <item>250</item>
+        <item>300</item>
+        <item>350</item>
+        <item>400</item>
+    </string-array>
     <string-array name="color_mode_names">
-        <item>Vibrant (default)</item>
-        <item>Natural</item>
-        <item>Standard</item>
+        <item>สดใส (ค่าเริ่มต้น)</item>
+        <item>ธรรมชาติ</item>
+        <item>มาตรฐาน</item>
     </string-array>
     <string-array name="color_mode_descriptions">
-        <item>Enhanced colors</item>
-        <item>Natural colors as seen by the eye</item>
-        <item>Colors optimized for digital content</item>
+        <item>เพิ่มสีสัน</item>
+        <item>สีธรรมชาติเหมือนที่ตาเห็น</item>
+        <item>สีที่เหมาะสำหรับเนื้อหาดิจิทัล</item>
     </string-array>
     <string-array name="battery_labels">
         <item>0%</item>

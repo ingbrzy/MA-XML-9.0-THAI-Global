@@ -167,6 +167,7 @@
     <string name="color_picker_dialog_title">เลือกสี</string>
     <string name="color_picker_hue">โทนสี</string>
     <string name="color_picker_saturation">ความอิ่มสี</string>
+    <string name="color_picker_value">ค่าสี</string>
     <string name="comment_app_menu">ข้อคิดเห็น</string>
     <string name="comment_description">ความคิดเห็น</string>
     <string name="comment_hint">ความคิดเห็น</string>
@@ -180,7 +181,7 @@
     <string name="contextmenu_dial_dot">โทรออก…</string>
     <string name="contextmenu_download_image">บันทึกรูปภาพ</string>
     <string name="contextmenu_download_image_as">บันทึกรูปภาพ</string>
-    <string name="contextmenu_manually_block_ad">ทำเครื่องหมายเป็นโฆษณา</string>
+    <string name="contextmenu_manually_block_ad">Label as ad</string>
     <string name="contextmenu_map">แผนที่</string>
     <string name="contextmenu_openlink">เปิด</string>
     <string name="contextmenu_openlink_newwindow">เปิดในแท็บใหม่</string>
@@ -234,7 +235,7 @@
     <string name="dialog_title_queued_body">ไฟล์ยังไม่พร้อม</string>
     <string name="document_download_background_btn">ดาวน์โหลดในพื้นหลัง</string>
     <string name="document_download_cancel_btn">ยกเลิก</string>
-    <string name="document_download_failed">สามารถดาวน์โหลดได้</string>
+    <string name="document_download_failed">ไม่สามารถดาวน์โหลดได้</string>
     <string name="document_download_official">ดาวน์โหลดเวอร์ชั่นทางการ</string>
     <string name="document_download_open_direct">เปิดโดยตรง</string>
     <string name="document_download_title">กำลังดาวน์โหลด</string>
@@ -435,7 +436,7 @@
     <string name="miuichromium_error_page_network_off">เปิดใช้ Wi-Fi หรือข้อมูลมือถือ</string>
     <string name="miuichromium_error_page_no_network">เชื่อมต่อเครือข่ายไม่ได้</string>
     <string name="miuichromium_error_page_problem_access_denied">%s0 ปฏิเสธการเข้าถึง</string>
-    <string name="miuichromium_error_page_problem_cache_miss">หน้านี้ไม่สามารถโหลดจากหน่วยความจำแคชได้</string>
+    <string name="miuichromium_error_page_problem_cache_miss">"The cached version of this page can't be loaded"</string>
     <string name="miuichromium_error_page_problem_cannot_open_page">ไม่สามารถเปิดหน้านี้ได้</string>
     <string name="miuichromium_error_page_problem_cannot_reach_site">ไม่สามารถเข้าถึงเว็บไซต์นี้ได้</string>
     <string name="miuichromium_error_page_problem_connection_interrupted">ถูกตัดการเชื่อมต่อ</string>
@@ -459,7 +460,7 @@
     <string name="miuichromium_error_page_reason_invalid_address">ที่อยู่ IP หรือหมายเลข port ไม่ถูกต้อง</string>
     <string name="miuichromium_error_page_reason_invalid_response">" เนื่องจาก %s0 การตอบสนองของการส่งกลับไม่ถูกต้อง"</string>
     <string name="miuichromium_error_page_reason_invalid_url">เนื่องจาก URL ไม่ถูกต้อง</string>
-    <string name="miuichromium_error_page_reason_moved_or_deleted">. It might be moved or deleted</string>
+    <string name="miuichromium_error_page_reason_moved_or_deleted">. It might have been moved or deleted</string>
     <string name="miuichromium_error_page_reason_name_collision">เนื่องจากเว็ปไซต์นี้ใช้ URL เหมือนกับเว็ปไซต์ภายนอก</string>
     <string name="miuichromium_error_page_reason_name_not_resolved">. เนื่องจาก %s0 ไม่พบที่อยู่ DNS</string>
     <string name="miuichromium_error_page_reason_network_changed">" เนื่องจากเครือข่ายมีการเปลี่ยนแปลง"</string>
@@ -470,18 +471,18 @@
     <string name="miuichromium_error_page_reason_unsafe_port">. เนื่องจาก %s0 ใช้หมายเลข port ไม่ปลอดภัย</string>
     <string name="miuichromium_error_page_reason_unsafe_redirect">. เนื่องจากการเปลี่ยนเส้นทางของ %s0 ไม่ปลอดภัย</string>
     <string name="miuichromium_error_page_reason_unsupported_protocol">. เนื่องจาก %s0 ใช้โปรโตคอลที่ไม่รองรับ</string>
-    <string name="miuichromium_error_page_reload">โหลดใหม่</string>
+    <string name="miuichromium_error_page_reload">Refresh</string>
     <string name="miuichromium_error_page_safe_network">โหมดปลอดภัย</string>
     <string name="miuichromium_error_page_server_error">มีอุปกรณ์กำลังพยายามเชื่อมต่อมากเกินไป</string>
     <string name="miuichromium_error_page_suggestion_check_app_proxy">ตรวจสอบการตั้งค่าการติดตั้งพร็อกซี่แอปของอุปกรณ์ของคุณ</string>
     <string name="miuichromium_error_page_suggestion_check_connetion">ตรวจสอบการเชื่อมต่ออินเตอร์เน็ตของคุณ</string>
     <string name="miuichromium_error_page_suggestion_check_mobile_proxy" formatted="false">(ข้อมูลมือถือ) รีเซ็ต%s1การตั้งค่า APN %s2</string>
     <string name="miuichromium_error_page_suggestion_check_url">ตรวจสอบ URL ที่คุณเข้า</string>
-    <string name="miuichromium_error_page_suggestion_check_wifi_proxy" formatted="false">(WiFi) ตรวจสอบ %s1การตั้งค่าพร็อกซี่%s2 ว่าถูกต้อง</string>
+    <string name="miuichromium_error_page_suggestion_check_wifi_proxy" formatted="false">(Wi-Fi) Check your %s1proxy settings%s2.</string>
     <string name="miuichromium_error_page_suggestion_clear_cache" formatted="false">ล้างหน่วยความจำแคช (%s1Settings%s2 - ล้างข้อมูล).</string>
     <string name="miuichromium_error_page_suggestion_clear_cache_and_cookies" formatted="false">ล้างหน่วยความจำแคชและคุ้กกี้ (%s1การตั้งค่า%s2 - ล้างข้อมูล) นี่อาจทำให้ข้อมูลการเข้าใช้ต่างๆของคุณหายไป</string>
     <string name="miuichromium_error_page_suggestion_clear_cache_and_cookies_no_invoke">ล้างหน่วยความจำแคชและคุ๊กกี้ (ข้อมูลบัญชีของคุณอาจถูกลบ)</string>
-    <string name="miuichromium_error_page_suggestion_clear_cache_no_invoke">Clear cache.</string>
+    <string name="miuichromium_error_page_suggestion_clear_cache_no_invoke">ล้างหน่วยความจำแคช</string>
     <string name="miuichromium_error_page_suggestion_connect_and_retry">โหลดใหม่หลังจากเชื่อมต่ออินเตอร์เน็ต</string>
     <string name="miuichromium_error_page_suggestion_contact_admin">ติดต่อแอดมินระบบของคุณ</string>
     <string name="miuichromium_error_page_suggestion_correct_url">ตรวจสอบและป้อนที่อยู่ URL ที่ถูกต้องใหม่</string>
@@ -559,10 +560,10 @@
     <string name="pref_accessibility_url_shortcut_enter_title">ใส่ URL แบบด่วน</string>
     <string name="pref_adblock_counts">บล็อกแล้ว %d รายการ</string>
     <string name="pref_adblock_title">ตัวบล็อกโฆษณา</string>
-    <string name="pref_advert_null">Unmarked advertising,You can press the label on the page</string>
+    <string name="pref_advert_null">No items labelled as ads. Press and hold an item on the webpage to mark.</string>
     <string name="pref_auto_update_under_wifi">อัพเดทผ่าน Wi-Fi</string>
     <string name="pref_automatic_matching_searchengines_title">เปลี่ยนไปใช้เครื่องมือค้นหาที่ใช้บ่อย</string>
-    <string name="pref_cancel_screen">Cancel screen</string>
+    <string name="pref_cancel_screen">Unblock</string>
     <string name="pref_category_hint">หมวดหมู่</string>
     <string name="pref_check_security_url_summary">ส่งที่อยู่เว็บไซต์นี้ไปยังเซิร์ฟเวอร์ของ Mi เพื่อตรวจสอบว่าลิงก์นี้ปลอดภัยหรือไม่</string>
     <string name="pref_check_security_url_summary_international">อนุญาตเบราว์เซอร์ให้เข้าถึง URLs ของเว็บไซต์ที่คุณเยี่ยมชมเพื่อรับข้อเสนอแนะที่เกี่ยวเนื่องกันเพิ่มเติม</string>
@@ -606,7 +607,7 @@
     <string name="pref_force_userscalable_summary">ไม่อนุญาตให้เว็บไซต์ควบคุมการบังคับซูมเนื้อหาหน้าเพจ</string>
     <string name="pref_general_title">ทั่วไป</string>
     <string name="pref_key_gesture_title">ปุ่มและท่าทางที่ใช้</string>
-    <string name="pref_label_advert_manager">Manager labelled ads</string>
+    <string name="pref_label_advert_manager">Manage labelled ads</string>
     <string name="pref_nav_mode_summary_pad">แป้น</string>
     <string name="pref_nav_mode_summary_phone">โทรศัพท์</string>
     <string name="pref_nav_mode_title">โหมดเบราว์เซอร์</string>
@@ -780,7 +781,7 @@
     <string name="ssl_certificate">ใบรับรองความปลอดภัย</string>
     <string name="ssl_certificate_is_valid">ใบรับรองนี้ถูกต้อง</string>
     <string name="ssl_continue">ดำเนินการต่อ</string>
-    <string name="ssl_date_error_warnings_header">"The certificate of this site has expired or isn't valid yet. You are advised to leave this page.\""</string>
+    <string name="ssl_date_error_warnings_header">"The certificate of this site has expired or isn't valid yet. You are advised to leave this page."</string>
     <string name="ssl_date_invalid">วันที่ที่ปรากฎในใบรับรองนี้ไม่ถูกต้อง</string>
     <string name="ssl_expired">ใบรับรองนี้หมดอายุแล้ว</string>
     <string name="ssl_go_back">ย้อนกลับไป</string>

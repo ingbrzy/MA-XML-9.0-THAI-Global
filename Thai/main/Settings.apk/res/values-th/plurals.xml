@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="status_bar_settings_disabled_header_title">
-        <item quantity="other">"%d apps can't show notifications"</item>
+        <item quantity="other">%d แอปไม่สามารถแจ้งเตือนได้</item>
     </plurals>
     <plurals name="status_bar_settings_enabled_header_title">
-        <item quantity="other">%d apps can show notifications</item>
+        <item quantity="other">%d แอปสามารถแจ้งเตือนได้</item>
     </plurals>
     <plurals name="settings_toggle_position_divider_page">
-        <item quantity="other">%1$d toggles will appear in the Notification shade</item>
+        <item quantity="other">%1$d ปุ่มเปิด-ปิดจะปรากฏในแถบการแจ้งเตือน</item>
     </plurals>
     <plurals name="show_dev_countdown">
         <item quantity="other">คุณกำลังจะได้เป็นนักพัฒนาซอฟต์แวร์ในอีก %1$d ขั้นตอน</item>
@@ -149,10 +149,10 @@
         <item quantity="other">พบ %d ความเสี่ยง</item>
     </plurals>
     <plurals name="auto_startup_count">
-        <item quantity="other">%d apps are allowed to autostart</item>
+        <item quantity="other">อนุญาตให้ %d แอปเริ่มต้นทำงานอัตโนมัติ</item>
     </plurals>
     <plurals name="lockpassword_pin_fixed_length">
-        <item quantity="other">PIN must be %d digits</item>
+        <item quantity="other">รหัส PIN ต้องเป็นตัวเลข %d หลัก</item>
     </plurals>
     <plurals name="wifi_share_count">
         <item quantity="other">แชร์อยู่ %d เครือข่าย</item>
@@ -161,7 +161,7 @@
         <item quantity="other">%d อุปกรณ์</item>
     </plurals>
     <plurals name="free_wifi_connected_count">
-        <item quantity="other">%1$d people connected</item>
+        <item quantity="other">%1$d คนเชื่อมต่ออยู่</item>
     </plurals>
     <plurals name="show_pho_countdown">
         <item quantity="other">ยังเหลืออีก %1$d ขั้นตอนในการเข้าสู่ข้อมูลเครื่องโทรศัพท์</item>
@@ -179,18 +179,18 @@
         <item quantity="other">ไม่ปิดใช้งาน %d แอป</item>
     </plurals>
     <plurals name="lockpassword_pin_too_short">
-        <item quantity="other">PIN must be %d digits long</item>
+        <item quantity="other">รหัส PIN ต้องเป็นตัวเลข %d หลักขึ้นไป</item>
     </plurals>
     <plurals name="lockpassword_pin_too_long">
-        <item quantity="other">PIN can contain up to %d digits</item>
+        <item quantity="other">รหัส PIN จะต้องน้อยกว่า %d หลัก</item>
     </plurals>
     <plurals name="lockpattern_recording_incorrect_too_short">
-        <item quantity="other">Connect at least %d dots. Try again.</item>
+        <item quantity="other">ลากผ่านอย่างน้อย %d จุด ลองใหม่อีกครั้ง</item>
     </plurals>
     <plurals name="lockpattern_too_many_failed_confirmation_attempts">
-        <item quantity="other">Too many incorrect attempts. Try again in %d seconds.</item>
+        <item quantity="other">ปลดล็อกผิดพลาดเกินจำนวนครั้งที่กำหนด ลองใหม่อีกครั้งใน %d วินาที</item>
     </plurals>
     <plurals name="lockpattern_too_many_failed_confirmation_attempts_footer">
-        <item quantity="other">Wait for %d seconds and try again.</item>
+        <item quantity="other">กรุณารอเป็นอีก %d วินาทีและลองใหม่อีกครั้ง</item>
     </plurals>
 </resources>

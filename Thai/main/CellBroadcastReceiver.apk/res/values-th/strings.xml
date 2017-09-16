@@ -32,6 +32,8 @@
     <string name="emergency_alert_settings_title">การตั้งค่าการแจ้งเตือนฉุกเฉิน</string>
     <string name="enable_emergency_alerts_title">เปิดการแจ้งเตือน</string>
     <string name="enable_emergency_alerts_summary">แสดงการส่งการแจ้งเตือนฉุกเฉิน</string>
+    <string name="alert_sound_duration_title">ระยะเวลาของเสียงเตือน</string>
+    <string name="alert_sound_duration_summary" />
     <string name="alert_reminder_interval_title">การแจ้งเตือนซ้ำ</string>
     <string name="alert_reminder_interval_summary" />
     <string name="enable_alert_speech_title">อ่านข้อความแจ้งเตือน</string>
@@ -92,6 +94,4 @@
     <string name="cmas_opt_out_dialog_text">ขณะนี้ คุณได้รับการแจ้งเตือนฉุกเฉิน คุณต้องการรับการแจ้งเตือนฉุกเฉินต่อไปหรือไม่</string>
     <string name="cmas_opt_out_button_yes">ใช่</string>
     <string name="cmas_opt_out_button_no">ไม่ใช่</string>
-    <string name="alert_sound_duration_title">ระยะเวลาของเสียงเตือน</string>
-    <string name="alert_sound_duration_summary" />
 </resources>
