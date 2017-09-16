@@ -228,7 +228,6 @@
     <string name="file_uploading">กำลังอัพโหลด…</string>
     <string name="new_backup">สำรองข้อมูล</string>
     <string name="restore_backup">คืนค่า</string>
-    <string name="digit_percent">%</string>
     <string name="state_waiting">รอสักครู่…</string>
     <string name="state_mounting">กำลังเข้าถึงพื้นที่จัดเก็บข้อมูลเราเตอร์…</string>
     <string name="abort_backup_confirm">ยังสำรองข้อมูลไม่เสร็จ ยกเลิกหรือไม่?</string>
