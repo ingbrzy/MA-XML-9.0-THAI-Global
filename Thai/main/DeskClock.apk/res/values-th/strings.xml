@@ -23,6 +23,7 @@
     <string name="delete_timer_item_title">ลบรายการตัวจับเวลา</string>
     <string name="delete_selected_timer_item">ลบรายการตัวจับเวลาที่เลือก?</string>
     <string name="delete_timezone_title">ลบเขตเวลา</string>
+    <string name="add_timezone_title">เพิ่มโซนเวลา</string>
     <string name="timezone_exist_error_message">เขตเวลานี้แสดงไว้อยู่แล้ว</string>
     <string name="alarm_disabled">ปิด</string>
     <string name="alarm_ascending_mode_title">ระดับเสียงเพิ่มขึ้น</string>
@@ -103,6 +104,7 @@
     <string name="life_post_wake_up_item_acumu_day_title">นับวัน</string>
     <string name="life_post_wake_up_item_acumu_day">%1$s วัน</string>
     <string name="life_post_setting">รายงานตอนเช้า</string>
+    <string name="life_post_setting_close_title">ปิดรายงานตอนเช้า</string>
     <string name="life_post_setting_open_title">รับรายงานตอนเช้า</string>
     <string name="life_post_setting_open_subtitle">รับข้อมูลเกี่ยวกับสภาพอากาศ เมื่อคุณปิดใช้งานการแจ้งเตือนระหว่าง 4:00 - 9:30</string>
     <string name="life_post_setting_wake_up_list_title">ประวัติการตื่นนอน</string>
@@ -110,6 +112,8 @@
     <string name="life_post_setting_FBE_remind">เนื่องจากข้อจำกัดของระบบ รายงานข้อมูลสภาพอากาศในตอนเช้าอาจแสดงผลไม่ถูกต้องหลังจากรีบูต</string>
     <string name="install_weather_app_loading">รอสักครู่…</string>
     <string name="install_weather_app_error">ไม่สามารถโหลดแอปได้</string>
+    <string name="more_setting">การตั้งค่าเพิ่มเติม</string>
+    <string name="go_back">ย้อนกลับ</string>
     <string name="app_label">นาฬิกา</string>
     <string name="alarm_list_title">การปลุก</string>
     <string name="add_alarm">เพิ่มการปลุก</string>

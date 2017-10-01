@@ -67,9 +67,9 @@
     <string name="xspace_loading_msg">กำลังโหลดแอป…</string>
     <string name="xspace_header">แอปโคลน</string>
     <string name="xspace_introduce">แนะนำ</string>
-    <string name="xspace_description">"แอปโคลนคือสำเนาแอปที่สามารถใช้แยกกันได้โดยใช้บัญชีที่แตกต่าง 
+    <string name="xspace_description">"แอปโคลนคือกาทำสำเนาแอปเพื่อให้สามารถใช้งานได้สองบัญชีที่พร้อมกัน 
 
-แอปโคลนบางแอปต้องการการสนับสนุน Google Services Framework ในกรณีนี้จะมีการสร้าง Google Services Framework แบบคู่ไว้"</string>
+แอปโคลนบางแอปต้องใช้งานร่วมกับ Google Services Framework ในกรณีนี้ระบบจะสร้าง Google Services Framework เพื่อทำงานคู่ขนานกันไป"</string>
     <string name="xspace_chocie">รองรับแอปโคลน</string>
     <string name="xspace_creating">กำลังสร้างแอปโคลน…</string>
     <string name="xspace_installing">กำลังติดตั้ง…</string>

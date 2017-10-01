@@ -67,12 +67,12 @@
         <item>อุปกรณ์มีการใช้งานบ่อย</item>
     </string-array>
     <string-array name="power_checker_recent_group_titles">
-        <item>Kernel WakeLock</item>
-        <item>WakeLock</item>
-        <item>สแกน Wi-Fi</item>
-        <item>GPS</item>
-        <item>CPU</item>
-        <item>Wake Up</item>
+        <item>การบล็อกโหมดพักหน้าจอเชิงลึก</item>
+        <item>การบล็อกโหมดพักหน้าจอ</item>
+        <item>กำลังค้นหา Wi-Fi</item>
+        <item>การใช้ GPS</item>
+        <item>การใช้ CPU</item>
+        <item>อุปกรณ์มีการใช้งานบ่อย</item>
     </string-array>
     <string-array name="power_checker_group_suffix">
         <item></item>
@@ -81,10 +81,10 @@
     </string-array>
     <string-array name="thermal_entries">
         <item>โหมดควบคุมอุณหภูมิเริ่มต้น</item>
-        <item>โหมดเน้นประสิทธิภาพ</item>
+        <item>โหมดประสิทธิภาพ</item>
     </string-array>
     <string-array name="thermal_summaries">
-        <item>โหมดค่าเริ่มต้นปัจจุบัน</item>
+        <item>โหมดควบคุมอุณหภูมิปัจจุบัน</item>
         <item>โหมดประสิทธิภาพปัจจุบัน</item>
     </string-array>
 </resources>

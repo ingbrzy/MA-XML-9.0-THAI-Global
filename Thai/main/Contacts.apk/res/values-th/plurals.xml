@@ -90,9 +90,6 @@
     <plurals name="dlg_remove_blacklist">
         <item quantity="other">เลิกบล็อก %1$d หมายเลขโทรศัพท์?</item>
     </plurals>
-    <plurals name="livetalk_unit">
-        <item quantity="other">นาที</item>
-    </plurals>
     <plurals name="callNoAnswerTimeFormat">
         <item quantity="other">เล่น %1$d ครั้ง</item>
     </plurals>

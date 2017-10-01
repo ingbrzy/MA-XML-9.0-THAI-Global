@@ -169,7 +169,7 @@
     <string name="pref_camera_autoexposure_entry_spotmetering">วัดแสงเฉพาะจุด</string>
     <string name="pref_camera_audio_capture_title">เสียง</string>
     <string name="simple_mode_button_text_audio_capture">ปิดโหมดสั่งถ่ายภาพด้วยเสียง</string>
-    <string name="pref_camera_video_duration_entry_mms">30 วินาที(MMS)</string>
+    <string name="pref_camera_video_duration_entry_mms">30 วินาที (MMS)</string>
     <string name="pref_camera_video_duration_entry_10">10 นาที</string>
     <string name="pref_camera_video_duration_entry_30">30 นาที</string>
     <string name="pref_camera_video_duration_entry_120">ไม่จำกัด</string>
@@ -342,6 +342,7 @@
     <string name="pref_camera_beautify_entry_low">ต่ำ</string>
     <string name="pref_camera_beautify_entry_normal">ปานกลาง</string>
     <string name="pref_camera_beautify_entry_high">สูง</string>
+    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="camera_mode_options">ตัวเลือก</string>
     <string name="button_front_camera_title">ถ่ายเซลฟี่</string>
     <string name="button_normal_video_title">บันทึกวิดีโอ</string>
@@ -358,6 +359,7 @@
     <string name="toast_saving">กำลังบันทึกรูปภาพ…</string>
     <string name="cannot_connect_camera_volte_call">อยู่ระหว่างการวิดีโอคอล กรุณาลองใหม่ในภายหลัง</string>
     <string name="hibernate_hint">แตะที่หน้าจอเพื่อใช้กล้อง</string>
+    <string name="pref_camera_picturesize_entry_widescreen">@string/pref_camera_picturesize_entry_fullscreen</string>
     <string name="accessibility_zoom_button">โหมดซูม</string>
     <string name="accessibility_portrait_button">โหมดถ่ายภาพคน</string>
     <string name="toast_burst_snap_finished_summary">ถ่ายภาพต่อเนื่องเสร็จสิ้น ทั้งหมด %1$s รูป</string>
@@ -453,7 +455,7 @@
     <string name="user_notice_identify_summary_format">การใช้บริการนี้ คุณจะต้องยอมรับ%1$sและ%2$sของทาง Xiaomi</string>
     <string name="user_notice_title">ข้อตกลงและเงื่อนไข</string>
     <string name="pref_camera_focus_shoot_title">โฟกัส &amp; ถ่าย</string>
-    <string name="pref_camera_focus_shoot_summary">触摸对焦成功之后,点击对焦环中间的相机按钮进行拍照</string>
+    <string name="pref_camera_focus_shoot_summary">แตะหน้าจอเพื่อโฟกัสและแตะอีกครั้งเพื่อถ่ายภาพ</string>
     <string name="pref_retain_camera_mode_title">บันทึกโหมดก่อนหน้านี้</string>
     <string name="pref_retain_camera_mode_summary">เปลี่ยนกล้องไปยังโหมดที่ใช้ก่อนหน้านี้เมื่อคุณเปิดแอป</string>
     <string name="pref_fingerprint_capture_title">ชัตเตอร์ลายนิ้วมือ</string>

@@ -129,8 +129,6 @@
     <string name="birthday_event_description_a_week_later">อีกหนึ่งสัปดาห์</string>
     <string name="birthday_event_description_day_after_tomorrow">มะรืนนี้เป็น</string>
     <string name="birthday_event_description_day_before_yesterday">เมื่อวานซืนเป็น</string>
-    <string name="birthday_event_description_days_ago">%1$d วันก่อน</string>
-    <string name="birthday_event_description_days_later">%1$d วัน</string>
     <string name="birthday_event_description_default">%4$sครบรอบ %2$s%3$sปีของ %1$s</string>
     <string name="birthday_event_description_special">%1$sจะถึง%5$s%3$s%4$sของ%2$s</string>
     <string name="birthday_event_description_today">วันนี้เป็น</string>
@@ -188,7 +186,6 @@
     <string name="download">ดาวน์โหลด</string>
     <string name="edit_date_calculate_days_backward_error_hint">ไม่สามารถคำนวนต่อไปข้างหน้าได้</string>
     <string name="edit_date_calculate_days_empty_hint">ป้อนจำนวนวัน</string>
-    <string name="edit_date_calculate_days_error_hint">คุณสามารถป้อนได้มากสุด %1$d วัน</string>
     <string name="edit_date_calculate_days_forward_error_hint">ไม่สามารถคำนวนย้อนกลับได้</string>
     <string name="edit_event_anniversary_name_empty_hint">ป้อนชื่อกำหนดการ</string>
     <string name="edit_event_anniversary_name_hint">กำหนดการ</string>
@@ -212,6 +209,7 @@
     <string name="edit_event_tab_birthday">วันเกิด</string>
     <string name="edit_event_tab_countdown">นับถอยหลัง</string>
     <string name="edit_event_tab_event">กำหนดการ</string>
+    <string name="english_premium_league">พรีเมียร์ลีกอังกฤษ</string>
     <string name="event_account">บัญชี</string>
     <string name="event_action_delete">ลบ</string>
     <string name="event_action_edit">แก้ไข</string>
@@ -233,6 +231,8 @@
     <string name="from_google_group_calendar">ปฏิทิน Google</string>
     <string name="global_action_text_card_manager">หมวดหมู่เพิ่มเติม</string>
     <string name="global_cricket_no_match">ไม่มีการแข่งขันคริกเก็ตที่กำหนดไว้สำหรับวันนี้ ตรวจสอบวันอื่นๆ</string>
+    <string name="global_football_final">รอบชิง</string>
+    <string name="global_football_no_match">ไม่มีกำหนดการแข่งขันฟุตบอลในวันนี้</string>
     <string name="global_onthisday_com">OnThisDay.com</string>
     <string name="guide_card_hint_text">นำเข้าวันเกิดจากรายชื่อ</string>
     <string name="holiday_card_title">วันหยุด</string>
@@ -283,7 +283,7 @@
     <string name="panchang_ayana">อยนะ</string>
     <string name="panchang_gulikai_kalam">กูลิคัย คาราม</string>
     <string name="panchang_hindu_lunar_month">เดือนจันทรคติชาวฮินดู</string>
-    <string name="panchang_inauspicious_timings">Inauspicious Timings</string>
+    <string name="panchang_inauspicious_timings">เวลาที่ไม่ดี</string>
     <string name="panchang_karan">คาราน</string>
     <string name="panchang_moon_sign">จันทรคติ</string>
     <string name="panchang_nakshatra">นากชาตรา</string>
@@ -294,8 +294,8 @@
     <string name="panchang_shaka_samvat">ชากา สัมวัต</string>
     <string name="panchang_sun_sign">สุริยคติ</string>
     <string name="panchang_tithi">ทิธิ</string>
-    <string name="panchang_to"> to </string>
-    <string name="panchang_upto"> upto </string>
+    <string name="panchang_to"> ถึง </string>
+    <string name="panchang_upto"> จนถึง </string>
     <string name="panchang_vikram_samvat">วิคราม สัมวัต</string>
     <string name="panchang_yamaghanta">ยามากหานตา</string>
     <string name="panchang_yog">ยอก</string>

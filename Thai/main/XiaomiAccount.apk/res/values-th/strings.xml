@@ -432,8 +432,8 @@
     <string name="mipay_balance">สมดุล</string>
     <string name="mipay_others">อื่นๆ</string>
     <string name="mipay_identity">รหัสยืนยันตัวตน</string>
-    <string name="mipay_indentity_done">เสร็จสิ้น</string>
-    <string name="mipay_identitiy_no">ไม่</string>
+    <string name="mipay_indentity_done">ยืนยันแล้ว</string>
+    <string name="mipay_identitiy_no">ยังไม่ได้ตรวจสอบ</string>
     <string name="account_token_expired_title">การตรวจสอบบัญชีล้มเหลว</string>
     <string name="account_token_expired_msg">"รหัสยืนยันหมดอายุ เริ่มต้นหรือออกจากระบบ
  รหัสบัญชีของคุณ: %s"</string>

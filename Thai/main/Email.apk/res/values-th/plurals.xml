@@ -12,6 +12,9 @@
     <plurals name="confirm_delete_conversation_with_sub">
         <item quantity="other">การสนทนาประกอบด้วยข้อความจำนวนมาก ลบทิ้งไม่ว่าจะยังไง?</item>
     </plurals>
+    <plurals name="confirm_delete_draft">
+        <item quantity="other">Delete %1$d drafts?</item>
+    </plurals>
     <plurals name="contact_num_selected">
         <item quantity="other">เลือกไว้ %d รายการ</item>
     </plurals>
@@ -23,6 +26,9 @@
     </plurals>
     <plurals name="conversation_folder_changed">
         <item quantity="other">เปลี่ยนโฟลเดอร์แล้ว</item>
+    </plurals>
+    <plurals name="conversation_msg_header_count">
+        <item quantity="other">+%1$d people</item>
     </plurals>
     <plurals name="conversation_muted">
         <item quantity="other">ละเว้น %1$d การสนทนาแล้ว</item>

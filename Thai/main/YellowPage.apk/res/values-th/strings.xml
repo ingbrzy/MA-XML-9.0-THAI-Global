@@ -140,7 +140,7 @@
     <string name="express_install_cainiao_ok">ดาวน์โหลด</string>
     <string name="express_install_cainiao_title">ติดตั้ง Cainiao</string>
     <string name="express_install_delivery_service">บริการการจัดส่ง</string>
-    <string name="express_install_open_locker">Open locker</string>
+    <string name="express_install_open_locker">เปิดล็อคเกอร์</string>
     <string name="express_install_order_detail">การตรวจสอบรายละเอียด</string>
     <string name="express_install_schedule_delivery">กำหนดการจัดส่ง</string>
     <string name="express_location_failed">ไม่สามารถระบุตำแหน่งของคุณ ป้อนที่อยู่ของคุณ</string>
@@ -350,6 +350,7 @@
     <string name="quick_yellow_page_tab_phones">โทรศัพท์</string>
     <string name="recharge_actual_price">ราคา:</string>
     <string name="recharge_charge_range">ราคา: %1$s-%2$s RMB</string>
+    <string name="recharge_charge_value">ราคา: %s RMB</string>
     <string name="recharge_follow_name">เติมเงิน</string>
     <string name="recharge_history">ประวัติการเติมเงิน</string>
     <string name="recharge_history_empty">ว่าง</string>
@@ -387,6 +388,7 @@
     <string name="rmb">RMB</string>
     <string name="scan">สแกน</string>
     <string name="select_package_before_buy">ระบุแพ็คเกจ</string>
+    <string name="send_shortcut_already_exists">Home screen already exists</string>
     <string name="send_shortcut_failed">ไม่สามารถส่งได้</string>
     <string name="send_shortcut_success">วางไว้บนหน้าจอหลักแล้ว</string>
     <string name="sending_shortcut">กำลังส่ง…</string>
@@ -401,7 +403,7 @@
     <string name="turn_off_phone_event_hint">คุณจะไม่สามารถดูข้อมูลรายงานสำหรับหมายเลขโทรศัพท์ที่ไม่รู้จัก</string>
     <string name="turn_off_smart_antispam_hint">คุณจะไม่สามารถมองเห็นข้อมูลรายงานสายเรียกเข้าจากเลขหมายที่ไม่รู้จัก</string>
     <string name="turn_on_online_antispam_enable">เปิดใช้งาน</string>
-    <string name="turn_on_online_antispam_summary">Turn on Caller ID to recognize unknown numbers.</string>
+    <string name="turn_on_online_antispam_summary">เปิดใช้รหัสผู้โทรเพื่อรับรู้หมายเลขที่ไม่รู้จัก</string>
     <string name="turn_on_online_antispam_title">เปิดการระบุเลขหมาย?</string>
     <string name="turn_on_phone_event_dialog_title">อัพเดทฐานข้อมูลเบอร์โทรศัพท์</string>
     <string name="turn_on_phone_event_summary">อนุญาตสมุดหน้าเหลืองเพื่อรับและอัพโหลดข้อมูลบริการของการตรวจสอบการให้บริการ</string>

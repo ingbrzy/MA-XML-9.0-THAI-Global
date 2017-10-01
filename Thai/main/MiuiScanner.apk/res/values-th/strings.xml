@@ -32,7 +32,7 @@
     <string name="common_save">บันทึก</string>
     <string name="common_retry">ลองอีกครั้ง</string>
     <string name="sdk_not_ready">กำลังเตรียม SDK ลองอีกครั้งในภายหลัง</string>
-    <string name="error_get_image">รับรูปภาพล้มเหลว</string>
+    <string name="error_get_image">ไม่สามารถรับไฟล์ภาพได้</string>
     <string name="language_entry_chinese_cn">ภาษาจีนประยุกต์</string>
     <string name="language_entry_chinese_tw">ภาษาจีนดั้งเดิม</string>
     <string name="language_entry_danish">ภาษาเดนมาร์ก</string>
@@ -102,6 +102,8 @@
     <string name="payment_zhifubao">Alipay</string>
     <string name="weixin_code_tip">กรุณาใช้ WeChat ในการสแกนรหัส QR นี้</string>
     <string name="back">ย้อนกลับ</string>
+    <string name="label_flash_light">แสงแฟลช</string>
+    <string name="label_choose_picture">เลือกรูปภาพ</string>
     <string name="shopping_title">ถ่ายภาพภาพของผลิตภัณฑ์</string>
     <string name="shopping_searching">กำลังค้นหา…</string>
     <string name="shopping_vendor_info">สนับสนุนโดย Taobao</string>
@@ -166,7 +168,7 @@
     <string name="document_color_picture_tip">กำลังแปลงเป็นเอกสารสี…</string>
     <string name="document_save_succeed_tip">เอกสารบันทึกไปยัง %1$s</string>
     <string name="document_recognize_fail_tip">ไม่สามารถอ่านแล้วเอกสารได้</string>
-    <string name="document_recognize_null_tip">ผลลัพธ์เอกสารว่างเปล่า</string>
+    <string name="document_recognize_null_tip">ไม่สามารถจดจำเอกสารได้</string>
     <string name="recognition_error_download_title">จำเป็นต้องใช้เครื่องมือการตรวจจับ</string>
     <string name="recognition_error_download_msg">ดาวน์โหลดเครื่องมือการตรวจจับเพื่อสแกนบัตร ขนาดเกี่ยวกับ 15MB</string>
     <string name="recognition_error_download_ok">ดาวน์โหลด</string>
@@ -178,5 +180,5 @@
     <string name="recognition_error_download_fail">ไม่สามารถดาวน์โหลดเครื่องมือการตรวจจับได้</string>
     <string name="low_version_tip">เวอร์ชั่น MIUI เก่าเกินไป อัพเดท MIUI เพื่อใช้งานสแกนเนอร์</string>
     <string name="app_description_title">เกี่ยวกับตัวสแกน</string>
-    <string name="app_description_content">ตัวสแกนอนุญาตให้สแกน QR โค้ด, สแกนเพื่อแปล, สแกนเพื่อแก้ปัญหา, การจดจำนามบัตร กรุณาตรวจสอบให้แน่ใจว่าคุณรับทราบฟังก์ชันและบริการที่ได้รับจากแอปนี้แล้ว</string>
+    <string name="app_description_content">ตัวสแกนช่วยให้คุณสามารถสแกน QR โค้ด เอกสาร นามบัตรและอื่นๆได้ ตรวจสอบให้แน่ใจว่าคุณเข้าใจถึงคุณสมบัติเหล่านี้ก่อนที่คุณจะถอนการติดตั้งแอป</string>
 </resources>

@@ -309,6 +309,7 @@
     <string name="vcard_export_will_start_message">%s จะถูกนำเข้าเร็วๆนี้</string>
     <string name="vcard_export_request_rejected_message">การร้องขอการส่งออก vCard ถูกปฏิเสธ ลองอีกครั้งในภายหลัง</string>
     <string name="vcard_unknown_filename">รายชื่อ</string>
+    <string name="percentage">%s%%</string>
     <string name="confirm_export_title">ส่งออกรายชื่อ?</string>
     <string name="confirm_export_message">รายการรายชื่อของคุณจะถูกส่งออกไปยังไฟล์: %s</string>
     <string name="exporting_contact_failed_title">ไม่สามารถส่งออก</string>
@@ -693,6 +694,7 @@
     <string name="miprofile_alertdialog_message">แสดงชื่อนี้ในข้อมูลติดต่อเมื่อคุณได้รับคำขอแลกนามบัตร</string>
     <string name="miprofile_alertdialog_edit">ป้อนชื่อ</string>
     <string name="miprofile_switch_off_alertdialog_message">คุณจะไม่สามารถแลกเปลี่ยนบัตรผู้ติดต่อกับผู้ใช้คนอื่นๆได้</string>
+    <string name="miprofile_delete_alertdialog_message">@string/miprofile_switch_off_alertdialog_message</string>
     <string name="miprofile_bind_account_alertdialog_title">เพิ่มหมายเลขโทรศัพท์</string>
     <string name="miprofile_bind_account_alertdialog_message">คุณต้องระบุหมายเลขโทรศัพท์ของมือถือเครื่องนี้ในบัญชี Mi ก่อนจึงจะใช้บริการนี้ได้</string>
     <string name="miprofile_bind_account_alertdialog_positive">เพิ่มเลขหมาย</string>
@@ -917,8 +919,8 @@
     <string name="share_over_limit">ไม่สามารถแชร์เกินกว่า 1000 รายชื่อได้</string>
     <string name="preference_key_trash_bin_title">กู้คืนรายชื่อผู้ติดต่อ</string>
     <string name="preference_other">อื่นๆ</string>
-    <string name="preference_show_yellowpage_tab_title">แสดงทางเข้าสมุดหน้าเหลือง</string>
-    <string name="preference_show_yellowpage_tab_description">ปิดแถบสมุดหน้าเหลือง ฟังก์ชันสมุดหน้าเหลืองจะไม่ทำงาน</string>
+    <string name="preference_show_yellowpage_tab_title">แสดงสมุดหน้าเหลือง</string>
+    <string name="preference_show_yellowpage_tab_description">สมุดหน้าเหลืองอาจไม่ทำงานอย่างถูกต้องเมื่อปิดคุณลักษณะนี้</string>
     <string name="account_default">โทรศัพท์</string>
     <string name="lunarBirthdayLabelsGroup">วันเกิดตามจันทรคติ</string>
     <string name="option_view_contact">แสดง</string>
@@ -957,8 +959,9 @@
     <string name="antispam_provider_format">รายงานโดย %s</string>
     <string name="type_mx_msg">ข้อความ Mi</string>
     <string name="qr_card_card">รหัส QR</string>
-    <string name="unknown_details_new_contact">รายชื่อใหม่</string>
-    <string name="unfold_all">เปิดทั้งหมด</string>
+    <string name="unknown_details_new_contact">เพิ่มใหม่</string>
+    <string name="unknown_details_add_to_contact">ที่มีอยู่</string>
+    <string name="unfold_all">แสดงทั้งหมด</string>
     <string name="menu_new_favorite_action_bar">เพิ่มไปยังรายการโปรด</string>
     <string name="click_close">แตะเพื่อปิด</string>
     <string name="phone_primary">หลัก</string>
@@ -978,9 +981,10 @@
     <string name="group_create_fail_toast">ไม่สามารถสร้างกลุ่มได้</string>
     <string name="group_rename_fail_toast">ไม่สามารถเปลี่ยนชื่อกลุ่มได้</string>
     <string name="contact_unfavorite_toast">ลบจากรายการโปรดแล้ว</string>
-    <string name="group_member_remove_toast">ลบออกจากกลุ่มแล้ว</string>
-    <string name="contact_delete_toast">ลบรายชื่อเรียบร้อยแล้ว</string>
     <string name="profile_delete_toast">ลบโปรไฟล์เรียบร้อยแล้ว</string>
+    <string name="group_member_remove_success_toast">ลบออกจากกลุ่มแล้ว</string>
+    <string name="group_member_remove_fail_toast">ไม่ลบออกจากกลุ่ม</string>
+    <string name="contact_delete_toast">ผู้ติดต่อถูกลบแล้ว</string>
     <string name="duplicate_group_name">มีชื่อกลุ่มนี้อยู่แล้ว</string>
     <string name="all_list_empty">ไม่มีรายชื่อ</string>
     <string name="favorites_list_empty">ไม่มีรายการโปรด</string>
@@ -1066,6 +1070,7 @@
     <string name="device_import_local_account">บัญชีในเครื่อง</string>
     <string name="import_name">ชื่อ</string>
     <string name="import_percent">0%</string>
+    <string name="percent_sign">%</string>
     <string name="ret_sign">"
 "</string>
     <string name="checkhint">ตรวจสอบโทรศัพท์เป้าหมาย</string>
@@ -1102,13 +1107,13 @@
     <string name="batch_delete">ลบแบบหลายรายการ</string>
     <string name="starred_contacts">รายการชื่นชอบ</string>
     <string name="other_contacts">รายชื่ออื่น</string>
-    <string name="set_photo_failed_msg">ไม่สามารถกำหนดรูปได้</string>
+    <string name="set_photo_failed_msg">ไม่สามารถส่งรูปภาพได้</string>
     <string name="contact_is_readOnly">ไม่สามารถแก้ไขรายชื่อที่อ่านอย่างเดียว</string>
     <string name="profile_name">โปรไฟล์ของฉัน</string>
     <string name="profile_name_photo">รูปภาพ</string>
     <string name="toast_copying">กำลังคัดลอก…</string>
     <string name="toast_copy_done">เสร็จสิ้น</string>
-    <string name="toast_start_intent_failed">ไม่พบแอปเพื่อจัดการ</string>
+    <string name="toast_start_intent_failed">ไม่พบแอปเพื่อจัดการกับการทำงานนี้</string>
     <string name="group_name">กลุ่มของฉัน</string>
     <string name="import_all_sim_entries_miui">นำเข้ารายชื่อทั้งหมด</string>
     <string name="import_sim_entry_miui">นำเข้า</string>
@@ -1190,11 +1195,6 @@
     <string name="data_unit_mb">MB</string>
     <string name="data_unit_gb">GB</string>
     <string name="set_data_package">ตั้งค่าการใช้ข้อมูลก่อน</string>
-    <string name="livetalk_charge">เติมเงิน</string>
-    <string name="livetalk_switch_on">เปิดใช้งาน</string>
-    <string name="livetalk_left">ยอดคงเหลือ</string>
-    <string name="livetalk_title">แพ็คเกจเติมเงิน</string>
-    <string name="live_talk_switch_on_toast">เปิดแพ็คเกจเติมเงินเรียบร้อย</string>
     <string name="button_join_service_number">เพิ่มเลขหมายบริการ</string>
     <string name="button_my_center">โปรไฟล์</string>
     <string name="gallery">คลังภาพ</string>

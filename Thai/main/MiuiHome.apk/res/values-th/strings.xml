@@ -209,7 +209,7 @@
     <string name="free_style_edit_tab_shortcut">ปุ่มลัด</string>
     <string name="free_style_edit_tab_free_component">วัตถุ</string>
     <string name="free_style_edit_tab_widget">วิดเจ็ต</string>
-    <string name="free_style_edit_move_tip">แตะค้างไว้เพื่อย้ายรายการ</string>
+    <string name="free_style_edit_move_tip">แตะ&amp; ค้างไว้เพื่อย้ายรายการ</string>
     <string name="free_style_edit_app">แอป</string>
     <string name="free_style_edit_drawer">ตัววาด</string>
     <string name="free_style_drawer_title">แอปทั้งหมด</string>

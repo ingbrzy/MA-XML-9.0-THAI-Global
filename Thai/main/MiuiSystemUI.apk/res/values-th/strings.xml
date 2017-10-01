@@ -5,12 +5,14 @@
     <string name="wifi_security_short_wpa">WPA</string>
     <string name="wifi_security_short_wpa2">WPA2</string>
     <string name="wifi_security_short_wpa_wpa2">WPA/WPA2</string>
+    <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
     <string name="wifi_security_short_eap">802.1x</string>
     <string name="wifi_security_none">ไม่มี</string>
     <string name="wifi_security_wep">WEP</string>
     <string name="wifi_security_wpa">WPA PSK</string>
     <string name="wifi_security_wpa2">WPA2 PSK</string>
     <string name="wifi_security_wpa_wpa2">WPA/WPA2 PSK</string>
+    <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
     <string name="wifi_security_eap">802.1x EAP</string>
     <string name="wifi_security_passpoint">Passpoint</string>
     <string name="wifi_security_short_WAPI_PSK">WAPI PSK</string>
@@ -203,7 +205,7 @@
     <string name="show_screen_updates">แสดงการอัปเดตพื้นผิว</string>
     <string name="show_screen_updates_summary">แฟลชหน้าต่างพื้นผิวทั้งหมดเมื่ออัพเดท</string>
     <string name="show_hw_screen_updates">แสดง GPU อัพเดต</string>
-    <string name="show_hw_screen_updates_summary">Flash windows where videos are being rendered by GPU</string>
+    <string name="show_hw_screen_updates_summary">แสดงหน้าต่างที่วิดีโอแสดงผลโดย GPU</string>
     <string name="show_hw_layers_updates">แสดงการอัปเดตระดับฮาร์ดแวร์</string>
     <string name="show_hw_layers_updates_summary">ฮาร์ดแวร์ที่กำลังอัปเดตจะกะพริบเป็นสีเขียว</string>
     <string name="debug_hw_overdraw">แก้ไขการวาดทับด้วย GPU</string>
@@ -223,7 +225,7 @@
     <string name="force_hw_ui_summary">บังคับใช้ GPU สำหรับให้ภาพ 2D</string>
     <string name="force_msaa">บังคับ 4x MSAA</string>
     <string name="force_msaa_summary">เปิดใช้ 4x MSAA ในแอป OpenGL ES 2.0</string>
-    <string name="show_non_rect_clip">Debug non-rectangular clip operations</string>
+    <string name="show_non_rect_clip">แก้ไขการทำงานของคลิปที่ไม่ใช่สี่เหลี่ยม</string>
     <string name="track_frame_time">โปรไฟล์ GPU เร็นเดอร์</string>
     <string name="window_animation_scale_title">ขนาดหน้าต่างภาพเคลื่อนไหว</string>
     <string name="transition_animation_scale_title">อัตราการสลับภาพเคลื่อนไหว</string>
@@ -410,12 +412,12 @@
     <string name="accessibility_desc_recent_apps">ภาพรวม</string>
     <string name="recents_empty_message">ไม่พบรายการล่าสุด</string>
     <string name="recents_empty_message_dismissed_all">คุณลบรายการทั้งหมด</string>
-    <string name="recents_empty_message_multi_window">ไปยังโฮมเพื่อเปิดแอป</string>
+    <string name="recents_empty_message_multi_window">เปิดแอปจากหน้าจอหลัก</string>
     <string name="recents_app_info_button_label">ข้อมูลแอป</string>
-    <string name="recents_lock_to_app_button_label">แก้ไขหน้าจอ</string>
+    <string name="recents_lock_to_app_button_label">ปักหมุดหน้าจอ</string>
     <string name="recents_search_bar_label">ค้นหา</string>
     <string name="recents_launch_error_message">ไม่สามารถเริ่ม %s</string>
-    <string name="recents_launch_disabled_message">%s ถูกหยุดลงในโหมดปลอดภัย</string>
+    <string name="recents_launch_disabled_message">%s ไม่สามารถเปิดใช้งานได้ในโหมดปลอดภัย</string>
     <string name="recents_stack_action_button_label">ลบทั้งหมด</string>
     <string name="recents_incompatible_app_message">แอปนี้ไม่รองรับการแยกหน้าจอ</string>
     <string name="recents_drag_hint_message">ลากรายการมาที่นี่</string>
@@ -553,6 +555,7 @@
     <string name="notification_hidden_text">การแจ้งเตือนถูกซ่อนไว้</string>
     <string name="block_notification_text">ซ่อน</string>
     <string name="block_notification_content_text">การแจ้งเตือนของ %1$s จะไม่แสดงอีก คุณสามารถเปลี่ยนแปลงได้ในการตั้งค่า</string>
+    <string name="block_notification_desc">การแจ้งเตือนของแอปจะไม่ปรากฏขึ้นอีก คุณสามารถเปลี่ยนได้ในการตั้งค่า</string>
     <string name="notification_otg_mouse_in">เชื่อมต่อเมาส์แล้ว</string>
     <string name="notification_otg_keyboard_in">เชื่อมต่อแป้นพิมพ์แล้ว</string>
     <string name="notification_otg_gamestick_in">เชื่อมต่อตัวควบคุมเกมส์แล้ว</string>

@@ -138,4 +138,16 @@
     <plurals name="quickly_discovery_message_format">
         <item quantity="other">พบ %1$d รูปภาพใหม่</item>
     </plurals>
+    <plurals name="search_feedback_done_mark_false_positive">
+        <item quantity="other">ลบ %1$d รูปภาพจาก \"%2$s\"</item>
+    </plurals>
+    <plurals name="search_feedback_done_mark_and_contribute_false_positive">
+        <item quantity="other">ลบ %1$d รูปภาพจาก \"%2$s\" และเพิ่มไปยังฐานข้อมูลแล้ว</item>
+    </plurals>
+    <plurals name="search_feedback_done_mark_false_negative">
+        <item quantity="other">เพิ่มแล้ว %1$d รูปภาพไปยัง \"%2$s\"</item>
+    </plurals>
+    <plurals name="search_feedback_done_mark_and_contribute_false_negative">
+        <item quantity="other">เพิ่มแล้ว %1$d รูปภาพไปยัง \"%2$s\" และเพิ่มไปยังฐานข้อมูลแล้ว</item>
+    </plurals>
 </resources>

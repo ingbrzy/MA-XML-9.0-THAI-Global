@@ -108,11 +108,11 @@
     <string name="activate_history_multisim_success_overview">เปิดใช้งานซิมการ์ด %2$d เรียบร้อบ การเปิดใช้งานถูกเรียกใช้งานโดย %1$s\".</string>
     <string name="activate_history_multisim_canceled_overview">ยกเลิกเปิดใช้งานซิมการ์ด %2$d แล้ว การเปิดใช้งานถูกเรียกใช้งานโดย %1$s\".</string>
     <string name="activate_history_sms">ข้อความ SMS ถูกส่งไประหว่างการเปิดใช้งาน</string>
-    <string name="phone_verify_title">ยอมรับ %1$s เพื่อตรวจสอบหมายเลขโทรศัพท์ของคุณ</string>
-    <string name="phone_verify_text">%1$s ไม่ขอรับหมายเลขโทรศัพท์ของคุณ แต่เป็นเพียงแค่ยืนยันว่าหมายเลขโทรศัพท์ของคุณตรงกันเท่านั้น</string>
-    <string name="phone_verify_processing">กำลังตรวจสอบ…</string>
-    <string name="phone_get_title">ยอมรับ %1$s เพื่อขอรับหมายเลขโทรศัพท์ของคุณ</string>
-    <string name="phone_get_text">คุณยอมรับ %1$s หรือไม่ เพื่อขอรับหมายเลขโทรศัพท์ของคุณ：%2$s</string>
+    <string name="phone_verify_title">อนุญาต %1$s เพื่อตรวจสอบหมายเลขโทรศัพท์ของคุณ</string>
+    <string name="phone_verify_text">%1$s จะไม่ได้รับหมายเลขโทรศัพท์ของคุณ เพียงแค่ตรวจสอบให้แน่ใจว่าหมายเลขถูกต้อง ตกลง?</string>
+    <string name="phone_verify_processing">กำลังยืนยัน…</string>
+    <string name="phone_get_title">อนุญาต %1$s เพื่อขอรับหมายเลขโทรศัพท์ของคุณ</string>
+    <string name="phone_get_text">อนุญาต %1$s รับหมายเลขโทรศัพท์ของคุณ (%2$s)?</string>
     <string name="phone_get_processing">กำลังรับ…</string>
-    <string name="agree">เห็นด้วย</string>
+    <string name="agree">อนุญาต</string>
 </resources>

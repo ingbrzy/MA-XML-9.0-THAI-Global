@@ -57,7 +57,7 @@
     <string name="input_password_after_boot_msg">เพื่อปลดล็อกอุปกรณ์ กรุณาป้อนรหัสผ่าน</string>
     <string name="input_password_after_boot_msg_must_enter_owner_space">คุณจำเป็นต้องเข้าสู่พื้นที่ปกติก่อนที่อุปกรณ์จะทำการรีบูต</string>
     <string name="input_password_after_boot_msg_can_not_switch_when_calling">ไม่สามารถสลับระหว่างพื้นที่ขณะโทรได้</string>
-    <string name="input_password_handle_sdcard_fs">ปิดใช้งาน \"การเพิ่มประสิทธิภาพ SD การ์ด\" ก่อนการเข้าสู่พื้นที่ทับซ้อน</string>
+    <string name="input_password_handle_sdcard_fs">ปิดใช้งาน \"การเพิ่มประสิทธิภาพ Mock SD การ์ด\" ก่อนการเข้าสู่พื้นที่ทับซ้อน</string>
     <string name="accessibility_enter_lock_wallpaper">แตะเพื่อเปิดภาพพื้นหลังรวม</string>
     <string name="lock_wallpaper_learn_more">เพิ่มเติม</string>
     <string name="lock_wallpaper_enter">ป้อน</string>
@@ -113,7 +113,7 @@
     <string name="face_unlock_by_notification_screen_on_title">อนุญาตใบหน้าปลดล็อกเมื่อเปิดหน้าจอ</string>
     <string name="face_unlock_by_notification_screen_on_msg">คุณสามารถปลดล็อกอุปกรณ์โดยใช้ข้อมูลใบหน้าเมื่อใดก็ตามที่หน้าจอสว่างขึ้นสำหรับการแจ้งเตือนสายเรียกเข้า อาจทำให้แบตเตอรี่หมดเร็วขึ้น</string>
     <string name="face_unlock_not_found">ใบหน้าไม่ตรงกัน</string>
-    <string name="face_unlock_adjust_distance">ตรวจสอบให้แน่ใจว่าระยะห่างระหว่างใบหน้าและโทรศัพท์ของคุณดูเหมาะสม</string>
+    <string name="face_unlock_adjust_distance">ตรวจสอบให้แน่ใจว่าระยะห่างระหว่างใบหน้าและหน้าจอของคุณดูเหมาะสม</string>
     <string name="face_unlock_close_screen">เข้าใกล้หน้าจอมากขึ้น</string>
     <string name="face_unlock_stay_away_screen">อยู่ห่างจากหน้าจอประมาณ 25 - 40 ซม.</string>
     <string name="face_unlock_be_on_the_screen">ถืออุปกรณ์ไว้ข้างหน้าใบหน้าของคุณ</string>

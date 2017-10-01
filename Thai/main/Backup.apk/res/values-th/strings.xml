@@ -32,7 +32,7 @@
     <string name="delete_backup_title">ลบข้อมูลสำรอง</string>
     <string name="delete">ลบ</string>
     <string name="cancel">ยกเลิก</string>
-    <string name="reconnect">เชื่อมต่อใหม่</string>
+    <string name="reconnect">เชื่อมต่ออีกครั้ง</string>
     <string name="delete_backup_process">กำลังลบ…</string>
     <string name="backup_error">การสำรองข้อมูลผิดพลาด</string>
     <string name="delete_failed_backup_confirm">ไฟล์ข้อมูลสำรองมีข้อผิดพลาด</string>
@@ -228,6 +228,7 @@
     <string name="file_uploading">กำลังอัพโหลด…</string>
     <string name="new_backup">สำรองข้อมูล</string>
     <string name="restore_backup">คืนค่า</string>
+    <string name="digit_percent">%</string>
     <string name="state_waiting">รอสักครู่…</string>
     <string name="state_mounting">กำลังเข้าถึงพื้นที่จัดเก็บข้อมูลเราเตอร์…</string>
     <string name="abort_backup_confirm">ยังสำรองข้อมูลไม่เสร็จ ยกเลิกหรือไม่?</string>
@@ -261,7 +262,7 @@
     <string name="notif_trans_receiving_completed">รับข้อมูลเรียบร้อยแล้ว</string>
     <string name="notif_trans_sending_failed">ส่งข้อมูลไม่สำเร็จ</string>
     <string name="notif_trans_receiving_failed">รับข้อมูลไม่สำเร็จ</string>
-    <string name="notif_trans_wait_for_reconnecting">อุปกรณ์ระยะไกลถูกตัดการเชื่อมต่อ โปรดเชื่อมต่ออีกครั้ง</string>
+    <string name="notif_trans_wait_for_reconnecting">ถูกตัดการเชื่อมต่อ เชื่อมต่ออีกครั้ง</string>
     <string name="custom_progress">%d รายการ</string>
     <string name="remote_receive">รับ</string>
     <string name="click_to_view" />
@@ -311,8 +312,8 @@
     <string name="trans_progress_subdescript_transing_receiver_finish">รับมาแล้ว %s กำลังรอการเรียกคืน…</string>
     <string name="trans_cancel_confirm">อยู่ระหว่างการโอนย้าย หยุดตอนนี้?</string>
     <string name="trans_cancelling">กำลังยกเลิก…</string>
-    <string name="trans_device_disconnected">ถอดอุปกรณ์ออกแล้ว</string>
-    <string name="trans_device_wait_for_reconnecting">อุปกรณ์ถูกตัดการเชื่อมต่อ กรุณาเชื่อมต่อใหม่</string>
+    <string name="trans_device_disconnected">ถูกตัดการเชื่อมต่อ</string>
+    <string name="trans_device_wait_for_reconnecting">ถูกตัดการเชื่อมต่อ เชื่อมต่ออีกครั้งเพื่อดำเนินการต่อ</string>
     <string name="trans_connecting_toast">กำลังเชื่อมต่อ…</string>
     <string name="trans_connect_failed_toast">เชื่อมต่อไม่ได้</string>
     <string name="trans_generate_qr_code_failed">ไม่สามารถสร้างรหัส QR</string>
@@ -328,10 +329,10 @@
 2. เปิดแอปและแตะเริ่มต้น
 3. สแกนรหัส QR ด้วยอุปกรณ์เก่าของคุณ"</string>
     <string name="trans_operate_old_phone_tips2">ไปที่ เมนูการตั้งค่า > การตั้งค่าเพิ่มเติม > ถ่ายโอน แตะ [เครื่องนี้เป็นผู้ส่ง]</string>
-    <string name="trans_operate_reconnect_new_tips">"รอจนกว่าโทรศัพท์ใหม่จะแสดง \"อุปกรณ์ถูกตัดการเชื่อมต่อ\" 
- จากนั้นคลิก [Reconnect] เพื่อสร้างรหัส QR"</string>
-    <string name="trans_operate_reconnect_old_tips">"รอจนกว่าโทรศัพท์จะแสดง \"อุปกรณ์ถูกตัดการเชื่อมต่อ\" 
- จากนั้นคลิก [Reconnect] เพื่อสแกนรหัส QR"</string>
+    <string name="trans_operate_reconnect_new_tips">"รอจนกว่าโทรศัพท์ใหม่แสดง \"ถูกตัดการเชื่อมต่อ\"
+ แล้วแตะ \"เชื่อมต่ออีกครั้ง\" เพื่อสร้างรหัส QR"</string>
+    <string name="trans_operate_reconnect_old_tips">"รอจนกว่าโทรศัพท์แสดง \"ถูกตัดการเชื่อมต่อ\"
+ แล้วแตะ \"เชื่อมต่ออีกครั้ง\" เพื่อสแกนรหัส QR"</string>
     <string name="trans_wait_trans_data">"เชื่อมต่ออุปกรณ์เก่าแล้ว
 กำลังรอการถ่ายโอน…"</string>
     <string name="trans_select_data">เลือกรายการที่จะส่ง</string>
@@ -354,8 +355,8 @@
     <string name="trans_retry">ลองใหม่</string>
     <string name="trans_start_failed_title">ไม่สามารถเริ่มการถ่ายโอนได้</string>
     <string name="trans_start_failed_message">ไม่สามารถเริ่มการถ่ายโอนได้ ลองใหม่อีกครั้งหรือรีบูตอุปกรณ์</string>
-    <string name="trans_connect_failed_device_incompatible">อุปกรณ์ไม่เข้ากัน โปรดยกเลิกการโอนย้ายและลองอีกครั้ง</string>
-    <string name="trans_connection_failed">ถอดอุปกรณ์ออกแล้ว</string>
+    <string name="trans_connect_failed_device_incompatible">อุปกรณ์ไม่เข้ากัน ยกเลิกการถ่ายโอนและลองใหม่อีครั้ง</string>
+    <string name="trans_connection_failed">ถูกตัดการเชื่อมต่อ</string>
     <string name="user_notice_title">โปรดทราบ</string>
     <string name="user_notice_message">การใช้งานคุณลักษณะนี้จำเป็นต้องเชื่อมกับต่ออินเตอร์เน็ตเพื่อการทำงานที่ปกติ</string>
     <string name="user_notice_declaration_ignore">ไม่ต้องแสดงอีก</string>
@@ -365,4 +366,31 @@
     <string name="backup_security_tips_message">แอปบางแอปอาจไม่สามารถสำรองข้อมูลหรือเรียกคืนค่าได้</string>
     <string name="trans_security_tips_title">ความเข้ากันได้ Mi Mover</string>
     <string name="trans_security_tips_message">บางแอปไม่สนับสนุน Mi Mover</string>
+    <string name="trans_intro_title">คำถามที่พบบ่อย</string>
+    <string name="trans_intro_question_1">1. ฉันจะใช้ Mi Mover ได้อย่างไร?</string>
+    <string name="trans_intro_title_new">เปิดโทรศัพท์ใหม่:</string>
+    <string name="trans_intro_desc_new">แตะ \"ฉันเป็นผู้รับ\" รหัส QR จะถูกสร้างขึ้น</string>
+    <string name="trans_intro_title_old">เปิดโทรศัพท์เดิม:</string>
+    <string name="trans_intro_desc_old">แตะ \"ฉํนเป็นผู้ส่ง\" สแกนรหัส QR ด้วยโทรศัพท์ใหม่ รอจนกว่า Mi Mover จะหาไฟล์ที่จะส่งและแตะ \"ส่ง\"</string>
+    <string name="trans_intro_question_2">2. ฉันควรทำอย่างไรหาก Mi Mover ติดค้างในขั้นตอนหนึ่ง?</string>
+    <string name="trans_intro_desc_2">ยกเลิกการถ่ายโอน ออกจาก Mi Mover และเริ่มต้นใหม่ ไฟล์ที่ซ้ำจะถูกเขียนทับระหว่างการถ่ายโอนใหม่</string>
+    <string name="trans_intro_question_3">3. เหตุใดฉันจึงไม่สามารถใช้ Wi-Fi ระหว่างการถ่ายโอนได้?</string>
+    <string name="trans_intro_desc_3">Mi Mover ใช้ Wi-Fi เพื่อถ่ายโอนไฟล์ นั่นเป็นเหตุผลที่คุณไม่สามารถเชื่อมต่ออินเทอร์เน็ตโดยใช้ Wi-Fi ในอุปกรณ์ใดก็ได้ระหว่างการโอน คุณยังคงสามารถใช้ข้อมูลมือถือได้ อย่างไรก็ตามอุปกรณ์รุ่นใหม่ๆ (เช่น Mi 6) จะยังคงสามารถเชื่อมต่อกับอินเทอร์เน็ตโดยใช้ Wi-Fi ระหว่างการถ่ายโอนได้</string>
+    <string name="trans_intro_question_4">4. ทำไม Mi Mover จึงบอกฉันว่ามีพื้นที่เก็บข้อมูลไม่เพียงพอในโทรศัพท์เก่าของฉัน?</string>
+    <string name="trans_intro_desc_4">พื้นที่เก็บข้อมูลบนโทรศัพท์เก่าใช้สำหรับสร้างแพคเกจการโอนย้าย ตรวจสอบว่าคุณมีพื้นที่เก็บข้อมูลอย่างน้อย 500MB - 1GB บนโทรศัพท์เครื่องเก่าของคุณก่อนที่จะเริ่มถ่ายโอน</string>
+    <string name="trans_intro_question_5">5. เหตุใดแอปบางแอปจึงไม่สามารถโอนได้?</string>
+    <string name="trans_intro_desc_5">มีสาเหตุหลายประการที่อาจเกิดขึ้น ได้แก่ ปัญหาความเข้ากันได้ของรุ่นและระบบ, ปัญหาเกี่ยวกับเครือข่าย, ประเด็นเกี่ยวกับความเข้ากันได้ที่เฉพาะเจาะจงกับอุปกรณ์เฉพาะ ฯลฯ</string>
+    <string name="trans_intro_question_6">6. ทำไมแอปบางตัวจึงไม่เริ่มทำงานในอุปกรณ์ใหม่?</string>
+    <string name="trans_intro_desc_6">โปรไฟล์แอปบางแอป (ธนาคารอิเล็กทรอนิกส์การเงิน ฯลฯ) เชื่อมโยงกับอุปกรณ์เฉพาะ เนื่องจากเหตุผลด้านความปลอดภัย ลองล้างข้อมูลแอปหรือติดตั้งแอปใหม่บนอุปกรณ์ใหม่</string>
+    <string name="trans_intro_question_7">7. เหตุใดประวัติ WeChat จึงไม่สามารถถ่ายโอนได้อย่างสมบูรณ์?</string>
+    <string name="trans_intro_desc_7">ข้อมูลแอป WeChat และประวัติการแชทอาจไม่ได้รับการถ่ายโอนอย่างเต็มที่โดยใช้ Mi Mover ไปที่การตั้งค่าของ WeChat และออกจากระบบบัญชีของคุณเพื่อให้มีโอกาสมากขึ้นสำหรับการโอนเงินที่สำเร็จ</string>
+    <string name="trans_intro_question_8">8. รายการใดที่ไม่สามารถถ่ายโอนได้?</string>
+    <string name="trans_intro_title_account">บัญชีและรหัสผ่าน:</string>
+    <string name="trans_intro_desc_account">คุณต้องลงชื่อเข้าใช้บัญชีของคุณอีกครั้ง (เช่น Mi Account, Exchange, Google ฯลฯ) บนอุปกรณ์ใหม่เนื่องจากเหตุผลด้านความปลอดภัย</string>
+    <string name="trans_intro_title_private">อัลบั้มซ่อน:</string>
+    <string name="trans_intro_desc_private">Mi Mover ไม่สามารถเข้าถึงรูปภาพในอัลบั้มที่ซ่อนได้เนื่องจากมีการเข้ารหัส คุณสามารถเรียกคืนภาพถ่ายเหล่านี้จาก Mi Cloud บนอุปกรณ์ใหม่ได้</string>
+    <string name="trans_intro_title_multiuser">ข้อมูลพื้นที่ทับซ้อน:</string>
+    <string name="trans_intro_desc_multiuser">Mi Mover ไม่สามารถเข้าถึงรายการในพื้นที่ทับซ้อนได้ ย้ายรายการไปยังพื้นที่ปกติและเปิดใช้ Mi Mover ที่นั่น</string>
+    <string name="trans_intro_title_multiapp">ข้อมูลแอปโคลน:</string>
+    <string name="trans_intro_desc_multiapp">Mi Mover ไม่ได้ถ่ายโอนข้อมูลแอปโคลนเพื่อหลีกเลี่ยงความขัดแย้งระหว่างไฟล์</string>
 </resources>

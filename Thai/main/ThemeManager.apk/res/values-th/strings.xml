@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="resource_app_name">ตัวเรียกดูแหล่งข้อมูล</string>
+    <string name="resource_app_name">ดูแหล่งข้อมูล</string>
     <string name="resource_delete">ลบ</string>
     <string name="resource_price_free">ฟรี</string>
     <string name="resource_price_unit"> Mi เครดิต</string>
@@ -80,9 +80,9 @@
     <string name="resource_no_result">ไม่พบรายการที่ค้นหา</string>
     <string name="resource_failed_to_load_list">ไม่สามารถโหลดรายชื่อธีมได้</string>
     <string name="resource_search_list_empty">ไม่พบข้อมูลใดๆ</string>
-    <string name="resource_data_empty">เนื้อหาว่างเปล่า</string>
+    <string name="resource_data_empty">ไม่มีรายการ</string>
     <string name="resource_no_network_text">ไม่สามารถเชื่อมต่อกับเครือข่ายได้</string>
-    <string name="resource_network_diagnostics"><u>ตรวจสอบการเชื่อมต่อเครือข่าย</u></string>
+    <string name="resource_network_diagnostics"><u>ทดสอบเครือข่ายk</u></string>
     <string name="resource_list_title">รายการที่เลือกไว้ล่าสุด</string>
     <string name="resource_get_auth_checking">กำลังตรวจสอบ…</string>
     <string name="resource_get_auth_retrieving">กำลังรับข้อมูล…</string>
@@ -143,7 +143,7 @@
     <string name="resource_exchange_hint">ใส่รหัสของขวัญของคุณ</string>
     <string name="resource_exchange_window_title">แลกใช้</string>
     <string name="resource_exchange_universal_goon">รหัสนี้สามารถใช้ดาวน์โหลดธีมใดก็ได้ในร้านค้า</string>
-    <string name="resource_exchange_universal_finish">ใช้รหัสนี้เพื่อดาวน์โหลดธีมจากร้านค้าธีม</string>
+    <string name="resource_exchange_universal_finish">ใช้รหัสนี้เพื่อดาวน์โหลดรายการจากธีม</string>
     <string name="resource_exchange_empty_format">ใส่รหัสของขวัญ</string>
     <string name="resource_exchange_wrong_format_by_local">รูปแบบของรหัสที่คุณใส่ไม่ถูกต้อง</string>
     <string name="resource_exchange_wrong_format_by_server">รหัสไม่ผ่านการยืนยัน ตรวจสอบว่าคุณใส่รหัสถูกต้องแล้ว</string>
@@ -158,7 +158,7 @@
     <string name="resource_exchange_purchase_unkown_error">ขออภัย! มีข้อผิดพลาดเกิดขึ้น กรุณาเข้าระบบที่ http://market.xiaomi.com เพื่อดูสถานะการชำระเงินของคุณ</string>
     <string name="resource_comment_all_comments">ทั้งหมด</string>
     <string name="resource_comment_good_comments">แง่บวก</string>
-    <string name="resource_comment_bad_comments">แง่บวก</string>
+    <string name="resource_comment_bad_comments">แง่ลบ</string>
     <string name="resource_comment_average_score">การจัดอันดับ</string>
     <string name="resource_comment_score_count">%1$s ผู้ใช้</string>
     <string name="resource_comment_no_average_score">ไม่ทราบ</string>
@@ -226,7 +226,7 @@
     <string name="backup_theme_dialog_message">สำรองข้อมูลธีมปัจจุบันไว้ก่อน?</string>
     <string name="backup_theme_progress_message">กำลังสำรองข้อมูล…</string>
     <string name="backup_theme_success_message">สำรองข้อมูลการตั้งค่าธีมปัจจุบันของคุณแล้ว</string>
-    <string name="backup_theme_fail_trial_rights_message">ไม่สามารถสำรองข้อมูลช่วงทดลองใช้</string>
+    <string name="backup_theme_fail_trial_rights_message">ไม่สามารถสำรองข้อมูลรายการทดลองได้</string>
     <string name="backup_theme_name">สำรองข้อมูลธีม</string>
     <string name="theme_description_title_default">ค่าเริ่มต้น</string>
     <string name="theme_description_title_customized">กำหนดเอง</string>
@@ -284,7 +284,7 @@
     <string name="favorite_list">รายการโปรด</string>
     <string name="favorite_list_format">%1$s รายการโปรด</string>
     <string name="purchased_list">ซื้อแล้ว</string>
-    <string name="purchased_list_current">MIUI 8</string>
+    <string name="purchased_list_current">ธีมที่ปรับเปลี่ยนแล้ว</string>
     <string name="purchased_list_legacy">ธีมที่ซื้อไว้</string>
     <string name="my_gifts">ของขวัญ</string>
     <string name="my_gifts_purchased">ซื้อแล้ว</string>
@@ -320,10 +320,10 @@
     <string name="theme_favorite_add_fail">เพิ่มไปยังรายการโปรดไม่ได้</string>
     <string name="theme_favorite_delete_success">ลบออกจากรายการโปรดแล้ว</string>
     <string name="theme_favorite_delete_fail">ไม่สามารถลบออกจากธีมโปรดได้</string>
-    <string name="theme_favorite_list_empty">คุณยังไม่ได้กำหนดธีมใดให้เป็นธีมโปรด</string>
-    <string name="theme_favorite_delete">ยกเลิกเป็นธีมโปรด</string>
+    <string name="theme_favorite_list_empty">คุณยังไม่ได้เพิ่มธีมใด ๆ ในรายการโปรด</string>
+    <string name="theme_favorite_delete">ลบจากรายการโปรด</string>
     <string name="theme_favorite_waiting">รอสักครู่…</string>
-    <string name="theme_empty_redirect">กลับไปยังร้านค้าธีม</string>
+    <string name="theme_empty_redirect">กลับไปที่ธีม</string>
     <string name="theme_purchased_non_local">ออนไลน์</string>
     <string name="theme_purchased_list_empty">คุณไม่ได้ซื้อธีมใดเลย</string>
     <string name="gift_present">ให้ของขวัญ</string>
@@ -358,7 +358,7 @@
     <string name="gift_purchased_list_empty">คุณยังไม่เคยให้ของขวัญ</string>
     <string name="gift_received_list_empty">คุณยังไม่ได้รับของขวัญใดๆเลย</string>
     <string name="gift_received_notification_title">%s มอบธีมมาให้คุณ</string>
-    <string name="present_online_themes">รับธีมเพิ่มเติมได้ฟรี</string>
+    <string name="present_online_themes">รับธีมออนไลน์เพิ่มเติม</string>
     <string name="present_local_themes">แหล่งข้อมูลของฉัน</string>
     <string name="lockscreen_magazine_title">ภาพพื้นหลังรายวัน</string>
     <string name="lockscreen_magazine_summary">หมวดหมู่</string>
@@ -427,19 +427,19 @@
     <string name="find_more_wallpapers">ค้นหาเพิ่มเติม</string>
     <string name="local_photos">รูปภาพในเครื่อง</string>
     <string name="recently_used">ที่ใช้ล่าสุด</string>
-    <string name="system_precust">System precust</string>
-    <string name="wallpaper_settings_loading_text">กำลังโหลด</string>
+    <string name="system_precust">ติตตั้งไว้ก่อนหน้าแล้ว</string>
+    <string name="wallpaper_settings_loading_text">รอสักครู่…</string>
     <string name="wallpaper_settings_no_history">ไม่พบประวัติ</string>
-    <string name="card_loading">กำลังโหลด...</string>
-    <string name="card_no_network">No network now, please connect and try again~</string>
-    <string name="card_data_request_error">Data request exception, please try again later~</string>
-    <string name="card_retry">ลองอีกครั้ง</string>
-    <string name="in_the_end">No more</string>
+    <string name="card_loading">รอสักครู่…</string>
+    <string name="card_no_network">ไม่สามารถเชื่อมต่อเครือข่ายได้ กรุณาตรวจสอบการตั้งค่าเครือข่ายแล้วลองใหม่</string>
+    <string name="card_data_request_error">เกิดข้อผิดพลาด รอประมาณ1-2นาทีแล้วลองใหม่อีกครั้ง</string>
+    <string name="card_retry">ลองใหม่</string>
+    <string name="in_the_end">ไม่มีรายการแสดงเพิ่มเติม</string>
     <string name="item_resource_audio_divider">│</string>
-    <string name="item_resource_audio_optional_color_ring">color ring</string>
-    <string name="item_resource_audio_optional_phone_ring">phone ring</string>
-    <string name="item_resource_audio_optional_alarm_ring">alarm ring</string>
-    <string name="item_resource_audio_optional_notification_ring">notification ring</string>
+    <string name="item_resource_audio_optional_color_ring">เสียงเรียกกลับ</string>
+    <string name="item_resource_audio_optional_phone_ring">เสียงเรียกเข้า</string>
+    <string name="item_resource_audio_optional_alarm_ring">การปลุก</string>
+    <string name="item_resource_audio_optional_notification_ring">การแจ้งเตือน</string>
     <string name="resource_ring_ranking_list_divider">-</string>
     <string name="resource_ring_ranking_list_rank_1">1</string>
     <string name="resource_ring_ranking_list_rank_2">2</string>
@@ -447,4 +447,14 @@
     <string name="ringtone_set_success">ตั้งค่าเรียบร้อย</string>
     <string name="online_precust_peach_blossom">Peach blossom</string>
     <string name="online_precust_asphalt">Asphalt</string>
+    <string name="online_precust_entertainment">บันเทิง</string>
+    <string name="online_precust_scenery">ทัศนียภาพ</string>
+    <string name="online_precust_starry_sky">ท้องฟ้าและดวงดาว</string>
+    <string name="online_precust_plant">พืช</string>
+    <string name="online_precust_animal">สัตว์</string>
+    <string name="online_precust_creative">ความคิดสร้างสรรค์</string>
+    <string name="online_precust_building">อาคาร</string>
+    <string name="online_precust_lifestyle">ไลฟ์สไตล์</string>
+    <string name="online_precust_cartoon">การ์ตูน</string>
+    <string name="region_not_support">ขออภัย ธีมไม่รองรับในพื้นที่ของคุณ</string>
 </resources>

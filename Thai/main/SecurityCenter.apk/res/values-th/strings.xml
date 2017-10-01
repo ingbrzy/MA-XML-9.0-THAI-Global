@@ -841,7 +841,7 @@
     <string name="om_settings_lock_app_manage">ล็อกแอป</string>
     <string name="om_settings_lock_app">ล็อกแอป</string>
     <string name="om_settings_speed_up_auto">เร่งความเร็วอัตโนมัติ</string>
-    <string name="om_settings_memory_clean_lock_screen">ล้างหน่วยความจำแคชเมื่อปิดหน้าจอ</string>
+    <string name="om_settings_memory_clean_lock_screen">ล้างแคชขณะอุปกรณ์ล็อกอยู่</string>
     <string name="om_settings_notify_manage">การแจ้งเตือน</string>
     <string name="om_settings_memory_occupy_notify">ขนาดหน่วยความจำแคชสูง</string>
     <string name="om_settings_memocy_occupy_too_large_summary">แจ้งให้ทราบเมื่อขนาดหน่วยความจำแคชใหญ่เกินไป</string>
@@ -1570,6 +1570,7 @@
     <string name="hints_risk_name_title">ความเสี่ยง:</string>
     <string name="hints_risk_descx_title">คำอธิบาย:</string>
     <string name="button_text_clear">ล้าง</string>
+    <string name="antivirus_main_activity_back">ย้อนกลับสแกนความปลอดภัย</string>
     <string name="toast_removed_from_virus_white_list">ลบจากรายการยกเว้น รายการจะถูกสแกนในเวลาถัดไป</string>
     <string name="long_click_dialog_title">โปรดทราบ</string>
     <string name="long_click_dialog_summary">กดค้างผลลัพธ์ในรายการเพื่อเพิ่มไปยังรายการยกเว้น</string>
@@ -1628,6 +1629,7 @@
     <string name="card_main_deepclean_wechat_action">ล้าง</string>
     <string name="card_main_sectool_title">เครื่องมือ</string>
     <string name="card_main_monthreport_action">เรียกดู</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">ทดสอบเครือข่าย</string>
     <string name="card_main_netcheck_summary">ทดสอบการเชื่อมต่อสำหรับปัญหาเครือข่าย</string>
     <string name="card_main_netcheck_action">ทดสอบ</string>
@@ -1652,6 +1654,7 @@
     <string name="skin_change_close_toast">การเปลี่ยนแปลงจะถูกใช้งานครั้งถัดไป เวลาที่คุณเปิดใช้ความปลอดภัย</string>
     <string name="Setting_lock">การตั้งค่า</string>
     <string name="app_name">เพิ่มล็อก</string>
+    <string name="back_app_name">กลับไปที่ล็อกแอป</string>
     <string name="notification_item">ป้องกันแอปด้วยล็อกแอป</string>
     <string name="lock_mode_title">การตั้งค่าการล็อก</string>
     <string name="after_the_lock_screen">ล็อคแอปพร้อมกับหน้าจอ</string>
@@ -1668,6 +1671,7 @@
     <string name="lockpattern_continue_button_text">ถัดไป</string>
     <string name="lockpattern_confirm_button_text">ตกลง</string>
     <string name="modifypassword">เปลี่ยนรหัสผ่าน</string>
+    <string name="back_modifypassword">กลับไปที่การเปลี่ยนรหัสผ่าน</string>
     <string name="showpattern">แสดงรูปแบบ</string>
     <string name="notification_mask_title">ซ่อนเนื้อหา</string>
     <string name="notification_mask_summary">แสดงเนื้อหาการแจ้งเตือนบนหน้าจอล็อกและในแถบการแจ้งเตือนไม่ได้</string>
@@ -1684,7 +1688,7 @@
     <string name="passwordIncorrect">ชื่อผู้ใช้หรือรหัสผ่านไม่ถูกต้อง</string>
     <string name="access_control_app_is_launching">แอปกำลังเริ่ม</string>
     <string name="access_control_need_to_unlock_nofingerprint">ป้อนรหัสผ่านล็อกแอป</string>
-    <string name="access_control_failed_need_to_unlock_nofingerprint">จำเป็นต้องใช้รหัสผ่านเพื่อเปิดแอป</string>
+    <string name="access_control_failed_need_to_unlock_nofingerprint">วาดรูปแบบปลดล็อกของคุณเพื่อใช้ลายนิ้วมือใหม่</string>
     <string name="access_control_fingerprint_not_identified_msg">ไม่สามารถอ่านลายนิ้วมือได้</string>
     <string name="access_control_need_password">"%sเพิ่มล็อกเรียบร้อยแล้ว
 "</string>
@@ -2008,6 +2012,11 @@
     <string name="net_booster_overdue_notification_tip">เซสชั่นเพิ่มความเร็วเครือข่ายจะสิ้นสุดเร็วๆนี้ ต่ออายุเซสชัน?</string>
     <string name="net_booster_expire_notification">เซสชั่นเพิ่มความเร็วของเครือข่ายกำลังจะจบลง</string>
     <string name="xunyou_pay_webview">บริการ Xunyou</string>
+    <string name="xunyou_server_expired">เซสชั่นหมดอายุ</string>
+    <string name="game_anti_disturb_msg">เกมส์ห้ามรบกวน</string>
+    <string name="gamebooster_main_activity_back">ย้อนกลับไปยังตัวเร่งความเร็วเกม</string>
+    <string name="data_booster_title">ความเสถียรของการเชื่อมต่อข้อมูล</string>
+    <string name="data_booster_desc">ปิดใช้งานช่องใส่ซิมอื่นๆ เพื่อการเชื่อมต่อที่เสถียร</string>
     <string name="power_center_consume_rank">การใช้งานแบตเตอรี่</string>
     <string name="power_center_custom_title">ใช้โหมดพลังงาน</string>
     <string name="power_center_auto_shutdown_summary_default">ตั้งค่าการเปิดหรือปิดเครื่องตามเวลาที่กำหนดไว้ล่วงหน้า</string>

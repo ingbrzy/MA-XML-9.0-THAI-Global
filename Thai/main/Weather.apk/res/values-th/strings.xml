@@ -29,7 +29,7 @@
     <string name="act_weather_find_city_added">เพิ่มเมืองแล้ว</string>
     <string name="activity_weathermain_locationg">ค้นหาตำแหน่งพิกัด…</string>
     <string name="activity_weathermain_locationg_error">ไม่พบตำแหน่งพิกัด</string>
-    <string name="activity_minute_rain_location_fail_msg">"Couldn't find location. Showing Beijing by default."</string>
+    <string name="activity_minute_rain_location_fail_msg">ไม่พบตำแหน่งพิกัด แสดงเป็นปักกิ่ง(ค่าเริ่มต้น)</string>
     <string name="view_forecast_item_yesterday">เมื่อวานนี้</string>
     <string name="view_indexes_item_today">วันนี้</string>
     <string name="view_indexes_item_tommorrow">พรุ่งนี้</string>
@@ -96,7 +96,7 @@
     <string name="information_manager_default_weather_bg">ค่าเริ่มต้นพื้นหลังของสภาพอากาศ</string>
     <string name="activity_main_clickable">></string>
     <string name="aqi_short_desc">AQI %1$s</string>
-    <string name="wind_unit">"%1$s กม./ชม.
+    <string name="wind_unit">"%1$s กม/ชม
 "</string>
     <string name="wind_miles_unit">%1$s ไมล์./ชม.</string>
     <string name="aqi_top_pollution">สารมลพิษหลัก</string>
@@ -187,12 +187,12 @@
     <string name="set_kilometre">กม./ชม.</string>
     <string name="alert_warning">แจ้งเตือนสภาพอากาศ</string>
     <string name="other_warning_settings">แจ้งเตือนอื่นๆ</string>
-    <string name="rainfall_settings_title">Rainfall</string>
-    <string name="rainfall_settings_summary">Rainfall alerts</string>
+    <string name="rainfall_settings_title">ฝนตก</string>
+    <string name="rainfall_settings_summary">แจ้งเตือนฝนตก</string>
     <string name="night_not_disturb_settings_title">ห้ามรบกวนเวลากลางคืน</string>
-    <string name="night_not_disturb_settings_summary">Silence alerts coming between 23:00 and 07:00</string>
+    <string name="night_not_disturb_settings_summary">ปิดเสียงแจ้งเตือนระหว่าง 23:00 - 07:00 น.</string>
     <string name="reminder_from_xiaomi_weather_app">Mi แจ้งเตือนสภาพอากาศ</string>
-    <string name="it_is_going_to_rain">"It's going to rain"</string>
+    <string name="it_is_going_to_rain">ฝนกำลังจะตก</string>
     <string name="your_location">ตำแหน่งพิกัดของคุณ</string>
     <string name="update_setting_title_text">อัพเดทข้อมูลสภาพอากาศ</string>
     <string name="update_night_setting_title_text">อัพเดทคืนนี้โดยอัตโนมัติ</string>

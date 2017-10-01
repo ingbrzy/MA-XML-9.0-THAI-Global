@@ -536,7 +536,7 @@
     <string name="download_all_song">ดาวน์โหลดทั้งหมด</string>
     <string name="sort_by_name">ชื่อ</string>
     <string name="sort_by_time">วันที่</string>
-    <string name="upgrade_remind">พบอัพเดคสำหรับแอป</string>
+    <string name="upgrade_remind">พบอัพเดทสำหรับแอป</string>
     <string name="service_stop">หยุดการให้บริการแล้ว</string>
     <string name="upgrade_suggest">ระบบได้หยุดการให้บริการรับฟังเพลงเนื่องจากข้อขัดข้องทางลิขสิทธิ์ กรุณาอัพเดทแอปเพลงเวอร์ชั่นล่าสุดเพื่อใช้ในการรับฟังเพลงคุณภาพสูง</string>
     <string name="upgrade_force">ระบบได้หยุดการให้บริการรับฟังเพลงเนื่องจากข้อขัดข้องทางลิขสิทธิ์ กรุณาอัพเดทแอปเพลงเวอร์ชั่นล่าสุดเพื่อใช้ในการรับฟังเพลงคุณภาพสูง</string>
@@ -733,6 +733,8 @@
     <string name="more_settings">การตั้งค่าขั้นสูง</string>
     <string name="more_settings_summary">การตั้งค่าดาวน์โหลด, ตั้งเวลาพักหน้าจอ, การจัดการข้อมูลมือถือ, ตัวกรองสำหรับไฟล์ ฯลฯ</string>
     <string name="service_and_settings">บริการและการตั้งค่า</string>
+    <string name="filter_by_size_max">%dMB</string>
+    <string name="filter_by_size_min">%dKB</string>
     <string name="radar">ACRCloud</string>
     <string name="radar_support_by">สนับสนุนโดย ACRCloud</string>
     <string name="radar_listening_state">กำลังตรวจจับ…</string>
@@ -847,8 +849,8 @@
     <string name="talkback_favorite">ถูกใช้เพลงนี้</string>
     <string name="talkback_progress">แถบความคืบหน้า</string>
     <string name="talkback_back">ย้อนกลับ</string>
-    <string name="talkback_nowplaying_circle">Play circle</string>
-    <string name="talkback_nowplaying_bar">Play bar</string>
+    <string name="talkback_nowplaying_circle">บอลเล่น</string>
+    <string name="talkback_nowplaying_bar">บาร์เล่น</string>
     <string name="cloud_music">เพลงใน Mi คลาวด์</string>
     <string name="backup_immediate">สำรองข้อมูล</string>
     <string name="backup_song_title">เลือกเพลงที่จะสำรองข้อมูล</string>

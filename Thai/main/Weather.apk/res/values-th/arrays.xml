@@ -166,7 +166,7 @@
     </string-array>
     <string-array name="wind_unit_replace">
         <item>ระดับ %1$s</item>
-        <item>%1$s กม./ชม.</item>
+        <item>%1$s กม/ชม</item>
         <item>%1$s ม./วิ</item>
         <item>%1$s ไมล์./ชม.</item>
         <item>%1$skn</item>
