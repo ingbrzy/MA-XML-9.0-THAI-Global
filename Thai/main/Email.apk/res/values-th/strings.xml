@@ -464,7 +464,6 @@
     <string name="gmail_web_login_go">ตกลง</string>
     <string name="gmail_web_login_required_message">ลงชื่อเข้าใช้งาน Gmail</string>
     <string name="header_category_account">บัญชี</string>
-    <string name="header_category_general">@string/header_label_general_preferences</string>
     <string name="header_category_other">ข้อเสนอแนะ</string>
     <string name="header_label_general_preferences">ทั่วไป</string>
     <string name="help_and_info">วิธีใช้</string>
@@ -812,10 +811,8 @@
     <string name="recognize_hotel_other_money">ค่าใช้จ่ายอื่นๆ %1$s</string>
     <string name="recognize_hotel_reverse_date">เช็คอินก่อน %1$s:%2$s %3$s</string>
     <string name="recognize_hotel_room_type">ห้อง</string>
-    <string name="recognize_hotel_room_type_value">%1$s × %2$s</string>
     <string name="recognize_hotel_title">จองห้องพัก</string>
     <string name="recognize_hotel_user_names">ผู้เยี่ยมชม</string>
-    <string name="recognize_hotel_user_names_value">%1$s+%2$s</string>
     <string name="recognize_setting_title">การตั้งค่าการเดินทาง</string>
     <string name="recognize_ticket_air_notification_content">ขอให้มีความสุขกับการเดินทาง!</string>
     <string name="recognize_ticket_air_notification_title">เที่ยวบิน %3$s (วันที่ %2$s/%1$s) กำลังจะขึ้นบิน กรุณาตรวจสอบข้อมูลเที่ยวบินของคุณ</string>
@@ -916,7 +913,6 @@
     <string name="silent_ringtone">ปิดเสียง</string>
     <string name="single_new_message_notification_big_text">"%1$s
 %2$s"</string>
-    <string name="single_new_message_notification_title">%1$s: %2$s</string>
     <string name="smtp_password_error">รหัสผ่านสำหรับเซิร์ฟเวอร์อีเมลขาออกไม่ถูกต้อง</string>
     <string name="sort_attachment">เรียงตาม</string>
     <string name="storage">พื้นที่</string>

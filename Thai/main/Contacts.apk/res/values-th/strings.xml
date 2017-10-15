@@ -309,7 +309,6 @@
     <string name="vcard_export_will_start_message">%s จะถูกนำเข้าเร็วๆนี้</string>
     <string name="vcard_export_request_rejected_message">การร้องขอการส่งออก vCard ถูกปฏิเสธ ลองอีกครั้งในภายหลัง</string>
     <string name="vcard_unknown_filename">รายชื่อ</string>
-    <string name="percentage">%s%%</string>
     <string name="confirm_export_title">ส่งออกรายชื่อ?</string>
     <string name="confirm_export_message">รายการรายชื่อของคุณจะถูกส่งออกไปยังไฟล์: %s</string>
     <string name="exporting_contact_failed_title">ไม่สามารถส่งออก</string>
@@ -454,7 +453,6 @@
     <string name="recent">ล่าสุด</string>
     <string name="recent_updates">อัพเดทล่าสุด</string>
     <string name="account_type_format">รายชื่อ %1$s</string>
-    <string name="from_account_format">%1$s</string>
     <string name="use_photo_as_primary">ใช้รูปนี้</string>
     <string name="contact_read_only">ไม่สามารถแก้ไขได้จากแอปนี้</string>
     <string name="no_contact_details">ไม่มีข้อมูลเพิ่มเติมสำหรับรายชื่อนี้</string>
@@ -522,7 +520,6 @@
     <string name="non_phone_add_to_contacts">เพิ่มไปยังรายชื่อที่มีอยู่</string>
     <string name="activity_title_confirm_add_detail">เพิ่มไปยังรายชื่อ</string>
     <string name="non_phone_close">ปิด</string>
-    <string name="widget_name_and_phonetic">%1$s (%2$s)</string>
     <string name="date_year_toggle">ระบุปี</string>
     <string name="social_widget_label">ผู้ติดต่อ</string>
     <string name="social_widget_loading">กำลังโหลด…</string>
@@ -540,7 +537,6 @@
     <string name="toast_text_copied">ข้อความถูกคัดลอกแล้ว</string>
     <string name="cancel_confirmation_dialog_title">ยกเลิก</string>
     <string name="cancel_confirmation_dialog_message">ยกเลิกการเปลี่ยนแปลงหรือไม่</string>
-    <string name="call_type_and_date">%1$s %2$s     </string>
     <string name="profile_display_name">ตั้งค่าโปรไฟล์ของฉัน</string>
     <string name="enter_contact_name">พิมพ์ชื่อบุคคล</string>
     <string name="view_updates_from_group">ดูอัพเดท</string>
@@ -694,7 +690,6 @@
     <string name="miprofile_alertdialog_message">แสดงชื่อนี้ในข้อมูลติดต่อเมื่อคุณได้รับคำขอแลกนามบัตร</string>
     <string name="miprofile_alertdialog_edit">ป้อนชื่อ</string>
     <string name="miprofile_switch_off_alertdialog_message">คุณจะไม่สามารถแลกเปลี่ยนบัตรผู้ติดต่อกับผู้ใช้คนอื่นๆได้</string>
-    <string name="miprofile_delete_alertdialog_message">@string/miprofile_switch_off_alertdialog_message</string>
     <string name="miprofile_bind_account_alertdialog_title">เพิ่มหมายเลขโทรศัพท์</string>
     <string name="miprofile_bind_account_alertdialog_message">คุณต้องระบุหมายเลขโทรศัพท์ของมือถือเครื่องนี้ในบัญชี Mi ก่อนจึงจะใช้บริการนี้ได้</string>
     <string name="miprofile_bind_account_alertdialog_positive">เพิ่มเลขหมาย</string>
@@ -1015,7 +1010,6 @@
     <string name="preference_smart_group_location_summary">จัดกลุ่มตามรหัสพื้นที่</string>
     <string name="preference_smart_group_frequency_title">ล่าสุด</string>
     <string name="preference_smart_group_frequency_summary">จัดกลุ่มตามข้อมูลล่าสุด</string>
-    <string name="smart_group_action_bar_title">%1$s: %2$s (%3$s)</string>
     <string name="smart_group_label">กลุ่มอัจฉริยะ</string>
     <string name="smart_group_loading">รอสักครู่…</string>
     <string name="smart_group_company_label">บริษัท</string>
@@ -1070,7 +1064,6 @@
     <string name="device_import_local_account">บัญชีในเครื่อง</string>
     <string name="import_name">ชื่อ</string>
     <string name="import_percent">0%</string>
-    <string name="percent_sign">%</string>
     <string name="ret_sign">"
 "</string>
     <string name="checkhint">ตรวจสอบโทรศัพท์เป้าหมาย</string>
