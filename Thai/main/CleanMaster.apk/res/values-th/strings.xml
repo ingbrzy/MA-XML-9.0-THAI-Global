@@ -474,4 +474,5 @@
     <string name="app_description_title">เกี่ยวกับตัวทำความสะอาด</string>
     <string name="app_description_content">ตัวทำความสะอาดพบขยะในอุปกรณ์ของคุณและจะทำความสะอาดเพื่อเพิ่มพื้นที่จัดเก็บข้อมูล ตรวจสอบว่าคุณรับรู้และเข้าใจถึงคุณสมบัติเหล่านี้ก่อนที่คุณจะทำการถอนการติดตั้งแอป</string>
     <string name="engine_init">กำลังเริ่มต้น...</string>
+    <string name="international_Ad">Ad</string>
 </resources>

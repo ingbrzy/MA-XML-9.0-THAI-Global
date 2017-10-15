@@ -5,12 +5,14 @@
     <string name="wifi_security_short_wpa">WPA</string>
     <string name="wifi_security_short_wpa2">WPA2</string>
     <string name="wifi_security_short_wpa_wpa2">WPA/WPA2</string>
+    <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
     <string name="wifi_security_short_eap">802.1x</string>
     <string name="wifi_security_none">ไม่มี</string>
     <string name="wifi_security_wep">WEP</string>
     <string name="wifi_security_wpa">WPA PSK</string>
     <string name="wifi_security_wpa2">WPA2 PSK</string>
     <string name="wifi_security_wpa_wpa2">WPA/WPA2 PSK</string>
+    <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
     <string name="wifi_security_eap">802.1x EAP</string>
     <string name="wifi_security_passpoint">Passpoint</string>
     <string name="wifi_security_short_WAPI_PSK">WAPI PSK</string>
@@ -142,7 +144,7 @@
     <string name="keep_screen_on_summary">ไม่พักหน้าจอหากกำลังชาร์จอยู่</string>
     <string name="bt_hci_snoop_log">เปิดใช้บันทึกบลูทูธ HCI</string>
     <string name="bt_hci_snoop_log_summary">บันทึกแพ็คเก็ตบลูทูธ HCI ทั้งหมดเป็นไฟล์</string>
-    <string name="oem_unlock_enable">ยกเลิกล็อก OEM</string>
+    <string name="oem_unlock_enable">ปลดล็อครอมติดเครื่อง</string>
     <string name="oem_unlock_enable_summary">อนุญาตปลดล็อก bootloader</string>
     <string name="confirm_enable_oem_unlock_title">อนุญาตปลดล็อก OEM?</string>
     <string name="confirm_enable_oem_unlock_text">คำเตือน: คุณลักษณะการป้องกันอุปกรณ์จะไม่ทำงานขณะที่การตั้งค่าเปิดอยู่</string>
@@ -417,15 +419,15 @@
     <string name="recents_launch_error_message">ไม่สามารถเริ่ม %s</string>
     <string name="recents_launch_disabled_message">%s ไม่สามารถเปิดใช้งานได้ในโหมดปลอดภัย</string>
     <string name="recents_stack_action_button_label">ลบทั้งหมด</string>
-    <string name="recents_incompatible_app_message">แอปนี้ไม่รองรับการแยกหน้าจอ</string>
+    <string name="recents_incompatible_app_message">แอปนี้ไม่รองรับการแบ่งหน้าจอ</string>
     <string name="recents_drag_hint_message">ลากรายการมาที่นี่</string>
     <string name="recents_multistack_add_stack_dialog_split_horizontal">แบ่งตามแนวนอน</string>
     <string name="recents_multistack_add_stack_dialog_split_vertical">แบ่งตามแนวตั้ง</string>
     <string name="recents_multistack_add_stack_dialog_split_custom">กำหนดเอง</string>
-    <string name="recents_multi_window_mode">หน้าจอแยก</string>
+    <string name="recents_multi_window_mode">แบ่งหน้าจอเป็นสองส่วน</string>
     <string name="recents_exit_multi_window_mode">ออก</string>
     <string name="keyboard_shortcut_group_system_recents">ล่าสุด</string>
-    <string name="accessibility_divider">เส้นแบ่งหน้าจอแยก</string>
+    <string name="accessibility_divider">เส้นแบ่งหน้าจอเป็นสองส่วน</string>
     <string name="accessibility_action_divider_left_full">เต็มจอซ้าย</string>
     <string name="accessibility_action_divider_left_70">ซ้าย 70%</string>
     <string name="accessibility_action_divider_left_50">ซ้าย 50%</string>
@@ -436,8 +438,8 @@
     <string name="accessibility_action_divider_top_50">บน 50%</string>
     <string name="accessibility_action_divider_top_30">บน 30%</string>
     <string name="accessibility_action_divider_bottom_full">เต็มจอล่าง</string>
-    <string name="dock_forced_resizable">แอปนี้อาจจะไม่ทำงานบนหน้าจอแยก</string>
-    <string name="dock_non_resizeble_failed_to_dock_text">แอปนี้ไม่รองรับการแยกหน้าจอ</string>
+    <string name="dock_forced_resizable">แอปนี้อาจไม่รองรับการแบ่งหน้าจอเป็นสองส่วน</string>
+    <string name="dock_non_resizeble_failed_to_dock_text">แอปนี้ไม่รองรับการแบ่งหน้าจอ</string>
     <string name="status_bar_date_format">EEEE d MMMM</string>
     <string name="status_bar_recent_guide_all">"สไลด์ขึ้นเพื่อปิด
 สไลด์ลงเพื่อล็อก"</string>
@@ -534,6 +536,7 @@
     <string name="ext_media_mountable_notification_title">เชื่อมต่ออุปกรณ์ USB แล้ว</string>
     <string name="ext_media_mountable_notification_message">แตะเพื่อเปิดด้วยตัวจัดการไฟล์</string>
     <string name="ext_media_safe_remove">ถอดออกได้อย่างปลอดภัย</string>
+    <string name="network_speed_suffix">%1$s%2$s</string>
     <string name="kilobyte_per_second">K/s</string>
     <string name="megabyte_per_second">M/s</string>
     <string name="status_bar_network_flow_today">วันนี้: %1$s</string>
@@ -590,8 +593,8 @@
     <string name="oldman_incall_text">ในสาย</string>
     <string name="demo_mode">โหมดแสดงตัวอย่าง</string>
     <string name="show_demo_mode">แสดงโหมดแสดงตัวอย่าง</string>
-    <string name="no_multi_window_app">ไม่มีแอปซึ่งรองรับการแยกหน้าจอ</string>
-    <string name="not_support_multi_window">แอปปัจจุบันไม่รองรับการแยกหน้าจอ</string>
+    <string name="no_multi_window_app">ไม่มีแอปซึ่งรองรับการแบ่งหน้าจอ</string>
+    <string name="not_support_multi_window">แอปปัจจุบันไม่รองรับการแบ่งหน้าจอ</string>
     <string name="divider_menu_swap_task">สลับ</string>
     <string name="divider_menu_select_apps">เลือก</string>
     <string name="divider_menu_close">ปิด</string>
@@ -613,6 +616,7 @@
     <string name="notification_header_title">การแจ้งเตือน</string>
     <string name="weather_publish_time">อัพเดทล่าสุด %1$s</string>
     <string name="no_weather_description">ขอรับข้อมูลสภาพอากาศ ></string>
+    <string name="weather_description_no_aqi">%1$s</string>
     <string name="screenshot_long_screenshot">แนวยาว</string>
     <string name="screenshot_edit">แก้ไข</string>
     <string name="screenshot_send">ส่ง</string>
@@ -625,7 +629,7 @@
     <string name="long_screenshot_stop">เสร็จสิ้น</string>
     <string name="long_screenshot_processing">กำลังประมวล…</string>
     <string name="long_screenshot_top_msg">กำลังสร้างภาพหน้าจอ…</string>
-    <string name="long_screenshot_top_msg_manual">ถ่ายภาพหน้าจอและแตะปุ่มเสร็จสิ้น</string>
+    <string name="long_screenshot_top_msg_manual">กำหนดระยะขอบของภาพแล้วแตะปุ่มเสร็จสิ้น</string>
     <string name="long_screenshot_out_of_memory_error">ขนาดรูปภาพใหญ่เกินไป</string>
     <string name="screenshot_insert_failed">ไม่สามารถโหลดภาพหน้าจอได้ ดำเนินการใหม่อีกครั้งหรือเรียกดูรูปภาพจากคลังภาพ</string>
     <string name="float_incall_message">ข้อความ</string>
@@ -645,9 +649,9 @@
     <string name="accessibility_settings">การตั้งค่า</string>
     <string name="accessibility_search_scanner">ตัวสแกน</string>
     <string name="accessibility_brightness_slider">แถบเลื่อนความสว่าง</string>
-    <string name="click_to_return_multi_window">แตะเพื่อย้อนกลับหน้าจอแยก</string>
+    <string name="click_to_return_multi_window">แตะเพื่อย้อนไปหน้าแบ่งจอ</string>
     <string name="recent_dock_tip">แตะเพื่อเลือกแอป</string>
-    <string name="dock_keyguard_locked_failed_to_dock_text">หน้าจอแยกไม่รองรับบนหน้าจอล็อก</string>
+    <string name="dock_keyguard_locked_failed_to_dock_text">ไม่สามารถแบ่งหน้าจอขณะล็อกหน้าจออยู่</string>
     <string name="un_important_notifications">การแจ้งเตือนที่ไม่สำคัญ</string>
     <string name="as_important">สำคัญ</string>
     <string name="as_unimportant">ไม่สำคัญ</string>
@@ -655,4 +659,5 @@
     <string name="unimportant_desc">การแจ้งเตือนที่ไม่สำคัญทั้งหมดจะปรากฏในโฟลเดอร์แยก</string>
     <string name="important_desc">การแจ้งเตือนที่สำคัญทั้งหมดจะปรากฏโดยตรงในแถบการแจ้งเตือน</string>
     <string name="cancel">ยกเลิก </string>
+    <string name="search_hint">Search for websites, apps, contacts, videos...</string>
 </resources>

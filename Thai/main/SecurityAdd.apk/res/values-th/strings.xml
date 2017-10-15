@@ -39,7 +39,7 @@
     <string name="pc_activity_title">เพิ่มประสิทธิภาพของแบตเตอรี่</string>
     <string name="game_booster">ตัวเร่งความเร็วในการเล่นเกม</string>
     <string name="game_booster_title">เพิ่ม</string>
-<string name="top_game"/>
+    <string name="top_game">เกมส์ยอดนิยม</string>
     <string name="game_setting">ตั้งค่าเกมส์</string>
     <string name="gs_auto_clean_memory">ล้างหน่วยความจำแคช</string>
     <string name="gs_auto_clean_memory_detail">ล้างหน่วยความจำแคชโดยอัตโนมัติเพื่อเพิ่มประสิทธิภาพการเล่นเกม</string>

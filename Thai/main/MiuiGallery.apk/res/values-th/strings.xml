@@ -123,6 +123,7 @@
     <string name="more_face">ผู้คนมากมายใครที่เหมือนกัน</string>
     <string name="face_confirm">นี้เป็นบุคคลคนคล้ายกัน</string>
     <string name="face_recommend">ข้อเสนอแนะ</string>
+    <string name="face_recommend_group_number">%1$d/%2$d</string>
     <string name="face_name_input">ป้อนชื่อ</string>
     <string name="face_name_edit">แก้ไข</string>
     <string name="confirm_hidden_recommend_group">ตกลง</string>
@@ -417,6 +418,7 @@
     <string name="gigabyteShort">GB</string>
     <string name="terabyteShort">TB</string>
     <string name="petabyteShort">PB</string>
+    <string name="fileSizeSuffix">%1$s%2$s</string>
     <string name="tip_capture_time">ถ่ายเมื่อ:</string>
     <string name="tip_file_info">ข้อมูลไฟล์</string>
     <string name="tip_capture_params">ข้อมูล EXIF:</string>
@@ -585,7 +587,7 @@
     <string name="slim_after_backuped_summary">เปลี่ยนรูปความละเอียดเต็มเป็นเวอร์ชั่นปรับปรุงหลังจากทำการสำรองข้อมูลไปยัง Mi คลาวด์ รูปความละเอียดเต็มจะยังคงถูกเก็บไว้บน Mi คลาวด์ นี่จะช่วยให้คุณสามารถประหยัดพื้นที่จัดเก็บในเครื่องได้มาก</string>
     <string name="browse_category_title">เรียกดู</string>
     <string name="show_hidden_album_title">แสดงอัลบั้มที่ซ่อน</string>
-    <string name="slideshow_interval_title">แสดงแต่ละสไลด์เป็น</string>
+    <string name="slideshow_interval_title">ระยะเวลาที่แสดงแต่ละสไลด์</string>
     <string name="slideshow_interval_value">%1$d วินาที</string>
     <string name="slideshow_interval_dialog_title">ป้อนระยะเวลา</string>
     <string name="slideshow_interval_invalid">ช่วงเวลาจะต้องอยู่ระหว่าง 1~3600 วินาที</string>
@@ -600,6 +602,7 @@
     <string name="welcome_to_slim">ปรับแต่งพื้นที่จัดเก็บในเครื่อง</string>
     <string name="slim_introduce">เปลี่ยนรูปความละเอียดเต็มเป็นเวอร์ชั่นปรับปรุงหลังจากทำการสำรองข้อมูลไปยัง Mi คลาวด์ รูปความละเอียดเต็มจะยังคงถูกเก็บไว้บน Mi คลาวด์</string>
     <string name="slim_introduce_with_specific_size">เปลี่ยนไฟล์ความละเอียดเต็มเป็นเวอร์ชั่นปรับปรุงหลังจากทำการสำรองข้อมูลไปยัง Mi คลาวด์ รูปความละเอียดเต็มจะยังคงถูกเก็บไว้บน Mi คลาวด์ นี่จะช่วยให้คุณสามารถประหยัดพื้นที่ได้ %1$s (ต้องใช้บัญชี Mi)</string>
+    <string name="welcome_to_auto_backup">@string/welcome_to_micloud</string>
     <string name="auto_backup_introduce">สำรองข้อมูลรูปภาพและวิดีโอโดยอัตโนมัติ (ต้องใช้บัญชี Mi)</string>
     <string name="next">ถัดไป</string>
     <string name="login_and_enable_service">ลงชื่อเข้าใช้ด้วยบัญชี Mi</string>
@@ -676,6 +679,7 @@
     <string name="cloud_storage_ok_append_desc">ใช้งานได้ %s</string>
     <string name="cloud_storage_warn_title">ที่จัดเก็บข้อมูล Mi คลาวด์ ไม่เพียงพอ</string>
     <string name="cloud_storage_warn_desc">ซื้อ VIP คลาวด์เพื่อที่จัดเก็บข้อมูลพิเศษ</string>
+    <string name="percent_sign">%</string>
     <string name="cloud_storage_extend">ขยายพื้นที่จัดเก็บคลาวด์</string>
     <string name="user_agreement2">เงื่อนไขการให้บริการ</string>
     <string name="user_agreement4">นโยบายความเป็นส่วนตัว</string>
@@ -779,11 +783,13 @@
     <string name="search_net_error">เกิดข้อผิดพลาดเกี่ยวกับเครือข่าย เชื่อมต่อเครือข่ายอื่นและลองอีกครั้ง</string>
     <string name="search_select_network">เลือกเครือข่าย</string>
     <string name="search_title_suggestion">ข้อเสนอแนะ</string>
-    <string name="search_setting_title">ค้นหารูปภาพในคลังภาพ</string>
-    <string name="search_setting_sub_title">ปรับปรุงการค้นหารูปภาพ</string>
+    <string name="search_setting_title">สืบค้นรูปภาพจากคลังภาพ</string>
+    <string name="search_setting_sub_title">พัฒนาวิธีการสืบค้นรูปภาพ</string>
     <string name="search_setting_sub_title_open">ใช้งานแล้ว กรุณารอสักครู่ก่อนที่คุณจะเริ่มต้น</string>
     <string name="search_request_open">เข้าร่วมทีมทดสอบ</string>
     <string name="search_title_more">เพิ่มเติม</string>
+    <string name="search_transition_element_input">search_input</string>
+    <string name="search_transition_element_icon">search_icon</string>
     <string name="search_mark_feedback_false_positive_title">ซ่อมแซม</string>
     <string name="search_mark_feedback_all_false_negative_title">ทั้งหมดคือ \"%s\"</string>
     <string name="search_mark_feedback_false_negative_title">ตกลก</string>

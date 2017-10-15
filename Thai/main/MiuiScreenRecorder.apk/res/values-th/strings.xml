@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">เครื่องบันทึกหน้าจอ</string>
+    <string name="app_name">บันทึกวิดีโอหน้าจอ</string>
     <string name="app_info">กำลังบันทึก แตะเพื่อหยุด</string>
-    <string name="app_notification_title">เครื่องบันทึกเสียงหน้าจอ</string>
+    <string name="app_notification_title">บันทึกวิดีโอหน้าจอ</string>
     <string name="screen_record_params">คุณภาพการบันทึก</string>
     <string name="resolution">ความละเอียด</string>
     <string name="resolution_summary">วิดีโอที่มีความละเอียดสูงดูคมชัดขึ้น</string>
@@ -22,7 +22,7 @@
     <string name="stop_record_while_locking">หยุดบันทึกเมื่อล็อกหน้าจอ</string>
     <string name="stop_record_while_locking_summary">จบการบันทึกและบันทึกวิดีโอเมื่อหน้าจอถูกปิด</string>
     <string name="gleam_led_while_recording">กระพริบไฟสถานะขณะกำลังบันทึก</string>
-    <string name="quit_recording">ออกจากบันทึกหน้าจอ</string>
+    <string name="quit_recording">ยุติการบันทึกวิดีโอหน้าจอ</string>
     <string name="timer_format">%s</string>
     <string name="no_recorder_info">ไม่มีวิดีโอ</string>
     <string name="no_recorder_info2">แตะปุ่มเพื่อเริ่มบันทึก</string>

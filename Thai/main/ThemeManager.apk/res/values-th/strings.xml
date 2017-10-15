@@ -298,6 +298,7 @@
     <string name="theme_batch_update_dlg_content_single">อัพเดท %1$s ธีมตอนนี้?</string>
     <string name="theme_current_using_has_update">มีธีมให้อัพเดท</string>
     <string name="theme_immediately_apply_tip">ใช้ธีมที่อัพเดททันทีหรือไม่?</string>
+    <string name="theme_name">%1$s</string>
     <string name="theme_fresh_man_notifaction">มีธีมใหม่</string>
     <string name="selected_resource_file_invalid">ไม่สามารถใช้งานไฟล์ที่เลือกได้</string>
     <string name="apply_theme_with_ringtones">เลือกใช้ริงโทนของธีม</string>
@@ -456,4 +457,7 @@
     <string name="online_precust_lifestyle">ไลฟ์สไตล์</string>
     <string name="online_precust_cartoon">การ์ตูน</string>
     <string name="region_not_support">ขออภัย ธีมไม่รองรับในพื้นที่ของคุณ</string>
+    <string name="hide_free">"Hide free "</string>
+    <string name="hide_incompatible">"Hide incompatible "</string>
+    <string name="current_version_incompatible">Incompatibility version</string>
 </resources>
