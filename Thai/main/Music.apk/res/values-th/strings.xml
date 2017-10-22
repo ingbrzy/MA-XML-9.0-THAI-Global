@@ -501,7 +501,6 @@
     <string name="set_id3_failed">ไม่สามารถจัดเก็บข้อมูลได้</string>
     <string name="set_id3_not_support_format">แก้ไขรูปแบบไฟล์นี้ไม่ได้</string>
     <string name="set_id3_not_have_read_or_write_permission">คุณไม่ได้รับอนุญาตให้แก้ไขไฟล์นี้</string>
-    <string name="listview_index_of_total">%1$d/%2$d</string>
     <string name="lyric_setting">การตั้งค่าเนื้อเพลง</string>
     <string name="modify_lyric">แก้ไขเนื้อเพลง</string>
     <string name="modify_progress">เปลี่ยนความเร็วในการเลื่อนเนื้อเพลง</string>
