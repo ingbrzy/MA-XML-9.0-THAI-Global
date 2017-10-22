@@ -91,7 +91,7 @@
         <item quantity="other">เลิกบล็อก %1$d หมายเลขโทรศัพท์?</item>
     </plurals>
     <plurals name="callNoAnswerTimeFormat">
-        <item quantity="other">เล่น %1$d ครั้ง</item>
+        <item quantity="other">เสียงเรียกเข้า %1$d ครั้ง</item>
     </plurals>
     <plurals name="contacts_count">
         <item quantity="other">%1$dรายชื่อ</item>

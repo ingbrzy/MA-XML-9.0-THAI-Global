@@ -205,7 +205,7 @@
     <string name="do_not_support_video_calls_by_remote">วิดีโอคอลไม่รองรับบนอุปกรณ์ของอีกฝ่าย</string>
     <string name="close_camera_requesting">กำลังปิดกล้อง…</string>
     <string name="close_camera_failed">ปิดใช้งานกล้องไม่ได้…</string>
-    <string name="change_to_voice_tips_when_background">The other party has switched to voice call</string>
+    <string name="change_to_voice_tips_when_background">ฝ่ายตรงข้ามสลับเป็นวอยซ์คอล</string>
     <string name="call_button_tools_text">คุณลักษณะ</string>
     <string name="call_button_dialer_text">แป้นพิมพ์</string>
     <string name="call_button_mute_text">ปิดเสียง</string>

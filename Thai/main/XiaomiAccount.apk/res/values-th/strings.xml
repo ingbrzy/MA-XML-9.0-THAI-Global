@@ -327,7 +327,7 @@
     <string name="loading_micloud_sync_data">รอสักครู่…</string>
     <string name="activity_not_found_notice">ไม่พบแอป</string>
     <string name="scan_barcode_title">เข้าสู่ระบบบัญชีของ Mi โดยการสแกนรหัส QR</string>
-    <string name="talkback_scan_barcode">scan the QR code</string>
+    <string name="talkback_scan_barcode">สแกนรหัส QR</string>
     <string name="authorize_title">การอนุมัติ</string>
     <string name="my_device_title">เครื่องของฉัน</string>
     <string name="device_list_title">อุปกรณ์ของฉัน</string>

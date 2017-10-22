@@ -161,6 +161,7 @@
     <string name="gigabyteShort">GB</string>
     <string name="terabyteShort">TB</string>
     <string name="petabyteShort">PB</string>
+    <string name="fileSizeSuffix">%1$s %2$s</string>
     <string name="tab_local">ในเครื่อง</string>
     <string name="sys_size_enable">" พร้อมใช้งาน"</string>
     <string name="tools">เครื่องมือ</string>
@@ -420,6 +421,7 @@
     <string name="video_upload_btn_hint">วิดีโอ MP4 จะต้องมีความยาว 3วิ ~ 10นาที</string>
     <string name="video_upload_btn">ถัดไป</string>
     <string name="video_upload_title">เลือกวิดีโอ</string>
+    <string name="video_upload_item_title">%1$s (%2$s)</string>
     <string name="video_comment_topic">\#เพิ่มหัวข้อ#</string>
     <string name="video_comment_hint">เลือกหัวข้อ</string>
     <string name="video_comment_publish">ส่ง</string>
@@ -493,6 +495,7 @@
     <string name="video_topic_hint">ค้นหาบุคคลหรือหัวข้อ</string>
     <string name="comment_reply">ตอบกลับ %1$s:</string>
     <string name="comment_hint">เพิ่มความคิดเห็น</string>
+    <string name="origin_name">%1$s: </string>
     <string name="hot_comments">ความคิดเห็นยอดนิยม</string>
     <string name="new_comments">ความคิดเห็นใหม่</string>
     <string name="copy_text">คัดลอกข้อความ</string>
@@ -752,6 +755,7 @@
     <string name="finish_str">เสร็จสิ้น</string>
     <string name="tab_msg">ข้อความ</string>
     <string name="msg_page_video_default_title">ฉันได้อัพโหลดวิดีโอแล้ว ลองมาดูสิ!</string>
+    <string name="recommend_users">%1$s+</string>
     <string name="follow_success_tip">ติดตามเรียบร้อย</string>
     <string name="comment_fail">ไม่สามารถเผยแพร่ความคิดเห็นได้ ลองอีกครั้ง</string>
     <string name="comment_fail_banned_temporary">คุณได้รับอนุญาตชั่วคราวสำหรับความคิดเห็นที่ไม่เหมาะสม</string>

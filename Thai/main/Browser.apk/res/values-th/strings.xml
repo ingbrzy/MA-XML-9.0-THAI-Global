@@ -23,10 +23,14 @@
     <string name="action_menu_account_not_login_hint">ลงชื่อเข้าใช้เพื่อซิงค์กับ Mi คลาวด์</string>
     <string name="action_menu_bookshelf">ชั้นหนังสือ</string>
     <string name="action_menu_current_version">เวอร์ชั่นปัจจุบัน</string>
+    <string name="action_menu_request_desktop_site">ร้องขอไซต์เดสทอป</string>
+    <string name="action_menu_request_desktop_site_off">ร้องขอไซต์เดสทอป/ปิด</string>
+    <string name="action_menu_request_desktop_site_on">ร้องขอไซต์เดสทอป/เปิด</string>
     <string name="action_menu_text_add_bookmark">เพิ่มคั่นหน้า</string>
     <string name="action_menu_text_bandwidth">ประหยัดข้อมูล</string>
     <string name="action_menu_text_bandwidth_off">ประหยัดข้อมูล</string>
     <string name="action_menu_text_bandwidth_on">ประหยัดข้อมูล</string>
+    <string name="action_menu_text_bookmark_add_off">ไม่มีหน้าเว็บที่สามารถเพิ่มได้</string>
     <string name="action_menu_text_bookmark_added">เพิ่มหน้าที่คั่นแล้ว</string>
     <string name="action_menu_text_copy_url">คัดลอก URL</string>
     <string name="action_menu_text_create_qr_code">รหัส QR</string>
@@ -61,6 +65,7 @@
     <string name="add_favorites_to">เพิ่มไปยังรายการโปรด</string>
     <string name="add_new_bookmark">เพิ่มคั่นหน้า</string>
     <string name="add_new_quicklink">เพิ่มในหน้าเริ่มต้น</string>
+    <string name="add_pwa_to_homescreen">เพิ่มเว็บนี้ไว้ในหน้าจอหลัก?</string>
     <string name="add_ql_bm_title">บันทึก</string>
     <string name="add_quicklink_to_popular">เพิ่มในหน้าเริ่มต้น</string>
     <string name="add_quicklinks">เพิ่ม</string>
@@ -74,6 +79,7 @@
     <string name="added_to_bookmarks">เพิ่มไปยังหน้าที่คั่น</string>
     <string name="adjust_text_zoom_toast">การขยายขนาดข้อความด้วยการซูมอาจทำให้การแสดงผลของบางหน้าเว็บไซต์ผิดเพี้ยนได้</string>
     <string name="agree">เห็นด้วย</string>
+    <string name="agree_permissions_request">ยอมรับ</string>
     <string name="alert_tips">เว็บไซต์นี้อาจมีความเสี่ยงด้านความปลอดภัย</string>
     <string name="allow">อนุญาต</string>
     <string name="app_new_version">เวอร์ชั่นล่าสุดของแอปติดตั้งไว้อยู่แล้ว</string>
@@ -132,6 +138,7 @@
     <string name="browserFrameFormResubmitMessage">คุณได้ส่งข้อมูลของหน้าเพจที่คุณกำลังจะเรียกดูอีกครั้งไปแล้ว หากคุณส่งข้อมูลซ้ำอีก อาจเป็นการส่งข้อมูลซ้ำ (อาทิ การค้นหา หรือการสั่งซื้อ) โดยไม่พึงประสงค์ได้</string>
     <string name="browserFrameNetworkErrorLabel">การเชื่อมต่อผิดพลาด</string>
     <string name="cancel">ยกเลิก</string>
+    <string name="cancle_sync_cloud_tabs">ยกเลิกการซิงค์</string>
     <string name="cannot_download">สามารถดาวน์โหลดได้แค่ลิงก์ \"http\" หรือ \"https\" เท่านั้น</string>
     <string name="choosertitle_sharevia">แชร์ผ่าน</string>
     <string name="clear_history">ล้างประวัติ</string>
@@ -167,6 +174,7 @@
     <string name="color_picker_dialog_title">เลือกสี</string>
     <string name="color_picker_hue">โทนสี</string>
     <string name="color_picker_saturation">ความอิ่มสี</string>
+    <string name="color_picker_value">ค่าสี</string>
     <string name="comment_app_menu">ข้อคิดเห็น</string>
     <string name="comment_description">ความคิดเห็น</string>
     <string name="comment_hint">ความคิดเห็น</string>
@@ -183,6 +191,7 @@
     <string name="contextmenu_manually_block_ad">ติดป้ายว่าเป็นโฆษณา</string>
     <string name="contextmenu_map">แผนที่</string>
     <string name="contextmenu_openlink">เปิด</string>
+    <string name="contextmenu_openlink_in_browser">เปิดในเบราว์เซอร์</string>
     <string name="contextmenu_openlink_newwindow">เปิดในแท็บใหม่</string>
     <string name="contextmenu_openlink_newwindow_background">เปิดในแท็บพื้นหลัง</string>
     <string name="contextmenu_recognise_qr_code">สแกนรหัส QR</string>
@@ -192,7 +201,7 @@
     <string name="contextmenu_share_image">แชร์รูปภาพ</string>
     <string name="contextmenu_sharelink">แชร์ลิงก์</string>
     <string name="contextmenu_view_image">เรียกดูรูปภาพ</string>
-    <string name="contextmenu_webpage_capture">บันทึกเป็นภาพหน้าจอ</string>
+    <string name="contextmenu_webpage_capture">จับภาพหน้าจอ</string>
     <string name="contextmenu_webpage_html">บันทึกเป็นไฟล์ HTML</string>
     <string name="contextmenu_webpage_snapshot">บันทึกหน้านี้ไว้</string>
     <string name="copy_to_clipboard_failure_message">ไม่สามารถคัดลอกไปยังคลิปบอร์ดได้</string>
@@ -285,6 +294,9 @@
     <string name="edit_quicklink">แก้ไข</string>
     <string name="empty_app_name">แอปอื่นๆ</string>
     <string name="empty_bookmark">ว่าง</string>
+    <string name="empty_cloud_tab_login_hint">ไม่มีแถบคลาวด์</string>
+    <string name="empty_cloud_tab_logout_hint">"ลงชื่อเข้าใช้บัญชี Mi 
+ แตะเปิดในอุปกรณ์อื่นเพื่อให้ซิงค์มาที่นี่"</string>
     <string name="empty_history_hint">ไม่มีประวัติ</string>
     <string name="empty_snapshot_hint">ว่าง</string>
     <string name="enable_geolocation_confirm_message">การปิดให้บริการตำแหน่งพิกัดจะมีผลกระทบข้อเสนอแนะที่คุณได้รับ</string>
@@ -308,6 +320,7 @@
     <string name="find_on_page_next">ถัดไป</string>
     <string name="find_on_page_prev">ย้อนกลับ</string>
     <string name="find_previous">ค้นหาก่อนหน้า</string>
+    <string name="finish_sync_cloud_tabs">ซิงค์เรียบร้อยแล้ว</string>
     <string name="firstUsingSearchEngineTips">เปลี่ยนเครื่องมือค้นหาหรือไม่?</string>
     <string name="fling_on_border_gesture_hint">คุณสามารถเลือกฟังก์ชันของท่าทางในการตั้งค่า</string>
     <string name="force_quick_search_title">ค้นหา</string>
@@ -341,6 +354,7 @@
     <string name="homepage_more_sites">เพิ่มเว็บไซต์</string>
     <string name="homepage_search_hint">ค้นหา</string>
     <string name="homepage_top_card_menu">บน</string>
+    <string name="ignore_add_pwa_dialog_today">ไม่ต้องแสดงวันนี้</string>
     <string name="in_incognito">ไม่เปิดเผยตัว! เว็บเพจที่คุณเห็นในแท็บนี้จะไม่ปรากฎในประวัติเบราเซอร์</string>
     <string name="in_secureaccess">เบราว์เซอร์อยู่ในโหมดปลอดภัย</string>
     <string name="isReplacePage">มีไฟล์นี้อยู่ก่อนแล้ว แทนที่?</string>
@@ -550,9 +564,12 @@
     <string name="pay_failed_toast">การชำระเงินไม่สำเร็จ</string>
     <string name="pay_success_toast">ชำระเรียบร้อยแล้ว</string>
     <string name="permission_alert_window">อนุญาตป๊อบอัพวินโดวส์เพื่อใช้คุณลักษณะนี้</string>
+    <string name="permission_notification">ส่งการแจ้งเตือน</string>
     <string name="permission_unknown">ไม่ทราบการดำเนินการ</string>
+    <string name="permissions_prompt_message">"%s ต้องการ "</string>
     <string name="popup_window_attempt">อนุญาตให้เว็บไซต์นี้เปิดหน้าต่างป๊อปอัพ?</string>
     <string name="positive_confirm_message">ปิดใช้งานไม่ว่ายังไง</string>
+    <string name="pref_accept_quicklink_push">หน้าเริ่มต้นแนะนำ</string>
     <string name="pref_accessibility">สิ่งอำนวยความสะดวก</string>
     <string name="pref_accessibility_title">สิ่งอำนวยความสะดวก</string>
     <string name="pref_accessibility_url_shortcut_enter_summary">การผสมตัวอักษรที่ใช้บ่อยสามารถป้อนในแอดเดรสบาร์ด้วยการกดครั้งเดียว</string>
@@ -592,7 +609,7 @@
     <string name="pref_extras_reset_default_summary">เรียกคืนค่าเริ่มต้น</string>
     <string name="pref_extras_reset_default_title">อื่นๆ</string>
     <string name="pref_extras_send_feedback">ส่งข้อเสนอแนะ</string>
-    <string name="pref_extras_title">ขั้นสูง</string>
+    <string name="pref_extras_title">การตั้งค่าขั้นสูง</string>
     <string name="pref_extras_title_version">ข้อมูลเวอร์ชั่น</string>
     <string name="pref_file_downlaod_save_is_reset_default_settings">จัดเก็บไฟล์ไปยังตำแหน่งที่เป็นค่าเริ่มต้นของเบราว์เซอร์</string>
     <string name="pref_file_downlaod_save_reset_default_settings">เรียกคืนตำแหน่งที่เป็นค่าเริ่มต้น</string>
@@ -663,12 +680,14 @@
     <string name="progress_dialog_setting_wallpaper">กำลังตั้งค่าภาพพื้นหลัง…</string>
     <string name="pull_to_refresh_pull_label">ลางลงเพื่อรีเฟรช</string>
     <string name="pull_to_refresh_release_label">ปล่อยเพื่อทำการแนะนำและรีเฟรช</string>
+    <string name="pwa_app_name">แอปท่องเว็บ</string>
     <string name="qr_code_title">รหัส QR</string>
     <string name="qr_description">สแกนรหัส QR</string>
     <string name="quicklink_bookmark_save">บันทึกไปยัง</string>
     <string name="quicklink_cannot_save_url">ไม่สามารถเพิ่มหน้าลิงก์ URL นี้ได้</string>
     <string name="quicklink_folder_text">แอปยอดนิยม</string>
     <string name="quicklink_not_saved">ไม่สามารถเพิ่มไปยังหน้าแรกได้</string>
+    <string name="quicklink_push_confirm_message">การปิดคุณลักษณะนี้จะมีผลต่อหน้าเริ่มต้นแนะนำ</string>
     <string name="quicklink_saved">บันทึกไว้บนหน้าเริ่มต้น</string>
     <string name="quicklink_saved_before">เว็บไซต์นี้ได้ถูกเพิ่มแล้ว</string>
     <string name="quicklink_user_define_webpage_title">ชื่อ</string>
@@ -691,6 +710,7 @@
     <string name="readmode_recommend_message">คุณได้อ่านหนังสือเล่มนี้เรียบร้อยแล้ว :)</string>
     <string name="readmode_refresh">รีเฟรช</string>
     <string name="readmodelist_bookmarks_to_show">รายการอ่าน</string>
+    <string name="refuse_permissions_request">ปฏิเสธ</string>
     <string name="remember_passwords_confirm_message">การปิดคุณลักษณะนี้จะมีผลต่อการใช้งาน</string>
     <string name="remove_bookmark">ลบหน้าที่คั่น</string>
     <string name="remove_bookmark_group">ลบกลุ่ม</string>
@@ -801,16 +821,24 @@
     <string name="suggest_access_btn_play">เล่น</string>
     <string name="suggest_access_btn_view">ดู</string>
     <string name="suggest_access_item_album_songs">%d เพลง</string>
+    <string name="suggest_access_item_app_mark">แอป</string>
     <string name="suggest_access_item_app_size">%.2fMB</string>
     <string name="suggest_access_item_app_update">อัพเดท: %s</string>
+    <string name="suggest_access_item_book_mark">มาร์ก</string>
+    <string name="suggest_access_item_mina_mark">บริการโดยตรง</string>
+    <string name="suggest_access_item_music_mark">เพลง</string>
     <string name="suggest_access_item_singer_albums">%d อัลบั้ม</string>
     <string name="suggest_access_item_singer_pop">เพลงยอดนิยม %d เพลง</string>
+    <string name="suggest_access_item_site_mark">ไซต์</string>
+    <string name="suggest_access_item_video_mark">วิดีโอ</string>
+    <string name="suggest_access_item_website_mark">เว็บไซต์</string>
     <string name="suggest_access_music">เพลง Mi</string>
     <string name="suggest_item_delete_text">ลบ</string>
     <string name="suggest_open_app_failed">ไม่สามารถเปิดแอปนี้ได้</string>
     <string name="switchText">ใช่</string>
     <string name="switch_proxy_dialog_msg">ตรวจพบการจารกรรมเครือข่าย ใช้แอปความปลอดภัยที่มากับตัวเครื่องหรือรายงานสิ่งนี้ไปยังผู้ให้บริการเครือข่ายของคุณ</string>
     <string name="switch_proxy_dialog_title">การจารกรรมเครือข่าย</string>
+    <string name="sync_cloud_tabs">ซิงค์</string>
     <string name="tab_hotpage">ฟีดข่าว</string>
     <string name="tab_quicklinks">หน้าเริ่มต้น</string>
     <string name="tab_yellowpage">ลิงก์</string>

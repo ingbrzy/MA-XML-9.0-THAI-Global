@@ -178,6 +178,7 @@
     <string name="file_size">ขนาด:</string>
     <string name="file_title">ชื่อ:</string>
     <string name="file_width_height">ขนาด:</string>
+    <string name="flatshow_page_no">%1$d</string>
     <string name="force_touch_new_message_title">ข้อความใหม่</string>
     <string name="forward_from">ส่งต่อจาก:</string>
     <string name="forward_prefix">"ส่งต่อ: "</string>
@@ -250,7 +251,7 @@
     <string name="message_number">หมายเลขโทรศัพท์:</string>
     <string name="message_pending">กำลังส่ง</string>
     <string name="message_queued">ไม่สามารถส่งข้อความของคุณตอนนี้ ระบบจะดำเนินการส่งส่งเมื่อบริการพร้อมใช้งาน</string>
-    <string name="message_queued_second_space">ไม่สามารถส่งข้อความของคุณได้ในขณะนี้ กรุณาเปิดเครือข่ายข้อมูล</string>
+    <string name="message_queued_second_space">ไม่สามารถส่งข้อความ เปิดข้อมูลมือถือที่จะส่ง</string>
     <string name="message_readed">อ่านแล้ว</string>
     <string name="message_received">ได้รับแล้ว</string>
     <string name="message_rejected">ปฏิเสธ</string>
@@ -300,9 +301,6 @@
     <string name="mx_activate_status_desc_query_activte_info">กำลังตรวจสอบข้อมูลซิมการ์ด…</string>
     <string name="mx_activate_status_desc_request_activation_sms_phone_error">หมายเลขโทรศัพท์ที่คุณป้อนไม่ถูกต้อง</string>
     <string name="mx_activate_status_desc_wait_for_sms_fail">ไม่สามารถเปิดใช้งานข้อความ Mi ได้</string>
-    <string name="mx_and_voip_enable">ข้อความและเสียง Mi</string>
-    <string name="mx_and_voip_enable_popup_msg">ส่งข้อความและโทรหาผู้ใช้ MIUI ด้วยกันโดยไม่ต้องเสียค่าบริการเพิ่มเติมจากทางผู้ให้บริการเครือข่ายของคุณ โดยการโทรผ่านเน็ตนี้ได้รับการสนับสนุนจาก Weihui ดูเพิ่มเติมได้ที่นโยบายความเป็นส่วนตัวของทาง Weihui</string>
-    <string name="mx_and_voip_enable_popup_msg2">นโยบายความเป็นส่วนตัว</string>
     <string name="mx_auto_resend_mms">ส่งเป็น MMS</string>
     <string name="mx_auto_resend_mms_summary">ส่งข้อความ MMS ผ่านเครือข่ายมือถือโดยที่ไม่ได้เชื่อมต่อกับ Wi-Fi คุณอาจเสียค่าบริการตามปกติจากผู้ให้บริการเครือข่าย</string>
     <string name="mx_auto_resend_sms">ส่งเป็น SMS</string>
@@ -314,7 +312,6 @@
     <string name="mx_dspt">ส่งข้อความ SMS และ MMS ไปยังอุปกรณ์ MIUI อื่นโดยไม่เสียค่าบริการใดๆขณะคุณเชื่อมต่ออยู่กับ Wi-Fi</string>
     <string name="mx_dspt_listview">ส่งข้อความไปยังผู้ใช้งานระบบ MIUI ด้วยกันโดยไม่เสียค่าส่งข้อความ SMS</string>
     <string name="mx_dspt_provision">ข้อความ Mi ช่วยให้คุณสามารถส่งข้อความไปยังผู้ใช้ MIUI รายอื่นผ่านทางอินเทอร์เน็ตได้โดยไม่ต้องเสียค่าบริการ อาจมีข้อความ SMS ขาออกเพื่อเปิดใช้งานข้อความ Mi ใหม่ ผู้ให้บริการของคุณจะเรียกเก็บเงินจากคุณสำหรับข้อความนี้ นอกจากนี้บริการนี้ต้องการเข้าถึงข้อมูลมือถือเพื่อทำงานได้ตามปกติ</string>
-    <string name="mx_dspt_provision_ex">ส่งข้อความและโทรไปยังผู้ใช้ MIUI รายอื่นผ่านทางอินเทอร์เน็ตโดยไม่มีค่าใช้จ่ายจากผู้ให้บริการของคุณ VoIP ได้รับการสนับสนุนโดย Weihui เรียกดูนโยบายความเป็นส่วนตัวของ Weihui</string>
     <string name="mx_dspt_provision_ex2">นโยบายความเป็นส่วนตัว</string>
     <string name="mx_enable">ข้อความ Mi</string>
     <string name="mx_enable_ex">ข้อความ Mi และเสียง</string>
@@ -355,8 +352,8 @@
     <string name="notification_multiple">[%s]</string>
     <string name="notification_multiple_title">ข้อความใหม่</string>
     <string name="number_add_hint">ใส่หมายเลขโทรศัพท์</string>
-    <string name="open_audio_record_panel">เปิดแผงหน้าปัดบันทึกเสียง</string>
-    <string name="open_edit_sms_panel">เปิดแก้ไขแผงหน้าจอข้อความ SMS</string>
+    <string name="open_audio_record_panel">เปิดแผงสำหรับบันทึกเสียง</string>
+    <string name="open_edit_sms_panel">เปิดแผงควบคุมสำหรับแก้ไขข้อความ</string>
     <string name="open_url_with_web">เปิดลิงก์นี้ด้วยเบราว์เซอร์?</string>
     <string name="over_max_mms_size">ข้อความ MMS มีขนาดเกินกำหนด</string>
     <string name="overwrite_edited_content">เนื้อหาที่คุณแก้ไขจะถูกเขียนทับ</string>
@@ -400,7 +397,6 @@
     <string name="pref_summary_mms_read_reports">แสดงการแจ้งเตือนในมุมมองสนทนาเมื่อผู้รับดาวน์โหลดเนื้อหาข้อความ MMS เอาไว้</string>
     <string name="pref_summary_mms_retrieval_during_roaming">ดาวน์โหลดรูปภาพและวิดีโอในข้อความขณะโรมมิ่งโดยอัตโนมัติ</string>
     <string name="pref_summary_notification_body_enabled">แสดงข้อความทั้งในหน้าจอล็อกและในแถบแจ้งเตือน</string>
-    <string name="pref_summary_notification_body_enabled_when_secure">คุณไม่สามารถดูตัวอย่างข้อความได้ในโหมดเยี่ยมชม</string>
     <string name="pref_summary_off_system_mms_priority">ใช้แอปบุคคลที่สามในการส่งและรับ MMS</string>
     <string name="pref_summary_on_system_mms_priority">ตั้งแอปการรับ-ส่งข้อความของ MIUI เป็นแอปเริ่มต้นในการส่งและรับ MMS</string>
     <string name="pref_summary_send_delivery_reports">ตอบรับยืนยันการได้รับข้อความมัลติมีเดียไปยังผู้ส่ง</string>
@@ -530,6 +526,7 @@
     <string name="send_signature_confirm_dialog_title">ส่งข้อความ</string>
     <string name="send_sms">ส่งข้อความ</string>
     <string name="send_to">ถึง:</string>
+    <string name="send_to_index_contact">%1$s/%2$s</string>
     <string name="sent_at_time">วันที่ส่ง: %1s</string>
     <string name="sent_label">"ส่ง: "</string>
     <string name="service_message_not_found">ข้อความหมดอายุหรือไม่มีข้อความ</string>
@@ -566,15 +563,15 @@
     <string name="sms_report_dialog_title">ลองอีกครั้ง</string>
     <string name="sms_report_failed">ไม่สามารถส่งรายงานได้</string>
     <string name="sms_report_success">ส่งรายงานเรียบร้อยแล้ว</string>
-    <string name="snippet_audio">[audio]</string>
-    <string name="snippet_picture">[picture]</string>
+    <string name="snippet_audio">[Audio]</string>
+    <string name="snippet_picture">[Image]</string>
     <string name="sp_category_all">ข้อความทุกประเภทบริการ</string>
     <string name="sp_category_bank">ข้อความแจ้งเตือนจากธนาคาร</string>
     <string name="sp_category_title_prefix">%s</string>
     <string name="sp_conversation_title">การแจ้งเตือน</string>
     <string name="sp_mark_as_read_menu_title">ทำเครื่องหมายว่าอ่านแล้ว</string>
-    <string name="sqlite_disk_full">ฐานข้อมูลหรือดิสก์เต็ม</string>
-    <string name="sqlite_low_memory">หน่วยความจำเหลือน้อย</string>
+    <string name="sqlite_disk_full">ที่จัดเก็บข้อมูลในอุปกรณ์ของคุณเต็มแล้ว</string>
+    <string name="sqlite_low_memory">พื้นที่จัดเก็บไม่เพียงพอ</string>
     <string name="status_failed">ไม่สำเร็จ</string>
     <string name="status_label">"สถานะ: "</string>
     <string name="status_pending">รอดำเนินการ</string>
@@ -651,9 +648,6 @@
     <string name="view">แสดง</string>
     <string name="view_bookmark">ดูข้อความเดิม</string>
     <string name="view_message_details">ดูรายละเอียด</string>
-    <string name="voip_enable">ข้อความ Mi และเสียง</string>
-    <string name="voip_enable_popup_msg">โทรหาผู้ใช้ MIUI ด้วยกันโดยไม่ต้องเสียค่าบริการเพิ่มเติมจากทางผู้ให้บริการเครือข่ายของคุณ โดยการโทรผ่านเน็ตนี้ได้รับการสนับสนุนจาก Weihui ดูเพิ่มเติมได้ที่นโยบายความเป็นส่วนตัวของทาง Weihui</string>
-    <string name="voip_enable_popup_msg2">นโยบายความเป็นส่วนตัว</string>
     <string name="wap_push_title">"[WAP Push] "</string>
     <string name="warning_show">ส่งแบบ %d</string>
     <string name="wild_msg_processing">กำลังดำเนินการ…</string>

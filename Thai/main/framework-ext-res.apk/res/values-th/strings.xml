@@ -68,6 +68,8 @@
     <string name="reboot_progress">กำลังรีบูท…</string>
     <string name="screen_on_proximity_sensor_title">โหมดพกพา</string>
     <string name="screen_on_proximity_sensor_summary">กรุณาอย่าปิดบังพื้นที่หูฟัง</string>
+    <string name="screen_on_proximity_sensor_hint">หากต้องการปิดการใช้งานนี้ กดปุ่มเพิ่มเสียงและปุ่มย้อนกลับพร้อมกัน</string>
+    <string name="screen_on_proximity_sensor_hint_has_navigation_bar">กดปุ่มเพิ่มเสียงเพื่อปิดคุณลักษณะนี้</string>
     <string name="screen_button_notification_title">ปิดใช้งานปุ่มลัด</string>
     <string name="screen_button_notification_text">หากต้องการเปิดใช้งาน กดปุ่มโฮมและปุ่มเปิด/ปิดเครื่องพร้อมกัน</string>
     <string name="screen_paper_mode_enter_toast">โหมดการอ่านเปิดใช้อยู่ เพื่อปิดคุณลักษณะนี้ ไปที่ เมนูการตั้งค่า > การแสดงผล > โหมดการอ่าน</string>

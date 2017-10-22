@@ -342,6 +342,7 @@
     <string name="pref_camera_beautify_entry_low">ต่ำ</string>
     <string name="pref_camera_beautify_entry_normal">ปานกลาง</string>
     <string name="pref_camera_beautify_entry_high">สูง</string>
+    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="camera_mode_options">ตัวเลือก</string>
     <string name="button_front_camera_title">ถ่ายเซลฟี่</string>
     <string name="button_normal_video_title">บันทึกวิดีโอ</string>
@@ -358,10 +359,12 @@
     <string name="toast_saving">กำลังบันทึกรูปภาพ…</string>
     <string name="cannot_connect_camera_volte_call">อยู่ระหว่างการวิดีโอคอล กรุณาลองใหม่ในภายหลัง</string>
     <string name="hibernate_hint">แตะที่หน้าจอเพื่อใช้กล้อง</string>
+    <string name="pref_camera_picturesize_entry_widescreen">@string/pref_camera_picturesize_entry_fullscreen</string>
     <string name="accessibility_zoom_button">โหมดซูม</string>
     <string name="accessibility_portrait_button">โหมดถ่ายภาพคน</string>
     <string name="toast_burst_snap_finished_summary">ถ่ายภาพต่อเนื่องเสร็จสิ้น ทั้งหมด %1$s รูป</string>
     <string name="pref_dualcamera_watermark_title">กล้องคู่ลายน้ำ</string>
+    <string name="pref_camera_device_watermark_title">Device watermark</string>
     <string name="pref_camera_zoom_mode_title">เลนส์</string>
     <string name="pref_camera_zoom_mode_entry_wide">มุมกว้าง(ไวด์)</string>
     <string name="pref_camera_zoom_mode_entry_tele">มุมไกล(เทเล่)</string>
@@ -420,6 +423,7 @@
     <string name="hint_fast_motion">วีดีโอที่คุณถ่ายจะเล่นได้เร็วขึ้น</string>
     <string name="hint_slow_motion">วีดีโอที่คุณถ่ายจะเล่นได้ช้าลง</string>
     <string name="hunt_dual_water_mark">ลายน้ำของกล้องถ่ายรูปคู่จะถูกเพิ่มโดยอัตโนมัติ</string>
+    <string name="hint_device_water_mark">Device watermark will be added automatically.</string>
     <string name="module_name_fun">วิดีโอสั้น</string>
     <string name="module_name_video">วิดีโอ</string>
     <string name="module_name_capture">รูปถ่าย</string>
@@ -457,5 +461,5 @@
     <string name="pref_retain_camera_mode_title">บันทึกโหมดก่อนหน้านี้</string>
     <string name="pref_retain_camera_mode_summary">เปลี่ยนกล้องไปยังโหมดที่ใช้ก่อนหน้านี้เมื่อคุณเปิดแอป</string>
     <string name="pref_fingerprint_capture_title">ชัตเตอร์ลายนิ้วมือ</string>
-    <string name="multi_window_mode_not_supported">"Camera doesn't work in Split screen"</string>
+    <string name="multi_window_mode_not_supported">กล้องไม่สามารถทำงานในหน้าจอแยกได้</string>
 </resources>

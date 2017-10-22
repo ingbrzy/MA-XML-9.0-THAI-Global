@@ -380,6 +380,7 @@
     <string name="detail_app_button">ข้อมูลแอป</string>
     <string name="pref_about_traffic_title">การตั้งค่าการใช้ข้อมูล</string>
     <string name="pref_traffic_manage_title">การใช้ข้อมูล</string>
+    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_package_traffic_settings">จำกัดข้อมูลมือถือ</string>
     <string name="pref_adjust_traffic_data">ตั้งการใช้ข้อมูล</string>
     <string name="pref_category_title_other">การตั้งค่าเพิ่มเติม</string>
@@ -872,6 +873,7 @@
     <string name="om_formatted_percent_string">%s%%</string>
     <string name="om_cpu_usage_warn_title_text">"แอปนี้อาจทำให้อุปกรณ์ของคุณ
 ช้าลง"</string>
+    <string name="om_memory_clean_memory_info_text">%1$s / %2$s</string>
     <string name="om_ill_proc_handle_unstaill_title">ถอนการติดตั้ง %s?</string>
     <string name="om_ill_proc_handle_uninstall_prompt">ถอนการติดตั้งแอปนี้เพื่อแก้ไขปัญหาการใช้แบตเตอรี่</string>
     <string name="om_ill_proc_type_wakelock_title">แอปบล็อกโหมดสลีปทำให้แบตเตอรี่หมดเร็ว</string>
@@ -1203,7 +1205,7 @@
     <string name="sp_monitored_apps_count_zero">ไม่มีแอปชำระเงินได้รับการป้องกัน</string>
     <string name="monitor_app_more">เพิ่มเติม</string>
     <string name="monitor_app_add">เพิ่ม</string>
-    <string name="sc_system_risk_fix_info_xspace">The risk cannot be fixed in xspace, please switch to owner space to fix it.</string>
+    <string name="sc_system_risk_fix_info_xspace">ปัญหานี้ไม่สามาถแก้ไขได้ในพีื้นที่ทับซ้อนได้ กรุณาไปแก้ไขที่พื้นที่ปกติ</string>
     <string name="sp_background_risk_dialog_title">แจ้งเตือน</string>
     <string name="sp_background_risk_dialog_summary">, ตรวจสอบและแก้ไขปัญหาการชำระเงิน</string>
     <string name="sp_background_risk_type_wifi">เครือข่าย Wi-Fi นี้ไม่ปลอดภัย</string>
@@ -1212,7 +1214,7 @@
     <string name="sp_background_risk_type_sign">แอปที่ไม่เป็นทางการกำลังทำงาน</string>
     <string name="sp_background_risk_type_root">ระบบได้ทำการรูทแล้ว</string>
     <string name="resource_securitycenter_settings">ความปลอดภัย</string>
-    <string name="keywords_securitycenter_settings">การใช้แบตเตอรี่;จัดการการเริ่มต้นอัตโนมัติ;ติดตั้ง via USB;การอนุญาตแอป;ซื้อข้อมูลมือถือ;รายการบล็อก;การใช้ข้อมูล;ปรับเทียบแพ็คเกจข้อมูล;ทดสอบเครือข่าย; ประหยัดแบตเตอรี่;ทำความร้อน;เปิดใช้งาน;ปิดใช้งาน;แบตเตอรี่;การระบายน้ำ;ปัญหาแบตเตอรี่;พลังงาน;ตัวประหยัดแบตเตอรี่;ตัวประหยัดพลังงาน;การประหยัดพลังงาน;การประหยัดแบตเตอรี่; เริ่มต้นอัตโนมัติ;การอนุญาต;เริ่มอัตโนมัติ;MIUI เริ่มต้นอัตโนมัติ; แอปเริ่มต้นอัตโนมัติ; เริ่มต้นแอปอัตโนมัติ;โปรแกรมเริ่มต้น;บูตค่าเริ่มต้น; ติดตั้ง USB;ติดตั้งจากคอมพิวเตอร์;ติดตั้ง ADB; ตำแหน่งพิกัด;เข้าถึงรายการ; ข้อมูล;ข้อมูลมือถือ;ซื้อแพ็คเกจข้อมูล;เติมแพ็คเกจข้อมูล;แพ็คเกจข้อมูล; บล็อก;รายการดำ;รายการบล็อกอัจฉริยะ;มิจฉาชีพ;ขาย;ตัวแทน;รายการบล็อกสายเรียกเข้า;รายการบล็อกข้อความเข้า;รายการบล็อกข้อความ;รายการบล็อกข้อความ SMS;รายการบล็อก;บัญชีดำ;รายการบล็อก;บัญชีดำ;มิจฉาชีพ;รายการบล็อก;รายการบล็อก; สภาพจราจร; ปรับเทียบ; การเชื่อมต่อ;อินเตอร์เน็ต;ทดสอบ; การใช้แบตเตอรี่</string>
+    <string name="keywords_securitycenter_settings">Battery usage;Manage autostart;Install via USB;App permissions;Buy mobile data;Blocklist;Data usage;Calibrate data plan;Test network; Save battery;Heating;Turn on;Turn off;Battery;Draining;Battery issues;Energy;Battery saver;Energy saver;Energy saving;Battery saving; Autostart;Permissions;Auto start;MIUI autostart; App autostart; autostart apps;Chain start;chained start;triggered start; USB install;install from computer;ADB install; Location;Access contacts; data;mobile data;buy data;topup data;data plan; Block;Black list;Smart blocklist;Fraud;Sales;Agents;Call blocklist;Message blocklist;Messaging blocklist;SMS blocklist;blacklist;black list;blocklist;block list;fraud;block contact;block contacts; Traffic; Calibrate; Connection;Internet;Test; Battery use; Game;speed booster;Glory of the king;Performance mode;DND</string>
     <string name="path_securitycenter_settings">แอประบบ/ความปลอดภัย</string>
     <string name="resource_securitycenter">ความปลอดภัย</string>
     <string name="keywords_securitycenter">ความปลอดภัย;ตรวจสอบ;สแกน</string>
@@ -1253,6 +1255,9 @@
     <string name="resource_powercenter_powerrank">แบตเตอรี่ &amp; ประสิทธิภาพ</string>
     <string name="keywords_powercenter_powerrank">การใช้งานแบตเตอรี่</string>
     <string name="path_powercenter_powerrank">แบตเตอรี่&amp; ประสิทธิภาพ/การใช้งานแบตเตอรี่</string>
+    <string name="resource_gamebooster">Game speed booster</string>
+    <string name="keywords_gamebooster">Game;speed booster;Glory of the king;Performance mode;DND</string>
+    <string name="path_gamebooster">System apps/Security/Game speed booster</string>
     <string name="app_name_securitycenter">ความปลอดภัย</string>
     <string name="ok">ตกลง</string>
     <string name="exit">ออก</string>
@@ -1267,6 +1272,7 @@
     <string name="menu_text_networkassistants">การใช้ข้อมูล</string>
     <string name="menu_text_networkassistants_remain">คงเหลือ %s</string>
     <string name="menu_text_networkassistants_danger">ใช้เกินไป %s</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_unit_gb">GB</string>
     <string name="menu_text_networkassistants_unit_mb">MB</string>
     <string name="menu_text_networkassistants_unit_kb">KB</string>
@@ -1542,8 +1548,8 @@
     <string name="antivirus_privacy_dialog_cloudscan_description">อัพโหลดและสแกนรายชื่อแอปและรายละเอียดโดยอ้างอิงจากฐานข้อมูลไวรัสออนไลน์ของระบบ</string>
     <string name="antivirus_privacy_dialog_ok">ตกลง</string>
     <string name="pref_title_manual_check_virus_db_update">ตรวจสอบการอัพเดท</string>
-    <string name="virus_update_tips_title">เชื่อมต่อ Wi-Fi</string>
-    <string name="virus_wait_network_dialog_message">ไฟล์อัปเดตมีขนาดใหญ่ เชื่อมต่อ Wi-Fi เพื่อดาวน์โหลด</string>
+    <string name="virus_update_tips_title">Warning</string>
+    <string name="virus_wait_network_dialog_message">Your phone is not connected to WLAN now. It will cost metered mobile data usage. Continue ?</string>
     <string name="antivirus_not_wlan">คุณไม่ได้เชื่อมต่อ Wi-Fi การใช้ข้อมูลมือถือคุณอาจจะต้องจ่ายค่าบริการเพิ่มเติม ดำเนินการต่อหรือไม่?</string>
     <string name="antivirus_longtime_no_update">ดูเหมือนฐานข้อมูลไวรัสของคุณเก่าเกินไป การอัปเดตปกติช่วยให้ผลการสแกนดีขึ้น อนุญาตความปลอดภัยเพื่อเชื่อมต่ออินเทอร์เน็ตและอัพเดตฐานข้อมูลไวรัสหรือไม่?</string>
     <string name="antivirus_longtime_no_update1">ดูเหมือนฐานข้อมูลไวรัสของคุณเก่าเกินไป การอัปเดตปกติช่วยให้ผลการสแกนดีขึ้น อัพเดทฐานข้อมูลไวรัสและลองอีกครั้ง</string>
@@ -1627,6 +1633,7 @@
     <string name="card_main_deepclean_wechat_action">ล้าง</string>
     <string name="card_main_sectool_title">เครื่องมือ</string>
     <string name="card_main_monthreport_action">เรียกดู</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">ทดสอบเครือข่าย</string>
     <string name="card_main_netcheck_summary">ทดสอบการเชื่อมต่อสำหรับปัญหาเครือข่าย</string>
     <string name="card_main_netcheck_action">ทดสอบ</string>
@@ -1811,7 +1818,7 @@
     <string name="app_manager_perm">การอนุญาต</string>
     <string name="app_manager_app_update">อัปเดต</string>
     <string name="app_manager_details_storage_title">ที่จัดเก็บข้อมูล</string>
-    <string name="app_manager_details_traffic_title">Data usage</string>
+    <string name="app_manager_details_traffic_title">การใช้งานข้อมูล</string>
     <string name="app_manager_details_electric_title">แบตเตอรี่</string>
     <string name="app_manager_card_permission_title">การอนุญาต</string>
     <string name="app_manager_permission_startself_title">เริ่มต้นอัตโนมัติ</string>
@@ -1896,30 +1903,30 @@
     <string name="app_manager_show_all_apps">แสดงแอปทั้งหมด</string>
     <string name="app_manager_hide_system_server">ซ่อนบริการระบบ</string>
     <string name="app_manager_back">ย้อนกลับ</string>
-    <string name="app_manager_defaults_setting">Defaults</string>
-    <string name="app_manager_clear_cache">Clear cache</string>
-    <string name="app_manager_reset_app_preferences">Reset app preferences</string>
-    <string name="app_manager_reset_app_preferences_title">Reset app preferences?</string>
-    <string name="app_manager_reset_app_preferences_desc">"This will reset all preferences for:
+    <string name="app_manager_defaults_setting">ค่าเริ่มต้น</string>
+    <string name="app_manager_clear_cache">ล้างหน่วยความจำแคช</string>
+    <string name="app_manager_reset_app_preferences">รีเซ็ตการตั้งค่าแอป</string>
+    <string name="app_manager_reset_app_preferences_title">รีเซ็ตการตั้งค่าแอป?</string>
+    <string name="app_manager_reset_app_preferences_desc">"นี่จะเป็นการรีเซ็ตการตั้งค่าแอปทั้งหมด:
 
- "<li>Disabled apps</li>"
- "<li>Disabled app notifications</li>"
- "<li>Default applications for actions</li>"
- "<li>Background data restrictions for apps</li>"
+ "<li>แอปที่ถูกปิดใช้</li>"
+ "<li>การแจ้งเตือนแอปที่ถูกปิดใช้</li>"
+ "<li>แอปเริ่มต้นสำหรับการดำเนินการ</li>"
+ "<li>การจำกัดข้อมูลพื้นหลังสำหรับแอป</li>"
 
- You will not lose any app data."</string>
-    <string name="app_manager_reset_app_preferences_button">Reset apps</string>
-    <string name="app_manager_disable_text">Disable</string>
-    <string name="app_manager_enable_text">Enable</string>
-    <string name="app_manager_disable_dlg_title">Disable built-in app?</string>
-    <string name="app_manager_disable_dlg_text">If you disable this app, other apps may no longer function as intended.</string>
-    <string name="app_manager_disabled">Disabled</string>
-    <string name="app_manager_enabled">Enabled</string>
-    <string name="app_manager_globel_perm_title">App permissions</string>
-    <string name="app_manager_globel_perm_summary">Manage permissions related to location, storage, phone, messages, and contacts.</string>
-    <string name="app_manager_globel_other_perm_title">Other permissions</string>
-    <string name="app_manager_uninstall_protected_dlg_title">Uninstalling system apps</string>
-    <string name="app_manager_uninstall_protected_dlg_msg">Uninstalling system apps may prevent some MIUI components from working properly. Uninstall anyway?</string>
+ ข้อมูลแอปจะไม่สูญหาย"</string>
+    <string name="app_manager_reset_app_preferences_button">รีเซ็ตแอป</string>
+    <string name="app_manager_disable_text">ปิดใช้งาน</string>
+    <string name="app_manager_enable_text">เปิดใช้งาน</string>
+    <string name="app_manager_disable_dlg_title">ปิดใช้งานแอปที่ติดตั้งภายใน?</string>
+    <string name="app_manager_disable_dlg_text">หากคุณปิดใช้งานแอปนี้ แอปอื่นๆอาจจะทำงานผิดปกติ</string>
+    <string name="app_manager_disabled">ปิดใช้อยู่</string>
+    <string name="app_manager_enabled">เปิดใช้งานแล้ว</string>
+    <string name="app_manager_globel_perm_title">การอนุญาตแอป</string>
+    <string name="app_manager_globel_perm_summary">จัดการการอนุญาตที่เกี่ยวข้องกับตำแหน่งพิกัด, ที่จัดเก็บข้อมูล, การโทร, ข้อความและรายชื่อ</string>
+    <string name="app_manager_globel_other_perm_title">การอนุญาตอื่นๆ</string>
+    <string name="app_manager_uninstall_protected_dlg_title">ถอนการติดตั้งระบบแอป</string>
+    <string name="app_manager_uninstall_protected_dlg_msg">การถอนการติดตั้งระบบแอปอาจทำให้ส่วนประกอบ MIUI ไม่สามารถทำงานได้อย่างถูกต้อง ถอนการติดตั้งหรือไม่?</string>
     <string name="ad_btn_default_text">เรียนรู้เพิ่มเติม</string>
     <string name="open_activity_err">ไม่พบแอ็พพลิเคชัน</string>
     <string name="low_memory_warning_dialog_title">พื้นที่จัดเก็บไม่เพียงพอ</string>
@@ -1932,10 +1939,16 @@
     <string name="game_booster">ตัวเร่งความเร็วในการเล่นเกม</string>
     <string name="game_booster_title">เพิ่ม</string>
     <string name="top_game">เกมส์ยอดนิยม</string>
+    <string name="game_booster_tab_top">Top</string>
+    <string name="game_bootser_tab_settings">Booster settings</string>
+    <string name="game_booster_jump_webview">Just a sec…</string>
     <string name="game_setting">ตั้งค่าเกมส์</string>
     <string name="gs_auto_clean_memory">ล้างหน่วยความจำแคช</string>
     <string name="gs_auto_clean_memory_detail">ล้างหน่วยความจำแคชโดยอัตโนมัติเพื่อเพิ่มประสิทธิภาพการเล่นเกม</string>
     <string name="gs_anto_clean_memory_whitelist">รายการยกเว้น</string>
+    <string name="gs_call_handsfree">Answer calls hands free</string>
+    <string name="gs_call_handsfree_mute">Silent mode</string>
+    <string name="gs_forbid_autosync">Restrict background sync</string>
     <string name="gs_app_back_self_start">ตัวประหยัดแบตเตอรี่</string>
     <string name="gs_only_self_start_for_list">จำกัดการดำเนินการของพื้นหลังเพื่อประหยัดแบตเตอรี่ในการเล่นเกม</string>
     <string name="gs_game_shortcut">เพลิดเพลินไปกับประสบการณ์การเล่นเกมที่ลื่นไหลมากขึ้น</string>
@@ -2032,13 +2045,19 @@
     <string name="net_booster_overdue_notification">เซสชั่นเพิ่มความเร็วของเครือข่ายกำลังจะจบลง</string>
     <string name="net_booster_overdue_notification_tip">เซสชั่นเพิ่มความเร็วเครือข่ายจะสิ้นสุดเร็วๆนี้ ต่ออายุเซสชัน?</string>
     <string name="net_booster_expire_notification">เซสชั่นเพิ่มความเร็วของเครือข่ายกำลังจะจบลง</string>
+    <string name="net_booster_expire_notification_tip">%d d remaining before Network speed boost session ends. Renew the session to avoid network speed problems.</string>
     <string name="xunyou_pay_webview">บริการ Xunyou</string>
     <string name="xunyou_server_expired">เซสชั่นหมดอายุ</string>
     <string name="game_anti_disturb_msg">เกมส์ห้ามรบกวน</string>
-    <string name="gamebooster_main_activity_back">ย้อนกลับไปยังตัวเร่งความเร็วเกม</string>
+    <string name="gamebooster_main_activity_back">Back</string>
     <string name="data_booster_title">ความเสถียรของการเชื่อมต่อข้อมูล</string>
     <string name="data_booster_desc">ปิดใช้งานช่องใส่ซิมอื่นๆ เพื่อการเชื่อมต่อที่เสถียร</string>
     <string name="international_Ad">Ad</string>
+    <string name="thermal_tips_title">Attention</string>
+    <string name="thermal_tips_message">Playing games in the Performance mode may lead to overheating issues.</string>
+    <string name="forbid_autobright_title">Fix screen brightness</string>
+    <string name="gamebooster_lowbattery_notification_title">Battery is lower than 5%%</string>
+    <string name="gamebooster_lowbattery_notification_summary">Charge your device before it turns off.</string>
     <string name="power_center_consume_rank">การใช้งานแบตเตอรี่</string>
     <string name="power_center_custom_title">ใช้โหมดพลังงาน</string>
     <string name="power_center_auto_shutdown_summary_default">ตั้งค่าการเปิดหรือปิดเครื่องตามเวลาที่กำหนดไว้ล่วงหน้า</string>
