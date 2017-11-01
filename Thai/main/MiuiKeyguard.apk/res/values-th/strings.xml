@@ -46,8 +46,8 @@
     <string name="fingerprint_try_again_text">ลองอีกครั้ง</string>
     <string name="fingerprint_try_again_msg">ไม่สามารถยืนยันลายนิ้วมือได้ ลองใหม่อีกครั้ง</string>
     <string name="fingerprint_not_identified_title">ป้อนรหัสผ่าน</string>
-    <string name="fingerprint_not_identified_msg">ผิดพลาดมากเกินไป ป้อนรหัสผ่านตอนนี้หรือลองใช้ลายนิ้วมือของคุณในอีกสักครู่</string>
-    <string name="fingerprint_again_identified_msg">ลายนิ้วมือของคุณใช้งานได้แล้วในขณะนี้ ใช้เพื่อปลดล็อกอุปกรณ์หรือป้อนรหัสผ่าน</string>
+    <string name="fingerprint_not_identified_msg">ผิดเกินจำนวนที่กำหนด กรุณาใส่รหัสผ่านหรือรออีกสักครู่จึงใช้วิธีสแกนนิ้ว</string>
+    <string name="fingerprint_again_identified_msg">ระบบได้จัดเก็บลายนิ้วมือของคุณเพื่อใช้ปลดล็อกเครื่องแทนรหัสผ่านไว้แล้ว</string>
     <string name="fingerprint_add_title">เพิ่มลายนิ้วมือ</string>
     <string name="fingerprint_add_text">อัพเดทอินเตอร์เฟซของลายนิ้วมือแล้ว เพิ่มลายนิ้วมือของคุณอีกครั้ง</string>
     <string name="invalid_sim_pin_hint">รหัส PIN ต้องมีความยาวระหว่าง 4 ถึง 8 หลัก</string>
@@ -57,7 +57,7 @@
     <string name="input_password_after_boot_msg">เพื่อปลดล็อกอุปกรณ์ กรุณาป้อนรหัสผ่าน</string>
     <string name="input_password_after_boot_msg_must_enter_owner_space">คุณจำเป็นต้องเข้าสู่พื้นที่ปกติก่อนที่อุปกรณ์จะทำการรีบูต</string>
     <string name="input_password_after_boot_msg_can_not_switch_when_calling">ไม่สามารถสลับระหว่างพื้นที่ขณะโทรได้</string>
-    <string name="input_password_handle_sdcard_fs">ปิดใช้งาน \"การเพิ่มประสิทธิภาพ Mock SD การ์ด\" ก่อนการเข้าสู่พื้นที่ทับซ้อน</string>
+    <string name="input_password_handle_sdcard_fs">Turn off \"Mock SD card optimization\" in Settings > Additional settings > Developer options before entering Second space.</string>
     <string name="accessibility_enter_lock_wallpaper">แตะเพื่อเปิดภาพพื้นหลังรวม</string>
     <string name="lock_wallpaper_learn_more">เพิ่มเติม</string>
     <string name="lock_wallpaper_enter">ป้อน</string>
@@ -66,8 +66,8 @@
     <string name="fingerprint_enter_second_psw_msg">ป้อนรหัสผ่านส่วนที่ 2 หลังจากรีบูตอุปกรณ์เพื่อใช้การอ่านลายนิ้วมือ</string>
     <string name="fingerprint_enter_second_psw_msg_oldman">ไม่สามารถเข้าสู่พื้นที่ทับซ้อนในขณะที่อยู่ในโหมดง่าย</string>
     <string name="keyguard_charging_info_click_to_detail">เรียกดูรายละเอียด</string>
-    <string name="keyguard_quick_charging_info_click_to_detail">กำลังชาร์จเร็ว แตะเพื่อเรียกดูรายละเอียด</string>
-    <string name="keyguard_quickly_charging_info_charging_text">กำลังชาร์จเร็ว…</string>
+    <string name="keyguard_quick_charging_info_click_to_detail">กำลังชาร์จแบบเร็ว แตะเพื่อดูรายละเอียด</string>
+    <string name="keyguard_quickly_charging_info_charging_text">กำลังชาร์จแบบเร็ว…</string>
     <string name="keyguard_charging_info_finished_charging_text">แบตเตอรี่เต็ม</string>
     <string name="keyguard_charging_info_charging_text">กำลังชาร์จ</string>
     <string name="keyguard_charging_info_last_charge_today_time">วันนี้ %s</string>
@@ -76,8 +76,8 @@
     <string name="keyguard_charging_info_last_charged_time_text">ชาร์จครั้งล่าสุด</string>
     <string name="keyguard_charging_info_battery_used_time_text">ใช้แบตเตอรี่</string>
     <string name="keyguard_charging_info_drained_power_percent_text">การใช้แบต</string>
-    <string name="keyguard_charging_info_tip_text1">การปล่อยให้อุปกรณ์เหลือแบตไม่น้อยกว่า 10% แล้วชาร์จ จะช่วยยืดอายุการใช้งานของแบตเตอรี่</string>
-    <string name="keyguard_charging_info_tip_text2">ห้ามเสียบชาร์จนานจนเกินไป การชาร์จให้พอดีแล้วถอดออกดีกว่าการชาร์จค้างคืน</string>
+    <string name="keyguard_charging_info_tip_text1">การชาร์ทแบตขณะที่เหลือแบตไม่น้อยกว่า 10% ช่วยยืดอายุการใช้งานของแบตโดยรวม</string>
+    <string name="keyguard_charging_info_tip_text2">ไม่ควรชาร์ทนานเกินสมควร การชาร์จให้เพียงพอแล้วชาร์ทซ้ำย่อมดีกว่าการชาร์จทิ้งไว้ค้างคืน</string>
     <string name="keyguard_charging_info_tip_text3">หลีกเลี่ยงการชาร์จอุปกรณ์ของคุณเมื่ออุณหภูมิรอบๆต่ำกว่า 0℃</string>
     <string name="keyguard_charging_info_tip_text4">ห้ามใช้อุปกรณ์ของคุณขณะที่กำลังชาร์จเพื่อหลีกเลี่ยงไม่ให้เครื่องร้อนเกิน</string>
     <string name="keyguard_charging_info_tip_text5">แบตจะชาร์จนานเมื่อมันร้อนกว่าปกติ</string>
@@ -92,9 +92,9 @@
     <string name="keyguard_left_buscard">บัตรโดยสาร</string>
     <string name="face_data_input_title">เพิ่มข้อมูลใบหน้า</string>
     <string name="face_data_introduction_title">การตรวจจับใบหน้า</string>
-    <string name="face_data_introduction_msg">คุณสามารถใช้ข้อมูลใบหน้าเพื่อปลดล็อกอุปกรณ์ของคุณหรือยืนยันข้อมูลประจำตัวของคุณ เพิ่มรหัสผ่านหน้าจอล็อกก่อนเพิ่มข้อมูลใบหน้า</string>
+    <string name="face_data_introduction_msg">การใช้ข้อมูลใบหน้าสำหรับปลดล็อกหน้าจอหรือใช้ยืนยันตัวตนของคุณ คุณต้องกำหนดรหัสผ่านหน้าล็อกจอก่อนแล้วจึงกำหนดข้อมูลใบหน้า</string>
     <string name="face_data_introduction_next">ถัดไป</string>
-    <string name="face_data_suggesstion_first">การปลดล็อกอุปกรณ์โดยใช้ข้อมูลใบหน้าของคุณมีความปลอดภัยน้อยกว่าการใช้รหัสผ่านของหน้าจอล็อก อุปกรณ์ของคุณอาจถูกปลดล็อกโดยผู้ที่มีลักษณะคล้ายคุณ</string>
+    <string name="face_data_suggesstion_first">การปลดล็อกหน้าจอด้วยใบหน้ามีความปลอดภัยน้อยกว่าการตั้งรหัสผ่าน ผู้ที่มีใบหน้าคล้ายคุณอาจสามารถปลดล็อคหน้าจอได้</string>
     <string name="face_data_suggesstion_second">ตรวจสอบให้แน่ใจว่าทุกส่วนของใบหน้าไม่ได้ถูกบดบังจากวัตถุต่างๆและมองเห็นได้ชัดเจน ใบหน้าของคุณควรมีความสว่างพอดี</string>
     <string name="face_data_input_camera_fail">ไม่สามารถโหลดกล้องได้</string>
     <string name="face_data_input_camera_ok">กำลังโหลดข้อมูลกล้อง…</string>
@@ -111,7 +111,7 @@
     <string name="face_data_manage_delete">ลบข้อมูลใบหน้า?</string>
     <string name="face_data_manage_delete_sure">คุณจะไม่สามารถปลดล็อคเครื่องนี้ด้วยข้อมูลใบหน้าได้หลังจากลงชื่อออกแล้ว </string>
     <string name="face_unlock_by_notification_screen_on_title">อนุญาตใบหน้าปลดล็อกเมื่อเปิดหน้าจอ</string>
-    <string name="face_unlock_by_notification_screen_on_msg">คุณสามารถปลดล็อกอุปกรณ์โดยใช้ข้อมูลใบหน้าเมื่อใดก็ตามที่หน้าจอสว่างขึ้นสำหรับการแจ้งเตือนสายเรียกเข้า อาจทำให้แบตเตอรี่หมดเร็วขึ้น</string>
+    <string name="face_unlock_by_notification_screen_on_msg">คุณสามารถปลดล็อกหน้าจอด้วยใบหน้าได้ตลอดเวลาที่เปิดหน้าจอแม้ในขณะมีการแจ้งเตือนเข้ามา ซึ่งอาจเปลืองแบตกว่าปกติ</string>
     <string name="face_unlock_not_found">ใบหน้าไม่ตรงกัน</string>
     <string name="face_unlock_adjust_distance">ตรวจสอบให้แน่ใจว่าระยะห่างระหว่างใบหน้าและหน้าจอของคุณดูเหมาะสม</string>
     <string name="face_unlock_close_screen">เข้าใกล้หน้าจอมากขึ้น</string>

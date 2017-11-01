@@ -26,10 +26,10 @@
     <string name="direction_south">ใต้</string>
     <string name="direction_east">ตะวันออก</string>
     <string name="direction_west">ตะวันตก</string>
-    <string name="direction_north_east">ออก/เหนือ</string>
-    <string name="direction_north_west">ตก/เหนือ</string>
-    <string name="direction_south_east">ออก/ใต้</string>
-    <string name="direction_south_west">ตก/ใต้</string>
+    <string name="direction_north_east">ตะวันออกเฉียงเหนือ</string>
+    <string name="direction_north_west">ตะวันตกเฉียงเหนือ</string>
+    <string name="direction_south_east">ตะวันออกเฉียงใต้</string>
+    <string name="direction_south_west">ตะวันตกเฉียงใต้</string>
     <string name="guide_toast">กรุณาควงโทรศัพท์ตามทิศทางในรูปเพื่อปรับเทียบเข็มทิศในระบบให้แม่นยำ</string>
     <string name="mobiledata_alert_dialog_title">คำเตือนการใช้งานข้อมูล</string>
     <string name="mobiledata_alert_dialog_message">เชื่อมกับต่ออินเตอร์เน็ตเพื่อปรับตั้งค่าความสูงชัน?</string>

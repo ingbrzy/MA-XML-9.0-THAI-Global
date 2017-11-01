@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="mortgage_repayment">
-        <item>ชำระงวดละเท่าๆกัน</item>
-        <item>ชำระงวดแบบบอลลูน</item>
-    </string-array>
     <string-array name="operatorDescs">
         <item>วงเล็บซ้าย</item>
         <item>วงเล็บขวา</item>
@@ -22,6 +18,10 @@
         <item>โคไซน์</item>
         <item>พาย</item>
         <item>เท่ากับ</item>
+    </string-array>
+    <string-array name="mortgage_repayment">
+        <item>ชำระงวดละเท่าๆกัน</item>
+        <item>ชำระงวดแบบบอลลูน</item>
     </string-array>
     <string-array name="unit_data_order_currency_">
         <item>USD</item>

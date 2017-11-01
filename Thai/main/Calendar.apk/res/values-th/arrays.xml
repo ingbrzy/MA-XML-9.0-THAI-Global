@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="change_response_labels">
-        <item>กิจกรรมนี้เท่านั้น</item>
-        <item>กิจกรรมทั้งหมดในชุด</item>
+        <item>เฉพาะกิจกรรมนี้</item>
+        <item>กิจกรรมทั้งหมดในซีรีส์</item>
     </string-array>
     <string-array name="delete_repeating_labels">
-        <item>กิจกรรมนี้เท่านั้น</item>
+        <item>เฉพาะกิจกรรมนี้</item>
         <item>กิจกรรมนี้และในอนาคต</item>
         <item>กิจกรรมทั้งหมด</item>
     </string-array>
     <string-array name="ordinal_labels">
-        <item>ครั้งแรก</item>
-        <item>วินาที</item>
-        <item>สาม</item>
-        <item>สี่</item>
-        <item>ครั้งสุดท้าย</item>
+        <item>ที่หนึ่ง</item>
+        <item>ที่สอง</item>
+        <item>ที่สาม</item>
+        <item>ที่สี่</item>
+        <item>ที่สุดท้าย</item>
     </string-array>
     <string-array name="prefEntries_alerts_vibrateWhen">
         <item>เสมอ</item>
@@ -30,7 +30,7 @@
     <string-array name="response_labels1">
         <item>ไม่มีการตอบสนอง</item>
         <item>ใช่</item>
-        <item>บางที</item>
+        <item>อาจจะ</item>
         <item>ไม่</item>
     </string-array>
     <string-array name="timezone_labels">
@@ -157,6 +157,10 @@
         <item>ก่อน 1 วัน</item>
         <item>ก่อน 2 วัน</item>
         <item>1 สัปดาห์ก่อน</item>
+    </string-array>
+    <string-array name="english_premium_league">
+        <item>4</item>
+        <item>@string/english_premium_league</item>
     </string-array>
     <string-array name="gemini_info">
         <item>ราศีเมถุน</item>
@@ -313,55 +317,5 @@
     <string-array name="widget_style_list">
         <item>โปร่งแสง</item>
         <item>พื้นหลังสีขาว</item>
-    </string-array>
-    <string-array name="availability">
-        <item>ไม่ว่าง</item>
-        <item>พร้อมใช้งาน</item>
-        <item>ไม่แน่นอน</item>
-    </string-array>
-    <string-array name="buttons_list">
-        <item>วัน</item>
-        <item>สัปดาห์</item>
-        <item>เดือน</item>
-        <item>กิจกรรม</item>
-    </string-array>
-    <string-array name="delete_repeating_labels_no_selected">
-        <item>นี้ &amp; กิจกรรมในอนาคต</item>
-        <item>กิจกรรมทั้งหมด</item>
-    </string-array>
-    <string-array name="preferences_default_reminder_labels">
-        <item>ไม่มีการเตือนความจำ</item>
-        <item>0 นาที</item>
-        <item>5 นาที</item>
-        <item>10 นาที</item>
-        <item>15 นาที</item>
-        <item>30 นาที</item>
-        <item>1 ชั่วโมง</item>
-        <item>1 วัน</item>
-        <item>2 วัน</item>
-        <item>1 สัปดาห์</item>
-    </string-array>
-    <string-array name="reminder_methods_labels">
-        <item>การแจ้งเตือน</item>
-        <item>อีเมล</item>
-        <item>ข้อความ</item>
-        <item>การปลุก</item>
-    </string-array>
-    <string-array name="reminder_minutes_labels">
-        <item>ไม่มีการเตือนความจำ</item>
-        <item>0 นาที</item>
-        <item>5 นาที</item>
-        <item>10 นาที</item>
-        <item>15 นาที</item>
-        <item>30 นาที</item>
-        <item>1 ชั่วโมง</item>
-        <item>1 วัน</item>
-        <item>2 วัน</item>
-        <item>1 สัปดาห์</item>
-    </string-array>
-    <string-array name="visibility">
-        <item>ค่าเริ่มต้น</item>
-        <item>ส่วนตัว</item>
-        <item>สาธารณะ</item>
     </string-array>
 </resources>

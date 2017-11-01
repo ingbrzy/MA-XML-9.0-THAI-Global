@@ -246,6 +246,7 @@
     <string name="no_match_repate_scanner">ไม่พบลายนิ้วมือที่ตรงกัน สแกนอีกครั้ง</string>
     <string name="delete_phone_fingerprint">ลบลายนิ้วมือพื้นที่ทับซ้อน</string>
     <string name="delete_fingerprint">เลือกลายนิ้วมือ</string>
+    <string name="fingerprint_number_upper_limit">Too many unsuccessful unlock attempts</string>
     <string name="delete_fingerprint_desc">ลายนิ้วมือพื้นที่ทับซ้อนจะถูกลบไปพร้อมกับรหัสผ่าน</string>
     <string name="fingerprint_removal_failed">ไม่สามารถลบลายนิ้วมือได้</string>
     <string name="notification_recommend_title">12 แอปยอดนิยมสำหรับพื้นที่ทับซ้อน</string>
@@ -286,7 +287,7 @@
     <string name="can_not_switch_when_calling">ไม่สามารถสลับระหว่างพื้นที่ขณะโทรได้</string>
     <string name="can_not_delete_when_calling">ไม่สามารถลบพื้นที่ขณะโทรได้</string>
     <string name="support_desc">บริการรักษาความปลอดภัยโดย Graphite</string>
-    <string name="sdcardfs_dialog_message">ปิดใช้งาน \"การเพิ่มประสิทธิภาพ Mock SD การ์ด\" ในตัวเลือกสำหรับนักพัฒนาซอฟต์แวร์ก่อนที่จะป้อนพื้นที่ทับซ้อน</string>
+    <string name="sdcardfs_dialog_message">Turn off \"Mock SD card optimization\" in Settings > Additional settings > Developer options before entering Second space.</string>
     <string name="do_not_ask">ไม่ต้องถามอีก</string>
     <string name="gpg_message">การสร้างแอปโคลนสำหรับเกมต้องใช้ Google Play Games สร้างแอปโคลนสำหรับ Google Play Games หรือไม่?</string>
     <string name="gpg_title">แอปโคลนสำหรับเกมส์ Google Play</string>

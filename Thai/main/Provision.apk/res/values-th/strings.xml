@@ -71,4 +71,7 @@
     <string name="two_dimensional_code_scan">สแกนรหัส QR</string>
     <string name="user_strayed_warning">หน้านี้ถูกออกแบบมาสำหรับการทดสอบโรงงาน แตะ \"ย้อนกลับ\" เพื่อออก</string>
     <string name="fail_to_generate_qr_code">ไม่สามารถสร้างรหัส QR ได้ เปิดหน้านี้อีกครั้ง</string>
+    <string name="enable_accessibility_canceled">Accessibility canceled.</string>
+    <string name="accessibility_enabled">Accessibility enabled.</string>
+    <string name="continue_to_enable_accessibility">Keep holding down two fingers to enable accessibility.</string>
 </resources>

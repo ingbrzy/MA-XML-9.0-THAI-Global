@@ -101,23 +101,23 @@
     </string-array>
     <string-array name="wind_direction">
         <item>เหนือ</item>
-        <item>ออก/เหนือ</item>
+        <item>ตะวันออกเฉียงเหนือ</item>
         <item>ออก</item>
-        <item>ออก/ใต้</item>
+        <item>ตะวันออกเฉียงใต้</item>
         <item>ใต้</item>
-        <item>ตก/ใต้</item>
+        <item>ตะวันตกเฉียงใต้</item>
         <item>ตก</item>
-        <item>ตก/เหนือ</item>
+        <item>ตะวันตกเฉียงเหนือ</item>
     </string-array>
     <string-array name="wind_direction_simple">
         <item>เหนือ</item>
-        <item>ออก/เหนือ</item>
+        <item>ตะวันออกเฉียงเหนือ</item>
         <item>ตะวันออก</item>
-        <item>ออก/ใต้</item>
+        <item>ตะวันออกเฉียงใต้</item>
         <item>ใต้</item>
-        <item>ตก/ใต้</item>
+        <item>ตะวันตกเฉียงใต้</item>
         <item>พ</item>
-        <item>ตก/เหนือ</item>
+        <item>ตะวันตกเฉียงเหนือ</item>
     </string-array>
     <string-array name="wind_power">
         <item>0</item>

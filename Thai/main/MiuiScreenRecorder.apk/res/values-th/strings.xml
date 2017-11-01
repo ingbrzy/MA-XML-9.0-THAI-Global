@@ -10,10 +10,10 @@
     <string name="bit_rate_summary">คุณภาพสูงหมายถึงไฟล์ขนาดใหญ่</string>
     <string name="frames">อัตราเฟรม</string>
     <string name="frames_summary">อัตราเฟรมที่สูงขึ้นจะลดการเบลอของเคลื่อนไหว</string>
-    <string name="screen_orientation">ทิศทาง</string>
-    <string name="screen_orientation_summary">ทิศทางวิดีโอที่บันทึกไว้</string>
+    <string name="screen_orientation">แนวตั้ง/แนวนอน</string>
+    <string name="screen_orientation_summary">บันทึกวิดีโอแนวตั้งหรือแนวนอน</string>
     <string name="sound_source">แหล่งที่มาของเสียง</string>
-    <string name="sound_source_summary">ระบบเสียงหรือไมโครโฟน</string>
+    <string name="sound_source_summary">เสียงจากมือถือหรือจากไมค์</string>
     <string name="screen_record_option">ตัวเลือกการบันทึก</string>
     <string name="show_screen_touch">แสดงตำแหน่งของการแตะ</string>
     <string name="show_screen_touch_summary">แสดงตำแหน่งการแตะโดยใช้จุดสีขาว</string>

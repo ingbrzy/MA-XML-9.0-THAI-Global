@@ -67,7 +67,7 @@
     <string name="reboot_confirm_title">รีบูตอุปกรณ์ตอนนี้?</string>
     <string name="reboot_progress">กำลังรีบูท…</string>
     <string name="screen_on_proximity_sensor_title">โหมดพกพา</string>
-    <string name="screen_on_proximity_sensor_summary">กรุณาอย่าปิดบังพื้นที่หูฟัง</string>
+    <string name="screen_on_proximity_sensor_summary">กรุณาอย่าบังบริเวณใกล้หูฟัง</string>
     <string name="screen_on_proximity_sensor_hint">หากต้องการปิดการใช้งานนี้ กดปุ่มเพิ่มเสียงและปุ่มย้อนกลับพร้อมกัน</string>
     <string name="screen_on_proximity_sensor_hint_has_navigation_bar">กดปุ่มเพิ่มเสียงเพื่อปิดคุณลักษณะนี้</string>
     <string name="screen_button_notification_title">ปิดใช้งานปุ่มลัด</string>
@@ -84,7 +84,7 @@
     <string name="handy_mode_enter_dlg_title">เข้าสู่โหมดถนัดมือ</string>
     <string name="handy_mode_enter_dlg_msg">เข้าสู่โหมดถนัดมือ?</string>
     <string name="screenshot_gesture_detect_alert_title">จับภาพหน้าจอด้วยสามนิ้ว</string>
-    <string name="screenshot_gesture_detect_alert_msg">ปัดลงด้วยสามนิ้วเพื่อจับภาพหน้าจอ</string>
+    <string name="screenshot_gesture_detect_alert_msg">ปัดลงด้วยสามนิ้วพร้อมกันเพื่อจับภาพหน้าจอ</string>
     <string name="screenshot_gesture_detect_alert_button">เปิดใช้งานได้ในเมนูการตั้งค่า</string>
     <string name="screenshot_gesture_detect_alert_dont_again">ไม่ต้องแสดงอีก</string>
     <string name="permlab_manageLocationPolicy">เข้าถึงตำแหน่งพิกัด</string>

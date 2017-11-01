@@ -5,12 +5,14 @@
     <string name="wifi_security_short_wpa">WPA</string>
     <string name="wifi_security_short_wpa2">WPA2</string>
     <string name="wifi_security_short_wpa_wpa2">WPA/WPA2</string>
+    <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
     <string name="wifi_security_short_eap">802.1x</string>
     <string name="wifi_security_none">ไม่มี</string>
     <string name="wifi_security_wep">WEP</string>
     <string name="wifi_security_wpa">WPA PSK</string>
     <string name="wifi_security_wpa2">WPA2 PSK</string>
     <string name="wifi_security_wpa_wpa2">WPA/WPA2 PSK</string>
+    <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
     <string name="wifi_security_eap">802.1x EAP</string>
     <string name="wifi_security_passpoint">Passpoint</string>
     <string name="wifi_security_short_WAPI_PSK">WAPI PSK</string>
@@ -679,6 +681,7 @@
     <string name="security_enable_widgets_title">เปิดใช้งานวิดเจ็ต</string>
     <string name="security_enable_widgets_disabled_summary">ปิดใช้งานโดยผู้ดูแลระบบ</string>
     <string name="owner_info_settings_summary">ไม่มี</string>
+    <string name="owner_info_settings_status">%1$d/%2$d</string>
     <string name="owner_info_settings_edit_text_hint">เช่น Android ของสมชาย</string>
     <string name="user_info_settings_title">ข้อมูลผู้ใช้</string>
     <string name="show_profile_info_on_lockscreen_label">แสดงข้อมูลโปรไฟล์บนหน้าจอล็อก</string>
@@ -940,6 +943,7 @@
     <string name="wifi_display_options_name">ชื่อ</string>
     <string name="wifi_band_24ghz">2.4 GHz</string>
     <string name="wifi_band_5ghz">5 GHz</string>
+    <string name="link_speed">%1$d Mbps</string>
     <string name="nfc_quick_toggle_title">NFC</string>
     <string name="nfc_quick_toggle_summary">อนุญาตให้มีการแลกเปลี่ยนข้อมูล เมื่อแตะโทรศัพท์กับอุปกรณ์อื่น</string>
     <string name="android_beam_settings_title">Android Beam</string>
@@ -2207,6 +2211,7 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="gadget_title">การควบคุมพลังงาน</string>
     <string name="gadget_toggle_wifi">กำลังอัพเดทการตั้งค่า Wi-Fi</string>
     <string name="gadget_toggle_bluetooth">กำลังอัปเดตการตั้งค่าบลูทูธ</string>
+    <string name="gadget_state_template">%1$s %2$s</string>
     <string name="gadget_state_on">เปิด</string>
     <string name="gadget_state_off">ปิด</string>
     <string name="gadget_state_turning_on">กำลังเปิด</string>
@@ -2385,6 +2390,7 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="delete">ลบ</string>
     <string name="misc_files">ไฟล์เบ็ดเตล็ด</string>
     <string name="misc_files_selected_count">เลือก %1$d จาก %2$d</string>
+    <string name="misc_files_selected_count_bytes">%1$s จาก %2$s</string>
     <string name="select_all">เลือกทั้งหมด</string>
     <string name="data_usage_summary_title">การใช้อินเทอร์เน็ต</string>
     <string name="data_usage_app_summary_title">การใช้ข้อมูลแอป</string>
@@ -2631,6 +2637,7 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="nfc_payment_no_apps">ชำระเงินโดยใช้โทรศัพท์ของคุณในร้านค้า</string>
     <string name="nfc_payment_default">แอปชำระเงินเริ่มต้น</string>
     <string name="nfc_payment_default_not_set">ไม่ได้ตั้งค่า</string>
+    <string name="nfc_payment_app_and_desc">%1$s - %2$s</string>
     <string name="nfc_payment_use_default">ใช้ค่าเริ่มต้น</string>
     <string name="nfc_payment_favor_default">ทุกครั้ง</string>
     <string name="nfc_payment_favor_open">ยกเว้นเมื่อแอปการชำระเงินอื่นเปิดอยู่</string>
@@ -2691,6 +2698,7 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="regulatory_info_text" />
     <string name="sim_setup_wizard_title">ซิมการ์ด</string>
     <string name="sim_settings_title">ซิมการ์ด</string>
+    <string name="sim_settings_summary">%1$s - %2$s</string>
     <string name="sim_cards_changed_message">ซิมการ์ดมีการเปลี่ยนแปลง</string>
     <string name="sim_cards_changed_message_summary">แตะเพื่อกำหนดกิจกรรม</string>
     <string name="sim_cellular_data_unavailable">ข้อมูลมือถือไม่พร้อมใช้งาน</string>
@@ -2811,6 +2819,7 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="zen_mode_option_important_interruptions">เฉพาะเรื่องสำคัญ</string>
     <string name="zen_mode_option_alarms">เฉพาะปลุกเท่านั้น</string>
     <string name="zen_mode_option_no_interruptions">ปิดเสียงทั้งหมด</string>
+    <string name="zen_mode_summary_combination">%1$s: %2$s</string>
     <string name="zen_mode_visual_interruptions_settings_title">บล็อกสิ่งรบกวนการมองเห็น</string>
     <string name="configure_notification_settings">กำหนดค่าการแจ้งเตือน</string>
     <string name="advanced_section_header">ขั้นสูง</string>
@@ -2904,6 +2913,7 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="zen_mode_schedule_alarm_title">เวลาปลุกลบล้างเวลาสิ้นสุดได้</string>
     <string name="zen_mode_schedule_alarm_summary">หยุดที่เวลาสิ้นสุดหรือเวลาปลุกครั้งถัดไป ขึ้นอยู่กับว่าอย่างใดเร็วกว่า</string>
     <string name="summary_divider_text">", "</string>
+    <string name="summary_range_symbol_combination">%1$s - %2$s</string>
     <string name="summary_range_verbal_combination">%1$s ถึง %2$s</string>
     <string name="zen_mode_calls">การโทร</string>
     <string name="zen_mode_messages">ข้อความ</string>
@@ -3085,6 +3095,8 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="memory_avg_use">เฉลี่ย</string>
     <string name="memory_max_desc">สูงสุด %1$s</string>
     <string name="memory_avg_desc">เฉลี่ย %1$s</string>
+    <string name="memory_use_running_format">%1$s/%2$s</string>
+    <string name="process_format">%1$s (%2$d)</string>
     <string name="high_power_apps">การเพิ่มประสิทธิภาพแบตเตอรี่</string>
     <string name="high_power_filter_on">ไม่ได้เพิ่มประสิทธิภาพ</string>
     <string name="high_power_on">ไม่ได้เพิ่มประสิทธิภาพ</string>
@@ -3361,6 +3373,7 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="dndm_auto_setting_group">กำหนดเวลา</string>
     <string name="dndm_auto_button_title">ใช้โหมดห้ามรบกวนเวลานี้ตลอด</string>
     <string name="dndm_auto_time_setting">ตั้งเวลา</string>
+    <string name="dndm_auto_time_setting_summary">%1$s-%2$s</string>
     <string name="dndm_auto_time_turn_on">จาก</string>
     <string name="dndm_auto_time_turn_on_title">เปิดใช้โหมดห้ามรบกวนโดยอัตโนมัติ</string>
     <string name="dndm_auto_time_turn_off">ถึง</string>
@@ -3407,7 +3420,7 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="dndm_alarm_content_not_all">ปิดเสียงทั้งหมด</string>
     <string name="quiet_off_mode">อนุญาตให้รบกวนได้เสมอ</string>
     <string name="quiet_no_interruptions_mode">ปิดเสียงรบกวนทั้งหมด</string>
-    <string name="quiet_important_interruptions_mode">อนุญาตเฉพาะรายการยกเว้น</string>
+    <string name="quiet_important_interruptions_mode">อนุญาตเฉพาะที่ยกเว้นไว้</string>
     <string name="quiet">ห้ามรบกวน</string>
     <string name="quiet_group">ห้ามรบกวน</string>
     <string name="zen_mode_from_call">"โทรจาก "</string>
@@ -3647,22 +3660,23 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="notification_reboot_title_hm">รีบูตเครื่องเพื่อให้อัพเดตมีผล</string>
     <string name="notification_reboot_summary_hm">แตะเพื่อรีบูตอุปกรณ์ของคุณ</string>
     <string name="notification_reboot_btn">รีบูต</string>
+    <string name="miui_updater">Updater</string>
     <string name="giga_hertz">GHz</string>
     <string name="reading_data">กำลังรับข้อมูล…</string>
     <string name="available_size">ใช้งานได้ %s</string>
     <string name="total_size">ทั้งหมด %s</string>
     <string name="memory_title">ใช้งานได้: %1$s\u0009\u0009ทั้งหมด: %2$s</string>
-    <string name="memory_rightvalue">Total: %s</string>
+    <string name="memory_rightvalue">ทั้งหมด: %s</string>
     <string name="account_list">บัญชีอื่น</string>
     <string name="account_add">เพิ่ม</string>
     <string name="xiaomi_account">บัญชี Mi</string>
     <string name="sync_settings">ซิงค์</string>
     <string name="google_title">Google</string>
     <string name="account_other">อื่นๆ</string>
-    <string name="no_account_found">No application supports adding accounts</string>
+    <string name="no_account_found">ไม่มีแอปที่รองรับการเพิ่มบัญชี</string>
     <string name="xiaomi_cloud_service_disabled">ปิด</string>
     <string name="xiaomi_cloud_service_unknown">ไม่ทราบ</string>
-    <string name="xiaomi_cloud_service_description">Mi Cloud syncs contacts, photos, and other items across your devices. \"Find device\" also requires Mi Cloud to work normally.</string>
+    <string name="xiaomi_cloud_service_description">Mi คลาวด์ สามารถซิงค์รายชื่อ รูปภาพ และรายการอื่นๆหระหว่างอุปกรณ์ของคุณได้ ยังสามารถเปิด \"ค้นหาอุปกรณ์\" เมื่อต้องการให้ Mi คลาวด์ ทำงานปกติ</string>
     <string name="sure_sync_now">ซิงค์รายการทันที?</string>
     <string name="sync_now">ซิงค์</string>
     <string name="sms_received_sound_title">เสียงเตือนข้อความเข้า</string>
@@ -3733,7 +3747,7 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="force_touch_demo">แสดงตัวอย่าง</string>
     <string name="screenshot">จับภาพหน้าจอ</string>
     <string name="avoid_ui">ป้อนกันการแตะผิด</string>
-    <string name="screenshot_three_gesture">ปัดลงด้วยสามนิ้วเพื่อจับภาพหน้าจอ</string>
+    <string name="screenshot_three_gesture">ปัดลงด้วยสามนิ้วพร้อมกันเพื่อจับภาพหน้าจอ</string>
     <string name="screenshot_three_gesture_summary">ท่าทางที่ใช้สามนิ้วอื่นจะถูกปิดใช้งาน</string>
     <string name="has_screenshot_sound">เสียงจับภาพหน้าจอ</string>
     <string name="key_settings_title">ปุ่มและทางลัดในการสัมผัสหน้าจอ</string>
@@ -3762,7 +3776,7 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="launch_recents">เปิดใช้ล่าสุด</string>
     <string name="long_press_menu_key_when_lock">กดเมนูค้างบนหน้าจอล็อก</string>
     <string name="double_click_power_key">ดับเบิลคลิกปุ่มเปิด/ปิด</string>
-    <string name="three_gesture_down">เลื่อน 3 นิ้วลง</string>
+    <string name="three_gesture_down">ปัดลงด้วย 3 นิ้วพร้อมกัน</string>
     <string name="long_press_home_key">กดปุ่มโฮมค้างไว้</string>
     <string name="long_press_menu_key">กดปุ่มเมนูค้างไว้</string>
     <string name="long_press_back_key">กดปุ่มย้อนกลับค้างไว้</string>
@@ -3773,7 +3787,7 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="key_none">ไม่</string>
     <string name="key_gesture_function_shortcut">ฟังค์ชั่นปุ่มลัด</string>
     <string name="key_system_control">ระบบควบคุม</string>
-    <string name="key_gesture_function_preview">ท่าทางสัมผัสและการกดแป้นพิมพ์</string>
+    <string name="key_gesture_function_preview">กลวิธีการแตะและปุ่มที่ใช้งาน</string>
     <string name="key_gesture_function_optional">ท่าทางและการกดแป้นพิมพ์ที่เลือกได้</string>
     <string name="key_gesture_function_dialog_message">%1$s เป็นทางลัดสำหรับ %2$s แทนที่ด้วย %3$s หรือไม่?</string>
     <string name="key_gesture_function_dialog_positive">แทนที่</string>
@@ -4477,8 +4491,8 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="miui_lab_settings">ห้องปฏิบัติการ MIUI</string>
     <string name="miui_lab_slogan">อย่าหยุดเรียนรู้ สำรวจและค้นหาสิ่งใหม่ๆ</string>
     <string name="miui_lab_features">ลูกเล่นจากห้องปฏิบัติการ MIUI</string>
-    <string name="miui_lab_taplus_title">Taplus</string>
-    <string name="miui_lab_taplus_desc">กดรายการค้างไว้เพื่อดำเนินการต่อ</string>
+    <string name="miui_lab_taplus_title">แตะค้างสร้างทางลัด</string>
+    <string name="miui_lab_taplus_desc">แตะค้างที่รายการใดเพื่อสร้างทางลัดสู่แอปแนะนำ</string>
     <string name="miui_lab_feature_on">เปิด</string>
     <string name="miui_lab_feature_off">ปิด</string>
     <string name="miui_lab_feature_applied">ใช้งานแล้ว</string>
@@ -4663,7 +4677,7 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="edge_mode_screenshot">จับภาพจอ</string>
     <string name="edge_mode_photo_summary">ขณะใช้งานแอปกล้องถ่ายรูป ให้แตะที่ขอบจอครั้งหนึ่งเพื่อเปิดชัตเตอร์และแตะอีกครั้งเพื่อถ่ายภาพ</string>
     <string name="edge_mode_back_summary">แตะที่ขอบจอสองครั้งติดกันเพื่อย้อนกลับไป</string>
-    <string name="edge_mode_clean_summary">รูดขอบจอทั้งสองด้านพร้อมกันเพื่อล้างแคชในระบบ</string>
+    <string name="edge_mode_clean_summary">สไลด์บนขอบจอทั้งสองด้านพร้อมกันเพื่อล้างแคชในระบบ</string>
     <string name="edge_mode_screenshot_summary">แตะบริเวณขอบจอทั้งสองด้านพร้อมกันสองครั้งติดเพื่อจับภาพหน้าจอ</string>
     <string name="edge_mode_guide_title">แตะที่พื้นที่ไฮไลต์เพื่อใช้งานการควบคุมบริเวณขอบจอ</string>
     <string name="apply_password_to_category_title">ต้องปลดล็อก</string>
@@ -4762,7 +4776,7 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="bootloader_locked_question_1">ทำไมอุปกรณ์ต้องถูกล็อก?</string>
     <string name="bootloader_locked_answer_1">เราล็อกอุปกรณ์เพื่อความปลอดภัยของคุณ โดยข้อมูลส่วนตัวของคุณจะไม่ถูกเปิดเผยสู่ภายนอก หากคุณจำเป็นต้องเข้าสู่โหมด Fastboot และแฟลชอุปกรณ์ของคุณ คุณสามารถปลดล็อคได้</string>
     <string name="bootloader_locked_answer_1_warning">โปรดจำไว้ว่าคุณจะไม่สามารถใช้ \"ค้นหาอุปกรณ์\" หลังจากที่โทรศัพท์ถูกปลดล็อก</string>
-    <string name="bootloader_locked_question_2">ผมรับรู้ถึงความเสี่ยง แต่ยังคงต้องการที่จะปลดล็อกอุปกรณ์ของฉัน</string>
+    <string name="bootloader_locked_question_2">ข้าพเจ้ายอมรับความเสี่ยงดังกล่าวในการปลดล็อกเครื่องของข้าพเจ้า</string>
     <string name="bootloader_locked_answer_2">แตะที่ปุ่มด้านล่างนี้เพื่อผูกบัญชี Mi ของคุณกับอุปกรณ์นี้ จากนั้นไปที่เว็บไซต์ MIUI เพื่อดาวน์โหลดเครื่องมือปลดล็อกและติดตั้งในเครื่องคอมพิวเตอร์ของคุณ นี่คือที่อยู่:</string>
     <string name="bootloader_unlock_webhome">https://unlock.update.miui.com</string>
     <string name="bootloader_locked_check_status">เพิ่มบัญชีและอุปกรณ์</string>
@@ -4796,7 +4810,7 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="security_encryption_alert_dialog_info_first">ตั้งรหัสผ่านหน้าจอล็อกเพื่อเปิดคุณลักษณะนี้ คุณจะต้องใส่รหัสผ่านหน้าจอล็อกทุกครั้งหลังจากรีบูตเพื่อปลดล็อกและใช้อุปกรณ์ได้ตามปกติ</string>
     <string name="security_encryption_attention_symbol">•</string>
     <string name="security_encryption_attention_1">คุณจะไม่สามารถใช้การปลุกขณะที่อุปกรณ์ปิดอยู่ได้</string>
-    <string name="security_encryption_attention_2">คุณจะต้องใส่รหัสผ่านหน้าจอล็อกทุกครั้งหลังจากรีบูตเพื่อปลดล็อกอุปกรณ์ โดยการรีบูตจะใช้เวลานานกว่าปกติ</string>
+    <string name="security_encryption_attention_2">คุณจำเป็นต้องป้อนรหัสผ่านทุกครั้งหลังจากรีบูตเพื่อถอดรหัสอุปกรณ์ และการรีบูตจะกินเวลามากกว่าปกติ</string>
     <string name="security_encryption_attention_3">คุณต้องตั้งรหัสผ่านหน้าจอล็อกใหม่</string>
     <string name="security_encryption_attention_4">ให้แน่ใจว่าคุณจำรหัสผ่านหน้าจอล็อกของคุณได้ มิฉะนั้นคุณจะต้องรีเซ็ตและล้างข้อมูลทั้งหมดบนอุปกรณ์โดยสมบูรณ์</string>
     <string name="security_encryption_close_dialog_title">คืนค่าการป้องกันรหัสผ่านเริ่มต้น</string>
@@ -4805,7 +4819,7 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="security_encryption_progress_dialog_open">กำลังเข้ารหัสไฟล์…</string>
     <string name="security_encryption_progress_dialog_close">กำลังถอดรหัสไฟล์…</string>
     <string name="security_encryption_rejected_via_home_manager">คุณลักษณะนี้ไม่รองรับในเวอร์ชั่นตัวอย่าง</string>
-    <string name="encryption_progress_summary">กำลังเข้ารหัส กรุณาอย่ารีบูตอุปกรณ์ของคุณ</string>
+    <string name="encryption_progress_summary">กำลังเข้ารหัส ห้ามปิดเครื่องในขั้นตอนนี้</string>
     <string name="provision_back">ย้อนกลับ</string>
     <string name="provision_skip">ข้าม</string>
     <string name="provision_next">ถัดไป</string>
@@ -4836,6 +4850,7 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="size_giga_byte">GB</string>
     <string name="size_tera_byte">TB</string>
     <string name="size_peta_byte">PB</string>
+    <string name="size_suffix">%1$s%2$s</string>
     <string name="radio_info_asdiv_switch_label">สถานะ ASDiv:</string>
     <string name="app_factory_reset_dlg_title">ถอนการติดตั้งอัพเดทไหม?</string>
     <string name="app_factory_reset_dlg_text">การอัพเดตของแอปที่ผ่านมาจะถูกถอนออกจากแอปที่ติดตั้งไว้ในระบบทั้งหมด</string>
@@ -4981,7 +4996,6 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="manage_facerecoginition_text">จัดการข้อมูลใบหน้า</string>
     <string name="face_unlock_enable">ปลดล็อกด้วยใบหน้าเปิดอยู่</string>
     <string name="face_unlock_disable">ปลดล็อกด้วยใบหน้าปิดอยู่</string>
-    <string name="lockpattern_recording_intro_header_second_space">วาดรูปแบบปลดล็อกสำหรับพื้นที่ทับซ้อน:</string>
     <string name="lockpattern_pattern_same_with_owner">ควรจะแตกต่างจากรหัสผ่านพื้นที่ปกติ</string>
     <string name="lockpattern_pattern_same_with_security_space">ควรจะแตกต่างจากรหัสผ่านพื้นที่ทับซ้อน</string>
     <string name="lockpattern_pattern_same_with_others">ควรจะแตกต่างจากรหัสผ่านพื้นที่อื่นๆ</string>
@@ -5073,7 +5087,7 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="fingerprint_apply_to_privacy_password_scenarios">รหัสผ่านป้องกันความเป็นส่วนตัวสำหรับปกป้องข้อมูลของข้อความ, รูปภาพ, ไฟล์, บันทึกย่อและแอป</string>
     <string name="turn_off_keyguard_password_alert_title">ปิดใช้งาน</string>
     <string name="new_password_to_new_fingerprint_dialog_tittle">เพิ่มลายนิ้วมือ</string>
-    <string name="new_password_to_new_fingerprint_dialog_msg">เพิ่มลายนิ้วมือของคุณเพื่อปลดล็อกอุปกรณ์ของคุณ</string>
+    <string name="new_password_to_new_fingerprint_dialog_msg">สแกนลายนิ้วมือของคุณเพื่อใช้ปลดล็อกหน้าจอ</string>
     <string name="new_password_to_new_fingerprint_dialog_positive_msg">เพิ่ม</string>
     <string name="new_password_to_new_fingerprint_dialog_negative_msg">ยกเลิก</string>
     <string name="turn_on_keyguard_password">เปิดใช้งานรหัสปลดล็อกหน้าจอ</string>
@@ -5082,7 +5096,7 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="fingerprint_manage">จัดการลายนิ้วมือ</string>
     <string name="turn_off_keyguard_password_confirm_msg">คุณลักษณะด้านความปลอดภัยบางอย่างจะไม่ทำงานหากไม่มีรหัสผ่านของคุณ</string>
     <string name="turn_off_keyguard_password_with_fingerprint_confirm_msg">คุณจะไม่สามารถปลดล็อคอุปกรณ์ด้วยลายนิ้วมือของคุณหลังจากคุณปิดใช้งานรหัสผ่าน</string>
-    <string name="turn_off_keyguard_password_with_fingerprint_face_confirm_msg">หลังจากที่คุณปิดรหัสปลดล็อกหน้าจอ ลายนิ้วมือที่บันทึกไว้จะถูกลบออก คุณจะไม่สามารถปลดล็อกอุปกรณ์โดยใช้ลายนิ้วมือได้</string>
+    <string name="turn_off_keyguard_password_with_fingerprint_face_confirm_msg">เมื่อปิดใช้งานรหัสปลดล็อกหน้าจอ ลายนิ้วมือที่บันทึกไว้จะถูกลบออกไปด้วย คุณจะไม่สามารถปลดล็อกเครื่องโดยวิธีสแกนนิ้วได้</string>
     <string name="work_space_delete">ลบพื้นที่ทำงาน</string>
     <string name="work_space_delete_description">คุณไม่สามารถเข้าสู่พื้นที่ที่ทำงานได้ หลังจากคุณลบไปแล้ว ข้อมูลทั้งหมดจะถูกย้ายไปหรือลบออก</string>
     <string name="work_space_delete_confirm">ลบทันที</string>
@@ -5114,20 +5128,20 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="add_fingerprint_text">เพิ่มลายนิ้วมือ</string>
     <string name="add_fingerprint_instruction_title">เพิ่มลายนิ้วมือของคุณ</string>
     <string name="add_back_fingerprint_instruction_msg">วางนิ้วมือของคุณลงบนเซ็นเซอร์</string>
-    <string name="add_front_fingerprint_instruction_msg">เซ็นเซอร์ลายนิ้วมืออยู่ที่ด้านหลังของอุปกรณ์</string>
+    <string name="add_front_fingerprint_instruction_msg">เซ็นเซอร์ลายนิ้วมืออยู่ด้านหลังของเครื่อง</string>
     <string name="add_fingerprint_edge_instruction_title">ขยับนิ้วของคุณเล็กน้อย</string>
-    <string name="add_fingerprint_edge_instruction_msg">เลื่อนนิ้วเพื่อให้เซ็นเซอร์สามารถบันทึกขอบของลายนิ้วมือของคุณได้</string>
+    <string name="add_fingerprint_edge_instruction_msg">ขยับนิ้วมือเล็กน้อยให้สามารถสแกนลายนิ้วมือของคุณได้ครบถ้วน</string>
     <string name="information_dialog_button_text">รับทราบ</string>
     <string name="add_fingerprint_toast_text">วางนิ้วมือของคุณลงบนเซ็นเซอร์</string>
     <string name="add_fingerprint_similar_fingerprint_input_error_msg">ขยับนิ้วของคุณเล็กน้อย</string>
     <string name="add_fingerprint_failed_retry_text">ไม่สามารถเพิ่มลายนิ้วมือได้ ลองใหม่อีกครั้ง</string>
     <string name="add_fingerprint_put_finger_title">เพิ่มลายนิ้วมือ</string>
     <string name="add_fingerprint_put_finger_msg">วางนิ้วมือของคุณลงบนเซ็นเซอร์ซ้ำอีกครั้งและยกนิ้วออกเมื่อมีการสั่น</string>
-    <string name="add_fingerprint_put_finger_edge_msg">ขยับนิ้วของคุณเล็กน้อยและวางไว้บนเซ็นเซอร์อีกครั้งเพื่อเพิ่มทุกส่วนที่แตกต่างกันของลายนิ้วมือของคุณ</string>
+    <string name="add_fingerprint_put_finger_edge_msg">ขยับนิ้วของคุณเล็กน้อยแล้วแตะบนเซ็นเซอร์อีกครั้งเพื่อสแกนลายนิ้วมือของคุณให้ครบทุกส่วน</string>
     <string name="add_fingerprint_name_suggest_text">ชื่อลายนิ้วมือ</string>
     <string name="add_fingerprint_success_msg">เพิ่มเรียบร้อย</string>
     <string name="add_fingerprint_finished_button_text">เสร็จสิ้น</string>
-    <string name="add_fingerprint_instruction_msg">ใช้ลายนิ้วมือเพื่อปลดล็อกอุปกรณ์และชำระเงิน</string>
+    <string name="add_fingerprint_instruction_msg">ใช้ลายนิ้วมือของคุณปลดล็อกเครื่องและทำธุรกรรม</string>
     <string name="wakeup_for_keyguard_notification_title">ปลุกหน้าจอล็อกเมื่อมีการแจ้งเตือน</string>
     <string name="secure_keyguard_business_title">ตั้งการล็อกหน้าจอ</string>
     <string name="fingerprint_and_password_entrance_title">การล็อกหน้าจอ &amp; ลายนิ้วมือ</string>
@@ -5144,6 +5158,7 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="delete_or_keep_legacy_passwords_confirm_msg">ลบลายนิ้วมือนี้หรือไม่?</string>
     <string name="delete_legacy_fingerprint">ลบ</string>
     <string name="keep_legacy_fingerprint">เก็บไว้</string>
+    <string name="lockpattern_recording_intro_header_second_space">วาดรูปแบบปลดล็อกสำหรับพื้นที่ทับซ้อน:</string>
     <string name="lock_screen_unlock_show">ข้ามหน้าจอแรกที่ต้องใช้นิ้วปัด</string>
     <string name="lock_screen_unlock_show_summary">ไปยังหน้าจอหลักหรือหน้าป้อนรหัสผ่านโดยตรงเมื่อเปิดหน้าจอ</string>
     <string name="security_keyguard_category_name">ล็อกหน้าจอ</string>

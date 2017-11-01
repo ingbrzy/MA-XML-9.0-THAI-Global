@@ -78,10 +78,4 @@
     <plurals name="work_days">
         <item quantity="other">วันทำงาน %d วัน</item>
     </plurals>
-    <plurals name="N_remaining_events">
-        <item quantity="other">+%d กิจกรรม</item>
-    </plurals>
-    <plurals name="Nevents">
-        <item quantity="other">%d กิจกรรม</item>
-    </plurals>
 </resources>

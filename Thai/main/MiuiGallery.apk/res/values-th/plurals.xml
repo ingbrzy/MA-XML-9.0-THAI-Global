@@ -54,15 +54,6 @@
     <plurals name="add_to_album_cloud_photo_count_tip">
         <item quantity="other">เพิ่ม %d รูปภาพคลาวด์แล้ว ปิดใช้งาน \"แสดงอัลบั้มในเครื่องเท่านั้น\" เพื่อเรียกดู</item>
     </plurals>
-    <plurals name="delete_photo_msg_format">
-        <item quantity="other">ลบ %1$d รูปภาพ %2$s?</item>
-    </plurals>
-    <plurals name="delete_video_msg_format">
-        <item quantity="other">ลบ %1$d วิดีโอ %2$s?</item>
-    </plurals>
-    <plurals name="delete_media_msg_format">
-        <item quantity="other">ลบ %1$d รายการ %2$s?</item>
-    </plurals>
     <plurals name="album_item_msg_format">
         <item quantity="other">(%d รายการ)</item>
     </plurals>
@@ -97,7 +88,7 @@
         <item quantity="other">%d วิดีโอ</item>
     </plurals>
     <plurals name="add_secret_ensure_message">
-        <item quantity="other">Hide these files?</item>
+        <item quantity="other">ซ่อนไฟล์เหล่านี้?</item>
     </plurals>
     <plurals name="number_of_images_synced">
         <item quantity="other">%1$d รูป</item>
@@ -152,5 +143,14 @@
     </plurals>
     <plurals name="search_feedback_done_mark_and_contribute_false_negative">
         <item quantity="other">เพิ่มแล้ว %1$d รูปภาพไปยัง \"%2$s\" และเพิ่มไปยังฐานข้อมูลแล้ว</item>
+    </plurals>
+    <plurals name="delete_photo_msg_format">
+        <item quantity="other">ลบ %1$d รูปภาพ %2$s?</item>
+    </plurals>
+    <plurals name="delete_video_msg_format">
+        <item quantity="other">ลบ %1$d วิดีโอ %2$s?</item>
+    </plurals>
+    <plurals name="delete_media_msg_format">
+        <item quantity="other">ลบ %1$d รายการ %2$s?</item>
     </plurals>
 </resources>
