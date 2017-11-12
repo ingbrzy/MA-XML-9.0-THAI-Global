@@ -339,10 +339,10 @@
     <string name="main_purchase_tips">โปรโมชั่น</string>
     <string name="main_month_total_used">ใช้ไปในเดือนนี้</string>
     <string name="main_daily_package">แพ็คเกจข้อมูลรายวัน</string>
-    <string name="main_indicator_title">Waiting for activation</string>
-    <string name="main_tobe_added_desc">Mobile data from ¥0.03/MB</string>
-    <string name="main_button_mi_sim_close">Activate Mi SIM</string>
-    <string name="main_button_mi_sim_open">View details</string>
+    <string name="main_indicator_title">กำลังรอการเปิดใช้งาน</string>
+    <string name="main_tobe_added_desc">มือถือข้อมูล ¥0.03/MB</string>
+    <string name="main_button_mi_sim_close">ใช้งาน Mi ซิม</string>
+    <string name="main_button_mi_sim_open">เรียกดูรายละเอียด</string>
     <string name="firewall_activity_lable">จำกัดการใช้ข้อมูลของแอป</string>
     <string name="firewall_applist">แอป</string>
     <string name="firewall_rule_group_title_mobile">มือถือ</string>
@@ -384,6 +384,7 @@
     <string name="detail_app_button">ข้อมูลแอป</string>
     <string name="pref_about_traffic_title">การตั้งค่าการใช้ข้อมูล</string>
     <string name="pref_traffic_manage_title">การใช้ข้อมูล</string>
+    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_package_traffic_settings">จำกัดข้อมูลมือถือ</string>
     <string name="pref_adjust_traffic_data">ตั้งการใช้ข้อมูล</string>
     <string name="pref_category_title_other">การตั้งค่าเพิ่มเติม</string>
@@ -797,8 +798,8 @@
     <string name="diagnostic_attention_dialog_message">การวินิจฉัยสำหรับ %1$s อยู่ระหว่างกระบวนการ รอจนกระทั่งสิ้นสุดและลองอีกครั้ง</string>
     <string name="correction_attention_dialog_message">แก้ไขการตั้งค่าตอนนี้ รอจนกระทั่งกระบวนการสิ้นสุดและลองอีกครั้ง</string>
     <string name="text_button">รับทราบ</string>
-    <string name="vpn_unbale_get_phonenum">"Can't get phone numbers using designated data plans"</string>
-    <string name="vpn_disabled_by_user">Designated data connection is off</string>
+    <string name="vpn_unbale_get_phonenum">การออกแบบแผนการใช้ข้อมูลมือถือไม่สามารถขอรับหมายเลยโทรศัพท์ได้</string>
+    <string name="vpn_disabled_by_user">การเชื่อมต่อการออกแบบข้อมูลปิดอยู่</string>
     <string name="btn_back">ย้อนกลับ</string>
     <string name="firewall_allow_data">อนุญาตการใช้ข้อมูลมือถือ</string>
     <string name="firewall_restrict_data">จำกัดการใช้ข้อมูลมือถือ</string>
@@ -817,6 +818,13 @@
     <string name="menu_charge_traffic">ซื้อข้อมูล</string>
     <string name="menu_charge_bill">เติมเงิน</string>
     <string name="privacy_dialog_message">เมื่อคุณเชื่อมต่ออินเทอร์เน็ต ข้อความนี้กับข้อมูลผู้ให้บริการจะได้รับการเข้ารหัสและอัปโหลดไปยังเซิร์ฟเวอร์ของ Mi เพื่อช่วยเราในการปรับปรุงการตรวจสอบการใช้ข้อมูล</string>
+    <string name="status_bar_network_flow_purchase">"   ซื้อเพิ่ม >"</string>
+    <string name="status_bar_network_flow_setup_data_plan">"   ติดตั้งแผนข้อมูล >"</string>
+    <string name="status_bar_network_flow_phone_balance">"   ยอดเงินคงเหลือ:%1$s "</string>
+    <string name="status_bar_network_flow_exceed_content">ใช้ไปวันนี้: %1$s&amp;nbsp;&amp;nbsp;&amp;nbsp;ใช้เกินไปแล้ว: &lt;font color=%2$s>%3$s&lt;/font></string>
+    <string name="status_bar_network_flow_content">วันนี้: %1$s&amp;nbsp;&amp;nbsp;&amp;nbsp;; คงเหลือ: %2$s</string>
+    <string name="status_bar_network_flow_content_not_setting">วันนี้: %1$s&amp;nbsp;&amp;nbsp;&amp;nbsp;; เดือนนี้: %2$s</string>
+    <string name="status_bar_network_flow_today">วันนี้: %1$s</string>
     <string name="optimize_manage_title">เพิ่มความเร็ว</string>
     <string name="cpu_usage_android_system">ระบบแอนดรอยด์</string>
     <string name="cpu_usage_process_run_time_little_time">น้อยกว่า 1 นาที</string>
@@ -878,6 +886,7 @@
     <string name="om_formatted_percent_string">%s%%</string>
     <string name="om_cpu_usage_warn_title_text">"แอปนี้อาจทำให้อุปกรณ์ของคุณ
 ช้าลง"</string>
+    <string name="om_memory_clean_memory_info_text">%1$s / %2$s</string>
     <string name="om_ill_proc_handle_unstaill_title">ถอนการติดตั้ง %s?</string>
     <string name="om_ill_proc_handle_uninstall_prompt">ถอนการติดตั้งแอปนี้เพื่อแก้ไขปัญหาการใช้แบตเตอรี่</string>
     <string name="om_ill_proc_type_wakelock_title">แอปบล็อกโหมดสลีปทำให้แบตเตอรี่หมดเร็ว</string>
@@ -1174,7 +1183,7 @@
     <string name="sp_settings_info_monitor">ตรวจสอบสภาพแวดล้อมของระบบโดยอัตโนมัติเมื่อมีการใช้แอปชำระเงิน</string>
     <string name="scan_status_safe">ปลอดภัย</string>
     <string name="scan_status_risk">มีความเสี่ยง</string>
-    <string name="safepay_alert_dialog_button_risk">ซ่อมแซม</string>
+    <string name="safepay_alert_dialog_button_fix">แก้ไข</string>
     <string name="safepay_alert_dialog_button_continue">ดำเนินการต่อ</string>
     <string name="safe_result_header_info_protecting">การป้องกัน</string>
     <string name="safe_result_item_info_system_version">MIUI เป็นรุ่นล่าสุดแล้ว</string>
@@ -1210,6 +1219,9 @@
     <string name="monitor_app_more">เพิ่มเติม</string>
     <string name="monitor_app_add">เพิ่ม</string>
     <string name="sc_system_risk_fix_info_xspace">ปัญหานี้ไม่สามาถแก้ไขได้ในพีื้นที่ทับซ้อนได้ กรุณาไปแก้ไขที่พื้นที่ปกติ</string>
+    <string name="dialog_no_longer_alert">ไม่ต้องเตือนอีก</string>
+    <string name="sp_background_risk_dialog_title_wifi_approve">แจ้งเตือนฟรี Wi-Fi</string>
+    <string name="sp_background_risk_dialog_summary_wifi_approve">ปัจจุบันคุณใช้ Wi-Fi สาธารณะฟรีอยู่ กรุณาตรวจสอบให้แน่ใจว่าปลอดภัยก่อนที่จะดำเนินการชำระเงิน</string>
     <string name="sp_background_risk_dialog_title">แจ้งเตือน</string>
     <string name="sp_background_risk_dialog_summary">, ตรวจสอบและแก้ไขปัญหาการชำระเงิน</string>
     <string name="sp_background_risk_type_wifi">เครือข่าย Wi-Fi นี้ไม่ปลอดภัย</string>
@@ -1276,6 +1288,7 @@
     <string name="menu_text_networkassistants">การใช้ข้อมูล</string>
     <string name="menu_text_networkassistants_remain">คงเหลือ %s</string>
     <string name="menu_text_networkassistants_danger">ใช้เกินไป %s</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_unit_gb">GB</string>
     <string name="menu_text_networkassistants_unit_mb">MB</string>
     <string name="menu_text_networkassistants_unit_kb">KB</string>
@@ -1636,6 +1649,7 @@
     <string name="card_main_deepclean_wechat_action">ล้าง</string>
     <string name="card_main_sectool_title">เครื่องมือ</string>
     <string name="card_main_monthreport_action">เรียกดู</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">ทดสอบเครือข่าย</string>
     <string name="card_main_netcheck_summary">ทดสอบการเชื่อมต่อสำหรับปัญหาเครือข่าย</string>
     <string name="card_main_netcheck_action">ทดสอบ</string>
@@ -1659,16 +1673,21 @@
     <string name="card_main_gamebooster_title">เร่งความเร็วในการเล่นเกม</string>
     <string name="skin_change_close_toast">การเปลี่ยนแปลงจะถูกใช้งานครั้งถัดไป เวลาที่คุณเปิดใช้ความปลอดภัย</string>
     <string name="Setting_lock">การตั้งค่า</string>
+    <string name="more_lock">เพิ่มเติม</string>
     <string name="app_name">เพิ่มล็อก</string>
     <string name="back_app_name">กลับไปที่ล็อกแอป</string>
     <string name="notification_item">ป้องกันแอปด้วยล็อกแอป</string>
+    <string name="notification_masked_item">ซ่อนการแจ้งเตือน</string>
     <string name="lock_mode_title">การตั้งค่าการล็อก</string>
     <string name="after_the_lock_screen">ล็อคแอปพร้อมกับหน้าจอ</string>
     <string name="set_applock_password">ตั้งรหัสผ่าน</string>
     <string name="ac_firstUseApplock_title">ตั้งรหัสผ่านเพื่อป้องกันแอปของคุณ</string>
     <string name="ac_firstUseApplock_subTitle">ใช้การป้องระบบที่ปลอดภัยกว่า</string>
     <string name="notification_subtitle">แตะเพื่อเปิดใช้งาน</string>
+    <string name="notification_masked_subtitle">ซ่อนการแจ้งเตือนจากแอปป้องกันกับล็อกแอป</string>
     <string name="ac_enter_applock">เข้าสู่การล็อกแอป</string>
+    <string name="ac_mask_all_apps">ซ่อนสำหรับแอปทั้งหมด</string>
+    <string name="ac_unmask_all_apps">เลิกซ่อนสำหรับแอปทั้งหมด</string>
     <string name="ac_summaryOn">เปิดใช้งาน ต้องใช้รหัสผ่านเพื่อเปิดแอป</string>
     <string name="ac_summaryOff">ปิดใช้งาน ไม่ต้องใช้รหัสผ่านเพื่อเปิดแอป</string>
     <string name="lockpattern_tutorial_cancel_label">ยกเลิก</string>
@@ -1680,10 +1699,12 @@
     <string name="back_modifypassword">กลับไปที่การเปลี่ยนรหัสผ่าน</string>
     <string name="showpattern">แสดงรูปแบบ</string>
     <string name="notification_mask_title">ซ่อนเนื้อหา</string>
-    <string name="notification_mask_summary">แสดงเนื้อหาการแจ้งเตือนบนหน้าจอล็อกและในแถบการแจ้งเตือนไม่ได้</string>
+    <string name="notification_mask_summary">ซ่อนเนื้อหาแจ้งเตือนทั้งบนหน้าจอล็อกและแถบการแจ้งเตือน</string>
     <string name="convenient_mode">ปลดล็อกแอปทั้งหมดในครั้งเดียว</string>
     <string name="convenient_summary">ป้อนรหัสผ่านเพื่อปลดล็อกแอปทั้งหมด</string>
     <string name="suggest_app_tolock">ข้อเสนอแนะ</string>
+    <string name="suggest_app_tolock_masked">ซ่อน</string>
+    <string name="suggest_app_tolock_unmasked">แสดงการแจ้งเตือน</string>
     <string name="forget_password_button_text"><u>ลืมรหัสผ่าน</u></string>
     <string name="forget_password_button_text_normal">ลืมรหัสผ่าน</string>
     <string name="lockpattern_too_many_failed_confirmation_attempts_header">มีการพยายามมากครั้งเกินที่ระบบกำหนด!</string>
@@ -1829,7 +1850,6 @@
     <string name="app_manager_permission_notify_title">การแจ้งเตือน</string>
     <string name="app_manager_permission_power_saving_title">ตัวประหยัดแบตเตอรี่</string>
     <string name="app_manager_permission_power_saving_summary">ตัวประหยัดแบตเตอรี่ MIUI</string>
-    <string name="app_manager_default_open">เปิดโดยค่าเริ่มต้น</string>
     <string name="app_manager_default_open_title">ล้างค่าเริ่มต้น</string>
     <string name="app_manager_default_close_summary">ไม่ได้ตั้งค่าเริ่มต้น</string>
     <string name="app_manager_default_open_summary">คุณเลือกที่จะเปิดแอปพลิเคชันนี้ตามค่าเริ่มต้นสำหรับการดำเนินการบางอย่าง</string>
@@ -1929,6 +1949,16 @@
     <string name="app_manager_globel_other_perm_title">การอนุญาตอื่นๆ</string>
     <string name="app_manager_uninstall_protected_dlg_title">ถอนการติดตั้งระบบแอป</string>
     <string name="app_manager_uninstall_protected_dlg_msg">การถอนการติดตั้งระบบแอปอาจทำให้ส่วนประกอบ MIUI ไม่สามารถทำงานได้อย่างถูกต้อง ถอนการติดตั้งหรือไม่?</string>
+    <string name="app_manager_has_not_data">ไม่พบข้อมูล</string>
+    <string name="app_manager_memory">แรม</string>
+    <string name="app_manager_as_dlg_title">แจ้งเตือน</string>
+    <string name="app_manager_as_dlg_msg">การอนุญาตให้เริ่มต้นอัตโนมัติ อาจจะทำให้แอปใช้พื้นที่แรมและแบตเตอรี่มากขึ้น อนุญาตหรือไม่?</string>
+    <string name="app_manager_default_cleared">ล้างแล้ว</string>
+    <string name="app_manager_not_allow">ไม่</string>
+    <string name="app_manager_allow">ใช่</string>
+    <string name="app_manager_install_other_app">ติดตั้งแอปจากแหล่งที่ไม่รู้จัก</string>
+    <string name="app_manager_disabled_by_admin">ปิดโดยแอดมิน</string>
+    <string name="app_manager_advanced_setting">การตั้งค่าขั้นสูง</string>
     <string name="ad_btn_default_text">เรียนรู้เพิ่มเติม</string>
     <string name="open_activity_err">ไม่พบแอ็พพลิเคชัน</string>
     <string name="low_memory_warning_dialog_title">พื้นที่จัดเก็บไม่เพียงพอ</string>
@@ -1976,6 +2006,8 @@
     <string name="function_close">ปิด</string>
     <string name="add_done">เพิ่มเรียบร้อย</string>
     <string name="boost_done">เพิ่มเรียบร้อย</string>
+    <string name="boost_stop">ปิดใช้งานเร่งความเร็ว</string>
+    <string name="already_close_gamebooster">เร่งความเร็วในการเล่นเกมปิดอยู่</string>
     <string name="no_game">ไม่พบเกมส์</string>
     <string name="gamebooster_network_dialog_title">บางคุณลักษณะไม่พร้อมใช้งาน</string>
     <string name="gamebooster_network_dialog_message">อนุญาตความปลอดภัยเพื่อเชื่อมต่อเครือข่ายในคำสั่ง เพื่อให้ใช้คุณลักษณะทั้งหมดของตัวเพิ่มความเร็วเกมส์ได้?</string>
@@ -2030,6 +2062,8 @@
     <string name="renew_now">ต่ออายุ</string>
     <string name="receive_now">รับ</string>
     <string name="net_booster">เร่งความเร็วเครือข่าย</string>
+    <string name="xunyou_net_booster">เร่งความเร็วเครือข่าย</string>
+    <string name="xunyou_net_booster_detail">ใช้บริการเร่งความเร็ว Xunyou สำหรับเล่นเกมส์</string>
     <string name="wlan_booster">เพิ่มประสิทธิภาพ Wi-Fi</string>
     <string name="tab_gift">ของขวัญ</string>
     <string name="tab_guide">แนะนำ</string>
@@ -2044,8 +2078,8 @@
     <string name="wifi_optizition_loading">เปิดใช้การเพิ่มความเร็วของเครือข่าย…</string>
     <string name="free_send_net_booster">เพิ่มความเร็วเครือข่ายฟรี</string>
     <string name="free_send_net_booster_tip">เพลิดเพลินไปกับการเล่นเกมที่รื่นขึ้นพร้อมเพิ่มความเร็วเครือข่ายฟรี</string>
-    <string name="free_send_net_booster_busniess">Get a free Xunlei speed boost</string>
-    <string name="free_send_net_booster_busniess_tip">Tap to receive</string>
+    <string name="free_send_net_booster_busniess">รับ Xunlei เพิ่มความเร็วฟรี</string>
+    <string name="free_send_net_booster_busniess_tip">แตะเพื่อรับ</string>
     <string name="net_booster_overdue_notification">เซสชั่นเพิ่มความเร็วของเครือข่ายกำลังจะจบลง</string>
     <string name="net_booster_overdue_notification_tip">เซสชั่นเพิ่มความเร็วเครือข่ายจะสิ้นสุดเร็วๆนี้ ต่ออายุเซสชัน?</string>
     <string name="net_booster_expire_notification">เซสชั่นเพิ่มความเร็วของเครือข่ายกำลังจะจบลง</string>
@@ -2060,9 +2094,13 @@
     <string name="thermal_tips_title">โปรดทราบ</string>
     <string name="thermal_tips_message">กำลังเล่นเกมส์ในโหมดประสิทธิภาพ อาจทำให้โทรศัพท์ร้อนกว่าปกติ</string>
     <string name="forbid_autobright_title">แก้ไขความสว่างหน้าจอ</string>
+    <string name="forbid_autobright_summary">ความสว่างหน้าจอจะไม่ปรับอัตโนมัติขณะที่คุณกำลังเล่นเกมส์</string>
     <string name="gamebooster_lowbattery_notification_title">แบตเตอรี่ตำกว่า 5%%</string>
     <string name="gamebooster_lowbattery_notification_summary">ชาร์จอุปกรณ์ของคุณก่อนปิด</string>
-    <string name="game_ad_recommendation">Everybody is playing</string>
+    <string name="game_ad_recommendation">ทุกคนกำลังเล่น</string>
+    <string name="game_booster_close">ตัวเร่งความเร็วในการเล่นเกมปิดอยู่</string>
+    <string name="databooster_tips_title">คำเตือน</string>
+    <string name="databooster_tips_message">เปิดใช้งานจำกัดซิมทั้งหมดยกเว้นการ์ดข้อมูล ปิดคุณลักษณะนี้หากมีข้อผิดพลาดเกิดขึ้นในเกมที่คุณเลือก</string>
     <string name="power_center_consume_rank">การใช้งานแบตเตอรี่</string>
     <string name="power_center_custom_title">ใช้โหมดพลังงาน</string>
     <string name="power_center_auto_shutdown_summary_default">ตั้งค่าการเปิดหรือปิดเครื่องตามเวลาที่กำหนดไว้ล่วงหน้า</string>

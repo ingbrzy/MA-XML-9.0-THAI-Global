@@ -6,6 +6,9 @@
     <string name="xiaomi_update_dialog_message_diff">"เวอร์ชั่นแนะนำ %1$s
 ขนาด %2$s"</string>
     <string name="xiaomi_external_storage_unavailable">ที่จัดเก็บข้อมูลไม่พร้อมใช้งาน ตรวจสอบ SD การ์ดของคุณ</string>
+    <string name="xiaomi_bytes_unit">%1$sB</string>
+    <string name="xiaomi_kilobytes_unit">%1$sKB</string>
+    <string name="xiaomi_megabytes_unit">%1$sMB</string>
     <string name="xiaomi_connect_download_manager_fail">ไม่สามารถเริ่มการดาวน์โหลดได้ ตรวจสอบให้แน่ใจว่าตัวจัดการการดาวน์โหลดทำงานปกติ</string>
     <string name="app_name">สำรองข้อมูล</string>
     <string name="local_app_name">สำรองข้อมูล</string>
@@ -29,7 +32,7 @@
     <string name="delete">ลบ</string>
     <string name="cancel">ยกเลิก</string>
     <string name="reconnect">เชื่อมต่ออีกครั้ง</string>
-    <string name="pause">Pause</string>
+    <string name="pause">หยุดชั่วคราว</string>
     <string name="delete_backup_process">กำลังลบ…</string>
     <string name="backup_error">การสำรองข้อมูลผิดพลาด</string>
     <string name="delete_failed_backup_confirm">ไฟล์ข้อมูลสำรองมีข้อผิดพลาด</string>
@@ -166,7 +169,7 @@
     <string name="date_format">HH:mm:ss dd-MM-yyyy</string>
     <string name="dir_date_format">yyyyMMdd_HHmmss</string>
     <string name="no_network">เชื่อมต่อเครือข่ายไม่ได้</string>
-    <string name="retry">ลองใหม่</string>
+    <string name="retry">ลองอีกครั้ง</string>
     <string name="select_all">เลือกทั้งหมด</string>
     <string name="deselect_all">ไม่เลือกทั้งหมด</string>
     <string name="reverse_all">ล้างทั้งหมด</string>
@@ -197,7 +200,7 @@
     <string name="enable_encrypt_xiaomi_account">การสำรองข้อมูลนี้สร้างขึ้นโดย %1$s เพื่อคืนค่า ให้ลบบัญชีปัจจุบัน และเข้าสู่ระบบด้วย %2$s</string>
     <string name="enable_encrypt_ok">ตกลง</string>
     <string name="no_encrypt_password">ไม่มีรหัสผ่าน</string>
-    <string name="enable_encrypt_fail">การเข้ารหัสล้มเหลว</string>
+    <string name="enable_encrypt_fail">การเข้ารหัสผิดพลาด</string>
     <string name="read_encrypt_fail">ไม่สามารถอ่านการสำรองข้อมูลที่เข้ารหัสได้</string>
     <string name="exchange_account">เปลี่ยนบัญชี</string>
     <string name="system_backup">สำรองข้อมูล</string>
@@ -224,8 +227,9 @@
     <string name="file_uploading">กำลังอัพโหลด…</string>
     <string name="new_backup">สำรองข้อมูล</string>
     <string name="restore_backup">คืนค่า</string>
-    <string name="enable_encrypt_description">Encrypt</string>
-    <string name="disable_encrypt_description">Not encrypt</string>
+    <string name="enable_encrypt_description">เข้ารหัส</string>
+    <string name="disable_encrypt_description">ไม่ได้เข้ารหัส</string>
+    <string name="digit_percent">%</string>
     <string name="state_waiting">รอสักครู่…</string>
     <string name="state_mounting">กำลังเข้าถึงพื้นที่จัดเก็บข้อมูลเราเตอร์…</string>
     <string name="abort_backup_confirm">ยังสำรองข้อมูลไม่เสร็จ ยกเลิกหรือไม่?</string>
@@ -238,7 +242,7 @@
     <string name="summary_err_restore_encrypting">ไม่สามารถกู้คืนได้ โปรดให้แน่ใจก่อนว่าได้ทำการสำรองข้อมูลผ่านบัญชี Mi</string>
     <string name="summary_err_backup_no_network">ไม่สามารถเชื่อมต่อกับเครือข่ายได้</string>
     <string name="summary_err_restore_no_network">ไม่สามารถเชื่อมต่อกับเครือข่ายได้</string>
-    <string name="err_authentication_failed">เข้าสู่ระบบไม่สำเร็จ</string>
+    <string name="err_authentication_failed">ไม่สามารถยืนยันสิทธิ์ได้</string>
     <string name="err_low_storage">พื้นที่ไม่เพียงพอ</string>
     <string name="err_unknown">ข้อผิดพลาดไม่รู้จัก</string>
     <string name="err_version_too_old">ไฟล์ข้อมูลสำรองเก่าเกินไป</string>
@@ -260,8 +264,8 @@
     <string name="notif_trans_sending_failed">ส่งข้อมูลไม่สำเร็จ</string>
     <string name="notif_trans_receiving_failed">รับข้อมูลไม่สำเร็จ</string>
     <string name="notif_trans_wait_for_reconnecting">ถูกตัดการเชื่อมต่อ เชื่อมต่ออีกครั้ง</string>
-    <string name="notif_trans_auto_reconnecting_title">Connection was interrupted. Reconnecting automatically…</string>
-    <string name="notif_trans_auto_reconnecting_content">You can cancel current task if needed.</string>
+    <string name="notif_trans_auto_reconnecting_title">การเชื่อมต่อไม่ถูกต้อง กำลังเชื่อมต่อใหม่อัตโนมัติ…</string>
+    <string name="notif_trans_auto_reconnecting_content">คุณสามารถยกเลิกงานปัจจุบันได้หากต้องการ</string>
     <string name="custom_progress">%d รายการ</string>
     <string name="remote_receive">รับ</string>
     <string name="click_to_view" />
@@ -313,12 +317,12 @@
     <string name="trans_cancelling">กำลังยกเลิก…</string>
     <string name="trans_device_disconnected">ถูกตัดการเชื่อมต่อ</string>
     <string name="trans_device_wait_for_reconnecting">ถูกตัดการเชื่อมต่อ เชื่อมต่ออีกครั้งเพื่อดำเนินการต่อ</string>
-    <string name="trans_device_auto_reconnecting">Device disconnected. Reconnecting automatically…</string>
+    <string name="trans_device_auto_reconnecting">อุปกรณ์ขาดการเชื่อมต่อ กำลังเชื่อมต่อใหม่อัตโนมัติ…</string>
     <string name="trans_connecting_toast">กำลังเชื่อมต่อ…</string>
     <string name="trans_connect_failed_toast">เชื่อมต่อไม่ได้</string>
     <string name="trans_generate_qr_code_failed">ไม่สามารถสร้างรหัส QR</string>
     <string name="trans_scan_invalid_qrcode">รหัส QR ไม่ถูกต้อง</string>
-    <string name="trans_scan_qr_code_tips">Scan QR code using new device</string>
+    <string name="trans_scan_qr_code_tips">สแกนรหัส QR เพื่อใช้อุปกรณ์ใหม่</string>
     <string name="trans_show_qr_code_label">เชื่อมต่อเครื่องเดิม</string>
     <string name="trans_show_qr_code_tips">นำเครื่องเก่ามาสแกนรหัส QR</string>
     <string name="trans_operate_new_phone_tips">"ไปที่ เมนูการตั้งค่า > การตั้งค่าเพิ่มเติม > Mi Mover
@@ -352,7 +356,7 @@
     <string name="size_giga_byte">GB</string>
     <string name="trans_connect_failed_title">เชื่อมต่อไม่ได้</string>
     <string name="trans_connect_failed_message">การเชื่อมต่อล้มเหลว กรุณาลองใหม่หรือรีบูตอุปกรณ์ โดยบนอุปกรณ์อีกเครื่อง ให้ไปที่การตั้งค่า > การตั้งค่าเพิ่มเติม > Mi Mover แตะ [เครื่องนี้เป็นผู้ส่ง] หรือเปิด Mi Mover ใหม่หลังจากรีบูต</string>
-    <string name="trans_retry">ลองใหม่</string>
+    <string name="trans_retry">ลองอีกครั้ง</string>
     <string name="trans_start_failed_title">ไม่สามารถเริ่มการถ่ายโอนได้</string>
     <string name="trans_start_failed_message">ไม่สามารถเริ่มการถ่ายโอนได้ ลองใหม่อีกครั้งหรือรีบูตอุปกรณ์</string>
     <string name="trans_connect_failed_device_incompatible">อุปกรณ์ไม่เข้ากัน ยกเลิกการถ่ายโอนและลองใหม่อีครั้ง</string>
@@ -362,26 +366,26 @@
     <string name="user_notice_declaration_ignore">ไม่ต้องแสดงอีก</string>
     <string name="total_size">, %s</string>
     <string name="trans_intro_title">คำถามที่พบบ่อย</string>
-    <string name="trans_intro_question_1">1. How do I use Mi Mover to move data from Apple device?</string>
-    <string name="trans_intro_desc_1">"On Xiaomi device, connect to Wi-Fi. Tap \"I'm a recipient\", and then select \"Apple device\". Login iCloud and import data."</string>
-    <string name="trans_intro_question_2">2. How do I use Mi Mover to move data from Android device?</string>
+    <string name="trans_intro_question_1">1. ฉันจะใช้ Mi Mover ย้ายข้อมูลจากอุปกรณ์ iOS ได้อย่างไร?</string>
+    <string name="trans_intro_desc_1">เปิด Mi phone, เชื่อมต่อ Wi-Fi และแตะ \"ฉันคือผู้รับ\" เลือกอุปกรณ์ iOS ของคุณ, ลงชื่อเข้าใช้ iCloud และนำเข้าข้อมูล</string>
+    <string name="trans_intro_question_2">2. ฉันจะใช้ Mi Mover ย้ายข้อมูลจากอุปกรณ์แอนดรอยด์ได้อย่างไร?</string>
     <string name="trans_intro_title_new">เปิดโทรศัพท์ใหม่:</string>
     <string name="trans_intro_desc_new">แตะ \"ฉันเป็นผู้รับ\" รหัส QR จะถูกสร้างขึ้น</string>
     <string name="trans_intro_title_old">เปิดโทรศัพท์เดิม:</string>
     <string name="trans_intro_desc_old">แตะ \"ฉํนเป็นผู้ส่ง\" สแกนรหัส QR ด้วยโทรศัพท์ใหม่ รอจนกว่า Mi Mover จะหาไฟล์ที่จะส่งและแตะ \"ส่ง\"</string>
-    <string name="trans_intro_question_3">3. What should I do if Mi Mover got stuck on a certain step?</string>
-    <string name="trans_intro_desc_3">Cancel the transfer, exit Mi Mover, and start over. Duplicate files will be overwritten during the new transfer.</string>
-    <string name="trans_intro_question_4">"4. Why can't I use Wi-Fi during transfers?"</string>
-    <string name="trans_intro_desc_4">"Mi Mover uses Wi-Fi to transfer files. That's why you can't connect to the internet using Wi-Fi on either device during a transfer. You can still use mobile data, though. However, some newer devices (for example, Mi 6) would still be able to connect to the internet using Wi-Fi during transfers."</string>
-    <string name="trans_intro_question_5">"5. Why does Mi Mover tell me there isn't enough storage space on my old phone?"</string>
-    <string name="trans_intro_desc_5">Storage space on old devices is used for creating transfer packages. Make sure you have at least 500MB - 1GB of available storage on your old phone before you start a transfer.</string>
-    <string name="trans_intro_question_6">"6. Why aren't some apps transferred successfully?"</string>
-    <string name="trans_intro_desc_6">There are several reasons why that may happen: system and app version compatibility issues, network problems, compatibility issues specific to a particular device, etc.</string>
-    <string name="trans_intro_question_7">"7. Why won't some apps start on a new device?"</string>
-    <string name="trans_intro_desc_7">Some app profiles (e-banking, finance, etc.) are associated with specific device due to security reasons. Try clearing the app data or re-installing the app on a new device.</string>
-    <string name="trans_intro_question_8">"8. Why isn't WeChat history fully transferred?"</string>
-    <string name="trans_intro_desc_8">"WeChat app data and chat history might not be fully transferred using Mi Mover. Go to WeChat's settings and sign out of your account to get more chances for a successful transfer."</string>
-    <string name="trans_intro_question_9">"9. Which items can't be transferred?"</string>
+    <string name="trans_intro_question_3">3. ฉันควรทำอย่างไรหาก Mi Mover ติดค้างในขั้นตอนหนึ่ง?</string>
+    <string name="trans_intro_desc_3">ยกเลิกการถ่ายโอน ออกจาก Mi Mover และเริ่มต้นใหม่ ไฟล์ที่ซ้ำจะถูกเขียนทับระหว่างการถ่ายโอนใหม่</string>
+    <string name="trans_intro_question_4">4. เหตุใดฉันจึงไม่สามารถใช้ Wi-Fi ระหว่างการถ่ายโอนได้?</string>
+    <string name="trans_intro_desc_4">Mi Mover ใช้ Wi-Fi เพื่อถ่ายโอนไฟล์ นั่นเป็นเหตุผลที่คุณไม่สามารถเชื่อมต่ออินเทอร์เน็ตโดยใช้ Wi-Fi ในอุปกรณ์ใดก็ได้ระหว่างการโอน คุณยังคงสามารถใช้ข้อมูลมือถือได้ อย่างไรก็ตามอุปกรณ์รุ่นใหม่ๆ (เช่น Mi 6) จะยังคงสามารถเชื่อมต่อกับอินเทอร์เน็ตโดยใช้ Wi-Fi ระหว่างการถ่ายโอนได้</string>
+    <string name="trans_intro_question_5">5. ทำไม Mi Mover จึงบอกฉันว่ามีพื้นที่เก็บข้อมูลไม่เพียงพอในโทรศัพท์เก่าของฉัน?</string>
+    <string name="trans_intro_desc_5">พื้นที่เก็บข้อมูลบนโทรศัพท์เก่าใช้สำหรับสร้างแพคเกจการโอนย้าย ตรวจสอบว่าคุณมีพื้นที่เก็บข้อมูลอย่างน้อย 500MB - 1GB บนโทรศัพท์เครื่องเก่าของคุณก่อนที่จะเริ่มถ่ายโอน</string>
+    <string name="trans_intro_question_6">6. เหตุใดแอปบางแอปจึงไม่สามารถโอนได้?</string>
+    <string name="trans_intro_desc_6">มีสาเหตุหลายประการที่อาจเกิดขึ้น ได้แก่ ปัญหาความเข้ากันได้ของรุ่นและระบบ, ปัญหาเกี่ยวกับเครือข่าย, ประเด็นเกี่ยวกับความเข้ากันได้ที่เฉพาะเจาะจงกับอุปกรณ์เฉพาะ ฯลฯ</string>
+    <string name="trans_intro_question_7">7. ทำไมแอปบางตัวจึงไม่เริ่มทำงานในอุปกรณ์ใหม่?</string>
+    <string name="trans_intro_desc_7">โปรไฟล์แอปบางแอป (ธนาคารอิเล็กทรอนิกส์การเงิน ฯลฯ) เชื่อมโยงกับอุปกรณ์เฉพาะ เนื่องจากเหตุผลด้านความปลอดภัย ลองล้างข้อมูลแอปหรือติดตั้งแอปใหม่บนอุปกรณ์ใหม่</string>
+    <string name="trans_intro_question_8">8. เหตุใดประวัติ WeChat จึงไม่สามารถถ่ายโอนได้อย่างสมบูรณ์?</string>
+    <string name="trans_intro_desc_8">ข้อมูลแอป WeChat และประวัติการแชทอาจไม่ได้รับการถ่ายโอนอย่างเต็มที่โดยใช้ Mi Mover ไปที่การตั้งค่าของ WeChat และออกจากระบบบัญชีของคุณเพื่อให้มีโอกาสมากขึ้นสำหรับการโอนเงินที่สำเร็จ</string>
+    <string name="trans_intro_question_9">9. รายการใดที่ไม่สามารถถ่ายโอนได้?</string>
     <string name="trans_intro_title_account">บัญชีและรหัสผ่าน:</string>
     <string name="trans_intro_desc_account">คุณต้องลงชื่อเข้าใช้บัญชีของคุณอีกครั้ง (เช่น Mi Account, Exchange, Google ฯลฯ) บนอุปกรณ์ใหม่เนื่องจากเหตุผลด้านความปลอดภัย</string>
     <string name="trans_intro_title_private">อัลบั้มซ่อน:</string>
@@ -395,91 +399,92 @@
     <string name="backup_security_tips_message">แอปบางแอปอาจไม่สามารถสำรองข้อมูลหรือเรียกคืนค่าได้</string>
     <string name="trans_security_tips_title">ความเข้ากันได้ Mi Mover</string>
     <string name="trans_security_tips_message">บางแอปไม่สนับสนุน Mi Mover</string>
-    <string name="trans_wlan_tips_title">"Please don't turn off or switch Wi-Fi"</string>
-    <string name="trans_wlan_tips_message">"Please don't turn off or switch Wi-Fi while transfering data. Otherwise the mover may fail."</string>
-    <string name="trans_disconnected_tips_title">Remote device is disconnected</string>
-    <string name="trans_disconnected_tips_message">Remote device is disconnected. Please reconnect by hand. You can cancel current task if needed.</string>
-    <string name="trans_button_cancel">Cancel</string>
-    <string name="close_twice_auth_tutor">Close appleID two factor authorication</string>
-    <string name="close_twice_auth_steps">Close two factor authorication, as follow steps:</string>
-    <string name="close_twice_auth_step_1">1. login Apple ID account page</string>
-    <string name="close_twice_auth_step_2">2. In the \"Security\" section, click \"Edit\"</string>
-    <string name="close_twice_auth_step_3">3. Click \"Turn off dual / two-step authorication\". Click again to confirm</string>
-    <string name="close_twice_auth_note">"Note:
-After creating a new security question and confirming your date of birth, the dual authentication function will be turned off. If you do not see the option to turn off dual authentication on the Apple ID account page, you can not turn it off."</string>
-    <string name="close_twice_auth_btn">Close to two-factor authentication</string>
-    <string name="close_twice_auth_operation">"Computer-side access:
-https://appleid.apple.com/#!&amp;page=signin to close"</string>
-    <string name="platform_chooser_title">Choose old device</string>
-    <string name="platform_chooser_item_ios">Import from Apple device</string>
-    <string name="platform_chooser_item_android">Import from Android</string>
-    <string name="icloud_need_wifi_title">Wi-Fi needed</string>
-    <string name="icloud_need_wifi_message">Wi-Fi is not conneced currently. To import data from iCloud, Wi-Fi is needed to login and download data.</string>
-    <string name="icloud_login_title">Login iCloud</string>
-    <string name="icloud_backup_tip">Login iCloud id of old Apple device</string>
-    <string name="icloud_how_to_backup_tip_title">Tips:</string>
-    <string name="icloud_how_to_backup_tip_summary">To import data from iOS, you need to upload data in old devices to iCloud.</string>
-    <string name="icloud_how_to_backup_tip_steps">"1.Enter Settings in you iOS device, and then choose iCloud.
-2.Turn on Contacts.
-3.Select Photos and turn on iCloud Photo Library."</string>
-    <string name="user_name">Apple ID or email</string>
-    <string name="password">password</string>
-    <string name="user_name_null">User name cannot be empty</string>
-    <string name="password_null">Password cannot be empty</string>
-    <string name="name_password_not_consistent">User name or password is wrong</string>
-    <string name="login">Login</string>
-    <string name="logining">logining…</string>
-    <string name="login_failed">Failed to login. Please retry.</string>
-    <string name="connect_wifi_tip">Network is disconnected. Importing data from iCloud needs Wi-Fi.</string>
-    <string name="connect_wifi">Connect Wi-Fi</string>
-    <string name="notif_icloud_logining">Logining iCloud id of old Apple device…</string>
-    <string name="notif_icloud_loading_summary">Loading data…</string>
-    <string name="notif_icloud_import_title">Import data from iCloud</string>
-    <string name="notif_icloud_loaded_summary">Waiting to download data</string>
-    <string name="notif_icloud_canceling_summary">Canceling…</string>
-    <string name="notif_icloud_canceled_summary">Canceled</string>
-    <string name="notif_icloud_saved_summary">Importing finished</string>
-    <string name="notif_icloud_need_wifi_summary">Wait for Wi-Fi</string>
-    <string name="hsa_title">Two-factor authentication</string>
-    <string name="hsa_input_tip">Your iCloud ID enables two-factor authentication. Please enter verification code.</string>
-    <string name="hsa_input_hint">Enter verification code</string>
-    <string name="hsa_code_null">Verification code cannot be empty</string>
-    <string name="hsa_send_again">Send again</string>
-    <string name="hsa_send_again_countdown">Send again(%ds)</string>
-    <string name="hsa_sending">Sending…</string>
-    <string name="hsa_send_failed">Failed to send verification code. Please retry later.</string>
-    <string name="hsa_tip_title">Tips:</string>
-    <string name="hsa_tip_message">"1.A message containing verification code will be sended to the phone bounded to iCloud
-2.Turn off two-factor authentication if failing to verify."</string>
-    <string name="hsa_tip_message_with_device">"1.A message containing verification code has been sended to the phone \"%s\" bounded to iCloud
-2.Turn off two-factor authentication if failing to verify."</string>
-    <string name="hsa_tip_message_shutdown_hsa">how to turn off two-factor authentication</string>
-    <string name="hsa_verify_failed">Two-factor authentication failed</string>
-    <string name="hsa_verify_failed_message">Two-factor authentication failed. You can retry or turn off two-factor authentication.</string>
-    <string name="hsa_verify_retry">Retry</string>
-    <string name="hsa_verify_shutdown">Turn off</string>
-    <string name="import_data_from_icloud">Import data from iCloud</string>
-    <string name="loading_data">Loading data</string>
-    <string name="icloud_need_sync">"To import data from iOS
-you need to upload data in old devices to iCloud"</string>
-    <string name="import_tip_title">Tips:</string>
-    <string name="import_tip_summary">Because of compatibility, contacts and photos are supported only. You need to upload data in old devices to iCloud first.</string>
-    <string name="button_import">Import</string>
-    <string name="select_empty">Select items to import</string>
-    <string name="select_item_summary_wait">Wait to load data</string>
-    <string name="select_item_summary_loading">Loading data…</string>
-    <string name="select_item_contacts">Contacts</string>
-    <string name="select_item_photos">Photos</string>
-    <string name="select_item_empty_summary">No contents</string>
-    <string name="cancel_moving_dialog_title">Stop importing</string>
-    <string name="cancel_moving_dialog_message">Are you sure to stop importing?</string>
-    <string name="notif_icloud_saving_summary">Restoring data…</string>
-    <string name="saving_data">"Importing data from iCloud
-Please don't turn off or switch Wi-Fi"</string>
-    <string name="saving_data_no_time">Restoring data</string>
-    <string name="saving_data_space_low">"No enough space
-Please release at least %s"</string>
-    <string name="save_finish_with_failing_items">"Importing is interrupted. Some data has been imported
-The data left needs to import again"</string>
-    <string name="import_again">Import again</string>
+    <string name="trans_wlan_tips_title">ห้ามปิดใช้งาน Wi-Fi</string>
+    <string name="trans_wlan_tips_message">ห้ามปิดใช้งานหรือสลับการเชื่อมต่อ Wi-fi ระหว่างการโอนย้าย. มิฉะนั้น Mi Mover จะไม่สามารถโอนย้ายข้อมูลได้</string>
+    <string name="trans_disconnected_tips_title">อุปกรณ์ระยะไกลขาดการเชื่อมต่อ</string>
+    <string name="trans_disconnected_tips_message">อุปกรณ์ระยะไกลขาดการเชื่อมต่อ เชื่อมต่อด้วยตนเองอีกครั้งหรือยกเลิกการถ่ายโอน</string>
+    <string name="trans_button_cancel">ยกเลิก </string>
+    <string name="close_twice_auth_tutor">ปิดการตรวจสอบสิทธิ์ appleID สองขั้นตอน</string>
+    <string name="close_twice_auth_steps">ทำตามขั้นตอนนี้เพื่อปิดการตรวจสอบสิทธิ์ appleID สองขั้นตอน</string>
+    <string name="close_twice_auth_step_1">1. เปิดเว็บเบราว์เซอร์ไดก็ได้บนคอมพิวเตอร์และไปยัง appleid.apple.com</string>
+    <string name="close_twice_auth_step_2">2. ลงชื่อเข้าใช้ Apple ID คุณต้องการปิดการตรวจสอบสิทธิ์สองขั้นตอน, ไปยัง \"ความปลอดภัย\" เซคชั่นของการตั้งค่าบัญชีและเลือก \"แก้ไข\"</string>
+    <string name="close_twice_auth_step_3">3. คลิก \"ปิดการตรวจสอบสิทธิ์ appleID สองขั้นตอน\". คลิกอีกครั้งเพื่อยืนยัน</string>
+    <string name="close_twice_auth_note">"หมายเหตุ:
+หลังจากสร้างคำถามเพื่อความปลอดภัยใหม่และยืนยันวันเกิดของคุณ ฟังก์ชันการตรวจสอบสิทธิ์ Apple ID สองชั้นจะถูกปิดใช้งาน หากคุณไม่เห็นตัวเลือกในการปิดการตรวจสอบสิทธิ์สองชั้นในหน้าบัญชี Apple ID คุณจะไม่สามารถปิดการทำงานได้"</string>
+    <string name="close_twice_auth_btn">ปิดการตรวจสอบสิทธิ์สองชั้น</string>
+    <string name="close_twice_auth_operation">"ปิดลิงก์ URL:
+https://appleid.apple.com/#!&amp;page=signin"</string>
+    <string name="platform_chooser_title">เลือกอุปกรณ์เก่า</string>
+    <string name="platform_chooser_item_ios">นำเข้าจากอุปกรณ์ iOS</string>
+    <string name="platform_chooser_item_android">นำเข้าจากอุปกรณ์แอนดรอยด์</string>
+    <string name="icloud_need_wifi_title">เชื่อมต่อกับ Wi-Fi</string>
+    <string name="icloud_need_wifi_message">คุณไม่ได้เชื่อมต่อกับ Wi-Fi ขณะนี้ เพื่อนำเข้าข้อมูลจาก iCloud, กรุณาเชื่อมต่อ Wi-Fi</string>
+    <string name="icloud_login_title">ลงชื่อเข้าใช้ iCloud</string>
+    <string name="icloud_backup_tip">ลงชื่อเข้าใช้บัญชี iCloud ของอุปกรณ์ iOS เก่าของคุณ</string>
+    <string name="icloud_how_to_backup_tip_title">เคล็ดลับ:</string>
+    <string name="icloud_how_to_backup_tip_summary">เพื่อนำเข้าข้อมูลจาก iOS, คุณต้องสำรอง iCloud</string>
+    <string name="icloud_how_to_backup_tip_steps">"1. เปิดการตั้งค่าบนอุปกรณ์ iOS เก่าของคุณ, และเลือก iCloud.
+2. เปิด-ปิดสลับสำหรับรายชื่อ.
+3.เลือกรูปภาพ และเปิด-ปิดสลับคลังรูปภาพ iCloud"</string>
+    <string name="user_name">Apple ID หรืออีเมล</string>
+    <string name="password">รหัสผ่าน</string>
+    <string name="user_name_null">ชื่อผู้ใช้ไม่สามารถเว้นว่างได้</string>
+    <string name="password_null">รหัสผ่านไม่สามารถเว้นว่างได้</string>
+    <string name="name_password_not_consistent">ชื่อผู้ใช้หรือรหัสผ่านไม่ถูกต้อง</string>
+    <string name="login">ลงชื่อเข้าใช้</string>
+    <string name="logining">กำลังเข้าสู่ระบบ…</string>
+    <string name="login_failed">ลงชื่อเข้าใช้ไม่ได้ ลองอีกครั้ง.</string>
+    <string name="connect_wifi_tip">ไม่ได้เชื่อมต่อเครือข่าย. กรุณาเชื่อมต่อ Wi-Fi เพื่อนำเข้ารายการจาก iCloud.</string>
+    <string name="connect_wifi">เชื่อมต่อ Wi-Fi</string>
+    <string name="notif_icloud_logining">กำลังลงชื่อเข้าใช้ iCloud บนอุปกรณ์ iOS เก่า…</string>
+    <string name="notif_icloud_loading_summary">กำลังโหลดข้อมูล…</string>
+    <string name="notif_icloud_import_title">นำเข้าข้อมูลจาก iCloud</string>
+    <string name="notif_icloud_loaded_summary">กำลังรอ…</string>
+    <string name="notif_icloud_canceling_summary">กำลังยกเลิก…</string>
+    <string name="notif_icloud_canceled_summary">ยกเลิกแล้ว</string>
+    <string name="notif_icloud_saved_summary">นำเข้าเรียบร้อยแล้ว</string>
+    <string name="notif_icloud_need_wifi_summary">กำลังรอ Wi-Fi</string>
+    <string name="hsa_title">การตรวจสอบสิทธิ์สองชั้น</string>
+    <string name="hsa_input_tip">รหัส Apple ID ของคุณใช้การตรวจสอบสิทธิ์สองชั้น กรุณาป้อนรหัสยืนยัน</string>
+    <string name="hsa_input_hint">ป้อนรหัสยืนยัน</string>
+    <string name="hsa_code_null">รหัสยืนยันไม่สามารถเว้นว่างได้</string>
+    <string name="hsa_send_again">ส่งอีกครั้ง</string>
+    <string name="hsa_send_again_countdown">ส่งอีกครั้ง(%dวิ)</string>
+    <string name="hsa_sending">กำลังส่ง…</string>
+    <string name="hsa_send_failed">ไม่สามารถส่งรหัสยืนยันได้ กรุณารอ 1-2 นาทีแล้วลองใหม่อีกครั้ง</string>
+    <string name="hsa_tip_title">เคล็ดลับ:</string>
+    <string name="hsa_tip_message">"1. ข้อความรหัสยืนยันถูกส่งไปยังอุปกรณ์ที่ผูกกับ Apple ID ของคุณแล้ว
+2. ปิดใช้งานการตรวจสอบสิทธิ์สองชั้นหากรหัสยืนยันไม่ทำงาน"</string>
+    <string name="hsa_tip_message_with_device">"1. ข้อความรหัสยืนยันถูกส่งไปยัง \"%s\" ที่ผูกกับ Apple ID ของคุณแล้ว
+2. ปิดใช้งานการตรวจสอบสิทธิ์สองชั้นหากรหัสยืนยันไม่ทำงาน"</string>
+    <string name="hsa_tip_message_shutdown_hsa">ปิดการตรวจสอบสิทธิ์สองชั้นได้อย่างไร</string>
+    <string name="hsa_verify_failed">การตรวจสอบสิทธิ์สองชั้นล้มเหลว</string>
+    <string name="hsa_verify_failed_message">การตรวจสอบสิทธิ์สองชั้นล้มเหลว สามารถทดลองอีกครั้งหรือปิดใช้งานตรวจสอบสิทธิ์สองชั้น</string>
+    <string name="hsa_verify_retry">ลองอีกครั้ง</string>
+    <string name="hsa_verify_shutdown">ปิดใช้งาน</string>
+    <string name="import_data_from_icloud">นำเข้าข้อมูลจาก iCloud</string>
+    <string name="loading_data">กำลังโหลดข้อมูล</string>
+    <string name="icloud_need_sync">"เพื่อข้อมูลจาก iOS,
+คุณต้องสำรองข้อมูลก่อน iCloud"</string>
+    <string name="import_tip_title">เคล็ดลับ:</string>
+    <string name="import_tip_summary">ข้อกำหนดปัญหาความเข้ากันได้ สำหรับอุปกรณ์ iOS คุณสามารถถ่ายโอนได้เฉเพาะรายชื่อและรูปภาพเท่านั้น ตรวจสอบให้แน่ใจว่าคุณได้สำรองข้อมูลก่อนการเริ่มการถ่ายโอน</string>
+    <string name="import_tip_message">@string/icloud_how_to_backup_tip_steps</string>
+    <string name="button_import">นำเข้า</string>
+    <string name="select_empty">เลือกรายการที่จะนำเข้า</string>
+    <string name="select_item_summary_wait">กำลังรอ…</string>
+    <string name="select_item_summary_loading">กำลังโหลดข้อมูล…</string>
+    <string name="select_item_contacts">รายชื่อผู้ติดต่อ</string>
+    <string name="select_item_photos">รูปภาพ</string>
+    <string name="select_item_empty_summary">ไม่มีรายการ</string>
+    <string name="cancel_moving_dialog_title">หยุดการนำเข้า</string>
+    <string name="cancel_moving_dialog_message">หยุดการนำเข้าตอนนี้?</string>
+    <string name="notif_icloud_saving_summary">กำลังคืนค่าข้อมูล…</string>
+    <string name="saving_data">"กำลังนำเข้าข้อมูลจาก iCloud…
+ห้ามปิดใช้งาน Wi-Fi"</string>
+    <string name="saving_data_no_time">กำลังคืนค่าข้อมูล…</string>
+    <string name="saving_data_space_low">"พื้นที่จัดเก็บข้อมูลไม่เพียงพอ
+ต้องล้างออกอย่างน้อย %s."</string>
+    <string name="save_finish_with_failing_items">"การถ่ายโอนขัดข้อง
+นำเข้าข้อมูลไม่สำเร็จต้องนำเข้าอีกครั้ง"</string>
+    <string name="import_again">นำเข้าอีกครั้ง</string>
 </resources>

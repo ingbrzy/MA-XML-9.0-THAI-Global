@@ -54,6 +54,33 @@
     <plurals name="add_to_album_cloud_photo_count_tip">
         <item quantity="other">เพิ่ม %d รูปภาพคลาวด์แล้ว ปิดใช้งาน \"แสดงอัลบั้มในเครื่องเท่านั้น\" เพื่อเรียกดู</item>
     </plurals>
+    <plurals name="delete_photo_from_local">
+        <item quantity="other">ลบ %d รูปภาพ?</item>
+    </plurals>
+    <plurals name="delete_photo_from_all_devices_and_cloud_msg">
+        <item quantity="other">ลบ %d รูปภาพจากอุปกรณ์และ Mi คลาวด์ทั้งหมด?</item>
+    </plurals>
+    <plurals name="delete_photo_from_this_album_and_cloud_msg">
+        <item quantity="other">ลบ %d รูปภาพจากอัลบั้มนี้และ Mi คลาวด์ทั้งหมด?</item>
+    </plurals>
+    <plurals name="delete_video_from_local">
+        <item quantity="other">ลบ %d วิดีโอ?</item>
+    </plurals>
+    <plurals name="delete_video_from_all_devices_and_cloud_msg">
+        <item quantity="other">ลบ %d วิดีโอจากอุปกรณ์และ Mi คลาวด์ทั้งหมด?</item>
+    </plurals>
+    <plurals name="delete_video_from_this_album_and_cloud_msg">
+        <item quantity="other">ลบ %d วิดีโอจากอัลบั้มนี้และ Mi คลาวด์ทั้งหมด?</item>
+    </plurals>
+    <plurals name="delete_media_from_local">
+        <item quantity="other">ลบ %d รายการ?</item>
+    </plurals>
+    <plurals name="delete_media_from_all_devices_and_cloud_msg">
+        <item quantity="other">ลบ %d รายการจากอุปกรณ์และ Mi คลาวด์ทั้งหมด?</item>
+    </plurals>
+    <plurals name="delete_media_from_this_album_and_cloud_msg">
+        <item quantity="other">ลบ %d รายการจากอัลบั้มนี้และ Mi คลาวด์ทั้งหมด?</item>
+    </plurals>
     <plurals name="album_item_msg_format">
         <item quantity="other">(%d รายการ)</item>
     </plurals>
@@ -143,14 +170,5 @@
     </plurals>
     <plurals name="search_feedback_done_mark_and_contribute_false_negative">
         <item quantity="other">เพิ่มแล้ว %1$d รูปภาพไปยัง \"%2$s\" และเพิ่มไปยังฐานข้อมูลแล้ว</item>
-    </plurals>
-    <plurals name="delete_photo_msg_format">
-        <item quantity="other">ลบ %1$d รูปภาพ %2$s?</item>
-    </plurals>
-    <plurals name="delete_video_msg_format">
-        <item quantity="other">ลบ %1$d วิดีโอ %2$s?</item>
-    </plurals>
-    <plurals name="delete_media_msg_format">
-        <item quantity="other">ลบ %1$d รายการ %2$s?</item>
     </plurals>
 </resources>

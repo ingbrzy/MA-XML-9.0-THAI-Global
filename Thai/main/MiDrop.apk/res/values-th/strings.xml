@@ -54,8 +54,6 @@
     <string name="clear_all">ล้างทั้งหมด</string>
     <string name="click_to_send">แตะเปิดรูปภาพโปรไฟล์เพื่อส่ง</string>
     <string name="coolboot_title">แชร์ Mi ดรอป</string>
-    <string name="date_format_ddmmyyyy">dd/MM/yyyy</string>
-    <string name="date_format_ddmmyyyyhmma">dd/MM/yyyy h:mm a</string>
     <string name="default_lang">ภาษาของระบบ</string>
     <string name="delete">ลบ</string>
     <string name="delete_item_desc">ลบไฟล์นี้จากรายการโอน?</string>
@@ -188,4 +186,6 @@
     <string name="want_send">ส่งไฟล์</string>
     <string name="wifi_name">ชื่อ Wi-Fi:</string>
     <string name="wifi_psw">รหัสผ่าน:</string>
+    <string name="date_format_ddmmyyyy">dd/MM/yyyy</string>
+    <string name="date_format_ddmmyyyyhmma">dd/MM/yyyy h:mm a</string>
 </resources>

@@ -298,6 +298,7 @@
     <string name="theme_batch_update_dlg_content_single">อัพเดท %1$s ธีมตอนนี้?</string>
     <string name="theme_current_using_has_update">มีธีมให้อัพเดท</string>
     <string name="theme_immediately_apply_tip">ใช้ธีมที่อัพเดททันทีหรือไม่?</string>
+    <string name="theme_name">%1$s</string>
     <string name="theme_fresh_man_notifaction">มีธีมใหม่</string>
     <string name="selected_resource_file_invalid">ไม่สามารถใช้งานไฟล์ที่เลือกได้</string>
     <string name="apply_theme_with_ringtones">เลือกใช้ริงโทนของธีม</string>
@@ -358,9 +359,9 @@
     <string name="gift_received_list_empty">คุณยังไม่ได้รับของขวัญใดๆเลย</string>
     <string name="gift_received_notification_title">%s มอบธีมมาให้คุณ</string>
     <string name="present_online_themes">รับธีมออนไลน์เพิ่มเติม</string>
-    <string name="present_local_themes">My theme resources</string>
-    <string name="present_official_themes">Official Selection</string>
-    <string name="find_more_theme">Find more</string>
+    <string name="present_local_themes">แหล่งข้อมูลธีมของฉัน</string>
+    <string name="present_official_themes">ตัวเลือกอย่างเป็นทางการ</string>
+    <string name="find_more_theme">ค้นหาเพิ่มเติม</string>
     <string name="lockscreen_magazine_title">ภาพพื้นหลังรายวัน</string>
     <string name="lockscreen_magazine_summary">หมวดหมู่</string>
     <string name="lockscreen_magazine_subscribe">%1$s ผู้ติดตาม</string>

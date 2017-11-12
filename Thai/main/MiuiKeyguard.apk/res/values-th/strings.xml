@@ -57,7 +57,7 @@
     <string name="input_password_after_boot_msg">เพื่อปลดล็อกอุปกรณ์ กรุณาป้อนรหัสผ่าน</string>
     <string name="input_password_after_boot_msg_must_enter_owner_space">คุณจำเป็นต้องเข้าสู่พื้นที่ปกติก่อนที่อุปกรณ์จะทำการรีบูต</string>
     <string name="input_password_after_boot_msg_can_not_switch_when_calling">ไม่สามารถสลับระหว่างพื้นที่ขณะโทรได้</string>
-    <string name="input_password_handle_sdcard_fs">Turn off \"Mock SD card optimization\" in Settings > Additional settings > Developer options before entering Second space.</string>
+    <string name="input_password_handle_sdcard_fs">ไม่สามารถเข้าพื้นที่ทับซ้อนจากหน้าจอล็อกได้ กรุณาเข้าจากพื้นที่ปกติ</string>
     <string name="accessibility_enter_lock_wallpaper">แตะเพื่อเปิดภาพพื้นหลังรวม</string>
     <string name="lock_wallpaper_learn_more">เพิ่มเติม</string>
     <string name="lock_wallpaper_enter">ป้อน</string>

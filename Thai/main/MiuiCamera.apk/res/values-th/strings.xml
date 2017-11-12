@@ -162,7 +162,7 @@
     <string name="accessibility_shutter_button">ปุ่มชัตเตอร์</string>
     <string name="accessibility_review_thumbnail">รูปภาพล่าสุด</string>
     <string name="accessibility_camera_picker">สลับระหว่างกล้องหน้าหลัง</string>
-    <string name="accessibility_stereo_button">Focus adjustment</string>
+    <string name="accessibility_stereo_button">การปรับแต่งโฟกัส</string>
     <string name="pref_camera_autoexposure_title">การวัดแสงอัตโนมัติ</string>
     <string name="pref_camera_autoexposure_entry_frameaverage">เฉลี่ยทั้งภาพ</string>
     <string name="pref_camera_autoexposure_entry_centerweighted">เฉลี่ยหนักกลาง</string>
@@ -322,12 +322,12 @@
     <string name="simple_mode_button_text_magic_mirror">ปิดการใช้กระจกลวงตา</string>
     <string name="pano_how_to_use_prompt_align_reference_line">วางลูกศรให้ตรงกับเส้นอ้างอิง</string>
     <string name="pano_how_to_use_prompt_slow_down">กรุณาช้าๆ</string>
-    <string name="pref_camera_stereo_mode_title">Focus adjustment</string>
-    <string name="simple_mode_button_text_stereo_mode">Turn off Focus adjustment</string>
+    <string name="pref_camera_stereo_mode_title">การปรับแต่งโฟกัส</string>
+    <string name="simple_mode_button_text_stereo_mode">ปิดใช้งานการปรับแต่งโฟกัส</string>
     <string name="dual_camera_too_close_toast">กล้องอยู่ใกล้กับวัตถุมากเกินไป</string>
     <string name="dual_camera_lowlight_toast">แสงสว่างไม่เพียงพอ</string>
     <string name="dual_camera_lens_covered_toast">เลนส์ถูกบดบัง</string>
-    <string name="dual_camera_use_hint">"Make sure the object isn't further than 2 meters."</string>
+    <string name="dual_camera_use_hint">ตรวจสอบให้แน่ใจว่าวัตถุอยู่หาประมาณ 2 เมตร</string>
     <string name="pref_camera_square_mode_title">รูปสี่เหลี่ยม</string>
     <string name="simple_mode_button_text_square">ปิดใช้รูปสี่เหลี่ยม</string>
     <string name="face_beauty_smart">อัจฉริยะ</string>
@@ -341,6 +341,7 @@
     <string name="pref_camera_beautify_entry_low">ต่ำ</string>
     <string name="pref_camera_beautify_entry_normal">ปานกลาง</string>
     <string name="pref_camera_beautify_entry_high">สูง</string>
+    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="camera_mode_options">ตัวเลือก</string>
     <string name="button_front_camera_title">ถ่ายเซลฟี่</string>
     <string name="button_normal_video_title">บันทึกวิดีโอ</string>
@@ -357,6 +358,7 @@
     <string name="toast_saving">กำลังบันทึกรูปภาพ…</string>
     <string name="cannot_connect_camera_volte_call">อยู่ระหว่างการวิดีโอคอล กรุณาลองใหม่ในภายหลัง</string>
     <string name="hibernate_hint">แตะที่หน้าจอเพื่อใช้กล้อง</string>
+    <string name="pref_camera_picturesize_entry_widescreen">@string/pref_camera_picturesize_entry_fullscreen</string>
     <string name="accessibility_zoom_button">โหมดซูม</string>
     <string name="accessibility_portrait_button">โหมดถ่ายภาพคน</string>
     <string name="toast_burst_snap_finished_summary">ถ่ายภาพต่อเนื่องเสร็จสิ้น ทั้งหมด %1$s รูป</string>

@@ -152,11 +152,20 @@
     <plurals name="lockpattern_too_many_failed_confirmation_attempts_footer">
         <item quantity="other">"กรุณารออีก %d วินาทีและลองใหม่อีกครั้ง "</item>
     </plurals>
+    <plurals name="number_masked">
+        <item quantity="other">%d แอป</item>
+    </plurals>
     <plurals name="number_locked">
         <item quantity="other">%d แอปล็อกอยู่</item>
     </plurals>
     <plurals name="number_to_lock">
         <item quantity="other">%d แอปไม่ได้ล็อก</item>
+    </plurals>
+    <plurals name="number_masked_text">
+        <item quantity="other">ซ่อน %d การแจ้งเตือน</item>
+    </plurals>
+    <plurals name="number_to_mask_text">
+        <item quantity="other">แสดง %d การแจ้งเตือน</item>
     </plurals>
     <plurals name="find_applications">
         <item quantity="other">ค้นหาจาก %d แอป</item>

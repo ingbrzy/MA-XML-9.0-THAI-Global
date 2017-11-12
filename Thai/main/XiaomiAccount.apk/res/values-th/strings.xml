@@ -439,4 +439,5 @@
     <string name="account_token_expired_msg">"รหัสยืนยันหมดอายุ เริ่มต้นหรือออกจากระบบ
  รหัสบัญชีของคุณ: %s"</string>
     <string name="bind_safe_phone_msg">เพิ่มหมายเลขโทรศัพท์ของคุณเพื่อให้สามารถลงชื่อเข้าใช้บัญชี Mi ในครั้งต่อไปได้</string>
+    <string name="account_notification_message">การแสดงตนบัญชี xiaomi หมดอายุ กรุณาลงชื่อเข้าใช้อีกครั้ง !</string>
 </resources>
