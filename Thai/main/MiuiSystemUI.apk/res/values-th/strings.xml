@@ -5,14 +5,12 @@
     <string name="wifi_security_short_wpa">WPA</string>
     <string name="wifi_security_short_wpa2">WPA2</string>
     <string name="wifi_security_short_wpa_wpa2">WPA/WPA2</string>
-    <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
     <string name="wifi_security_short_eap">802.1x</string>
     <string name="wifi_security_none">ไม่มี</string>
     <string name="wifi_security_wep">WEP</string>
     <string name="wifi_security_wpa">WPA PSK</string>
     <string name="wifi_security_wpa2">WPA2 PSK</string>
     <string name="wifi_security_wpa_wpa2">WPA/WPA2 PSK</string>
-    <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
     <string name="wifi_security_eap">802.1x EAP</string>
     <string name="wifi_security_passpoint">Passpoint</string>
     <string name="wifi_security_short_WAPI_PSK">WAPI PSK</string>
@@ -536,7 +534,6 @@
     <string name="ext_media_mountable_notification_title">เชื่อมต่ออุปกรณ์ USB แล้ว</string>
     <string name="ext_media_mountable_notification_message">แตะเพื่อเปิดด้วยตัวจัดการไฟล์</string>
     <string name="ext_media_safe_remove">ถอดออกได้อย่างปลอดภัย</string>
-    <string name="network_speed_suffix">%1$s%2$s</string>
     <string name="kilobyte_per_second">K/s</string>
     <string name="megabyte_per_second">M/s</string>
     <string name="status_bar_network_flow_today">วันนี้: %1$s</string>
@@ -616,7 +613,6 @@
     <string name="notification_header_title">การแจ้งเตือน</string>
     <string name="weather_publish_time">อัพเดทล่าสุด %1$s</string>
     <string name="no_weather_description">ขอรับข้อมูลสภาพอากาศ ></string>
-    <string name="weather_description_no_aqi">%1$s</string>
     <string name="screenshot_long_screenshot">แนวยาว</string>
     <string name="screenshot_edit">แก้ไข</string>
     <string name="screenshot_send">ส่ง</string>
