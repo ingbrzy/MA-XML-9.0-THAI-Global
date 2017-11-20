@@ -6,6 +6,9 @@
     <string name="xiaomi_update_dialog_message_diff">"เวอร์ชั่นแนะนำ %1$s
 ขนาด %2$s"</string>
     <string name="xiaomi_external_storage_unavailable">ที่จัดเก็บข้อมูลไม่พร้อมใช้งาน ตรวจสอบ SD การ์ดของคุณ</string>
+    <string name="xiaomi_bytes_unit">%1$sB</string>
+    <string name="xiaomi_kilobytes_unit">%1$sKB</string>
+    <string name="xiaomi_megabytes_unit">%1$sMB</string>
     <string name="xiaomi_connect_download_manager_fail">ไม่สามารถเริ่มการดาวน์โหลดได้ ตรวจสอบให้แน่ใจว่าตัวจัดการการดาวน์โหลดทำงานปกติ</string>
     <string name="app_name">สำรองข้อมูล</string>
     <string name="local_app_name">สำรองข้อมูล</string>
@@ -94,7 +97,7 @@
     <string name="task_stopped_exception">การคืนค่าถูกยกเลิก</string>
     <string name="sdcard_no_enough_space">พื้นที่ไม่เพียงพอ</string>
     <string name="sdcard_no_enough_space_message">พื้นที่บน SD การ์ดไม่เพียงพอ</string>
-    <string name="data_no_enough_space_message">ที่เก็บข้อมูลในเครื่องบนโทรศัพท์ของคุณมีพื้นที่ไม่เพียงพอ</string>
+    <string name="data_no_enough_space_message">พื้นที่ว่างในเครื่องของคุณไม่เพียงพอ</string>
     <string name="task_running_hint">กระบวนการนี้กำลังทำงานบนพื้นหลังแล้ว</string>
     <string name="task_running_dialog">การสำรองข้อมูลและการคืนค่ากำลังดำเนินการ แตะ\"ตกลง\"เพื่อดู</string>
     <string name="task_running_backup_hint">ภารกิจนี้ดำเนินการแล้วบนพื้นหลัง</string>
@@ -226,6 +229,7 @@
     <string name="restore_backup">คืนค่า</string>
     <string name="enable_encrypt_description">เข้ารหัส</string>
     <string name="disable_encrypt_description">ไม่ได้เข้ารหัส</string>
+    <string name="digit_percent">%</string>
     <string name="state_waiting">รอสักครู่…</string>
     <string name="state_mounting">กำลังเข้าถึงพื้นที่จัดเก็บข้อมูลเราเตอร์…</string>
     <string name="abort_backup_confirm">ยังสำรองข้อมูลไม่เสร็จ ยกเลิกหรือไม่?</string>
@@ -403,7 +407,7 @@
     <string name="close_twice_auth_tutor">ปิดการตรวจสอบสิทธิ์ appleID สองขั้นตอน</string>
     <string name="close_twice_auth_steps">ทำตามขั้นตอนนี้เพื่อปิดการตรวจสอบสิทธิ์ appleID สองขั้นตอน</string>
     <string name="close_twice_auth_step_1">1. เปิดเว็บเบราว์เซอร์ไดก็ได้บนคอมพิวเตอร์และไปยัง appleid.apple.com</string>
-    <string name="close_twice_auth_step_2">2. ลงชื่อเข้าใช้ Apple ID คุณต้องการปิดการตรวจสอบสิทธิ์สองขั้นตอน, ไปยัง \"ความปลอดภัย\" เซคชั่นของการตั้งค่าบัญชีและเลือก \"แก้ไข\"</string>
+    <string name="close_twice_auth_step_2">2. ลงชื่อเข้าใช้ Apple ID คุณต้องการปิดการตรวจสอบสิทธิ์สองขั้นตอน, ไปยัง \"ความปลอดภัย\" เซคชั่นของการตั้งค่าบัญชีและเลือก \"แก้ไข\".</string>
     <string name="close_twice_auth_step_3">3. คลิก \"ปิดการตรวจสอบสิทธิ์ appleID สองขั้นตอน\". คลิกอีกครั้งเพื่อยืนยัน</string>
     <string name="close_twice_auth_note">"หมายเหตุ:
 หลังจากสร้างคำถามเพื่อความปลอดภัยใหม่และยืนยันวันเกิดของคุณ ฟังก์ชันการตรวจสอบสิทธิ์ Apple ID สองชั้นจะถูกปิดใช้งาน หากคุณไม่เห็นตัวเลือกในการปิดการตรวจสอบสิทธิ์สองชั้นในหน้าบัญชี Apple ID คุณจะไม่สามารถปิดการทำงานได้"</string>
@@ -464,6 +468,7 @@ https://appleid.apple.com/#!&amp;page=signin"</string>
 คุณต้องสำรองข้อมูลก่อน iCloud"</string>
     <string name="import_tip_title">เคล็ดลับ:</string>
     <string name="import_tip_summary">ข้อกำหนดปัญหาความเข้ากันได้ สำหรับอุปกรณ์ iOS คุณสามารถถ่ายโอนได้เฉเพาะรายชื่อและรูปภาพเท่านั้น ตรวจสอบให้แน่ใจว่าคุณได้สำรองข้อมูลก่อนการเริ่มการถ่ายโอน</string>
+    <string name="import_tip_message">@string/icloud_how_to_backup_tip_steps</string>
     <string name="button_import">นำเข้า</string>
     <string name="select_empty">เลือกรายการที่จะนำเข้า</string>
     <string name="select_item_summary_wait">กำลังรอ…</string>

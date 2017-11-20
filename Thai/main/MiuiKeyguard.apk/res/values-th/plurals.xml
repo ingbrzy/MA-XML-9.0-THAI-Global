@@ -16,13 +16,13 @@
         <item quantity="other">%d การแจ้งเตือนใหม่</item>
     </plurals>
     <plurals name="keyguard_charging_info_charging_full_need_min_time__text">
-        <item quantity="other">"ประมาณ %d  นาทีจะเต็ม"</item>
+        <item quantity="other">"อีก %d  นาทีจะเต็ม"</item>
     </plurals>
     <plurals name="keyguard_charging_info_charging_full_need_hour_time__text">
-        <item quantity="other">"ประมาณ %d  ชั่วโมงจะเต็ม"</item>
+        <item quantity="other">"อีก %d  ชั่วโมงจะเต็ม"</item>
     </plurals>
     <plurals name="keyguard_charging_info_charging_full_need_time__text">
-        <item quantity="other">"ประมาณ %1$d ชม. %2$d  น. จะเต็ม"</item>
+        <item quantity="other">"อีก %1$d ชม. %2$d  น. จะเต็ม"</item>
     </plurals>
     <plurals name="keyguard_charging_info_could_use_min_time_text">
         <item quantity="other">"ใช้งานต่อเนื่องได้ประมาณ %d  นาที"</item>

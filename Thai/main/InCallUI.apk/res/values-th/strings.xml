@@ -39,7 +39,7 @@
     <string name="onscreen_add_call_text">เพื่มการโทร</string>
     <string name="onscreen_audio_mode_bluetooth">บลูทูธ</string>
     <string name="onscreen_audio_mode_conference">ประชุมสาย</string>
-    <string name="onscreen_audio_mode_handset">แฮนด์ฟรี</string>
+    <string name="onscreen_audio_mode_handset">หูฟัง</string>
     <string name="onscreen_audio_mode_headset">หูฟัง</string>
     <string name="onscreen_audio_mode_speaker">ลำโพง</string>
     <string name="onscreen_audio_switch_mode">เปลี่ยนโหมดเสียง</string>

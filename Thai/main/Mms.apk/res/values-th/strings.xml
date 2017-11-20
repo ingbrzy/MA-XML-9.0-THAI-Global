@@ -125,6 +125,7 @@
     <string name="delete_wild_sims_title">ลบเลขหมายที่เลือกไว้</string>
     <string name="delivery_report_activity">รายงานการส่ง</string>
     <string name="delivery_toast_body">รับข้อความโดย %s</string>
+    <string name="dialog_message_sms_report">ข้อความสแปมและข้อมูลผู้ส่งจะอับโหลดไปยัง MIUI เมื่อคุณรายงาน ซึ่งจะใช้เพื่อปรับปรุงตัวกรองจดหมายขยะ MIUI เท่านั้น</string>
     <string name="disable_notifications_dialog_message">หยุดการแจ้งข้อความที่ซ้ำกันจากแอปรับ-ส่งข้อความเริ่มต้น?</string>
     <string name="disabled">ปิด</string>
     <string name="discard">ยกเลิก</string>
@@ -178,6 +179,7 @@
     <string name="file_size">ขนาด:</string>
     <string name="file_title">ชื่อ:</string>
     <string name="file_width_height">ขนาด:</string>
+    <string name="flatshow_page_no">%1$d</string>
     <string name="force_touch_new_message_title">ข้อความใหม่</string>
     <string name="forward_from">ส่งต่อจาก:</string>
     <string name="forward_prefix">"ส่งต่อ: "</string>
@@ -374,7 +376,7 @@
     <string name="pref_hide_verification_code_summary">ซ่อนรหัสผ่านแบบครั้งเดียวโดยอัตโนมัติในการแจ้งเตือนข้อความบนหน้าจอล็อกที่ปลอดภัย</string>
     <string name="pref_messages_to_save">ตั้งจำนวนข้อความที่จะบันทึก</string>
     <string name="pref_mms_settings_title">ข้อความมัลติมีเดีย (MMS)</string>
-    <string name="pref_msg_trash_bin_title">ลบข้อความเมื่อเร็วๆนี้แล้ว</string>
+    <string name="pref_msg_trash_bin_title">ข้อความขยะ</string>
     <string name="pref_notification_settings_title">การแจ้งเตือน</string>
     <string name="pref_other_title">การตั้งค่าเพิ่มเติม</string>
     <string name="pref_show_blocked_messages_summary">แสดงข้อความที่ถูกบล็อกในรายการสนทนา</string>
@@ -387,6 +389,7 @@
     <string name="pref_sms_storage_title">ที่จัดเก็บข้อมูล</string>
     <string name="pref_sms_theme_title">แสดง</string>
     <string name="pref_summary_allow_si_sl_push">อนุญาตให้ข้อความโหลดเนื้อหาจากเว็บไซต์</string>
+    <string name="pref_summary_allow_upload_message_info">ข้อความสแปมและข้อมูลผู้ส่งจะอับโหลดไปยัง MIUI เมื่อคุณรายงาน</string>
     <string name="pref_summary_auto_delete">ลบข้อความเก่าเมื่อถึงขีดจำกัดแล้ว</string>
     <string name="pref_summary_delete_limit">%1$s ข้อความต่อการสนทนา</string>
     <string name="pref_summary_delivery_reports">แสดงสถานะการส่งข้อความที่คุณได้ส่งไป</string>
@@ -404,6 +407,7 @@
     <string name="pref_system_title">ระบบ</string>
     <string name="pref_title_about_smart_sms">เกี่ยวกับหุ้นส่วนข้อความอัจฉริยะ</string>
     <string name="pref_title_allow_si_sl_push">อนุญาตให้ใช้การส่งข้อความแบบ WAP push (SI/SL)</string>
+    <string name="pref_title_allow_upload_message_info">อัพโหลดข้อความสแปม</string>
     <string name="pref_title_auto_delete">ลบข้อความเก่า</string>
     <string name="pref_title_card_format">รูปแบบการใช้การ์ดร่วมกัน</string>
     <string name="pref_title_delivery_reports">รายงานการส่ง</string>
@@ -525,6 +529,7 @@
     <string name="send_signature_confirm_dialog_title">ส่งข้อความ</string>
     <string name="send_sms">ส่งข้อความ</string>
     <string name="send_to">ถึง:</string>
+    <string name="send_to_index_contact">%1$s/%2$s</string>
     <string name="sent_at_time">วันที่ส่ง: %1s</string>
     <string name="sent_label">"ส่ง: "</string>
     <string name="service_message_not_found">ข้อความหมดอายุหรือไม่มีข้อความ</string>
@@ -556,6 +561,7 @@
     <string name="sms_full_title">ที่เก็บข้อมูลข้อความเต็ม</string>
     <string name="sms_rejected_body">ข้อความที่ได้รับถูกปฏิเสธ</string>
     <string name="sms_rejected_title">ปฏิเสธข้อความ</string>
+    <string name="sms_report">รายงานข้อความสแปม</string>
     <string name="sms_report_dialog_content">ส่งรายงานไม่ได้ กรุณาลองอีกครั้ง</string>
     <string name="sms_report_dialog_retry">ลองอีกครั้ง</string>
     <string name="sms_report_dialog_title">ลองอีกครั้ง</string>

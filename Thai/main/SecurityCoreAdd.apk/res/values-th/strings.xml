@@ -287,7 +287,8 @@
     <string name="can_not_switch_when_calling">ไม่สามารถสลับระหว่างพื้นที่ขณะโทรได้</string>
     <string name="can_not_delete_when_calling">ไม่สามารถลบพื้นที่ขณะโทรได้</string>
     <string name="support_desc">บริการรักษาความปลอดภัยโดย Graphite</string>
-    <string name="sdcardfs_dialog_message">ข้อมูลเก่าของคุณอาจจะเข้ากันไม่ได้กับระบบไฟล์ใหม่ เพิ่มประสิทธิภาพข้อมูลก่อนการเข้าพื้นที่ทับซ้อนและรีบูตอุปกรณ์ของคุณ</string>
+    <string name="sdcardfs_dialog_title">อัพเดทที่สำคัญ</string>
+    <string name="sdcardfs_dialog_message">MIUI 9 มีระบบไฟล์ใหม่ ข้อมูลเก่าอาจไม่เข้ากับข้อมูลดังกล่าว เมื่อต้องการแก้ปัญหานี้ให้ทำตามขั้นตอนเพื่อติดตั้งการอัพเดทอุปกรณ์ของคุณจะรีบูตเครื่องสองครั้งระหว่างการอัปเดตนี้</string>
     <string name="do_not_ask">ไม่ต้องถามอีก</string>
     <string name="gpg_message">การสร้างแอปโคลนสำหรับเกมต้องใช้ Google Play Games สร้างแอปโคลนสำหรับ Google Play Games หรือไม่?</string>
     <string name="gpg_title">แอปโคลนสำหรับเกมส์ Google Play</string>
@@ -316,4 +317,13 @@
     <string name="privacy_password_fingerprint_dialog_message">วางนิ้วมือของคุณลงบนเซ็นเซอร์</string>
     <string name="optimize_now">เพิ่มประสิทธิภาพ</string>
     <string name="dialog_title">คำเตือน</string>
+    <string name="remove_user_click_message">* ถ้าคุณไม่มีรายการที่สำคัญในพื้นที่ทับซ้อน %s</string>
+    <string name="remove_user_click_message_action">คุณสามารถลบพื้นที่ทับซ้อนและรีบูตอุปกรณ์ของคุณตอนนี้</string>
+    <string name="sdcradfs_dialog_in_owner_title">พื้นที่ทับซ้อน</string>
+    <string name="sdcradfs_dialog_in_owner_message">"MIUI 9 มีระบบไฟล์ใหม่ ข้อมูลเก่าอาจไม่เข้ากับข้อมูลดังกล่าว หากต้องการอัปเดตย้ายรายการจากพื้นที่ทับซ้อนรีบูตอุปกรณ์ของคุณและสร้างพื้นที่ทับซ้อนอีกครั้ง 
+ หากคุณไม่อัปเดต แอปโคลนอาจทำงานไม่ปกติเช่นกัน"</string>
+    <string name="sdcradfs_dialog_in_sec_title">อัพเดทที่สำคัญ</string>
+    <string name="sdcradfs_dialog_in_sec_message">"ในการอัพเดตคุณควรลบพื้นที่ทับซ้อนของคุณแล้วสร้างใหม่อีกครั้ง ย้ายข้อมูลจากพื้นที่ทับซ้อนก่อน และรีบูตอุปกรณ์เพื่อทำการอัปเดตให้เสร็จสมบูรณ์
+หากคุณไม่อัปเดตแอปโคลนอาจทำงานไม่ปกติเช่นกัน"</string>
+    <string name="space_created_success">สร้างพื้นที่ทับซ้อนเรียบร้อย</string>
 </resources>

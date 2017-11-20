@@ -118,13 +118,13 @@
     <string name="disable_hide_mode_warning">การปิดตัวประหยัดแบตเตอรี่อาจเพิ่มการใช้พลังงานของอุปกรณ์ของคุณ</string>
     <string name="show_system_app">แสดงแอประบบ</string>
     <string name="hide_system_app">ซ่อนแอประบบ</string>
-    <string name="scenario_policies_title">ฉากอัจฉริยะ</string>
-    <string name="config_scenario_policies_title">ฉาก</string>
-    <string name="scenario_policies_summary">ใช้กลยุทธ์การประหยัดพลังงานที่แตกต่างกันในแต่ละฉาก</string>
+    <string name="scenario_policies_title">รูปแบบอัจฉริยะ</string>
+    <string name="config_scenario_policies_title">รูปแบบ</string>
+    <string name="scenario_policies_summary">ใช้กลยุทธ์การประหยัดพลังงานที่แตกต่างกันตามสถานการณ์</string>
     <string name="sleep_config_enhance_title">โหมดพักหน้าจอ</string>
     <string name="sleep_config_enhance_description">เมื่อใดก็ตามที่ MIUI ตรวจพบว่าคุณกำลังนอนหลับอยู่จะปิดแอปพื้นหลัง จำกัด NFC บลูทูธ GPS ข้อมูลมือถือและการใช้ Wi-Fi และจะไม่เปิดหน้าจอสำหรับการแจ้งเตือน</string>
     <string name="nonui_mode_config_title">โหมดไม่เป็นแบบโต้ตอบ</string>
-    <string name="nonui_mode_config_description">อย่าเปิดหน้าจอสำหรับการแจ้งเตือน, ปิดไฟแจ้งเตือน, ลายนิ้วมือและปุ่มควบคุมแบบสัมผัส เมื่ออุปกรณ์ของคุณอยู่ในกระเป๋า</string>
+    <string name="nonui_mode_config_description">ห้ามเปิดหน้าจอสำหรับการแจ้งเตือน, ปิดไฟ LED, เซ็นเซอร์ลายนิ้วมือและระบบควบคุมแบบสัมผัสเพื่อประหยัดแบตเตอรี่เมื่อ MIUI ตรวจพบว่าคุณไม่ได้ใช้อุปกรณ์</string>
     <string name="scenario_policies_warmcontrol">ควบคุมอุณหภูมิ</string>
     <string name="warm_configure">การตั้งค่าควบคุมอุณหภูมิ</string>
     <string name="important_warning">คำเตือน</string>
@@ -199,7 +199,7 @@
     <string name="sucess">เสร็จสิ้น</string>
     <string name="failure">ล้มเหลว</string>
     <string name="cloud_addr_info">ข้อมูลคลาวด์</string>
-    <string name="lasttime_feature_cloud">คุณลักษณะที่อัปเดต:</string>
-    <string name="lasttime_applist_cloud">อัปเดตรายการแอป:</string>
+    <string name="lasttime_feature_cloud">อัพเดทคุณลักษณะ:</string>
+    <string name="lasttime_applist_cloud">อัพเดทแอป:</string>
     <string name="base_info">ข้อมูลพื้นฐาน</string>
 </resources>

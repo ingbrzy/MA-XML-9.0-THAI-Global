@@ -121,7 +121,7 @@
     <string name="pref_camera_contrast_title">ความเปรียบต่าง</string>
     <string name="pref_camera_saturation_title">ความอิ่มตัวของสี</string>
     <string name="pref_camera_sharpness_title">ความคม</string>
-    <string name="pref_camera_scenemode_title">ฉาก</string>
+    <string name="pref_camera_scenemode_title">รูปแบบ</string>
     <string name="pref_camera_scenemode_entry_off">ปิด</string>
     <string name="pref_camera_scenemode_entry_auto">อัตโนมัติ</string>
     <string name="pref_camera_scenemode_entry_portrait">ภาพบุคคล</string>
@@ -341,6 +341,7 @@
     <string name="pref_camera_beautify_entry_low">ต่ำ</string>
     <string name="pref_camera_beautify_entry_normal">ปานกลาง</string>
     <string name="pref_camera_beautify_entry_high">สูง</string>
+    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="camera_mode_options">ตัวเลือก</string>
     <string name="button_front_camera_title">ถ่ายเซลฟี่</string>
     <string name="button_normal_video_title">บันทึกวิดีโอ</string>
@@ -357,6 +358,7 @@
     <string name="toast_saving">กำลังบันทึกรูปภาพ…</string>
     <string name="cannot_connect_camera_volte_call">อยู่ระหว่างการวิดีโอคอล กรุณาลองใหม่ในภายหลัง</string>
     <string name="hibernate_hint">แตะที่หน้าจอเพื่อใช้กล้อง</string>
+    <string name="pref_camera_picturesize_entry_widescreen">@string/pref_camera_picturesize_entry_fullscreen</string>
     <string name="accessibility_zoom_button">โหมดซูม</string>
     <string name="accessibility_portrait_button">โหมดถ่ายภาพคน</string>
     <string name="toast_burst_snap_finished_summary">ถ่ายภาพต่อเนื่องเสร็จสิ้น ทั้งหมด %1$s รูป</string>
@@ -369,18 +371,18 @@
     <string name="pref_camera_portrait_mode_entry_off">โหมดถ่ายภาพคนปิดอยู่</string>
     <string name="pref_camera_portrait_mode_entry_on">โหมดถ่ายภาพคนเปิดอยู่</string>
     <string name="portrait_mode_lowlight_hint">ตอนนี้แสงน้อยเกินไป</string>
-    <string name="portrait_mode_too_close_hint">ย้ายออกห่างอีกหน่อย</string>
+    <string name="portrait_mode_too_close_hint">ขยับให้ห่างออกจากวัตถุที่ต้องการถ่าย</string>
     <string name="portrait_mode_too_far_hint">วางวัตถุไว้ภายในระยะ 2.5 เมตร</string>
-    <string name="portrait_mode_depth_effect_success_hint">ผลกระทบเชิงลึก</string>
+    <string name="portrait_mode_depth_effect_success_hint">หน้าชัดหลังเบลอ</string>
     <string name="portrait_with_facebeauty_hint">โหมดฟรุ๊งฟริ๊งพร้อมใช้งานแล้วในโหมดภาพบุคคล</string>
-    <string name="pref_camera_portrait_with_facebeauty_title">ฟรุ๊งฟริ๊งในโหมดถ่ายภาพคน</string>
+    <string name="pref_camera_portrait_with_facebeauty_title">ฟรุ๊งฟริ๊งในโหมดถ่ายภาพบุคคล</string>
     <string name="portrait_mode_use_hint">"โหมดภาพบุคคลจะทำให้พื้นหลังเบลอ
 และทำให้คนดูเด่นขึ้น"</string>
     <string name="install_confirmed">ติดตั้ง</string>
     <string name="confirm_install_scanner_title">ติดตั้งตัวสแกน</string>
     <string name="confirm_install_scanner_message">ตัวสแกนช่วยให้คุณสแกนรหัส QR, บาร์โค้ดและอื่นๆได้ คุณไม่จำเป็นต้องเชื่อมต่ออินเทอร์เน็ตเพื่อติดตั้ง</string>
     <string name="photos_portrait_type_name">ภาพบุคคล</string>
-    <string name="photos_portrait_type_description">ภาพบุคคลมีเทคนิคภาพชัดตื้นที่ช่วยให้วัตถุของคุณโฟกัสและเบลอฉากหลัง</string>
+    <string name="photos_portrait_type_description">โหมดถ่ายภาพบุคคลใช้เทคนิคหน้าชัดหลังเบลอ</string>
     <string name="color_effect_entry_vivid">สดใส</string>
     <string name="color_effect_entry_film">ฟิล์ม</string>
     <string name="color_effect_entry_koizora">ความรัก</string>
@@ -436,7 +438,7 @@
     <string name="config_name_hht">HHT</string>
     <string name="config_name_group">เซลฟี่กลุ่ม</string>
     <string name="config_name_tilt">ปรับเบลอ</string>
-    <string name="config_name_scene">ฉาก</string>
+    <string name="config_name_scene">รูปแบบ</string>
     <string name="config_name_magic">เมจิค</string>
     <string name="beauty_fragment_tab_name_beauty">บิวตี้</string>
     <string name="beauty_fragment_tab_name_makeup">ขั้นสูง</string>

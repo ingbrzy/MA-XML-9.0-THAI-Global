@@ -98,7 +98,7 @@
     <string name="st_title_back_sound_busy">ไม่ว่าง</string>
     <string name="st_title_back_sound_none">ไม่มีเลขหมายนี้ในระบบ</string>
     <string name="st_title_back_sound_closed">ปิดเครื่อง</string>
-    <string name="st_title_back_sound_stop">ไม่มีบริการ</string>
+    <string name="st_title_back_sound_stop">เลขหมายไม่เปิดใช้บริการ</string>
     <string name="st_title_call_wait_setting">สายเรียกซ้อน</string>
     <string name="st_title_call_wait">การแจ้งเตือนสายเรียกเข้าซ้อน</string>
     <string name="st_title_sim_card">%1$s - ซิม %2$s</string>
@@ -384,6 +384,7 @@
     <string name="detail_app_button">ข้อมูลแอป</string>
     <string name="pref_about_traffic_title">การตั้งค่าการใช้ข้อมูล</string>
     <string name="pref_traffic_manage_title">การใช้ข้อมูล</string>
+    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_package_traffic_settings">จำกัดข้อมูลมือถือ</string>
     <string name="pref_adjust_traffic_data">ตั้งการใช้ข้อมูล</string>
     <string name="pref_category_title_other">การตั้งค่าเพิ่มเติม</string>
@@ -885,6 +886,7 @@
     <string name="om_formatted_percent_string">%s%%</string>
     <string name="om_cpu_usage_warn_title_text">"แอปนี้อาจทำให้อุปกรณ์ของคุณ
 ช้าลง"</string>
+    <string name="om_memory_clean_memory_info_text">%1$s / %2$s</string>
     <string name="om_ill_proc_handle_unstaill_title">ถอนการติดตั้ง %s?</string>
     <string name="om_ill_proc_handle_uninstall_prompt">ถอนการติดตั้งแอปนี้เพื่อแก้ไขปัญหาการใช้แบตเตอรี่</string>
     <string name="om_ill_proc_type_wakelock_title">แอปบล็อกโหมดสลีปทำให้แบตเตอรี่หมดเร็ว</string>
@@ -912,7 +914,7 @@
     <string name="power_center_charge_time">ชาร์จเต็มในอีก %1$s</string>
     <string name="power_dialog_cancel">ยกเลิก</string>
     <string name="power_dialog_ok">ตกลง</string>
-    <string name="power_consume_rank_title">การใช้แบตเตอรี่</string>
+    <string name="power_consume_rank_title">สัดส่วนการใช้แบตเตอรี่</string>
     <string name="power_consume_rank_software">แอป</string>
     <string name="power_consume_rank_hardware">ฮาร์ดแวร์</string>
     <string name="power_consume_software_total_format">แอป: %s</string>
@@ -1216,10 +1218,10 @@
     <string name="sp_monitored_apps_count_zero">ไม่มีแอปชำระเงินได้รับการป้องกัน</string>
     <string name="monitor_app_more">เพิ่มเติม</string>
     <string name="monitor_app_add">เพิ่ม</string>
-    <string name="sc_system_risk_fix_info_xspace">ปัญหานี้ไม่สามาถแก้ไขได้ในพีื้นที่ทับซ้อนได้ กรุณาไปแก้ไขที่พื้นที่ปกติ</string>
-    <string name="dialog_no_longer_alert">ไม่ต้องเตือนอีก</string>
-    <string name="sp_background_risk_dialog_title_wifi_approve">แจ้งเตือนฟรี Wi-Fi</string>
-    <string name="sp_background_risk_dialog_summary_wifi_approve">ปัจจุบันคุณใช้ Wi-Fi สาธารณะฟรีอยู่ กรุณาตรวจสอบให้แน่ใจว่าปลอดภัยก่อนที่จะดำเนินการชำระเงิน</string>
+    <string name="sc_system_risk_fix_info_xspace">ไม่สามารถแก้ปัญหานี้ได้ในพื้นที่ทับซ้อนได้ ลองอีกครั้งในพื้นที่ปกติ</string>
+    <string name="dialog_no_longer_alert">ไม่ต้องแสดงอีก</string>
+    <string name="sp_background_risk_dialog_title_wifi_approve">แจ้งเตือน Wi-Fi สาธารณะ</string>
+    <string name="sp_background_risk_dialog_summary_wifi_approve">คุณเชื่อมต่อกับเครือข่าย Wi-Fi สาธารณะซึ่งอาจไม่ปลอดภัย ตรวจสอบว่าการชำระเงินของคุณได้รับการคุ้มครองก่อนที่คุณจะดำเนินการให้เสร็จสมบูรณ์</string>
     <string name="sp_background_risk_dialog_title">แจ้งเตือน</string>
     <string name="sp_background_risk_dialog_summary">, ตรวจสอบและแก้ไขปัญหาการชำระเงิน</string>
     <string name="sp_background_risk_type_wifi">เครือข่าย Wi-Fi นี้ไม่ปลอดภัย</string>
@@ -1270,7 +1272,7 @@
     <string name="keywords_powercenter_powerrank">การใช้งานแบตเตอรี่</string>
     <string name="path_powercenter_powerrank">แบตเตอรี่&amp; ประสิทธิภาพ/การใช้งานแบตเตอรี่</string>
     <string name="resource_gamebooster">ตัวเร่งความเร็วในการเล่นเกม</string>
-    <string name="keywords_gamebooster">เกมส์;ตัวเพิ่มความเร็ว;Glory of the king;โหมดประสิทธิภาพ;ห้ามรบกวน</string>
+    <string name="keywords_gamebooster">เกมส์;ตัวเร่งความเร็ว;King of Glory;โหมดประสิทธิภาพ;ห้ามรบกวน;เกมส์;เล่นเกม;ความเร็วเล่นเกม;เพิ่ม</string>
     <string name="path_gamebooster">แอประบบ/ความปลอดภัย/ตัวเร่งความเร็วในการเล่นเกม</string>
     <string name="app_name_securitycenter">ความปลอดภัย</string>
     <string name="ok">ตกลง</string>
@@ -1286,6 +1288,7 @@
     <string name="menu_text_networkassistants">การใช้ข้อมูล</string>
     <string name="menu_text_networkassistants_remain">คงเหลือ %s</string>
     <string name="menu_text_networkassistants_danger">ใช้เกินไป %s</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_unit_gb">GB</string>
     <string name="menu_text_networkassistants_unit_mb">MB</string>
     <string name="menu_text_networkassistants_unit_kb">KB</string>
@@ -1503,7 +1506,7 @@
     <string name="title_mifi_insurance">ขยายการรับประกัน</string>
     <string name="summary_mifi_insurance">รัปประกันเปลี่ยนใหม่ 1 ปี กรณีที่เกิดจากความเสียหายของฮาร์ดแวร์</string>
     <string name="title_cloud_space_almost_full">พื้นที่ในคลาวด์ใกล้เต็ม อาจซิงค์ข้อมูลได้ไม่ครบ</string>
-    <string name="summary_cloud_space_almost_full">ซื้อพื้นที่จัดเก็บเพิ่ม</string>
+    <string name="summary_cloud_space_almost_full">เพิ่มที่จัดเก็บข้อมูล</string>
     <string name="title_cloud_space_full">Mi คลาวด์พื้นที่เต็ม</string>
     <string name="summary_cloud_space_full">ซื้อพื้นที่จัดเก็บเพิ่ม พร้อมรับบริการเสริมพิเศษ</string>
     <string name="title_auto_update">อัพเดทโดยอัตโนมัติ</string>
@@ -1562,7 +1565,7 @@
     <string name="antivirus_privacy_dialog_ok">ตกลง</string>
     <string name="pref_title_manual_check_virus_db_update">ตรวจสอบการอัพเดท</string>
     <string name="virus_update_tips_title">คำเตือน</string>
-    <string name="virus_wait_network_dialog_message">โทรศัพท์ของคุณไม่ได้เชื่อมต่อ Wi-Fi ขณะนี้ ซึ่งจะใช้งานข้อมูลมือถือแทน ดำเนินการต่อ?</string>
+    <string name="virus_wait_network_dialog_message">ขณะนี้โทรศัพท์ของคุณไม่ได้เชื่อมต่อกับ Wi-Fi ใช้การเชื่อมต่อข้อมูลมือถือหรือไม่?</string>
     <string name="antivirus_not_wlan">คุณไม่ได้เชื่อมต่อ Wi-Fi การใช้ข้อมูลมือถือคุณอาจจะต้องจ่ายค่าบริการเพิ่มเติม ดำเนินการต่อหรือไม่?</string>
     <string name="antivirus_longtime_no_update">ดูเหมือนฐานข้อมูลไวรัสของคุณเก่าเกินไป การอัปเดตปกติช่วยให้ผลการสแกนดีขึ้น อนุญาตความปลอดภัยเพื่อเชื่อมต่ออินเทอร์เน็ตและอัพเดตฐานข้อมูลไวรัสหรือไม่?</string>
     <string name="antivirus_longtime_no_update1">ดูเหมือนฐานข้อมูลไวรัสของคุณเก่าเกินไป การอัปเดตปกติช่วยให้ผลการสแกนดีขึ้น อัพเดทฐานข้อมูลไวรัสและลองอีกครั้ง</string>
@@ -1587,7 +1590,7 @@
     <string name="hints_risk_name_title">ความเสี่ยง:</string>
     <string name="hints_risk_descx_title">คำอธิบาย:</string>
     <string name="button_text_clear">ล้าง</string>
-    <string name="antivirus_main_activity_back">ย้อนกลับสแกนความปลอดภัย</string>
+    <string name="antivirus_main_activity_back">ย้อนกลับ</string>
     <string name="toast_removed_from_virus_white_list">ลบจากรายการยกเว้น รายการจะถูกสแกนในเวลาถัดไป</string>
     <string name="long_click_dialog_title">โปรดทราบ</string>
     <string name="long_click_dialog_summary">กดค้างผลลัพธ์ในรายการเพื่อเพิ่มไปยังรายการยกเว้น</string>
@@ -1646,6 +1649,7 @@
     <string name="card_main_deepclean_wechat_action">ล้าง</string>
     <string name="card_main_sectool_title">เครื่องมือ</string>
     <string name="card_main_monthreport_action">เรียกดู</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">ทดสอบเครือข่าย</string>
     <string name="card_main_netcheck_summary">ทดสอบการเชื่อมต่อสำหรับปัญหาเครือข่าย</string>
     <string name="card_main_netcheck_action">ทดสอบ</string>
@@ -1936,8 +1940,8 @@
     <string name="app_manager_reset_app_preferences_button">รีเซ็ตแอป</string>
     <string name="app_manager_disable_text">ปิดใช้งาน</string>
     <string name="app_manager_enable_text">เปิดใช้งาน</string>
-    <string name="app_manager_disable_dlg_title">ปิดใช้งานแอปที่ติดตั้งภายใน?</string>
-    <string name="app_manager_disable_dlg_text">หากคุณปิดใช้งานแอปนี้ แอปอื่นๆอาจจะทำงานผิดปกติ</string>
+    <string name="app_manager_disable_dlg_title">ปิดใช้งานแอประบบหรือไม่?</string>
+    <string name="app_manager_disable_dlg_text">หากคุณปิดใช้งานแอปนี้ แอปอื่นอาจไม่สามารถทำงานได้ตามปกติ</string>
     <string name="app_manager_disabled">ปิดใช้อยู่</string>
     <string name="app_manager_enabled">เปิดใช้งานแล้ว</string>
     <string name="app_manager_globel_perm_title">การอนุญาตแอป</string>

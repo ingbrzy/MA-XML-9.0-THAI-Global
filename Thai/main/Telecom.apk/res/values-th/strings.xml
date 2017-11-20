@@ -294,7 +294,7 @@
     <string name="notification_missedCall_call_back">โทรกลับ</string>
     <string name="notification_missedCall_message">ข้อความ</string>
     <string name="accessibility_call_muted">ปิดไมโครโฟน</string>
-    <string name="accessibility_speakerphone_enabled">ลำโพงในเครื่องเปิดใช้งาน</string>
+    <string name="accessibility_speakerphone_enabled">สปีกเกอร์โฟนเปิดอยู่</string>
     <string name="respond_via_sms_canned_response_1">กำลังติดธุระอยู่ มีอะไรไหม?</string>
     <string name="respond_via_sms_canned_response_2">เดี๋ยวโทรกลับ</string>
     <string name="respond_via_sms_canned_response_3">เดี๋ยวไว้โทรหาอีกที</string>
@@ -306,13 +306,13 @@
     <string name="respond_via_sms_confirmation_format">ส่งข้อความไปยัง %s แล้ว</string>
     <string name="enable_account_preference_title">บัญชีการโทร</string>
     <string name="outgoing_call_not_allowed_user_restriction">อนุญาตโทรฉุกเฉินเท่านั้น</string>
-    <string name="outgoing_call_not_allowed_no_permission">แอปดังกล่าวไม่สามารถทำการโทรออกได้หากไม่ได้รับอนุญาตการโทร</string>
-    <string name="outgoing_call_error_no_phone_number_supplied">หากต้องการโทรไป กรุณาป้อนเลขหมายที่ถูกต้อง</string>
-    <string name="duplicate_video_call_not_allowed">ไม่สามารถเพิ่มการโทรได้ในขณะนี้</string>
+    <string name="outgoing_call_not_allowed_no_permission">แอปนี้ไม่สามารถโทรออกได้เพราะไม่มีสิทธิ์ที่จำเป็น</string>
+    <string name="outgoing_call_error_no_phone_number_supplied">เพื่อการโทรออก กรุณาป้อนหมายเลขที่ถูกต้อง</string>
+    <string name="duplicate_video_call_not_allowed">ไม่สามารถเพิ่มการโทรเพิ่มเติมได้</string>
     <string name="no_vm_number">ไม่มีหมายเลขบริการรับฝากข้อความเสียง</string>
     <string name="no_vm_number_msg">ไม่พบหมายเลขบริการรับฝากข้อความเสียงในซิมการ์ด</string>
     <string name="add_vm_number_str">เพิ่มหมายเลข</string>
-    <string name="change_default_dialer_dialog_title">ใช้ %s เป็นแอปโทรศัพท์เริ่มต้น?</string>
+    <string name="change_default_dialer_dialog_title">ตั้ง %s เป็นแอปโทรศัพท์เริ่มต้น?</string>
     <string name="change_default_dialer_with_previous_app_set_text">ใช้ %1$s เป็นแอปแป้นโทรศัพท์เริ่มต้นแทน %2$s ไหม</string>
     <string name="change_default_dialer_no_previous_app_set_text">ใช้ %s เป็นแอปแป้นโทรศัพท์เริ่มต้นไหม</string>
     <string name="blocked_numbers">หมายเลขโทรศัพท์ที่ถูกบล็อค</string>
@@ -320,14 +320,14 @@
     <string name="block_number">เพิ่มหมายเลขโทรศัพท์</string>
     <string name="unblock_dialog_body">เลิกบล็อก %1$s?</string>
     <string name="unblock_button">เลิกบล็อก</string>
-    <string name="add_blocked_dialog_body">บล็อกการโทรและข้อความจาก</string>
+    <string name="add_blocked_dialog_body">บล็อกสายเรียกเข้าและข้อความ</string>
     <string name="add_blocked_number_hint">หมายเลขโทรศัพท์</string>
     <string name="block_button">บล็อค</string>
     <string name="non_primary_user">เฉพาะเจ้าของอุปกรณ์เท่านั้นที่สามารถเรียกดูและจัดการหมายเลยโทรศัพท์ที่ถูกบล็อกได้</string>
     <string name="delete_icon_description">เลิกบล็อก</string>
-    <string name="blocked_numbers_butter_bar_title">การปิดกั้นชั่วคราวปิด</string>
-    <string name="blocked_numbers_butter_bar_body">หลังจากที่คุณโทรออกหรือส่งข้อความถึงหมายเลขฉุกเฉินระบบปิดกั้นถูกปิดเพื่อให้มั่นใจได้ว่าบริการฉุกเฉินสามารถติดต่อคุณได้</string>
-    <string name="blocked_numbers_butter_bar_button">เปิดใช้งานข้อมูลอีกครั้งตอนนี้</string>
+    <string name="blocked_numbers_butter_bar_title">รายการบล็อกปิดอยู่</string>
+    <string name="blocked_numbers_butter_bar_body">หลังจากที่คุณโทรออกหรือส่งข้อความถึงหมายเลขฉุกเฉิน รายการบล็อกถูกปิดเพื่อให้มั่นใจได้ว่าบริการฉุกเฉินสามารถติดต่อคุณได้</string>
+    <string name="blocked_numbers_butter_bar_button">เปิดอีกครั้ง</string>
     <string name="blocked_numbers_number_blocked_message">บล็อค %1$s แล้ว</string>
     <string name="blocked_numbers_number_unblocked_message">เลิกบล็อก %1$s แล้ว</string>
     <string name="blocked_numbers_block_emergency_number_message">ไม่สามารถบล็อกหมายเลขฉุกเฉินได้</string>
@@ -341,8 +341,8 @@
     <string name="test_account_2_short_description">Talk to everyone in your Circles!</string>
     <string name="test_account_3_short_description">Chat with Chat Network users</string>
     <string name="handle_restricted">RESTRICTED</string>
-    <string name="toast_personal_call_msg">ใช้ Dialer ส่วนตัวเพื่อโทรออก</string>
-    <string name="toast_make_video_call_failed">ไม่สามารถวิดีโอคอลได้ รูปแบบหมายเลขไม่ถูกต้อง</string>
+    <string name="toast_personal_call_msg">ใช้ต่อสายแบบกำหนดเอง</string>
+    <string name="toast_make_video_call_failed">ไม่สามารถวิดีโอคอลได้ หมายเลขที่คุณป้อนไม่ถูกต้อง</string>
     <string name="headset_plugin_view_text">เสียบหูฟังแล้ว</string>
     <string name="headset_plugin_view_title">เสียบหูฟัง</string>
     <string name="voice_report_incoming_call">สายเรียกเข้า</string>
@@ -359,7 +359,7 @@
     <string name="callFailed_simError">ซิมการ์ดผิดพลาด</string>
     <string name="incall_error_supp_service_unknown">ไม่รองรับบริการดังกล่าว</string>
     <string name="incall_error_power_off">ปิดใช้งานโหมดเครื่องบินเพื่อทำการโทร</string>
-    <string name="change_default_dialer_dialog_affirmative">ตั้งค่าเริ่มต้น</string>
+    <string name="change_default_dialer_dialog_affirmative">ตั้งเป็นแอปโทรศัพท์เริ่มต้น</string>
     <string name="change_default_dialer_dialog_negative">ยกเลิก </string>
     <string name="change_default_dialer_warning_message">%s จะสามารถวางและควบคุมทุกสิ่งทุกอย่างของการโทร ควรตั้งเฉพาะแอปที่คุณเชื่อถือได้เป็นแอปโทรศัพท์เริ่มต้นเท่านั้น</string>
 </resources>

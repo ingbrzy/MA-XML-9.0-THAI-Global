@@ -38,6 +38,7 @@
     <string name="translation_query_error">ไม่สามารถค้นหาผลลัพธ์ได้</string>
     <string name="translation_query_error_network">ไม่สามารถรับข้อมูลได้ ตรวจสอบการเชื่อมต่อเครือข่าย แล้วลองอีกครั้ง</string>
     <string name="translation_more">เพิ่มเติม</string>
+    <string name="autofill">กรอกอัตโนมัติ</string>
     <string name="auto_start_warning_title">อนุญาตให้ %s เริ่มต้นโดยอัตโนมัติ?</string>
     <string name="auto_start_warning_allow">อนุญาต</string>
     <string name="auto_start_warning_deny">ปฏิเสธ</string>

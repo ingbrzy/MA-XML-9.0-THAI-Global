@@ -384,9 +384,9 @@
     <string name="load_only_under_wlan">ใช้ Wi-Fi ในการโหลดเท่านั้น</string>
     <string name="recommend_news">รับข้อเสนอแนะ</string>
     <string name="dialog_title_stop_scan">หยุดการสแกน</string>
-    <string name="dialog_msg_stop_scan">หยุดการสแกน?</string>
+    <string name="dialog_msg_stop_scan">หยุดการสแกนทันที?</string>
     <string name="dialog_title_esc_cleanmaster">ออกจากตัวทำความสะอาด</string>
-    <string name="dialog_msg_esc_cleanmaster">หยุดการสแกนเพื่อทำความสะอาด?</string>
+    <string name="dialog_msg_esc_cleanmaster">หยุดการสแกนและออกจากตัวทำความสะอาด?</string>
     <string name="pref_category_title_engine_settings">การตั้งค่าตัวสแกน</string>
     <string name="pref_title_choose_engine">ตัวสแกน</string>
     <string name="recommend_the_following">ดำเนินการต่อไปนี้เพื่อประโยชน์สูงสุดสำหรับอุปกรณ์ของคุณ</string>
@@ -473,5 +473,5 @@
     <string name="engine_cm">Clean Master</string>
     <string name="app_description_title">เกี่ยวกับตัวทำความสะอาด</string>
     <string name="app_description_content">ตัวทำความสะอาดพบขยะในอุปกรณ์ของคุณและจะทำความสะอาดเพื่อเพิ่มพื้นที่จัดเก็บข้อมูล ตรวจสอบว่าคุณรับรู้และเข้าใจถึงคุณสมบัติเหล่านี้ก่อนที่คุณจะทำการถอนการติดตั้งแอป</string>
-    <string name="engine_init">กำลังเริ่มต้น...</string>
+    <string name="engine_init">กำลังเตรียมการ…</string>
 </resources>
