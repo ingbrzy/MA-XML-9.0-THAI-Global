@@ -332,8 +332,6 @@
     <string name="xl_vip_open">ซื้อ</string>
     <string name="xl_vip_pay">จับภาพแนวยาว</string>
     <string name="xl_vip_overdue">หมดอายุ</string>
-    <string name="download_num_size">%1$s | %2$s</string>
-    <string name="app_size">%1$s</string>
     <string name="ad_title">คนเหล่านี้ดาวน์โหลดด้วย  %1$s </string>
     <string name="rank_data_empty">ไม่พบการจัดอันดับ</string>
     <string name="net_error">เชื่อมต่อกับเครือข่ายไม่ได้ ลองใหม่อีกครั้ง</string>
