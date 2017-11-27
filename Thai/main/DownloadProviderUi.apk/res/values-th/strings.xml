@@ -106,7 +106,6 @@
     <string name="package_filter">แพ็คเกจ</string>
     <string name="other_filter">อื่นๆ</string>
     <string name="xunlei_brand">สนับสนุนโดย Xunlei</string>
-    <string name="xunlei_brand_url">http://mobile.xunlei.com</string>
     <string name="xunlei_switch">ตัวช่วยดาวน์โหลด Xunlei</string>
     <string name="turn_off_xunlei_title">ปิดใช้งาน Xunlei</string>
     <string name="turn_off_xunlei_message">การดาวน์โหลดของคุณจะช้าลง</string>

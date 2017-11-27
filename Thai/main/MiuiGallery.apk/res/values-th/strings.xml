@@ -792,7 +792,6 @@
     <string name="search_feedback_false_negative_text">เพิ่มรูปภาพไปยัง \"%s\"?</string>
     <string name="search_feedback_contribute">เพิ่มรูปภาพไปยังฐานข้อมูล AI</string>
     <string name="search_feedback_task_finish_title">แตะเพื่อรับรางวัล!</string>
-    <string name="search_feedback_task_progress">%1$d/%2$d</string>
     <string name="search_feedback_likely_title">ดูเหมือนว่ารูปเหล่านี้อาจมี \"%s\"</string>
     <string name="search_feedback_likely_check_title">ตรวจสอบ</string>
     <string name="search_feedback_false_positive_title">ดูเหมือนว่านี่คือ \"%s\"</string>
@@ -802,7 +801,6 @@
     <string name="grant_permission_text">"คลังภาพต้องการเข้าถึง 
 %s
  เพื่อให้ทำงานได้ตามปกติ แตะ \"ตั้งค่า\" เพื่อไปยังการอนุญาต"</string>
-    <string name="grant_permission_item">\"%s\"</string>
     <string name="grant_permission_go_and_set">ตั้งค่า</string>
     <string name="loading">รอสักครู่</string>
     <string name="loading_dots">รอสักครู่…</string>
