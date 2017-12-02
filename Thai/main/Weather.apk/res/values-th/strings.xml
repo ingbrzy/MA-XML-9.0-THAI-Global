@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="temperature_unit">%1$s°</string>
+    <string name="temperature_unit_C">%1$s℃</string>
+    <string name="temperature_unit_F">%1$s℉</string>
     <string name="app_name">สภาพอากาศ</string>
     <string name="gps_hint">ตำแหน่งพิกัดปัจจุบัน</string>
     <string name="add_city">เพิ่มตำแหน่งพิกัด</string>
@@ -37,6 +38,10 @@
     <string name="activity_main_update_time_expire">ข้อมูลหมดอายุ</string>
     <string name="activity_main_update_time_right_now">เมื่อสักครู่</string>
     <string name="refresh_fail">ไม่สามารถเชื่อมเครือข่ายได้</string>
+    <string name="pull_fresh_updating">กำลังอัพเดท…</string>
+    <string name="pull_fresh_updated">อัพเดทเสร็จสิ้น</string>
+    <string name="updating">กำลังอัพเดท…</string>
+    <string name="updated_a_moment_ago">อัพเดทเมื่อสักครู่</string>
     <string name="activity_find_city_dialog_cancel">ยกเลิก</string>
     <string name="activity_find_city_dialog_set">การตั้งค่า</string>
     <string name="activity_find_city_dialog_title">การเข้าถึงตำแหน่งพิกัด</string>
@@ -55,6 +60,7 @@
     <string name="share_title">แชร์สภาพอากาศ</string>
     <string name="share_weather_desc_split">,</string>
     <string name="share_weather_desc">\#MIUI สภาพอากาศ#วันนี้ %1$s %2$s</string>
+    <string name="share_weather_desc_alert">%1$s%2$s</string>
     <string name="hourly_forcast_now">ขณะนี้</string>
     <string name="sunrise">พระอาทิตย์ขึ้น</string>
     <string name="sunset">พระอาทิตย์ตก</string>
@@ -149,9 +155,11 @@
     <string name="install">ติดตั้ง</string>
     <string name="open">เปิด</string>
     <string name="open_now">เปิด</string>
+    <string name="install_progress">%1$s%%</string>
     <string name="daily_forecast_detail_date">d/M</string>
     <string name="hourly_forecast_date">d/M</string>
     <string name="aqi_publish_source">อัพเดทเมื่อ %1$s จาก CNEMC</string>
+    <string name="daily_forecast_detail_date_format">%1$s - %2$s</string>
     <string name="aqi_data_source">ขับเคลื่อนด้วยคลาวด์สีสัน</string>
     <string name="traffic_controls">จำกัดเลขทะเบียน</string>
     <string name="traffic_control_today_numbers">วันนี้: %1$s</string>
@@ -168,6 +176,7 @@
     <string name="international_details_uv_index_title">รังสียูวี</string>
     <string name="international_details_pressure_title">ความกดอากาศ</string>
     <string name="pressure_connect">%1$s mb</string>
+    <string name="international_details_wind_connect">%1$s %2$s</string>
     <string name="weather_alert">แจ้งเตือนสภาพอากาศ</string>
     <string name="edit_alert_city_title">จัดการการแจ้งเตือน</string>
     <string name="aqi_detail_unit">หน่วย: µg/m³</string>
@@ -234,6 +243,8 @@
     <string name="minute_rain_pull_down_refresh">ลากลงเพื่อรีเฟรชหน้าจอ</string>
     <string name="minute_rain_refreshing_now">กำลังรีเฟรช…</string>
     <string name="minute_rain_let_go_refresh">ปล่อยเพื่อรีเฟรช</string>
+    <string name="hourly_forecast_bottom_aqi_chinese">%1$s %2$s</string>
+    <string name="hourly_forecast_bottom_aqi_else">%1$s</string>
     <string name="alert_detail_title">แจ้งเตือนรายละเอียด</string>
     <string name="aqi_quality_map_title">แผนที่สภาพอากาศ</string>
     <string name="aqi_station_min_distance_station">สถานีที่ใกล้ที่สุด</string>
@@ -255,4 +266,6 @@
     <string name="city_exceeded_warning">คุณสามารถเพิ่มได้มากสุด 10 เมือง</string>
     <string name="xiaomi_weather_description_title">เกี่ยวกับสภาพอากาศ</string>
     <string name="xiaomi_weather_description_content">สภาพอากาศจะให้ข้อมูลสภาพอากาศที่แม่นยำแก่คุณ หากไม่มีแอปนี้แถบสถานะและวิดเจ็ตสภาพอากาศของหน้าจอหลักจะทำงานได้ไม่ถูกต้อง ตรวจสอบว่าคุณรับรู้และเข้าใจถึงคุณสมบัติเหล่านี้ก่อนที่คุณจะทำการถอนการติดตั้งแอป</string>
+    <string name="real_time_sunrise">อาทิตย์ขึ้น %1$s</string>
+    <string name="real_time_sunset">อาทิตย์ลง %1$s</string>
 </resources>

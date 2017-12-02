@@ -13,13 +13,13 @@
     <string name="download_error">ล้มเหลว</string>
     <string name="download_error_insufficient_space">พื้นที่ว่างไม่เพียงพอ</string>
     <string name="download_error_download_file_not_exists">ไม่พบไฟล์นี้</string>
-    <string name="dialog_title_not_available">การดาวน์โหลดล้มเหลว</string>
-    <string name="dialog_failed_body">คุณต้องการลองดาวน์โหลดไฟล์ในภายหลัง            หรือลบออกจากคิว?</string>
+    <string name="dialog_title_not_available">ไม่สามารถดำเนินการดาวน์โหลดได้</string>
+    <string name="dialog_failed_body">ลองดาวน์โหลดไฟล์นี้ในภายหลังหรือลบออกจากรายการ?</string>
     <string name="dialog_title_queued_body">ไฟล์ยังไม่พร้อม</string>
     <string name="dialog_queued_body">ไฟล์นี้อยู่ในรายการดาวน์โหลดแล้ว</string>
-    <string name="dialog_file_missing_body">ไม่พบไฟล์ที่ดาวน์โหลด</string>
-    <string name="dialog_insufficient_space_on_external">ไม่สามารถดาวน์โหลดเสร็จ เนื่องจาก          พื้นที่จัดเก็บข้อมูลภายนอกไม่เพียงพอ</string>
-    <string name="dialog_insufficient_space_on_cache">ไม่สามารถดาวน์โหลดเสร็จ พื้นที่จัดเก็บ          ข้อมูลภายในมีไม่เพียงพอ</string>
+    <string name="dialog_file_missing_body">ไม่พบไฟล์ดาวน์โหลด</string>
+    <string name="dialog_insufficient_space_on_external">ไม่สามารถเสร็จสิ้นการดาวน์โหลดได้ มีพื้นที่ไม่เพียงพอบนที่จัดเก็บข้อมูลภายนอก</string>
+    <string name="dialog_insufficient_space_on_cache">ไม่สามารถเสร็จสิ้นการดาวน์โหลดได้ มีพื้นที่ไม่เพียงพอบนที่จัดเก็บข้อมูลภายใน</string>
     <string name="dialog_cannot_resume">การดาวน์โหลดถูกขัดจังหวะ ไม่สามารถดาวน์โหลดต่อได้</string>
     <string name="dialog_file_already_exists">ไม่สามารถดาวน์โหลดได้ ไฟล์ปลายทางมีอยู่แล้ว</string>
     <string name="dialog_media_not_found">ไม่สามารถดาวน์โหลดได้ สื่อภายนอกไม่สามารถใช้งานได้</string>
@@ -97,7 +97,7 @@
     <string name="editmode_menu_delete">ลบ</string>
     <string name="all_downloads">การดาวน์โหลดทั้งหมด</string>
     <string name="app_downloads">%s ดาวน์โหลด</string>
-    <string name="dialog_file_missing_title">เปิดไฟล์ไม่ได้</string>
+    <string name="dialog_file_missing_title">ไม่สามารถเปิดไฟล์ได้</string>
     <string name="paused_insufficient_space">กำลังรอพื้นที่</string>
     <string name="all_fileter">ทั้งหมด</string>
     <string name="apk_filter">APK</string>
@@ -106,6 +106,7 @@
     <string name="package_filter">แพ็คเกจ</string>
     <string name="other_filter">อื่นๆ</string>
     <string name="xunlei_brand">สนับสนุนโดย Xunlei</string>
+    <string name="xunlei_brand_url">http://mobile.xunlei.com</string>
     <string name="xunlei_switch">ตัวช่วยดาวน์โหลด Xunlei</string>
     <string name="turn_off_xunlei_title">ปิดใช้งาน Xunlei</string>
     <string name="turn_off_xunlei_message">การดาวน์โหลดของคุณจะช้าลง</string>
@@ -123,7 +124,7 @@
     <string name="dredge_xunlei_account">สร้างบัญชี Xunlei</string>
     <string name="immediately_a_renewal">ต่ออายุทันที</string>
     <string name="period_of_validity">ใช้ได้ถึง:</string>
-    <string name="determine">ตกลก</string>
+    <string name="determine">ตกลง</string>
     <string name="cancle">ยกเลิก </string>
     <string name="one_month">1 เดือน</string>
     <string name="mi_money">Mi เครดิต</string>
@@ -144,16 +145,16 @@
     <string name="add_flow_fail_haveget_msg">สิ้นสุดช่วงทดลองใช้งานแล้ว.</string>
     <string name="download_list_open_xl_title">ตัวเร่งการดาวน์โหลด Xunlei</string>
     <string name="download_list_open_xl_message">ตัวเร่งการดาวน์โหลด Xunlei ช่วยให้การดาวน์โหลดเร็วยิ่งขึ้น</string>
-    <string name="download_list_open_xl_ok">ตกลก</string>
+    <string name="download_list_open_xl_ok">ตกลง</string>
     <string name="download_list_open_xl_cancel">ยกเลิก </string>
     <string name="download_list_intoAuth">ตรวจสอบบัญชีของคุณ</string>
-    <string name="download_list_intoAuthAlert">กำลังโหลด</string>
+    <string name="download_list_intoAuthAlert">รอสักครู่…</string>
     <string name="unbind_xunlei_success">ลงชื่อออกจากบัญชี Xunlei แล้ว</string>
     <string name="unbind_xunlei_2_success">เพิ่มบัญชี Xunlei แล้ว</string>
     <string name="privacy_tip_title">ใช้ตัวเร่งความเร็ว Xunlei?</string>
     <string name="privacy_tip_content">คุณต้องการใช้งานตัวเร่งการดาวน์โหลด Xunlei หรือไม่? ที่อยู่ของลิงก์ที่ดาวน์โหลดจะถูกส่งไป ยังเซิร์ฟเวอร์ของ Xunlei และรายละเอียดบัญชี Mi ของคุณจะถูกใช้เพื่อตรวจว่าคุณ ได้สมัครใช้บริการนี้หรือไม่</string>
     <string name="privacy_tip_cancel">ยกเลิก </string>
-    <string name="privacy_tip_ok">ตกลก</string>
+    <string name="privacy_tip_ok">ตกลง</string>
     <string name="xunlei_close_tips_title">เพิ่มประสิทธิภาพในการดาวน์โหลด</string>
     <string name="xunlei_close_tips_content">ตัวเร่งความเร็วดาวน์โหลด Xunlei</string>
     <string name="xunlei_close_tips_button">เปิดใช้งาน</string>
@@ -183,7 +184,7 @@
     <string name="third_web_savepath">ตำแหน่งพิกัด</string>
     <string name="third_web_default">จดจำเลือกที่จัดเก็บนี้</string>
     <string name="third_web_cancel">ยกเลิก </string>
-    <string name="third_web_confirm">ตกลก</string>
+    <string name="third_web_confirm">ตกลง</string>
     <string name="creat_task_success">เพิ่มลงในรายการดาวน์โหลดแล้ว</string>
     <string name="no_vip_info">ขอเป็นสมาชิกของ Xunlei เพื่อการดาวน์โหลดที่รวดเร็วยิ่งขึ้น</string>
     <string name="no_vip_show_info">"เพิ่มความเร็วการดาวน์โหลด
@@ -213,7 +214,7 @@
     <string name="revert_default">การตั้งค่าเรียกคืนค่าค่าเริ่มต้น</string>
     <string name="save_path">"จัดเก็บไฟล์ดาวน์โหลดไปยัง: "</string>
     <string name="cancel">ยกเลิก </string>
-    <string name="confirm">ตกลก</string>
+    <string name="confirm">ตกลง</string>
     <string name="download_auth">กำลังขออนุมัติ…</string>
     <string name="setting_open_debug">โหมดดีบักเปิดใช้งานอยู่ แตะที่นี่ 6 ครั้งติดต่อกันเพื่อปิดโหมดดีบัก</string>
     <string name="setting_close_debug">ปิดโหมดดีบักแล้ว</string>
@@ -242,7 +243,7 @@
     <string name="no_file_hint">มีการดาวน์โหลดไฟล์นี้ดำเนินอยู่ก่อนแล้ว</string>
     <string name="file_exist_hint">มีไฟล์นี้ในเครื่องอยู่แล้ว</string>
     <string name="only_support_torrent">รองรับเฉพาะไฟล์ torrent</string>
-    <string name="task_detail_notfound_confirm">ตกลก</string>
+    <string name="task_detail_notfound_confirm">ตกลง</string>
     <string name="title_tips">คำเตือน</string>
     <string name="xiaomi_account_not_exist_message">ไม่พบบัญชี Mi ดังกล่าวในระบบ</string>
     <string name="xunlei_account_has_unbind_message">ลบบัญชี Xunlei แล้ว</string>
@@ -282,7 +283,7 @@
     <string name="sniff_result_empty_prompt">ผลการค้นหาจากเว็บ</string>
     <string name="sniff_finding_resource_prompt">กำลังค้นหาจากเว็บ…</string>
     <string name="sniff_no_network_tip">กรุณาตรวจสอบการเชื่อมต่อเครือข่ายแล้วลองใหม่</string>
-    <string name="web_dialog_confirm">ตกลก</string>
+    <string name="web_dialog_confirm">ตกลง</string>
     <string name="web_dialog_cancel">ยกเลิก </string>
     <string name="sniff_download_task_create_success">เพิ่มรายการดาวน์โหลดแล้ว</string>
     <string name="sniff_download_task_already_exist">มีรายการดาวน์โหลดนี้อยู่ก่อนแล้ว</string>
@@ -331,6 +332,8 @@
     <string name="xl_vip_open">ซื้อ</string>
     <string name="xl_vip_pay">จับภาพแนวยาว</string>
     <string name="xl_vip_overdue">หมดอายุ</string>
+    <string name="download_num_size">%1$s | %2$s</string>
+    <string name="app_size">%1$s</string>
     <string name="ad_title">คนเหล่านี้ดาวน์โหลดด้วย  %1$s </string>
     <string name="rank_data_empty">ไม่พบการจัดอันดับ</string>
     <string name="net_error">เชื่อมต่อกับเครือข่ายไม่ได้ ลองใหม่อีกครั้ง</string>
@@ -444,7 +447,7 @@
     <string name="dialog_title_recommend">ปิดใช้งานเนื้อหาแนะนำ</string>
     <string name="dialog_msg_recommend">คุณจะไม่สามารถดูแหล่งที่แนะนำหลังจากที่ปิดแล้ว</string>
     <string name="dialog_btn_cancel">ยกเลิก </string>
-    <string name="dialog_btn_ok">ตกลก</string>
+    <string name="dialog_btn_ok">ตกลง</string>
     <string name="ad_install">ติดตั้ง</string>
     <string name="download_title">ดาวน์โหลด</string>
 </resources>

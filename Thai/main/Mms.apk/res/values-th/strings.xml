@@ -179,6 +179,7 @@
     <string name="file_size">ขนาด:</string>
     <string name="file_title">ชื่อ:</string>
     <string name="file_width_height">ขนาด:</string>
+    <string name="flatshow_page_no">%1$d</string>
     <string name="force_touch_new_message_title">ข้อความใหม่</string>
     <string name="forward_from">ส่งต่อจาก:</string>
     <string name="forward_prefix">"ส่งต่อ: "</string>
@@ -375,7 +376,7 @@
     <string name="pref_hide_verification_code_summary">ซ่อนรหัสผ่านแบบครั้งเดียวโดยอัตโนมัติในการแจ้งเตือนข้อความบนหน้าจอล็อกที่ปลอดภัย</string>
     <string name="pref_messages_to_save">ตั้งจำนวนข้อความที่จะบันทึก</string>
     <string name="pref_mms_settings_title">ข้อความมัลติมีเดีย (MMS)</string>
-    <string name="pref_msg_trash_bin_title">ข้อความขยะ</string>
+    <string name="pref_msg_trash_bin_title">ลบข้อความแล้ว</string>
     <string name="pref_notification_settings_title">การแจ้งเตือน</string>
     <string name="pref_other_title">การตั้งค่าเพิ่มเติม</string>
     <string name="pref_show_blocked_messages_summary">แสดงข้อความที่ถูกบล็อกในรายการสนทนา</string>
@@ -528,6 +529,7 @@
     <string name="send_signature_confirm_dialog_title">ส่งข้อความ</string>
     <string name="send_sms">ส่งข้อความ</string>
     <string name="send_to">ถึง:</string>
+    <string name="send_to_index_contact">%1$s/%2$s</string>
     <string name="sent_at_time">วันที่ส่ง: %1s</string>
     <string name="sent_label">"ส่ง: "</string>
     <string name="service_message_not_found">ข้อความหมดอายุหรือไม่มีข้อความ</string>
@@ -567,6 +569,7 @@
     <string name="sms_report_success">ส่งรายงานเรียบร้อยแล้ว</string>
     <string name="snippet_audio">[Audio]</string>
     <string name="snippet_picture">[Image]</string>
+    <string name="snippet_timed">[Timed]</string>
     <string name="sp_category_all">ข้อความทุกประเภทบริการ</string>
     <string name="sp_category_bank">ข้อความแจ้งเตือนจากธนาคาร</string>
     <string name="sp_category_title_prefix">%s</string>

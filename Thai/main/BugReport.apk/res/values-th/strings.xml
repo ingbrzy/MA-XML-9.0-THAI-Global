@@ -57,6 +57,7 @@
     <string name="save_pic_success">บันทึกรูปภาพไปยัง %s</string>
     <string name="save_pic_fail">ไม่สามารถบันทึกรูปภาพได้ ตรวจสอบ SD การ์ดของคุณ</string>
     <string name="pic_not_exist">ไม่พบรูปภาพดังกล่าว</string>
+    <string name="pic_view_format">%1$s\"/\"%2$s</string>
     <string name="michat_skillset_product_title">เลือกผลิตภัณฑ์</string>
     <string name="michat_skillset_business_type_title">เลือกบริการ</string>
     <string name="michat_close_text">การแชทสิ้นสุดลง</string>
@@ -213,8 +214,11 @@
     <string name="feedback_select_suggestion">ข้อเสนอแนะ</string>
     <string name="feedback_select_problem">ปัญหา</string>
     <string name="feedback_choose_module">เลือกรายการ</string>
+    <string name="feedback_choose_third_app_name">เลือกชื่อแอป</string>
     <string name="toast_module_required">เลือกรายการ</string>
     <string name="feedback_choose_module_hint">จำเป็นต้องระบุ</string>
+    <string name="feedback_choose_reproductivity">การทำสำเนา</string>
+    <string name="feedback_title_reproductivity">เลือกการทำสำเนา</string>
     <string name="feedback_report_remind_login_desc">ลงชื่อเข้าสู่ระบบบัญชี Mi ของคุณเพื่อให้วิศวกรสามารถติดต่อกับคุณได้</string>
     <string name="feedback_report_remind_login_desc2">คุณยังสามารถติดตามความคืบหน้ารายงานของคุณได้ใน \"รายงานของฉัน\"</string>
     <string name="feedback_history_remind_login_desc">เข้าสู่ระบบด้วยบัญชี Mi ของคุณเพื่อดูรายละเอียดและความคืบหน้ารายงานของคุณ</string>
@@ -224,6 +228,7 @@
     <string name="feedback_title_hint">อธิบายปัญหาโดยสังเขป</string>
     <string name="feedback_description_suggest_hint">ฉันอยากให้คุณสามารถเพิ่มคุณลักษณะใหม่ () เนื่องจากฉันต้องการ ()</string>
     <string name="feedback_description_bugreport_hint">ในกรณีที่ (…) โทรศัพท์ของฉันเกิดอาการผิดปกติของ (…)</string>
+    <string name="feedback_description_hint">อธิบายปัญหาที่คุณพบ</string>
     <string name="toast_title_required">อธิบายถึงปัญหาของคุณ</string>
     <string name="toast_problem_class_required">เลือกหมวดหมู่</string>
     <string name="feedback_third_packagename_hint">แอปของบุคคลที่สามท่านใดทำให้เกิดปัญหา?</string>
@@ -240,6 +245,7 @@
     <string name="feedback_status_replyed">ตอบกลับแล้ว</string>
     <string name="feedback_status_jira_comment">เพิ่มความคิดเห็น</string>
     <string name="feedback_status_forum_reply">ตอบกลับ</string>
+    <string name="feedback_status_submit_attachment">ส่งไฟล์แนบเรียบร้อยแล้ว</string>
     <string name="feedback_status_change_notification_title">ความคืบหน้ารายงานของคุณมีการอัพเดท</string>
     <string name="feedback_bug_status_change_notification_desc">%1$s ปัญหา \"%2$s\"</string>
     <string name="feedback_suggestion_status_change_notification_desc">%1$s ข้อเสนอแนะ \"%2$s\"</string>
@@ -297,9 +303,11 @@
     <string name="toast_log_not_exists">บันทึกการใช้ที่จำเป็นถูกลบหรือไม่มีอยู่</string>
     <string name="toast_pic_not_exists">แคชรูปภาพถูกลบแล้ว</string>
     <string name="toast_screenshot_too_large">ไม่สามารถอัพโหลดไฟล์ที่ขนาดใหญ่กว่า 10MB ได้</string>
+    <string name="toast_log_too_large">ไม่สามารถอัพโหลดได้ ไฟล์ใหญ่เกินไป</string>
     <string name="title_bbs_feedback_main">เรียนรู้เพิ่มเติมเกี่ยวกับ Mi Phone</string>
     <string name="title_customer_service">ศูนย์บริการลูกค้า</string>
     <string name="customer_service_apply">ร้องขอศูนย์บริการลูกค้า</string>
     <string name="customer_service_complain">รายงานศูนย์บริการลูกค้า</string>
     <string name="customer_service_station">ตำแหน่งพิกัดบริการ</string>
+    <string name="select_system_app_tag">เลือกป้ายกำกับ</string>
 </resources>

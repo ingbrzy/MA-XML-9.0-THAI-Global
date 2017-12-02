@@ -64,13 +64,10 @@
     <string name="language_picker_other_languages_title">ภาษาเพิ่มเติม</string>
     <string name="language_settings">เลือกภาษา</string>
     <string name="enable_accessibility_dialog_message">แตะสองนิ้วบนหน้าจอค้างไว้ 10 วิ เพื่อเปิด TalkBack, TalkBack ให้การตอบรับด้วยเสียงสำหรับผู้ที่มีความบกพร่องทางสายตา ถ้าคุณเปิดใช้งานโดยไม่ได้ตั้งใจให้แตะปุ่มยกเลิกแล้วแตะสองครั้งที่หน้าจอ</string>
-    <string name="enable_accessibility_dialog_positive_btn">ตกลก</string>
+    <string name="enable_accessibility_dialog_positive_btn">ตกลง</string>
     <string name="enable_accessibility_dialog_negative_btn">ยกเลิก</string>
     <string name="cm_terms_title">ข้อตกลงผู้ให้บริการเครือข่ายมือถือ</string>
     <string name="cm_terms_content">เพื่อปรับปรุงการบริการที่ดีขึ้นให้กับคุณ ผู้ดำเนินการเครือข่ายมือถือที่คุณเลือกอาจอัปโหลดข้อมูลส่วนบุคคลและข้อมูลเกี่ยวกับอุปกรณ์นี้ไปยังเซิร์ฟเวอร์โดยใช้เครือข่าย Wi-Fi หรือการเชื่อมต่อข้อมูลมือถือ ข้อมูลนี้จะถูกใช้เพื่อวัตถุประสงค์ทางสถิติเท่านั้นเพื่อปรับปรุงคุณภาพของบริการและให้เนื้อหาที่เป็นส่วนตัวมากขึ้น ข้อมูลนี้จะไม่ถูกใช้เพื่อระบุตัวคุณเป็นการส่วนตัวและจะไม่ถูกเปิดเผยต่อบุคคลที่สาม</string>
-    <string name="two_dimensional_code_scan">สแกนรหัส QR</string>
-    <string name="user_strayed_warning">หน้านี้ถูกออกแบบมาสำหรับการทดสอบโรงงาน แตะ \"ย้อนกลับ\" เพื่อออก</string>
-    <string name="fail_to_generate_qr_code">ไม่สามารถสร้างรหัส QR ได้ เปิดหน้านี้อีกครั้ง</string>
     <string name="enable_accessibility_canceled">ยกเลิกสิ่งอำนวยความสะดวกแล้ว</string>
     <string name="accessibility_enabled">เปิดใช้สิ่งอำนวยความสะดวกแล้ว</string>
     <string name="continue_to_enable_accessibility">แตะสองนิ้วค้างเพื่อเปิดใช้งานสิ่งอำนวยความสะดวก</string>

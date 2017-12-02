@@ -166,7 +166,7 @@
     <string name="miui_screen_ratio_hint">แจ้งอัตราหน้าจอ</string>
     <string name="miui_screen_ratio_hint_message">แอปนี้ได้รับอนุญาตให้ทำงานในโหมดเต็มหน้าจอ ซึ่งอาจทำให้ไม่สามารถแสดงผลได้ไม่ถูกต้อง คุณสามารถเปลี่ยนแปลงได้ในการตั้งค่า > การตั้งค่าเพิ่มเติม > ปุ่ม</string>
     <string name="miui_screen_ratio_hint_dont_show_again">ไม่ต้องแสดงอีก</string>
-    <string name="miui_screen_ratio_hint_ok">ตกลก</string>
+    <string name="miui_screen_ratio_hint_ok">ตกลง</string>
     <string name="miui_screen_ratio_hint_go_to_settings">ไปที่เมนูการตั้งค่า</string>
     <string name="switching_tv">กำลังสลับ…</string>
     <string name="switch_desc_tv">สองพื้นที่ในเครื่องเดียว</string>

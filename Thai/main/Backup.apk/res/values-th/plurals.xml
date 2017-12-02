@@ -9,6 +9,12 @@
     <plurals name="data_item_count">
         <item quantity="other">%d รายการ</item>
     </plurals>
+    <plurals name="total_num">
+        <item quantity="other">%d รายการ,</item>
+    </plurals>
+    <plurals name="custom_progress">
+        <item quantity="other">%d รายการ</item>
+    </plurals>
     <plurals name="trans_time_format_minute">
         <item quantity="other">%d นาที่</item>
     </plurals>

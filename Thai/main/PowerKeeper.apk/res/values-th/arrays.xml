@@ -87,4 +87,8 @@
         <item>โหมดควบคุมอุณหภูมิปัจจุบัน</item>
         <item>โหมดประสิทธิภาพปัจจุบัน</item>
     </string-array>
+    <string-array name="power_mode_entries">
+        <item>ประสิทธิภาพ</item>
+        <item>สมดุล</item>
+    </string-array>
 </resources>

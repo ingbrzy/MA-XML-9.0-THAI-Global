@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">ประหยัดแบตเตอรี่</string>
+    <string name="app_name">แบตเตอรี่และประสิทธิภาพ</string>
     <string name="activity_title_poweroptimize">ประหยัดแบตเตอรี่</string>
     <string name="activity_title_poweranalyze">ทดสอบแบต</string>
     <string name="activity_title_powerconfigure">ตั้งค่าแบตเตอรี่</string>
@@ -107,7 +107,7 @@
     <string name="mode_settings">การตั้งค่า</string>
     <string name="hide_mode_desc">เมื่อแอปทำงานในพื้นหลัง การทำงานจะได้รับการควบคุมเพื่อลดการใช้แบตเตอรี่</string>
     <string name="hide_mode_ultimate_desc">โหมดประหยัดสูงสุดเปิดใช้งาน แอปบนพื้นหลังจะถูกแช่แข็ง ปิดตัวประหยัดแบตเตอรี่เพื่อออกจากโหมดประหยัดสูงสุด</string>
-    <string name="power_hide_mode_title">จัดการการใช้แบตเตอรี่ของแอป</string>
+    <string name="power_hide_mode_title">แบตเตอรี่ &amp; ประสิทธิภาพ</string>
     <string name="power_hide_mode_summary">ประหยัดแบตด้วยการจำกัดการทำงานของแต่ละแอป รวมถึงการใช้งาน Wi-Fi เครือข่ายข้อมูลมือถือและจีพีเอส</string>
     <string name="power_config_apps">ตัวประหยัดแบตเตอรี่</string>
     <string name="app_list_title">เลือกแอปที่ต้องการ</string>
@@ -125,10 +125,14 @@
     <string name="sleep_config_enhance_description">เมื่อใดก็ตามที่ MIUI ตรวจพบว่าคุณกำลังนอนหลับอยู่จะปิดแอปพื้นหลัง จำกัด NFC บลูทูธ GPS ข้อมูลมือถือและการใช้ Wi-Fi และจะไม่เปิดหน้าจอสำหรับการแจ้งเตือน</string>
     <string name="nonui_mode_config_title">โหมดไม่เป็นแบบโต้ตอบ</string>
     <string name="nonui_mode_config_description">ห้ามเปิดหน้าจอสำหรับการแจ้งเตือน, ปิดไฟ LED, เซ็นเซอร์ลายนิ้วมือและระบบควบคุมแบบสัมผัสเพื่อประหยัดแบตเตอรี่เมื่อ MIUI ตรวจพบว่าคุณไม่ได้ใช้อุปกรณ์</string>
+    <string name="power_center">แบตเตอรี่</string>
+    <string name="power_usage">การใช้พลังงาน</string>
+    <string name="power_mode">การตั้งค่าพลังงาน</string>
+    <string name="performance_category">โหมดประสิทธิภาพสูง</string>
     <string name="scenario_policies_warmcontrol">ควบคุมอุณหภูมิ</string>
     <string name="warm_configure">การตั้งค่าควบคุมอุณหภูมิ</string>
     <string name="important_warning">คำเตือน</string>
-    <string name="confirm">ตกลก</string>
+    <string name="confirm">ตกลง</string>
     <string name="warm_performance_tip">อุปกรณ์ของคุณจะร้อนขึ้นเมื่อใช้งานกิจกรรมอื่นๆ</string>
     <string name="vip_feedback">ข้อเสนอแนะ VIP</string>
     <string name="vip_feedback_enable">เปิดใช้งานข้อเสนอแนะ VIP</string>

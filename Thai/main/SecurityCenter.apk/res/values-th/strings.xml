@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="fw_blocked">รายการบล็อก</string>
+    <string name="fw_oversea">บล็อกการโทรจากผู้ติดต่อต่างประเทศ</string>
     <string name="fw_blocked_count">"บล็อคแล้ว "</string>
     <string name="fw_blocked_join">" และ "</string>
+    <string name="fw_oversea_content">บล็อกสายเรียกเข้าจากหมายเลขโทรศัพท์ต่างประเทศ</string>
     <string name="tab_title">รายการบล็อก</string>
     <string name="tab_blacklist">รายการบล็อก</string>
     <string name="tab_sms">ข้อความ SMS</string>
@@ -132,6 +134,7 @@
     <string name="call_contact_block">บล็อกการโทรจากผู้ติดต่อ</string>
     <string name="call_transfer_block">บล็อคสายที่ถูกโอนมา</string>
     <string name="call_cloud_block">บล็อกคลาวด์</string>
+    <string name="call_oversea_block">บล็อกการโทรจากผู้ติดต่อต่างประเทศ</string>
     <string name="mark_fraud_block">ถูกรายงานว่าเป็นมิจฉาชีพ</string>
     <string name="mark_agent_block">ถูกรายงานว่าเป็นตัวแทน</string>
     <string name="mark_sell_block">ถูกรายงานว่าขายสินค้า</string>
@@ -270,6 +273,7 @@
     <string name="st_call_settings">รายการบล็อกสายเรียกเข้า</string>
     <string name="st_call_intercept_stranger">บล็อกการโทรจากสายแปลกหน้า</string>
     <string name="st_call_intercept_forwarding">บล็อกสายที่ถูกโอนมา</string>
+    <string name="st_call_intercept_oversea">บล็อกการโทรจากผู้ติดต่อต่างประเทศ</string>
     <string name="st_call_intercept_reported">ต้องการบล็อกสายเรียกเข้าที่มีผู้รายงานไว้</string>
     <string name="st_call_intercept_contacts">บล็อกการโทรจากผู้ติดต่อ</string>
     <string name="st_call_intercept_unknown">บล็อกการโทรจากไม่มีเบอร์</string>
@@ -281,6 +285,7 @@
     <string name="st_confirm_dialog_btn_open">เปิด</string>
     <string name="st_confirm_dialog_summary_stranger_call">การโทรจากสายแปลกหน้าจะถูกบล็อก</string>
     <string name="st_confirm_dialog_summary_contact_call">การโทรทั้งหมดจากผู้ติดต่อจะถูกบล็อก</string>
+    <string name="st_confirm_dialog_summary_oversea_call">เปิดใช้งานบล็อกสายเรียกเข้าจากหมายเลขโทรศัพท์ต่างประเทศทั้งหมด</string>
     <string name="cta_dialog_title">การเชื่อมกับต่ออินเตอร์เน็ต</string>
     <string name="cta_dialog_msg">ระบบความปลอดภัยต้องการการเชื่อมต่ออินเทอร์เน็ตในการปรับปรุง ตลอดจนการเข้าถึงตำแหน่งเพื่อทำงานปกติ</string>
     <string name="cta_settings">อนุญาตให้เชื่อมต่ออินเทอร์เน็ต</string>
@@ -384,6 +389,7 @@
     <string name="detail_app_button">ข้อมูลแอป</string>
     <string name="pref_about_traffic_title">การตั้งค่าการใช้ข้อมูล</string>
     <string name="pref_traffic_manage_title">การใช้ข้อมูล</string>
+    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_package_traffic_settings">จำกัดข้อมูลมือถือ</string>
     <string name="pref_adjust_traffic_data">ตั้งการใช้ข้อมูล</string>
     <string name="pref_category_title_other">การตั้งค่าเพิ่มเติม</string>
@@ -885,6 +891,7 @@
     <string name="om_formatted_percent_string">%s%%</string>
     <string name="om_cpu_usage_warn_title_text">"แอปนี้อาจทำให้อุปกรณ์ของคุณ
 ช้าลง"</string>
+    <string name="om_memory_clean_memory_info_text">%1$s / %2$s</string>
     <string name="om_ill_proc_handle_unstaill_title">ถอนการติดตั้ง %s?</string>
     <string name="om_ill_proc_handle_uninstall_prompt">ถอนการติดตั้งแอปนี้เพื่อแก้ไขปัญหาการใช้แบตเตอรี่</string>
     <string name="om_ill_proc_type_wakelock_title">แอปบล็อกโหมดสลีปทำให้แบตเตอรี่หมดเร็ว</string>
@@ -963,7 +970,7 @@
     <string name="battery_history_seconds">%1$dวินาที</string>
     <string name="delete">ลบ</string>
     <string name="every_day">ทุกวัน</string>
-    <string name="legal_workday">วันหยุด</string>
+    <string name="legal_workday">วันทำงาน</string>
     <string name="never">1 ครั้ง</string>
     <string name="power_20s_shutdown">อุปกรณ์จะปิดในอีก %d วินาที</string>
     <string name="boot_reminder">เปิดเครื่องตามเวลาที่ตั้งเอาไว้</string>
@@ -1273,6 +1280,7 @@
     <string name="keywords_gamebooster">เกมส์;ตัวเร่งความเร็ว;King of Glory;โหมดประสิทธิภาพ;ห้ามรบกวน;เกมส์;เล่นเกม;ความเร็วเล่นเกม;เพิ่ม</string>
     <string name="path_gamebooster">แอประบบ/ความปลอดภัย/ตัวเร่งความเร็วในการเล่นเกม</string>
     <string name="app_name_securitycenter">ความปลอดภัย</string>
+    <string name="back_description_securitycenter">ย้อนกลับ</string>
     <string name="ok">ตกลง</string>
     <string name="exit">ออก</string>
     <string name="cancel">ยกเลิก</string>
@@ -1286,6 +1294,7 @@
     <string name="menu_text_networkassistants">การใช้ข้อมูล</string>
     <string name="menu_text_networkassistants_remain">คงเหลือ %s</string>
     <string name="menu_text_networkassistants_danger">ใช้เกินไป %s</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_unit_gb">GB</string>
     <string name="menu_text_networkassistants_unit_mb">MB</string>
     <string name="menu_text_networkassistants_unit_kb">KB</string>
@@ -1646,6 +1655,7 @@
     <string name="card_main_deepclean_wechat_action">ล้าง</string>
     <string name="card_main_sectool_title">เครื่องมือ</string>
     <string name="card_main_monthreport_action">เรียกดู</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">ทดสอบเครือข่าย</string>
     <string name="card_main_netcheck_summary">ทดสอบการเชื่อมต่อสำหรับปัญหาเครือข่าย</string>
     <string name="card_main_netcheck_action">ทดสอบ</string>
@@ -1841,11 +1851,9 @@
     <string name="app_manager_details_electric_title">แบตเตอรี่</string>
     <string name="app_manager_card_permission_title">การอนุญาต</string>
     <string name="app_manager_permission_startself_title">เริ่มต้นอัตโนมัติ</string>
-    <string name="app_manager_permission_startself_summary">แอปที่เริ่มทำงานโดยอัตโนมัติจะใช้แรมและแบตเตอรี่ได้เร็วขึ้น</string>
     <string name="app_manager_permission_manager_title">การอนุญาต</string>
     <string name="app_manager_permission_notify_title">การแจ้งเตือน</string>
     <string name="app_manager_permission_power_saving_title">ตัวประหยัดแบตเตอรี่</string>
-    <string name="app_manager_permission_power_saving_summary">ตัวประหยัดแบตเตอรี่ MIUI</string>
     <string name="app_manager_default_open_title">ล้างค่าเริ่มต้น</string>
     <string name="app_manager_default_close_summary">ไม่ได้ตั้งค่าเริ่มต้น</string>
     <string name="app_manager_default_open_summary">คุณเลือกที่จะเปิดแอปพลิเคชันนี้ตามค่าเริ่มต้นสำหรับการดำเนินการบางอย่าง</string>
@@ -1871,7 +1879,6 @@
     <string name="app_manager_stop_wakepath_success">จำกัดเรียบร้อยแล้ว</string>
     <string name="app_maanger_app_uninstalled_toast">แอปนี้ถูกยกเลิกการติดตั้งแล้ว</string>
     <string name="app_manager_start_by">เริ่มโดย %s</string>
-    <string name="app_manager_not_record">ไม่พบแอปที่ต้องได้รับอนุญาต</string>
     <string name="app_manager_uninstall_xspace_app_dlg_msg">การถอนการติดตั้งแอปโคลนจะลบข้อมูลแอปทั้งหมด</string>
     <string name="app_manager_uninstall_with_xspace_app_dlg_msg">แอปที่โคลนไว้จะถูกลบออกพร้อมกับข้อมูลแอป</string>
     <string name="app_manager_uninstall_xspace_app_dlg_title">ถอนการติดตั้งแอปโคลน?</string>
@@ -1885,7 +1892,6 @@
     <string name="app_manager_menu_clear_data">ล้างข้อมูล</string>
     <string name="app_manager_clear_data_dlg_title">ลบข้อมูลแอป?</string>
     <string name="app_manager_clear_data_dlg_message">ข้อมูลแอปนี้ทั้งหมด’จะถูกลบอย่างถาวร นี่รวมถึงไฟล์ทั้งหมด การตั้งค่า บัญชี ข้อมูล ฯลฯ</string>
-    <string name="app_manager_clear_failed_dlg_title">ล้างข้อมูล</string>
     <string name="app_manager_clear_failed_dlg_message">ไม่สามารถล้างข้อมูลแอปได้</string>
     <string name="app_manager_manage_space">จัดการพื้นที่</string>
     <string name="app_manager_permission_summary_reject">จำกัดทั้งหมด</string>
@@ -1893,7 +1899,6 @@
     <string name="app_manager_powerkeeper_miui_auto">ตัวประหยัดแบตเตอรี่ MIUI</string>
     <string name="app_manager_powerkeeper_restrict_bg">จำกัดแอปในพื้นหลัง</string>
     <string name="app_manager_powerkeeper_no_bg">จำกัดการทำงานในพื้นหลัง</string>
-    <string name="app_manager_sort">เรียงตาม</string>
     <string name="app_manager_instruction">วิธีใช้</string>
     <string name="app_manager_app_storage">"ที่จัดเก็บข้อมูล: "</string>
     <string name="app_manager_app_traffic">"การใช้งานข้อมูล: "</string>
@@ -2097,6 +2102,11 @@
     <string name="game_booster_close">ตัวเร่งความเร็วในการเล่นเกมปิดอยู่</string>
     <string name="databooster_tips_title">คำเตือน</string>
     <string name="databooster_tips_message">เปิดใช้งานจำกัดซิมทั้งหมดยกเว้นการ์ดข้อมูล ปิดคุณลักษณะนี้หากมีข้อผิดพลาดเกิดขึ้นในเกมที่คุณเลือก</string>
+    <string name="app_manager_permission_startself_summary">แอปที่เริ่มทำงานโดยอัตโนมัติจะใช้แรมและแบตเตอรี่ได้เร็วขึ้น</string>
+    <string name="app_manager_permission_power_saving_summary">ตัวประหยัดแบตเตอรี่ MIUI</string>
+    <string name="app_manager_not_record">ไม่พบแอปที่ต้องได้รับอนุญาต</string>
+    <string name="app_manager_clear_failed_dlg_title">ล้างข้อมูล</string>
+    <string name="app_manager_sort">เรียงตาม</string>
     <string name="power_center_consume_rank">การใช้งานแบตเตอรี่</string>
     <string name="power_center_custom_title">ใช้โหมดพลังงาน</string>
     <string name="power_center_auto_shutdown_summary_default">ตั้งค่าการเปิดหรือปิดเครื่องตามเวลาที่กำหนดไว้ล่วงหน้า</string>

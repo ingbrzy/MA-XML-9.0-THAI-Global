@@ -54,7 +54,7 @@
     <string name="passport_change_phone_number">สลับหมายเลข</string>
     <string name="passport_forget_password"><u>ลืมรหัสผ่าน</u></string>
     <string name="passport_forget_password_no_underline">ลืมรหัสผ่าน</string>
-    <string name="passport_reg_type_email">ใช้ที่อยู่อีเมล</string>
+    <string name="passport_reg_type_email">ที่อยู่อีเมล</string>
     <string name="passport_register_by_email"><u>สร้างบัญชีใหม่โดยใช้อีเมล</u></string>
     <string name="passport_account_not_actived">บัญชีของคุณยังไม่ได้เปิดใช้งาน</string>
     <string name="passport_active_email_visit">ตรวจสอบกล่องขาเข้าที่ %s</string>
@@ -257,6 +257,7 @@
     <string name="account_limit_update_birthday">ไม่สามารถอัพเดทวันเกิดได้ในตอนนี้</string>
     <string name="account_user_other_info">ข้อมูลเพิ่มเติม</string>
     <string name="account_user_region">ภูมิภาค</string>
+    <string name="account_global_region">ต่างประเทศ</string>
     <string name="account_user_location">ตำแหน่ง</string>
     <string name="account_user_location_title">เลือกตำแหน่งปัจจุบัน</string>
     <string name="account_user_education">การศึกษา</string>
@@ -286,10 +287,6 @@
     <string name="confirm_unbundled_phone_dialog_message">หมายเลขโทรศัพท์ %1$s ไม่ได้ผูกกับบัญชี Mi %2$s หากดำเนินการต่อหมายเลขโทรศัพท์จะผูกกับบัญชี Mi %3$s ดำเนินการต่อหรือไม่?</string>
     <string name="change_phone_number">เปลี่ยนหมายเลขโทรศัพท์</string>
     <string name="change_email_address">เปลี่ยนที่อยู่อีเมล</string>
-    <string name="checking_phone_num_availible">กำลังยืนยันโทรศัพท์…</string>
-    <string name="account_binded_phone">โทรศัพท์ %d</string>
-    <string name="account_bind_new_phone">เพิ่มโทรศัพท์ใหม่</string>
-    <string name="account_bind_phone_notice">ใช้หมายเลขโทรศัพท์นี้ในการเข้าสู่บัญชี รีเซ็ตรหัสผ่านหรือเปลี่ยนแปลงการตั้งค่าความปลอดภัยต่างๆ</string>
     <string name="continue_action">ดำเนินการต่อ</string>
     <string name="replace_binded_phone">แทนที่โทรศัพท์</string>
     <string name="delete_action">ลบ</string>
@@ -314,6 +311,15 @@
     <string name="resend_email_reach_limit_message">คุณได้ร้องขอให้ส่งอีเมลเกินจำนวนครั้งที่กำหนด ตรวจสอบดูให้แน่ใจว่าอีเมลที่จะใช้ยืนยันตัวตนไม่ถูกจัดเก็บไว้ในกล่องข้อความขยะ</string>
     <string name="update_email_address_dialog_title">อัพเดทอีเมล</string>
     <string name="update_email_address_dialog_message">คุณต้องยืนยันตัวตนก่อนจึงจะสามารถอัพเดทอีเมลได้</string>
+    <string name="update_phone_notice">เปลี่ยนการตั้งค่าความปลอดภัย</string>
+    <string name="no_phone">ไม่มีหมายเลขโทรศัพท์</string>
+    <string name="action_update_phone">เปลี่ยนหมายเลขโทรศัพท์</string>
+    <string name="action_add_phone">เพิ่มหมายเลขโทรศัพท์</string>
+    <string name="phone_num_use_for">หมายเลขโทรศัพท์ใช้สำหรับ:</string>
+    <string name="sign_in">กำลังเข้าสู่ระบบ</string>
+    <string name="get_back_pwd">กำลังตั้งรหัสผ่านใหม่</string>
+    <string name="identity">เลขประจำตัว</string>
+    <string name="set_success">แก้ไขเรียบร้อย</string>
     <string name="account_user_details">ข้อมูลส่วนตัว</string>
     <string name="account_security">ความปลอดภัยบัญชี</string>
     <string name="account_mibi_center">Mi เครดิต</string>

@@ -184,8 +184,8 @@
     <string name="toast_backup_uninstall_success">การสำรองข้อมูลและถอนการติดตั้งเสร็จสมบูรณ์</string>
     <string name="activity_title_cache_data">ข้อมูลแอป</string>
     <string name="deepclean_cache_header_left">ไฟล์ข้อมูล: %d</string>
-    <string name="notification_title_of_garbage_cleanup">ขนาดของขยะ</string>
-    <string name="notification_summary_of_garbage_cleanup">ขนาดของขยะในระบบขณะนี้เกิน %s แล้ว</string>
+    <string name="notification_title_of_garbage_cleanup">%s ของไฟล์ขยะ</string>
+    <string name="notification_summary_of_garbage_cleanup">แตะเพื่อล้างขยะ.</string>
     <string name="notification_summary_after_auto_cleanup">ทำความสะอาดแล้ว %s</string>
     <string name="toast_uninstall_success">ถอนการติดตั้งเสร็จสมบูรณ์</string>
     <string name="toast_app_no_residual_on_sdcard">ไม่มีไฟล์ของแอปที่จัดเก็บอยู่ใน SD การ์ด</string>
@@ -308,7 +308,7 @@
     <string name="seton_immediately">เปิดใช้งาน</string>
     <string name="notify_when">แจ้งเตือนเมื่อขนาดไฟล์ขยะเกิน 100MB</string>
     <string name="goto_set">กำหนด</string>
-    <string name="virus_scan">สแกนไวรัส</string>
+    <string name="virus_scan">สแกนด้านความปลอดภัย</string>
     <string name="tips_of_virus_scan">ทำการสแกนไวรัสสม่ำเหมอเพื่อความปลอดภัยของเครื่อง</string>
     <string name="conn_of_function_safe">การเชื่อมต่อเครือข่ายของแอปความปลอดภัย</string>
     <string name="tips_of_connect">เชื่อมกับต่ออินเตอร์เน็ตเพื่อให้แอปความปลอดภัยทำงานได้อย่างเต็มประสิทธิภาพ</string>

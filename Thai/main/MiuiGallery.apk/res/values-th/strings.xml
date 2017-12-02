@@ -123,6 +123,7 @@
     <string name="more_face">ผู้คนมากมายใครที่เหมือนกัน</string>
     <string name="face_confirm">นี้เป็นบุคคลคนคล้ายกัน</string>
     <string name="face_recommend">ข้อเสนอแนะ</string>
+    <string name="face_recommend_group_number">%1$d/%2$d</string>
     <string name="face_name_input">ป้อนชื่อ</string>
     <string name="face_name_edit">แก้ไข</string>
     <string name="confirm_hidden_recommend_group">ตกลง</string>
@@ -411,12 +412,14 @@
     <string name="app_is_launching">%s กำลังเปิด…</string>
     <string name="app_is_launching_common">กำลังเปิดใช้งานแอป…</string>
     <string name="title_warn">คำเตือน</string>
+    <string name="title_tip">คำแนะนำ</string>
     <string name="byteShort">B</string>
     <string name="kilobyteShort">KB</string>
     <string name="megabyteShort">MB</string>
     <string name="gigabyteShort">GB</string>
     <string name="terabyteShort">TB</string>
     <string name="petabyteShort">PB</string>
+    <string name="fileSizeSuffix">%1$s%2$s</string>
     <string name="tip_capture_time">ถ่ายเมื่อ:</string>
     <string name="tip_file_info">ข้อมูลไฟล์</string>
     <string name="tip_capture_params">ข้อมูล EXIF:</string>
@@ -596,6 +599,7 @@
     <string name="welcome_to_slim">ปรับแต่งพื้นที่จัดเก็บในเครื่อง</string>
     <string name="slim_introduce">เปลี่ยนรูปความละเอียดเต็มเป็นเวอร์ชั่นปรับปรุงหลังจากทำการสำรองข้อมูลไปยัง Mi คลาวด์ รูปความละเอียดเต็มจะยังคงถูกเก็บไว้บน Mi คลาวด์</string>
     <string name="slim_introduce_with_specific_size">เปลี่ยนไฟล์ความละเอียดเต็มเป็นเวอร์ชั่นปรับปรุงหลังจากทำการสำรองข้อมูลไปยัง Mi คลาวด์ รูปความละเอียดเต็มจะยังคงถูกเก็บไว้บน Mi คลาวด์ นี่จะช่วยให้คุณสามารถประหยัดพื้นที่ได้ %1$s (ต้องใช้บัญชี Mi)</string>
+    <string name="welcome_to_auto_backup">@string/welcome_to_micloud</string>
     <string name="auto_backup_introduce">สำรองข้อมูลรูปภาพและวิดีโอโดยอัตโนมัติ (ต้องใช้บัญชี Mi)</string>
     <string name="next">ถัดไป</string>
     <string name="login_and_enable_service">ลงชื่อเข้าใช้ด้วยบัญชี Mi</string>
@@ -673,6 +677,7 @@
     <string name="cloud_storage_ok_append_desc">ใช้งานได้ %s</string>
     <string name="cloud_storage_warn_title">ที่จัดเก็บข้อมูล Mi คลาวด์ ไม่เพียงพอ</string>
     <string name="cloud_storage_warn_desc">ซื้อ VIP คลาวด์เพื่อที่จัดเก็บข้อมูลพิเศษ</string>
+    <string name="percent_sign">%</string>
     <string name="cloud_storage_extend">ขยายพื้นที่จัดเก็บคลาวด์</string>
     <string name="user_agreement2">เงื่อนไขการให้บริการ</string>
     <string name="user_agreement4">นโยบายความเป็นส่วนตัว</string>
@@ -783,25 +788,32 @@
     <string name="search_request_open">เข้าร่วมทีมทดสอบ</string>
     <string name="search_request_applied">ใช้งานแล้ว</string>
     <string name="search_title_more">เพิ่มเติม</string>
+    <string name="search_transition_element_input">search_input</string>
+    <string name="search_transition_element_icon">search_icon</string>
     <string name="search_mark_feedback_false_positive_title">ซ่อมแซม</string>
-    <string name="search_mark_feedback_false_negative_title">ตกลก</string>
+    <string name="search_mark_feedback_false_negative_title">ตกลง</string>
     <string name="search_feedback_false_negative_title">รายการที่เลือกแล้ว \"%s\"</string>
     <string name="search_failed_mark_feedback_false_positive">ไม่สามารถลบออกได้</string>
     <string name="search_failed_mark_feedback_false_negative">เพิ่มไม่ได้</string>
     <string name="search_feedback_false_positive_text">ลบรูปภาพออกจาก \"%s\"?</string>
     <string name="search_feedback_false_negative_text">เพิ่มรูปภาพไปยัง \"%s\"?</string>
     <string name="search_feedback_contribute">เพิ่มรูปภาพไปยังฐานข้อมูล AI</string>
-    <string name="search_feedback_task_finish_title">แตะเพื่อรับรางวัล!</string>
+    <string name="search_feedback_task_progress">ภารกิจ %1$d/%2$d</string>
+    <string name="search_feedback_task_complete">ภารกิจทั้งหมดเสร็จสิ้นแล้ว</string>
     <string name="search_feedback_likely_title">ดูเหมือนว่ารูปเหล่านี้อาจมี \"%s\"</string>
     <string name="search_feedback_likely_check_title">ตรวจสอบ</string>
     <string name="search_feedback_false_positive_title">ดูเหมือนว่านี่คือ \"%s\"</string>
     <string name="search_feedback_task_requesting_award">กำลังรับรางวัล…</string>
     <string name="search_feedback_task_request_award_failed">ไม่สามารถรับรางวัลได้ ลองอีกครั้งในภายหลัง</string>
+    <string name="search_feedback_user_policy">นโยบายความเป็นส่วนตัวของกิจกรรมการตอบกลับเกี่ยวกับคลังภาพ MIUI</string>
+    <string name="search_feedback_user_notice">ฉันได้อ่านและเห็นด้วยกับ %s</string>
     <string name="grant_permission_title">อนุญาตการเข้าถึง</string>
     <string name="grant_permission_text">"คลังภาพต้องการเข้าถึง 
 %s
  เพื่อให้ทำงานได้ตามปกติ แตะ \"ตั้งค่า\" เพื่อไปยังการอนุญาต"</string>
+    <string name="grant_permission_item">\"%s\"</string>
     <string name="grant_permission_go_and_set">ตั้งค่า</string>
+    <string name="grant_permission_unlock_and_set">ปลดล็อกและตั้งค่า</string>
     <string name="loading">รอสักครู่</string>
     <string name="loading_dots">รอสักครู่…</string>
     <string name="load_failed">โหลดข้อมูลไม่ได้ แตะเพื่อลองอีกครั้ง</string>

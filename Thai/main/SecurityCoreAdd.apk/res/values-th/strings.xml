@@ -60,6 +60,7 @@
     <string name="ok_button">ตกลง</string>
     <string name="cancel_button">ยกเลิก</string>
     <string name="list_empty_text">ว่างเปล่า</string>
+    <string name="list_empty_text_xspace">ติดตั้ง WeChat/QQ/Weibo, สร้างแอปโคลน และลองใหม่</string>
     <string name="xspace_label">แอปโคลน</string>
     <string name="xspace_setting_label">การตั้งค่าแอปโคลน</string>
     <string name="xspace_account">บัญชีแอปโคลน</string>
@@ -150,6 +151,7 @@
     <string name="click_to_switch">แตะเพื่อเรียกดู</string>
     <string name="confirm_main_space_password">ยืนยันรหัสผ่านพื้นที่ปกติ</string>
     <string name="create_space_loading">กำลังกำหนดเขตพื้นที่ทับซ้อนในเครื่อง…</string>
+    <string name="close_second_space">ลบพื้นที่ทับซ้อนแล้ว</string>
     <string name="close_second_space_success">ลบพื้นที่ทับซ้อนแล้ว</string>
     <string name="enable">เปิดใช้งาน</string>
     <string name="disable">ปิดใช้งาน</string>
@@ -258,6 +260,17 @@
     <string name="xpsace_guide_button">สร้าง</string>
     <string name="search_input_txt_na">"&lt;font color='#ff0000'>%s&lt;/font>"</string>
     <string name="search_result_text">ไม่พบแอปไดๆ</string>
+    <string name="xspace_weixin_title">WeChat</string>
+    <string name="weixin_pay">WeChat Pay</string>
+    <string name="weixin_share">แชร์ไปยังโมเม้นต์</string>
+    <string name="xspace_weibo_title">Weibo</string>
+    <string name="weibo_send">ส่งไปที่ Weibo</string>
+    <string name="xspace_qq_title">QQ</string>
+    <string name="qq_send">ส่งไปยังเพื่อน/อุปกรณ์ QQ</string>
+    <string name="xspace_default_setting_label">แอปเริ่มต้น</string>
+    <string name="xspace_default_app_title">แอปเริ่มต้น</string>
+    <string name="xspace_default_app_summary">ตั้งค่าแอปเริ่มต้นสำหรับการชำระเงิน การแชร์ รายการโปรด และอื่นๆ</string>
+    <string name="xspace_default_setting_dialog_title">ค่าเริ่มต้น</string>
     <string name="space_name_default">พื้นที่ทำงาน</string>
     <string name="space_des_default">พื้นที่บางแห่งที่มีการเข้ารหัสข้อมูล</string>
     <string name="create_work_space">สร้างพื้นที่ทำงาน</string>
@@ -286,7 +299,7 @@
     <string name="function_not_support">ไม่รองรับบนอุปกรณ์นี้</string>
     <string name="can_not_switch_when_calling">ไม่สามารถสลับระหว่างพื้นที่ขณะโทรได้</string>
     <string name="can_not_delete_when_calling">ไม่สามารถลบพื้นที่ขณะโทรได้</string>
-    <string name="support_desc">บริการรักษาความปลอดภัยโดย Graphite</string>
+    <string name="support_desc">บริการรักษาความปลอดภัยโดย Spaces Mobile</string>
     <string name="sdcardfs_dialog_title">อัพเดทที่สำคัญ</string>
     <string name="sdcardfs_dialog_message">MIUI 9 มีระบบไฟล์ใหม่ ข้อมูลเก่าอาจไม่เข้ากับข้อมูลดังกล่าว เมื่อต้องการแก้ปัญหานี้ให้ทำตามขั้นตอนเพื่อติดตั้งการอัพเดทอุปกรณ์ของคุณจะรีบูตเครื่องสองครั้งระหว่างการอัปเดตนี้</string>
     <string name="do_not_ask">ไม่ต้องถามอีก</string>

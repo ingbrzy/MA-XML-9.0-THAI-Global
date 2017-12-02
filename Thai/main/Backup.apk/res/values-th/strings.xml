@@ -6,6 +6,9 @@
     <string name="xiaomi_update_dialog_message_diff">"เวอร์ชั่นแนะนำ %1$s
 ขนาด %2$s"</string>
     <string name="xiaomi_external_storage_unavailable">ที่จัดเก็บข้อมูลไม่พร้อมใช้งาน ตรวจสอบ SD การ์ดของคุณ</string>
+    <string name="xiaomi_bytes_unit">%1$sB</string>
+    <string name="xiaomi_kilobytes_unit">%1$sKB</string>
+    <string name="xiaomi_megabytes_unit">%1$sMB</string>
     <string name="xiaomi_connect_download_manager_fail">ไม่สามารถเริ่มการดาวน์โหลดได้ ตรวจสอบให้แน่ใจว่าตัวจัดการการดาวน์โหลดทำงานปกติ</string>
     <string name="app_name">สำรองข้อมูล</string>
     <string name="local_app_name">สำรองข้อมูล</string>
@@ -15,6 +18,7 @@
     <string name="button_cancel">ยกเลิก</string>
     <string name="button_send">ส่ง</string>
     <string name="backup_empty">ไม่มีข้อมูลสำรอง</string>
+    <string name="data_detail_description">รายละเอียด</string>
     <string name="comma_seperator">", "</string>
     <string name="backup_failed">การสำรองข้อมูลผิดพลาด</string>
     <string name="sdcard_unmounted">กรุณาใส่ SD การ์ด</string>
@@ -172,7 +176,6 @@
     <string name="reverse_all">ล้างทั้งหมด</string>
     <string name="refresh">รีเฟรช</string>
     <string name="cloud_item_info_summary">" (ในเครื่อง: %1$s | Mi คลาวด์: %2$s)"</string>
-    <string name="total_num">%d รายการ,</string>
     <string name="cloud_restore_guide">เพื่อคืนค่าข้อมูลผู้ใช้ %s แตะ\"คืนค่า\"</string>
     <string name="import_from_xiaomi_account_hint1">"1.\u0009ดาวน์โหลดแอป Mi Talk และเข้าสู่ระบบ
 \u0009http://www.miliao.com
@@ -226,6 +229,7 @@
     <string name="restore_backup">คืนค่า</string>
     <string name="enable_encrypt_description">เข้ารหัส</string>
     <string name="disable_encrypt_description">ไม่ได้เข้ารหัส</string>
+    <string name="digit_percent">%</string>
     <string name="state_waiting">รอสักครู่…</string>
     <string name="state_mounting">กำลังเข้าถึงพื้นที่จัดเก็บข้อมูลเราเตอร์…</string>
     <string name="abort_backup_confirm">ยังสำรองข้อมูลไม่เสร็จ ยกเลิกหรือไม่?</string>
@@ -262,7 +266,6 @@
     <string name="notif_trans_wait_for_reconnecting">ถูกตัดการเชื่อมต่อ เชื่อมต่ออีกครั้ง</string>
     <string name="notif_trans_auto_reconnecting_title">การเชื่อมต่อไม่ถูกต้อง กำลังเชื่อมต่อใหม่อัตโนมัติ…</string>
     <string name="notif_trans_auto_reconnecting_content">คุณสามารถยกเลิกงานปัจจุบันได้หากต้องการ</string>
-    <string name="custom_progress">%d รายการ</string>
     <string name="remote_receive">รับ</string>
     <string name="click_to_view" />
     <string name="trans_one_key_migrate">Mi Mover</string>
@@ -362,26 +365,26 @@
     <string name="user_notice_declaration_ignore">ไม่ต้องแสดงอีก</string>
     <string name="total_size">, %s</string>
     <string name="trans_intro_title">คำถามที่พบบ่อย</string>
-    <string name="trans_intro_question_1">1. ฉันจะใช้ Mi Mover ย้ายข้อมูลจากอุปกรณ์ iOS ได้อย่างไร?</string>
+    <string name="trans_intro_question_1">%d. ฉันจะใช้ Mi Mover ย้ายข้อมูลจากอุปกรณ์ iOS ได้อย่างไร?</string>
     <string name="trans_intro_desc_1">เปิด Mi phone, เชื่อมต่อ Wi-Fi และแตะ \"ฉันคือผู้รับ\" เลือกอุปกรณ์ iOS ของคุณ, ลงชื่อเข้าใช้ iCloud และนำเข้าข้อมูล</string>
-    <string name="trans_intro_question_2">2. ฉันจะใช้ Mi Mover ย้ายข้อมูลจากอุปกรณ์แอนดรอยด์ได้อย่างไร?</string>
+    <string name="trans_intro_question_2">%d. ฉันจะใช้ Mi Mover ย้ายข้อมูลจากอุปกรณ์แอนดรอยด์ได้อย่างไร?</string>
     <string name="trans_intro_title_new">เปิดโทรศัพท์ใหม่:</string>
     <string name="trans_intro_desc_new">แตะ \"ฉันเป็นผู้รับ\" รหัส QR จะถูกสร้างขึ้น</string>
     <string name="trans_intro_title_old">เปิดโทรศัพท์เดิม:</string>
     <string name="trans_intro_desc_old">แตะ \"ฉํนเป็นผู้ส่ง\" สแกนรหัส QR ด้วยโทรศัพท์ใหม่ รอจนกว่า Mi Mover จะหาไฟล์ที่จะส่งและแตะ \"ส่ง\"</string>
-    <string name="trans_intro_question_3">3. ฉันควรทำอย่างไรหาก Mi Mover ติดค้างในขั้นตอนหนึ่ง?</string>
+    <string name="trans_intro_question_3">%d. ฉันควรทำอย่างไรหาก Mi Mover ติดค้างในขั้นตอนหนึ่ง?</string>
     <string name="trans_intro_desc_3">ยกเลิกการถ่ายโอน ออกจาก Mi Mover และเริ่มต้นใหม่ ไฟล์ที่ซ้ำจะถูกเขียนทับระหว่างการถ่ายโอนใหม่</string>
-    <string name="trans_intro_question_4">4. เหตุใดฉันจึงไม่สามารถใช้ Wi-Fi ระหว่างการถ่ายโอนได้?</string>
+    <string name="trans_intro_question_4">%d. เหตุใดฉันจึงไม่สามารถใช้ Wi-Fi ระหว่างการถ่ายโอนได้?</string>
     <string name="trans_intro_desc_4">Mi Mover ใช้ Wi-Fi เพื่อถ่ายโอนไฟล์ นั่นเป็นเหตุผลที่คุณไม่สามารถเชื่อมต่ออินเทอร์เน็ตโดยใช้ Wi-Fi ในอุปกรณ์ใดก็ได้ระหว่างการโอน คุณยังคงสามารถใช้ข้อมูลมือถือได้ อย่างไรก็ตามอุปกรณ์รุ่นใหม่ๆ (เช่น Mi 6) จะยังคงสามารถเชื่อมต่อกับอินเทอร์เน็ตโดยใช้ Wi-Fi ระหว่างการถ่ายโอนได้</string>
-    <string name="trans_intro_question_5">5. ทำไม Mi Mover จึงบอกฉันว่ามีพื้นที่เก็บข้อมูลไม่เพียงพอในโทรศัพท์เก่าของฉัน?</string>
+    <string name="trans_intro_question_5">%d. ทำไม Mi Mover จึงบอกฉันว่ามีพื้นที่เก็บข้อมูลไม่เพียงพอในโทรศัพท์เก่าของฉัน?</string>
     <string name="trans_intro_desc_5">พื้นที่เก็บข้อมูลบนโทรศัพท์เก่าใช้สำหรับสร้างแพคเกจการโอนย้าย ตรวจสอบว่าคุณมีพื้นที่เก็บข้อมูลอย่างน้อย 500MB - 1GB บนโทรศัพท์เครื่องเก่าของคุณก่อนที่จะเริ่มถ่ายโอน</string>
-    <string name="trans_intro_question_6">6. เหตุใดแอปบางแอปจึงไม่สามารถโอนได้?</string>
+    <string name="trans_intro_question_6">%d. เหตุใดแอปบางแอปจึงไม่สามารถโอนได้?</string>
     <string name="trans_intro_desc_6">มีสาเหตุหลายประการที่อาจเกิดขึ้น ได้แก่ ปัญหาความเข้ากันได้ของรุ่นและระบบ, ปัญหาเกี่ยวกับเครือข่าย, ประเด็นเกี่ยวกับความเข้ากันได้ที่เฉพาะเจาะจงกับอุปกรณ์เฉพาะ ฯลฯ</string>
-    <string name="trans_intro_question_7">7. ทำไมแอปบางตัวจึงไม่เริ่มทำงานในอุปกรณ์ใหม่?</string>
+    <string name="trans_intro_question_7">%d. ทำไมแอปบางตัวจึงไม่เริ่มทำงานในอุปกรณ์ใหม่?</string>
     <string name="trans_intro_desc_7">โปรไฟล์แอปบางแอป (ธนาคารอิเล็กทรอนิกส์การเงิน ฯลฯ) เชื่อมโยงกับอุปกรณ์เฉพาะ เนื่องจากเหตุผลด้านความปลอดภัย ลองล้างข้อมูลแอปหรือติดตั้งแอปใหม่บนอุปกรณ์ใหม่</string>
-    <string name="trans_intro_question_8">8. เหตุใดประวัติ WeChat จึงไม่สามารถถ่ายโอนได้อย่างสมบูรณ์?</string>
+    <string name="trans_intro_question_8">%d. เหตุใดประวัติ WeChat จึงไม่สามารถถ่ายโอนได้อย่างสมบูรณ์?</string>
     <string name="trans_intro_desc_8">ข้อมูลแอป WeChat และประวัติการแชทอาจไม่ได้รับการถ่ายโอนอย่างเต็มที่โดยใช้ Mi Mover ไปที่การตั้งค่าของ WeChat และออกจากระบบบัญชีของคุณเพื่อให้มีโอกาสมากขึ้นสำหรับการโอนเงินที่สำเร็จ</string>
-    <string name="trans_intro_question_9">9. รายการใดที่ไม่สามารถถ่ายโอนได้?</string>
+    <string name="trans_intro_question_9">%d. รายการใดที่ไม่สามารถถ่ายโอนได้?</string>
     <string name="trans_intro_title_account">บัญชีและรหัสผ่าน:</string>
     <string name="trans_intro_desc_account">คุณต้องลงชื่อเข้าใช้บัญชีของคุณอีกครั้ง (เช่น Mi Account, Exchange, Google ฯลฯ) บนอุปกรณ์ใหม่เนื่องจากเหตุผลด้านความปลอดภัย</string>
     <string name="trans_intro_title_private">อัลบั้มซ่อน:</string>
@@ -419,14 +422,16 @@ https://appleid.apple.com/#!&amp;page=signin"</string>
     <string name="icloud_backup_tip">ลงชื่อเข้าใช้บัญชี iCloud ของอุปกรณ์ iOS เก่าของคุณ</string>
     <string name="icloud_how_to_backup_tip_title">เคล็ดลับ:</string>
     <string name="icloud_how_to_backup_tip_summary">เพื่อนำเข้าข้อมูลจาก iOS, คุณต้องสำรอง iCloud</string>
-    <string name="icloud_how_to_backup_tip_steps">"1. เปิดการตั้งค่าบนอุปกรณ์ iOS เก่าของคุณ, และเลือก iCloud.
-2. เปิด-ปิดสลับสำหรับรายชื่อ.
-3.เลือกรูปภาพ และเปิด-ปิดสลับคลังรูปภาพ iCloud"</string>
+    <string name="icloud_how_to_backup_tip_steps">"1. เปิดการตั้งค่าบนอุปกรณ์ iOS เก่าของคุณ และเลือก iCloud.
+2. เปิด-ปิดสลับสำหรับรายชื่อและอื่นๆ
+3. เลือกรูปภาพ และเปิด-ปิดสลับคลังรูปภาพ iCloud"</string>
     <string name="user_name">Apple ID หรืออีเมล</string>
     <string name="password">รหัสผ่าน</string>
     <string name="user_name_null">ชื่อผู้ใช้ไม่สามารถเว้นว่างได้</string>
     <string name="password_null">รหัสผ่านไม่สามารถเว้นว่างได้</string>
     <string name="name_password_not_consistent">ชื่อผู้ใช้หรือรหัสผ่านไม่ถูกต้อง</string>
+    <string name="view_password_description">แสดงรหัสผ่าน</string>
+    <string name="hide_password_description">ซ่อนรหัสผ่าน</string>
     <string name="login">ลงชื่อเข้าใช้</string>
     <string name="logining">กำลังเข้าสู่ระบบ…</string>
     <string name="login_failed">ลงชื่อเข้าใช้ไม่ได้ ลองอีกครั้ง.</string>
@@ -463,7 +468,8 @@ https://appleid.apple.com/#!&amp;page=signin"</string>
     <string name="icloud_need_sync">"เพื่อข้อมูลจาก iOS,
 คุณต้องสำรองข้อมูลก่อน iCloud"</string>
     <string name="import_tip_title">เคล็ดลับ:</string>
-    <string name="import_tip_summary">ข้อกำหนดปัญหาความเข้ากันได้ สำหรับอุปกรณ์ iOS คุณสามารถถ่ายโอนได้เฉเพาะรายชื่อและรูปภาพเท่านั้น ตรวจสอบให้แน่ใจว่าคุณได้สำรองข้อมูลก่อนการเริ่มการถ่ายโอน</string>
+    <string name="import_tip_summary">ข้อกำหนดปัญหาความเข้ากันได้ สำหรับอุปกรณ์ iOS คุณสามารถถ่ายโอนได้เฉเพาะข้อมูลบางส่วนเท่านั้น ตรวจสอบให้แน่ใจว่าคุณได้สำรองข้อมูลก่อนการเริ่มการถ่ายโอน</string>
+    <string name="import_tip_message">@string/icloud_how_to_backup_tip_steps</string>
     <string name="button_import">นำเข้า</string>
     <string name="select_empty">เลือกรายการที่จะนำเข้า</string>
     <string name="select_item_summary_wait">กำลังรอ…</string>
@@ -471,6 +477,8 @@ https://appleid.apple.com/#!&amp;page=signin"</string>
     <string name="select_item_contacts">รายชื่อผู้ติดต่อ</string>
     <string name="select_item_photos">รูปภาพ</string>
     <string name="select_item_empty_summary">ไม่มีรายการ</string>
+    <string name="select_item_calendar">ปฏิทิน</string>
+    <string name="select_item_notes">บันทึก</string>
     <string name="cancel_moving_dialog_title">หยุดการนำเข้า</string>
     <string name="cancel_moving_dialog_message">หยุดการนำเข้าตอนนี้?</string>
     <string name="notif_icloud_saving_summary">กำลังคืนค่าข้อมูล…</string>
@@ -482,4 +490,7 @@ https://appleid.apple.com/#!&amp;page=signin"</string>
     <string name="save_finish_with_failing_items">"การถ่ายโอนขัดข้อง
 นำเข้าข้อมูลไม่สำเร็จต้องนำเข้าอีกครั้ง"</string>
     <string name="import_again">นำเข้าอีกครั้ง</string>
+    <string name="error_permissions">แอปนี้ไม่มีสิทธิ์ที่จำเป็นในการเข้าถึงปฏิทิน ไปที่การตั้งค่าและตรวจสอบสิทธิ์เพื่อดำเนินการต่อ</string>
+    <string name="succ_description">เรียบร้อย</string>
+    <string name="failed_description">ล้มเหลว</string>
 </resources>

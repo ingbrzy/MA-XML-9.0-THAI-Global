@@ -12,6 +12,9 @@
     <plurals name="matches_found">
         <item quantity="other">พบ %1$d จาก %2$d</item>
     </plurals>
+    <plurals name="transfer_prompt">
+        <item quantity="other">เล่นวิดีโอใน %1$d วินาที</item>
+    </plurals>
     <plurals name="v5_edit_mode_title">
         <item quantity="other">เลือกไว้ %1$d รายการ</item>
     </plurals>

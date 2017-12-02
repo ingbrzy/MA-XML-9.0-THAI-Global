@@ -15,4 +15,9 @@
         <item>ข้อมูลแอปจะสูญหายหลังจากแอปย้ายไปพื้นที่ปัจจุบัน</item>
         <item>แอปจะใช้ในทั้งสองส่วน</item>
     </string-array>
+    <string-array name="choose_ask_type">
+        <item>ถามก่อนเสมอ</item>
+        <item>แอปเริ่มต้น</item>
+        <item>แอปโคลน</item>
+    </string-array>
 </resources>

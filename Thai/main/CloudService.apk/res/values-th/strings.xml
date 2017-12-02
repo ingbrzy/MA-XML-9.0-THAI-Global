@@ -65,6 +65,8 @@
     <string name="sync_dspt_provision_title">Mi คลาวด์</string>
     <string name="sync_dspt_provision_header">ซิงค์</string>
     <string name="sync_dspt_provision">"ซิงค์รูปภาพ เบอร์โทรติดต่อ บันทึกย่อ และอื่นๆระหว่างอุปกรณ์ต่างๆของคุณได้ที่ "</string>
+    <string name="sync_dspt_provision2">i.mi.com</string>
+    <string name="sync_dspt_provision2_int">www.mi.com/micloud</string>
     <string name="sync_dspt_provision3">"คุณสามารถเปิด-ปิดการการใช้งานนี้จากเมนูการตั้งค่าได้ตลอดเวลา
 "</string>
     <string name="sync_dspt_entrance_provision">Mi คลาวด์ ช่วยให้คุณซิงค์รูปภาพ รายชื่อผู้ติดต่อและรายการอื่นๆ ในอุปกรณ์ต่างๆ คุณสามารถเข้าถึงรายการที่ซิงค์ได้ทุกที่ที่ %s</string>
@@ -76,6 +78,8 @@
     <string name="sync_dspt_entrance_provision_skip">ข้ามขั้นตอนนี้</string>
     <string name="sync_dspt_entrance_provision_network">แอปนี้ต้องการเชื่อมต่อกับอินเทอร์เน็ตเพื่อทำงานได้ตามปกติ การซิงค์ข้อมูลอาจต้องใช้การเชื่อมต่อข้อมูลมือถือและเปิด Wi-Fi</string>
     <string name="find_device_dspt_provision">ในกรณีที่เครื่องโทรศัพท์ของคุณหาย คุณสามารถเข้าไปที่ %s เพื่อค้นหาพิกัดเครื่อง ทำการล็อกหรือรีเซ็ต โดยคุณสามารถเปิด-ปิดคุณลักษณะนี้ได้ตลอดเวลาในเมนูการตั้งค่า</string>
+    <string name="find_device_dspt_provision_2">i.mi.com</string>
+    <string name="find_device_dspt_provision_2_int">www.mi.com/micloud</string>
     <string name="find_device_dspt_provision_3">"คุณสามารถเปิดและปิดการการใช้งานนี้ได้จากเมนูการตั้งค่าได้ตลอดเวลา
 "</string>
     <string name="find_device_dspt_provision_4">หากคุณเปลี่ยนซิมการ์ด ระบบจะส่งข้อความเพื่อเปิดใช้งานคุณลักษณะนี้โดยอัตโนมัติ</string>
@@ -120,7 +124,7 @@
     <string name="disable_find_device_success">ค้นหาอุปกรณ์ปิดอยู่</string>
     <string name="find_device_pref_alert_title">จดจำรหัสบัญชี Mi และรหัสผ่านของคุณ</string>
     <string name="find_device_pref_alert_content">ค้นหาอุปกรณ์ที่เชื่อมโยงกับบัญชี Mi ของคุณ คุณต้องตั้งรหัสผ่านหรือป้อนรหัสผ่านที่คุณได้ตั้งไว้ ตรวจสอบให้แน่ใจว่าคุณจำรหัสบัญชีและรหัสผ่านของบัญชี Mi ได้ ซึ่งอาจต้องมี SMS ขาออกเพื่อเปิดใช้งานบริการนี้ ผู้ให้บริการของคุณจะเรียกเก็บเงินจากคุณสำหรับข้อความนี้ เมื่อคุณเปลี่ยนซิมการ์ดข้อความจะถูกส่งโดยอัตโนมัติเพื่อเปิดใช้งานคุณลักษณะนี้อีกครั้ง</string>
-    <string name="find_device_pref_alert_positive">ตกลก</string>
+    <string name="find_device_pref_alert_positive">ตกลง</string>
     <string name="find_device_pref_alert_negtive">ไม่ ขอบคุณ</string>
     <string name="enable_find_device_error">\"ไม่สามารถเปิดใช้การค้นหาอุปกรณ์ \"%1$s</string>
     <string name="disable_find_device_error">\"ไม่สามารถปิดใช้การค้นหาอุปกรณ์ \"%1$s</string>
@@ -130,6 +134,7 @@
     <string name="find_device_error_server">ข้อผิดพลาดจากเซิร์ฟเวอร์</string>
     <string name="find_device_success_title">ค้นหาอุปกรณ์</string>
     <string name="find_device_notice_p1">ไปที่</string>
+    <string name="find_device_notice_p2">i.mi.com</string>
     <string name="find_device_notice_p3">"ใช้ในการค้นหา ล็อกเครื่องหรือกู้คืนเครื่อง
 ในกรณีที่คุณสลับซิมการ์ด ระบบจะส่งข้อความอีกครั้งโดยอัตโนมัติเพื่อเปิดใช้งานบริการนี้"</string>
     <string name="i_know">ตกลง</string>
@@ -481,6 +486,8 @@
     <string name="micloud_find_device_opened">การค้นหาอุปกรณ์เปิดใช้งาน</string>
     <string name="micloud_find_device_open_fail">ไม่สามารถปิดใช้การค้นหาอุปกรณ์ได้</string>
     <string name="micloud_find_device_opened_content">ค้นหาอุปกรณ์ของคุณใน %s</string>
+    <string name="micloud_find_device_opened_content_url">i.mi.com</string>
+    <string name="micloud_find_device_opened_content_url_int">www.mi.com/micloud</string>
     <string name="micloud_find_device_verify_fail">ไม่สามารถเปิดใช้งานค้นหาอุปกรณ์อีกครั้งได้</string>
     <string name="micloud_find_device_close_fail">ไม่สามารถปิดใช้งานการค้นหาอุปกรณ์ได้</string>
     <string name="micloud_find_device_finish">เสร็จสิ้น</string>
@@ -499,7 +506,7 @@
     <string name="micloud_find_device_guide_noti_content_by_app_change_qq">ข้อมูล QQ ของคุณจะปลอดภัยแม้ว่าอุปกรณ์ของคุณจะสูญหาย</string>
     <string name="micloud_find_device_guide_alert_title">จดจำรหัสบัญชี Mi และรหัสผ่านของคุณ</string>
     <string name="micloud_find_device_guide_alert_content">ค้นหาอุปกรณ์ที่เชื่อมโยงกับบัญชี Mi ของคุณ คุณต้องตั้งรหัสผ่านหรือป้อนรหัสผ่านที่คุณได้ตั้งไว้ ตรวจสอบให้แน่ใจว่าคุณจำรหัสบัญชีและรหัสผ่านของบัญชี Mi ได้</string>
-    <string name="micloud_find_device_guide_alert_positive">ตกลก</string>
+    <string name="micloud_find_device_guide_alert_positive">ตกลง</string>
     <string name="micloud_find_device_guide_alert_negtive">ไม่ ขอบคุณ</string>
     <string name="micloud_find_device_guide_alert_negtive_activate">ไม่ ขอบคุณ</string>
     <string name="micloud_find_device_close_alert_title">ปิดใช้การค้นหาอุปกรณ์?</string>
@@ -556,4 +563,22 @@
     <string name="micloud_dialog_sync_now_message">เชื่อมต่อ Wi-Fi เพื่อหลีกเลี่ยงค่าธรรมเนียมเพิ่มเติมของข้อมูลมือถือ</string>
     <string name="micloud_dialog_sync_now_negative">ในภายหลัง</string>
     <string name="micloud_dialog_sync_now_positive">ใช้งานเครือข่ายข้อมูลมือถือ</string>
+    <string name="ks_fingerprint_payment">การชำระเงินด้วยลายนิ้วมือ</string>
+    <string name="ks_name_fido">FIDO</string>
+    <string name="ks_name_alipay">Alipay</string>
+    <string name="ks_name_soter">WeChat</string>
+    <string name="ks_status_available">พร้อมใช้งาน</string>
+    <string name="ks_status_unavailable">ไม่พร้อมใช้งาน</string>
+    <string name="ks_fingerprint_status">สถานะการชำระเงิน</string>
+    <string name="ks_certificate_version">หมายเลขใบรับรอง</string>
+    <string name="ks_certificate_udpate_time">การอัปเดตใบรับรอง</string>
+    <string name="ks_download_certificate">ดาวน์โหลดใบรับรอง</string>
+    <string name="ks_update_wait">รอสักครู่…</string>
+    <string name="ks_update_certificate">ใบรับรอง</string>
+    <string name="ks_download_success">ดาวน์โหลดเรียบร้อย</string>
+    <string name="ks_update_success">อัพเดทเสร็จสิ้น</string>
+    <string name="ks_update_fail">ไม่สามารถดำเนินการดาวน์โหลดได้</string>
+    <string name="ks_update_fail_no_network">เชื่อมต่อเครือข่ายไม่ได้ กรุณาเชื่อมต่อใหม่และลองอีกครั้ง</string>
+    <string name="ks_update_fail_request_timeout">คำขอเชื่อมต่อหมดเวลาแล้ว กรุณารอสักครู่แล้วลองใหม่</string>
+    <string name="ks_update_fail_code">ไม่สามารถดาวน์โหลดใบรับรองได้ รหัสผิดพลาด: %d</string>
 </resources>
