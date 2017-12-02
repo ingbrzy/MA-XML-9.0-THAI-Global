@@ -43,7 +43,6 @@
 
 แตะ %s เพื่อเริ่มต้นการดาวน์โหลดนี้ในครั้งต่อไปที่คุณเชื่อมต่อกับเครือข่าย Wi-Fi"</string>
     <string name="download_no_application_title">ไม่สามารถเปิดไฟล์ได้</string>
-    <string name="download_percent">%d%%</string>
     <string name="notification_need_wifi_for_size">ไฟล์มีขนาดใหญ่เกินไป ต้องใช้ Wi-Fi เพื่อดาวน์โหลด</string>
     <string name="download_unknown_title">&lt;ไม่มีชื่อ></string>
     <string name="root_downloads">ดาวน์โหลด</string>
