@@ -50,20 +50,6 @@
         <item>เมื่ออุปกรณ์ถูกล็อกหรือออกจากแอป</item>
         <item>เมื่ออุปกรณ์ถูกล็อกหรือหลังออกจากแอป 1 นาที</item>
     </string-array>
-    <string-array name="sort_type">
-        <item>สถานะ</item>
-        <item>ชื่อแอป</item>
-        <item>ที่ใช้บ่อย</item>
-        <item>พื้นที่เก็บข้อมูลที่ใช้</item>
-        <item>เวลาการติดตั้ง</item>
-    </string-array>
-    <string-array name="sort_title">
-        <item>เรียงตามสถานะ</item>
-        <item>เรียงตามชื่อแอป</item>
-        <item>เรียงตามที่ใช้บ่อย</item>
-        <item>เรียงตามพื้นที่เก็บข้อมูลที่ใช้</item>
-        <item>เรียงตามเวลาการติดตั้ง</item>
-    </string-array>
     <string-array name="key_app_info">
         <item>install_source</item>
         <item>install_time</item>
