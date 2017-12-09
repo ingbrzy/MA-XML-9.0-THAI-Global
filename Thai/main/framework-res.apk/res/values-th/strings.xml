@@ -35,7 +35,6 @@
     <string name="gigabyteShort">GB</string>
     <string name="terabyteShort">TB</string>
     <string name="petabyteShort">PB</string>
-    <string name="fileSizeSuffix">%1$s %2$s</string>
     <string name="durationDays">%1$d วัน</string>
     <string name="durationDayHours">%1$d วัน %2$d ชม.</string>
     <string name="durationDayHour">%1$d วัน %2$d ชม.</string>
@@ -1327,7 +1326,6 @@
     <string name="zen_mode_alarm">จนถึงเวลา %1$s (การปลุกครั้งถัดไป)</string>
     <string name="zen_mode_forever">จนกว่าคุณจะปิดฟังก์ชันนี้</string>
     <string name="zen_mode_forever_dnd">จนกว่าคุณจะปิดห้ามรบกวน</string>
-    <string name="zen_mode_rule_name_combination">%1$s / %2$s</string>
     <string name="toolbar_collapse_description">ยุบ</string>
     <string name="zen_mode_feature_name">ห้ามรบกวน</string>
     <string name="zen_mode_downtime_feature_name">ช่วงเวลาเครื่องไม่ทำงาน</string>
@@ -1353,7 +1351,6 @@
     <string name="floating_toolbar_close_overflow_description">ปิดรายการเพิ่มเติม</string>
     <string name="maximize_button_text">ขยายใหญ่สุด</string>
     <string name="close_button_text">ปิด</string>
-    <string name="notification_messaging_title_template">%1$s: %2$s</string>
     <string name="importance_from_user">คุณตั้งค่าความสำคัญของการแจ้งเตือนเหล่านี้</string>
     <string name="importance_from_person">ข้อความนี้สำคัญเนื่องจากบุคคลที่เกี่ยวข้อง</string>
     <string name="user_creation_account_exists">อนุญาตให้ %1$s สร้างผู้ใช้ใหม่ด้วย %2$s ไหม</string>
