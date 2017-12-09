@@ -423,7 +423,6 @@
     <string name="wechat_cache_files">หน่วยความจำแคช WeChat</string>
     <string name="qq_cache_files">หน่วยความจำแคช QQ</string>
     <string name="wechat_qq_chat_files">ประวัติแชท</string>
-    <string name="wechat_chat_clean_done">ไม่พบสิ่งผิดปกติ</string>
     <string name="analying">กำลังวิเคราะห์…</string>
     <string name="open_file_error">ไม่พบแอปที่ใช้เปิดไฟล์นี้</string>
     <string name="location_not_found">ไม่พบไฟล์</string>
@@ -474,4 +473,5 @@
     <string name="app_description_title">เกี่ยวกับตัวทำความสะอาด</string>
     <string name="app_description_content">ตัวทำความสะอาดพบขยะในอุปกรณ์ของคุณและจะทำความสะอาดเพื่อเพิ่มพื้นที่จัดเก็บข้อมูล ตรวจสอบว่าคุณรับรู้และเข้าใจถึงคุณสมบัติเหล่านี้ก่อนที่คุณจะทำการถอนการติดตั้งแอป</string>
     <string name="engine_init">กำลังเตรียมการ…</string>
+    <string name="wechat_chat_clean_done">ไม่พบสิ่งผิดปกติ</string>
 </resources>

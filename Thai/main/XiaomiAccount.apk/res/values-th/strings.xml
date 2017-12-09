@@ -189,11 +189,15 @@
     <string name="passport_user_reg_region_warning">คุณจะไม่สามารถเปลี่ยนประเทศ/ภูมิภาคเมื่อสร้างบัญชีแล้ว</string>
     <string name="passport_sync_account_data">กำลังซิงค์ข้อมูลบัญชี…</string>
     <string name="passport_sync_account_data_failed_warning">ขณะนี้ข้อมูลบัญชีของคุณมีการซิงค์แล้วคุณสามารถลงชื่อเข้าใช้ได้โดยใช้รหัสบัญชี Mi ของคุณ หากคุณต้องการลงชื่อเข้าใช้โดยใช้โทรศัพท์หรืออีเมลของคุณ กรุณารอจนกว่าข้อมูลจะมีการซิงค์อย่างสมบูรณ์</string>
-    <string name="passport_confirm_recycle_account_msg">%s &lt;font color=Red>疑似&lt;/font>是运营商回收后再次收买的号码，该号码下已有小米帐号，这个帐号是你的吗？</string>
+    <string name="passport_confirm_recycle_account_msg">&lt;font color=Red>ดุเหมือน&lt;/font> หมายเลข %s ถูกรีไซเคิลโดยผู้ให้บริการของคุณแล้ว และหมายเลขนี้ถูกใช้ผูกกับบัญชี Mi แล้ว บัญชีนี้ใช่ของคุณหรือไม่?</string>
     <string name="passport_login_recycle_account_yes">ใช่</string>
     <string name="passport_login_recycle_account_no">ไม่ใช่</string>
     <string name="passport_reg_recycle_account_yes">ใช่</string>
     <string name="passport_reg_recycle_account_no">ไม่ใช่</string>
+    <string name="passport_get_innetdate_title">ตรวจสอบเมื่อหมายเลขออนไลน์</string>
+    <string name="passport_get_innetdate_msg">&lt;font color=Red>ดูเหมือน&lt;/font> หมายเลข %s ถูกรีไซเคิลโดยผู้ให้บริการของคุณแล้ว ตรวจสอบเมื่อหมายเลขออนไลน์</string>
+    <string name="passport_get_innetdate_agree">ตรวจสอบ</string>
+    <string name="passport_get_innetdate_disagree">ไม่</string>
     <string name="search_app_name">บัญชี Mi</string>
     <string name="search_mi_account">บัญชี Mi</string>
     <string name="search_mi_account_key_words">Mi คลาวด์,การตั้งค่าบัญชี,ข้อมูล Mi Pay,ลงชื่อออก</string>
@@ -253,6 +257,7 @@
     <string name="account_error_invalid_user_name">ชื่อไม่สามารถประกอบด้วย &lt;, >, /</string>
     <string name="account_error_shorter_user_name">ชื่อต้องมีความยาวอย่างน้อย 2 ตัว</string>
     <string name="account_error_longer_user_name">ชื่อต้องมีความยาวไม่เกิน 20 ตัว</string>
+    <string name="account_error_user_name">The name you entered is invalid</string>
     <string name="account_error_user_birthday">วันเกิดที่คุณป้อนไม่ถูกต้อง</string>
     <string name="account_limit_update_birthday">ไม่สามารถอัพเดทวันเกิดได้ในตอนนี้</string>
     <string name="account_user_other_info">ข้อมูลเพิ่มเติม</string>
@@ -445,5 +450,9 @@
     <string name="account_token_expired_msg">"รหัสยืนยันหมดอายุ เริ่มต้นหรือออกจากระบบ
  รหัสบัญชีของคุณ: %s"</string>
     <string name="bind_safe_phone_msg">เพิ่มหมายเลขโทรศัพท์ของคุณเพื่อให้สามารถลงชื่อเข้าใช้บัญชี Mi ในครั้งต่อไปได้</string>
-    <string name="account_notification_message">การเข้าสู่ระบบหมดเวลา ลงชื่อเข้าใช้อีกครั้ง.</string>
+    <string name="account_notification_message">>Session expired. Sign in again.</string>
+    <string name="sim_changed_notification_title">Changed phone number?</string>
+    <string name="sim_changed_notification_msg">Tap to update your recovery phone and keep your account more secure.</string>
+    <string name="recycle_phone_notification_title">Mi Account security risk</string>
+    <string name="recycle_phone_notification_msg">ดูเหมือนหมายเลขโทรศัพท์ของคุณถูกรีไซเคิล แตะเพื่ออัพเดต</string>
 </resources>

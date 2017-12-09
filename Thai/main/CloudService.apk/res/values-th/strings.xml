@@ -65,6 +65,8 @@
     <string name="sync_dspt_provision_title">Mi คลาวด์</string>
     <string name="sync_dspt_provision_header">ซิงค์</string>
     <string name="sync_dspt_provision">"ซิงค์รูปภาพ เบอร์โทรติดต่อ บันทึกย่อ และอื่นๆระหว่างอุปกรณ์ต่างๆของคุณได้ที่ "</string>
+    <string name="sync_dspt_provision2">i.mi.com</string>
+    <string name="sync_dspt_provision2_int">www.mi.com/micloud</string>
     <string name="sync_dspt_provision3">"คุณสามารถเปิด-ปิดการการใช้งานนี้จากเมนูการตั้งค่าได้ตลอดเวลา
 "</string>
     <string name="sync_dspt_entrance_provision">Mi คลาวด์ ช่วยให้คุณซิงค์รูปภาพ รายชื่อผู้ติดต่อและรายการอื่นๆ ในอุปกรณ์ต่างๆ คุณสามารถเข้าถึงรายการที่ซิงค์ได้ทุกที่ที่ %s</string>
@@ -76,6 +78,8 @@
     <string name="sync_dspt_entrance_provision_skip">ข้ามขั้นตอนนี้</string>
     <string name="sync_dspt_entrance_provision_network">แอปนี้ต้องการเชื่อมต่อกับอินเทอร์เน็ตเพื่อทำงานได้ตามปกติ การซิงค์ข้อมูลอาจต้องใช้การเชื่อมต่อข้อมูลมือถือและเปิด Wi-Fi</string>
     <string name="find_device_dspt_provision">ในกรณีที่เครื่องโทรศัพท์ของคุณหาย คุณสามารถเข้าไปที่ %s เพื่อค้นหาพิกัดเครื่อง ทำการล็อกหรือรีเซ็ต โดยคุณสามารถเปิด-ปิดคุณลักษณะนี้ได้ตลอดเวลาในเมนูการตั้งค่า</string>
+    <string name="find_device_dspt_provision_2">i.mi.com</string>
+    <string name="find_device_dspt_provision_2_int">www.mi.com/micloud</string>
     <string name="find_device_dspt_provision_3">"คุณสามารถเปิดและปิดการการใช้งานนี้ได้จากเมนูการตั้งค่าได้ตลอดเวลา
 "</string>
     <string name="find_device_dspt_provision_4">หากคุณเปลี่ยนซิมการ์ด ระบบจะส่งข้อความเพื่อเปิดใช้งานคุณลักษณะนี้โดยอัตโนมัติ</string>
@@ -130,15 +134,17 @@
     <string name="find_device_error_server">ข้อผิดพลาดจากเซิร์ฟเวอร์</string>
     <string name="find_device_success_title">ค้นหาอุปกรณ์</string>
     <string name="find_device_notice_p1">ไปที่</string>
+    <string name="find_device_notice_p2">i.mi.com</string>
     <string name="find_device_notice_p3">"ใช้ในการค้นหา ล็อกเครื่องหรือกู้คืนเครื่อง
 ในกรณีที่คุณสลับซิมการ์ด ระบบจะส่งข้อความอีกครั้งโดยอัตโนมัติเพื่อเปิดใช้งานบริการนี้"</string>
     <string name="i_know">ตกลง</string>
     <string name="find_device_disabled_title">การค้นหาอุปกรณ์ปิดใช้งาน</string>
     <string name="find_device_disabled_notice">คุณสามารถเปิดหรือปิดใช้งานบริการนี้จากเมนูการตั้งค่าของ Mi คลาวด์ ได้ตลอดเวลา</string>
     <string name="button_cancel">ยกเลิก</string>
-    <string name="enable_micloud">ใช้งาน Mi คลาวด์</string>
+    <string name="enable_micloud">ลงชื่อเข้าใช้เพื่อใช้ Mi คลาวด์</string>
     <string name="micloud_more">เรียนรู้เพิ่มเติม</string>
     <string name="xiaomi_cloud_service">Mi คลาวด์</string>
+    <string name="xiaomi_cloud_service_subtitle">ทุกสิ่งสำคัญในที่เดียว</string>
     <string name="micloud_dspt">ใช้ Mi คลาวด์ ได้ทั้งการซิงค์ข้อมูลและค้นหาเครื่อง</string>
     <string name="cmcc_micloud_dspt">ใช้งาน Mi คลาวด์ ในการซิงค์ข้อมูล ค้นหาพิกัดเครื่อง และแชร์สิ่งต่างๆกับเพื่อน</string>
     <string name="micloud_sec_dspt">และยังแชร์สิ่งต่างๆกับเพื่อนได้อีกด้วย</string>
@@ -481,6 +487,8 @@
     <string name="micloud_find_device_opened">การค้นหาอุปกรณ์เปิดใช้งาน</string>
     <string name="micloud_find_device_open_fail">ไม่สามารถปิดใช้การค้นหาอุปกรณ์ได้</string>
     <string name="micloud_find_device_opened_content">ค้นหาอุปกรณ์ของคุณใน %s</string>
+    <string name="micloud_find_device_opened_content_url">i.mi.com</string>
+    <string name="micloud_find_device_opened_content_url_int">www.mi.com/micloud</string>
     <string name="micloud_find_device_verify_fail">ไม่สามารถเปิดใช้งานค้นหาอุปกรณ์อีกครั้งได้</string>
     <string name="micloud_find_device_close_fail">ไม่สามารถปิดใช้งานการค้นหาอุปกรณ์ได้</string>
     <string name="micloud_find_device_finish">เสร็จสิ้น</string>
@@ -574,4 +582,5 @@
     <string name="ks_update_fail_no_network">เชื่อมต่อเครือข่ายไม่ได้ กรุณาเชื่อมต่อใหม่และลองอีกครั้ง</string>
     <string name="ks_update_fail_request_timeout">คำขอเชื่อมต่อหมดเวลาแล้ว กรุณารอสักครู่แล้วลองใหม่</string>
     <string name="ks_update_fail_code">ไม่สามารถดาวน์โหลดใบรับรองได้ รหัสผิดพลาด: %d</string>
+    <string name="title_back">ย้อนกลับ</string>
 </resources>

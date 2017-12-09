@@ -1,27 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="transformation_entries">
-        <item>สไลด์</item>
-        <item>จางหาย</item>
-        <item>ตีลังกา</item>
-        <item>พลิกหน้า</item>
-        <item>เรียงซ้อน</item>
-        <item>หมุน</item>
-        <item>ลูกบาศก์</item>
-    </string-array>
-    <string-array name="wallpaper_scroll_entries">
-        <item>ธีมเริ่มต้น</item>
-        <item>กลาง</item>
-        <item>ซ้าย</item>
-        <item>ขวา</item>
-    </string-array>
     <string-array name="cell_layout_size_entries">
         <item>4x4</item>
         <item>4x5</item>
     </string-array>
-    <string-array name="gadget_weather_theme_type_entries">
-        <item>ค่าเริ่มต้น</item>
-        <item>คลาสสิก</item>
+    <string-array name="cell_layout_size_values">
+        <item>4x4</item>
+        <item>4x5</item>
+    </string-array>
+    <string-array name="editing_mode_entries">
+        <item>ภาพพื้นหลัง</item>
+        <item>วิดเจ็ต</item>
+        <item>การตั้งค่า</item>
     </string-array>
     <string-array name="gadget_weather_image">
         <item>แจ่มใส</item>
@@ -50,9 +40,23 @@
         <item>มีฝุ่นละออง</item>
         <item>มีเมฆหมอก</item>
     </string-array>
-    <string-array name="editing_mode_entries">
-        <item>ภาพพื้นหลัง</item>
-        <item>วิดเจ็ต</item>
-        <item>การตั้งค่า</item>
+    <string-array name="gadget_weather_theme_type_entries">
+        <item>ค่าเริ่มต้น</item>
+        <item>คลาสสิก</item>
+    </string-array>
+    <string-array name="transformation_entries">
+        <item>สไลด์</item>
+        <item>จางหาย</item>
+        <item>ตีลังกา</item>
+        <item>พลิกหน้า</item>
+        <item>เรียงซ้อน</item>
+        <item>หมุน</item>
+        <item>ลูกบาศก์</item>
+    </string-array>
+    <string-array name="wallpaper_scroll_entries">
+        <item>ธีมเริ่มต้น</item>
+        <item>กลาง</item>
+        <item>ซ้าย</item>
+        <item>ขวา</item>
     </string-array>
 </resources>

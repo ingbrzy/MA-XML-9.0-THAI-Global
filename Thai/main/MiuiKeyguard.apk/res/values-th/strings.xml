@@ -134,4 +134,5 @@
     <string name="face_unlock_rise">ลดศีรษะลง</string>
     <string name="face_unlock_down">เงยหน้าขึ้น</string>
     <string name="face_unlock_quality">ไม่สามารถมองเห็นใบหน้าของคุณได้ชัดเจน</string>
+    <string name="lock_screen_no_sim_card">ไม่พบซิมการ์ด</string>
 </resources>

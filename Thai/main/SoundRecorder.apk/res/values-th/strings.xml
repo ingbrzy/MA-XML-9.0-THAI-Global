@@ -100,7 +100,7 @@
     <string name="record_quliaty_preference_title">คุณภาพการบันทึก</string>
     <string name="cloud_record_tip">ซิงค์บันทึกเสียงกับ Mi คลาวด์</string>
     <string name="cloud_record_open">ซิงค์บันทึกเสียง</string>
-    <string name="cloud_service_state_open_reminder">Turn on sync with Mi Cloud to sync recording files.</string>
+    <string name="cloud_service_state_open_reminder">เปิดการซิงค์กับ Mi คลาวด์ เพื่อซิงค์ไฟล์บันทึก</string>
     <string name="cloud_status_full_dialog_title">พื้นที่บน Mi คลาวด์เต็ม</string>
     <string name="cloud_status_full_dialog_msg">พื้นที่บนคลาวด์ของคุณเต็มแล้ว ไม่สามารถซิงค์บันทึกเสียง อัพเกรดบัญชีของคุณเพื่อรับพื้นที่จัดเก็บเพิ่มเติม</string>
     <string name="cloud_status_full_dialog_cancel">ในภายหลัง</string>

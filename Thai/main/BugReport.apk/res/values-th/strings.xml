@@ -57,6 +57,7 @@
     <string name="save_pic_success">บันทึกรูปภาพไปยัง %s</string>
     <string name="save_pic_fail">ไม่สามารถบันทึกรูปภาพได้ ตรวจสอบ SD การ์ดของคุณ</string>
     <string name="pic_not_exist">ไม่พบรูปภาพดังกล่าว</string>
+    <string name="pic_view_format">%1$s\"/\"%2$s</string>
     <string name="michat_skillset_product_title">เลือกผลิตภัณฑ์</string>
     <string name="michat_skillset_business_type_title">เลือกบริการ</string>
     <string name="michat_close_text">การแชทสิ้นสุดลง</string>
@@ -152,7 +153,7 @@
     <string name="network_err">ไม่สามารถเชื่อมต่อเครือข่ายได้</string>
     <string name="refresh">รีเฟรช</string>
     <string name="announcement">การแจ้งเตือน</string>
-    <string name="app_empty">คุณยังไม่ได้ดาวน์โหลดแอปใดๆ</string>
+    <string name="app_empty">ไม่พบแอป</string>
     <string name="screen_lock">การล็อกหน้าจอ</string>
     <string name="systemui">แถบการแจ้งเตือน</string>
     <string name="cta_dialog_title">การเชื่อมกับต่ออินเตอร์เน็ต</string>
@@ -279,6 +280,7 @@
     <string name="title_answer_feedback_main">เราพบคำตอบ!</string>
     <string name="title_same_question_feedback_main">ปัญหาที่คล้ายกันในหน้าพูดคุย MIUI</string>
     <string name="related_question_answer_details">ปัญหาที่เกี่ยวข้อง</string>
+    <string name="issue_search">ค้นหา</string>
     <string name="module_item_more">เพิ่มเติม</string>
     <string name="module_item_less">ซ่อน</string>
     <string name="feedback_guess">คาดเดา</string>
@@ -296,6 +298,7 @@
     <string name="module_more">เพิ่มเติม</string>
     <string name="module_search">ค้นหา</string>
     <string name="module_google_apps">Google apps</string>
+    <string name="app_search">ค้นหาแอป</string>
     <string name="feedback_submit_hint">รายงานข้อผิดพลาดเวลาที่คุณพบปัญหาเพื่อช่วยให้เราแก้ปัญหาได้เร็วขึ้น กรุณาใช้ภาษาไทยหรืออังกฤษ</string>
     <string name="feedback_submit_hint_gone">ปิดข้อความ</string>
     <string name="toast_post_deleted">หัวข้อนี้ไม่มีอยู่ ถูกลบแล้ว หรือแก้ไขแล้ว</string>

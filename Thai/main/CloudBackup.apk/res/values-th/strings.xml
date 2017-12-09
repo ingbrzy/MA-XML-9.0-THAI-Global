@@ -105,7 +105,6 @@
     <string name="as_new_device_summary">ลบการสำรองข้อมูล Mi คลาวด์ก่อนหน้านี้</string>
     <string name="restore_data_summary">คุณลักษณะนี้จำเป็นต้องเชื่อมต่ออินเทอร์เน็ต</string>
     <string name="query_restore_summary">พบการสำรองข้อมูล Mi คลาวด์สำหรับอุปกรณ์นี้ คืนค่าแอปบนหน้าจอหลักและการตั้งค่าหรือใช้เป็นอุปกรณ์ใหม่และลบการสำรองข้อมูลก่อน Mi คลาวด์ก่อนหน้านี้?</string>
-    <string name="query_restore_back_view">สำรองข้อมูล Mi คลาวด์</string>
     <string name="restore_home_screen_apps">คืนค่าจากข้อมูลสำรองใน Mi คลาวด์</string>
     <string name="query_restore_description">คืนค่าแอปบนหน้าจอหลักและการตั้งค่าโดยใช้การสำรองข้อมูลนี้ โดยจะแทนที่ข้อมูลแอปสำหรับแอปซ้ำกันที่ติดตั้งอยู่บนอุปกรณ์นี้ แอปที่ไม่รวมอยู่ในข้อมูลสำรองจะถูกย้ายไปไว้หน้าสุดท้ายของหน้าจอหลัก</string>
     <string name="restore_from_this_device">คืนค่าโดยใช้ข้อมูลสำรองนี้</string>
@@ -143,7 +142,6 @@
     <string name="download_meta_again">ไม่สามารถโหลดสำรองข้อมูลได้ ลองอีกครั้ง.</string>
     <string name="cancel_restore_home">กำลังยกเลิก…</string>
     <string name="cancel_backup">กำลังยกเลิกการสำรองข้อมูล…</string>
-    <string name="cloud_backup_title">การสำรองข้อมูล Mi คลาวด์</string>
     <string name="cloud_backup">การสำรองข้อมูล Mi คลาวด์</string>
     <string name="open_backup_switch">สลับสวิตช์สำรอง</string>
     <string name="restore_cloud_backup_to_phone">เรียกคืนรายการจาก Mi คลาวด์</string>

@@ -43,7 +43,7 @@
     <string name="audio_chat">การสนทนาด้วยเสียง</string>
     <string name="auto_nickname">อัตโนมัติ</string>
     <string name="auto_set_nickname">อัตโนมัติ</string>
-    <string name="back_description">Back</string>
+    <string name="back_description">ย้อนกลับ</string>
     <string name="back_view_description">ย้อนกลับ</string>
     <string name="batch_delete">ลบแบบหลายรายการ</string>
     <string name="blacklist">บล็อก</string>
@@ -97,12 +97,13 @@
     <string name="call_sim_menu_title_suffix">(หลัก)</string>
     <string name="call_telex">โทรเทเล็กซ์</string>
     <string name="call_tty_tdd">โทร TTY/TDD</string>
+    <string name="call_type_and_date">%1$s %2$s     </string>
     <string name="call_unit">CNY</string>
     <string name="call_work">โทรเบอร์ที่ทำงาน</string>
     <string name="call_work_mobile">โทรมือถือที่ทำงาน</string>
     <string name="call_work_pager">โทรเพจเจอร์ที่ทำงาน</string>
-    <string name="calllog_call_note_menu">Call notes</string>
-    <string name="calllog_call_record_menu">Recorded calls</string>
+    <string name="calllog_call_note_menu">บันทึกย่อการโทร</string>
+    <string name="calllog_call_record_menu">สายสนทนาที่บันทึกไว้</string>
     <string name="calllog_menu_blacklist">บล็อก</string>
     <string name="calllog_menu_edit_before_call">แก้ไข</string>
     <string name="calllog_menu_send_sms">ส่งข้อความ</string>
@@ -203,7 +204,7 @@
     <string name="contactSavedErrorToast">ไม่สามารถบันทึกการเปลี่ยนรายชื่อ</string>
     <string name="contactSavedToast">บันทึกรายชื่อแล้ว</string>
     <string name="contact_clear_search_history">ลบประวัติ</string>
-    <string name="contact_delete_toast">Deleted contact successfully</string>
+    <string name="contact_delete_toast">ลบรายชื่อเรียบร้อยแล้ว</string>
     <string name="contact_detail_action_item_calllog">ประวัติการโทร</string>
     <string name="contact_detail_action_item_nocalllog">ไม่มีประวัติ</string>
     <string name="contact_detail_calllog_call_note_tips">บันทึก</string>
@@ -243,9 +244,9 @@
     <string name="contact_editor_prompt_multiple_accounts">บันทึกผู้ติดต่อไปที่</string>
     <string name="contact_editor_prompt_one_account">รายชื่อผู้ติดต่อใหม่จะถูกซิงค์ไว้กับ %1$s</string>
     <string name="contact_editor_prompt_zero_accounts">เก็บไว้ในมือถือหรือในบัญชีออนไลน์ใหม่</string>
-    <string name="contact_import_methods_dialog_bluetooth">Bluetooth</string>
+    <string name="contact_import_methods_dialog_bluetooth">บลูทูธ</string>
     <string name="contact_import_methods_dialog_mi_mover">Mi Mover</string>
-    <string name="contact_import_methods_dialog_title">Select import method</string>
+    <string name="contact_import_methods_dialog_title">เลือกวิธีการนำเข้า</string>
     <string name="contact_is_readOnly">ไม่สามารถแก้ไขรายชื่อที่อ่านอย่างเดียว</string>
     <string name="contact_list_loading">กำลังโหลด…</string>
     <string name="contact_pick_photo">รูปภาพ</string>
@@ -264,8 +265,8 @@
     <string name="contacts_unavailable_add_account">ลงชื่อเข้าใช้บัญชี</string>
     <string name="contacts_unavailable_create_contact">สร้างรายชื่อใหม่</string>
     <string name="contacts_unavailable_import_contacts">นำเข้าจากไฟล์</string>
-    <string name="contacts_unavailable_import_from_old_device">Import from an older device</string>
-    <string name="contacts_unavailable_import_sim_contacts">Import SIM contacts</string>
+    <string name="contacts_unavailable_import_from_old_device">นำเข้าจากอุปกรณ์เก่า</string>
+    <string name="contacts_unavailable_import_sim_contacts">นำเข้ารายชื่อในซิม</string>
     <string name="convenient_service">บริการ</string>
     <string name="copy_number">คัดลอก</string>
     <string name="copy_text">คัดลอกไปยังคลิปบอร์ด</string>
@@ -450,7 +451,7 @@
     <string name="export_to_sim2">ส่งออกไปยังซิมการ์ด 2</string>
     <string name="export_to_sim_prepare_title">กำลังเตรียม…</string>
     <string name="export_to_sim_title">กำลังส่งออก…</string>
-    <string name="export_vcard_description">"Export vCard to phone's storage"</string>
+    <string name="export_vcard_description">ส่งออก vCard ไปยังที่จัดเก็บข้อมูลโทรศัพท์</string>
     <string name="exporting_contact_failed_message">"ข้อมูลรายชื่อไม่ถูกส่งออก
 เหตุผล: \"%s\""</string>
     <string name="exporting_contact_failed_title">ไม่สามารถส่งออก</string>
@@ -470,7 +471,7 @@
     <string name="fail_reason_no_exportable_contact">ไม่มีรายชื่อที่ส่งออกได้</string>
     <string name="fail_reason_not_supported">ไม่รองรับรูปแบบนี้</string>
     <string name="fail_reason_too_long_filename">ชื่อไฟล์ที่ต้องการยาวเกินไป (\"%s\")</string>
-    <string name="fail_reason_too_many_vcard">Too many vCard files are in the storage.</string>
+    <string name="fail_reason_too_many_vcard">มีไฟล์ vCard ในที่เก็บข้อมูลมากเกินไป</string>
     <string name="fail_reason_unknown">ข้อผิดพลาดไม่รู้จัก</string>
     <string name="fail_reason_vcard_parse_error">ไม่สามารถแยก vCard ด้วยเหตุผลที่ไม่คาดคิด</string>
     <string name="favoritesFrequentCalled">การโทรที่โทรบ่อย</string>
@@ -481,6 +482,7 @@
     <string name="force_touch_new_contact">รายชื่อใหม่</string>
     <string name="foundTooManyContacts">พบมากกว่า %d รายการ</string>
     <string name="frequentList">ใช้บ่อย</string>
+    <string name="from_account_format">%1$s</string>
     <string name="full_name">ชื่อ</string>
     <string name="gallery">คลังภาพ</string>
     <string name="generic_no_account_prompt">รักษาข้อมูลรายชื่อให้ปลอดภัย หากคุณทำโทรศัพท์หาย: ซิงค์กับบริการออนไลน์</string>
@@ -526,7 +528,7 @@
     <string name="import_all_vcard_string">นำเข้าไฟล์ vCard ทั้งหมด</string>
     <string name="import_contact_card_aggregate_suggestion_button">ควบรวมรายชื่อ</string>
     <string name="import_contact_card_button">นำเข้ารายชื่อ</string>
-    <string name="import_failure_no_vcard_file">No vCard files found in storage.</string>
+    <string name="import_failure_no_vcard_file">ไม่พบไฟล์ vCard ในที่เก็บข้อมูล</string>
     <string name="import_from_onekey_migrate">นำเข้าโดยใช้ Mi Mover</string>
     <string name="import_from_other_phone">นำเข้าจากโทรศัพท์เครื่องอื่น</string>
     <string name="import_from_sdcard">นำเข้าจากอุปกรณ์จัดเก็บ</string>
@@ -538,7 +540,7 @@
     <string name="import_one_vcard_string">นำเข้า 1 vCard ไฟล์</string>
     <string name="import_percent">0%</string>
     <string name="import_selected_sim_entries_miui">นำเข้ารายชื่อที่เลือก</string>
-    <string name="import_sim_contacts_hint_title">Import SIM contacts</string>
+    <string name="import_sim_contacts_hint_title">นำเข้ารายชื่อในซิม</string>
     <string name="import_sim_entries_finish">นำเข้ารายชื่อจากซิมการ์ดแล้ว</string>
     <string name="import_sim_entry_miui">นำเข้า</string>
     <string name="import_to_xiaomi_account_confirm">นำเข้า</string>
@@ -546,7 +548,7 @@
     <string name="import_to_xiaomi_account_progress_message">กำลังนำเข้า…</string>
     <string name="import_to_xiaomi_account_progress_title">นำเข้ารายชื่อไปยังบัญชี Xiaomi</string>
     <string name="import_to_xiaomi_account_title">นำเข้าไปยังบัญชี Mi</string>
-    <string name="import_vcard_description">"Import contacts from your phone's storage"</string>
+    <string name="import_vcard_description">นำเข้ารายชื่อจากที่จัดเก็บข้อมูลโทรศัพท์ของคุณ</string>
     <string name="import_vcard_dialog_message">นำเข้า vCard?</string>
     <string name="importing_sim_contacts_miui">กำลังนำเข้ารายชื่อจากซิมการ์ด…</string>
     <string name="importing_sim_contacts_miui_prepare">กำลังจัดเตรียมรายชื่อ…</string>
@@ -663,6 +665,7 @@
     <string name="miprofile_contact_header">รายชื่อที่เพิ่มนามบัตรได้</string>
     <string name="miprofile_contact_meaasge">รายชื่อในเครื่อง</string>
     <string name="miprofile_contact_verifying">กำลังยืนยัน</string>
+    <string name="miprofile_delete_alertdialog_message">@string/miprofile_switch_off_alertdialog_message</string>
     <string name="miprofile_edit_title">แก้ไขข้อมูลส่วนตัว</string>
     <string name="miprofile_error_accept_self">ไม่สามารถแลกนามบัตรกับตนเองได้</string>
     <string name="miprofile_error_no_miaccount">ลงชื่อเข้าใช้บัญชี Mi ของคุณ</string>
@@ -814,6 +817,8 @@
     <string name="path_wipe_data">แอประบบ/รายชื่อ/จัดการรายชื่อ/ล้างข้อมูล</string>
     <string name="payphone">โทรศัพท์สาธารณะ</string>
     <string name="people">รายชื่อ</string>
+    <string name="percent_sign">%</string>
+    <string name="percentage">%s%%</string>
     <string name="phoneLabelsGroup">โทรศัพท์</string>
     <string name="phone_info_divider">" ｜ "</string>
     <string name="phone_number_too_long_toast">หมายเลขยาวเกินไป</string>
@@ -963,7 +968,7 @@
     <string name="scan_qrcode_card_hint1">สแกนรหัส QR ด้านบน</string>
     <string name="scan_qrcode_card_hint2" />
     <string name="scanning_sdcard_failed_message">เหตุผล: \"%s\"</string>
-    <string name="scanning_sdcard_failed_title">"The storage couldn't be scanned"</string>
+    <string name="scanning_sdcard_failed_title">ไม่สามารถสแกนอุปกรณ์จัดเก็บได้</string>
     <string name="searchHint">ค้นหารายชื่อ</string>
     <string name="search_batch_delete">จัดการ;รายชื่อ</string>
     <string name="search_contacts_display">รายชื่อ;แสดง</string>
@@ -1047,6 +1052,7 @@
     <string name="sim_unloaded">ซิมการ์ดไม่ได้ติดตั้ง</string>
     <string name="sina_weibo">Sina Weibo</string>
     <string name="single_group_list_empty">ไม่มีสมาชิกกลุ่ม</string>
+    <string name="smart_group_action_bar_title">%1$s: %2$s (%3$s)</string>
     <string name="smart_group_company_label">บริษัท</string>
     <string name="smart_group_company_unavailable">ไม่มีข้อมูลบริษัท</string>
     <string name="smart_group_frequency_1">ภายในเดือนที่ผ่านมา</string>
@@ -1178,12 +1184,13 @@
     <string name="voip_audio_description">โทรผ่านเน็ต</string>
     <string name="voip_video_description">วิดีโอคอลผ่านเน็ต</string>
     <string name="websiteLabelsGroup">เว็บไซต์</string>
+    <string name="widget_name_and_phonetic">%1$s (%2$s)</string>
     <string name="wipe_data">ล้างข้อมูล</string>
     <string name="yellowPageNavigationIconLabel">สมุดหน้าเหลือง</string>
     <string name="yellowPageNavigationLabel">สมุดหน้าเหลือง</string>
     <string name="yellowpage_fc_toast">ไม่สามารถใช้คุณลักษณะนี้ได้ เนื่องจากสมุดหน้าเหลืองเด้ง</string>
     <string name="yellowpage_navigation_ad_hint">โฆษณา</string>
-    <string name="yellowpage_navigation_balance_refresh_failed">"Balance and mobile data couldn't be verified, try again later."</string>
+    <string name="yellowpage_navigation_balance_refresh_failed">ไม่สามารถปรับเทียบยอดเงินและข้อมูลคงเหลือได้ ลองอีกครั้งในภายหลัง</string>
     <string name="yellowpage_navigation_balance_refresh_succeed">ปรับเทียบยอดเงินและข้อมูลคงเหลือเรียบร้อย</string>
     <string name="yellowpage_navigation_clear_search_history">ล้างประวัติ</string>
     <string name="yellowpage_navigation_more_items">เพิ่มเติม</string>

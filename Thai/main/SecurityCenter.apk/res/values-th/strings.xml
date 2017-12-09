@@ -350,10 +350,8 @@
     <string name="main_button_mi_sim_open">เรียกดูรายละเอียด</string>
     <string name="firewall_activity_lable">จำกัดการใช้ข้อมูลของแอป</string>
     <string name="firewall_applist">แอป</string>
-    <string name="firewall_rule_group_title_mobile">มือถือ</string>
-    <string name="firewall_rule_group_title_wifi">Wi-Fi</string>
-    <string name="firewall_fragment_tab_title_nonsys">ติดตั้งแล้ว</string>
-    <string name="firewall_fragment_tab_title_sys">ระบบ</string>
+    <string name="firewall_mobile">มือถือ</string>
+    <string name="firewall_wifi">Wi-Fi</string>
     <string name="firewall_fragment_sys_listempty">ไม่มี</string>
     <string name="firewall_fragment_nonesys_listempty">ไม่มี</string>
     <string name="firewall_restrict_notify_title">%s ไม่สามารถใช้เครือข่ายได้</string>
@@ -367,6 +365,7 @@
     <string name="search_result_text">ไม่พบแอปไดๆ</string>
     <string name="firewall_mobile_dialog_message">แอปที่ติดตั้งจะไม่สามารถเชื่อมต่ออินเตอร์เน็ตและใช้ข้อมูลมือถือได้ หากคุณปิดสวิตช์นี้</string>
     <string name="firewall_wifi_dialog_message">แอปที่ติดตั้งจะไม่สามารถเชื่อมต่อและใช้อินเตอร์เน็ตได้ หากคุณปิดสวิตช์นี้</string>
+    <string name="firewall_system_title">系统应用联网控制</string>
     <string name="usage_sorted_activity_lable">การใช้ข้อมูล</string>
     <string name="usage_sorted_loading_text">รอสักครู่…</string>
     <string name="usage_sorted_empty_text">ไม่มี</string>
@@ -389,6 +388,7 @@
     <string name="detail_app_button">ข้อมูลแอป</string>
     <string name="pref_about_traffic_title">การตั้งค่าการใช้ข้อมูล</string>
     <string name="pref_traffic_manage_title">การใช้ข้อมูล</string>
+    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_package_traffic_settings">จำกัดข้อมูลมือถือ</string>
     <string name="pref_adjust_traffic_data">ตั้งการใช้ข้อมูล</string>
     <string name="pref_category_title_other">การตั้งค่าเพิ่มเติม</string>
@@ -890,6 +890,7 @@
     <string name="om_formatted_percent_string">%s%%</string>
     <string name="om_cpu_usage_warn_title_text">"แอปนี้อาจทำให้อุปกรณ์ของคุณ
 ช้าลง"</string>
+    <string name="om_memory_clean_memory_info_text">%1$s / %2$s</string>
     <string name="om_ill_proc_handle_unstaill_title">ถอนการติดตั้ง %s?</string>
     <string name="om_ill_proc_handle_uninstall_prompt">ถอนการติดตั้งแอปนี้เพื่อแก้ไขปัญหาการใช้แบตเตอรี่</string>
     <string name="om_ill_proc_type_wakelock_title">แอปบล็อกโหมดสลีปทำให้แบตเตอรี่หมดเร็ว</string>
@@ -1292,6 +1293,7 @@
     <string name="menu_text_networkassistants">การใช้ข้อมูล</string>
     <string name="menu_text_networkassistants_remain">คงเหลือ %s</string>
     <string name="menu_text_networkassistants_danger">ใช้เกินไป %s</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_unit_gb">GB</string>
     <string name="menu_text_networkassistants_unit_mb">MB</string>
     <string name="menu_text_networkassistants_unit_kb">KB</string>
@@ -1652,6 +1654,7 @@
     <string name="card_main_deepclean_wechat_action">ล้าง</string>
     <string name="card_main_sectool_title">เครื่องมือ</string>
     <string name="card_main_monthreport_action">เรียกดู</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">ทดสอบเครือข่าย</string>
     <string name="card_main_netcheck_summary">ทดสอบการเชื่อมต่อสำหรับปัญหาเครือข่าย</string>
     <string name="card_main_netcheck_action">ทดสอบ</string>
@@ -1886,8 +1889,9 @@
     <string name="app_usage_recently">ที่ใช้ล่าสุด</string>
     <string name="app_manager_have_not_consume">ไม่มี</string>
     <string name="app_manager_menu_clear_data">ล้างข้อมูล</string>
-    <string name="app_manager_clear_data_dlg_title">ลบข้อมูลแอป?</string>
-    <string name="app_manager_clear_data_dlg_message">ข้อมูลแอปนี้ทั้งหมด’จะถูกลบอย่างถาวร นี่รวมถึงไฟล์ทั้งหมด การตั้งค่า บัญชี ข้อมูล ฯลฯ</string>
+    <string name="app_manager_clear_data_dlg_title">ลบข้อมูลทั้งหมด?</string>
+    <string name="app_manager_clear_data_dlg_message">ข้อมูลแอปทั้งหมด รวมไปถึงไฟล์ การตั้งค่า บัญชี ฐานข้อมูลและแคชจะถูกลบอย่างถาวร</string>
+    <string name="app_manager_clear_dlg_title">ล้างข้อมูล</string>
     <string name="app_manager_clear_failed_dlg_message">ไม่สามารถล้างข้อมูลแอปได้</string>
     <string name="app_manager_manage_space">จัดการพื้นที่</string>
     <string name="app_manager_permission_summary_reject">จำกัดทั้งหมด</string>
@@ -1956,6 +1960,15 @@
     <string name="app_manager_install_other_app">ติดตั้งแอปจากแหล่งที่ไม่รู้จัก</string>
     <string name="app_manager_disabled_by_admin">ปิดโดยแอดมิน</string>
     <string name="app_manager_advanced_setting">การตั้งค่าขั้นสูง</string>
+    <string name="app_manager_total_size">ทั้งหมด</string>
+    <string name="app_manager_code_size">ขนาดแอป</string>
+    <string name="app_manager_data_size">ข้อมูลผู้ใช้</string>
+    <string name="app_manager_cache_size">หน่วยความจำแคช</string>
+    <string name="app_manager_clear_all_data">ล้างข้อมูลทั้งหมด</string>
+    <string name="app_manager_dlg_clear_cache_title">ล้างหน่วยความจำแคช?</string>
+    <string name="app_manager_support_uninstall">คุณสามารถถอนการติดตั้งแอปเหล่านี้ได้</string>
+    <string name="app_manager_not_support_uninstall">ไม่สามารถถอนการติดตั้งแอปนี้ได้</string>
+    <string name="app_manager_comuting_size">กำลังคำนวณ…</string>
     <string name="ad_btn_default_text">เรียนรู้เพิ่มเติม</string>
     <string name="open_activity_err">ไม่พบแอ็พพลิเคชัน</string>
     <string name="low_memory_warning_dialog_title">พื้นที่จัดเก็บไม่เพียงพอ</string>
@@ -2080,7 +2093,6 @@
     <string name="net_booster_overdue_notification">เซสชั่นเพิ่มความเร็วของเครือข่ายกำลังจะจบลง</string>
     <string name="net_booster_overdue_notification_tip">เซสชั่นเพิ่มความเร็วเครือข่ายจะสิ้นสุดเร็วๆนี้ ต่ออายุเซสชัน?</string>
     <string name="net_booster_expire_notification">เซสชั่นเพิ่มความเร็วของเครือข่ายกำลังจะจบลง</string>
-    <string name="net_booster_expire_notification_tip">%d วันที่เหลือก่อนที่เซสชั่นการเพิ่มความเร็วของเครือข่ายจะสิ้นสุดลง ต่ออายุเซสชันเพื่อหลีกเลี่ยงปัญหาความเร็วเครือข่าย</string>
     <string name="xunyou_pay_webview">บริการ Xunyou</string>
     <string name="xunyou_server_expired">เซสชั่นหมดอายุ</string>
     <string name="game_anti_disturb_msg">เกมส์ห้ามรบกวน</string>
@@ -2098,11 +2110,7 @@
     <string name="game_booster_close">ตัวเร่งความเร็วในการเล่นเกมปิดอยู่</string>
     <string name="databooster_tips_title">คำเตือน</string>
     <string name="databooster_tips_message">เปิดใช้งานจำกัดซิมทั้งหมดยกเว้นการ์ดข้อมูล ปิดคุณลักษณะนี้หากมีข้อผิดพลาดเกิดขึ้นในเกมที่คุณเลือก</string>
-    <string name="app_manager_permission_startself_summary">แอปที่เริ่มทำงานโดยอัตโนมัติจะใช้แรมและแบตเตอรี่ได้เร็วขึ้น</string>
-    <string name="app_manager_permission_power_saving_summary">ตัวประหยัดแบตเตอรี่ MIUI</string>
-    <string name="app_manager_not_record">ไม่พบแอปที่ต้องได้รับอนุญาต</string>
-    <string name="app_manager_clear_failed_dlg_title">ล้างข้อมูล</string>
-    <string name="app_manager_sort">เรียงตาม</string>
+    <string name="net_booster_expire_notification_tip">%d วันที่เหลือก่อนที่เซสชั่นการเพิ่มความเร็วของเครือข่ายจะสิ้นสุดลง ต่ออายุเซสชันเพื่อหลีกเลี่ยงปัญหาความเร็วเครือข่าย</string>
     <string name="power_center_consume_rank">การใช้งานแบตเตอรี่</string>
     <string name="power_center_custom_title">ใช้โหมดพลังงาน</string>
     <string name="power_center_auto_shutdown_summary_default">ตั้งค่าการเปิดหรือปิดเครื่องตามเวลาที่กำหนดไว้ล่วงหน้า</string>

@@ -5,12 +5,14 @@
     <string name="wifi_security_short_wpa">WPA</string>
     <string name="wifi_security_short_wpa2">WPA2</string>
     <string name="wifi_security_short_wpa_wpa2">WPA/WPA2</string>
+    <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
     <string name="wifi_security_short_eap">802.1x</string>
     <string name="wifi_security_none">ไม่มี</string>
     <string name="wifi_security_wep">WEP</string>
     <string name="wifi_security_wpa">WPA PSK</string>
     <string name="wifi_security_wpa2">WPA2 PSK</string>
     <string name="wifi_security_wpa_wpa2">WPA/WPA2 PSK</string>
+    <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
     <string name="wifi_security_eap">802.1x EAP</string>
     <string name="wifi_security_passpoint">Passpoint</string>
     <string name="wifi_security_short_WAPI_PSK">WAPI PSK</string>
@@ -448,7 +450,7 @@
     <string name="description_target_search">Search</string>
     <string name="status_bar_date_format_12">EEEE d MMMM</string>
     <string name="status_bar_clock_date_format">EEEE d MMMM</string>
-    <string name="status_bar_recent_memory_info1">"%s "</string>
+    <string name="status_bar_recent_memory_info1">คงเหลือ %1$sB จากทั้งหมด %2$sB</string>
     <string name="status_bar_recent_memory_info2" />
     <string name="accessibility_recent_task_exit">ปิดล่าสุด</string>
     <string name="accessibility_recent_task_memory_info">หน่วยความจำทั้งหมด: %2$s | หน่วยความจำพร้อมใช้งาน: %1$s แตะสองครั้งเพื่อล้าง</string>
@@ -533,6 +535,7 @@
     <string name="ext_media_mountable_notification_title">USB storage device is connected</string>
     <string name="ext_media_mountable_notification_message">"Touch 'Go to Exlporer'"</string>
     <string name="ext_media_safe_remove">Safely remove</string>
+    <string name="network_speed_suffix">%1$s%2$s</string>
     <string name="kilobyte_per_second">K/s</string>
     <string name="megabyte_per_second">M/s</string>
     <string name="status_bar_network_flow_today">วันนี้: %1$s</string>
@@ -611,6 +614,7 @@
     <string name="notification_header_title">การแจ้งเตือน</string>
     <string name="weather_publish_time">อัพเดทล่าสุด %1$s</string>
     <string name="no_weather_description">เรียกดูข้อมูลสภาพอากาศ ></string>
+    <string name="weather_description_no_aqi">%1$s</string>
     <string name="screenshot_long_screenshot">แนวยาว</string>
     <string name="screenshot_edit">แก้ไข</string>
     <string name="screenshot_send">ส่ง</string>

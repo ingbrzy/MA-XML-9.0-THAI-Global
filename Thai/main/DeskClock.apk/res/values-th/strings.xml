@@ -81,6 +81,7 @@
     <string name="birthday_alarm_summary">ใช้เพลงวันเกิดแทนเสียงการแจ้งเตือนปกติในวันคล้ายวันเกิดของคุณ</string>
     <string name="turn_off_a_repeat_alarm">ปิดการปลุกซ้ำ</string>
     <string name="skip_alarm_once_hint">ปิดครั้งเดียวเวลา %s</string>
+    <string name="skip_alarm_date_format">%1$s (%2$s)</string>
     <string name="turn_off_this_repeat_alarm">ปิดการปลุกซ้ำนี้ตลอดไป</string>
     <string name="today">วันนี้</string>
     <string name="tomorrow">พรุ่งนี้</string>
@@ -156,7 +157,7 @@
     <string name="volume_button_setting_summary">ตั้งฟังก์ชั่นปุ่มระดับเสียงระหว่างการปลุก</string>
     <string name="battery_charging_level">%d%%</string>
     <string name="menu_item_dock_settings">การตั้งค่า Dock</string>
-    <string name="alarm_klaxon_service_desc">บริการเล่นเสียงสำหรับตั้งการปลุกในนาฬิกา</string>
+    <string name="alarm_klaxon_service_desc">เสียงที่ใช้สำหรับตั้งปลุกตามเวลา</string>
     <string name="loading_ringtone">กำลังโหลดเสียงเรียกเข้า…</string>
     <string name="control_set_alarm">ตั้งการปลุก</string>
     <string name="control_set_alarm_with_existing">ตั้งการปลุก: %s</string>

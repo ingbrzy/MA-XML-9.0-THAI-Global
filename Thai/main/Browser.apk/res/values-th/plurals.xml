@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="adblock_notification">
+        <item quantity="other">บล็อกโฆษณาไปแล้ว %d</item>
+    </plurals>
     <plurals name="adblock_rules_number_text">
         <item quantity="other">บล็อกไว้ %d รายการ</item>
+    </plurals>
+    <plurals name="dialog_confirm_delete_downloads_message">
+        <item quantity="other">ลบ %d การดำเนินงาน?</item>
     </plurals>
     <plurals name="find_on_page_matches">
         <item quantity="other">พบ %d รายการ</item>
@@ -12,11 +18,20 @@
     <plurals name="matches_found">
         <item quantity="other">พบ %1$d จาก %2$d</item>
     </plurals>
-    <plurals name="transfer_prompt">
-        <item quantity="other">เล่นวิดีโอใน %1$d วินาที</item>
+    <plurals name="pref_adblock_counts">
+        <item quantity="other">บล็อกแล้ว %d รายการ</item>
+    </plurals>
+    <plurals name="suggest_access_item_album_songs">
+        <item quantity="other">%d เพลง</item>
+    </plurals>
+    <plurals name="suggest_access_item_singer_albums">
+        <item quantity="other">%d อัลบั้ม</item>
+    </plurals>
+    <plurals name="suggest_access_item_singer_pop">
+        <item quantity="other">เพลงยอดนิยม %d เพลง</item>
     </plurals>
     <plurals name="v5_edit_mode_title">
-        <item quantity="other">เลือกไว้ %1$d รายการ</item>
+        <item quantity="other">เลือก %1$d รายการ</item>
     </plurals>
     <plurals name="video_download_clear_info">
         <item quantity="other">ลบ %1$d วิดีโอเรียบร้อยแล้ว</item>
@@ -32,5 +47,8 @@
     </plurals>
     <plurals name="video_subtitle_last_message">
         <item quantity="other">เหลืออีก %d นาที</item>
+    </plurals>
+    <plurals name="view_realtime_clear">
+        <item quantity="other">แจ่มใส</item>
     </plurals>
 </resources>

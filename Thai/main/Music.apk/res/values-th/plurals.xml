@@ -73,7 +73,7 @@
         <item quantity="other">%d ผู้ติดตาม</item>
     </plurals>
     <plurals name="songs_count">
-        <item quantity="other">%dsongs</item>
+        <item quantity="other">%dเพลง</item>
     </plurals>
     <plurals name="Nunbackup_audios">
         <item quantity="other">มี %1$d เพลงที่ไม่สามารถสำรองข้อมูลได้ (%2$.1fMB)\"</item>
@@ -97,9 +97,9 @@
         <item quantity="other">ข้าม %d เพลง. เปิดใช้งานบริการออนไลน์ในการตั้งค่าเพื่อฟัง</item>
     </plurals>
     <plurals name="Nrecognize_switch_off_alert_message">
-        <item quantity="other">Has shutdown optimize album and lyric. Do you want to revert optimized info, album and lyric of %d songs?</item>
+        <item quantity="other">มีการปิดการเพิ่มประสิทธิภาพอัลบั้มและเนื้อเพลง คุณต้องการเรียกคืนข้อมูล อัลบั้มและเนื้อร้องของ %d เพลง?</item>
     </plurals>
     <plurals name="Nassociate_songs">
-        <item quantity="other">Matching album and lyric (%1$d/%2$d songs)</item>
+        <item quantity="other">กำลังจับคู่อัลบั้มและเนื้อเพลง (%1$d/%2$d เพลง)</item>
     </plurals>
 </resources>
