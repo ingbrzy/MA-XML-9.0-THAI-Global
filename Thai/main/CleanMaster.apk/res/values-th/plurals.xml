@@ -55,7 +55,7 @@
         <item quantity="other">ไม่สามารถส่งออก %d วิดีโอได้ ล้างขยะเพื่อเพิ่มพื้นที่และลองอีกครั้ง</item>
     </plurals>
     <plurals name="wechat_empty_files">
-        <item quantity="other">(%1$d ไฟล์ว่างเปล่า) %2$s</item>
+        <item quantity="other">(%1$d empty files)</item>
     </plurals>
     <plurals name="app_usage_day">
         <item quantity="other">ไม่ได้ใช้เป็นเวลา %d วัน</item>

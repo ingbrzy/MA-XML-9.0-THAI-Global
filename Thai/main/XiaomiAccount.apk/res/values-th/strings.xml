@@ -84,8 +84,8 @@
     <string name="passport_delete_account">ออกจากระบบ</string>
     <string name="passport_vcode_notification_title">ขั้นตอนตรวจสอบการเข้าสู่ระบบของคุณไม่สมบูรณ์</string>
     <string name="passport_account_name">บัญชีผู้ใช้: %1$s</string>
-    <string name="passport_account_hint_text">ที่อยู่อีเมล หมายเลขโทรศัพท์ หรือรหัสบัญชี Mi</string>
-    <string name="passport_email_or_id_hint_text">ที่อยู่อีเมลหรือหมายเลขบัญชี Mi</string>
+    <string name="passport_account_hint_text">Email/Phone number/Mi Account ID</string>
+    <string name="passport_email_or_id_hint_text">Email/Mi Account ID</string>
     <string name="passport_phone_num_hint_text">หมายเลขโทรศัพท์</string>
     <string name="passport_input_password_hint">ป้อนรหัสผ่าน</string>
     <string name="passport_input_captcha_hint">ป้อนรหัส</string>
@@ -257,7 +257,7 @@
     <string name="account_error_invalid_user_name">ชื่อไม่สามารถประกอบด้วย &lt;, >, /</string>
     <string name="account_error_shorter_user_name">ชื่อต้องมีความยาวอย่างน้อย 2 ตัว</string>
     <string name="account_error_longer_user_name">ชื่อต้องมีความยาวไม่เกิน 20 ตัว</string>
-    <string name="account_error_user_name">The name you entered is invalid</string>
+    <string name="account_error_user_name">ชื่อที่ใส่ไม่ถูกต้อง</string>
     <string name="account_error_user_birthday">วันเกิดที่คุณป้อนไม่ถูกต้อง</string>
     <string name="account_limit_update_birthday">ไม่สามารถอัพเดทวันเกิดได้ในตอนนี้</string>
     <string name="account_user_other_info">ข้อมูลเพิ่มเติม</string>
@@ -450,9 +450,9 @@
     <string name="account_token_expired_msg">"รหัสยืนยันหมดอายุ เริ่มต้นหรือออกจากระบบ
  รหัสบัญชีของคุณ: %s"</string>
     <string name="bind_safe_phone_msg">เพิ่มหมายเลขโทรศัพท์ของคุณเพื่อให้สามารถลงชื่อเข้าใช้บัญชี Mi ในครั้งต่อไปได้</string>
-    <string name="account_notification_message">>Session expired. Sign in again.</string>
-    <string name="sim_changed_notification_title">Changed phone number?</string>
-    <string name="sim_changed_notification_msg">Tap to update your recovery phone and keep your account more secure.</string>
-    <string name="recycle_phone_notification_title">Mi Account security risk</string>
+    <string name="account_notification_message">> การเข้าสู่ระบบหมดเวลา ลงชื่อเข้าใช้อีกครั้ง.</string>
+    <string name="sim_changed_notification_title">เปลี่ยนหมายเลขโทรศัพท์?</string>
+    <string name="sim_changed_notification_msg">แตะเพื่ออัพเดตการกู้คืนข้อมูลโทรศัพท์ของคุณและรักษาความปลอดภัยให้กับบัญชีของคุณ</string>
+    <string name="recycle_phone_notification_title">ความเสี่ยงด้านความปลอดภัยของบัญชี Mi</string>
     <string name="recycle_phone_notification_msg">ดูเหมือนหมายเลขโทรศัพท์ของคุณถูกรีไซเคิล แตะเพื่ออัพเดต</string>
 </resources>

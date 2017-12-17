@@ -51,6 +51,8 @@
     <string name="self_phone">โทรศัพท์นี้</string>
     <string name="process_whole_recovery">กำลังเรียกคืนค่า \"%s\"</string>
     <string name="device_xiaomi">Mi Phone</string>
+    <string name="device_corrupt">Mi Phone (Data corrupt)</string>
+    <string name="size_unknown">Size unknown</string>
     <string name="recovering">กำลังเรียกคืนค่า %s</string>
     <string name="start_recover">เรียกคืนค่า %s</string>
     <string name="latest_backup_time_loading">กำลังโหลด…</string>
@@ -58,7 +60,6 @@
     <string name="backing_up_to_micloud">กำลังสำรองข้อมูล…</string>
     <string name="restore_from_cloud">คืนค่าจากข้อมูลสำรองใน Mi คลาวด์</string>
     <string name="backup_to_cloud">สำรองข้อมูลแอป</string>
-    <string name="restoring_file_tile">กำลังเรียกคืนค่า %d ไฟล์</string>
     <string name="menu_item_sort">เรียงตาม</string>
     <string name="menu_item_sort_name">ชื่อ</string>
     <string name="menu_item_sort_size">ขนาด</string>

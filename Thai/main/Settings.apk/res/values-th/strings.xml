@@ -5,12 +5,14 @@
     <string name="wifi_security_short_wpa">WPA</string>
     <string name="wifi_security_short_wpa2">WPA2</string>
     <string name="wifi_security_short_wpa_wpa2">WPA/WPA2</string>
+    <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
     <string name="wifi_security_short_eap">802.1x</string>
     <string name="wifi_security_none">ไม่มี</string>
     <string name="wifi_security_wep">WEP</string>
     <string name="wifi_security_wpa">WPA PSK</string>
     <string name="wifi_security_wpa2">WPA2 PSK</string>
     <string name="wifi_security_wpa_wpa2">WPA/WPA2 PSK</string>
+    <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
     <string name="wifi_security_eap">802.1x EAP</string>
     <string name="wifi_security_passpoint">Passpoint</string>
     <string name="wifi_security_short_WAPI_PSK">WAPI PSK</string>
@@ -694,6 +696,7 @@
     <string name="security_enable_widgets_title">เปิดใช้งานวิดเจ็ต</string>
     <string name="security_enable_widgets_disabled_summary">ปิดใช้งานโดยผู้ดูแลระบบ</string>
     <string name="owner_info_settings_summary">ไม่มี</string>
+    <string name="owner_info_settings_status">%1$d/%2$d</string>
     <string name="owner_info_settings_edit_text_hint">เช่น Android ของสมชาย</string>
     <string name="user_info_settings_title">ข้อมูลผู้ใช้</string>
     <string name="show_profile_info_on_lockscreen_label">แสดงข้อมูลโปรไฟล์บนหน้าจอล็อก</string>
@@ -955,6 +958,7 @@
     <string name="wifi_display_options_name">ชื่อ</string>
     <string name="wifi_band_24ghz">2.4 GHz</string>
     <string name="wifi_band_5ghz">5 GHz</string>
+    <string name="link_speed">%1$d Mbps</string>
     <string name="nfc_quick_toggle_title">NFC</string>
     <string name="nfc_quick_toggle_summary">อนุญาตให้มีการแลกเปลี่ยนข้อมูล เมื่อแตะโทรศัพท์กับอุปกรณ์อื่น</string>
     <string name="android_beam_settings_title">Android Beam</string>
@@ -2222,6 +2226,7 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="gadget_title">การควบคุมพลังงาน</string>
     <string name="gadget_toggle_wifi">กำลังอัพเดทการตั้งค่า Wi-Fi</string>
     <string name="gadget_toggle_bluetooth">กำลังอัปเดตการตั้งค่าบลูทูธ</string>
+    <string name="gadget_state_template">%1$s %2$s</string>
     <string name="gadget_state_on">เปิด</string>
     <string name="gadget_state_off">ปิด</string>
     <string name="gadget_state_turning_on">กำลังเปิด</string>
@@ -2400,6 +2405,7 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="delete">ลบ</string>
     <string name="misc_files">ไฟล์เบ็ดเตล็ด</string>
     <string name="misc_files_selected_count">เลือก %1$d จาก %2$d</string>
+    <string name="misc_files_selected_count_bytes">%1$s จาก %2$s</string>
     <string name="select_all">เลือกทั้งหมด</string>
     <string name="data_usage_summary_title">การใช้อินเทอร์เน็ต</string>
     <string name="data_usage_app_summary_title">การใช้ข้อมูลแอป</string>
@@ -2646,6 +2652,7 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="nfc_payment_no_apps">ชำระเงินโดยใช้โทรศัพท์ของคุณในร้านค้า</string>
     <string name="nfc_payment_default">แอปชำระเงินเริ่มต้น</string>
     <string name="nfc_payment_default_not_set">ไม่ได้ตั้งค่า</string>
+    <string name="nfc_payment_app_and_desc">%1$s - %2$s</string>
     <string name="nfc_payment_use_default">ใช้ค่าเริ่มต้น</string>
     <string name="nfc_payment_favor_default">ทุกครั้ง</string>
     <string name="nfc_payment_favor_open">ยกเว้นเมื่อแอปการชำระเงินอื่นเปิดอยู่</string>
@@ -2706,6 +2713,7 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="regulatory_info_text" />
     <string name="sim_setup_wizard_title">ซิมการ์ด</string>
     <string name="sim_settings_title">ซิมการ์ด</string>
+    <string name="sim_settings_summary">%1$s - %2$s</string>
     <string name="sim_cards_changed_message">ซิมการ์ดมีการเปลี่ยนแปลง</string>
     <string name="sim_cards_changed_message_summary">แตะเพื่อกำหนดกิจกรรม</string>
     <string name="sim_cellular_data_unavailable">ข้อมูลมือถือไม่พร้อมใช้งาน</string>
@@ -2826,6 +2834,7 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="zen_mode_option_important_interruptions">เฉพาะเรื่องสำคัญ</string>
     <string name="zen_mode_option_alarms">เฉพาะปลุกเท่านั้น</string>
     <string name="zen_mode_option_no_interruptions">ปิดเสียงทั้งหมด</string>
+    <string name="zen_mode_summary_combination">%1$s: %2$s</string>
     <string name="zen_mode_visual_interruptions_settings_title">บล็อกสิ่งรบกวนการมองเห็น</string>
     <string name="configure_notification_settings">กำหนดค่าการแจ้งเตือน</string>
     <string name="advanced_section_header">ขั้นสูง</string>
@@ -2919,6 +2928,7 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="zen_mode_schedule_alarm_title">เวลาปลุกลบล้างเวลาสิ้นสุดได้</string>
     <string name="zen_mode_schedule_alarm_summary">หยุดที่เวลาสิ้นสุดหรือเวลาปลุกครั้งถัดไป ขึ้นอยู่กับว่าอย่างใดเร็วกว่า</string>
     <string name="summary_divider_text">", "</string>
+    <string name="summary_range_symbol_combination">%1$s - %2$s</string>
     <string name="summary_range_verbal_combination">%1$s ถึง %2$s</string>
     <string name="zen_mode_calls">การโทร</string>
     <string name="zen_mode_messages">ข้อความ</string>
@@ -3100,6 +3110,8 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="memory_avg_use">เฉลี่ย</string>
     <string name="memory_max_desc">สูงสุด %1$s</string>
     <string name="memory_avg_desc">เฉลี่ย %1$s</string>
+    <string name="memory_use_running_format">%1$s/%2$s</string>
+    <string name="process_format">%1$s (%2$d)</string>
     <string name="high_power_apps">การเพิ่มประสิทธิภาพแบตเตอรี่</string>
     <string name="high_power_filter_on">ไม่ได้เพิ่มประสิทธิภาพ</string>
     <string name="high_power_on">ไม่ได้เพิ่มประสิทธิภาพ</string>
@@ -3376,6 +3388,7 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="dndm_auto_setting_group">กำหนดเวลา</string>
     <string name="dndm_auto_button_title">ใช้โหมดห้ามรบกวนเวลานี้ตลอด</string>
     <string name="dndm_auto_time_setting">ตั้งเวลา</string>
+    <string name="dndm_auto_time_setting_summary">%1$s-%2$s</string>
     <string name="dndm_auto_time_turn_on">จาก</string>
     <string name="dndm_auto_time_turn_on_title">เปิดใช้โหมดห้ามรบกวนโดยอัตโนมัติ</string>
     <string name="dndm_auto_time_turn_off">ถึง</string>
@@ -4300,6 +4313,8 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="block_list_no_device">ไม่มีอุปกรณ์เชื่อมต่อในรายการบล็อก</string>
     <string name="no_connected_devices">ไม่พบอุปกรณ์ที่เชื่อมต่อ</string>
     <string name="tether_settings_disabled">ฮอตสปอตแบบพกพาปิดอยู่</string>
+    <string name="tether_data_usage_limit">One-time data limit</string>
+    <string name="tether_data_usage_limit_summary">Data limit will be applied next time your hotspot is on</string>
     <string name="hdmi_3dplay_settings_title">HDMI</string>
     <string name="hdmi_3dplay_control_text">แสดงผลภายนอกแบบสามมิติ</string>
     <string name="hdmi_3dplay_control_enable_subtext">เปิดใช้การแสดงผลภายนอกแบบสเตริโอสามมิติแล้ว</string>
@@ -4833,6 +4848,7 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="size_giga_byte">GB</string>
     <string name="size_tera_byte">TB</string>
     <string name="size_peta_byte">PB</string>
+    <string name="size_suffix">%1$s%2$s</string>
     <string name="radio_info_asdiv_switch_label">สถานะ ASDiv:</string>
     <string name="app_factory_reset_dlg_title">ถอนการติดตั้งอัพเดทไหม?</string>
     <string name="app_factory_reset_dlg_text">การอัพเดตของแอปที่ผ่านมาจะถูกถอนออกจากแอปที่ติดตั้งไว้ในระบบทั้งหมด</string>

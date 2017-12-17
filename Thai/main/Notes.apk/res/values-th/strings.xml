@@ -6,6 +6,7 @@
     <string name="sina_token_expired_warning">บัญชี Weibo หมดอายุ เพิ่มบัญชีอีกครั้ง</string>
     <string name="sina_token_invalid_warning">บัญชี Weibo ไม่ถูกต้อง เพิ่มบัญชีอีกครั้ง</string>
     <string name="sina_share_fail_content_repeat">คุณได้แชร์สิ่งนี้เรียบร้อยแล้ว</string>
+    <string name="search_title_notes">@string/app_name</string>
     <string name="search_keyword_notes">บันทึกย่อ;ความจำ</string>
     <string name="search_path_notes">แอประบบ/บันทึกย่อ</string>
     <string name="dlg_move_message">กำลังย้าย…</string>
@@ -118,6 +119,7 @@
     <string name="error_unsupport_content">บันทึกนี้มีเนื้อหาที่ไม่รองรับ แตะที่นี่เพื่ออัพเดท</string>
     <string name="error_contact_not_exist">ไม่มีรายชื่อ</string>
     <string name="sync_tips">แตะเพื่อซิงค์บันทึกย่อไว้บน Mi คลาวด์</string>
+    <string name="micloud_state_total_count">%1$s</string>
     <string name="pref_title_font_size">ขนาดอักษร</string>
     <string name="call_folder_name">บันทึกย่อการโทร</string>
     <string name="trash_folder_name">ขยะ</string>

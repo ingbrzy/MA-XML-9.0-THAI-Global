@@ -60,6 +60,7 @@
     <string name="share_title">แชร์สภาพอากาศ</string>
     <string name="share_weather_desc_split">,</string>
     <string name="share_weather_desc">\#MIUI สภาพอากาศ#วันนี้ %1$s %2$s</string>
+    <string name="share_weather_desc_alert">%1$s%2$s</string>
     <string name="hourly_forcast_now">ขณะนี้</string>
     <string name="sunrise">พระอาทิตย์ขึ้น</string>
     <string name="sunset">พระอาทิตย์ตก</string>
@@ -154,9 +155,11 @@
     <string name="install">ติดตั้ง</string>
     <string name="open">เปิด</string>
     <string name="open_now">เปิด</string>
+    <string name="install_progress">%1$s%%</string>
     <string name="daily_forecast_detail_date">d/M</string>
     <string name="hourly_forecast_date">d/M</string>
     <string name="aqi_publish_source">อัพเดทเมื่อ %1$s จาก CNEMC</string>
+    <string name="daily_forecast_detail_date_format">%1$s - %2$s</string>
     <string name="aqi_data_source">ขับเคลื่อนด้วยคลาวด์สีสัน</string>
     <string name="traffic_controls">จำกัดเลขทะเบียน</string>
     <string name="traffic_control_today_numbers">วันนี้: %1$s</string>
@@ -173,6 +176,7 @@
     <string name="international_details_uv_index_title">รังสียูวี</string>
     <string name="international_details_pressure_title">ความกดอากาศ</string>
     <string name="pressure_connect">%1$s mb</string>
+    <string name="international_details_wind_connect">%1$s %2$s</string>
     <string name="weather_alert">แจ้งเตือนสภาพอากาศ</string>
     <string name="edit_alert_city_title">จัดการการแจ้งเตือน</string>
     <string name="aqi_detail_unit">หน่วย: µg/m³</string>
@@ -239,6 +243,8 @@
     <string name="minute_rain_pull_down_refresh">ลากลงเพื่อรีเฟรชหน้าจอ</string>
     <string name="minute_rain_refreshing_now">กำลังรีเฟรช…</string>
     <string name="minute_rain_let_go_refresh">ปล่อยเพื่อรีเฟรช</string>
+    <string name="hourly_forecast_bottom_aqi_chinese">%1$s %2$s</string>
+    <string name="hourly_forecast_bottom_aqi_else">%1$s</string>
     <string name="alert_detail_title">แจ้งเตือนรายละเอียด</string>
     <string name="aqi_quality_map_title">แผนที่สภาพอากาศ</string>
     <string name="aqi_station_min_distance_station">สถานีที่ใกล้ที่สุด</string>
