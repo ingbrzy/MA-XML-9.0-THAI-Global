@@ -341,7 +341,6 @@
     <string name="pref_camera_beautify_entry_low">ต่ำ</string>
     <string name="pref_camera_beautify_entry_normal">ปานกลาง</string>
     <string name="pref_camera_beautify_entry_high">สูง</string>
-    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="camera_mode_options">ตัวเลือก</string>
     <string name="button_front_camera_title">ถ่ายเซลฟี่</string>
     <string name="button_normal_video_title">บันทึกวิดีโอ</string>
@@ -358,7 +357,6 @@
     <string name="toast_saving">กำลังบันทึกรูปภาพ…</string>
     <string name="cannot_connect_camera_volte_call">อยู่ระหว่างการวิดีโอคอล กรุณาลองใหม่ในภายหลัง</string>
     <string name="hibernate_hint">แตะที่หน้าจอเพื่อใช้กล้อง</string>
-    <string name="pref_camera_picturesize_entry_widescreen">@string/pref_camera_picturesize_entry_fullscreen</string>
     <string name="accessibility_zoom_button">โหมดซูม</string>
     <string name="accessibility_portrait_button">โหมดถ่ายภาพคน</string>
     <string name="toast_burst_snap_finished_summary">ถ่ายภาพต่อเนื่องเสร็จสิ้น ทั้งหมด %1$s รูป</string>
