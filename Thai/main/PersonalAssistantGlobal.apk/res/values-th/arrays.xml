@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="stock_color_schema">
+        <item>แดง - ขึ้น, เขียว - ลง</item>
+        <item>เขียว - ขึ้น, สีแดง - ลง</item>
+    </string-array>
+</resources>
