@@ -297,9 +297,7 @@
     <string name="express_booking_txt">นัดรับสินค้า</string>
     <string name="express_code_txt">รหัส:</string>
     <string name="express_complete">ตอบรับแล้ว</string>
-    <string name="express_complete_flag">3</string>
     <string name="express_delivery">จัดส่งแล้ว</string>
-    <string name="express_delivery_flag">5</string>
     <string name="express_icon_tip">เรียกดูข้อมูลการติดตามการจัดส่งแบบด่วนโดยใช้หมายเลขโทรศัพท์และข้อมูลการสั่งซื้อของคุณ</string>
     <string name="express_icon_tip_link">ความปลอดภัย &amp; ความเป็นส่วนตัว</string>
     <string name="express_install_cainiao_description">%s ต้องการการติดตั้งแอป Cainiao, ติดตั้งทันที?</string>
@@ -546,7 +544,6 @@
     <string name="payment_total_today_desc">วันนี้</string>
     <string name="payment_unit_cny">CNY</string>
     <string name="personalAssistant_mainpage">หน้าแรก</string>
-    <string name="personalAssistant_path">com.miui.home.launcher.assistant</string>
     <string name="place_label">สถานที่ที่ใช้บ่อย</string>
     <string name="plan">กำหนดเวลา</string>
     <string name="preferences">การตั้งค่า</string>
@@ -694,7 +691,6 @@
     <string name="steps_vip_des">ติดตามจำวนก้าวโดยไม่ต้องติดตั้งแอปอื่นๆ</string>
     <string name="stock_card_add">เพิ่มบริษัท</string>
     <string name="stock_card_title">หุ้น</string>
-    <string name="stock_change_rate_format">%.2f%%</string>
     <string name="stock_color_schema">โทนสี</string>
     <string name="stock_list_empty_text">คุณยังไม่ได้ติดตามบริษัทใดๆ</string>
     <string name="stock_search_empty">ไม่พบผลลัพธ์การค้นหา</string>
