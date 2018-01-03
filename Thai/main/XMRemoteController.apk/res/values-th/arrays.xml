@@ -25,4 +25,29 @@
         <item>ทำไมมีแค่ฉันเท่านั้นที่สามารถเปิดเครื่องปรับอากาศและไม่สามารถปิดได้?</item>
         <item>ฉันสามารถใช้ Mi 3, Mi 2 และ Redmi เป็นรีโมท อินฟาเรด ได้หรือไม่?</item>
     </string-array>
+    <string-array name="voice_ac_help">
+        <item>เปิดแอร์ Haier ในห้องนั่งเล่น</item>
+        <item>ตั้งอุณหภูมิไว้ที่ 25 องศา</item>
+        <item>กำหนดทิศทางลม \"ขึ้น\"</item>
+    </string-array>
+    <string-array name="voice_fan_help">
+        <item>เปิดแอร์ Gree</item>
+        <item>สลับไปยังโหมดแกว่ง</item>
+        <item>เพิ่มความแรงลม</item>
+    </string-array>
+    <string-array name="voice_stb_help">
+        <item>เปิดใช้งานกล่องเซ็ตท็อป</item>
+        <item>ฉันอยากดูทีวีหูหนาน</item>
+        <item>กลับไปที่ช่อง 15</item>
+    </string-array>
+    <string-array name="voice_tips">
+        <item>เปิดแอร์</item>
+        <item>ฉันอยากดูทีวีเซินเจิ้น</item>
+        <item>กลับไปที่ช่อง 12</item>
+    </string-array>
+    <string-array name="voice_tv_help">
+        <item>เปิดทีวีในห้องนอน</item>
+        <item>ปิดทีวี</item>
+        <item>เพิ่มระดับเสียงทีวี</item>
+    </string-array>
 </resources>

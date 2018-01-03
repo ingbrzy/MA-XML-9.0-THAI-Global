@@ -46,7 +46,7 @@
         <item quantity="other">ลบ %1$d รายการออกจากประวัติ?</item>
     </plurals>
     <plurals name="video_push_multi_message">
-        <item quantity="other">%1$d updates are available.</item>
+        <item quantity="other">มีการอัพเดท %1$d รายการ</item>
     </plurals>
     <plurals name="video_subtitle_last_message">
         <item quantity="other">เหลืออีก %d นาที</item>

@@ -97,9 +97,9 @@
         <item quantity="other">ข้าม %d เพลง. เปิดใช้งานบริการออนไลน์ในการตั้งค่าเพื่อฟัง</item>
     </plurals>
     <plurals name="Nrecognize_switch_off_alert_message">
-        <item quantity="other">มีการปิดการเพิ่มประสิทธิภาพอัลบั้มและเนื้อเพลง คุณต้องการเรียกคืนข้อมูล อัลบั้มและเนื้อร้องของ %d เพลง?</item>
+        <item quantity="other">คุณเลือกที่จะไม่หาปกอัลบั้มและเนื้อเพลงสำหรับเพลงท้องถิ่นโดยอัตโนมัติ ลบข้อมูลสำหรับ %d เพลง?</item>
     </plurals>
     <plurals name="Nassociate_songs">
-        <item quantity="other">กำลังจับคู่อัลบั้มและเนื้อเพลง (%1$d/%2$d เพลง)</item>
+        <item quantity="other">กำลังค้นหาอัลบั้มและเนื้อเพลง (%1$d/%2$d)</item>
     </plurals>
 </resources>

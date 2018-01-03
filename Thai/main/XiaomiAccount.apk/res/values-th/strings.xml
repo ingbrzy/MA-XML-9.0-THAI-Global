@@ -10,6 +10,7 @@
     <string name="passport_skip_login">ข้าม</string>
     <string name="passport_skip_setup_account_title">ข้ามการตั้งค่าบัญชี</string>
     <string name="passport_skip_setup_account_msg">คุณสามารถตั้งค่าบัญชี Mi ภายหลังในเมนูการตั้งค่า</string>
+    <string name="passport_confirm_login">ดำเนินการต่อ</string>
     <string name="passport_find_password_on_web_msg">เข้าไปที่เว็บไซต์ account.mi.com เพื่อตั้งค่ารหัสผ่านของคุณใหม่</string>
     <string name="passport_title_reg">สร้างบัญชีผู้ใช้</string>
     <string name="passport_reg_prompt">ยังไม่มีบัญชี Mi? สร้างบัญชีได้ฟรี</string>
@@ -84,8 +85,8 @@
     <string name="passport_delete_account">ออกจากระบบ</string>
     <string name="passport_vcode_notification_title">ขั้นตอนตรวจสอบการเข้าสู่ระบบของคุณไม่สมบูรณ์</string>
     <string name="passport_account_name">บัญชีผู้ใช้: %1$s</string>
-    <string name="passport_account_hint_text">Email/Phone number/Mi Account ID</string>
-    <string name="passport_email_or_id_hint_text">Email/Mi Account ID</string>
+    <string name="passport_account_hint_text">อีเมล/หมายเลขโทรศัพท์/รหัสบัญชี Mi</string>
+    <string name="passport_email_or_id_hint_text">อีเมล/รหัสบัญชี Mi</string>
     <string name="passport_phone_num_hint_text">หมายเลขโทรศัพท์</string>
     <string name="passport_input_password_hint">ป้อนรหัสผ่าน</string>
     <string name="passport_input_captcha_hint">ป้อนรหัส</string>
@@ -166,6 +167,7 @@
     <string name="passport_trust_device">เพิ่มอุปกรณ์นี้ไปยังอุปกรณ์ที่ยืนยันแล้ว</string>
     <string name="passport_barcode_add_account_prompt">ในการเชื่อมเข้าสู่บัญชี กรุณาสแกนรหัส QR อีกครั้งเมื่อคุณเข้าสู่ระบบนั้นแล้ว</string>
     <string name="passport_password_phone_login">ลงชื่อเข้าใช้ด้วยบัญชี Mi</string>
+    <string name="passport_sms_verification_code_login">SMS verification code login</string>
     <string name="passport_login_other_account">บัญชีอื่น</string>
     <string name="passport_reg_new_account">สร้างบัญชี</string>
     <string name="passport_select_the_login_account">เลือกบัญชีเพื่อลงชื่อเข้าใช้</string>

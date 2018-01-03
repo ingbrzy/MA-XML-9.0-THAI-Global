@@ -6,6 +6,9 @@
     <string name="xiaomi_update_dialog_message_diff">"เวอร์ชั่นแนะนำ %1$s
 ขนาด %2$s"</string>
     <string name="xiaomi_external_storage_unavailable">ที่จัดเก็บข้อมูลไม่พร้อมใช้งาน ตรวจสอบ SD การ์ดของคุณ</string>
+    <string name="xiaomi_bytes_unit">%1$sB</string>
+    <string name="xiaomi_kilobytes_unit">%1$sKB</string>
+    <string name="xiaomi_megabytes_unit">%1$sMB</string>
     <string name="xiaomi_connect_download_manager_fail">ไม่สามารถเริ่มการดาวน์โหลดได้ ตรวจสอบให้แน่ใจว่าตัวจัดการการดาวน์โหลดทำงานปกติ</string>
     <string name="app_name">สำรองข้อมูล</string>
     <string name="local_app_name">สำรองข้อมูล</string>
@@ -226,6 +229,7 @@
     <string name="restore_backup">คืนค่า</string>
     <string name="enable_encrypt_description">เข้ารหัส</string>
     <string name="disable_encrypt_description">ไม่ได้เข้ารหัส</string>
+    <string name="digit_percent">%</string>
     <string name="state_waiting">รอสักครู่…</string>
     <string name="state_mounting">กำลังเข้าถึงพื้นที่จัดเก็บข้อมูลเราเตอร์…</string>
     <string name="abort_backup_confirm">ยังสำรองข้อมูลไม่เสร็จ ยกเลิกหรือไม่?</string>
@@ -290,10 +294,30 @@
     <string name="trans_time_spent">"
 ใช้เวลา: %s"</string>
     <string name="trans_restoring_no_items">กำลังซิงค์หลายรายการ</string>
-    <string name="trans_detail_category_sysdata">ข้อมูลระบบ</string>
+    <string name="trans_detail_category_sysdata">ข้อมูลระบบ (รวมถึงข้อความ รายชื่อและประวัติการโทร)</string>
     <string name="trans_detail_category_userdata">แอป</string>
     <string name="trans_detail_category_account">บัญชีและรายชื่อผู้ติดต่อ</string>
     <string name="trans_detail_category_files">ไฟล์</string>
+    <string name="trans_detail_category_audio_video_doc">เสียง วีดีโอและไฟล์</string>
+    <string name="trans_detail_category_wechat_qq">ข้อมูล WeChat และ QQ (รวมไปถึงประวัติการแชท)</string>
+    <string name="trans_detail_category_user_app_data">ข้อมูลแอป</string>
+    <string name="trans_detail_wechat_data">ข้อมูล WeChat (รวมไปถึงประวัติการแชท)</string>
+    <string name="trans_detail_qq_data">ข้อมูล QQ (รวมไปถึงประวัติการแชท)</string>
+    <string name="trans_detail_app_data_useless_tip">คุณสามารถเรียกคืนได้จากแอป โดยไม่ต้องถ่ายโอน</string>
+    <string name="trans_detail_item_app_data_too_large_tip">ดูเหมือนว่ารายการมีขนาดใหญ่เกินไปที่จะถ่ายโอน</string>
+    <string name="trans_detail_item_app_data_selected_tip">เลือกแอปพร้อมกัน</string>
+    <string name="trans_detail_list_footer">หมายเหตุ: คุณสามารถเลือกที่จะถ่ายโอนแอปแยกกันได้ อย่างไรก็ตามหากคุณเลือกข้อมูลแอป แอปที่เกี่ยวข้องจะได้รับการโอนย้ายด้วย</string>
+    <string name="trans_detail_page_tip">รายการที่คุณเลือกยิ่งมาก การถ่ายโอนก็อาจใช้เวลานานขึ้น</string>
+    <string name="trans_detail_sys_data_list_title">แอประบบ</string>
+    <string name="trans_detail_app_data_list_title">ข้อมูลแอป</string>
+    <string name="trans_detail_app_apk_list_title">ติดตั้งแอปแล้ว</string>
+    <string name="trans_detail_wechat_qq_list_title">WeChat และ QQ</string>
+    <string name="trans_detail_audio_video_doc_list_title">เสียง วีดีโอและไฟล์</string>
+    <string name="trans_detail_sys_data_page_title">เลือกแอประบบ</string>
+    <string name="trans_detail_app_data_page_title">เลือกข้อมูลแอป</string>
+    <string name="trans_detail_app_apk_page_title">เลือกแอป</string>
+    <string name="trans_detail_wechat_qq_page_title">เลือก WeChat, QQ, และข้อมูลแอป</string>
+    <string name="trans_detail_audio_video_doc_page_title">เลือก เสียง วีดีโอและไฟล์</string>
     <string name="trans_sending_completed">ส่งเรียบร้อยแล้ว</string>
     <string name="trans_receiving_completed">ถ่ายโอนข้อมูลเสร็จสิ้น</string>
     <string name="trans_time_format_second">น้อยกว่า 1 นาที</string>
@@ -310,6 +334,7 @@
     <string name="trans_progress_subdescript_transing_receiver_finish">รับมาแล้ว %s กำลังรอการเรียกคืน…</string>
     <string name="trans_cancel_confirm">อยู่ระหว่างการโอนย้าย หยุดตอนนี้?</string>
     <string name="trans_cancelling">กำลังยกเลิก…</string>
+    <string name="trans_pausing">กำลังหยุด…</string>
     <string name="trans_device_disconnected">ถูกตัดการเชื่อมต่อ</string>
     <string name="trans_device_wait_for_reconnecting">ถูกตัดการเชื่อมต่อ เชื่อมต่ออีกครั้งเพื่อดำเนินการต่อ</string>
     <string name="trans_device_auto_reconnecting">อุปกรณ์ขาดการเชื่อมต่อ กำลังเชื่อมต่อใหม่อัตโนมัติ…</string>
@@ -339,6 +364,8 @@
 ไฟล์ที่คล้ายกันบนอุปกรณ์ใหม่จะถูกเขียนทับ"</string>
     <string name="trans_select_data_no_space">"ไม่มีพื้นที่ว่างเพียงพอบนอุปกรณ์ใหม่
 เลือกไฟล์อีกครั้งหรือล้างพื้นที่จัดเก็บ %s บนอุปกรณ์ใหม่"</string>
+    <string name="trans_select_data_too_large">"คุณเลือกรายการที่จะถ่ายโอนมากเกินไป 
+ เลือกรายการที่สำคัญเท่านั้นเพื่อให้ถ่ายโอนได้เร็วขึ้น"</string>
     <string name="trans_calculating_base_size">กำลังประมวลขนาดข้อมูล</string>
     <string name="trans_calculating">กำลังประมวล…</string>
     <string name="trans_native_no_space">"ไม่มีพื้นที่ว่างเพียงพอบนอุปกรณ์นี้
@@ -463,8 +490,9 @@ https://appleid.apple.com/#!&amp;page=signin"</string>
     <string name="loading_data">กำลังโหลดข้อมูล</string>
     <string name="icloud_need_sync">"เพื่อข้อมูลจาก iOS,
 คุณต้องสำรองข้อมูลก่อน iCloud"</string>
-    <string name="import_tip_title">เคล็ดลับ:</string>
+    <string name="list_footer_tip_title">เคล็ดลับ:</string>
     <string name="import_tip_summary">ข้อกำหนดปัญหาความเข้ากันได้ สำหรับอุปกรณ์ iOS คุณสามารถถ่ายโอนได้เฉเพาะข้อมูลบางส่วนเท่านั้น ตรวจสอบให้แน่ใจว่าคุณได้สำรองข้อมูลก่อนการเริ่มการถ่ายโอน</string>
+    <string name="import_tip_message">@string/icloud_how_to_backup_tip_steps</string>
     <string name="button_import">นำเข้า</string>
     <string name="select_empty">เลือกรายการที่จะนำเข้า</string>
     <string name="select_item_summary_wait">กำลังรอ…</string>
@@ -488,4 +516,20 @@ https://appleid.apple.com/#!&amp;page=signin"</string>
     <string name="error_permissions">แอปนี้ไม่มีสิทธิ์ที่จำเป็นในการเข้าถึงปฏิทิน ไปที่การตั้งค่าและตรวจสอบสิทธิ์เพื่อดำเนินการต่อ</string>
     <string name="succ_description">เรียบร้อย</string>
     <string name="failed_description">ล้มเหลว</string>
+    <string name="notif_connect_miasist">Connected to Mi PC Suite</string>
+    <string name="notif_disconnect_miasist">Not connected to Mi PC Suite</string>
+    <string name="notif_sending_transingsd">Sending %1$s (%2$s)…</string>
+    <string name="notif_receiving_transingsd">Receiving %1$s (%2$s)…</string>
+    <string name="notif_calculating_app">Caculating %1$s (%2$s)…</string>
+    <string name="notif_parse_select_descript_error">"Couldn't sync the list of backed up items."</string>
+    <string name="alert_miasist_occupy_backup">Backing up items using Mi PC Suite… Wait until the backup is complete and try again.</string>
+    <string name="alert_miasist_occupy_restore">Restoring items using Mi PC Suite… Wait until the items are restored and try again.</string>
+    <string name="alert_phone_occupy_backup">"Can't use Mi PC Suite now. Complete backing up or restoring items on your phone and try again."</string>
+    <string name="alert_second_space_not_support_miasist">"Can't use Mi PC Suite in Second space. Switch to First space."</string>
+    <string name="alert_title_backup_to_miasist">Back up items using Mi PC Suite?</string>
+    <string name="alert_message_backup_to_miasist">Mi PC Suite is requesting permission to create a backup on a computer. Allow?</string>
+    <string name="alert_title_restore_from_miasist">Restore items on your phone?</string>
+    <string name="alert_message_restore_from_miasist">Mi PC Suite is requesting permission to restore items on your phone. Allow?</string>
+    <string name="alert_button_deny">Decline</string>
+    <string name="alert_button_agree_and_continue">Allow</string>
 </resources>

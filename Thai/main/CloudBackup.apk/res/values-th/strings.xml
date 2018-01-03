@@ -51,8 +51,8 @@
     <string name="self_phone">โทรศัพท์นี้</string>
     <string name="process_whole_recovery">กำลังเรียกคืนค่า \"%s\"</string>
     <string name="device_xiaomi">Mi Phone</string>
-    <string name="device_corrupt">Mi Phone (Data corrupt)</string>
-    <string name="size_unknown">Size unknown</string>
+    <string name="device_corrupt">Mi Phone (ข้อมูลเสียหาย)</string>
+    <string name="size_unknown">ไม่ทราบขนาด</string>
     <string name="recovering">กำลังเรียกคืนค่า %s</string>
     <string name="start_recover">เรียกคืนค่า %s</string>
     <string name="latest_backup_time_loading">กำลังโหลด…</string>
@@ -126,9 +126,12 @@
     <string name="btn_back">ย้อนกลับ</string>
     <string name="btn_continue">ดำเนินการต่อ</string>
     <string name="btn_skip">ข้ามขั้นตอนนี้</string>
+    <string name="btn_retry">ตรวจสอบอีกครั้ง</string>
     <string name="can_not_restore_in_lite_mode">ไม่สามารถเรียกคืนค่าโหมดง่ายได้</string>
     <string name="can_not_backup_in_lite_mode">ไม่สามารถสำรองข้อมูลโหมดง่ายได้</string>
     <string name="restore_data_title">คืนค่าข้อมูล</string>
+    <string name="provision_error_connect_msg">คุณสามารถทดสอบเครือข่ายและลองอีกครั้ง ฟังก์ชั่นการสำรองข้อมูลจะไม่สามารถใช้ได้หากไม่มีเครือข่าย</string>
+    <string name="provision_error_connect_title">ไม่สามารถเชื่อมต่อได้</string>
     <string name="authentication_failed">ไม่สามารถยืนยันบัญชีได้</string>
     <string name="no_account">ยังไม่ได้ลงชื่อเข้าใช้บัญชี Mi</string>
     <string name="no_backup">ไม่มีการสำรองข้อมูลใน Mi คลาวด์</string>

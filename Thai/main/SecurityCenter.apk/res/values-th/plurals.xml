@@ -24,6 +24,12 @@
     <plurals name="traffic_setting_app_count">
         <item quantity="other">%d แอป</item>
     </plurals>
+    <plurals name="bg_network_allow_count">
+        <item quantity="other">%d apps can connect to the network in the background</item>
+    </plurals>
+    <plurals name="bg_network_restrict_count">
+        <item quantity="other">"%d apps can't connect to the network in the background"</item>
+    </plurals>
     <plurals name="daily_sim_over_limit_notify_title">
         <item quantity="other">คุณได้ใช้แผนข้อมูลรายวันเกิน %s ครั้ง</item>
     </plurals>
@@ -43,6 +49,9 @@
     </plurals>
     <plurals name="hints_roaming_found_app_count_title">
         <item quantity="other">พบ %d แอป</item>
+    </plurals>
+    <plurals name="network_restrict_count">
+        <item quantity="other">"Network access is restricted for &lt;font color='#ff0000'>%d:&lt;/font> apps"</item>
     </plurals>
     <plurals name="om_ill_proc_multi_app_title">
         <item quantity="other">%d แอปทำงานไม่ถูกต้อง ทำให้แบตเตอรี่หมดเร็ว</item>
@@ -193,9 +202,6 @@
     </plurals>
     <plurals name="app_manager_start_count">
         <item quantity="other">%d ครั้ง</item>
-    </plurals>
-    <plurals name="app_manager_reject_count">
-        <item quantity="other">บล็อกไปแล้ว %d ครั้ง</item>
     </plurals>
     <plurals name="app_usage_day">
         <item quantity="other">ใช้เมื่อ %d วันก่อน</item>

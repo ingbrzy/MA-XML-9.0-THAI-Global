@@ -36,7 +36,8 @@
     <string name="dlg_clear_current_call">ล้างสายเรียกเข้าที่ถูกบล็อกทั้งหมดจากเลขหมายนี้?</string>
     <string name="dlg_clear_all_ok">ล้างทั้งหมด</string>
     <string name="dlg_clear_current_ok">ล้าง</string>
-    <string name="dlg_no_block">ยกเลิกการบล็อกเบอร์นี้และแสดงรายการโทรเข้าจากเบอร์นี้ในประวัติการโทร?</string>
+    <string name="dlg_no_block">"Unblock this phone number ?
+It will be added to exceptions, but previously blocked items won't appear in call history."</string>
     <string name="dlg_no_block_ok">เลิกบล็อก</string>
     <string name="dlg_add_blacklist_title">เพิ่มไปยังรายการบล็อก</string>
     <string name="dlg_add_blacklist">บล็อกหมายเลขนี้?</string>
@@ -62,6 +63,14 @@
     <string name="dlg_antispam_mode_delete_message">เมื่อลบกฎแล้วไม่สามารถเรียกคืนได้</string>
     <string name="dlg_antispam_using_mode_delete_message">ลบกฎที่ใช้อยู่ปัจจุบันแล้วเปลี่ยนเป็นกฎตั้งต้นของรายการบล็อก?</string>
     <string name="dlg_antispam_using_mode_international_delete_message">ลบกฎที่ใช้อยู่ปัจจุบันแล้วเปลี่ยนเป็นกฎตั้งต้นของรายการบล็อก?</string>
+    <string name="back_sound_success">Success!</string>
+    <string name="back_sound_fail">Failed！</string>
+    <string name="back_sound_support">"The current network operators doesn't support it！"</string>
+    <string name="back_sound_data">It requires cellular mobile network, please retry!</string>
+    <string name="dlg_move_to_white">Add to exceptions</string>
+    <string name="dlg_add_white">"New calls and messages from the numbers added to exceptions will be shown in call history and Messaging inbox. However, previously blocked items won't appear there. Add selected numbers to exceptions?"</string>
+    <string name="dlg_not_block_sms">"Unblock selected numbers? They will be added to exceptions, but previously blocked items won't appear in Messaging inbox."</string>
+    <string name="dlg_not_block_call">"Unblock selected numbers? They will be added to exceptions, but previously blocked items won't appear in call history."</string>
     <string name="menu_call">โทร</string>
     <string name="menu_sms">ส่งข้อความ</string>
     <string name="menu_bl_call_log">แสดงสายเรียกเข้าที่ถูกบล็อก</string>
@@ -73,6 +82,7 @@
     <string name="menu_remove">ลบ</string>
     <string name="st_settings_name">การตั้งค่ารายการบล็อก</string>
     <string name="st_filter_keywords_setting_summary1">ข้อความจากเลขหมายที่ไม่รู้จักที่มีข้อความที่กำหนดไว้ในรายการนี้จะถูกบล็อกตามที่คุณต้องการ</string>
+    <string name="st_filter_keywords_setting_summary3">ข้อความจากหมายเลขที่ไม่รู้จักซึ่งมีคำในรายการนี้จะได้รับอนุญาต</string>
     <string name="st_filter_keywords_setting_summary2">"
 (ใช้เครื่องหมายจุลภาคเพื่อคั่นระหว่างคีย์เวิร์ด)"</string>
     <string name="label_callwait">การแจ้งเตือนสายเรียกซ้อน</string>
@@ -163,7 +173,8 @@
     <string name="st_title_open_antispam">รายการบล็อก</string>
     <string name="st_title_antispam_mode">กฎ</string>
     <string name="st_sub_title_whiteblack_list_group">รายการบล็อก</string>
-    <string name="st_title_keywords_blacklist">ตัวกรองคีย์เวิร์ด</string>
+    <string name="st_title_keywords_blacklist">คีย์เวิร์ดรายการบล็อก</string>
+    <string name="st_title_keywords_whitelist">คีย์เวิร์ดรายการปกติ</string>
     <string name="st_title_blacklist_numbers">เลขหมายที่ถูกบล็อค</string>
     <string name="st_title_whitelist_numbers">รายการยกเว้น</string>
     <string name="st_title_backsound_group">เสียงปฏิเสธสาย</string>
@@ -269,7 +280,9 @@
     <string name="st_msg_intercept_contacts">บล็อกข้อความ SMS จากผู้ติดต่อ</string>
     <string name="st_msg_stranger_group">บล็อกข้อความ SMS จากบุคคลแปลกหน้า</string>
     <string name="st_msg_other_group">อื่นๆ</string>
-    <string name="st_msg_keyword_group">รายการบล็อกคีย์เวิร์ด</string>
+    <string name="st_msg_keyword_group">คีย์เวิร์ด</string>
+    <string name="st_msg_keyword_black">คีย์เวิร์ดรายการบล็อก</string>
+    <string name="st_msg_keyword_white">คีย์เวิร์ดรายการยกเว้น</string>
     <string name="st_call_settings">รายการบล็อกสายเรียกเข้า</string>
     <string name="st_call_intercept_stranger">บล็อกการโทรจากสายแปลกหน้า</string>
     <string name="st_call_intercept_forwarding">บล็อกสายที่ถูกโอนมา</string>
@@ -350,7 +363,7 @@
     <string name="main_button_mi_sim_open">เรียกดูรายละเอียด</string>
     <string name="firewall_activity_lable">จำกัดการใช้ข้อมูลของแอป</string>
     <string name="firewall_applist">แอป</string>
-    <string name="firewall_mobile">Mobile data</string>
+    <string name="firewall_mobile">ข้อมูลมือถือ</string>
     <string name="firewall_wifi">Wi-Fi</string>
     <string name="firewall_fragment_sys_listempty">ไม่มี</string>
     <string name="firewall_fragment_nonesys_listempty">ไม่มี</string>
@@ -361,11 +374,12 @@
     <string name="firewall_restrict_android_dialog_content">เพื่อให้เครื่องทำงานได้ตามปกติ แอปส่วนหนึ่งในระบบแอนดรอยด์จะยังคงเชื่อมกับต่ออินเตอร์เน็ตได้ แอปเหล่านี้อาจเชื่อมต่อเครือข่ายข้อมูลมือถือและอาจเสียค่าบริการให้แก่ผู้ให้บริการเครือข่ายของคุณ</string>
     <string name="background_restrict_app_dialog_message">การจำกัดการเข้าถึงเครือข่ายในพื้นหลังสำหรับแอปนี้อาจทำให้แอปไม่สามารถทำงานได้ตามปกติ รับข้อความ ดาวน์โหลดเนื้อหา ฯลฯ จำกัดหรือไม่?</string>
     <string name="firewall_allow_network">อนุญาต</string>
+    <string name="app_bg_restrict_dialog_message">Restricting background network connection may prevent the app from working normally. For example, it might no longer be able to receive messages or update content. Restrict anyway?</string>
     <string name="firewall_network_allow">อนุญาต %1$s เพื่อใช้ %2$s การเชื่อมต่อ</string>
     <string name="search_result_text">ไม่พบแอปไดๆ</string>
     <string name="firewall_mobile_dialog_message">แอปที่ติดตั้งจะไม่สามารถเชื่อมต่ออินเตอร์เน็ตและใช้ข้อมูลมือถือได้ หากคุณปิดสวิตช์นี้</string>
     <string name="firewall_wifi_dialog_message">แอปที่ติดตั้งจะไม่สามารถเชื่อมต่อและใช้อินเตอร์เน็ตได้ หากคุณปิดสวิตช์นี้</string>
-    <string name="firewall_system_title">Data usage for system apps</string>
+    <string name="firewall_system_title">การใช้ข้อมูลสำหรับแอประบบ</string>
     <string name="usage_sorted_activity_lable">การใช้ข้อมูล</string>
     <string name="usage_sorted_loading_text">รอสักครู่…</string>
     <string name="usage_sorted_empty_text">ไม่มี</string>
@@ -388,7 +402,8 @@
     <string name="detail_app_button">ข้อมูลแอป</string>
     <string name="pref_about_traffic_title">การตั้งค่าการใช้ข้อมูล</string>
     <string name="pref_traffic_manage_title">การใช้ข้อมูล</string>
-    <string name="pref_package_traffic_settings">จำกัดข้อมูลมือถือ</string>
+    <string name="pref_operator_setting">%1$s%2$s</string>
+    <string name="pref_package_traffic_settings">แพ็คเกจข้อมูล</string>
     <string name="pref_adjust_traffic_data">ตั้งการใช้ข้อมูล</string>
     <string name="pref_category_title_other">การตั้งค่าเพิ่มเติม</string>
     <string name="pref_title_update_notification">การแจ้งเตือนข้อมูล</string>
@@ -396,6 +411,7 @@
     <string name="pref_title_traffic_speed_state">แสดงความเร็วเครือข่าย</string>
     <string name="pref_title_declaration">คำจำกัดสิทธิ์ความรับผิดชอบ</string>
     <string name="pref_new_installed_preconfig_title">การตั้งค่าเริ่มต้นของแอปใหม่</string>
+    <string name="pref_bg_network_title">Background connection</string>
     <string name="pref_mi_sim_settings">การตั้งค่าซิม Mi</string>
     <string name="pref_title_upload_data_usage">รายงานสถิติการใช้ข้อมูล</string>
     <string name="pref_summary_upload_data_usage">รายงานสถิติการใช้ข้อมูลของคุณเพื่อช่วยปรับปรุง MIUI การรายงานจะดำเนินการตามนโยบายส่วนบุคคลของเรา</string>
@@ -631,7 +647,7 @@
     <string name="search_input_txt_na">"&lt;font color='#ff0000'>%s&lt;/font>"</string>
     <string name="roaming_allow_network_dialog_title">อนุญาตให้โรมมิ่งข้อมูล?</string>
     <string name="title_limit_traffic_per_day">เพดานการใช้ข้อมูลในแต่ละวัน</string>
-    <string name="daily_limit_and_lock_screen">เพดานรายวันและการแจ้งเตือน</string>
+    <string name="daily_limit_and_lock_screen">แจ้งเตือนการใช้ข้อมูล</string>
     <string name="pref_title_traffic_limit_number">ปริมาณ</string>
     <string name="pref_title_over_traffic_limit_warning">เมื่อใช้ไปเกินกำหนด</string>
     <string name="reach_daily_limit_value_title">ใช้เกินเพดานข้อมูลรายวันแล้ว</string>
@@ -646,12 +662,12 @@
     <string name="lock_screen_warning_switch_title">แสดงการแจ้งเตือนบนหน้าจอล็อก</string>
     <string name="lock_screen_warning_switch_summary">แจ้งเตือนบนหน้าจอล็อกเมื่อใช้ปริมาณเครือข่ายข้อมูลเกินจำนวนที่กำหนดไว้</string>
     <string name="lock_screen_warning_value">แจ้งเตือนการใช้ข้อมูล</string>
-    <string name="pref_normal_traffic_limit">ดำเนินการเมื่อมีการใช้แพ็คเกจข้อมูลรายวันเกิน</string>
+    <string name="pref_normal_traffic_limit">ดำเนินการเมื่อมีการใช้แพ็คเกจข้อมูลเกิน</string>
     <string name="pref_over_traffic_limit">เมื่อคุณใช้เกินแพ็คเกจข้อมูลของคุณ</string>
     <string name="traffic_warning_purchase_title">แจ้งเตือนการใช้งานข้อมูลมือถือ</string>
     <string name="traffic_purchase_body">แตะเพื่อซื้อแพ็คเกจข้อมูลมือถือ</string>
     <string name="traffic_over_purchase_link">"คุณได้ใช้งานถึงเพดานเครือข่ายข้อมูลมือถือที่กำหนดไว้แล้ว&lt;br/>หากคุณใช้งานเกินแพ็คเกจที่กำหนด ผู้ให้บริการเครือข่ายจะคิดค่าบริการเพิ่มเติม&lt;br/>&lt;br/>&lt;font color='#ccffffff'>&lt;U>แตะที่นี่ซื้อแพ็คเกจเพิ่ม&lt;/U>&lt;/font>"</string>
-    <string name="more_settings">More</string>
+    <string name="more_settings">เพิ่มเติม</string>
     <string name="repair_loading_text">รอสักครู่…</string>
     <string name="network_diagnostics">ทดสอบเครือข่าย</string>
     <string name="btn_start_diagnostic">ทดสอบเครือข่าย</string>
@@ -744,8 +760,8 @@
 
  "<b>5. ตรวจสอบให้แน่ใจว่าเราเตอร์ของคุณเชื่อมต่อกับเครือข่ายได้ปกติ</b>"
 หากสงสัยว่ามีปัญหาการเชื่อมต่อ กรุณาติดต่อผู้ให้บริการเครือข่ายของคุณ"</string>
-    <string name="permission_exception_title">ดูการอนุญาตของเครือข่าย</string>
-    <string name="permission_exception_summary">แอปบางส่วนไม่ได้รับอนุญาตให้เชื่อมกับต่ออินเตอร์เน็ต</string>
+    <string name="permission_exception_title">Restricted connection for apps</string>
+    <string name="bg_network_exception_title">Restricted background connection</string>
     <string name="networkchanged_exception_title">การเชื่อมต่อมีการแก้ไข</string>
     <string name="networkchanged_exception_summary">การเชื่อมต่อเครือข่ายมีการเปลี่ยนแปลง กรุณาทดสอบอีกครั้ง</string>
     <string name="network_test_speed">ทดสอบความเร็ว Wi-Fi</string>
@@ -802,8 +818,6 @@
     <string name="diagnostic_attention_dialog_message">การวินิจฉัยสำหรับ %1$s อยู่ระหว่างกระบวนการ รอจนกระทั่งสิ้นสุดและลองอีกครั้ง</string>
     <string name="correction_attention_dialog_message">แก้ไขการตั้งค่าตอนนี้ รอจนกระทั่งกระบวนการสิ้นสุดและลองอีกครั้ง</string>
     <string name="text_button">รับทราบ</string>
-    <string name="vpn_unbale_get_phonenum">การออกแบบแผนการใช้ข้อมูลมือถือไม่สามารถขอรับหมายเลยโทรศัพท์ได้</string>
-    <string name="vpn_disabled_by_user">การเชื่อมต่อการออกแบบข้อมูลปิดอยู่</string>
     <string name="btn_back">ย้อนกลับ</string>
     <string name="firewall_allow_data">อนุญาตการใช้ข้อมูลมือถือ</string>
     <string name="firewall_restrict_data">จำกัดการใช้ข้อมูลมือถือ</string>
@@ -829,16 +843,16 @@
     <string name="status_bar_network_flow_content">วันนี้: %1$s&amp;nbsp;&amp;nbsp;&amp;nbsp;; คงเหลือ: %2$s</string>
     <string name="status_bar_network_flow_content_not_setting">วันนี้: %1$s&amp;nbsp;&amp;nbsp;&amp;nbsp;; เดือนนี้: %2$s</string>
     <string name="status_bar_network_flow_today">วันนี้: %1$s</string>
-    <string name="pref_key_tethering_setting">One-time data limit</string>
-    <string name="pref_key_tethering_title">One-time data limit</string>
-    <string name="tether_limit_value_custom">Custom</string>
-    <string name="tether_limit_dialog_title">Mobile data limit</string>
-    <string name="tether_custom_dialog_title">Mobile data limit</string>
-    <string name="tether_over_limit_warning_notify_title">Reached hotspot data limit</string>
-    <string name="tether_over_limit_warning_notify_message">Turn off portable hotspot.</string>
-    <string name="tether_over_limit_dialog_title">Data usage warning</string>
-    <string name="tether_over_limit_dialog_message">You reached portable hotspot data limit.</string>
-    <string name="tether_over_limit_dialog_cancle_btn">Reset hotspot</string>
+    <string name="pref_key_tethering_setting">ขีดจำกัดข้อมูลแบบครั้งเดียว</string>
+    <string name="pref_key_tethering_title">ขีดจำกัดข้อมูลแบบครั้งเดียว</string>
+    <string name="tether_limit_value_custom">กำหนดเอง</string>
+    <string name="tether_limit_dialog_title">จำกัดข้อมูลมือถือ</string>
+    <string name="tether_custom_dialog_title">จำกัดข้อมูลมือถือ</string>
+    <string name="tether_over_limit_warning_notify_title">ถึงขีดจำกัดข้อมูลฮอตสปอตแล้ว</string>
+    <string name="tether_over_limit_warning_notify_message">ปิดใช้งานฮอตสปอตแบบพกพา.</string>
+    <string name="tether_over_limit_dialog_title">แจ้งเตือนการใช้ข้อมูล</string>
+    <string name="tether_over_limit_dialog_message">คุณใช้ข้อมูลฮอตสปอตแบบพกพาถึงขีดจำกัดแล้ว</string>
+    <string name="tether_over_limit_dialog_cancle_btn">รีเซ็ตฮอตสปอต</string>
     <string name="optimize_manage_title">เพิ่มความเร็ว</string>
     <string name="cpu_usage_android_system">ระบบแอนดรอยด์</string>
     <string name="cpu_usage_process_run_time_little_time">น้อยกว่า 1 นาที</string>
@@ -900,6 +914,7 @@
     <string name="om_formatted_percent_string">%s%%</string>
     <string name="om_cpu_usage_warn_title_text">"แอปนี้อาจทำให้อุปกรณ์ของคุณ
 ช้าลง"</string>
+    <string name="om_memory_clean_memory_info_text">%1$s / %2$s</string>
     <string name="om_ill_proc_handle_unstaill_title">ถอนการติดตั้ง %s?</string>
     <string name="om_ill_proc_handle_uninstall_prompt">ถอนการติดตั้งแอปนี้เพื่อแก้ไขปัญหาการใช้แบตเตอรี่</string>
     <string name="om_ill_proc_type_wakelock_title">แอปบล็อกโหมดสลีปทำให้แบตเตอรี่หมดเร็ว</string>
@@ -1302,6 +1317,7 @@
     <string name="menu_text_networkassistants">การใช้ข้อมูล</string>
     <string name="menu_text_networkassistants_remain">คงเหลือ %s</string>
     <string name="menu_text_networkassistants_danger">ใช้เกินไป %s</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_unit_gb">GB</string>
     <string name="menu_text_networkassistants_unit_mb">MB</string>
     <string name="menu_text_networkassistants_unit_kb">KB</string>
@@ -1662,6 +1678,7 @@
     <string name="card_main_deepclean_wechat_action">ล้าง</string>
     <string name="card_main_sectool_title">เครื่องมือ</string>
     <string name="card_main_monthreport_action">เรียกดู</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">ทดสอบเครือข่าย</string>
     <string name="card_main_netcheck_summary">ทดสอบการเชื่อมต่อสำหรับปัญหาเครือข่าย</string>
     <string name="card_main_netcheck_action">ทดสอบ</string>
@@ -1869,28 +1886,11 @@
     <string name="app_manager_force_stop_dlg_text">ถ้าคุณบังคับให้หยุด แอปพลิเคชันอาจทำงานไม่ถูกต้อง</string>
     <string name="app_manager_dlg_ok">ตกลง</string>
     <string name="app_manager_dlg_cancel">ยกเลิก</string>
-    <string name="app_manager_wake_path_card_title">ประวัติโปรแกรมเริ่มต้น (2 วัน)</string>
     <string name="app_manager_show_detail_infos">เรียกดูทั้งหมด</string>
-    <string name="app_manager_wakepath_dialog_title">เกี่ยวกับโปรแกรมเริ่มต้น</string>
-    <string name="app_manager_wakepath_dialog_summary">โปรแกรมเริ่มต้น เกิดเมื่อแอปหนึ่งเริ่มต้น ส่วนแอปอื่นทำงานในเบื้องหลัง ทำให้สิ้นเปลืองแบตเตอรี่และลดประสิทธิภาพระบบลง MIUI จะบล็อกการทำงานนี้</string>
-    <string name="app_manager_wakepath_dialog_buttontext">รับทราบ</string>
-    <string name="app_manager_stop_wakepath_dialog_title">จำกัดโปรแกรมเริ่มต้น</string>
-    <string name="app_manager_stop_wakepath_dialog_summary">ถอนการติดตั้ง %s เพื่อจำกัดโปรแกรมเริ่มต้น?</string>
-    <string name="app_manager_stop_wakepath_dlg_msg_with_xspace_app">การถอนการติดตั้งแอปนี้จะจำกัดโปรแกรมเริ่มต้น แอปโคลนที่เกี่ยวข้องจะถูกถอนการติดตั้งด้วย ถอนการติดตั้ง %s?</string>
-    <string name="app_manager_stop_wp_dialog_cancel">ยกเลิก</string>
-    <string name="app_manager_stop_wp_dialog_uninstall">ถอนการติดตั้ง</string>
-    <string name="app_manager_reduce_wakepath_dialog">ลดโปรแกรมเริ่มต้น</string>
-    <string name="app_manager_reduce_wakepath_summary">การจำกัดการเริ่มต้นอัตโนมัติจะลดโปรแกรมเริ่มต้น จำกัดการเริ่มต้นอัตโนมัติสำหรับ %s?</string>
-    <string name="app_manager_rebide_wakepath">จำกัด</string>
-    <string name="app_manager_stop_wakepath_success">จำกัดเรียบร้อยแล้ว</string>
-    <string name="app_maanger_app_uninstalled_toast">แอปนี้ถูกยกเลิกการติดตั้งแล้ว</string>
     <string name="app_manager_start_by">เริ่มโดย %s</string>
     <string name="app_manager_uninstall_xspace_app_dlg_msg">การถอนการติดตั้งแอปโคลนจะลบข้อมูลแอปทั้งหมด</string>
     <string name="app_manager_uninstall_with_xspace_app_dlg_msg">แอปที่โคลนไว้จะถูกลบออกพร้อมกับข้อมูลแอป</string>
     <string name="app_manager_uninstall_xspace_app_dlg_title">ถอนการติดตั้งแอปโคลน?</string>
-    <string name="app_manager_reject_count_over">ถูกบล็อกแล้ว 100000+ ครั้ง</string>
-    <string name="app_manager_start_count_over">100000+ ครั้ง</string>
-    <string name="app_manager_loading_data">กำลังโหลดข้อมูล…</string>
     <string name="app_manager_appupdate_remind">แจ้งให้ทราบเกี่ยวกับการอัพเดต</string>
     <string name="app_usage_never">ไม่เคยเรียกใช้</string>
     <string name="app_usage_recently">ที่ใช้ล่าสุด</string>
@@ -1906,7 +1906,6 @@
     <string name="app_manager_powerkeeper_miui_auto">ตัวประหยัดแบตเตอรี่ MIUI</string>
     <string name="app_manager_powerkeeper_restrict_bg">จำกัดแอปในพื้นหลัง</string>
     <string name="app_manager_powerkeeper_no_bg">จำกัดการทำงานในพื้นหลัง</string>
-    <string name="app_manager_instruction">วิธีใช้</string>
     <string name="app_manager_app_storage">"ที่จัดเก็บข้อมูล: "</string>
     <string name="app_manager_app_traffic">"การใช้งานข้อมูล: "</string>
     <string name="app_manager_app_power">"การใช้แบตเตอรี่: "</string>
@@ -1976,6 +1975,9 @@
     <string name="app_manager_support_uninstall">คุณสามารถถอนการติดตั้งแอปเหล่านี้ได้</string>
     <string name="app_manager_not_support_uninstall">ไม่สามารถถอนการติดตั้งแอปนี้ได้</string>
     <string name="app_manager_comuting_size">กำลังคำนวณ…</string>
+    <string name="app_manager_show_all_apps_opened">Showing results from all apps…</string>
+    <string name="app_manager_search_prompt">"Couldn't find results? Try showing results from all apps."</string>
+    <string name="app_manager_open_show_all_apps_immediate">Show all results</string>
     <string name="ad_btn_default_text">เรียนรู้เพิ่มเติม</string>
     <string name="open_activity_err">ไม่พบแอ็พพลิเคชัน</string>
     <string name="low_memory_warning_dialog_title">พื้นที่จัดเก็บไม่เพียงพอ</string>
@@ -2049,6 +2051,8 @@
     <string name="more_game">เกมส์เพิ่มเติม</string>
     <string name="sys_title_gamebooster_unit_gb">G</string>
     <string name="sys_title_gamebooster_unit_mb">M</string>
+    <string name="gmscore_support_service">Google Services</string>
+    <string name="gmscore_support_remind">Turn this feature on if you experience problems with using Gmail, Google Maps, and other Google apps. It will slightly reduce battery life.</string>
     <string name="google_base_app_install_choice">\"%s\" จำเป็นต้องใช้ Google Service Framework เพื่อให้ทำงานได้ตามปกติ ดาวน์โหลดและติดตั้งหรือไม่?</string>
     <string name="application_item_disable">จำกัดแล้ว</string>
     <string name="application_item_already_permission">อนุญาตแล้ว</string>
@@ -2066,6 +2070,8 @@
     <string name="scan_installed_games">ตรวจสอบการติดตั้งเกมส์…</string>
     <string name="boostering">กำลังเพิ่มความเร็ว…</string>
     <string name="booster_suc">เพิ่มเรียบร้อย</string>
+    <string name="auto_booster_suc">Boosted successfully</string>
+    <string name="auto_back_booster">Stop boosting</string>
     <string name="support_game_booster_tips">เพิ่มความเร็ว &amp; ปรับปรุงประสบการณ์การเล่นเกม</string>
     <string name="setting">การตั้งค่า</string>
     <string name="loading">รอสักครู่…</string>
@@ -2117,6 +2123,12 @@
     <string name="game_booster_close">ตัวเร่งความเร็วในการเล่นเกมปิดอยู่</string>
     <string name="databooster_tips_title">คำเตือน</string>
     <string name="databooster_tips_message">เปิดใช้งานจำกัดซิมทั้งหมดยกเว้นการ์ดข้อมูล ปิดคุณลักษณะนี้หากมีข้อผิดพลาดเกิดขึ้นในเกมที่คุณเลือก</string>
+    <string name="gb_description_image_button_answer">Answer</string>
+    <string name="gb_description_image_button_video_answer">Video call</string>
+    <string name="gb_description_image_button_reject">Decline</string>
+    <string name="gs_autobooster">Boost automatically</string>
+    <string name="gs_autobooster_detail">Boost speed for selected games automatically</string>
+    <string name="gs_autobooster_dialog_message">"If you're using Xunyou speed boost, open games on the designated page."</string>
     <string name="power_center_consume_rank">การใช้งานแบตเตอรี่</string>
     <string name="power_center_custom_title">ใช้โหมดพลังงาน</string>
     <string name="power_center_auto_shutdown_summary_default">ตั้งค่าการเปิดหรือปิดเครื่องตามเวลาที่กำหนดไว้ล่วงหน้า</string>

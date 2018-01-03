@@ -65,7 +65,7 @@
     <string name="class_0_message_activity">ข้อความคลาส 0</string>
     <string name="close">ปิด</string>
     <string name="cloud_recommend_msg">แตะเพื่อซิงค์ข้อความกับ Mi คลาวด์</string>
-    <string name="cloud_state_disabled">การซิงค์กับ Mi คลาวด์ปิดใช้อยู่</string>
+    <string name="cloud_state_disabled">เปิดการซิงค์กับ Mi คลาวด์ เพื่อซิงค์ข้อความ</string>
     <string name="cloud_state_sync_finished">ซิงค์กับ Mi คลาวด์แล้ว</string>
     <string name="cloud_state_syncing">กำลังซิงค์กับ Mi คลาวด์…</string>
     <string name="compressing">รูปภาพใหญ่เกินไป กำลังบีบอัดไฟล์…</string>
@@ -74,7 +74,7 @@
     <string name="confirm_delete_SIM_message">ลบข้อความในซิมนี้?</string>
     <string name="confirm_delete_all_SIM_messages">ลบข้อความในซิมทั้งหมด?</string>
     <string name="confirm_delete_all_conversations">ลบการสนทนาทั้งหมด?</string>
-    <string name="confirm_delete_conversation">ลบข้อความต่อเนื่องทั้งหมด?</string>
+    <string name="confirm_delete_conversation">ลบการสนทนานี้?</string>
     <string name="confirm_delete_group_message">ลบข้อความกลุ่ม?</string>
     <string name="confirm_delete_locked_message">ลบข้อความที่ล็อกนี้?</string>
     <string name="confirm_delete_message">ลบข้อความนี้?</string>
@@ -179,6 +179,7 @@
     <string name="file_size">ขนาด:</string>
     <string name="file_title">ชื่อ:</string>
     <string name="file_width_height">ขนาด:</string>
+    <string name="flatshow_page_no">%1$d</string>
     <string name="force_touch_new_message_title">ข้อความใหม่</string>
     <string name="forward_from">ส่งต่อจาก:</string>
     <string name="forward_prefix">"ส่งต่อ: "</string>
@@ -528,6 +529,7 @@
     <string name="send_signature_confirm_dialog_title">ส่งข้อความ</string>
     <string name="send_sms">ส่งข้อความ</string>
     <string name="send_to">ถึง:</string>
+    <string name="send_to_index_contact">%1$s/%2$s</string>
     <string name="sent_at_time">วันที่ส่ง: %1s</string>
     <string name="sent_label">"ส่ง: "</string>
     <string name="service_message_not_found">ข้อความหมดอายุหรือไม่มีข้อความ</string>

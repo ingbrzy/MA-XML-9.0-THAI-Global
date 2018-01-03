@@ -65,6 +65,8 @@
     <string name="sync_dspt_provision_title">Mi คลาวด์</string>
     <string name="sync_dspt_provision_header">ซิงค์</string>
     <string name="sync_dspt_provision">"ซิงค์รูปภาพ เบอร์โทรติดต่อ บันทึกย่อ และอื่นๆระหว่างอุปกรณ์ต่างๆของคุณได้ที่ "</string>
+    <string name="sync_dspt_provision2">i.mi.com</string>
+    <string name="sync_dspt_provision2_int">www.mi.com/micloud</string>
     <string name="sync_dspt_provision3">"คุณสามารถเปิด-ปิดการการใช้งานนี้จากเมนูการตั้งค่าได้ตลอดเวลา
 "</string>
     <string name="sync_dspt_entrance_provision">Mi คลาวด์ ช่วยให้คุณซิงค์รูปภาพ รายชื่อผู้ติดต่อและรายการอื่นๆ ในอุปกรณ์ต่างๆ คุณสามารถเข้าถึงรายการที่ซิงค์ได้ทุกที่ที่ %s</string>
@@ -76,6 +78,8 @@
     <string name="sync_dspt_entrance_provision_skip">ข้ามขั้นตอนนี้</string>
     <string name="sync_dspt_entrance_provision_network">แอปนี้ต้องการเชื่อมต่อกับอินเทอร์เน็ตเพื่อทำงานได้ตามปกติ การซิงค์ข้อมูลอาจต้องใช้การเชื่อมต่อข้อมูลมือถือและเปิด Wi-Fi</string>
     <string name="find_device_dspt_provision">ในกรณีที่เครื่องโทรศัพท์ของคุณหาย คุณสามารถเข้าไปที่ %s เพื่อค้นหาพิกัดเครื่อง ทำการล็อกหรือรีเซ็ต โดยคุณสามารถเปิด-ปิดคุณลักษณะนี้ได้ตลอดเวลาในเมนูการตั้งค่า</string>
+    <string name="find_device_dspt_provision_2">i.mi.com</string>
+    <string name="find_device_dspt_provision_2_int">www.mi.com/micloud</string>
     <string name="find_device_dspt_provision_3">"คุณสามารถเปิดและปิดการการใช้งานนี้ได้จากเมนูการตั้งค่าได้ตลอดเวลา
 "</string>
     <string name="find_device_dspt_provision_4">หากคุณเปลี่ยนซิมการ์ด ระบบจะส่งข้อความเพื่อเปิดใช้งานคุณลักษณะนี้โดยอัตโนมัติ</string>
@@ -130,6 +134,7 @@
     <string name="find_device_error_server">ข้อผิดพลาดจากเซิร์ฟเวอร์</string>
     <string name="find_device_success_title">ค้นหาอุปกรณ์</string>
     <string name="find_device_notice_p1">ไปที่</string>
+    <string name="find_device_notice_p2">i.mi.com</string>
     <string name="find_device_notice_p3">"ใช้ในการค้นหา ล็อกเครื่องหรือกู้คืนเครื่อง
 ในกรณีที่คุณสลับซิมการ์ด ระบบจะส่งข้อความอีกครั้งโดยอัตโนมัติเพื่อเปิดใช้งานบริการนี้"</string>
     <string name="i_know">ตกลง</string>
@@ -401,7 +406,7 @@
     <string name="micloud_storage">พื้นที่จัดเก็บข้อมูล</string>
     <string name="micloud_member">สมาชิกภาพ Mi คลาวด์</string>
     <string name="micloud_buy_member">ซื้อสมาชิก Mi คลาวด์</string>
-    <string name="micloud_buy_member_safe">ซื้อสมาชิก Mi คลาวด์</string>
+    <string name="micloud_buy_member_safe">ขยายที่จัดเก็บข้อมูล Mi คลาวด์</string>
     <string name="micloud_website">รายการใน Mi คลาวด์</string>
     <string name="micloud_member_advantage">เพิ่มเนื้อที่จัดเก็บ</string>
     <string name="micloud_main_title_sync_fail">ซิงค์ไม่ได้</string>
@@ -412,6 +417,7 @@
     <string name="micloud_main_error_network_disallowed">ตรวจสอบให้แน่ใจว่าคุณอนุญาตการเข้าถึงอินเตอร์เน็ตแล้ว</string>
     <string name="micloud_main_error_activated_fail">เปิดใช้งานซิมการ์ดของคุณ</string>
     <string name="micloud_main_error_permission_limit">อนุญาตให้ Mi คลาวด์ เข้าถึงพื้นที่เก็บข้อมูล</string>
+    <string name="micloud_manage_space_data">จัดการข้อมูล Mi คลาวด์</string>
     <string name="micloud_confusion_no">ไม่</string>
     <string name="micloud_confusion_yes">ใช่</string>
     <string name="micloud_confusion_cancel">ยกเลิก</string>
@@ -482,6 +488,8 @@
     <string name="micloud_find_device_opened">การค้นหาอุปกรณ์เปิดใช้งาน</string>
     <string name="micloud_find_device_open_fail">ไม่สามารถปิดใช้การค้นหาอุปกรณ์ได้</string>
     <string name="micloud_find_device_opened_content">ค้นหาอุปกรณ์ของคุณใน %s</string>
+    <string name="micloud_find_device_opened_content_url">i.mi.com</string>
+    <string name="micloud_find_device_opened_content_url_int">www.mi.com/micloud</string>
     <string name="micloud_find_device_verify_fail">ไม่สามารถเปิดใช้งานค้นหาอุปกรณ์อีกครั้งได้</string>
     <string name="micloud_find_device_close_fail">ไม่สามารถปิดใช้งานการค้นหาอุปกรณ์ได้</string>
     <string name="micloud_find_device_finish">เสร็จสิ้น</string>
@@ -516,6 +524,17 @@
     <string name="soundrecorder_sync_records">ซิงค์ด้วย Mi คลาวด์</string>
     <string name="soundrecorder_sync_only_in_wifi">ซิงค์ผ่าน Wi-Fi เท่านั้น</string>
     <string name="soundrecorder_sync_only_in_wifi_summary">ระบบจะไม่ใช้เครือข่ายข้อมูลมือถือในการรับส่งไฟล์บันทึกเสียง</string>
+    <string name="micloud_wipe_data_confirm_label">ลบข้อมูลจาก Mi คลาวด์</string>
+    <string name="micloud_wipe_data_confirm_title">ลบรายการซิงค์กับMi คลาวด์จากโทรศัพท์หลังจากคุณลงชื่อออก?</string>
+    <string name="micloud_wipe_data_retain">เก็บไว้</string>
+    <string name="micloud_wipe_data_remove">ลบออก</string>
+    <string name="wipe_data_dialog_title">ยังมีบางรายการไม่ได้ซิงค์</string>
+    <string name="wipe_data_dialog_msg">%s ไม่ได้ซิงค์และจะยังอยู่ในโทรศัพท์ของคุณ</string>
+    <string name="wipe_data_dialog_button_check_sync">ตรวจสอบหากซิงค์</string>
+    <string name="wipe_data_dialog_msg_and_on">, และรายการบางอย่าง</string>
+    <string name="wipe_secret_photo_dialog_title">รูปภาพที่ซ่อนยังไม่ได้ซิงค์</string>
+    <string name="confirm_delete">ลบ</string>
+    <string name="confirm_save">เก็บไว้</string>
     <string name="micloud_request_permission_title">Mi คลาวด์จำเป็นต้องขออนุญาต</string>
     <string name="micloud_request_permission_content">Mi คลาวด์จำเป็นต้องขออนุญาตเพื่อซิงค์ข้อมูล อนุญาต Mi คลาวด์เพื่อเข้าถึงปฏิทิน, รายชื่อ, บัญชี Mi, สถานะซิมการ์ด, ประวัติการโทร และข้อความ</string>
     <string name="micloud_request_permission_confirm">รับทราบ</string>
@@ -542,25 +561,21 @@
     <string name="passed_synced_time_hour">ซิงค์เมื่อ %1$d ชม. %2$d นาทีที่ผ่านมา</string>
     <string name="passed_synced_time_day">ซิงค์เมื่อ %d วันที่ผ่านมา</string>
     <string name="cloud_storage_is_full">เต็ม</string>
-    <string name="micloud_wipe_data_confirm_label">ลบข้อมูลจาก Mi คลาวด์</string>
-    <string name="micloud_wipe_data_confirm_title">ลบรายการซิงค์กับMi คลาวด์จากโทรศัพท์หลังจากคุณลงชื่อออก?</string>
-    <string name="micloud_wipe_data_retain">เก็บไว้</string>
-    <string name="micloud_wipe_data_remove">ลบออก</string>
-    <string name="wipe_data_dialog_title">รายการยังไม่ถูกซิงค์</string>
-    <string name="wipe_data_dialog_msg">บางรายการ (%s) ยังไม่ได้ซิงค์ มันจะถูกบันทึกไว้ในโทรศัพท์ของคุณและจะไม่ถูกลบ</string>
-    <string name="wipe_data_dialog_button_check_sync">ตรวจสอบหากซิงค์</string>
-    <string name="wipe_data_dialog_msg_and_on">, และรายการบางอย่าง</string>
-    <string name="wipe_secret_photo_dialog_title">รูปภาพที่ซ่อนยังไม่ได้ซิงค์</string>
-    <string name="confirm_delete">ลบ</string>
-    <string name="confirm_save">เก็บไว้</string>
     <string name="micloud_dialog_sync_now_title">เชื่อมต่อกับ Wi-Fi เพื่อทำการซิงค์</string>
     <string name="micloud_dialog_sync_now_message">เชื่อมต่อ Wi-Fi เพื่อหลีกเลี่ยงค่าธรรมเนียมเพิ่มเติมของข้อมูลมือถือ</string>
     <string name="micloud_dialog_sync_now_negative">ในภายหลัง</string>
     <string name="micloud_dialog_sync_now_positive">ใช้งานเครือข่ายข้อมูลมือถือ</string>
+    <string name="micloud_main_head_menu_recycle_bin_title">ถังขยะ</string>
+    <string name="micloud_main_head_menu_recycle_bin_summary">เรียกคืนผู้ติดต่อ รูปภาพ</string>
+    <string name="micloud_main_head_menu_cloud_backup">ข้อมูลสำรองคลาวด์</string>
+    <string name="micloud_main_head_menu_state_open">เปิดแล้ว</string>
+    <string name="micloud_main_head_menu_state_close">ปิดแล้ว</string>
+    <string name="micloud_footer_normal_url">i.mi.com</string>
+    <string name="micloud_footer_international_url">mi.com/micloud</string>
     <string name="ks_fingerprint_payment">การชำระเงินด้วยลายนิ้วมือ</string>
     <string name="ks_name_fido">FIDO</string>
-    <string name="ks_name_alipay">Alipay</string>
-    <string name="ks_name_soter">WeChat</string>
+    <string name="ks_name_alipay">IFAA</string>
+    <string name="ks_name_soter">Soter</string>
     <string name="ks_status_available">พร้อมใช้งาน</string>
     <string name="ks_status_unavailable">ไม่พร้อมใช้งาน</string>
     <string name="ks_fingerprint_status">สถานะการชำระเงิน</string>
