@@ -414,14 +414,12 @@
     <string name="face_name_edit">แก้ไข</string>
     <string name="face_name_input">ป้อนชื่อ</string>
     <string name="face_recommend">ข้อเสนอแนะ</string>
-    <string name="face_recommend_group_number">%1$d/%2$d</string>
     <string name="fail_hint">ดำเนินการไม่เสร็จสิ้น</string>
     <string name="fail_to_pick_email">ที่อยู่อีเมลไม่ถูกต้อง</string>
     <string name="fail_to_sync_album">ไม่สามารถซิงค์อัลบั้ม ตรวจสอบการเชื่อมต่อเครือข่ายแล้วลองใหม่อีกครั้ง</string>
     <string name="family_member_invitation_text">สมาชิกอื่นในครอบครัว</string>
     <string name="fast_share_auto_render">โหมดฟรุ๊งฟริ๊ง</string>
     <string name="fast_share_auto_render_finish">ใช้โหมดฟรุ๊งฟริ๊งอยู่</string>
-    <string name="fileSizeSuffix">%1$s%2$s</string>
     <string name="filter_category_film">ฟิล์ม</string>
     <string name="filter_category_food">อาหาร</string>
     <string name="filter_category_portrait">ภาพบุคคล</string>
@@ -469,7 +467,6 @@
     <string name="gif_tip">ไฟล์ GIF</string>
     <string name="gigabyteShort">GB</string>
     <string name="grant_permission_go_and_set">ตั้งค่า</string>
-    <string name="grant_permission_item">\"%s\"</string>
     <string name="grant_permission_text">"คลังภาพต้องการเข้าถึง 
 %s
  เพื่อให้ทำงานได้ตามปกติ แตะ \"ตั้งค่า\" เพื่อไปยังการอนุญาต"</string>
@@ -651,7 +648,6 @@
     <string name="people_mark_mode_title_no_mark_name">เลือกสักคน</string>
     <string name="people_page_label">บุคคล</string>
     <string name="people_page_unname">ไม่มีชื่อ</string>
-    <string name="percent_sign">%</string>
     <string name="pet_album_display_name">รูปภาพสัตว์เลี้ยง</string>
     <string name="petabyteShort">PB</string>
     <string name="photo">รูปภาพ</string>
@@ -854,8 +850,6 @@
     <string name="search_title_recommend">แนะนำ</string>
     <string name="search_title_suggestion">ข้อเสนอแนะ</string>
     <string name="search_title_tag">สิ่งของ</string>
-    <string name="search_transition_element_icon">search_icon</string>
-    <string name="search_transition_element_input">search_input</string>
     <string name="secret_album_card_description">ที่ที่ดีที่สุดสำหรับความลับทั้งหมดของคุณ</string>
     <string name="secret_album_card_title">เปิดอัลบั้มที่ซ่อนไว้</string>
     <string name="secret_album_display_name">อัลบั้มซ่อน</string>
@@ -1072,7 +1066,6 @@
     <string name="view_by_gallery_tip">คลังภาพ MIUI</string>
     <string name="view_face_album">ดูอัลบั้ม</string>
     <string name="view_queuing_status">ตรวจสอบสถานะ</string>
-    <string name="welcome_to_auto_backup">@string/welcome_to_micloud</string>
     <string name="welcome_to_micloud">ยินดีต้อนรับสู่ Mi คลาวด์</string>
     <string name="welcome_to_slim">ปรับแต่งพื้นที่จัดเก็บในเครื่อง</string>
     <string name="where_is_barcode">รหัส QR อยู่ที่ไหน?</string>

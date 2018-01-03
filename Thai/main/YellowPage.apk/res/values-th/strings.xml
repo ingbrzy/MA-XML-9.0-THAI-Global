@@ -190,7 +190,6 @@
     <string name="quick_yellow_page_tab_phones">โทรศัพท์</string>
     <string name="recharge_actual_price">ราคา:</string>
     <string name="recharge_charge_range">ราคา: %1$s-%2$s RMB</string>
-    <string name="recharge_charge_value">ราคา: %s RMB</string>
     <string name="recharge_follow_name">เติมเงิน</string>
     <string name="recharge_history">ประวัติการเติมเงิน</string>
     <string name="recharge_history_empty">ว่าง</string>
@@ -234,7 +233,6 @@
     <string name="sending_shortcut">กำลังส่ง…</string>
     <string name="service_unavailiable">บริการไม่พร้อมใช้งาน</string>
     <string name="share">แชร์</string>
-    <string name="shop_recommendation_format">%1$s: %2$s</string>
     <string name="smart_antispam">ระบุเลขหมาย</string>
     <string name="toast_finish_delete_call_log">ลบประวัติการโทรแล้ว</string>
     <string name="toast_text_copied">คัดลอกข้อความแล้ว</string>
