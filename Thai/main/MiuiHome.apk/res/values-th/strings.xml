@@ -1,8 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="action_add_to_workspace">เพิ่มไปยังหน้าแรก</string>
     <string name="activity_not_found">ไม่พบการติดตั้งแอปในเครื่อง</string>
     <string name="add_screen">เพิ่มหน้าจอ</string>
+    <string name="announce_for_choose_default_screen">ตั้งค่าหน้าจอ %1$d เป็นหน้าจอหลักเริ่มต้น</string>
+    <string name="announce_for_close_default_preview">ปิดการตั้งค่าหน้าจอหลักเริ่มต้นแล้ว</string>
+    <string name="announce_for_close_folder">ปิดโฟลเดอร์</string>
+    <string name="announce_for_close_launcher_menu">ปิดเมนูแล้ว</string>
+    <string name="announce_for_delete_gadget_and_widget">วิดเจ็ต</string>
+    <string name="announce_for_delete_item">%1$s ถูกลบแล้ว</string>
+    <string name="announce_for_drag_enter_delete_zone">ลากรายการไปยังการถอนการติดตั้ง</string>
+    <string name="announce_for_drag_enter_folder_grid">สามารถวางรายการลงในโฟลเดอร์ได้</string>
+    <string name="announce_for_drag_enter_workspace_thumbnail">ลากรายการไปยังหน้าตัวอย่างที่ %1$d</string>
+    <string name="announce_for_drop">วางใน %1$s แล้ว</string>
+    <string name="announce_for_drop_folder_grid_view">ในโฟลเดอร์ ตำแหน่งที่ %1$d</string>
+    <string name="announce_for_drop_folder_icon">ในโฟลเดอร์ %1$s</string>
+    <string name="announce_for_drop_hotseat">ในแถบ dock</string>
+    <string name="announce_for_drop_shortcut_icon">%1$s และ %2$s สร้างเป็นโฟลเดอร์</string>
+    <string name="announce_for_drop_thumbnail_container">ขณะนี้อยู่ที่ตัวอย่างหน้าจอที่ %1$d</string>
+    <string name="announce_for_drop_trash">ในการถอนการติดตั้ง</string>
+    <string name="announce_for_drop_workspace">หน้าที่ %1$d วรรคที่ %2$d บรรทัดที่ %3$d</string>
+    <string name="announce_for_edit_mode">เข้าโหมดแก้ไข</string>
+    <string name="announce_for_edit_mode_disable">เข้าโหมดแก้ไข</string>
+    <string name="announce_for_open_default_preview">เปิดการตั้งค่าหน้าจอหลักเริ่มต้น</string>
+    <string name="announce_for_open_folder">เปิดโฟลเดอร์ %1$s</string>
+    <string name="announce_for_open_launcher_menu">เปิดเมนูแล้ว</string>
+    <string name="announce_for_show_uninstall_dialog">มีการถอนการติดตั้งกล่องโต้ตอบ ยกเลิกหรือยืนยัน</string>
     <string name="app_already_exist">มีแอปนี้อยู่ในเครื่องแล้ว</string>
     <string name="app_being_backup_message">ระบบกำลังสำรองข้อมูลแอป</string>
     <string name="app_being_restored_message">กำลังเรียกคืนค่าแอป</string>
@@ -52,6 +76,9 @@
     <string name="confirm_uninstall_dialog_contain_xspace_app_msg">แอปที่โคลนไว้จะถูกถอนการติดตั้งไปพร้อมกัน</string>
     <string name="confirm_uninstall_dialog_has_xspace_app_msg">แอปที่โคลนไว้จะถูกถอนการติดตั้งไปพร้อมกัน</string>
     <string name="confirm_uninstall_dialog_title">แอปโคลนจะถูกถอนการติดตั้ง</string>
+    <string name="content_description_for_shortcut_icon_checked">%1$s เลือกแล้ว</string>
+    <string name="content_description_shortcut_icon_unchecked">%1$s ยังไม่เลือก</string>
+    <string name="content_description_workspace_thumbnail_item">ตัวอย่างหน้าจอ หน้า %1$s</string>
     <string name="current_preview">ภาพตัวอย่าง</string>
     <string name="current_wallpaper">ปัจจุบัน</string>
     <string name="custom_wallpaper_picker">เรียกดู</string>
@@ -70,7 +97,14 @@
     <string name="deselect_all">ไม่เลือกทั้งหมด</string>
     <string name="disable_wallpaper_scroll">ภาพพื้นหลังเลื่อนตามไม่ได้</string>
     <string name="download_action">ดาวน์โหลด</string>
+    <string name="drag_multiple_item_name" />
+    <string name="drag_single_item_name" />
     <string name="edit_folder_title">แก้ไขชื่อโฟลเดอร์</string>
+    <string name="edit_mode_group">กลุ่ม</string>
+    <string name="edit_mode_group_error_full">พื้นที่ว่างไม่เพียงพอ</string>
+    <string name="edit_mode_group_error_in_folder">ปิดโฟลเดอร์ก่อนที่จะจัดกลุ่มไอคอน</string>
+    <string name="edit_mode_group_error_one_folder">ไอคอนที่เลือกไม่สามารถทำโฟลเดอร์ซ้ำได้</string>
+    <string name="edit_mode_uninstall">ถอนการติดตั้ง</string>
     <string name="editing_add_widget_tips">แก้ไขวิดเจ็ต</string>
     <string name="editing_mode_enter_tip_text">จีบนิ้วเข้าเพื่อแก้ไขหน้าจอหลัก</string>
     <string name="editing_mode_title_empty">เลือกไว้ 0 รายการ</string>
@@ -107,6 +141,7 @@
     <string name="gadget_clock_12_label">นาฬิกา 2x1</string>
     <string name="gadget_clock_14_label">นาฬิกา 4x1</string>
     <string name="gadget_clock_24_label">นาฬิกา 4x2</string>
+    <string name="gadget_clock_34_label">นาฬิกา 4x3</string>
     <string name="gadget_clock_label">นาฬิกา</string>
     <string name="gadget_error_text">ไม่สามารถโหลดวิดเจ็ตได้</string>
     <string name="gadget_google_search_label">ค้นหาด้วย Google</string>
@@ -155,6 +190,8 @@
     <string name="lock_screen_failed_message">กำหนดภาพพื้นหลังหน้าจอล็อกไม่ได้</string>
     <string name="lock_screen_success_message">ใช้เป็นหน้าจอล็อกแล้ว</string>
     <string name="lock_screen_wallpaper">ภาพพื้นหลังหน้าจอล็อก</string>
+    <string name="memory_clear_nothing_result">ไม่มีแคชให้ล้างแล้ว</string>
+    <string name="memory_clear_result">ทำความสะอาดแล้ว %1$sB</string>
     <string name="menu_add">เพิ่ม</string>
     <string name="menu_auto_fill">เติมเต็มเซลล์ที่ว่างเปล่า</string>
     <string name="menu_back_desktop">กลับไปยังหน้าจอหลัก</string>
@@ -213,11 +250,14 @@
     <string name="pref_wallpaper_scroll_type_title">ตำแหน่งภาพพื้นหลัง</string>
     <string name="preferences_general_title">การตั้งค่าเพิ่มเติม</string>
     <string name="preferences_title">การตั้งค่าชุดเรียกใช้ระบบ</string>
+    <string name="recommend_apk_size_and_desc">%1$dMB | %2$s</string>
     <string name="recommend_apps_default_title">ว่าง</string>
+    <string name="recommend_apps_no_data">ไม่มีข้อมูล</string>
     <string name="recommend_apps_notice">แอปที่แนะนำ</string>
     <string name="recommend_apps_notice_nodata">แอปที่แนะนำ (ไม่มีข้อมูล)</string>
     <string name="recommend_apps_switch_title">แอปที่แนะนำ</string>
     <string name="recommend_apps_tips">คุณลักษณะนี้จำเป็นต้องเชื่อมต่อกับอินเตอร์เน็ตเพื่อการใช้งานที่ปกติ โดยสามารถแตะที่ชื่อของโฟลเดอร์เพื่อปิดใช้งาน</string>
+    <string name="recommend_loading">กำลังโหลด</string>
     <string name="reset_scene_prompt">หน้าจอจะรีเซ็ตการจัดหน้าเป็นค่าเริ่มต้น</string>
     <string name="screen_locked_toast">การจัดเรียงหน้าจอหลักล็อกอยู่</string>
     <string name="screen_number">หน้าจอที่ %d</string>
@@ -288,4 +328,5 @@
     <string name="recents_config_title">ล่าสุด</string>
     <string name="screen_cells_config_title">รูปแบบหน้าจอหลัก</string>
     <string name="show_mem_info_title">แสดงสถานะหน่วยความจำ</string>
+    <string name="title_jeejen">Jeejen หน้าจอหลัก</string>
 </resources>

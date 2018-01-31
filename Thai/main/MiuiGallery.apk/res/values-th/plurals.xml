@@ -6,6 +6,12 @@
     <plurals name="add_to_album_cloud_photo_count_tip">
         <item quantity="other">เพิ่ม %d รูปภาพคลาวด์แล้ว ปิดใช้งาน \"แสดงอัลบั้มในเครื่องเท่านั้น\" เพื่อเรียกดู</item>
     </plurals>
+    <plurals name="add_to_album_failed_with_reason_and_count">
+        <item quantity="other">ไม่สามารถเพิ่ม %1$s รายการไปยังอัลบั้มได้ เนื่องจาก %2$d</item>
+    </plurals>
+    <plurals name="add_to_secret_failed_with_reason_and_count">
+        <item quantity="other">ไม่สามารถเพิ่ม %2$d รายการไปยังอัลบั้มที่ซ่อนได้ เนื่องจาก %1$s.</item>
+    </plurals>
     <plurals name="age_day">
         <item quantity="other">%d วัน</item>
     </plurals>
@@ -90,6 +96,9 @@
     <plurals name="face_count">
         <item quantity="other">รวมทั้งหมด %d รูป</item>
     </plurals>
+    <plurals name="fail_reason_processing_file">
+        <item quantity="other">กำลังประมวลภาพ…</item>
+    </plurals>
     <plurals name="fast_share_auto_render_failed">
         <item quantity="other">ข้าม %1$d รูปภาพที่ไม่สามารถแสดงผลได้</item>
     </plurals>
@@ -153,6 +162,9 @@
     <plurals name="remind_face_recommend_confirm_text">
         <item quantity="other">รวมทั้งหมด %d รูป</item>
     </plurals>
+    <plurals name="remove_from_secret_failed_with_reason_and_count">
+        <item quantity="other">ไม่สามารถเพิ่มรูปภาพ %2$d รูปไปยังอัลบั้มซ่อนได้ เนื่องจาก %1$s</item>
+    </plurals>
     <plurals name="search_feedback_done_mark_and_contribute_false_negative">
         <item quantity="other">เพิ่มแล้ว %1$d รูปภาพไปยัง \"%2$s\" และเพิ่มไปยังฐานข้อมูลแล้ว</item>
     </plurals>
@@ -164,6 +176,18 @@
     </plurals>
     <plurals name="search_feedback_done_mark_false_positive">
         <item quantity="other">ลบ %1$d รูปภาพจาก \"%2$s\"</item>
+    </plurals>
+    <plurals name="send_processing_files_error">
+        <item quantity="other">ไม่สามารถแชร์ กำลังประมวลผล %d ภาพ …</item>
+    </plurals>
+    <plurals name="slim_complete_photo_count">
+        <item quantity="other">เพิ่มประสิทธิภาพ %d รูปภาพ</item>
+    </plurals>
+    <plurals name="slim_exit_dialog_message">
+        <item quantity="other">%d รูปภาพยังไม่ได้เพิ่มประสิทธิภาพ หยุดตอนนี้หรือไม่?</item>
+    </plurals>
+    <plurals name="slim_remain_photo_count">
+        <item quantity="other">เหลืออีก %d รูป</item>
     </plurals>
     <plurals name="sync_error_title">
         <item quantity="other">มี %d รูปภาพและวิดีโอยังไม่ได้สำรองข้อมูล</item>

@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="announce_for_drag">
+        <item quantity="other">กำลังลาก %1$d รายการ</item>
+    </plurals>
     <plurals name="delete_wallpapers_message">
         <item quantity="other">ลบภาพพื้นหลัง %1$d ภาพ?</item>
     </plurals>

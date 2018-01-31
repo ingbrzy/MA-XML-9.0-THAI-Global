@@ -422,6 +422,7 @@
     <string name="wechat_qq_normal_files">ขยะ</string>
     <string name="wechat_cache_files">หน่วยความจำแคช WeChat</string>
     <string name="qq_cache_files">หน่วยความจำแคช QQ</string>
+    <string name="wechat_qq_activity_title">ทำความสะอาดเชิงลึก</string>
     <string name="wechat_qq_chat_files">ประวัติแชท</string>
     <string name="analying">กำลังวิเคราะห์…</string>
     <string name="open_file_error">ไม่พบแอปที่ใช้เปิดไฟล์นี้</string>
@@ -492,4 +493,8 @@
     <string name="wq_deep_clean_filter_month_ago">1 เดือนก่อน</string>
     <string name="wq_deep_clean_filter_three_month_ago">3 เดือนก่อน</string>
     <string name="wq_deep_clean_filter_years_ago">6 เดือนก่อน</string>
+    <string name="auto_clean_time_every_day">ทุกวัน</string>
+    <string name="auto_clean_time_three_day">ทุก 3 วัน</string>
+    <string name="auto_clean_time_seven_day">ทุก 7 วัน</string>
+    <string name="auto_clean_time_fifteen_day">ทุก 15 วัน</string>
 </resources>

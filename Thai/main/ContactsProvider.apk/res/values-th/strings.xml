@@ -28,4 +28,5 @@
     <string name="call_log_provider_label">ประวัติการโทร</string>
     <string name="third_party_delete_contact_info">\"%s\" กำลังพยายามลบผู้ติดต่อของคุณ การดำเนินการนี้จะไม่สำเร็จเมื่อใช้แอปในค่ายอื่น หากต้องการลบผู้ติดต่อควรใช้แอปที่อยู่ในรายชื่อ MIUI</string>
     <string name="low_memory_toast">ไม่สามารถดำเนินการต่อได้ เนื่องจากหน่วยความจำเหลือน้อย</string>
+    <string name="update_accounts_changed">บัญชีมีการเปลี่ยนแปลง</string>
 </resources>

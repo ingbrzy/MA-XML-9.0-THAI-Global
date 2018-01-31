@@ -2,6 +2,7 @@
 <resources>
     <string name="welcome">ยินดีต้อนรับ</string>
     <string name="app_name">บทบัญญัติ</string>
+    <string name="system_navigation_mode">โหมดนำทางระบบ</string>
     <string name="input_method_setting">เลือกแป้นพิมพ์</string>
     <string name="input_method_category">กรุณาเลือกแป้นพิมพ์ที่คุณต้องการใช้เป็นค่าเริ่มต้นในการเขียนข้อความ, บันทึกย่อหรืออื่นๆ คุณสามารถเลือกติดตั้งแป้นพิมพ์ภายนอกเพิ่มได้ในภายหลัง</string>
     <string name="provision_inputmethod_policy_description">"
@@ -13,6 +14,7 @@
     <string name="sim_card_detecting_title">ตรวจสอบซิมการ์ด</string>
     <string name="sim_card_detection_info">กรุณาใส่ซิมการ์ดและอ่านคำแนะนำที่ได้รับมาพร้อมกับอุปกรณ์ของคุณ</string>
     <string name="sim_card_detecting">กำลังตรวจหาซิมการ์ด…</string>
+    <string name="sim_card_detecting_check">ไม่พบซิมการ์ด ตรวจสอบให้แน่ใจว่าซิมการ์ดถูกติดตั้งอย่างเหมาะสม และตรวจสอบว่ามียอดเงินคงเหลืออยู่</string>
     <string name="other_settings">ตั้งค่าเพิ่มเติม</string>
     <string name="other_settings_location">ตำแหน่งพิกัด</string>
     <string name="other_settings_location_summary">อนุญาตให้แอปเข้าถึงตำแหน่งพิกัดของคุณ</string>
@@ -28,6 +30,7 @@
     <string name="sim_dectection_next">ทำต่อ</string>
     <string name="shut_down">ปิดเครื่อง</string>
     <string name="sim_redetection">ตรวจสอบอีกครั้ง</string>
+    <string name="navigation_picker_gesture_guide">แนะนำท่าทาง</string>
     <string name="congratulation_title">ตั้งค่าเสร็จสิ้น</string>
     <string name="congratulation_label">ไปลองใช้กันเลย!</string>
     <string name="pref_title_voice_slot">ซิมที่ใช้โทรออกเป็นหลัก</string>
@@ -38,7 +41,10 @@
     <string name="terms_of_use">ข้อตกลงและเงื่อนไข</string>
     <string name="terms_of_use_label">"บริษัทเคารพถึงความเป็นส่วนตัวของคุณ กรุณาศึกษาข้อกำหนดในการให้บริการและนโยบายความเป็นส่วนตัวให้เข้าใจว่าข้อมูลใดที่เราจัดเก็บ วิธีที่นำข้อมูลนั้นไปใช้และตัวเลือกที่คุณสามารถกำหนดได้เอง 
 
- คุณต้องยอมรับข้อกำหนดในการให้บริการและนโยบายส่วนบุคคลของเราก่อนจึงจะสามารถใช้งานระบบ MIUI การใช้บริการ Mi การเปิดใช้งานบริการ Mi ซิม, Mi คลาวด์, ค้นหาอุปกรณ์ โมดูลหน้าจอหลัก, บริการเกม, ส่วนประกอบของระบบ, MAB และ MSA, บริการโดยตรง, สถิติ, MiSmartCards, ข้อมูลการช่วยเหลือ MiLink และส่วนประกอบบัญชี Mi จำต้องเชื่อมต่อกับอินเทอร์เน็ตและเข้าถึงตำแหน่งพิกัดของคุณ"</string>
+ คุณต้องยอมรับข้อกำหนดในการให้บริการและนโยบายส่วนบุคคลของเราก่อนจึงจะสามารถใช้งานระบบ MIUI การใช้บริการ Mi การเปิดใช้งานบริการ Mi ซิม, Mi คลาวด์, ค้นหาอุปกรณ์ โมดูลหน้าจอหลัก, บริการเกม, ส่วนประกอบของระบบ, MAB, MiuiDaemon และ MSA, App vault, สถิติ, MiSmartCards, ข้อมูลการช่วยเหลือ MiLink และส่วนประกอบบัญชี Mi จำต้องเชื่อมต่อกับอินเทอร์เน็ตและเข้าถึงตำแหน่งพิกัดของคุณ"</string>
+    <string name="terms_of_use_label_gms">"บริษัทเคารพถึงความเป็นส่วนตัวของคุณ กรุณาศึกษาข้อกำหนดในการให้บริการและนโยบายความเป็นส่วนตัวให้เข้าใจว่าข้อมูลใดที่เราจัดเก็บ วิธีที่นำข้อมูลนั้นไปใช้และตัวเลือกที่คุณสามารถกำหนดได้เอง 
+
+ คุณต้องยอมรับข้อกำหนดในการให้บริการและนโยบายส่วนบุคคลของเราก่อนจึงจะสามารถใช้งานระบบ MIUI การใช้บริการ Mi การเปิดใช้งานบริการ Mi ซิม, Mi คลาวด์, ค้นหาอุปกรณ์ โมดูลหน้าจอหลัก, บริการเกม, ส่วนประกอบของระบบ, MAB, MiuiDaemon และ MSA, App vault, สถิติ, บัตรอัจฉริยะ, ข้อมูลการช่วยเหลือ MiLink บัญชี Mi และบริการ Google Play จำต้องเชื่อมต่อกับอินเทอร์เน็ตและเข้าถึงตำแหน่งพิกัดของคุณ"</string>
     <string name="user_agreement">ข้อตกลงและเงื่อนไขการใช้งาน</string>
     <string name="privacy_policy">นโยบายความเป็นส่วนตัว</string>
     <string name="application_permissions">การอนุญาตแอป</string>
@@ -63,6 +69,9 @@
     <string name="content_description_complete">เสร็จสมบูรณ์</string>
     <string name="language_picker_other_languages_title">ภาษาเพิ่มเติม</string>
     <string name="language_settings">เลือกภาษา</string>
+    <string name="navigation_picker_radio_text_full_screen">โหมดเต็มจอ</string>
+    <string name="navigation_picker_radio_text_virtual_key">โหมดคีย์เสมือน</string>
+    <string name="congratulation_swipe">ปัดขึ้นเพื่อเข้าสู่ระบบ</string>
     <string name="enable_accessibility_dialog_message">แตะสองนิ้วบนหน้าจอค้างไว้ 10 วิ เพื่อเปิด TalkBack, TalkBack ให้การตอบรับด้วยเสียงสำหรับผู้ที่มีความบกพร่องทางสายตา ถ้าคุณเปิดใช้งานโดยไม่ได้ตั้งใจให้แตะปุ่มยกเลิกแล้วแตะสองครั้งที่หน้าจอ</string>
     <string name="enable_accessibility_dialog_positive_btn">ตกลง</string>
     <string name="enable_accessibility_dialog_negative_btn">ยกเลิก</string>
@@ -71,4 +80,6 @@
     <string name="enable_accessibility_canceled">ยกเลิกสิ่งอำนวยความสะดวกแล้ว</string>
     <string name="accessibility_enabled">เปิดใช้สิ่งอำนวยความสะดวกแล้ว</string>
     <string name="continue_to_enable_accessibility">แตะสองนิ้วค้างเพื่อเปิดใช้งานสิ่งอำนวยความสะดวก</string>
+    <string name="voice_assist_title">ปลุกด้วยเสียง</string>
+    <string name="voice_assist_desp">พูด \"Mi AI\" ลงในโทรศัพท์ของคุณ Mi AI จะจดจำเสียงของคุณและจะสามารถควบคุมอุปกรณ์ของคุณได้</string>
 </resources>

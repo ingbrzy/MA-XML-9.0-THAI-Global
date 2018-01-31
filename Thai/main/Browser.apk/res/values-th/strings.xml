@@ -167,6 +167,7 @@
     <string name="color_picker_dialog_title">เลือกสี</string>
     <string name="color_picker_hue">โทนสี</string>
     <string name="color_picker_saturation">ความอิ่มตัวของสี</string>
+    <string name="color_picker_value">ค่า</string>
     <string name="comment_app_menu">ความคิดเห็น</string>
     <string name="comment_description">ความคิดเห็น</string>
     <string name="comment_hint">ความคิดเห็น</string>
@@ -194,7 +195,7 @@
     <string name="contextmenu_webpage_capture">บันทึกเป็นภาพหน้าจอ</string>
     <string name="contextmenu_webpage_html">บันทึกเป็นไฟล์ HTML</string>
     <string name="contextmenu_webpage_snapshot">บันทึกหน้าเพจ</string>
-    <string name="copy_to_clipboard_failure_message">ไม่สามารถคัดลอกไปยังคลิปบอร์ดได้</string>
+    <string name="copy_to_clipboard_failure_message">ไม่สามารถบันทึกไปยังคลิปบอร์ดได้</string>
     <string name="copy_url">คัดลอก URL</string>
     <string name="create_qr_code">รหัส QR</string>
     <string name="current_version_pad">แพด</string>
@@ -203,7 +204,7 @@
     <string name="custom_head_card_text">เชื่ออยู่เสมอว่าสิ่งดีๆ กำลังจะเกิดขึ้น</string>
     <string name="custom_head_card_text_incognito">"คุณอยู่ในโหมดไม่ระบุตัวตน!
 หน้าที่คุณเปิดจะไม่ปรากฏอยู่ในประวัติการเข้าชม"</string>
-    <string name="data_traffic_prompt_change">การชมวิดีโอนี้ผ่านเครือข่ายข้อมูลมือถือต้องใช้ปริมาณการถ่ายโอนข้อมูลสูง ซึ่งหากใช้เกินกว่าที่แพ็คเกจจำกัดไว้ อาจทำให้คุณต้องเสียค่าบริการเพิ่มเติมให้แก่ผู้ให้บริการเครือข่าย</string>
+    <string name="data_traffic_prompt_change">การรับชมวิดีโอนี้ผ่านเครือข่ายข้อมูลมือถือต้องใช้ปริมาณการถ่ายโอนข้อมูลสูง ซึ่งหากใช้ไปเกินแพ็คเกจที่กำหนดแล้วอาจทำให้คุณต้องเสียค่าบริการที่เพิ่มขึ้นให้แก่ผู้ให้บริการเครือข่าย</string>
     <string name="data_traffic_prompt_message">การเลือกดูวิดีโอผ่านเครือข่ายมือถือต้องใช้ปริมาณการถ่ายโอนข้อมูลสูง ซึ่งหากใช้เกินกว่าแพ็คเกจที่กำหนดไว้ อาจทำให้คุณต้องเสียค่าบริการที่เพิ่มขึ้นให้แก่ผู้ให้บริการเครือข่าย</string>
     <string name="data_traffic_prompt_message_short">การใช้ข้อมูลมือถือในการสตรีมวิดีโออาจทำให้การใช้ข้อมูลของคุณเกินกว่าแพ็คเกจที่กำหนด</string>
     <string name="data_traffic_prompt_title">แจ้งเตือนการใช้ข้อมูล</string>
@@ -333,6 +334,8 @@
     <string name="hint">คำแนะนำ</string>
     <string name="history">ประวัติ</string>
     <string name="home_description">หน้าแรก</string>
+    <string name="home_page_news_feed">ฟีดข่าวใหม่</string>
+    <string name="home_page_top_sites">เว็บไซต์ยอดนิยม</string>
     <string name="homepage_delete_card_menu">ลบ</string>
     <string name="homepage_get_location">ขอตำแหน่งพิกัด</string>
     <string name="homepage_get_location_failed">ไม่พบข้อมูล กรุณาเลือกชื่อเมือง</string>
@@ -366,7 +369,7 @@
     <string name="loading_tips">ลากลงเพื่อรีเฟรชหน้าจอ</string>
     <string name="local_bookmarks">Mi</string>
     <string name="login_failed_toast">ไม่สามารถเข้าสู่ระบบได้ รีเฟรชและลองใหม่</string>
-    <string name="low_memory_error">การจัดการงานไม่สมบูรณ์เนื่องจากหน่วยความจำเหลือน้อย</string>
+    <string name="low_memory_error">การดำเนินการก่อนหน้านี้ไม่สำเร็จเนื่องจากหน่วยความจำในเครื่องไม่เพียงพอ.</string>
     <string name="low_memory_toast">บราวเซอร์ไม่สามารถใช้งานได้ เนื่องจากหน่วยความจำเหลือน้อย</string>
     <string name="max_tabs_warning">ไม่สามารถเปิดแท็ปเพิ่มได้อีก</string>
     <string name="maximum_input_alert">รองรับได้ไม่เกิน 2048 ตัวอักษร</string>
@@ -380,9 +383,9 @@
     <string name="media_error_timeout">ขาดการเชื่อมต่อกับเครือข่ายภายในเวลาที่กำหนด</string>
     <string name="media_error_video_not_exist">ไม่พบวิดีโอนี้</string>
     <string name="media_player_error_button">ตกลง</string>
-    <string name="media_player_error_text_invalid_progressive_playback">ขออภัย วิดีโอนี้ไม่สามารถเล่นบนอุปกรณ์นี้ได้</string>
-    <string name="media_player_error_text_unknown">ขออภัยไม่สามารถเล่นวีดีโอนี้ได้</string>
-    <string name="media_player_error_title">ไม่สามารถเล่นวีดีโอได้</string>
+    <string name="media_player_error_text_invalid_progressive_playback">วิดีโอนี้ไม่สามารถเล่นบนอุปกรณ์นี้ได้</string>
+    <string name="media_player_error_text_unknown">ไม่สามารถเล่นวิดีโอนี้ได้</string>
+    <string name="media_player_error_title">ไม่สามารถเล่นวิดีโอได้</string>
     <string name="media_player_loading_video">กำลังโหลดวีดีโอ</string>
     <string name="menu_addtodesk">เพิ่มไปยังหน้าจอหลัก</string>
     <string name="menu_exit_nightmode">ออก</string>
@@ -478,7 +481,7 @@
     <string name="miuichromium_error_page_suggestion_clear_cache_and_cookies" formatted="false">ล้างหน่วยความจำแคชและคุ้กกี้ (%s1การตั้งค่า%s2 - ล้างข้อมูล) นี่อาจทำให้ข้อมูลการเข้าใช้ต่างๆของคุณหายไป</string>
     <string name="miuichromium_error_page_suggestion_clear_cache_and_cookies_no_invoke">ล้างหน่วยความจำแคชและคุ๊กกี้ (ข้อมูลบัญชีของคุณอาจถูกลบ)</string>
     <string name="miuichromium_error_page_suggestion_clear_cache_no_invoke">ล้างหน่วยความจำแคช</string>
-    <string name="miuichromium_error_page_suggestion_connect_and_retry">โหลดใหม่หลังจากเชื่อมต่ออินเตอร์เน็ต.</string>
+    <string name="miuichromium_error_page_suggestion_connect_and_retry">โหลดใหม่หลังจากเชื่อมต่ออินเตอร์เน็ต</string>
     <string name="miuichromium_error_page_suggestion_contact_admin">ติดต่อแอดมินระบบของคุณ</string>
     <string name="miuichromium_error_page_suggestion_correct_url">ตรวจสอบและป้อนที่อยู่ URL ที่ถูกต้องใหม่</string>
     <string name="miuichromium_error_page_suggestion_grant_permission">โหลดใหม่หลังจากเปิดสิทธิ์การเข้าถึงการใช้งานอินเตอร์เน็ตของเบราว์เซอร์</string>
@@ -652,7 +655,7 @@
     <string name="pref_version_info">ข้อมูลเวอร์ชั่น</string>
     <string name="pref_volume_key_action">เลื่อนหน้าด้วยปุ่มปรับระดับเสียง</string>
     <string name="private_browsing_warning">การใช้งานนี้ไม่รองรับโดยระบบปฏิบัติการแอนดรอยด์รุ่นที่คุณกำลังใช้อยู่</string>
-    <string name="profiler_error_toast">ไม่สามารถเริ่มโปรไฟล์ได้</string>
+    <string name="profiler_error_toast">ไม่สามารถเริ่มตัวสร้างโปรไฟล์ได้</string>
     <string name="profiler_no_storage_toast">ไม่สามารถเริ่มใช้โปรไฟล์ได้เนื่องจากที่เก็บข้อมูลภายนอกไม่พร้อมใช้งาน</string>
     <string name="profiler_started_toast">เริ่มต้นใช้โปรไฟล์แล้ว</string>
     <string name="profiler_stopped_toast">ตั้งโปรไฟล์สำเร็จ ผลลัพธ์ในอีก %1$s</string>
@@ -804,7 +807,7 @@
     <string name="suggest_access_btn_view">เรียกดู</string>
     <string name="suggest_access_item_app_size">%.2fMB</string>
     <string name="suggest_access_item_app_update">อัพเดท: %s</string>
-    <string name="suggest_access_music">เพลง Mi</string>
+    <string name="suggest_access_music">Mi เพลง</string>
     <string name="suggest_item_delete_text">ลบ</string>
     <string name="suggest_open_app_failed">ไม่สามารถเปิดแอปนี้ได้</string>
     <string name="switchText">ใช่</string>
@@ -829,7 +832,7 @@
     <string name="unsecurity_url_toast">เว็บไซต์นี้ไม่ปลอดภัย</string>
     <string name="up_to_loading_tips">ปล่อยเพื่อรีเฟรช</string>
     <string name="update_no_network_toast">ไม่สามารถเชื่อมต่อกับเครือข่ายได้</string>
-    <string name="updating_chrome">กำลังอัพเดทโคม...</string>
+    <string name="updating_chrome">กำลังอัพเดทโคม‧</string>
     <string name="uploads_disabled">การอัพโหลดไฟล์ถูกปิดใช้งาน</string>
     <string name="url_copy_done">คัดลอก URL ไปยังคลิปบอร์ดแล้ว</string>
     <string name="url_find_on_page_result">ดูในเบราเซอร์</string>

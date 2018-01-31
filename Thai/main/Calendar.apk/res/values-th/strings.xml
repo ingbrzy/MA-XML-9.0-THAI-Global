@@ -12,7 +12,7 @@
     <string name="acct_not_synced">บัญชีนี้ไม่ได้รับการซิงค์ได้ ปฏิทินของคุณอาจไม่ได้รับการอัพเดตให้เป็นปัจจุบัน</string>
     <string name="acessibility_selected_marker_description">เลือกกิจกรรมแล้ว</string>
     <string name="agenda_today">วันนี้ %1$s</string>
-    <string name="agenda_tomorrow">พรึุ่งนี้ %1$s</string>
+    <string name="agenda_tomorrow">พรุ่งนี้ %1$s</string>
     <string name="agenda_view">กิจกรรม</string>
     <string name="agenda_yesterday">เมื่อวานนี้ %1$s</string>
     <string name="alert_title">การแจ้งเตือนปฏิทิน</string>
@@ -25,7 +25,7 @@
 
 • เข้าถึงได้จากเว็บเบราเซอร์ใดก็ได้ 
 • สำรองข้อมูลกิจกรรมของคุณอย่างปลอดภัย."</string>
-    <string name="creating_event">เพิ่มกิจกรรมแล้ว</string>
+    <string name="creating_event">สร้างกิจกรรมแล้ว</string>
     <string name="creating_event_with_guest">กำลังส่งคำเชิญ…</string>
     <string name="daily">ทุกวัน</string>
     <string name="date_time_fmt" formatted="false">%s, %s</string>
@@ -109,7 +109,9 @@
     <string name="yearly">ประจำทุกปี (ทุกวันที่ %s ของทุกปี)</string>
     <string name="yearly_plain">ทุกปี</string>
     <string name="account_and_calendar">บัญชี</string>
+    <string name="action_bar_date_button_title">วันที่คำนวณ</string>
     <string name="action_bar_more_menu_view_description">เพิ่มเติม</string>
+    <string name="action_bar_return">ย้อนกลับ</string>
     <string name="action_text_card_manager">ช่อง</string>
     <string name="action_text_today">วันนี้</string>
     <string name="add_anniversary">เพิ่มครบรอบวันสำคัญ</string>
@@ -162,6 +164,8 @@
     <string name="date_calculate_days">ป้อนจำนวนวัน</string>
     <string name="date_calculate_description">คำนวนว่าก่อนและหลังจากวันใดๆเป็นวันอะไร</string>
     <string name="date_calculate_direction">ทิศทาง</string>
+    <string name="date_calculate_direction_content_description">ทิศทางปัจจุบัน:%1s.</string>
+    <string name="date_calculate_hint">คำนวนว่ากี่วันข้างหน้าเป็นวันอะไร</string>
     <string name="date_calculate_result">ผลลัพธ์</string>
     <string name="date_calculate_tab">วันที่คำนวณ</string>
     <string name="date_calculate_today">0 วัน</string>
@@ -171,6 +175,8 @@
     <string name="date_interval_start">จาก</string>
     <string name="date_interval_tab">ช่วงเวลา</string>
     <string name="date_interval_text_to">ถึง %1$s</string>
+    <string name="date_jump_hint">ข้ามไปที่วันใดวันหนึ่ง</string>
+    <string name="date_jump_title">ระบุวัน</string>
     <string name="date_today">" (วันนี้)"</string>
     <string name="default_reminder_mode">การเตือนกำหนดการ</string>
     <string name="delete_calendar">ยกเลิกการสมัคร</string>
@@ -245,15 +251,14 @@
     <string name="install_email_finished">ติดตั้งเสร็จสิ้น</string>
     <string name="installing_email">กำลังติดตั้ง…</string>
     <string name="item_num_selected">เลือกแล้ว%1$dรายการ</string>
-    <string name="jump_date_full">ระบุวัน</string>
-    <string name="load_more_hint">รีเฟรชกิจกรรมของ %1$d</string>
+    <string name="load_more_hint">โหลดกิจกรรมจาก %1$d</string>
     <string name="local_calendar_display_name">ปฎิทินในเครื่อง</string>
     <string name="local_owner_account_name">บันทึกไว้ในเครื่องแล้ว</string>
     <string name="lunar_date">วันทางจันทรคติ</string>
     <string name="match_select_activity_label">ลีก</string>
     <string name="menu_reminder_preferences">การเตือน</string>
     <string name="missing_name">(ไม่มีชื่อ)</string>
-    <string name="missing_required_permission">คุณถูกปิดใช้งานสิทธิ์ที่จำเป็น</string>
+    <string name="missing_required_permission">คุณถูกจำกัดสิทธิ์ที่จำเป็น</string>
     <string name="month_medium_april">เมษา</string>
     <string name="month_medium_august">สิงหา</string>
     <string name="month_medium_december">ธันวา</string>
@@ -307,9 +312,9 @@
     <string name="preferences_default_allday_reminder_title">ค่าเริ่มต้นเวลาแจ้งเตือนทั้งวัน</string>
     <string name="preferences_notification_ringtone_title">เสียง</string>
     <string name="preferences_week_start_day_default">-1</string>
-    <string name="pull_to_refresh_hint">ลากเพื่อรีเฟรชกิจกรรมของ %1$d</string>
+    <string name="pull_to_refresh_hint">ลากเพื่อโหลดกิจกรรมจาก %1$d</string>
     <string name="refresh">รีเฟรช</string>
-    <string name="refreshing_hint">กำลังรีเฟรช</string>
+    <string name="refreshing_hint">รอสักครู่…</string>
     <string name="repeat_activity_label">กำหนดการซ้ำ</string>
     <string name="repeat_custom_activity_label">กำหนดเอง</string>
     <string name="repeat_custom_prompt">ทุกวันที่ %2$s ในทุกๆ %1$s</string>
@@ -352,6 +357,7 @@
     <string name="setting_others">เพิ่มเติม</string>
     <string name="setting_title_about">เกี่ยวกับ</string>
     <string name="setting_title_holiday_display">แสดงวันหยุด</string>
+    <string name="share_title">แชร์</string>
     <string name="start_date_calculate">คำนวณ</string>
     <string name="subscribe_card">สมัครทันที</string>
     <string name="subscribe_card_success">สมัครแล้ว! ตรวจสอบรายละเอียดในหน้าแรก</string>
@@ -368,6 +374,11 @@
     <string name="subscribe_channel_subscribing">กำลังสมัคร</string>
     <string name="subscribe_channel_title">ช่อง</string>
     <string name="subscribing_card">กำลังสมัคร</string>
+    <string name="tab_title_agenda">กิจกรรม</string>
+    <string name="tab_title_day">วัน</string>
+    <string name="tab_title_month">เดือน</string>
+    <string name="tab_title_week">สัปดาห์</string>
+    <string name="talk_back_read_date">วันที่ปัจจุบัน: %1$s (%2$s ตามปฏิทินจันทรคติ)</string>
     <string name="template_week_num">สัปหาห์ที่ %1$s</string>
     <string name="time_zone">เขตเวลา</string>
     <string name="today_no_events">ไม่มีกำหนดการ</string>
@@ -407,7 +418,6 @@
     <string name="user_notification">การแจ้งเตือน</string>
     <string name="user_notification_descrip">แสดงการแจ้งเตือนทุกครั้งที่คุณเปิดใช้ปฏิทิน</string>
     <string name="view_in_month_view">เรียกดูเดือน</string>
-    <string name="week_view_today_toast">คุณกำลังดูปฏิทินของสัปดาห์นี้</string>
     <string name="widget_events">กำหนดการถัดไป</string>
     <string name="widget_get_weather_info">เรียกดูข้อมูลสภาพอากาศ</string>
     <string name="widget_no_events">ไม่มีกำหนดการ</string>

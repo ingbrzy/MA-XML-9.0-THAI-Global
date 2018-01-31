@@ -18,13 +18,9 @@
     <string name="cloud_backup_detail_title">หน้าจอหลัก แอป และการตั้งค่า</string>
     <string name="cloud_backup_detail_state_summary">สร้างการสำรองข้อมูล Mi คลาวด์ โดยอัตโนมัติเมื่อเชื่อมต่อกับ Wi-Fi</string>
     <string name="cloud_backup_detail_frequence">ตารางเวลาการสำรองข้อมูล</string>
-    <string name="cloud_back_up_interval_long">7 วัน</string>
-    <string name="cloud_back_up_interval_short">วัน</string>
-    <string name="cloud_backup_detail_frequence_day">สำรองข้อมูลทุก %1$s</string>
     <string name="cloud_backup_detail_time">สำรองข้อมูลครั้งสุดท้าย: %1$s</string>
     <string name="cloud_backup_detail_manage">จัดการสำรองข้อมูล</string>
-    <string name="cloud_backup_detail_manage_summary">%1$s สำรองข้อมูล ขนาด:%2$s</string>
-    <string name="backup_size_summary">ขนาด:%1$s</string>
+    <string name="cloud_backup_derail_size_summary">ขนาด: %s</string>
     <string name="cloud_back_up_opening">รอสักครู่…</string>
     <string name="cloud_back_up_no_network_warn">ไม่สามารถเชื่อมต่อกับ Wi-Fi</string>
     <string name="cloud_back_up_ok_btn">ตกลง</string>
@@ -52,7 +48,7 @@
     <string name="process_whole_recovery">กำลังเรียกคืนค่า \"%s\"</string>
     <string name="device_xiaomi">Mi Phone</string>
     <string name="device_corrupt">Mi Phone (ข้อมูลเสียหาย)</string>
-    <string name="size_unknown">ไม่ทราบขนาด</string>
+    <string name="size_unknown">ขนาดที่ไม่รู้จัก</string>
     <string name="recovering">กำลังเรียกคืนค่า %s</string>
     <string name="start_recover">เรียกคืนค่า %s</string>
     <string name="latest_backup_time_loading">กำลังโหลด…</string>
@@ -130,7 +126,7 @@
     <string name="can_not_restore_in_lite_mode">ไม่สามารถเรียกคืนค่าโหมดง่ายได้</string>
     <string name="can_not_backup_in_lite_mode">ไม่สามารถสำรองข้อมูลโหมดง่ายได้</string>
     <string name="restore_data_title">คืนค่าข้อมูล</string>
-    <string name="provision_error_connect_msg">คุณสามารถทดสอบเครือข่ายและลองอีกครั้ง ฟังก์ชั่นการสำรองข้อมูลจะไม่สามารถใช้ได้หากไม่มีเครือข่าย</string>
+    <string name="provision_error_connect_msg">ทดสอบเครือข่ายและลองใหม่ การสำรองข้อมูลไม่สามารถใช้ได้เมื่ออุปกรณ์ของคุณออฟไลน์</string>
     <string name="provision_error_connect_title">ไม่สามารถเชื่อมต่อได้</string>
     <string name="authentication_failed">ไม่สามารถยืนยันบัญชีได้</string>
     <string name="no_account">ยังไม่ได้ลงชื่อเข้าใช้บัญชี Mi</string>
@@ -146,6 +142,10 @@
     <string name="download_meta_again">ไม่สามารถโหลดสำรองข้อมูลได้ ลองอีกครั้ง.</string>
     <string name="cancel_restore_home">กำลังยกเลิก…</string>
     <string name="cancel_backup">กำลังยกเลิกการสำรองข้อมูล…</string>
+    <string name="dialog_title_require_wlan">เชื่อมต่อ​ Wi-Fi</string>
+    <string name="dialog_msg_restore_require_wlan">การเรียกคืนข้อมูลสำรองจำเป็นต้องเชื่อมต่อกับ Wi-Fi</string>
+    <string name="dialog_btn_next">ถัดไป</string>
+    <string name="dialog_btn_restore_skip">คืนค่าในภายหลัง</string>
     <string name="cloud_backup">การสำรองข้อมูล Mi คลาวด์</string>
     <string name="open_backup_switch">สลับสวิตช์สำรอง</string>
     <string name="restore_cloud_backup_to_phone">เรียกคืนรายการจาก Mi คลาวด์</string>

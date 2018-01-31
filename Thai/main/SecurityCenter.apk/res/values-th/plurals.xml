@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="fw_blocked_count_call">
-        <item quantity="other">%1$d โทรจาก %2$s and others</item>
+        <item quantity="other">%1$d สายจาก %2$s และอื่นๆ</item>
+    </plurals>
+    <plurals name="fw_blocked_count_call_one">
+        <item quantity="other">%1$d สายจาก %2$s และอื่นๆ</item>
     </plurals>
     <plurals name="fw_blocked_count_sms">
         <item quantity="other">%d ข้อความ</item>
@@ -25,10 +28,10 @@
         <item quantity="other">%d แอป</item>
     </plurals>
     <plurals name="bg_network_allow_count">
-        <item quantity="other">%d apps can connect to the network in the background</item>
+        <item quantity="other">%d แอป สามารถเชื่อมต่อกับเครือข่ายในพื้นหลังได้</item>
     </plurals>
     <plurals name="bg_network_restrict_count">
-        <item quantity="other">"%d apps can't connect to the network in the background"</item>
+        <item quantity="other">%d แอป ไม่สามารถเชื่อมต่อกับเครือข่ายในพื้นหลังได้</item>
     </plurals>
     <plurals name="daily_sim_over_limit_notify_title">
         <item quantity="other">คุณได้ใช้แผนข้อมูลรายวันเกิน %s ครั้ง</item>
@@ -51,7 +54,7 @@
         <item quantity="other">พบ %d แอป</item>
     </plurals>
     <plurals name="network_restrict_count">
-        <item quantity="other">"Network access is restricted for &lt;font color='#ff0000'>%d:&lt;/font> apps"</item>
+        <item quantity="other">"การเข้าถึงเครือข่ายถูกจำกัดสำหรับ &lt;font color='#ff0000'>%d:&lt;/font> แอป"</item>
     </plurals>
     <plurals name="om_ill_proc_multi_app_title">
         <item quantity="other">%d แอปทำงานไม่ถูกต้อง ทำให้แบตเตอรี่หมดเร็ว</item>
@@ -85,6 +88,12 @@
     </plurals>
     <plurals name="people_million">
         <item quantity="other">ดาวน์โหลดไปแล้ว %1$d คน</item>
+    </plurals>
+    <plurals name="gb_ad_people_play">
+        <item quantity="other">%1$d คนกำลังเล่น</item>
+    </plurals>
+    <plurals name="gb_ad_ten_thousand_people_play">
+        <item quantity="other">%1$d คนกำลังเล่น</item>
     </plurals>
     <plurals name="view_num">
         <item quantity="other">ยอดชม %1$d ครั้ง</item>

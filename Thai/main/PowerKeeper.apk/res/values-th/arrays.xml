@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="hmode_app_groups">
+        <item>กำหนดเอง</item>
+        <item>ตัวประหยัดแบตเตอรี่</item>
+    </string-array>
+    <string-array name="thermal_entries">
+        <item>โหมดควบคุมอุณหภูมิเริ่มต้น</item>
+        <item>โหมดประสิทธิภาพ</item>
+    </string-array>
+    <string-array name="thermal_summaries">
+        <item>โหมดควบคุมอุณหภูมิปัจจุบัน</item>
+        <item>โหมดประสิทธิภาพปัจจุบัน</item>
+    </string-array>
+    <string-array name="power_mode_entries">
+        <item>ประสิทธิภาพ</item>
+        <item>สมดุล</item>
+    </string-array>
     <string-array name="group_name_translate">
         <item>ค่าเริ่มต้น</item>
         <item>โหมดซ่อนตัว</item>
@@ -49,10 +65,6 @@
         <item>ไม่ได้เลือกไว้</item>
         <item>ในโหมดอื่นที่เลือกไว้</item>
     </string-array>
-    <string-array name="hmode_app_groups">
-        <item>กำหนดเอง</item>
-        <item>ตัวประหยัดแบตเตอรี่</item>
-    </string-array>
     <string-array name="power_checker_group_prefix">
         <item>ขณะนี้</item>
         <item>พื้นหลัง</item>
@@ -78,17 +90,5 @@
         <item></item>
         <item></item>
         <item></item>
-    </string-array>
-    <string-array name="thermal_entries">
-        <item>โหมดควบคุมอุณหภูมิเริ่มต้น</item>
-        <item>โหมดประสิทธิภาพ</item>
-    </string-array>
-    <string-array name="thermal_summaries">
-        <item>โหมดควบคุมอุณหภูมิปัจจุบัน</item>
-        <item>โหมดประสิทธิภาพปัจจุบัน</item>
-    </string-array>
-    <string-array name="power_mode_entries">
-        <item>ประสิทธิภาพ</item>
-        <item>สมดุล</item>
     </string-array>
 </resources>

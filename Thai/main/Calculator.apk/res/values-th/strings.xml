@@ -46,6 +46,13 @@
     <string name="percentDesc">เปอร์เซ็นต์</string>
     <string name="menuDesc">เมนู</string>
     <string name="settingsDesc">การตั้งค่า</string>
+    <string name="secondFunctionDesc">สลับไปยังฟังก์ชันที่สอง</string>
+    <string name="degDesc">มุม</string>
+    <string name="radDesc">เรเดียน</string>
+    <string name="reverceDesc">เส้นโค้ง</string>
+    <string name="switchDesc">สลับ</string>
+    <string name="scannerDesc">ตัวสแกน</string>
+    <string name="reciprocalDesc">ซึ่งกันและกัน</string>
     <string name="home_title_calculator">เครื่องคิดเลข</string>
     <string name="item_title_calculator">เครื่องคิดเลข</string>
     <string name="item_title_scientific_calculator">วิทยาศาสตร์</string>
@@ -62,6 +69,10 @@
     <string name="item_title_time_conversion">เวลา</string>
     <string name="item_title_dress_size">ขนาดเสื้อ</string>
     <string name="item_title_aa_payment">แยกบิล</string>
+    <string name="scanner_had_been_uninstalled">ยกเลิกการติดตั้งสแกนเนอร์แล้ว</string>
+    <string name="install_scanner_to_continued_use">สแกนเนอร์ถูกถอนการติดตั้งแล้ว ติดตั้งอีกครั้งหรือไม่?</string>
+    <string name="cancel">ยกเลิก </string>
+    <string name="install">ติดตั้ง</string>
     <string name="loan_interest_rate">ดอกเบี้ย</string>
     <string name="loan_edittext_hint_commercial">ป้อนจำนวนเงิน</string>
     <string name="loan_edittext_hint_fund">ป้อนจำนวนเงิน</string>

@@ -6,6 +6,7 @@
     <string name="sina_token_expired_warning">บัญชี Weibo หมดอายุ เพิ่มบัญชีอีกครั้ง</string>
     <string name="sina_token_invalid_warning">บัญชี Weibo ไม่ถูกต้อง เพิ่มบัญชีอีกครั้ง</string>
     <string name="sina_share_fail_content_repeat">คุณได้แชร์สิ่งนี้เรียบร้อยแล้ว</string>
+    <string name="search_title_notes">@string/app_name</string>
     <string name="search_keyword_notes">บันทึกย่อ;ความจำ</string>
     <string name="search_path_notes">แอประบบ/บันทึกย่อ</string>
     <string name="dlg_move_message">กำลังย้าย…</string>
@@ -74,6 +75,7 @@
     <string name="db_downgrade_clear_date_reminder">การสลับไปใช้ MIUI เวอร์ชันอื่นต้องมีการล้างข้อมูลแอปบันทึก ก่อนที่คุณจะทำเช่นนั้นตรวจสอบให้แน่ใจว่าคุณได้สำรองข้อมูลของแอปบันทึกของคุณไว้ใน Mi คลาวด์ แล้ว</string>
     <string name="db_downgrade_clear_button">ล้างข้อมูลของแอป</string>
     <string name="cloud_service_state_open_reminder">เปิดการซิงค์กับ Mi คลาวด์ เพื่อซิงค์บันทึก</string>
+    <string name="toast_cancel_to_insert_image">ไม่สามารถเพิ่มรูปภาพได้</string>
     <string name="app_name">บันทึก</string>
     <string name="app_widget">บันทึกย่อ</string>
     <string name="widget_havenot_content">แตะเพื่อสร้างบันทึก กดที่วิดเจ็ตค้างไว้เพื่อปรับขนาด</string>
@@ -118,6 +120,7 @@
     <string name="error_unsupport_content">บันทึกนี้มีเนื้อหาที่ไม่รองรับ แตะที่นี่เพื่ออัพเดท</string>
     <string name="error_contact_not_exist">ไม่มีรายชื่อ</string>
     <string name="sync_tips">แตะเพื่อซิงค์บันทึกย่อไว้บน Mi คลาวด์</string>
+    <string name="micloud_state_total_count">%1$s</string>
     <string name="pref_title_font_size">ขนาดอักษร</string>
     <string name="call_folder_name">บันทึกย่อการโทร</string>
     <string name="trash_folder_name">ขยะ</string>
@@ -195,6 +198,6 @@
     <string name="cancel_alarm_description">ยกเลิกการปลุก</string>
     <string name="edit_header_done_description">เสร็จสิ้น</string>
     <string name="refuse_to_share_as_pic_because_of_content">บันทึกนี้ใหญ่เกินไป ไม่สามารถแชร์ได้</string>
-    <string name="refuse_to_share_as_pic_because_of_loading">รอจนกว่าจะโหลดเสร็จและลองใหม่</string>
+    <string name="refuse_to_open_as_pic_because_of_loading">รอจนกว่าจะโหลดเสร็จและลองใหม่</string>
     <string name="toast_reach_text_limit_checkbox">ไม่สามารถเพิ่มช่องทำเครื่องหมายได้เนื่องจากบันทึกยาวเกินไป</string>
 </resources>

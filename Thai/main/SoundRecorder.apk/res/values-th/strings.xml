@@ -27,7 +27,6 @@
     <string name="notification_recording_ticker">ปิดเสียงไมค์</string>
     <string name="notification_playback">กำลังเล่น…</string>
     <string name="notification_stopped">หยุดการบันทึกแล้ว</string>
-    <string name="notification_warning">ที่จัดเก็บข้อมูลเหลือน้อย (ไม่ถึง %d นาที)</string>
     <string name="record_list">ไฟล์เสียงที่บันทึกไว้</string>
     <string name="record_list_fm">บันทึกเสียงวิทยุ</string>
     <string name="record_list_call">สายสนทนาที่บันทึกไว้</string>
@@ -75,6 +74,7 @@
     <string name="message_file_size_error">การบันทึกเสียงมาถึงความยาวสูงสุดที่รองรับได้โดย %s แล้ว</string>
     <string name="pause">พัก</string>
     <string name="back">ย้อนกลับ</string>
+    <string name="menu">เมนู</string>
     <string name="toast_uninstall_fileexplorer">ไม่ได้ติดตั้งแอปจัดการไฟล์</string>
     <string name="record_download">ดาวน์โหลดจาก Mi คลาวด์</string>
     <string name="record_download_msg">สามารถฟังเสียงบันทึกได้ก็ต่อเมื่อดาวน์โหลดเสร็จสิ้นแล้ว</string>
@@ -143,10 +143,8 @@
     <string name="recognition_error_downloading">กำลังดาวน์โหลด</string>
     <string name="recognition_status_downloading">กำลังดาวน์โหลด</string>
     <string name="runtime_permission_ungranted">ไม่สามารถใช้ตัวบันทึกเสียงได้เนื่องจากไม่ได้รับอนุญาต</string>
-    <string name="btn_clear_records">ลบไฟล์บันทึก (%d รายการ)</string>
     <string name="alert_message_clear_records">ลบไฟล์บันทึกที่เลือกไว้?</string>
     <string name="clear_records">ลบไฟล์บันทึกที่ซิงค์ไว้?</string>
-    <string name="choose_call_records_count">%d รายการ</string>
     <string name="network_tip_dialog_title">จำเป็นต้องเชื่อมต่อกับอินเตอร์เน็ต</string>
     <string name="network_tip_dialog_content">เครื่องบันทึกต้องเชื่อมต่ออินเทอร์เน็ตและอ่านรายชื่อติดต่อของคุณเพื่อให้ทำงานได้ตามปกติ ตกลง?</string>
     <string name="network_tip_dialog_ok">ยอมรับ</string>

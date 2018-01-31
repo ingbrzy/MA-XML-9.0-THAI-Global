@@ -36,8 +36,8 @@
     <string name="dlg_clear_current_call">ล้างสายเรียกเข้าที่ถูกบล็อกทั้งหมดจากเลขหมายนี้?</string>
     <string name="dlg_clear_all_ok">ล้างทั้งหมด</string>
     <string name="dlg_clear_current_ok">ล้าง</string>
-    <string name="dlg_no_block">"Unblock this phone number ?
-It will be added to exceptions, but previously blocked items won't appear in call history."</string>
+    <string name="dlg_no_block">"เลิกบล็อกหมายเลขโทรศัพท์นี้หรือไม่?
+มันจะถูกเพิ่มเป็นข้อยกเว้น แต่รายการที่ถูกบล็อกก่อนหน้านี้จะไม่ปรากฏในประวัติการโทร"</string>
     <string name="dlg_no_block_ok">เลิกบล็อก</string>
     <string name="dlg_add_blacklist_title">เพิ่มไปยังรายการบล็อก</string>
     <string name="dlg_add_blacklist">บล็อกหมายเลขนี้?</string>
@@ -63,14 +63,14 @@ It will be added to exceptions, but previously blocked items won't appear in cal
     <string name="dlg_antispam_mode_delete_message">เมื่อลบกฎแล้วไม่สามารถเรียกคืนได้</string>
     <string name="dlg_antispam_using_mode_delete_message">ลบกฎที่ใช้อยู่ปัจจุบันแล้วเปลี่ยนเป็นกฎตั้งต้นของรายการบล็อก?</string>
     <string name="dlg_antispam_using_mode_international_delete_message">ลบกฎที่ใช้อยู่ปัจจุบันแล้วเปลี่ยนเป็นกฎตั้งต้นของรายการบล็อก?</string>
-    <string name="back_sound_success">Success!</string>
-    <string name="back_sound_fail">Failed！</string>
-    <string name="back_sound_support">"The current network operators doesn't support it！"</string>
-    <string name="back_sound_data">It requires cellular mobile network, please retry!</string>
-    <string name="dlg_move_to_white">Add to exceptions</string>
-    <string name="dlg_add_white">"New calls and messages from the numbers added to exceptions will be shown in call history and Messaging inbox. However, previously blocked items won't appear there. Add selected numbers to exceptions?"</string>
-    <string name="dlg_not_block_sms">"Unblock selected numbers? They will be added to exceptions, but previously blocked items won't appear in Messaging inbox."</string>
-    <string name="dlg_not_block_call">"Unblock selected numbers? They will be added to exceptions, but previously blocked items won't appear in call history."</string>
+    <string name="back_sound_success">ตั้งค่าเรียบร้อย</string>
+    <string name="back_sound_fail">ตั้งค่าล้มเหลว เนื่องจากมีการเปลี่ยนการตั้งค่าผู้ให้บริการ คุณสามารถตั้งค่าซิมการ์ดปัจจุบันเป็นการ์ดข้อมูล และเชื่อมต่อเครือข่ายแล้วลองอีกครั้ง</string>
+    <string name="back_sound_support">เครือข่ายผู้ให้บริการของคุณไม่สนับสนุนการตั้งค่านี้</string>
+    <string name="back_sound_data">เปิดข้อมูลมือถือและลองอีกครั้ง</string>
+    <string name="dlg_move_to_white">เพิ่มไปยังรายการยกเว้น</string>
+    <string name="dlg_add_white">การโทรและข้อความใหม่จากหมายเลขที่เพิ่มเข้าไปในข้อยกเว้นจะปรากฏในประวัติการโทร และกล่องรับข้อความ อย่างไรก็ตามรายการที่ถูกบล็อกก่อนหน้านี้จะไม่ปรากฏ เพิ่มหมายเลขที่เลือกเป็นข้อยกเว้นหรือไม่?</string>
+    <string name="dlg_not_block_sms">เลิกบล็อกหมายเลขที่เลือกไว้หรือไม่? มันจะถูกเพิ่มเป็นข้อยกเว้น แต่รายการที่ถูกบล็อกก่อนหน้านี้จะไม่ปรากฏในกล่องจดหมายของข้อความ</string>
+    <string name="dlg_not_block_call">เลิกบล็อกหมายเลขที่เลือกไว้หรือไม่? มันจะถูกเพิ่มเป็นข้อยกเว้น แต่รายการที่ถูกบล็อกก่อนหน้านี้จะไม่ปรากฏในประวัติการโทร</string>
     <string name="menu_call">โทร</string>
     <string name="menu_sms">ส่งข้อความ</string>
     <string name="menu_bl_call_log">แสดงสายเรียกเข้าที่ถูกบล็อก</string>
@@ -80,6 +80,7 @@ It will be added to exceptions, but previously blocked items won't appear in cal
     <string name="menu_add">เพิ่ม</string>
     <string name="menu_edit">แก้ไข</string>
     <string name="menu_remove">ลบ</string>
+    <string name="menu_white">ยกเว้น</string>
     <string name="st_settings_name">การตั้งค่ารายการบล็อก</string>
     <string name="st_filter_keywords_setting_summary1">ข้อความจากเลขหมายที่ไม่รู้จักที่มีข้อความที่กำหนดไว้ในรายการนี้จะถูกบล็อกตามที่คุณต้องการ</string>
     <string name="st_filter_keywords_setting_summary3">ข้อความจากหมายเลขที่ไม่รู้จักซึ่งมีคำในรายการนี้จะได้รับอนุญาต</string>
@@ -169,12 +170,13 @@ It will be added to exceptions, but previously blocked items won't appear in cal
     <string name="st_sub_title_customize_mode_name">ชื่อ</string>
     <string name="read_all_sms">อ่านทั้งหมด</string>
     <string name="loding">กำลังโหลดข้อมูล</string>
-    <string name="action_source_sms_title">บล็อคข้อความแล้ว</string>
+    <string name="action_source_sms_title">ข้อความที่ถูกบล็อก</string>
+    <string name="action_source_call_title">โทรที่ถูกบล็อก</string>
     <string name="st_title_open_antispam">รายการบล็อก</string>
     <string name="st_title_antispam_mode">กฎ</string>
     <string name="st_sub_title_whiteblack_list_group">รายการบล็อก</string>
-    <string name="st_title_keywords_blacklist">คีย์เวิร์ดรายการบล็อก</string>
-    <string name="st_title_keywords_whitelist">คีย์เวิร์ดรายการปกติ</string>
+    <string name="st_title_keywords_blacklist">รายการบล็อกคีย์เวิร์ด</string>
+    <string name="st_title_keywords_whitelist">คีย์เวิร์ดรายการยกเว้น</string>
     <string name="st_title_blacklist_numbers">เลขหมายที่ถูกบล็อค</string>
     <string name="st_title_whitelist_numbers">รายการยกเว้น</string>
     <string name="st_title_backsound_group">เสียงปฏิเสธสาย</string>
@@ -281,7 +283,7 @@ It will be added to exceptions, but previously blocked items won't appear in cal
     <string name="st_msg_stranger_group">บล็อกข้อความ SMS จากบุคคลแปลกหน้า</string>
     <string name="st_msg_other_group">อื่นๆ</string>
     <string name="st_msg_keyword_group">คีย์เวิร์ด</string>
-    <string name="st_msg_keyword_black">คีย์เวิร์ดรายการบล็อก</string>
+    <string name="st_msg_keyword_black">รายการบล็อกคีย์เวิร์ด</string>
     <string name="st_msg_keyword_white">คีย์เวิร์ดรายการยกเว้น</string>
     <string name="st_call_settings">รายการบล็อกสายเรียกเข้า</string>
     <string name="st_call_intercept_stranger">บล็อกการโทรจากสายแปลกหน้า</string>
@@ -357,7 +359,7 @@ It will be added to exceptions, but previously blocked items won't appear in cal
     <string name="main_purchase_tips">โปรโมชั่น</string>
     <string name="main_month_total_used">ใช้ไปในเดือนนี้</string>
     <string name="main_daily_package">แพ็คเกจข้อมูลรายวัน</string>
-    <string name="main_indicator_title">กำลังรอการเปิดใช้งาน</string>
+    <string name="main_indicator_title">การเปิดใช้งาน</string>
     <string name="main_tobe_added_desc">มือถือข้อมูล ¥0.03/MB</string>
     <string name="main_button_mi_sim_close">ใช้งาน Mi ซิม</string>
     <string name="main_button_mi_sim_open">เรียกดูรายละเอียด</string>
@@ -374,12 +376,13 @@ It will be added to exceptions, but previously blocked items won't appear in cal
     <string name="firewall_restrict_android_dialog_content">เพื่อให้เครื่องทำงานได้ตามปกติ แอปส่วนหนึ่งในระบบแอนดรอยด์จะยังคงเชื่อมกับต่ออินเตอร์เน็ตได้ แอปเหล่านี้อาจเชื่อมต่อเครือข่ายข้อมูลมือถือและอาจเสียค่าบริการให้แก่ผู้ให้บริการเครือข่ายของคุณ</string>
     <string name="background_restrict_app_dialog_message">การจำกัดการเข้าถึงเครือข่ายในพื้นหลังสำหรับแอปนี้อาจทำให้แอปไม่สามารถทำงานได้ตามปกติ รับข้อความ ดาวน์โหลดเนื้อหา ฯลฯ จำกัดหรือไม่?</string>
     <string name="firewall_allow_network">อนุญาต</string>
-    <string name="app_bg_restrict_dialog_message">Restricting background network connection may prevent the app from working normally. For example, it might no longer be able to receive messages or update content. Restrict anyway?</string>
+    <string name="app_bg_restrict_dialog_message">การจำกัดการเชื่อมต่อเครือข่ายเบื้องหลังอาจทำให้แอปไม่สามารถทำงานได้ตามปกติ ตัวอย่างเช่น อาจไม่สามารถรับข้อความหรืออัพเดตเนื้อหาได้อีกต่อไป</string>
     <string name="firewall_network_allow">อนุญาต %1$s เพื่อใช้ %2$s การเชื่อมต่อ</string>
     <string name="search_result_text">ไม่พบแอปไดๆ</string>
     <string name="firewall_mobile_dialog_message">แอปที่ติดตั้งจะไม่สามารถเชื่อมต่ออินเตอร์เน็ตและใช้ข้อมูลมือถือได้ หากคุณปิดสวิตช์นี้</string>
     <string name="firewall_wifi_dialog_message">แอปที่ติดตั้งจะไม่สามารถเชื่อมต่อและใช้อินเตอร์เน็ตได้ หากคุณปิดสวิตช์นี้</string>
     <string name="firewall_system_title">การใช้ข้อมูลสำหรับแอประบบ</string>
+    <string name="firewall_temp_rule_reason">%2$s จำกัดการเชื่อมต่ออินเทอร์เน็ตสำหรับ %1$s​</string>
     <string name="usage_sorted_activity_lable">การใช้ข้อมูล</string>
     <string name="usage_sorted_loading_text">รอสักครู่…</string>
     <string name="usage_sorted_empty_text">ไม่มี</string>
@@ -402,6 +405,7 @@ It will be added to exceptions, but previously blocked items won't appear in cal
     <string name="detail_app_button">ข้อมูลแอป</string>
     <string name="pref_about_traffic_title">การตั้งค่าการใช้ข้อมูล</string>
     <string name="pref_traffic_manage_title">การใช้ข้อมูล</string>
+    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_package_traffic_settings">แพ็คเกจข้อมูล</string>
     <string name="pref_adjust_traffic_data">ตั้งการใช้ข้อมูล</string>
     <string name="pref_category_title_other">การตั้งค่าเพิ่มเติม</string>
@@ -410,7 +414,7 @@ It will be added to exceptions, but previously blocked items won't appear in cal
     <string name="pref_title_traffic_speed_state">แสดงความเร็วเครือข่าย</string>
     <string name="pref_title_declaration">คำจำกัดสิทธิ์ความรับผิดชอบ</string>
     <string name="pref_new_installed_preconfig_title">การตั้งค่าเริ่มต้นของแอปใหม่</string>
-    <string name="pref_bg_network_title">Background connection</string>
+    <string name="pref_bg_network_title">การเชื่อมต่อพื้นหลัง</string>
     <string name="pref_mi_sim_settings">การตั้งค่าซิม Mi</string>
     <string name="pref_title_upload_data_usage">รายงานสถิติการใช้ข้อมูล</string>
     <string name="pref_summary_upload_data_usage">รายงานสถิติการใช้ข้อมูลของคุณเพื่อช่วยปรับปรุง MIUI การรายงานจะดำเนินการตามนโยบายส่วนบุคคลของเรา</string>
@@ -759,11 +763,13 @@ It will be added to exceptions, but previously blocked items won't appear in cal
 
  "<b>5. ตรวจสอบให้แน่ใจว่าเราเตอร์ของคุณเชื่อมต่อกับเครือข่ายได้ปกติ</b>"
 หากสงสัยว่ามีปัญหาการเชื่อมต่อ กรุณาติดต่อผู้ให้บริการเครือข่ายของคุณ"</string>
-    <string name="permission_exception_title">Restricted connection for apps</string>
-    <string name="bg_network_exception_title">Restricted background connection</string>
+    <string name="permission_exception_title">จำกัดการเชื่อมต่อที่สำหรับแอป</string>
+    <string name="bg_network_exception_title">จำกัดการเชื่อมต่อในพื้นหลัง</string>
     <string name="networkchanged_exception_title">การเชื่อมต่อมีการแก้ไข</string>
     <string name="networkchanged_exception_summary">การเชื่อมต่อเครือข่ายมีการเปลี่ยนแปลง กรุณาทดสอบอีกครั้ง</string>
     <string name="network_test_speed">ทดสอบความเร็ว Wi-Fi</string>
+    <string name="network_changed_noti_title">Disconnected from Wi-Fi</string>
+    <string name="network_changed_noti_summary">ใช้ข้อมูลมือถือ</string>
     <string name="network_speed_for_apps_title">การเชื่อมต่อ</string>
     <string name="network_speed_for_apps_total">ความเร็วการเชื่อมต่อ</string>
     <string name="network_speed_for_apps_close_app_dlg_msg">บังคับปิดแอปนี้?</string>
@@ -913,6 +919,7 @@ It will be added to exceptions, but previously blocked items won't appear in cal
     <string name="om_formatted_percent_string">%s%%</string>
     <string name="om_cpu_usage_warn_title_text">"แอปนี้อาจทำให้อุปกรณ์ของคุณ
 ช้าลง"</string>
+    <string name="om_memory_clean_memory_info_text">%1$s / %2$s</string>
     <string name="om_ill_proc_handle_unstaill_title">ถอนการติดตั้ง %s?</string>
     <string name="om_ill_proc_handle_uninstall_prompt">ถอนการติดตั้งแอปนี้เพื่อแก้ไขปัญหาการใช้แบตเตอรี่</string>
     <string name="om_ill_proc_type_wakelock_title">แอปบล็อกโหมดสลีปทำให้แบตเตอรี่หมดเร็ว</string>
@@ -928,7 +935,8 @@ It will be added to exceptions, but previously blocked items won't appear in cal
     <string name="om_ill_proc_type_radio_title">แอปเชื่อมต่อกับเครือข่ายบ่อยๆ ทำให้แบตเตอรี่หมดเร็ว</string>
     <string name="om_ill_proc_type_radio_detail">แก้ไขปัญหาการเชื่อมต่อเครือข่าย</string>
     <string name="om_ill_proc_activity_title">ปัญหา</string>
-    <string name="power_center_title">แบตเตอรี่</string>
+    <string name="power_center_title">การใช้งานแบตเตอรี่</string>
+    <string name="power_center_back">กลับไปการใช้งานแบตเตอรี่</string>
     <string name="power_center_auto_shutdown">ตั้งเวลาเปิด/ปิดเครื่อง</string>
     <string name="power_center_ontime_boot">เวลาเปิดเครื่อง</string>
     <string name="power_center_time_to_boot">เวลาเปิดเครื่อง</string>
@@ -1248,6 +1256,7 @@ It will be added to exceptions, but previously blocked items won't appear in cal
     <string name="dialog_no_longer_alert">ไม่ต้องแสดงอีก</string>
     <string name="sp_background_risk_dialog_title_wifi_approve">แจ้งเตือน Wi-Fi สาธารณะ</string>
     <string name="sp_background_risk_dialog_summary_wifi_approve">คุณเชื่อมต่อกับเครือข่าย Wi-Fi สาธารณะซึ่งอาจไม่ปลอดภัย ตรวจสอบว่าการชำระเงินของคุณได้รับการคุ้มครองก่อนที่คุณจะดำเนินการให้เสร็จสมบูรณ์</string>
+    <string name="sc_warning_updater_not_found">ไม่พบการอัพเดตแอป</string>
     <string name="sp_background_risk_dialog_title">แจ้งเตือน</string>
     <string name="sp_background_risk_dialog_summary">, ตรวจสอบและแก้ไขปัญหาการชำระเงิน</string>
     <string name="sp_background_risk_type_wifi">เครือข่าย Wi-Fi นี้ไม่ปลอดภัย</string>
@@ -1315,6 +1324,7 @@ It will be added to exceptions, but previously blocked items won't appear in cal
     <string name="menu_text_networkassistants">การใช้ข้อมูล</string>
     <string name="menu_text_networkassistants_remain">คงเหลือ %s</string>
     <string name="menu_text_networkassistants_danger">ใช้เกินไป %s</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_unit_gb">GB</string>
     <string name="menu_text_networkassistants_unit_mb">MB</string>
     <string name="menu_text_networkassistants_unit_kb">KB</string>
@@ -1665,7 +1675,7 @@ It will be added to exceptions, but previously blocked items won't appear in cal
     <string name="preferred_app_entries_music">เพลง</string>
     <string name="preferred_app_entries_email">อีเมล</string>
     <string name="card_main_applock_title">ล็อกแอป</string>
-    <string name="card_main_applock_summary">ป้องกันรายการส่วนตัวด้วยล็อกแอป</string>
+    <string name="card_main_applock_summary">ป้องกันข้อความ​ รูปภาพ​ และรายการอื่นๆด้วยรหัสผ่าน</string>
     <string name="card_main_applock_action">เปิดใช้งาน</string>
     <string name="card_main_deepclean_title">ทำความสะอาดเชิงลึก</string>
     <string name="card_main_deepclean_summary">ลบไฟล์ที่ไม่จำเป็น</string>
@@ -1675,6 +1685,7 @@ It will be added to exceptions, but previously blocked items won't appear in cal
     <string name="card_main_deepclean_wechat_action">ล้าง</string>
     <string name="card_main_sectool_title">เครื่องมือ</string>
     <string name="card_main_monthreport_action">เรียกดู</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">ทดสอบเครือข่าย</string>
     <string name="card_main_netcheck_summary">ทดสอบการเชื่อมต่อสำหรับปัญหาเครือข่าย</string>
     <string name="card_main_netcheck_action">ทดสอบ</string>
@@ -1695,8 +1706,10 @@ It will be added to exceptions, but previously blocked items won't appear in cal
     <string name="card_main_xspace_summary">สร้างบัญชีโคลนสำหรับแอปต่างๆ</string>
     <string name="card_main_xspace_action">สร้าง</string>
     <string name="card_main_overscroll_tips">ความปลอดภัยที่ดีที่สุด</string>
-    <string name="card_main_gamebooster_title">เร่งความเร็วในการเล่นเกม</string>
+    <string name="card_main_gamebooster_title">ตัวเร่งความเร็วในการเล่นเกม</string>
     <string name="skin_change_close_toast">การเปลี่ยนแปลงจะถูกใช้งานครั้งถัดไป เวลาที่คุณเปิดใช้ความปลอดภัย</string>
+    <string name="password_type">เปลี่ยนรหัสผ่าน</string>
+    <string name="password_type_underline"><u>เปลี่ยนรหัสผ่าน</u></string>
     <string name="Setting_lock">การตั้งค่า</string>
     <string name="more_lock">เพิ่มเติม</string>
     <string name="app_name">เพิ่มล็อก</string>
@@ -1717,7 +1730,11 @@ It will be added to exceptions, but previously blocked items won't appear in cal
     <string name="ac_summaryOff">ปิดใช้งาน ไม่ต้องใช้รหัสผ่านเพื่อเปิดแอป</string>
     <string name="lockpattern_tutorial_cancel_label">ยกเลิก</string>
     <string name="lockpattern_tutorial_continue_label">ถัดไป</string>
+    <string name="lockpattern_tutorial_continue_label_next">แตะ \"ถัดไป\"</string>
+    <string name="lockpattern_tutorial_continue_label_confirm">แตะ \"ตกลง\"</string>
     <string name="lockpattern_retry_button_text">วาดอีกครั้ง</string>
+    <string name="numeric_retry_button_text">ยกเลิก </string>
+    <string name="mixed_retry_button_text">ยกเลิก </string>
     <string name="lockpattern_continue_button_text">ถัดไป</string>
     <string name="lockpattern_confirm_button_text">ตกลง</string>
     <string name="modifypassword">เปลี่ยนรหัสผ่าน</string>
@@ -1728,7 +1745,7 @@ It will be added to exceptions, but previously blocked items won't appear in cal
     <string name="convenient_mode">ปลดล็อกแอปทั้งหมดในครั้งเดียว</string>
     <string name="convenient_summary">ป้อนรหัสผ่านเพื่อปลดล็อกแอปทั้งหมด</string>
     <string name="suggest_app_tolock">ข้อเสนอแนะ</string>
-    <string name="suggest_app_tolock_masked">ซ่อน</string>
+    <string name="suggest_app_tolock_masked">ซ่อนแล้ว</string>
     <string name="suggest_app_tolock_unmasked">แสดงการแจ้งเตือน</string>
     <string name="forget_password_button_text"><u>ลืมรหัสผ่าน</u></string>
     <string name="forget_password_button_text_normal">ลืมรหัสผ่าน</string>
@@ -1740,22 +1757,36 @@ It will be added to exceptions, but previously blocked items won't appear in cal
     <string name="passwordIncorrect">ชื่อผู้ใช้หรือรหัสผ่านไม่ถูกต้อง</string>
     <string name="access_control_app_is_launching">แอปกำลังเริ่ม</string>
     <string name="access_control_need_to_unlock_nofingerprint">ป้อนรหัสผ่านล็อกแอป</string>
-    <string name="access_control_failed_need_to_unlock_nofingerprint">วาดรูปแบบปลดล็อกของคุณเพื่อใช้ลายนิ้วมือใหม่</string>
+    <string name="access_control_failed_need_to_unlock_nofingerprint">ป้อนรหัสผ่านก่อนปลดล็อกด้วยลายนิ้วมือใหม่</string>
     <string name="access_control_fingerprint_not_identified_msg">ไม่สามารถอ่านลายนิ้วมือได้</string>
     <string name="access_control_need_password">"%sเพิ่มล็อกเรียบร้อยแล้ว
 "</string>
     <string name="privacy_mode_dialog_title">โหมดเยี่ยมชม</string>
     <string name="lockpattern_settings_help_how_to_record">วาดรูปแบบ</string>
+    <string name="numeric_settings_help_how_to_record">วิธีตั้ง PIN</string>
+    <string name="mixed_settings_help_how_to_record">วิธีตั้งรหัสผ่าน</string>
     <string name="lockpattern_recording_incorrect_too_short">เชื่อมกันอย่างน้อย %d จุด</string>
+    <string name="numeric_recording_incorrect_too_short">ป้อนอย่างน้อย %d ตัว</string>
+    <string name="mixed_recording_incorrect_too_short">ป้อนอย่างน้อย %d ตัวอักษร</string>
     <string name="lockpattern_recording_intro_header">การสร้างรูปแบบจะต้องเชื่อมกันอย่างน้อย 4 จุด</string>
+    <string name="numeric_recording_intro_header">ใส่รหัสผ่าน</string>
+    <string name="mixed_recording_intro_header">ป้อนอย่างน้อย 4 ตัวอักษร</string>
     <string name="lockpattern_pattern_entered_header">เพิ่มรูปแบบแล้ว</string>
+    <string name="numeric_pattern_entered_header">ตั้งค่ารหัส PIN เรียบร้อย</string>
+    <string name="mixed_pattern_entered_header">ตั้งค่ารหัสผ่านอัลบั้มเรียบร้อย</string>
     <string name="lockpattern_need_to_confirm">วาดรูปแบบอีกครั้งเพื่อยืนยัน:</string>
+    <string name="numeric_need_to_confirm">ป้อนอีกครั้งเพื่อยืนยัน</string>
+    <string name="mixed_need_to_confirm">ป้อนอีกครั้งเพื่อยืนยัน</string>
     <string name="unlock_pattern_to_bind_fingerprint">ป้อนรหัสผ่านเพื่อใช้งานลายนิ้วมือ</string>
     <string name="lockpattern_access_need_to_unlock_wrong_fingerprint">ไม่สามารถจดจำลายนิ้วมือได้ ลองใหม่อีกครั้ง</string>
     <string name="lockpattern_access_need_to_unlock_wrong_pattern">รหัสผ่านไม่ถูกต้อง ลองใหม่อีกครั้ง</string>
     <string name="lockpattern_need_to_unlock_wrong">รหัสผ่านไม่ตรงกัน ลองใหม่อีกครั้ง</string>
     <string name="lockpattern_recording_inprogress">ยกนิ้วของคุณออกเมื่อเสร็จสิ้น</string>
     <string name="lockpattern_pattern_confirmed_header">รูปแบบปลดล็อกใหม่</string>
+    <string name="numeric_password_confirmed_header_continue">ตั้งค่าเรียบร้อยแล้ว แตะ \"ถัดไป\"</string>
+    <string name="numeric_password_confirmed_header_confirm">ตั้งค่าเรียบร้อยแล้ว แตะยืนยัน</string>
+    <string name="mixed_password_confirmed_header_continue">ตั้งค่าเรียบร้อยแล้ว แตะ \"ถัดไป\"</string>
+    <string name="mixed_password_confirmed_header_confirm">ตั้งค่าเรียบร้อยแล้ว แตะยืนยัน</string>
     <string name="forget_pattern"><u>ลืมรหัสผ่าน</u></string>
     <string name="unlock_pattern"><u>รูปแบบ</u></string>
     <string name="modify_password_mode"><u>เปลี่ยนรูปแบบรหัสผ่าน</u></string>
@@ -1788,6 +1819,19 @@ It will be added to exceptions, but previously blocked items won't appear in cal
     <string name="applock_close_dialog_title">ปิดใช้งานล็อกแอป</string>
     <string name="applock_close_dialog_summary">แอปจะไม่ได้รับการป้องกันอีกต่อไปและรหัสผ่านของคุณจะถูกลบหลังจากคุณปิดการล็อกแอป</string>
     <string name="applock_header_text_less_than_half">เล็กเกินไป ลากอีกสักหน่อย</string>
+    <string name="quite_all_string">ยกเลิก </string>
+    <string name="delete_input">ลบ</string>
+    <string name="input_password_hint_text">ใส่รหัสผ่าน</string>
+    <string name="wrong_password">รหัสผ่านไม่ถูกต้อง</string>
+    <string name="unlock_set_unlock_pattern_title">รูปแบบ</string>
+    <string name="unlock_set_unlock_pin_title">PIN</string>
+    <string name="unlock_set_unlock_password_title">รหัสผ่าน</string>
+    <string name="unlock_set_unlock_pattern_summary">เชื่อมกันอย่างน้อย 4 จุด</string>
+    <string name="unlock_set_unlock_pin_summary">ป้อน 4 หลัก</string>
+    <string name="unlock_set_unlock_password_summary">รวมอักขระที่ต่างกัน</string>
+    <string name="set_pattern_password_name">ตั้งค่ารูปแบบ</string>
+    <string name="set_numeric_password_name">ตั้งค่ารหัส PIN</string>
+    <string name="set_mixed_password_name">ตั้งรหัสผ่าน</string>
     <string name="wakepath_confirm_start_activity">อนุญาต %1$s ให้เปิด %2$s?</string>
     <string name="unlike">ไม่ ขอบคุณ</string>
     <string name="toast_network_eror">เชื่อมต่อกับเครือข่ายไม่ได้</string>
@@ -1906,7 +1950,7 @@ It will be added to exceptions, but previously blocked items won't appear in cal
     <string name="app_manager_app_traffic">"การใช้งานข้อมูล: "</string>
     <string name="app_manager_app_power">"การใช้แบตเตอรี่: "</string>
     <string name="app_manager_net_control_title">จำกัดการใช้ข้อมูล</string>
-    <string name="app_manager_net_mobile">ข้อมูล</string>
+    <string name="app_manager_net_mobile">ข้อมูลมือถือ</string>
     <string name="app_manager_net_wifi">Wi-Fi</string>
     <string name="app_manger_des_separator">", "</string>
     <string name="app_manager_disable">ไม่อนุญาต</string>
@@ -1928,7 +1972,7 @@ It will be added to exceptions, but previously blocked items won't appear in cal
     <string name="app_manager_show_all_apps">แสดงแอปทั้งหมด</string>
     <string name="app_manager_hide_system_server">ซ่อนบริการระบบ</string>
     <string name="app_manager_back">ย้อนกลับ</string>
-    <string name="app_manager_defaults_setting">ค่าเริ่มต้น</string>
+    <string name="app_manager_defaults_setting">แอปที่เป็นค่าเริ่มต้น</string>
     <string name="app_manager_clear_cache">ล้างหน่วยความจำแคช</string>
     <string name="app_manager_reset_app_preferences">รีเซ็ตการตั้งค่าแอป</string>
     <string name="app_manager_reset_app_preferences_title">รีเซ็ตการตั้งค่าแอป?</string>
@@ -1969,11 +2013,13 @@ It will be added to exceptions, but previously blocked items won't appear in cal
     <string name="app_manager_clear_all_data">ล้างข้อมูลทั้งหมด</string>
     <string name="app_manager_dlg_clear_cache_title">ล้างหน่วยความจำแคช?</string>
     <string name="app_manager_support_uninstall">คุณสามารถถอนการติดตั้งแอปเหล่านี้ได้</string>
-    <string name="app_manager_not_support_uninstall">ไม่สามารถถอนการติดตั้งแอปนี้ได้</string>
-    <string name="app_manager_comuting_size">กำลังคำนวณ…</string>
-    <string name="app_manager_show_all_apps_opened">Showing results from all apps…</string>
-    <string name="app_manager_search_prompt">"Couldn't find results? Try showing results from all apps."</string>
-    <string name="app_manager_open_show_all_apps_immediate">Show all results</string>
+    <string name="app_manager_not_support_uninstall">ไม่สามารถถอนการติดตั้งแอปเหล่านี้ได้</string>
+    <string name="app_manager_comuting_size">กำลังประมวล…</string>
+    <string name="app_manager_show_all_apps_opened">กำลังแสดงผลลัพธ์จากแอปทั้งหมด…</string>
+    <string name="app_manager_search_prompt">ไม่พบผลการค้นหาใช่หรือไม่? ลองแสดงผลการค้นหาจากแอปทั้งหมด</string>
+    <string name="app_manager_open_show_all_apps_immediate">แสดงผลลัพธ์ทั้งหมด</string>
+    <string name="app_manager_mobile_slot1">ข้อมูลมือถือ (ซิม 1)</string>
+    <string name="app_manager_mobile_slot2">ข้อมูลมือถือ (ซิม 2)</string>
     <string name="ad_btn_default_text">เรียนรู้เพิ่มเติม</string>
     <string name="open_activity_err">ไม่พบแอ็พพลิเคชัน</string>
     <string name="low_memory_warning_dialog_title">พื้นที่จัดเก็บไม่เพียงพอ</string>
@@ -1998,7 +2044,7 @@ It will be added to exceptions, but previously blocked items won't appear in cal
     <string name="gs_forbid_autosync">จำกัดการซิงค์ในพื้นหลัง</string>
     <string name="gs_app_back_self_start">ตัวประหยัดแบตเตอรี่</string>
     <string name="gs_only_self_start_for_list">จำกัดการดำเนินการของพื้นหลังเพื่อประหยัดแบตเตอรี่ในการเล่นเกม</string>
-    <string name="gs_game_shortcut">เพลิดเพลินไปกับประสบการณ์การเล่นเกมที่ลื่นไหลมากขึ้น</string>
+    <string name="gs_game_shortcut">ปรับปรุงประสบการณ์การเล่นเกมของคุณ</string>
     <string name="gs_game_net_priority">ความสำคัญการเชื่อมต่อ</string>
     <string name="gs_game_net_priority_detail">จำกัดความเร็วในการดาวน์โหลดจะมีช่องรับส่งข้อมูลพอสำหรับการเล่นเกม</string>
     <string name="gs_performance_mode">โหมดประสิทธิภาพ</string>
@@ -2022,7 +2068,7 @@ It will be added to exceptions, but previously blocked items won't appear in cal
     <string name="add_done">เพิ่มเรียบร้อย</string>
     <string name="boost_done">เพิ่มเรียบร้อย</string>
     <string name="boost_stop">ปิดใช้งานเร่งความเร็ว</string>
-    <string name="already_close_gamebooster">เร่งความเร็วในการเล่นเกมปิดอยู่</string>
+    <string name="already_close_gamebooster">ตัวเร่งความเร็วในการเล่นเกมปิดอยู่</string>
     <string name="no_game">ไม่พบเกมส์</string>
     <string name="gamebooster_network_dialog_title">บางคุณลักษณะไม่พร้อมใช้งาน</string>
     <string name="gamebooster_network_dialog_message">อนุญาตความปลอดภัยเพื่อเชื่อมต่อเครือข่ายในคำสั่ง เพื่อให้ใช้คุณลักษณะทั้งหมดของตัวเพิ่มความเร็วเกมส์ได้?</string>
@@ -2040,7 +2086,6 @@ It will be added to exceptions, but previously blocked items won't appear in cal
     <string name="intro_improve">เพิ่มประสบการณ์การเล่นเกมของคุณในระดับระบบ</string>
     <string name="i_know">รับทราบ</string>
     <string name="dialog_text">สร้างทางลัดหน้าจอหลักสำหรับตัวเร่งความเร็วเกม</string>
-    <string name="anim_gamebooster_text">รอสักครู่…</string>
     <string name="intro_skip">ข้าม</string>
     <string name="open_game">เปิด</string>
     <string name="try_game">ลอง</string>
@@ -2048,7 +2093,7 @@ It will be added to exceptions, but previously blocked items won't appear in cal
     <string name="sys_title_gamebooster_unit_gb">G</string>
     <string name="sys_title_gamebooster_unit_mb">M</string>
     <string name="gmscore_support_service">Google Services</string>
-    <string name="gmscore_support_remind">Turn this feature on if you experience problems with using Gmail, Google Maps, and other Google apps. It will slightly reduce battery life.</string>
+    <string name="gmscore_support_remind">เปิดใช้งานคุณลักษณะนี้หากคุณพบปัญหาในการใช้ Gmail, Google Maps และแอป Google อื่นๆ การดำเนินการนี้อาจจะใช้งานแบตเตอรี่เพิ่มขึ้น</string>
     <string name="google_base_app_install_choice">\"%s\" จำเป็นต้องใช้ Google Service Framework เพื่อให้ทำงานได้ตามปกติ ดาวน์โหลดและติดตั้งหรือไม่?</string>
     <string name="application_item_disable">จำกัดแล้ว</string>
     <string name="application_item_already_permission">อนุญาตแล้ว</string>
@@ -2066,8 +2111,8 @@ It will be added to exceptions, but previously blocked items won't appear in cal
     <string name="scan_installed_games">ตรวจสอบการติดตั้งเกมส์…</string>
     <string name="boostering">กำลังเพิ่มความเร็ว…</string>
     <string name="booster_suc">เพิ่มเรียบร้อย</string>
-    <string name="auto_booster_suc">Boosted successfully</string>
-    <string name="auto_back_booster">Stop boosting</string>
+    <string name="auto_booster_suc">เพิ่มเรียบร้อย</string>
+    <string name="auto_back_booster">หยุดการเพิ่มความเร็ว</string>
     <string name="support_game_booster_tips">เพิ่มความเร็ว &amp; ปรับปรุงประสบการณ์การเล่นเกม</string>
     <string name="setting">การตั้งค่า</string>
     <string name="loading">รอสักครู่…</string>
@@ -2119,12 +2164,16 @@ It will be added to exceptions, but previously blocked items won't appear in cal
     <string name="game_booster_close">ตัวเร่งความเร็วในการเล่นเกมปิดอยู่</string>
     <string name="databooster_tips_title">คำเตือน</string>
     <string name="databooster_tips_message">เปิดใช้งานจำกัดซิมทั้งหมดยกเว้นการ์ดข้อมูล ปิดคุณลักษณะนี้หากมีข้อผิดพลาดเกิดขึ้นในเกมที่คุณเลือก</string>
-    <string name="gb_description_image_button_answer">Answer</string>
-    <string name="gb_description_image_button_video_answer">Video call</string>
-    <string name="gb_description_image_button_reject">Decline</string>
-    <string name="gs_autobooster">Boost automatically</string>
-    <string name="gs_autobooster_detail">Boost speed for selected games automatically</string>
-    <string name="gs_autobooster_dialog_message">"If you're using Xunyou speed boost, open games on the designated page."</string>
+    <string name="gb_description_image_button_answer">คำตอบ</string>
+    <string name="gb_description_image_button_video_answer">วิดีโอคอล</string>
+    <string name="gb_description_image_button_reject">ปฏิเสธ</string>
+    <string name="gs_autobooster">เพิ่มอัตโนมัติ</string>
+    <string name="gs_autobooster_detail">เพิ่มความเร็วสำหรับเกมที่เลือกโดยอัตโนมัติ</string>
+    <string name="gs_autobooster_dialog_message">หากคุณใช้ Xunyou เพิ่มความเร็ว จำเป็นต้องเปิดเกมบนหน้าเว็บที่กำหนด</string>
+    <string name="accessibility_gameboosterservice_description">เปิดใช้งานเพื่อปิดเสียงการโทรเข้า WeChat เมื่อคุณกำลังเล่นเกม</string>
+    <string name="gb_cutoff">|</string>
+    <string name="gb_ad_game_size">MB</string>
+    <string name="gb_new_feature">คุณลักษณะใหม่</string>
     <string name="power_center_consume_rank">การใช้งานแบตเตอรี่</string>
     <string name="power_center_custom_title">ใช้โหมดพลังงาน</string>
     <string name="power_center_auto_shutdown_summary_default">ตั้งค่าการเปิดหรือปิดเครื่องตามเวลาที่กำหนดไว้ล่วงหน้า</string>

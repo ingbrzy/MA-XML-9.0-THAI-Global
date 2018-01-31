@@ -10,7 +10,7 @@
     <string name="touch">แตะเพื่อบีม</string>
     <string name="beam_progress">กำลังรับการบีม...</string>
     <string name="beam_outgoing">กำลังบีม...</string>
-    <string name="beam_complete">เสร็จสิ้นการบีมแล้ว</string>
+    <string name="beam_complete">บีมเรียบร้อยแล้ว</string>
     <string name="beam_failed">การบีมล้มเหลว</string>
     <string name="beam_canceled">การบีมถูกยกเลิก</string>
     <string name="cancel">ยกเลิก </string>

@@ -101,7 +101,7 @@
     <string name="spaceSetting">การตั้งค่า</string>
     <string name="closePassword">ปิดใช้งานรหัสผ่าน</string>
     <string name="closePasswordGuide">คุณจะไม่สามารถเข้าสู่พื้นที่ทับซ้อนจากหน้าจอล็อกหลังจากที่คุณปิดใช้งานรหัสผ่าน</string>
-    <string name="cancelClosePassword">ไม่ปิดใช้งานได้</string>
+    <string name="cancelClosePassword">ห้ามปิดใช้งาน</string>
     <string name="confirmClose">ปิดใช้งาน</string>
     <string name="opened">เปิด</string>
     <string name="closed">ปิด</string>
@@ -255,14 +255,14 @@
     <string name="scanner_fingerprint">กำลังสแกนลายนิ้วมือ…</string>
     <string name="scanner_fingerprint_enter_second">"สแกนลายนิ้วมือสำหรับพื้นที่ทับซ้อน
 เพื่อเข้าสู่พื้นที่ทับซ้อนได้จากหน้าจอล็อก"</string>
-    <string name="xspace_guide_title">สร้างแอปโคลนสำหรับ %s</string>
+    <string name="xspace_guide_title">สร้างแอปโคลน</string>
     <string name="xspace_guide_des">ใช้ 2 บัญชีโดยไม่ต้องเปลี่ยน</string>
     <string name="xpsace_guide_button">สร้าง</string>
     <string name="search_input_txt_na">"&lt;font color='#ff0000'>%s&lt;/font>"</string>
     <string name="search_result_text">ไม่พบแอปไดๆ</string>
     <string name="xspace_weixin_title">WeChat</string>
     <string name="weixin_pay">WeChat Pay</string>
-    <string name="weixin_share">แชร์ไปยังโมเม้นต์</string>
+    <string name="weixin_share_sign">ลงชื่อเข้าใช้และแชร์</string>
     <string name="xspace_weibo_title">Weibo</string>
     <string name="weibo_send">ส่งไปที่ Weibo</string>
     <string name="xspace_qq_title">QQ</string>
@@ -271,6 +271,9 @@
     <string name="xspace_default_app_title">แอปเริ่มต้น</string>
     <string name="xspace_default_app_summary">ตั้งค่าแอปเริ่มต้นสำหรับการชำระเงิน การแชร์ รายการโปรด และอื่นๆ</string>
     <string name="xspace_default_setting_dialog_title">ค่าเริ่มต้น</string>
+    <string name="xspace_default_guide_notification_content">แตะเพื่อแก้ไข</string>
+    <string name="xspace_default_guide_notification_main_title">ใช้แอปเริ่มต้น</string>
+    <string name="xspace_default_guide_notification_xspace_title">ใช้แอปโคลน</string>
     <string name="space_name_default">พื้นที่ทำงาน</string>
     <string name="space_des_default">พื้นที่บางแห่งที่มีการเข้ารหัสข้อมูล</string>
     <string name="create_work_space">สร้างพื้นที่ทำงาน</string>

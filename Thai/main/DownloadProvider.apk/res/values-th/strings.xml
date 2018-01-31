@@ -5,7 +5,7 @@
     <string name="notif_title_single_downloading">กำลังดาวน์โหลด %1$s</string>
     <string name="app_label">ดาวน์โหลด</string>
     <string name="permlab_downloadManager">เข้าถึงการดาวน์โหลด</string>
-    <string name="permdesc_downloadManager">อนุญาตให้แอปพลิเคชันเข้าถึงตัวจัดการการดาวน์โหลดและใช้ในการดาวน์โหลดไฟล์ แอปต้องสงสัยสามารถใช้วิธีนี้เพื่อขัดขวางการดาวน์โหลดและการเข้าถึงข้อมูลส่วนตัว</string>
+    <string name="permdesc_downloadManager">อนุญาตให้แอปพลิเคชันเข้าถึงตัวจัดการการดาวน์โหลดและใช้ตัวจัดการนี้ในการดาวน์โหลดไฟล์ แอปพลิเคชันที่เป็นอันตรายสามารถใช้การทำงานนี้เพื่อขัดขวางการดาวน์โหลดและการเข้าถึงข้อมูลส่วนตัว</string>
     <string name="permlab_downloadManagerAdvanced">คุณลักษณะขั้นสูงของการดาวน์โหลด</string>
     <string name="permdesc_downloadManagerAdvanced">อนุญาตให้แอปพลิเคชันเข้าถึงคุณลักษณะขั้นสูงของการดาวน์โหลด แอปพลิเคชันที่เป็นอันตรายสามารถใช้วิธีนี้เพื่อขัดขวางการดาวน์โหลดและเข้าถึงข้อมูลส่วนตัว</string>
     <string name="permlab_downloadCompletedIntent">ส่งการแจ้งเตือนการดาวน์โหลด</string>
@@ -17,7 +17,7 @@
     <string name="permlab_downloadWithoutNotification">ดาวน์โหลดไฟล์ได้โดยไม่ต้องแจ้งเตือน</string>
     <string name="permdesc_downloadWithoutNotification">อนุญาตให้แอปดาวน์โหลดไฟล์โดยไม่แสดงการแจ้งเตือนใดๆแก่ผู้ใช้</string>
     <string name="permlab_accessAllDownloads">เข้าถึงระบบดาวน์โหลดทั้งหมด</string>
-    <string name="permdesc_accessAllDownloads">อนุญาตให้แอปพลิเคชันเรียกดูและแก้ไขการดาวน์โหลดทั้งหมดที่เริ่มโดยแอปใดๆ ในระบบ</string>
+    <string name="permdesc_accessAllDownloads">อนุญาตให้แอปพลิเคชันเรียกดูและแก้ไขการดาวน์โหลดทั้งหมดที่เริ่มโดยแอปใดๆ</string>
     <string name="download_unknown_title">&lt;ไม่มีชื่อ></string>
     <string name="notification_download_complete">ดาวน์โหลดเรียบร้อย.</string>
     <string name="notification_download_failed">ไม่สามารถดาวน์โหลดรายการได้</string>
