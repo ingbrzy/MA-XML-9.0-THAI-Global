@@ -53,7 +53,6 @@
     <string name="all_the_internet">เครือข่ายทั้งหมด</string>
     <string name="apk_filter">APK</string>
     <string name="app_downloads">%s ดาวน์โหลด</string>
-    <string name="app_size">%1$s</string>
     <string name="auth_activity_title">บัญชี Xunlei</string>
     <string name="auth_fail">ไม่ได้รับการอนุมัติ</string>
     <string name="bind_xunlei_account">เพิ่มบัญชี Xunlei</string>
@@ -119,7 +118,6 @@
     <string name="download_list_open_xl_title">ตัวเร่งการดาวน์โหลด Xunlei</string>
     <string name="download_list_title_browser">ดาวน์โหลด</string>
     <string name="download_no_application">ไม่พบแอปที่รองรับไฟล์ชนิดนี้</string>
-    <string name="download_num_size">%1$s | %2$s</string>
     <string name="download_paused">การดาวน์โหลดถูกพักไว้</string>
     <string name="download_pending">กำลังรอการดาวน์โหลด</string>
     <string name="download_remain_time">เหลืออีก:</string>
@@ -441,7 +439,6 @@
     <string name="xl_vip_semiannual">6 เดือน: %1$s Mi เครดิต × 6</string>
     <string name="xunlei_account_has_unbind_message">ลบบัญชี Xunlei แล้ว</string>
     <string name="xunlei_brand">สนับสนุนโดย Xunlei</string>
-    <string name="xunlei_brand_url">http://mobile.xunlei.com</string>
     <string name="xunlei_close_tips_button">เปิดใช้งาน</string>
     <string name="xunlei_close_tips_content">ตัวเร่งความเร็วดาวน์โหลด Xunlei</string>
     <string name="xunlei_close_tips_title">เพิ่มประสิทธิภาพในการดาวน์โหลด</string>

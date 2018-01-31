@@ -87,7 +87,6 @@
     <string name="daily_forcast_wind_connect">%2$s %1$s</string>
     <string name="daily_forecast_detail">รายละเอียดพยากรณ์</string>
     <string name="daily_forecast_detail_date">d/M</string>
-    <string name="daily_forecast_detail_date_format">%1$s - %2$s</string>
     <string name="daily_forecast_no_data">"รับข้อมูลสภาพอากาศไม่ได้
 ลากลงเพื่อรีเฟรชหรือตรวจสอบการตั้งค่าเครือข่าย"</string>
     <string name="data_provided_by">ข้อมูลโดย</string>
@@ -107,8 +106,6 @@
     <string name="global_aqi">AQI: %1$s %2$s</string>
     <string name="gps_hint">ตำแหน่งพิกัดปัจจุบัน</string>
     <string name="hourly_forcast_now">ขณะนี้</string>
-    <string name="hourly_forecast_bottom_aqi_chinese">%1$s %2$s</string>
-    <string name="hourly_forecast_bottom_aqi_else">%1$s</string>
     <string name="hourly_forecast_date">d/M</string>
     <string name="hourly_forecast_title">พยากรณ์รายชั่วโมง</string>
     <string name="index_item_experience_now">ติดตั้งตอนนี้</string>
@@ -133,13 +130,11 @@
     <string name="information_manager_extension">สภาพอากาศเพิ่มเติม</string>
     <string name="information_views" />
     <string name="install">ติดตั้ง</string>
-    <string name="install_progress">%1$s%%</string>
     <string name="international_detail_menu_title">รายละเอียด</string>
     <string name="international_details_pressure_title">ความกดอากาศ</string>
     <string name="international_details_real_feel_title">REAL FEEL®</string>
     <string name="international_details_title">รายละเอียด</string>
     <string name="international_details_uv_index_title">รังสียูวี</string>
-    <string name="international_details_wind_connect">%1$s %2$s</string>
     <string name="international_details_wind_title">ลม</string>
     <string name="it_is_going_to_rain">ฝนกำลังจะตก</string>
     <string name="locate_fail_detail_err">"ไม่สามารถระบุตำแหน่งอุปกรณ์ได้
@@ -208,7 +203,6 @@
     <string name="share_subject">แชร์</string>
     <string name="share_title">แชร์สภาพอากาศ</string>
     <string name="share_weather_desc">\#MIUI สภาพอากาศ#วันนี้ %1$s %2$s</string>
-    <string name="share_weather_desc_alert">%1$s%2$s</string>
     <string name="share_weather_desc_split">,</string>
     <string name="share_weather_save_pic_fail">ไม่สามารถจัดเก็บภาพหน้าจอได้</string>
     <string name="some_where_on_earth">ที่ไหนสักแห่งบนโลก</string>

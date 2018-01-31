@@ -209,7 +209,6 @@
     <string name="continue_backup">ดำเนินต่อ</string>
     <string name="cp_info_first">"บริการสตรีมเพลงออนไลน์
 ให้บริการโดย Ultimate Inc."</string>
-    <string name="cp_info_second">service1@ultimobi.com</string>
     <string name="create_order_fail">สร้างรายการสั่งซื้อไม่ได้ ลองอีกครั้ง</string>
     <string name="create_playlist">สร้างรายการเพลง</string>
     <string name="create_playlist_failure">สร้างรายการเพลงไม่ได้</string>
@@ -330,7 +329,6 @@
     <string name="download_paused">การดาวน์โหลดถูกพักไว้</string>
     <string name="download_paused_in_power_save_mode">การดาวน์โหลดจะถูกหยุดขณะอยู่ในโหมดประหยัดแบตเตอรี่</string>
     <string name="download_pending">กำลังรอการดาวน์โหลด</string>
-    <string name="download_percent">%d%%</string>
     <string name="download_processing">กำลังดาวน์โหลด…</string>
     <string name="download_quality">คุณภาพการดาวน์โหลด</string>
     <string name="download_quality_summary">การตั้งค่าเพิ่มเติมสำหรับเพลงที่ดาวน์โหลด</string>
