@@ -68,7 +68,6 @@
     <string name="s6">อนุญาตให้โฆษณาสร้างกิจกรรมในปฏิทินไหม</string>
     <string name="s7">โฆษณาทดสอบ</string>
     <string name="search_menu_title">ค้นหา</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="about">เกี่ยวกับ Mi เพลง</string>
     <string name="account">บัญชี</string>
     <string name="account_and_cloud">บัญชี</string>
@@ -760,7 +759,6 @@
     <string name="privacy_notif_content">แตะเพื่อดูรายละเอียด</string>
     <string name="privacy_notif_title">ตัวเร่งการดาวน์โหลด Xunlei เปิดใช้งานอยู่</string>
     <string name="privacy_policy">นโยบายความเป็นส่วนตัว</string>
-    <string name="privacy_policy_url">http://www.miui.com/res/doc/privacy.html?lang=en</string>
     <string name="privacy_tip_cancel">ยกเลิก</string>
     <string name="privacy_tip_content">คุณต้องการใช้งานตัวเร่งการดาวน์โหลด Xunlei หรือไม่? ที่อยู่ของลิงก์ที่ดาวน์โหลดจะถูกส่งไปยังเซิร์ฟเวอร์ของ Xunlei และรายละเอียดบัญชี Mi ของคุณจะถูกใช้เพื่อตรวจว่าคุณได้สมัครใช้บริการนี้</string>
     <string name="privacy_tip_ok">ตกลง</string>
@@ -1004,7 +1002,6 @@
     <string name="upgrade_to">อัพเกรดเป็น</string>
     <string name="upgrade_waringing">คุณสามารถรับฟังได้เฉพาะเพลงที่จัดเก็บไว้อยู่ในเครื่องของคุณเท่านั้น</string>
     <string name="user_agreement">ข้อตกลงการใช้งาน</string>
-    <string name="user_agreement_url">http://www.miui.com/res/doc/eula.html?lang=en</string>
     <string name="valid_period">หมดอายุ: %s</string>
     <string name="version_info">เวอร์ชั่น</string>
     <string name="vip_after_tomorrow_auto_renew_message">การสมัครรับข้อมูลเพลงของคุณจะได้รับการต่ออายุโดยอัตโนมัติหลังเย็นของวันพรุ่งนี้ ตรวจดูให้แน่ใจว่าคุณมี Mi เครดิตพอในบัญชีของคุณสำหรับการชำระเงินนี้</string>

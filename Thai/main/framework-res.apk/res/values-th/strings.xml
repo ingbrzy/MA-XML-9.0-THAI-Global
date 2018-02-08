@@ -23,7 +23,6 @@
     <string name="dialog_alert_title">โปรดทราบ</string>
     <string name="VideoView_error_text_invalid_progressive_playback">วิดีโอนี้ไม่สามารถสตรีมไปยังอุปกรณ์นี้</string>
     <string name="selectTextMode">เลือกข้อความ</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="fingerprint_icon_content_description">ไอคอนลายนิ้วมือ</string>
     <string name="month_day_year" formatted="false">%-e %B %Y</string>
     <string name="time_of_day" formatted="false">%-k:%M:%S</string>

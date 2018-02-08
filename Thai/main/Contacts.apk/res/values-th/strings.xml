@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="accessibility_calllog_detail">รายละเอียดประวัติการโทร</string>
     <string name="accessibility_contact_detail">รายละเอียดผู้ติดต่อ</string>
     <string name="account_container_title">นำเข้าจาก</string>
