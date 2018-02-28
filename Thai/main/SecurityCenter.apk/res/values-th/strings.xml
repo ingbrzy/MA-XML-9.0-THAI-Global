@@ -80,7 +80,7 @@
     <string name="menu_add">เพิ่ม</string>
     <string name="menu_edit">แก้ไข</string>
     <string name="menu_remove">ลบ</string>
-    <string name="menu_white">ยกเว้น</string>
+    <string name="menu_white">เพิ่มไปยังรายการยกเว้น</string>
     <string name="st_settings_name">การตั้งค่ารายการบล็อก</string>
     <string name="st_filter_keywords_setting_summary1">ข้อความจากเลขหมายที่ไม่รู้จักที่มีข้อความที่กำหนดไว้ในรายการนี้จะถูกบล็อกตามที่คุณต้องการ</string>
     <string name="st_filter_keywords_setting_summary3">ข้อความจากหมายเลขที่ไม่รู้จักซึ่งมีคำในรายการนี้จะได้รับอนุญาต</string>
@@ -405,6 +405,7 @@
     <string name="detail_app_button">ข้อมูลแอป</string>
     <string name="pref_about_traffic_title">การตั้งค่าการใช้ข้อมูล</string>
     <string name="pref_traffic_manage_title">การใช้ข้อมูล</string>
+    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_package_traffic_settings">แพ็คเกจข้อมูล</string>
     <string name="pref_adjust_traffic_data">ตั้งการใช้ข้อมูล</string>
     <string name="pref_category_title_other">การตั้งค่าเพิ่มเติม</string>
@@ -615,7 +616,7 @@
     <string name="tc_sms_report_type">ประเภทรายงาน</string>
     <string name="privacy_declare_dialog_title">เงื่อนไขการให้บริการ</string>
     <string name="sc_allow_network_dialog_tiltle">ไม่สามารถใช้งานคุณลักษณะนี้ได้</string>
-    <string name="sc_allow_network_dialog_message">การใช้งานแอปนี้ต้องเชื่อมต่อกับอินเตอร์เน็ตเพื่อให้ทำงานได้ตามปกติ</string>
+    <string name="sc_allow_network_dialog_message">You restricted network connection and access to your location for Security. Give Security the required permissions to use this feature.</string>
     <string name="privacy_prompt_upload">อัพโหลด</string>
     <string name="privacy_prompt_traffic_adjust_message">"หลังจากที่คุณเริ่มการปรับเทียบ MIUI จะเชื่อมต่อกับเครือข่ายเข้ารหัสข้อมูลผู้ให้บริการหมายเลขโทรศัพท์ IMEI และบัญชี Mi และอัปโหลดรายการเหล่านี้ไปยังเซิร์ฟเวอร์ Mi ทำเช่นนี้เพื่อรับเทมเพลตการปรับเทียบของผู้ให้บริการและเรียนรู้ว่าสามารถซื้อข้อมูลในตำแหน่งได้หรือไม่ 
 
@@ -767,7 +768,7 @@
     <string name="networkchanged_exception_title">การเชื่อมต่อมีการแก้ไข</string>
     <string name="networkchanged_exception_summary">การเชื่อมต่อเครือข่ายมีการเปลี่ยนแปลง กรุณาทดสอบอีกครั้ง</string>
     <string name="network_test_speed">ทดสอบความเร็ว Wi-Fi</string>
-    <string name="network_changed_noti_title">Disconnected from Wi-Fi</string>
+    <string name="network_changed_noti_title">ตัดการเชื่อมต่อ Wi-Fi</string>
     <string name="network_changed_noti_summary">ใช้ข้อมูลมือถือ</string>
     <string name="network_speed_for_apps_title">การเชื่อมต่อ</string>
     <string name="network_speed_for_apps_total">ความเร็วการเชื่อมต่อ</string>
@@ -918,6 +919,7 @@
     <string name="om_formatted_percent_string">%s%%</string>
     <string name="om_cpu_usage_warn_title_text">"แอปนี้อาจทำให้อุปกรณ์ของคุณ
 ช้าลง"</string>
+    <string name="om_memory_clean_memory_info_text">%1$s / %2$s</string>
     <string name="om_ill_proc_handle_unstaill_title">ถอนการติดตั้ง %s?</string>
     <string name="om_ill_proc_handle_uninstall_prompt">ถอนการติดตั้งแอปนี้เพื่อแก้ไขปัญหาการใช้แบตเตอรี่</string>
     <string name="om_ill_proc_type_wakelock_title">แอปบล็อกโหมดสลีปทำให้แบตเตอรี่หมดเร็ว</string>
@@ -1322,6 +1324,7 @@
     <string name="menu_text_networkassistants">การใช้ข้อมูล</string>
     <string name="menu_text_networkassistants_remain">คงเหลือ %s</string>
     <string name="menu_text_networkassistants_danger">ใช้เกินไป %s</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_unit_gb">GB</string>
     <string name="menu_text_networkassistants_unit_mb">MB</string>
     <string name="menu_text_networkassistants_unit_kb">KB</string>
@@ -1672,7 +1675,7 @@
     <string name="preferred_app_entries_music">เพลง</string>
     <string name="preferred_app_entries_email">อีเมล</string>
     <string name="card_main_applock_title">ล็อกแอป</string>
-    <string name="card_main_applock_summary">ป้องกันข้อความ​ รูปภาพ​ และรายการอื่นๆด้วยรหัสผ่าน</string>
+    <string name="card_main_applock_summary">ป้องกันแอปที่เลือกไว้ด้วยรหัสผ่าน</string>
     <string name="card_main_applock_action">เปิดใช้งาน</string>
     <string name="card_main_deepclean_title">ทำความสะอาดเชิงลึก</string>
     <string name="card_main_deepclean_summary">ลบไฟล์ที่ไม่จำเป็น</string>
@@ -1682,6 +1685,7 @@
     <string name="card_main_deepclean_wechat_action">ล้าง</string>
     <string name="card_main_sectool_title">เครื่องมือ</string>
     <string name="card_main_monthreport_action">เรียกดู</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">ทดสอบเครือข่าย</string>
     <string name="card_main_netcheck_summary">ทดสอบการเชื่อมต่อสำหรับปัญหาเครือข่าย</string>
     <string name="card_main_netcheck_action">ทดสอบ</string>
@@ -1710,14 +1714,18 @@
     <string name="more_lock">เพิ่มเติม</string>
     <string name="app_name">เพิ่มล็อก</string>
     <string name="back_app_name">กลับไปที่ล็อกแอป</string>
-    <string name="notification_item">ป้องกันแอปด้วยล็อกแอป</string>
+    <string name="ac_notification_contentTitle">ป้องกันแอปด้วยล็อกแอป</string>
+    <string name="ac_pre_notification_contentTitle">ลองล็อกแอป</string>
+    <string name="ac_post_notification_contentTitle">เปิดใช้ล็อกแอป</string>
     <string name="notification_masked_item">ซ่อนการแจ้งเตือน</string>
     <string name="lock_mode_title">การตั้งค่าการล็อก</string>
     <string name="after_the_lock_screen">ล็อคแอปพร้อมกับหน้าจอ</string>
     <string name="set_applock_password">ตั้งรหัสผ่าน</string>
     <string name="ac_firstUseApplock_title">ตั้งรหัสผ่านเพื่อป้องกันแอปของคุณ</string>
     <string name="ac_firstUseApplock_subTitle">ใช้การป้องระบบที่ปลอดภัยกว่า</string>
-    <string name="notification_subtitle">แตะเพื่อเปิดใช้งาน</string>
+    <string name="ac_notification_contentText">แตะเพื่อเปิดใช้งาน</string>
+    <string name="ac_pre_notification_contentText">ป้องกันข้อมูลส่วนตัวของคุณ</string>
+    <string name="ac_post_notification_contentText">รับการป้องกันระดับระบบ</string>
     <string name="notification_masked_subtitle">ซ่อนการแจ้งเตือนจากแอปป้องกันกับล็อกแอป</string>
     <string name="ac_enter_applock">เข้าสู่การล็อกแอป</string>
     <string name="ac_mask_all_apps">ซ่อนสำหรับแอปทั้งหมด</string>

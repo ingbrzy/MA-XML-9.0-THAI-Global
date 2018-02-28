@@ -266,7 +266,7 @@
     <string name="xspace_weibo_title">Weibo</string>
     <string name="weibo_send">ส่งไปที่ Weibo</string>
     <string name="xspace_qq_title">QQ</string>
-    <string name="qq_send">ส่งไปยังเพื่อน/อุปกรณ์ QQ</string>
+    <string name="qq_send">ส่งไปยังเพื่อน QQ/คอม</string>
     <string name="xspace_default_setting_label">แอปเริ่มต้น</string>
     <string name="xspace_default_app_title">แอปเริ่มต้น</string>
     <string name="xspace_default_app_summary">ตั้งค่าแอปเริ่มต้นสำหรับการชำระเงิน การแชร์ รายการโปรด และอื่นๆ</string>

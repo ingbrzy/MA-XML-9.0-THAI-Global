@@ -24,6 +24,8 @@
     <string name="other_settings_upload_debug_log_summary">ข้อมูลที่ทางเรารวบรวมจะใช้ในการระบุและวิเคราะห์ปัญหาในระบบ ซึ่งอาจจะประกอบด้วยข้อมูลส่วนบุคคล โดยจะไม่มีการนำข้อมูลมาใช้เพื่อระบุตัวตนของคุณ</string>
     <string name="other_settings_auto_update">ติดตั้งอัตโนมัติ</string>
     <string name="other_settings_auto_update_summary">MIUI จะเลือกเวลาที่ดีที่สุดในการติดตั้งการอัปเดต</string>
+    <string name="other_settings_ad_enable">Personalized Ad Recommendation</string>
+    <string name="other_settings_ad_enable_summary">Recommend personalized ads based on your behavior data</string>
     <string name="back">ย้อนกลับ</string>
     <string name="next">ถัดไป</string>
     <string name="skip_underline">ข้ามขั้นตอนนี้</string>
@@ -69,8 +71,8 @@
     <string name="content_description_complete">เสร็จสมบูรณ์</string>
     <string name="language_picker_other_languages_title">ภาษาเพิ่มเติม</string>
     <string name="language_settings">เลือกภาษา</string>
-    <string name="navigation_picker_radio_text_full_screen">โหมดเต็มจอ</string>
-    <string name="navigation_picker_radio_text_virtual_key">โหมดคีย์เสมือน</string>
+    <string name="navigation_picker_radio_text_full_screen">ท่าทางสัมผัสแบบเต็มหน้าจอ</string>
+    <string name="navigation_picker_radio_text_virtual_key">ปุ่ม</string>
     <string name="congratulation_swipe">ปัดขึ้นเพื่อเข้าสู่ระบบ</string>
     <string name="enable_accessibility_dialog_message">แตะสองนิ้วบนหน้าจอค้างไว้ 10 วิ เพื่อเปิด TalkBack, TalkBack ให้การตอบรับด้วยเสียงสำหรับผู้ที่มีความบกพร่องทางสายตา ถ้าคุณเปิดใช้งานโดยไม่ได้ตั้งใจให้แตะปุ่มยกเลิกแล้วแตะสองครั้งที่หน้าจอ</string>
     <string name="enable_accessibility_dialog_positive_btn">ตกลง</string>

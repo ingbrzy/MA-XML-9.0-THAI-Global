@@ -18,6 +18,9 @@
     <plurals name="matches_found">
         <item quantity="other">พบ %1$d จาก %2$d</item>
     </plurals>
+    <plurals name="nav_screen_incognito_time">
+        <item quantity="other">จะสร้างหน้าใหม่โดยอัตโนมัติหลังจาก %d วินาที</item>
+    </plurals>
     <plurals name="pref_adblock_counts">
         <item quantity="other">บล็อกแล้ว %d รายการ</item>
     </plurals>

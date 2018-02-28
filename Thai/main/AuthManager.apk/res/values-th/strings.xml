@@ -13,10 +13,6 @@
     <string name="HIPS_Perm_Location_Desc">ใช้การกำหนดตำแหน่งพิกัดแบบแม่นยำ (ใช้GPSและเครือข่ายมือถือ)</string>
     <string name="HIPS_Perm_PhoneID">รับข้อมูลอุปกรณ์</string>
     <string name="HIPS_Perm_PhoneID_Desc">เข้าถึงหมายเลขโทรศัพท์, IMEI และ IMSI</string>
-    <string name="HIPS_Perm_SMS">เขียนและลบข้อความ SMS</string>
-    <string name="HIPS_Perm_SMS_Desc">เขียนและลบข้อความ SMS</string>
-    <string name="HIPS_Perm_MMS">เขียนและลบข้อความ MMS</string>
-    <string name="HIPS_Perm_MMS_Desc">เขียนและลบข้อความ MMS</string>
     <string name="HIPS_Perm_Contact">แก้ไขและลบรายชื่อผู้ติดต่อ</string>
     <string name="HIPS_Perm_Contact_Desc">แก้ไขและลบรายชื่อผู้ติดต่อของคุณ</string>
     <string name="HIPS_Perm_CallLog">เขียนและลบประวัติการโทรเข้าออก</string>

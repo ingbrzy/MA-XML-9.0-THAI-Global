@@ -10,7 +10,7 @@
         <item quantity="other">ไม่สามารถดาวน์โหลด %1$d รายการนี้ได้</item>
     </plurals>
     <plurals name="notif_summary_active">
-        <item quantity="other">กำลังดาวน์โหลด %d ไฟล์</item>
+        <item quantity="other">กำลังดาวน์โหลด %dไฟล์</item>
         <item quantity="one">กำลังดาวน์โหลด 1 ไฟล์</item>
     </plurals>
     <plurals name="notif_summary_waiting">

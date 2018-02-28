@@ -3,7 +3,7 @@
     <string name="passport_account_label">บัญชี Mi</string>
     <string name="passport_notification_title">การเข้าสู่ระบบผิดพลาดสำหรับบัญชี %1$s</string>
     <string name="passport_login_prompt">ลงชื่อเข้าสู่บัญชี Mi เพื่อใช้บริการ Mi ทั้งหมด</string>
-    <string name="passport_login_using_other_ways"><u>ลงชื่อเข้าใช้ด้วยวิธีอื่น</u></string>
+    <string name="passport_login_using_other_ways">Other ways to sign in</string>
     <string name="passport_login_title">เข้าสู่ระบบบัญชีของ Mi</string>
     <string name="passport_login">ลงชื่อเข้าใช้</string>
     <string name="passport_relogin">ลงชื่อเข้าใช้อีกครั้ง</string>
@@ -48,7 +48,7 @@
     <string name="passport_reset_password_title">ตั้งรหัสผ่านใหม่</string>
     <string name="passport_auto_generate_pwd">สร้างรหัสผ่านความปลอดภัย</string>
     <string name="passport_pwd_generate_failure">ไม่สามารถสร้างรหัสผ่านได้</string>
-    <string name="passport_use_generated_pwd_title">กรุณาจดจำรหัสผ่านของคุณ</string>
+    <string name="passport_use_generated_pwd_title">กรุณาจดจำรหัสผ่านของคุณ!</string>
     <string name="passport_use_generated_pwd_message">กรุณาจดจำรหัสผ่านของคุณให้ได้ คุณสามารถใช้รหัสผ่านนี้ในการลงชื่อเข้าใช้บริการ Mi อื่นๆได้</string>
     <string name="passport_register_restricted_title">ไม่สามารถใช้หมายเลขโทรศัพท์นี้ได้</string>
     <string name="passport_register_restricted">เลขหมายนี้ได้ถูกผูกไว้กับหลายบัญชี กรุณาลองใช้เลขหมายอื่น</string>
@@ -94,6 +94,7 @@
     <string name="passport_email">ที่อยู่อีเมล</string>
     <string name="passport_vcode_prompt_long">กรุณาป้อนรหัสยืนยัน</string>
     <string name="passport_input_phone_hint">ป้อนหมายเลขโทรศัพท์</string>
+    <string name="passport_input_voice_captcha_hint">ป้อนรหัสยืนยันเสียง</string>
     <string name="passport_error_empty_username">ป้อนหมายเลขบัญชี Mi ของคุณ</string>
     <string name="passport_error_invalid_phone_num">หมายเลขโทรศัพท์ไม่ถูกต้อง</string>
     <string name="passport_error_empty_phone_num">ใส่หมายเลขโทรศัพท์</string>
@@ -217,11 +218,12 @@
     <string name="app_name">บัญชี Mi</string>
     <string name="account">บัญชี</string>
     <string name="logout_failed">ไม่สามารถลงชื่อออก</string>
+    <string name="turning_off_find_device">ปิดการค้นหาอุปกรณ์…</string>
     <string name="turn_off_find_device_failed_title">ไม่สามารถปิดใช้การค้นหาอุปกรณ์ได้</string>
     <string name="no_response_retry">ไม่มีการตอบสนอง ลองอีกครั้ง</string>
     <string name="removing_account">กำลังออกจากระบบ…</string>
-    <string name="delete_bank_card_title">กำลังลบบัตรธนาคารของคุณ</string>
-    <string name="delete_bank_card_message">บัตรธนาคารของคุณจะถูกลบเนื่องจากเหตุผลด้านความปลอดภัยหลังจากที่คุณออกจากระบบ</string>
+    <string name="delete_bank_card_title">คำเตือน</string>
+    <string name="delete_bank_card_message">Mi Pay การ์ดและ NFC การ์ดจะถูกลบออกหลังจากที่คุณออกจากระบบ</string>
     <string name="bind_settings">บัญชี</string>
     <string name="sina_weibo">Sina Weibo</string>
     <string name="bind_sina_weibo">เชื่อมต่อกับบัญชี Sina Weibo</string>
@@ -359,13 +361,16 @@
     <string name="device_delete_success_title">ออกจากระบบแล้ว</string>
     <string name="device_delete_success_message">หากคุณไม่ได้เป็นผู้ใช้งานเครื่องดังกล่าวนี้ กรุณาเปลี่ยนรหัสผ่านของคุณทันที</string>
     <string name="change_password">เปลี่ยนรหัสผ่าน</string>
-    <string name="completed">เสร็จสมบูรณ์</string>
+    <string name="completed">เสร็จสมบูรณ์!</string>
     <string name="no_network_title">ไม่สามารถเชื่อมต่อเครือข่ายได้</string>
     <string name="no_network_btn">รีเฟรช</string>
     <string name="get_device_list_failed">ไม่พบข้อมูลอุปกรณ์</string>
     <string name="delete_device_failed">ลบอุปกรณ์ไม่สำเร็จ</string>
     <string name="empty_device_list_notice">ไม่มีอุปกรณ์ในรายการ</string>
     <string name="device_name">ชื่ออุปกรณ์</string>
+    <string name="multi_user_not_show_sync_activity_title">อย่าเปิดใช้การซิงค์กับ Mi คลาวด์</string>
+    <string name="multi_user_not_show_sync_activity_message_1">ดูเหมือนว่าคุณกำลังใช้พื้นที่ปกติ ของบัญชี Mi อยู่</string>
+    <string name="multi_user_not_show_sync_activity_message_2">ในกรณีดังกล่าว ข้อมูลทั้งหมดจะถูกซิงค์ไปยังพื้นที่ทับซ้อนของคุณเพื่อหลีกเลี่ยงปัญหานี้ กรุณาอย่าเปิดการซิงค์กับ Mi คลาวด์</string>
     <string name="find_device_access_denied">ไม่สามารถขอรับสถานะได้ การเข้าถึงถูกปฏิเสธ</string>
     <string name="find_device_account_error">ไม่สามารถขอรับสถานะได้เนื่องจากบัญชีเกิดข้อผิดพลาด</string>
     <string name="find_device_null_credential_error">ไม่สามารถขอรับข้อมูลอุปกรณ์ได้ กรุณาติดต่อศูนย์บริการลูกค้า Xiaomi</string>
@@ -381,10 +386,7 @@
     <string name="find_device_operation_failed_error_unknown">เกิดข้อผิดพลาด ลองอีกครั้งในภายหลัง</string>
     <string name="find_device_remote_exception">ข้อผิดพลาด RPC</string>
     <string name="io_error_title">ยืนยันรเครือข่ายของคุณ</string>
-    <string name="login_check_find_device_failed_title">ไม่สามารถตรวจสอบสถานะการค้นหาอุปกรณ์ได้</string>
-    <string name="multi_user_not_show_sync_activity_title">อย่าเปิดใช้การซิงค์กับ Mi คลาวด์</string>
-    <string name="multi_user_not_show_sync_activity_message_1">ดูเหมือนว่าคุณกำลังใช้พื้นที่ปกติ ของบัญชี Mi อยู่</string>
-    <string name="multi_user_not_show_sync_activity_message_2">ในกรณีดังกล่าว ข้อมูลทั้งหมดจะถูกซิงค์ไปยังพื้นที่ทับซ้อนของคุณเพื่อหลีกเลี่ยงปัญหานี้ กรุณาอย่าเปิดการซิงค์กับ Mi คลาวด์</string>
+    <string name="login_check_find_device_failed_title">ไม่สามารถตรวจสอบข้อมูลความปลอดภัยของอุปกรณ์</string>
     <string name="notify_network_restricted_title">บัญชี Mi ไม่สามารถเชื่อมต่อกับเครือข่ายได้</string>
     <string name="notify_network_restricted_content_hidden_state">การทำงานในพื้นหลังของบัญชี Mi ถูกจำกัด แตะเพื่ออนุญาต</string>
     <string name="notify_network_restricted_content_bg_network">การเข้าถึงอินเตอร์เน็ตของบัญชี Mi ถูกจำกัด แตะเพื่ออนุญาต</string>
@@ -415,9 +417,8 @@
     <string name="unlock_help_notice">"ความช่วยเหลือ:
 ·ถ้าคุณลืมรหัสผ่านให้ไปที่ id.mi.com เพื่อทำการตั้งรหัสผ่านใหม่
 ·ถ้าคุณไม่สามารถปลดล็อกอุปกรณ์ได้ให้ไปที่ i.mi.com เพื่อปิดการค้นหาอุปกรณ์
-·บอกหมายเลขปลดล็อกให้กับทางฝ่ายลูกค้าสัมพันธ์: %s"</string>
-    <string name="find_device_display_id">หมายเลขปลดล็อก: %s</string>
-    <string name="login_find_device_bind">อุปกรณ์นี้ผูกอยู่กับบัญชี Mi ID (%s) ป้อนรหัสผ่านเพื่อยืนยันอุปกรณ์นี้</string>
+·หมายเลขปลดล็อกของคุณ: %s"</string>
+    <string name="login_find_device_bind">อุปกรณ์เครื่องนี้ถูกผูกไว้กับบัญชี Mi อื่นอยู่ก่อนแล้ว (%s)</string>
     <string name="find_device_locked_account_phone" formatted="false">%s, ผูกกับหมายเลขโทรศัพท์: %s</string>
     <string name="find_device_locked_account_email" formatted="false">%s, ผูกกับที่อยู่อีเมล: %s</string>
     <string name="oauth_title">ลงชื่อเข้าใช้ด้วยบัญชี Mi</string>

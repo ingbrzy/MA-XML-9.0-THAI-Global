@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">บันทึกวิดีโอหน้าจอ</string>
-    <string name="app_notification_info">Screen Recorder is working in the background</string>
+    <string name="app_name">เครื่องบันทึกหน้าจอ</string>
+    <string name="app_notification_info">เครื่องบันทึกหน้าจอทำงานอยู่ด้านหลัง</string>
     <string name="app_notification_title">บันทึกวิดีโอหน้าจอ</string>
     <string name="auto_stop_title">บันทึกวิดีโอเรียบร้อย</string>
     <string name="battery_not_allowed" formatted="false">ไม่สามารถบันทึกได้เมื่อแบตเตอรี่ต่ำกว่า 3% ตรวจสอบให้แน่ใจว่าแบตเตอรี่เหลืออย่างน้อย 20%</string>
@@ -18,7 +18,7 @@
     <string name="date_day" />
     <string name="date_month">/</string>
     <string name="date_year">/</string>
-    <string name="description_content">การบันทึกหน้าจอสนับสนุนคุณสมบัติบันทึกหน้าจอระดับระบบ การดำเนินการนี้หมายความว่าคุณจะยกเลิกคุณลักษณะการบันทึกหน้าจอ ยืนยันให้ดำเนินการ</string>
+    <string name="description_content">ตัวบันทึกหน้าจอให้คุณสมบัติในการบันทึกระดับระบบ การดำเนินการนี้จะทำให้ไม่สามารถใช้ตัวบันทึกหน้าจอได้ ยืนยันเพื่อดำเนินการต่อ</string>
     <string name="description_title">เกี่ยวกับตัวบันทึกหน้าจอ</string>
     <string name="deselect_all">ยกเลิกการเลือกทั้งหมด</string>
     <string name="error_open_file_failed_no_app_found">ไม่พบแอปที่ใช้เปิดไฟล์นี้</string>
@@ -37,7 +37,7 @@
     <string name="low_battery">ชาร์จโทรศัพท์ของคุณก่อนเริ่มการบันทึก</string>
     <string name="low_battery_title">แบตเตอรี่ต่ำ</string>
     <string name="low_battery_warning">แบตเตอรี่ต่ำ หยุกการบันทึกและบันทึกวิดีโอ</string>
-    <string name="low_memory">You have less than 1GB of available storage. You can record up to 20 minutes now.</string>
+    <string name="low_memory">คุณมีพื้นที่เก็บข้อมูลน้อยกว่า 1GB คุณสามารถบันทึกได้อีก 20 นาที</string>
     <string name="low_memory_title">พื้นที่จัดเก็บไม่เพียงพอ</string>
     <string name="low_momery_warning">พื้นที่จัดเก็บข้อมูลไม่เพียงพอ หยุกการบันทึกและบันทึกวิดีโอ</string>
     <string name="memory_not_allowed">ไม่มีที่จัดเก็บข้อมูลที่พร้อมใช้งาน เพิ่มที่จัดเก็บข้อมูลเพื่อบันทึก</string>
@@ -50,7 +50,7 @@
     <string name="quit_recording">ยุติการบันทึกวิดีโอหน้าจอ</string>
     <string name="recording_failure">ไม่สามารถบันทึกได้ เริ่มต้นใหม่</string>
     <string name="recording_max_size">การบันทึกถูกหยุด และบันทึกเนื่องจากขนาดของไฟล์วิดีโอถึงขีดจำกัด เริ่มต้นการบันทึกจากตำแหน่งที่คุณค้างไว้หากยังไม่เสร็จสิ้น</string>
-    <string name="recording_without_mic">Microphone is occupied and microphone sound cannot be recorded</string>
+    <string name="recording_without_mic">ไมโครโฟนไม่ว่างและไม่สามารถบันทึกเสียงได้</string>
     <string name="resolution">ความละเอียด</string>
     <string name="resolution_summary">วิดีโอที่มีความละเอียดสูงดูคมชัดขึ้น</string>
     <string name="screen_orientation">แนวตั้ง/แนวนอน</string>

@@ -5,12 +5,14 @@
     <string name="wifi_security_short_wpa">WPA</string>
     <string name="wifi_security_short_wpa2">WPA2</string>
     <string name="wifi_security_short_wpa_wpa2">WPA/WPA2</string>
+    <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
     <string name="wifi_security_short_eap">802.1x</string>
     <string name="wifi_security_none">ไม่มี</string>
     <string name="wifi_security_wep">WEP</string>
     <string name="wifi_security_wpa">WPA PSK</string>
     <string name="wifi_security_wpa2">WPA2 PSK</string>
     <string name="wifi_security_wpa_wpa2">WPA/WPA2 PSK</string>
+    <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
     <string name="wifi_security_eap">802.1x EAP</string>
     <string name="wifi_security_passpoint">Passpoint</string>
     <string name="wifi_security_short_WAPI_PSK">WAPI PSK</string>
@@ -305,6 +307,24 @@
     <string name="suw_next_button_label">ถัดไป</string>
     <string name="suw_back_button_label">กลับ</string>
     <string name="suw_more_button_label">เพิ่มเติม</string>
+    <string name="privacy_authorize_revoke_title">Authorization &amp; revocation</string>
+    <string name="enabled_authorised_apps_title">Granted authorization</string>
+    <string name="enabled_authorised_apps_summary">Your authorization will be revoked after you toggle switches of individual apps.</string>
+    <string name="disabled_authorised_apps_title">Revoked authorization</string>
+    <string name="privacy_authorize_revoke_dialog_title">Revoking authorization</string>
+    <string name="privacy_authorize_revoke_dialog_msg">After you revoke authorization, the app will stop collecting data, and all the related data will be deleted from the servers. This might make the app virtually unusable. Revoke authorization anyway?</string>
+    <string name="privacy_authorize_revoke">Revoke</string>
+    <string name="privacy_authorize_revoke_time">Revoke (%1$ds)</string>
+    <string name="privacy_authorize_title">Granting authorization</string>
+    <string name="privacy_authorize_privacy_policy">Privacy Policy</string>
+    <string name="privacy_authorize_dialog_message">%1$s requires that you read and agree with %2$s. The app needs to connect to the network to work normally. Agree?</string>
+    <string name="privacy_authorize_dialog_exit">ออก</string>
+    <string name="privacy_authorize_dialog_agree">ยอมรับ</string>
+    <string name="privacy_authorize_network_error">เชื่อมต่อกับอินเตอร์เน็ตก่อนแล้วลองใหม่อีกครั้ง.</string>
+    <string name="privacy_authorize_revoke_success">ยกเลิกการให้สิทธิ์เรียบร้อยแล้ว</string>
+    <string name="privacy_authorize_revoke_failed">ไม่สามารถยกเลิกการให้สิทธิ์ได้</string>
+    <string name="privacy_authorize_success">อนุมัติการให้สิทธิ์เรียบร้อยแล้ว</string>
+    <string name="privacy_authorize_revoking">กำลังยกเลิกการให้สิทธิ์</string>
     <string name="launcher_title">หน้าจอหลัก &amp; ล่าสุด</string>
     <string name="defalut_launcher_title">ค่าเริ่มต้นชุดเรียกใช้ระบบ</string>
     <string name="miui_screen_config_title">การตั้งค่าหน้าจอหลัก</string>
@@ -402,6 +422,8 @@
     <string name="navigation_guide_dialog_dont_show_again">ไม่ต้องแสดงอีก</string>
     <string name="navigation_guide_back_anim_title">เคลื่อนไหวท่าทาง \"ย้อนกลับ\"</string>
     <string name="navigation_guide_back_anim_summary">แสดงภาพเคลื่อนไหวในขณะที่คุณปัดจากขอบหน้าจอ</string>
+    <string name="fsg_mistake_touch_title">ตรวจสอบซ้ำสำหรับท่าทางสัมผัส</string>
+    <string name="fsg_mistake_touch_summary">ในบางฉาก เช่นเกมแบบเต็มจอและวิดีโอท่าทางจะต้องมีการปัดสองครั้งเพื่อให้มีผล</string>
     <string name="navigation_guide_settings">การสาธิตท่าทางสัมผัส</string>
     <string name="navigation_guide_home_title">ไปยังหน้าจอหลัก</string>
     <string name="navigation_guide_home_summary">ปัดขึ้นจากด้านล่างของหน้าจอ</string>
@@ -428,6 +450,7 @@
     <string name="abc_activity_chooser_view_see_all">ดูทั้งหมด</string>
     <string name="abc_shareactionprovider_share_with_application">แชร์กับ %s</string>
     <string name="abc_shareactionprovider_share_with">แชร์กับ</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="abc_capital_on">เปิด</string>
     <string name="abc_capital_off">ปิด</string>
     <string name="menu_item_show_more">แสดงเพิ่มเติม</string>
@@ -713,6 +736,7 @@
     <string name="security_enable_widgets_title">เปิดใช้งานวิดเจ็ต</string>
     <string name="security_enable_widgets_disabled_summary">ปิดใช้งานโดยผู้ดูแลระบบ</string>
     <string name="owner_info_settings_summary">ไม่มี</string>
+    <string name="owner_info_settings_status">%1$d/%2$d</string>
     <string name="owner_info_settings_edit_text_hint">เช่น Android ของสมชาย</string>
     <string name="user_info_settings_title">ข้อมูลผู้ใช้</string>
     <string name="show_profile_info_on_lockscreen_label">แสดงข้อมูลโปรไฟล์บนหน้าจอล็อก</string>
@@ -974,6 +998,7 @@
     <string name="wifi_display_options_name">ชื่อ</string>
     <string name="wifi_band_24ghz">2.4 GHz</string>
     <string name="wifi_band_5ghz">5 GHz</string>
+    <string name="link_speed">%1$d Mbps</string>
     <string name="nfc_quick_toggle_title">NFC</string>
     <string name="nfc_quick_toggle_summary">อนุญาตให้มีการแลกเปลี่ยนข้อมูล เมื่อแตะโทรศัพท์กับอุปกรณ์อื่น</string>
     <string name="android_beam_settings_title">Android Beam</string>
@@ -2241,6 +2266,7 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="gadget_title">การควบคุมพลังงาน</string>
     <string name="gadget_toggle_wifi">กำลังอัพเดทการตั้งค่า Wi-Fi</string>
     <string name="gadget_toggle_bluetooth">กำลังอัปเดตการตั้งค่าบลูทูธ</string>
+    <string name="gadget_state_template">%1$s %2$s</string>
     <string name="gadget_state_on">เปิด</string>
     <string name="gadget_state_off">ปิด</string>
     <string name="gadget_state_turning_on">กำลังเปิด</string>
@@ -2666,6 +2692,7 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="nfc_payment_no_apps">ชำระเงินโดยใช้โทรศัพท์ของคุณในร้านค้า</string>
     <string name="nfc_payment_default">แอปชำระเงินเริ่มต้น</string>
     <string name="nfc_payment_default_not_set">ไม่ได้ตั้งค่า</string>
+    <string name="nfc_payment_app_and_desc">%1$s - %2$s</string>
     <string name="nfc_payment_use_default">ใช้ค่าเริ่มต้น</string>
     <string name="nfc_payment_favor_default">ทุกครั้ง</string>
     <string name="nfc_payment_favor_open">ยกเว้นเมื่อแอปการชำระเงินอื่นเปิดอยู่</string>
@@ -2726,6 +2753,7 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="regulatory_info_text" />
     <string name="sim_setup_wizard_title">ซิมการ์ด</string>
     <string name="sim_settings_title">ซิมการ์ด</string>
+    <string name="sim_settings_summary">%1$s - %2$s</string>
     <string name="sim_cards_changed_message">ซิมการ์ดมีการเปลี่ยนแปลง</string>
     <string name="sim_cards_changed_message_summary">แตะเพื่อกำหนดกิจกรรม</string>
     <string name="sim_cellular_data_unavailable">ข้อมูลมือถือไม่พร้อมใช้งาน</string>
@@ -2846,6 +2874,7 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="zen_mode_option_important_interruptions">เฉพาะเรื่องสำคัญ</string>
     <string name="zen_mode_option_alarms">เฉพาะปลุกเท่านั้น</string>
     <string name="zen_mode_option_no_interruptions">ปิดเสียงทั้งหมด</string>
+    <string name="zen_mode_summary_combination">%1$s: %2$s</string>
     <string name="zen_mode_visual_interruptions_settings_title">บล็อกสิ่งรบกวนการมองเห็น</string>
     <string name="configure_notification_settings">กำหนดค่าการแจ้งเตือน</string>
     <string name="advanced_section_header">ขั้นสูง</string>
@@ -2939,6 +2968,7 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="zen_mode_schedule_alarm_title">เวลาปลุกลบล้างเวลาสิ้นสุดได้</string>
     <string name="zen_mode_schedule_alarm_summary">หยุดที่เวลาสิ้นสุดหรือเวลาปลุกครั้งถัดไป ขึ้นอยู่กับว่าอย่างใดเร็วกว่า</string>
     <string name="summary_divider_text">", "</string>
+    <string name="summary_range_symbol_combination">%1$s - %2$s</string>
     <string name="summary_range_verbal_combination">%1$s ถึง %2$s</string>
     <string name="zen_mode_calls">การโทร</string>
     <string name="zen_mode_messages">ข้อความ</string>
@@ -3120,6 +3150,8 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="memory_avg_use">เฉลี่ย</string>
     <string name="memory_max_desc">สูงสุด %1$s</string>
     <string name="memory_avg_desc">เฉลี่ย %1$s</string>
+    <string name="memory_use_running_format">%1$s/%2$s</string>
+    <string name="process_format">%1$s (%2$d)</string>
     <string name="high_power_apps">การเพิ่มประสิทธิภาพแบตเตอรี่</string>
     <string name="high_power_filter_on">ไม่ได้เพิ่มประสิทธิภาพ</string>
     <string name="high_power_on">ไม่ได้เพิ่มประสิทธิภาพ</string>
@@ -3382,7 +3414,8 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="bluetooth_talkback_input_peripheral">อุปกรณ์อินพุต</string>
     <string name="bluetooth_talkback_bluetooth">บลูทูธ</string>
     <string name="ad_service">บริการโฆษณา</string>
-    <string name="use_personalized_ad_service">ใช้ตัวระบุโฆษณา</string>
+    <string name="use_personalized_ad_service">Personalized Ad Recommendation</string>
+    <string name="use_personalized_ad_service_summary">When the recommendation feature is switched off, you will still see the same quantity of ads as when it’s on, but not based on your behavior data or your personal information.</string>
     <string name="reset_aaid">รีเซ็ตตัวระบุโฆษณา</string>
     <string name="confirm_reset_aaid">ตกลง</string>
     <string name="about_ad_service_instructions">เกี่ยวกับบริการโฆษณาและความเป็นส่วนตัว</string>
@@ -3396,6 +3429,7 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="dndm_auto_setting_group">กำหนดเวลา</string>
     <string name="dndm_auto_button_title">ใช้โหมดห้ามรบกวนเวลานี้ตลอด</string>
     <string name="dndm_auto_time_setting">ตั้งเวลา</string>
+    <string name="dndm_auto_time_setting_summary">%1$s-%2$s</string>
     <string name="dndm_auto_time_turn_on">จาก</string>
     <string name="dndm_auto_time_turn_on_title">เปิดใช้โหมดห้ามรบกวนโดยอัตโนมัติ</string>
     <string name="dndm_auto_time_turn_off">ถึง</string>
@@ -3705,6 +3739,7 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="sure_sync_now">ซิงค์รายการทันที?</string>
     <string name="sync_now">ซิงค์</string>
     <string name="suggestion_for_phone_recycled">เพิ่มหมายเลขโทรศัพท์อื่น</string>
+    <string name="mi_upi_settings">Mi Pay Account</string>
     <string name="sms_received_sound_title">เสียงเตือนข้อความเข้า</string>
     <string name="sms_delivered_sound_title">เสียงเตือนเมื่อส่งข้อความ</string>
     <string name="sms_received_sound_dialog_title">เลือกเสียงเตือนข้อความเข้า</string>
@@ -3947,7 +3982,7 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="wifi_context_menu_forget">ไม่บันทึก</string>
     <string name="wifi_context_menu_change_password">เปลี่ยนรหัสผ่าน</string>
     <string name="wifi_context_menu_change_wapi_certificate">เปลี่ยนใบรับรอง WAPI</string>
-    <string name="wifi_info_reconnect">การเชื่อมต่อล้มเหลว กรุณาลองใหม่อีกครั้ง</string>
+    <string name="wifi_info_reconnect">ไม่สามารถเชื่อมต่อได้ ลองอีกครั้ง</string>
     <string name="wifi_scan_always_available">การสแกนเปิดใช้อยู่ตลอด</string>
     <string name="wifi_scan_always_available_summary">อนุญาตให้ระบุตำแหน่งพิกัดของ Google และแอปอื่นๆสแกนหาเครือข่ายแม้ในขณะที่ Wi-Fi ปิดอยู่</string>
     <string name="attempt_other_network">เปลี่ยนเครือข่าย</string>
@@ -4217,11 +4252,11 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="wps_connect_summary">ตรวจสอบว่าเราเตอร์รองรับและเปิดใช้งาน WPS แล้ว</string>
     <string name="retry">ลองอีกครั้ง</string>
     <string name="brightness_auto_adjust_off">ความสว่างหน้าจอตั้งใว้คงที่</string>
-    <string name="brightness_auto_adjust_on">ปรับความสว่างหน้าจอตามแสงภายนอก</string>
-    <string name="night_light">Night Light</string>
-    <string name="night_light_brightness">Night Light Brigtness</string>
-    <string name="night_light_color">Night Light Color</string>
-    <string name="night_light_summary">Minimize the backlight in low light environment to enter night light mode</string>
+    <string name="brightness_auto_adjust_on">ความสว่างของหน้าจอจะได้รับการปรับให้เหมาะกับแสงรอบๆ</string>
+    <string name="night_light">โหมดกลางคืน</string>
+    <string name="night_light_brightness">Night mode brightness</string>
+    <string name="night_light_color">อุณหภูมิสีโหมดกลางคืน</string>
+    <string name="night_light_summary">เปิดโหมดกลางคืน ลดความสว่างหน้าจอในสภาพแสงน้อย</string>
     <string name="private_sms_need_to_unlock">จำเป็นต้องใช้รหัสผ่าน:</string>
     <string name="private_sms_reset_by_account">เข้าระบบบัญชี Mi ของคุณเพื่อรีเซ็ตรหัสผ่าน</string>
     <string name="private_sms_recording_intro_header">วาดรูปแบบเพื่อปลดล็อก:</string>
@@ -4329,6 +4364,8 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="tether_settings_disabled">ฮอตสปอตแบบพกพาปิดอยู่</string>
     <string name="tether_data_usage_limit">ขีดจำกัดข้อมูลแบบครั้งเดียว</string>
     <string name="tether_data_usage_limit_summary">ขีดจำกัดของข้อมูลจะถูกนำไปใช้ในครั้งต่อไปที่ฮอตสปอตของคุณเปิดอยู่</string>
+    <string name="tether_auto_disable_title">Automatically close hotspot</string>
+    <string name="tether_auto_disable_summary">Automatically close hotspot when no connected devices</string>
     <string name="hdmi_3dplay_settings_title">HDMI</string>
     <string name="hdmi_3dplay_control_text">แสดงผลภายนอกแบบสามมิติ</string>
     <string name="hdmi_3dplay_control_enable_subtext">เปิดใช้การแสดงผลภายนอกแบบสเตริโอสามมิติแล้ว</string>
@@ -4442,7 +4479,7 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="welcome">ยินดีต้อนรับ</string>
     <string name="resolver_settings_label">เรียงลำดับ</string>
     <string name="infinity_display_title">แสดงเต็มหน้าจอ</string>
-    <string name="launching_pho">กำลังเปิดข้อมูลโทรศัพท์ กรุณารอสักครู่</string>
+    <string name="launching_pho">กำลังเปิดใช้ข้อมูลโทรศัพท์…</string>
     <string name="launching_cit">กำลังเข้าสู่ CIT</string>
     <string name="launching_rep">กำลังรายงาน…</string>
     <string name="privacy_mode_dialog_title">โหมดเยี่ยมชม</string>
@@ -4790,6 +4827,7 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="bootloader_locked_answer_1_warning">โปรดจำไว้ว่าคุณจะไม่สามารถใช้ \"ค้นหาอุปกรณ์\" หลังจากที่โทรศัพท์ถูกปลดล็อก</string>
     <string name="bootloader_locked_question_2">ข้าพเจ้ายอมรับความเสี่ยงดังกล่าวในการปลดล็อกเครื่องของข้าพเจ้า</string>
     <string name="bootloader_locked_answer_2">แตะที่ปุ่มด้านล่างนี้เพื่อผูกบัญชี Mi ของคุณกับอุปกรณ์นี้ จากนั้นไปที่เว็บไซต์ MIUI เพื่อดาวน์โหลดเครื่องมือปลดล็อกและติดตั้งในเครื่องคอมพิวเตอร์ของคุณ นี่คือที่อยู่:</string>
+    <string name="bootloader_unlock_webhome">https://unlock.update.miui.com</string>
     <string name="bootloader_locked_check_status">เพิ่มบัญชีและอุปกรณ์</string>
     <string name="bootloader_device_bind_already">เพิ่มเรียบร้อยแล้ว บัญชี Mi ถูกผูกอยู่กับอุปกรณ์ดังกล่าวแล้ว</string>
     <string name="bootloader_device_bind_no_account">ต้องลงชื่อเข้าสู่บัญชี Mi ของคุณก่อน</string>
@@ -4861,6 +4899,7 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="size_giga_byte">GB</string>
     <string name="size_tera_byte">TB</string>
     <string name="size_peta_byte">PB</string>
+    <string name="size_suffix">%1$s%2$s</string>
     <string name="radio_info_asdiv_switch_label">สถานะ ASDiv:</string>
     <string name="app_factory_reset_dlg_title">ถอนการติดตั้งอัพเดทไหม?</string>
     <string name="app_factory_reset_dlg_text">การอัพเดตของแอปที่ผ่านมาจะถูกถอนออกจากแอปที่ติดตั้งไว้ในระบบทั้งหมด</string>
@@ -4990,7 +5029,7 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="music_dirac_mode_in_ear_pro">หูฟัง Mi In-Ear Pro</string>
     <string name="music_dirac_mode_capsule">แคปซูล Mi</string>
     <string name="music_dirac_mode_headset_comfort">Mi Comfort</string>
-    <string name="music_dirac_mode_reduction_noise">Mi ลดเสียงรบกวน (TypeC)</string>
+    <string name="music_dirac_mode_reduction_noise">Mi ลดเสียงรบกวน (Type-C)</string>
     <string name="music_dirac_mode_cancelling">Mi ลดเสียงรบกวน (3.5mm)</string>
     <string name="music_audio_effect_settings">การตั้งค่าเอฟเฟกต์เสียง</string>
     <string name="music_equalizer_summary">ปรับเปลี่ยนระดับเสียงสำหรับประเภทเพลงที่แตกต่างกัน</string>
@@ -4999,7 +5038,7 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="music_dolby_mode_off">ปิด</string>
     <string name="music_dolby_mode_music">เพลง</string>
     <string name="music_dolby_mode_movie">วิดีโอ</string>
-    <string name="music_app_unavailable">ขึ้นอยู่กับแอปเพลง ตรวจสอบให้แน่ใจว่าพร้อมใช้งาน</string>
+    <string name="music_app_unavailable">ตรวจสอบว่าแอป Mi เพลง พร้อมใช้งาน</string>
     <string name="lockpassword_confirm_workspace_password">ตรวจสอบรหัสผ่านพื้นที่ทำงาน</string>
     <string name="turn_on_keyguard_password_alert_forget_title">กรุณาจดจำรหัสผ่านของคุณ</string>
     <string name="turn_on_keyguard_password_alert_forget_content">กรุณาจำรหัสผ่านของหน้าจอล็อกของคุณ หากคุณลืม คุณจะต้องลบข้อมูลทั้งหมดในอุปกรณ์ซึ่งรวมถึงรูปภาพและรายชื่อจากนั้นตั้งค่าใหม่</string>

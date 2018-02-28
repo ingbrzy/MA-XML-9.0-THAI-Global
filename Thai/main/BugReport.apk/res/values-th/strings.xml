@@ -57,6 +57,7 @@
     <string name="save_pic_success">บันทึกรูปภาพไปยัง %s</string>
     <string name="save_pic_fail">ไม่สามารถบันทึกรูปภาพได้ ตรวจสอบ SD การ์ดของคุณ</string>
     <string name="pic_not_exist">ไม่พบรูปภาพดังกล่าว</string>
+    <string name="pic_view_format">%1$s\"/\"%2$s</string>
     <string name="michat_skillset_product_title">เลือกผลิตภัณฑ์</string>
     <string name="michat_skillset_business_type_title">เลือกบริการ</string>
     <string name="michat_close_text">การแชทสิ้นสุดลง</string>
@@ -162,6 +163,7 @@
     <string name="cta_confirm">ตกลง</string>
     <string name="submit_dialog_title">ส่งรายงาน</string>
     <string name="submit_dialog_content">ข้อเสนอแนะพร้อมกับไฟล์แนบและบันทึกการใช้งานของคุณจะถูกส่งไปยังเซิร์ฟเวอร์ MIUI ซึ่งอาจรวมถึงข้อมูลส่วนบุคคลและข้อมูลตำแหน่งพิกัดของคุณ</string>
+    <string name="submit_dialog_content_global">"Your feedback, along with attachments (if any) and logs (you can uncheck the corresponding boxes for the items you don't want to upload) will be sent to MIUI's servers and a restricted section of MIUI Forum for developers for analysis and further communication. Logs may contain personal info and your location data."</string>
     <string name="submit_dialog_cancel">ยกเลิก</string>
     <string name="submit_dialog_confirm">ส่ง</string>
     <string name="mobile_data_note_dialog_title">แจ้งเตือนการใช้ข้อมูล</string>
@@ -176,7 +178,7 @@
     <string name="modem_tool_log_finish_title">จับภาพบันทึกโมเด็มแล้ว</string>
     <string name="modem_tool_log_finish_desc">จัดเก็บบันทึกการใช้เป็น %s</string>
     <string name="bugreport_dialog_not_show_again">ไม่ต้องแสดงอีก</string>
-    <string name="bugreport_dialog_submit_content">ข้อเสนอแนะของคุณต้องระบุข้อมูลส่วนบุคคลและข้อมูลตำแหน่งพิกัด</string>
+    <string name="bugreport_dialog_submit_content">"You're saving software logs on this device now. Logs may contain personal info and your location data. Don't share logs with anyone else if you don't want this info to be exposed."</string>
     <string name="bugreport_dump_start_notification_title">กำลังสร้างรายงานข้อบกพร่อง…</string>
     <string name="bugreport_dump_start_notification_summary">ใช้เวลาประมาณสองสามนาที</string>
     <string name="bugreport_dump_complete_notification_title">สร้างรายงานปัญหาแล้ว</string>
@@ -218,6 +220,14 @@
     <string name="feedback_choose_module_hint">จำเป็นต้องระบุ</string>
     <string name="feedback_choose_reproductivity">การทำสำเนา</string>
     <string name="feedback_title_reproductivity">เลือกการทำสำเนา</string>
+    <string name="feedback_select_problem_select_desc">เลือก \"ปัญหา\"</string>
+    <string name="feedback_select_problem_not_select_desc">ไม่ได้เลือก \"ปัญหา\"</string>
+    <string name="feedback_select_suggestion_select_desc">เลือก \"ข้อแนะนำ\"</string>
+    <string name="feedback_select_suggestion_not_select_desc">ไม่ได้เลือก \"ข้อแนะนำ\"</string>
+    <string name="feedback_select_upload_log_select_desc">เลือก \"เพิ่มบันทึกการใช้\"</string>
+    <string name="feedback_select_upload_log_not_select_desc">ไม่ได้เลือก \"เพิ่มบันทึกการใช้\"</string>
+    <string name="feedback_select_modem_log_select_desc">เลือก \"เพิ่มโมเด็มบันทึกการใช้\"</string>
+    <string name="feedback_select_modem_log_not_select_desc">ไม่ได้เลือก \"เพิ่มโมเด็มบันทึกการใช้\"</string>
     <string name="feedback_report_remind_login_desc">ลงชื่อเข้าสู่ระบบบัญชี Mi ของคุณเพื่อให้วิศวกรสามารถติดต่อกับคุณได้</string>
     <string name="feedback_report_remind_login_desc2">คุณยังสามารถติดตามความคืบหน้ารายงานของคุณได้ใน \"รายงานของฉัน\"</string>
     <string name="feedback_history_remind_login_desc">เข้าสู่ระบบด้วยบัญชี Mi ของคุณเพื่อดูรายละเอียดและความคืบหน้ารายงานของคุณ</string>

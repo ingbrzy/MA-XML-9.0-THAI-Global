@@ -50,6 +50,7 @@
     <string name="actionbar_share">แชร์</string>
     <string name="actionbar_textselection_title">การเลือกข้อความ</string>
     <string name="actionbar_web_search">ค้นหาเว็บ</string>
+    <string name="ad_btn_default_text">ติดตั้ง</string>
     <string name="adblock_force_updating_rules_toast">กำลังอัพเดทตัวบล็อกโฆษณา</string>
     <string name="adblock_rules_not_updated_toast">ไม่สามารถอัพเดทได้</string>
     <string name="adblock_rules_restore">ปลดบล็อก</string>
@@ -133,6 +134,7 @@
     <string name="browserFrameNetworkErrorLabel">การเชื่อมต่อผิดพลาด</string>
     <string name="cancel">ยกเลิก </string>
     <string name="cannot_download">สามารถดาวน์โหลดได้แค่ลิงก์ \"http\" หรือ \"https\" เท่านั้น</string>
+    <string name="card_setting_close_recommend">รับข้อเสนอแนะ</string>
     <string name="choosertitle_sharevia">แชร์ผ่าน</string>
     <string name="clear_history">ลบประวัติ</string>
     <string name="clear_most_visited">ประวัติล่าสุด</string>
@@ -167,6 +169,7 @@
     <string name="color_picker_dialog_title">เลือกสี</string>
     <string name="color_picker_hue">โทนสี</string>
     <string name="color_picker_saturation">ความอิ่มตัวของสี</string>
+    <string name="color_picker_value">ค่า</string>
     <string name="comment_app_menu">ความคิดเห็น</string>
     <string name="comment_description">ความคิดเห็น</string>
     <string name="comment_hint">ความคิดเห็น</string>
@@ -333,7 +336,7 @@
     <string name="hint">คำแนะนำ</string>
     <string name="history">ประวัติ</string>
     <string name="home_description">หน้าแรก</string>
-    <string name="home_page_news_feed">ฟีดข่าวใหม่</string>
+    <string name="home_page_news_feed">ฟีดข่าว</string>
     <string name="home_page_top_sites">เว็บไซต์ยอดนิยม</string>
     <string name="homepage_delete_card_menu">ลบ</string>
     <string name="homepage_get_location">ขอตำแหน่งพิกัด</string>
@@ -513,6 +516,10 @@
     <string name="nav_bottom_bar_new_tab">แท็ปใหม่</string>
     <string name="nav_screen_container_tab_incognito">แท็ปไม่ระบุตัวตน</string>
     <string name="nav_screen_container_tab_normal">แท็ปปกติ</string>
+    <string name="nav_screen_incognito_message">"ประวัติการเรียกดูและประวัติการค้นหาของคุณจะไม่ได้รับการบันทึกในโหมดไม่ระบุตัวตน
+กรุณาจำว่าไฟล์ที่คุณดาวน์โหลดและบุ๊กมาร์กที่คุณเพิ่มจะยังคงบันทึกอยู่"</string>
+    <string name="nav_screen_incognito_title">โหมดไม่ระบุตัวตน</string>
+    <string name="navigation_delete_all">ปัดซ้ายและขวาเพื่อปิดแท็บทั้งหมด</string>
     <string name="navigationbar_rightbutton_actiontext_cancle">ยกเลิก </string>
     <string name="navigationbar_rightbutton_actiontext_go">เริ่มเลย</string>
     <string name="navigationbar_rightbutton_actiontext_search">ค้นหา</string>
@@ -562,6 +569,7 @@
     <string name="pref_adblock_title">ตัวบล็อคโฆษณา</string>
     <string name="pref_auto_update_under_wifi">อัพเดทผ่าน Wi-Fi</string>
     <string name="pref_automatic_matching_searchengines_title">เปลี่ยนไปใช้เครื่องมือค้นหาที่ใช้บ่อย</string>
+    <string name="pref_card_setting">คำสั่งซื้อไซต์ยอดนิยม</string>
     <string name="pref_category_hint">หมวดหมู่</string>
     <string name="pref_check_security_url_summary">ส่งที่อยู่เว็บไซต์นี้ไปยังเซิร์ฟเวอร์ของ Mi เพื่อตรวจสอบว่าลิงก์นี้ปลอดภัยหรือไม่</string>
     <string name="pref_check_security_url_summary_international">อนุญาตเบราว์เซอร์ให้เข้าถึง URLs ของเว็บไซต์ที่คุณเยี่ยมชมเพื่อรับข้อเสนอแนะที่เกี่ยวเนื่องกันเพิ่มเติม</string>
@@ -588,7 +596,7 @@
     <string name="pref_enable_videos">วิดีโอ</string>
     <string name="pref_extras_reset_default">คืนค่าเริ่มต้น</string>
     <string name="pref_extras_reset_default_dlg">เรียกคืนการตั้งค่าเริ่มต้น?</string>
-    <string name="pref_extras_reset_default_summary">การตั้งค่าเรียกคืนค่าค่าเริ่มต้น</string>
+    <string name="pref_extras_reset_default_summary">เรียกคืนคำสั่งซื้อเริ่มต้น</string>
     <string name="pref_extras_reset_default_title">อื่นๆ</string>
     <string name="pref_extras_send_feedback">ส่งข้อเสนอแนะ</string>
     <string name="pref_extras_title">ขั้นสูง</string>
@@ -774,7 +782,7 @@
     <string name="show_security_tip_dialog_title">เงื่อนไขการให้บริการ</string>
     <string name="show_weather_location_getter_tip_dialog_description">เบราว์เซอร์ต้องการเชื่อมต่ออินเตอร์เน็ตเพื่อให้ทำงานได้ตามปกติ เพื่อปรับปรุงความปลอดภัยและรับข้อเสนอแนะที่เกี่ยวเนื่องกันเพิ่มเติมและข้อมูลสภาพอากาศ กรุณาอนุญาตเบราว์เซอร์เพื่อรับ URL ของเว็บไซต์ที่คุณได้เยี่ยมชมและเข้าถึงข้อมูลตำแหน่งพิกัดของคุณ</string>
     <string name="sign_in_to" formatted="false">ลงชื่อเข้าใช้ %s1 %s2\"</string>
-    <string name="site_sort_des">ลากรายการเพื่อจัดเรียงลำดับใหม่</string>
+    <string name="site_sort_des">จัดเรียงรายการใหม่</string>
     <string name="skip_button_label">ข้าม</string>
     <string name="skip_current_version">ข้ามรุ่นนี้</string>
     <string name="snapshot">ในเครื่อง</string>

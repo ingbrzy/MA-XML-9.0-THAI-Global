@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="accessibility_calllog_detail">รายละเอียดประวัติการโทร</string>
     <string name="accessibility_contact_detail">รายละเอียดผู้ติดต่อ</string>
     <string name="account_container_title">นำเข้าจาก</string>
@@ -97,6 +98,7 @@
     <string name="call_sim_menu_title_suffix">(หลัก)</string>
     <string name="call_telex">โทรเทเล็กซ์</string>
     <string name="call_tty_tdd">โทร TTY/TDD</string>
+    <string name="call_type_and_date">%1$s %2$s     </string>
     <string name="call_unit">CNY</string>
     <string name="call_work">โทรเบอร์ที่ทำงาน</string>
     <string name="call_work_mobile">โทรมือถือที่ทำงาน</string>
@@ -338,7 +340,7 @@
     <string name="description_minus_button">ลบ</string>
     <string name="description_plus_button">บวก</string>
     <string name="description_quick_contact_for">ติดต่อด่วนสำหรับ %1$s</string>
-    <string name="description_quick_dial_button">Quick dial</string>
+    <string name="description_quick_dial_button">โทรด่วน</string>
     <string name="description_search_button">ค้นหา</string>
     <string name="description_send_message">ส่งข้อความไปยัง %1$s</string>
     <string name="description_send_text_message">ส่งข้อความปกติไปที่ %1$s</string>
@@ -390,7 +392,7 @@
     <string name="dialer_empty_text_loading">รอสักครู่…</string>
     <string name="dialer_empty_text_no_call_log">ไม่มีรายชื่อล่าสุด</string>
     <string name="dialer_empty_text_no_search_result">ไม่พบผู้ติดต่อ</string>
-    <string name="dialer_firewall_entry_name">Blocked call logs</string>
+    <string name="dialer_firewall_entry_name">บันทึกการโทรที่ถูกบล็อก</string>
     <string name="dialer_menu_description">แสดงเมนู</string>
     <string name="dialer_menu_title">ตัวเลือกเมนู</string>
     <string name="dialer_returnToInCallScreen">กลับไปยังการโทร</string>
@@ -483,6 +485,7 @@
     <string name="force_touch_new_contact">รายชื่อใหม่</string>
     <string name="foundTooManyContacts">พบมากกว่า %d รายการ</string>
     <string name="frequentList">ใช้บ่อย</string>
+    <string name="from_account_format">%1$s</string>
     <string name="full_name">ชื่อ</string>
     <string name="gallery">คลังภาพ</string>
     <string name="generic_no_account_prompt">รักษาข้อมูลรายชื่อให้ปลอดภัย หากคุณทำโทรศัพท์หาย: ซิงค์กับบริการออนไลน์</string>
@@ -665,6 +668,7 @@
     <string name="miprofile_contact_header">รายชื่อที่เพิ่มนามบัตรได้</string>
     <string name="miprofile_contact_meaasge">รายชื่อในเครื่อง</string>
     <string name="miprofile_contact_verifying">กำลังยืนยัน</string>
+    <string name="miprofile_delete_alertdialog_message">@string/miprofile_switch_off_alertdialog_message</string>
     <string name="miprofile_edit_title">แก้ไขข้อมูลส่วนตัว</string>
     <string name="miprofile_error_accept_self">ไม่สามารถแลกนามบัตรกับตนเองได้</string>
     <string name="miprofile_error_no_miaccount">ลงชื่อเข้าใช้บัญชี Mi ของคุณ</string>
@@ -808,7 +812,7 @@
     <string name="path_key_rebuild_t9_index_title">แอประบบ/รายชื่อ/จัดการรายชื่อ/ล้างข้อมูล/สร้างข้อมูลดัชนีรายชื่อใหม่</string>
     <string name="path_key_sim_manage">แอประบบ/รายชื่อ/จัดการรายชื่อ/ซิมการ์ด</string>
     <string name="path_preference_contacts_filter">แอประบบ/รายชื่อ/การตั้งค่าการแสดงผล/ตั้งค่ารายชื่อ</string>
-    <string name="path_quick_dial_setting">System apps/Contacts/Quick dial</string>
+    <string name="path_quick_dial_setting">แอประบบ/โทรศัพท์/การตั้งค่าขั้นสูง/โทรด่วน</string>
     <string name="path_remove_duplicate">แอประบบ/รายชื่อ/จัดการรายชื่อ/ควบรวมรายชื่อซ้ำเข้าด้วยกัน</string>
     <string name="path_share_visible_contacts">แอประบบ/รายชื่อ/นำเข้า/ส่งออกรายชื่อ/แชร์รายชื่อ</string>
     <string name="path_sim_capacity">แอประบบ/รายชื่อ/ที่จัดเก็บข้อมูลซิมการ์ด</string>
@@ -817,6 +821,8 @@
     <string name="path_wipe_data">แอประบบ/รายชื่อ/จัดการรายชื่อ/ล้างข้อมูล</string>
     <string name="payphone">โทรศัพท์สาธารณะ</string>
     <string name="people">รายชื่อ</string>
+    <string name="percent_sign">%</string>
+    <string name="percentage">%s%%</string>
     <string name="phoneLabelsGroup">โทรศัพท์</string>
     <string name="phone_info_divider">" ｜ "</string>
     <string name="phone_number_too_long_toast">หมายเลขยาวเกินไป</string>
@@ -867,6 +873,7 @@
     <string name="preference_contacts_display">การตั้งค่าการแสดงผล</string>
     <string name="preference_contacts_filter">กำหนดค่ารายชื่อผู้ติดต่อ</string>
     <string name="preference_contacts_more">จัดระเบียบรายชื่อ</string>
+    <string name="preference_contacts_moresetting">เพิ่มเติม</string>
     <string name="preference_dial_pad_touch_tone_default">ค่าเริ่มต้น</string>
     <string name="preference_dial_pad_touch_tone_human">เสียง</string>
     <string name="preference_dial_pad_touch_tone_piano">คีย์เปียโน</string>
@@ -874,6 +881,7 @@
     <string name="preference_dial_pad_touch_tone_title">เสียงแป้นโทร</string>
     <string name="preference_display">แสดง</string>
     <string name="preference_displayOptions">ตัวเลือกการแสดง</string>
+    <string name="preference_display_contact">Display options</string>
     <string name="preference_export">ส่งออก</string>
     <string name="preference_import">นำเข้า</string>
     <string name="preference_import_export">นำเข้า/ส่งออก</string>
@@ -918,12 +926,12 @@
     <string name="pull_to_refresh_release_label">ปล่อยเพื่อรีเฟรช</string>
     <string name="qr_card_card">รหัส QR</string>
     <string name="qrcode_card_title">รหัส QR</string>
-    <string name="quick_dial_setting_delete_dialog_message">Delete assigned quick dial number?</string>
-    <string name="quick_dial_setting_delete_dialog_option_delete">Delete</string>
-    <string name="quick_dial_setting_hint">Tap a button to assign or remove a quick dial number. Press and hold the button with an assigned number to dial.</string>
-    <string name="quick_dial_setting_set_dialog_message">Assign a quick dial number to this button?</string>
-    <string name="quick_dial_setting_set_dialog_option_set">Yes</string>
-    <string name="quick_dial_setting_title">Quick dial</string>
+    <string name="quick_dial_setting_delete_dialog_message">ลบหมายเลขโทรด่วนที่กำหนดหรือไม่?</string>
+    <string name="quick_dial_setting_delete_dialog_option_delete">ลบ</string>
+    <string name="quick_dial_setting_hint">แตะปุ่มเพื่อกำหนดหรือลบหมายเลขโทรด่วน กดปุ่มค้างหมายเลขที่กำหนดเพื่อโทรออก</string>
+    <string name="quick_dial_setting_set_dialog_message">ตั้งหมายเลขการโทรด่วนในปุ่มเดียวหรือไม่?</string>
+    <string name="quick_dial_setting_set_dialog_option_set">ใช่</string>
+    <string name="quick_dial_setting_title">โทรด่วน</string>
     <string name="quickcontact_missing_app">ไม่พบแอปที่สามารถดำเนินการนี้ได้</string>
     <string name="quit_dialog_confirm_message">คุณยังไม่ได้ควบรวมรายชื่อใดๆ</string>
     <string name="quit_dialog_confirm_title">ยกเลิกการควบรวมรายชื่อ</string>
@@ -992,7 +1000,7 @@
     <string name="search_key_rebuild_t9_index_title">จัดการ;รายชื่อ;t9</string>
     <string name="search_key_sim_manage">จัดการ;รายชื่อ</string>
     <string name="search_preference_contacts_filter">รายชื่อ;แสดง</string>
-    <string name="search_quick_dial_setting">Contacts</string>
+    <string name="search_quick_dial_setting">โทรศัพท์</string>
     <string name="search_remove_duplicate">จัดการ;รายชื่อ</string>
     <string name="search_results_searching">กำลังค้นหา…</string>
     <string name="search_settings_description">ชื่อของรายชื่อของคุณ</string>
@@ -1057,6 +1065,7 @@
     <string name="sim_unloaded">ซิมการ์ดไม่ได้ติดตั้ง</string>
     <string name="sina_weibo">Sina Weibo</string>
     <string name="single_group_list_empty">ไม่มีสมาชิกกลุ่ม</string>
+    <string name="smart_group_action_bar_title">%1$s: %2$s (%3$s)</string>
     <string name="smart_group_company_label">บริษัท</string>
     <string name="smart_group_company_unavailable">ไม่มีข้อมูลบริษัท</string>
     <string name="smart_group_frequency_1">ภายในเดือนที่ผ่านมา</string>
@@ -1188,6 +1197,7 @@
     <string name="voip_audio_description">โทรผ่านเน็ต</string>
     <string name="voip_video_description">วิดีโอคอลผ่านเน็ต</string>
     <string name="websiteLabelsGroup">เว็บไซต์</string>
+    <string name="widget_name_and_phonetic">%1$s (%2$s)</string>
     <string name="wipe_data">ล้างข้อมูล</string>
     <string name="yellowPageNavigationIconLabel">สมุดหน้าเหลือง</string>
     <string name="yellowPageNavigationLabel">สมุดหน้าเหลือง</string>

@@ -33,6 +33,7 @@
     <string name="cancel_lang">ยกเลิก</string>
     <string name="cancel_message">คนอื่นๆจะไม่ได้รับไฟล์ถ้าคุณยกเลิกการโอนย้าย ยกเลิกการโอนย้าย?</string>
     <string name="cancel_stop">ส่งต่อ</string>
+    <string name="cannot_transfer_dir_to_low_version">ขอให้อีกฝ่ายอัพเดท Mi ดรอป</string>
     <string name="category_files">ไฟล์</string>
     <string name="category_installed_app">แอป</string>
     <string name="category_music">เพลง</string>
@@ -96,7 +97,7 @@
     <string name="info_product">อุปกรณ์:</string>
     <string name="info_system">ระบบ:</string>
     <string name="info_system_version">เวอร์ชั่นระบบ:</string>
-    <string name="instruction">ป้อนที่อยู่นี้ในเบราว์เซอร์หรือตัวจัดการไฟล์ของคอมพิวเตอร์ของคุณ</string>
+    <string name="instruction">ป้อนที่อยู่นี้ในตัวจัดการไฟล์ของคอมพิวเตอร์ของคุณ</string>
     <string name="instruction_pre_pad">เริ่มต้นเพื่อให้สามารถจัดการไฟล์โดยใช้คอมพิวเตอร์</string>
     <string name="instruction_pre_phone">เริ่มต้นเพื่อให้สามารถจัดการไฟล์โดยใช้คอมพิวเตอร์</string>
     <string name="internal_storage">ที่จัดเก็บภายใน</string>
@@ -114,6 +115,7 @@
 ในแอนดรอยด์ 6.0 และสูงกว่าจำเป็นต้องเปิดใช้งานบริการตำแหน่งพิกัดเพื่อส่งและรับไฟล์"</string>
     <string name="location_skip">ข้าม</string>
     <string name="max_send_file">99+</string>
+    <string name="more">เพิ่มเติม</string>
     <string name="never_remind">ไม่ต้องแสดงอีก</string>
     <string name="no_file">ว่างเปล่า</string>
     <string name="no_network">"ไม่สามารถเชื่อมต่อกับเครือข่ายได้ 
@@ -134,6 +136,7 @@
     <string name="popup_window_header_clear_all">ล้าง</string>
     <string name="port_range">หมายเลขพอร์ตต้องอยู่ระหว่าง 1024-65535</string>
     <string name="prompt_grant_write_settings_permission">อนุญาตให้ Mi ดรอป ปรับเปลี่ยนการตั้งค่าระบบ</string>
+    <string name="qr_code">รหัส QR</string>
     <string name="receive">รับ</string>
     <string name="receive_exit_dialog_message">ไฟล์จะไม่ถูกส่งถ้าคุณยกเลิกการโอนย้าย ยกเลิกหรือไม่?</string>
     <string name="receive_exit_dialog_negative_btn">ทำการรับข้อมูลต่อไป</string>
@@ -142,6 +145,7 @@
     <string name="received_files">รับไฟล์</string>
     <string name="receiver_accept">ยอมรับ</string>
     <string name="receiver_clean">เพิ่มพื้นที่ว่าง</string>
+    <string name="receiver_file_title">จาก %s</string>
     <string name="receiver_in_progress_summary">กำลังถ่ายโอนไฟล์ กรุณารอจนกว่าส่งไฟล์เดิมเสร็จก่อนจึงจะสามารถส่งใหม่ได้</string>
     <string name="receiver_in_progress_title">กำลังถ่ายโอนไฟล์</string>
     <string name="receiver_insufficient_storage">พื้นที่จัดเก็บไม่เพียงพอ</string>
@@ -191,16 +195,21 @@
     <string name="settings_feedback">ข้อเสนอแนะ</string>
     <string name="settings_score">ให้คะแนน Mi ดรอป</string>
     <string name="settings_set_name">ชื่อเล่น</string>
-    <string name="share_desc">แชร์ Mi ดรอป โดยไม่ใช้ข้อมูลมือถือ</string>
+    <string name="share_ap_step_two">ดูขั้นตอนที่ 2 หลังจากที่เพื่อนของคุณเชื่อมต่อ</string>
+    <string name="share_desc">แชร์โดยไม่ต้องเชื่อมต่ออินเทอร์เน็ต</string>
+    <string name="share_first_head_title">แชร์กับเพื่อนที่อยู่ใกล้เคียง</string>
     <string name="share_mi_drop">แชร์ Mi ดรอป ไปยังเพื่อนของคุณ</string>
+    <string name="share_second_head_title">แชร์โดยวิธีอื่นๆ</string>
+    <string name="share_via_ap">แชร์ผ่านฮอตสปอตแบบพกพา</string>
+    <string name="share_via_qr_code">ใช้งานร่วมกันผ่านรหัส QR</string>
     <string name="start_server">เริ่ม</string>
     <string name="stay_awake_summary">ไม่พักหน้าจอขณะใช้งาน FTP</string>
     <string name="stay_awake_title">เปิดหน้าจอตลอด</string>
-    <string name="step_1">"ขั้นตอนที่ 1: 
-ให้ฝ่ายตรงข้ามเชื่อมต่อ Wi-fi"</string>
-    <string name="step_2">"ขั้นตอนที่ 2: 
-ให้ฝ่ายตรงข้ามป้อนที่อยู่ต่อไปนี้ในเบราว์เซอร์:"</string>
-    <string name="step_2_scan_code">หรือสแกนรหัส QR ต่อไปนี้</string>
+    <string name="step_1">ขั้นตอนที่ 1:</string>
+    <string name="step_1_title">ขอให้เพื่อนของคุณเชื่อมต่อกับเครือข่ายนี้</string>
+    <string name="step_2">ขั้นตอน 2:</string>
+    <string name="step_2_input_ip_address">หรือขอให้เพื่อนของคุณป้อนข้อมูลนี้ลงในแถบที่อยู่ของเบราเซอร์:</string>
+    <string name="step_2_scan_code">ขอให้เพื่อนของคุณสแกน QR โค้ดนี้</string>
     <string name="stop_server">หยุด</string>
     <string name="stop_transfer">หยุด</string>
     <string name="storage_internal">ที่จัดเก็บภายใน</string>
@@ -230,6 +239,7 @@
     <string name="version">เวอร์ชั่น </string>
     <string name="want_receive">รับไฟล์</string>
     <string name="want_send">ส่งไฟล์</string>
+    <string name="wifi_ap">ฮอตสปอตพกพา</string>
     <string name="wifi_name">ชื่อ Wi-Fi:</string>
     <string name="wifi_psw">รหัสผ่าน:</string>
     <string name="wifi_state">สถานะ Wi-Fi</string>
