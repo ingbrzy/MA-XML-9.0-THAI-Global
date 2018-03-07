@@ -71,6 +71,16 @@
     <string name="dlg_add_white">การโทรและข้อความใหม่จากหมายเลขที่เพิ่มเข้าไปในข้อยกเว้นจะปรากฏในประวัติการโทร และกล่องรับข้อความ อย่างไรก็ตามรายการที่ถูกบล็อกก่อนหน้านี้จะไม่ปรากฏ เพิ่มหมายเลขที่เลือกเป็นข้อยกเว้นหรือไม่?</string>
     <string name="dlg_not_block_sms">เลิกบล็อกหมายเลขที่เลือกไว้หรือไม่? มันจะถูกเพิ่มเป็นข้อยกเว้น แต่รายการที่ถูกบล็อกก่อนหน้านี้จะไม่ปรากฏในกล่องจดหมายของข้อความ</string>
     <string name="dlg_not_block_call">เลิกบล็อกหมายเลขที่เลือกไว้หรือไม่? มันจะถูกเพิ่มเป็นข้อยกเว้น แต่รายการที่ถูกบล็อกก่อนหน้านี้จะไม่ปรากฏในประวัติการโทร</string>
+    <string name="dlg_update_date_title">คำเตือน</string>
+    <string name="dlg_update_data_content">คุณไม่ได้เชื่อมต่อ Wi-Fi การใช้ข้อมูลมือถือคุณอาจจะต้องจ่ายค่าบริการเพิ่มเติม ดำเนินการต่อหรือไม่?</string>
+    <string name="dlg_sec_network_unavailable">แอปความปลอดภัยไม่สามารถอัพเดทได้ เนื่องจากคุณจำกัดการเชื่อมต่อกับอินเทอร์เน็ต อนุญาตการเชื่อมต่อกับอินเทอร์เน็ตหรือไม่?</string>
+    <string name="dlg_update_btn_contiue">ดำเนินต่อ</string>
+    <string name="dlg_update_btn_open">อนุญาต</string>
+    <string name="dlg_update_updating">กำลังอัพเดท…</string>
+    <string name="toast_update_nonetwork">ไม่สามารถเชื่อมต่อเครือข่ายได้</string>
+    <string name="toast_update_fail">ไม่สามารถอัพเดทได้</string>
+    <string name="toast_update_success">อัพเดทเสร็จสิ้น</string>
+    <string name="toast_update_notneed">เป็นปัจจุบัน</string>
     <string name="menu_call">โทร</string>
     <string name="menu_sms">ส่งข้อความ</string>
     <string name="menu_bl_call_log">แสดงสายเรียกเข้าที่ถูกบล็อก</string>
@@ -251,6 +261,7 @@
     <string name="mark_time_text">%d</string>
     <string name="mark_time_setting_dialog_title">รายงานหมายเลข</string>
     <string name="sms_smart_engine_update">อัพเดตตัวกรองข้อความโดยอัตโนมัติ</string>
+    <string name="sms_smart_engine_update_now">อัพเดท</string>
     <string name="mark_number_setting_guide_title">บล็อกเลขหมายที่มีผู้รายงาน</string>
     <string name="mark_number_setting_guide_content1">ต้องการบล็อกสายเรียกเข้าที่มีผู้รายงานไว้?</string>
     <string name="mark_number_setting_guide_content2">บล็อกสายเรียกเข้าที่มีบุคคลอื่นรายงานไว้โดยอัตโนมัติ</string>
@@ -304,6 +315,7 @@
     <string name="cta_dialog_title">การเชื่อมกับต่ออินเตอร์เน็ต</string>
     <string name="cta_dialog_msg">ระบบความปลอดภัยต้องการการเชื่อมต่ออินเทอร์เน็ตในการปรับปรุง ตลอดจนการเข้าถึงตำแหน่งเพื่อทำงานปกติ</string>
     <string name="cta_settings">อนุญาตให้เชื่อมต่ออินเทอร์เน็ต</string>
+    <string name="gdpr_msg"><Data>ในการใช้คุณลักษณะขั้นพื้นฐานของการรักษาความปลอดภัยคุณต้องยอมรับว่า Xiaomi จะรวบรวมประมวลผลและใช้ข้อมูลส่วนบุคคลของคุณรวมทั้งข้อมูลเกี่ยวกับวิธีที่คุณใช้คุณลักษณะของความปลอดภัย (เช่นสถิติการใช้ข้อมูลมือถือข้อมูลเกี่ยวกับมัลแวร์, รวมถึงข้อมูลพื้นฐานเกี่ยวกับอุปกรณ์ของคุณ) และข้อมูลประเภทอื่นๆ ที่ระบุใน &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">นโยบายความเป็นส่วนตัว&lt;/a>.</Data>ของเรา</string>
     <string name="app_name_na">การใช้ข้อมูล</string>
     <string name="list_empty_text">ไม่มี</string>
     <string name="dialog_title_attention">โปรดทราบ</string>
@@ -383,6 +395,12 @@
     <string name="firewall_wifi_dialog_message">แอปที่ติดตั้งจะไม่สามารถเชื่อมต่อและใช้อินเตอร์เน็ตได้ หากคุณปิดสวิตช์นี้</string>
     <string name="firewall_system_title">การใช้ข้อมูลสำหรับแอประบบ</string>
     <string name="firewall_temp_rule_reason">%2$s จำกัดการเชื่อมต่ออินเทอร์เน็ตสำหรับ %1$s​</string>
+    <string name="dialog_restrict_all_wlan_title">จำกัดการเชื่อมต่อ Wi-Fi</string>
+    <string name="dialog_restrict_all_wlan_summary">การเชื่อมต่อ Wifi จะถูกจำกัด สำหรับแอพทั้งหมดหลังจากนี้</string>
+    <string name="dialog_restrict_all_mobile_title">จำกัด %s การเชื่อมต่อข้อมูลมือถือ</string>
+    <string name="dialog_restrict_all_mobile_summary">%s การเชื่อมต่อข้อมูลมือถือจะถูกจำกัด สำหรับแอพทั้งหมดหลังจากนี้</string>
+    <string name="dialog_restrict_positive">ยกเลิก </string>
+    <string name="dialog_restrict_negative">จำกัด</string>
     <string name="usage_sorted_activity_lable">การใช้ข้อมูล</string>
     <string name="usage_sorted_loading_text">รอสักครู่…</string>
     <string name="usage_sorted_empty_text">ไม่มี</string>
@@ -405,6 +423,7 @@
     <string name="detail_app_button">ข้อมูลแอป</string>
     <string name="pref_about_traffic_title">การตั้งค่าการใช้ข้อมูล</string>
     <string name="pref_traffic_manage_title">การใช้ข้อมูล</string>
+    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_package_traffic_settings">แพ็คเกจข้อมูล</string>
     <string name="pref_adjust_traffic_data">ตั้งการใช้ข้อมูล</string>
     <string name="pref_category_title_other">การตั้งค่าเพิ่มเติม</string>
@@ -517,6 +536,12 @@
     <string name="leisure_usage_dialog_message">"คุณได้ใช้เกินขีดจำกัดของข้อมูลนอกช่วงปกติของคุณแล้ว
 
 ผู้ให้บริการอาจจะเก็บค่าบริการเพิ่มเติมหากคุณใช้ข้อมูลมือถืออีกครั้ง"</string>
+    <string name="data_usage_protected_notify_title">คุณใช้งานข้อมูลมือถือ 5GB แล้ว</string>
+    <string name="data_usage_protected_notify_message">MIUI ปิดข้อมูลมือถือเพื่อป้องกันไม่ให้คุณสร้าง ค่าธรรมเนียมผู้ให้บริการเพิ่มเติม</string>
+    <string name="data_usage_mobile_dialog_title">คุณใช้งานข้อมูลมือถือ 5GB แล้ว MIUI ปิดใช้งานโทรศัพท์มือถือ ข้อมูล</string>
+    <string name="data_usage_protected_dialog_message">"MIUI ปิดข้อมูลมือถือเพื่อป้องกันไม่ให้คุณสร้าง ค่าธรรมเนียมผู้ให้บริการเพิ่มเติม
+
+ผู้ให้บริการของคุณอาจเรียกเก็บค่าธรรมเนียมเพิ่มเติมหากคุณเปิดข้อมูลมือถืออีกครั้ง"</string>
     <string name="lock_screen_traffic_warn_title">การแจ้งเตือนในหน้าจอล็อก</string>
     <string name="lock_screen_traffic_notify_body">ล็อกตั้งแต่ %1$s เป็นเวลา %2$s ใช้ข้อมูลไป %3$s</string>
     <string name="timeshow_s">%dวิ</string>
@@ -615,7 +640,7 @@
     <string name="tc_sms_report_type">ประเภทรายงาน</string>
     <string name="privacy_declare_dialog_title">เงื่อนไขการให้บริการ</string>
     <string name="sc_allow_network_dialog_tiltle">ไม่สามารถใช้งานคุณลักษณะนี้ได้</string>
-    <string name="sc_allow_network_dialog_message">You restricted network connection and access to your location for Security. Give Security the required permissions to use this feature.</string>
+    <string name="sc_allow_network_dialog_message">คุณจำกัดการเชื่อมต่อเครือข่ายและการเข้าถึงตำแหน่งของคุณเพื่อความปลอดภัย ให้สิทธิ์การรักษาความปลอดภัยที่จำเป็นในการใช้คุณลักษณะนี้</string>
     <string name="privacy_prompt_upload">อัพโหลด</string>
     <string name="privacy_prompt_traffic_adjust_message">"หลังจากที่คุณเริ่มการปรับเทียบ MIUI จะเชื่อมต่อกับเครือข่ายเข้ารหัสข้อมูลผู้ให้บริการหมายเลขโทรศัพท์ IMEI และบัญชี Mi และอัปโหลดรายการเหล่านี้ไปยังเซิร์ฟเวอร์ Mi ทำเช่นนี้เพื่อรับเทมเพลตการปรับเทียบของผู้ให้บริการและเรียนรู้ว่าสามารถซื้อข้อมูลในตำแหน่งได้หรือไม่ 
 
@@ -918,6 +943,7 @@
     <string name="om_formatted_percent_string">%s%%</string>
     <string name="om_cpu_usage_warn_title_text">"แอปนี้อาจทำให้อุปกรณ์ของคุณ
 ช้าลง"</string>
+    <string name="om_memory_clean_memory_info_text">%1$s / %2$s</string>
     <string name="om_ill_proc_handle_unstaill_title">ถอนการติดตั้ง %s?</string>
     <string name="om_ill_proc_handle_uninstall_prompt">ถอนการติดตั้งแอปนี้เพื่อแก้ไขปัญหาการใช้แบตเตอรี่</string>
     <string name="om_ill_proc_type_wakelock_title">แอปบล็อกโหมดสลีปทำให้แบตเตอรี่หมดเร็ว</string>
@@ -1322,6 +1348,7 @@
     <string name="menu_text_networkassistants">การใช้ข้อมูล</string>
     <string name="menu_text_networkassistants_remain">คงเหลือ %s</string>
     <string name="menu_text_networkassistants_danger">ใช้เกินไป %s</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_unit_gb">GB</string>
     <string name="menu_text_networkassistants_unit_mb">MB</string>
     <string name="menu_text_networkassistants_unit_kb">KB</string>
@@ -1682,6 +1709,7 @@
     <string name="card_main_deepclean_wechat_action">ล้าง</string>
     <string name="card_main_sectool_title">เครื่องมือ</string>
     <string name="card_main_monthreport_action">เรียกดู</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">ทดสอบเครือข่าย</string>
     <string name="card_main_netcheck_summary">ทดสอบการเชื่อมต่อสำหรับปัญหาเครือข่าย</string>
     <string name="card_main_netcheck_action">ทดสอบ</string>

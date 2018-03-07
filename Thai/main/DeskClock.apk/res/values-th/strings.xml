@@ -121,6 +121,7 @@
     <string name="shutdown_alarm_disable_summary">การปลุกจะไม่ดังหลังจากปิดเครื่อง</string>
     <string name="shutdown_alarm_enable_summary">การปลุกจะดังหลังจากปิดเครื่อง</string>
     <string name="shutdown_alarm_title">การปิดเสียงปลุก</string>
+    <string name="skip_alarm_date_format">%1$s (%2$s)</string>
     <string name="skip_alarm_once_hint">ปิดครั้งเดียวเวลา %s</string>
     <string name="slider_text">เลื่อนขึ้นเพื่อปิดใช้งาน</string>
     <string name="snooze_confirm_cancel">เลิกทำการปลุก</string>

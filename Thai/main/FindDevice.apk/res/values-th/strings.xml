@@ -22,6 +22,7 @@
     <string name="find_device_noise_title">ค้นหาอุปกรณ์ที่เตือนภัย</string>
     <string name="find_device_success_title">ค้นหาอุปกรณ์</string>
     <string name="find_device_notice_p1">ไปที่</string>
+    <string name="find_device_notice_p2">i.mi.com</string>
     <string name="find_device_notice_p3">"ใช้ในการค้นหา สั่งล็อกเครื่องหรือกู้คืนเครื่อง
 ในกรณีที่คุณเปลี่ยนซิมการ์ด ระบบจะส่งข้อความอีกครั้งโดยอัตโนมัติเพื่อเปิดใช้งานบริการนี้"</string>
     <string name="i_know">ตกลง</string>
@@ -38,7 +39,7 @@
     <string name="unlock_error_rpc">พบข้อบกพร่อง RPC</string>
     <string name="unlock_error_abort">ถูกยกเลิกโดยผู้ใช้</string>
     <string name="unlock_error_passport_sdk_timeout">บัญชี Mi SDK ไม่มีการตอบสนอง</string>
-    <string name="open_wifi_settings">Open Wi-Fi settings</string>
+    <string name="open_wifi_settings">เปิดการตั้งค่า Wi-Fi</string>
     <string name="activate_xiaomi_account">เปิดใช้งานอุปกรณ์นี้</string>
     <string name="login_extra_steps">การยืนยันการลงชื่อเข้าใช้</string>
     <string name="phone_locked">อุปกรณ์นี้ผูกไว้กับบัญชี Mi (%s) กรุณาลงชื่อเข้าสู่ระบบเพื่อเปิดใช้งานอุปกรณ์นี้</string>

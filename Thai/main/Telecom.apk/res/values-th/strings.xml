@@ -5,12 +5,15 @@
     <string name="wifi_remembered">บันทึกแล้ว</string>
     <string name="wifi_disabled_generic">ปิดอยู่</string>
     <string name="wifi_disabled_network_failure">การกำหนดค่า IP ล้มเหลว</string>
+    <string name="wifi_disabled_by_recommendation_provider">ไม่ได้เชื่อมต่อเนื่องจากเครือข่ายคุณภาพต่ำ</string>
     <string name="wifi_disabled_wifi_failure">การเชื่อมต่อ Wi-Fi ล้มเหลว</string>
     <string name="wifi_disabled_password_failure">ปัญหาในการตรวจสอบสิทธิ์</string>
     <string name="wifi_not_in_range">ไม่อยู่ในพื้นที่ให้บริการ</string>
-    <string name="wifi_no_internet">ไม่พบการเข้าถึงอินเทอร์เน็ต ระบบจะไม่เชื่อมต่อใหม่โดยอัตโนมัติ</string>
+    <string name="wifi_no_internet_no_reconnect">จะไม่เชื่อมต่อโดยอัตโนมัติ</string>
+    <string name="wifi_no_internet">ไม่สามารถเข้าถึงอินเทอร์เน็ต</string>
     <string name="saved_network">บันทึกโดย %1$s แล้ว</string>
-    <string name="connected_via_wfa">เชื่อมต่อผ่านตัวช่วย Wi-Fi อยู่</string>
+    <string name="connected_via_network_scorer">เชื่อมต่ออัตโนมัติผ่าน %1$s แล้ว</string>
+    <string name="connected_via_network_scorer_default">เชื่อมต่ออัตโนมัติผ่านผู้ให้บริการการจัดอันดับเครือข่าย</string>
     <string name="connected_via_passpoint">เชื่อมต่อผ่าน %1$s แล้ว</string>
     <string name="available_via_passpoint">พร้อมใช้งานผ่านทาง %1$s</string>
     <string name="wifi_connected_no_internet">เชื่อมต่อแล้ว ไม่พบอินเทอร์เน็ต</string>
@@ -33,6 +36,8 @@
     <string name="bluetooth_profile_pan_nap">การแชร์การเชื่อมต่ออินเทอร์เน็ต</string>
     <string name="bluetooth_profile_map">การเข้าถึงข้อความ</string>
     <string name="bluetooth_profile_sap">การเข้าถึงซิม</string>
+    <string name="bluetooth_profile_a2dp_high_quality">ใช้เสียงคุณภาพสูง: %1$s</string>
+    <string name="bluetooth_profile_a2dp_high_quality_unknown_codec">ใช้เสียงคุณภาพสูง</string>
     <string name="bluetooth_a2dp_profile_summary_connected">เชื่อมต่อกับระบบเสียงของสื่อแล้ว</string>
     <string name="bluetooth_headset_profile_summary_connected">เชื่อมต่อกับระบบเสียงของโทรศัพท์แล้ว</string>
     <string name="bluetooth_opp_profile_summary_connected">เชื่อมต่อกับเซิร์ฟเวอร์สำหรับโอนไฟล์แล้ว</string>
@@ -127,7 +132,7 @@
     <string name="oem_unlock_enable">การปลดล็อก OEM</string>
     <string name="oem_unlock_enable_summary">อนุญาตให้ปลดล็อกตัวโหลดการเปิดเครื่อง</string>
     <string name="confirm_enable_oem_unlock_title">อนุญาตการปลดล็อก OEM ไหม</string>
-    <string name="confirm_enable_oem_unlock_text">คำเตือน: คุณลักษณะการปกป้องอุปกรณ์จะไม่ทำงานบนอุปกรณ์นี้ขณะที่การตั้งค่านี้เปิดอยู่</string>
+    <string name="confirm_enable_oem_unlock_text">คำเตือน: ฟีเจอร์การปกป้องอุปกรณ์จะไม่ทำงานบนอุปกรณ์นี้ขณะที่การตั้งค่านี้เปิดอยู่</string>
     <string name="mock_location_app">เลือกแอปจำลองตำแหน่ง</string>
     <string name="mock_location_app_not_set">ไม่ได้ตั้งค่าแอปจำลองตำแหน่ง</string>
     <string name="mock_location_app_set">แอปจำลองตำแหน่ง: %1$s</string>
@@ -136,20 +141,41 @@
     <string name="wifi_verbose_logging">เปิดใช้การบันทึกรายละเอียด Wi-Fi</string>
     <string name="wifi_aggressive_handover">สลับ Wi‑Fi เป็นมือถือเมื่อสัญญาณอ่อน</string>
     <string name="wifi_allow_scan_with_traffic">ใช้การสแกน Wi-Fi ข้ามเครือข่ายเสมอ</string>
-    <string name="mobile_data_always_on">เปิดใช้ข้อมูลมือถือเสมอ</string>
+    <string name="mobile_data_always_on">เปิดใช้อินเทอร์เน็ตมือถือเสมอ</string>
     <string name="bluetooth_disable_absolute_volume">ปิดใช้การควบคุมระดับเสียงของอุปกรณ์อื่น</string>
+    <string name="bluetooth_enable_inband_ringing">เปิดใช้การส่งเสียงในช่องสัญญาณเดียวกัน</string>
+    <string name="bluetooth_select_avrcp_version_string">เวอร์ชันของบลูทูธ AVRCP</string>
+    <string name="bluetooth_select_avrcp_version_dialog_title">เลือกเวอร์ชันของบลูทูธ AVRCP</string>
+    <string name="bluetooth_select_a2dp_codec_type">ตัวแปลงรหัสเสียงบลูทูธ</string>
+    <string name="bluetooth_select_a2dp_codec_type_dialog_title">เลือกตัวแปลงรหัสเสียงบลูทูธ</string>
+    <string name="bluetooth_select_a2dp_codec_sample_rate">อัตราตัวอย่างเสียงบลูทูธ</string>
+    <string name="bluetooth_select_a2dp_codec_sample_rate_dialog_title">"เลือกตัวแปลงรหัสเสียงบลูทูธ:
+อัตราการสุ่มตัวอย่าง"</string>
+    <string name="bluetooth_select_a2dp_codec_bits_per_sample">บิตต่อตัวอย่างของเสียงบลูทูธ</string>
+    <string name="bluetooth_select_a2dp_codec_bits_per_sample_dialog_title">"เลือกตัวแปลงรหัสเสียงบลูทูธ:
+บิตต่อตัวอย่าง"</string>
+    <string name="bluetooth_select_a2dp_codec_channel_mode">โหมดช่องสัญญาณเสียงบลูทูธ</string>
+    <string name="bluetooth_select_a2dp_codec_channel_mode_dialog_title">"เลือกตัวแปลงรหัสเสียงบลูทูธ:
+โหมดช่องสัญญาณ"</string>
+    <string name="bluetooth_select_a2dp_codec_ldac_playback_quality">ตัวแปลงรหัสเสียงบลูทูธที่ใช้ LDAC: คุณภาพการเล่น</string>
+    <string name="bluetooth_select_a2dp_codec_ldac_playback_quality_dialog_title">"เลือกตัวแปลงรหัสเสียงบลูทูธที่ใช้ LDAC:
+คุณภาพการเล่น"</string>
+    <string name="bluetooth_select_a2dp_codec_streaming_label">สตรีมมิง: %1$s</string>
     <string name="wifi_display_certification_summary">แสดงตัวเลือกสำหรับการรับรองการแสดงผล แบบไร้สาย</string>
     <string name="wifi_verbose_logging_summary">เพิ่มระดับการบันทึก Wi‑Fi แสดงต่อ SSID RSSI ในตัวเลือก Wi‑Fi</string>
-    <string name="wifi_aggressive_handover_summary">เมื่อเปิดใช้แล้ว Wi-Fi จะส่งผ่านการเชื่อมต่อข้อมูลไปยังเครือข่ายมือถือในทันทีที่พบสัญญาณ Wi-Fi อ่อน</string>
+    <string name="wifi_aggressive_handover_summary">เมื่อเปิดใช้แล้ว Wi-Fi จะส่งผ่านการเชื่อมต่อข้อมูลไปยังเครือข่ายมือถือเมื่อสัญญาณ Wi-Fi อ่อน</string>
     <string name="wifi_allow_scan_with_traffic_summary">อนุญาต/ไม่อนุญาตการสแกน Wi-Fi ข้ามเครือข่าย ตามปริมาณข้อมูลการเข้าชมที่ปรากฏในอินเทอร์เฟซ</string>
     <string name="select_logd_size_title">ขนาดบัฟเฟอร์ของ Logger</string>
     <string name="select_logd_size_dialog_title">เลือกขนาด Logger ต่อบัฟเฟอร์ไฟล์บันทึก</string>
+    <string name="dev_logpersist_clear_warning_title">ล้างพื้นที่เก็บข้อมูลถาวรของตัวบันทึกไหม</string>
+    <string name="dev_logpersist_clear_warning_message">เมื่อเราเลิกตรวจสอบด้วยตัวบันทึกถาวร เราต้องลบ Resident ของข้อมูลตัวบันทึกบนอุปกรณ์ของคุณ</string>
+    <string name="select_logpersist_title">เก็บข้อมูลตัวบันทึกอย่างถาวรบนอุปกรณ์</string>
+    <string name="select_logpersist_dialog_title">เลือกบัฟเฟอร์บันทึกที่จะจัดเก็บอย่างถาวรบนอุปกรณ์</string>
     <string name="select_usb_configuration_title">เลือกการกำหนดค่า USB</string>
     <string name="select_usb_configuration_dialog_title">เลือกการกำหนดค่า USB</string>
     <string name="allow_mock_location">อนุญาตให้จำลองตำแหน่ง</string>
     <string name="allow_mock_location_summary">อนุญาตให้จำลองตำแหน่ง</string>
     <string name="debug_view_attributes">เปิดใช้การตรวจสอบแอตทริบิวต์มุมมอง</string>
-    <string name="legacy_dhcp_client_summary">ใช้ไคลเอ็นต์ DHCP จาก Lollipop แทนไคลเอ็นต์ DHCP ใหม่บน Android</string>
     <string name="mobile_data_always_on_summary">เปิดใช้ข้อมูลมือถืออยู่เสมอ แม้ในเวลาที่ใช้งาน Wi-Fi อยู่ (สำหรับสวิตชิงเครือข่ายความเร็วสูง)</string>
     <string name="adb_warning_title">อนุญาตให้แก้ไขข้อบกพร่อง USB หรือไม่</string>
     <string name="adb_warning_message">การแก้ไขข้อบกพร่อง USB มีไว้เพื่อการพัฒนาเท่านั้น ให้ใช้การแก้ไขนี้เพื่อคัดลอกข้อมูลระหว่างคอมพิวเตอร์และอุปกรณ์ ติดตั้งแอปพลิเคชันบนอุปกรณ์โดยไม่มีการแจ้งเตือน และอ่านข้อมูลบันทึก</string>
@@ -158,7 +184,8 @@
     <string name="dev_settings_warning_message">การตั้งค่านี้มีไว้เพื่อการพัฒนาเท่านั้น จึงอาจทำให้อุปกรณ์และแอปพลิเคชันที่มีอยู่เสียหายหรือทำงานผิดพลาดได้</string>
     <string name="verify_apps_over_usb_title">ยืนยันแอปพลิเคชันผ่าน USB</string>
     <string name="verify_apps_over_usb_summary">ตรวจสอบแอปพลิเคชันที่ติดตั้งผ่าน ADB/ADT เพื่อตรวจดูพฤติกรรมที่เป็นอันตราย</string>
-    <string name="bluetooth_disable_absolute_volume_summary">ปิดใช้คุณลักษณะการควบคุมระดับเสียงของอุปกรณ์อื่นผ่านบลูทูธในกรณีที่มีปัญหาเกี่ยวกับระดับเสียงของอุปกรณ์ระยะไกล เช่น ระดับเสียงที่ดังเกินไปหรือระดับเสียงที่ไม่มีการควบคุม</string>
+    <string name="bluetooth_disable_absolute_volume_summary">ปิดใช้ฟีเจอร์การควบคุมระดับเสียงของอุปกรณ์อื่นผ่านบลูทูธในกรณีที่มีปัญหาเกี่ยวกับระดับเสียงของอุปกรณ์ระยะไกล เช่น ระดับเสียงที่ดังเกินไปหรือระดับเสียงที่ไม่มีการควบคุม</string>
+    <string name="bluetooth_enable_inband_ringing_summary">ให้เสียงเรียกเข้าในโทรศัพท์เล่นในชุดหูฟังบลูทูธ</string>
     <string name="enable_terminal_title">เทอร์มินัลในตัวเครื่อง</string>
     <string name="enable_terminal_summary">เปิดใช้งานแอปเทอร์มินัลที่ให้การเข้าถึงเชลล์ในตัวเครื่อง</string>
     <string name="hdcp_checking_title">การตรวจสอบ HDCP</string>
@@ -171,6 +198,8 @@
     <string name="no_application">ไม่มี</string>
     <string name="wait_for_debugger">รอโปรแกรมแก้ไขข้อบกพร่อง</string>
     <string name="wait_for_debugger_summary">แอปพลิเคชันที่มีการแก้ปัญหาจะรอให้โปรแกรมแก้ไขข้อบกพร่องแนบข้อมูลก่อนปฏิบัติการ</string>
+    <string name="telephony_monitor_switch">การตรวจสอบโทรศัพท์</string>
+    <string name="telephony_monitor_switch_summary">การตรวจสอบโทรศัพท์จะรวบรวมบันทึกเมื่อตรวจพบปัญหาด้านฟังก์ชันการทำงานของโทรศัพท์/โมเด็มและแจ้งเตือนให้ผู้ใช้ส่งข้อบกพร่อง</string>
     <string name="debug_input_category">อินพุต</string>
     <string name="debug_drawing_category">การวาดภาพ</string>
     <string name="debug_hw_drawing_category">การแสดงผลที่มีการเร่งด้วยฮาร์ดแวร์</string>
@@ -189,6 +218,7 @@
     <string name="show_hw_layers_updates">แสดงอัปเดตเลเยอร์ฮาร์ดแวร์</string>
     <string name="show_hw_layers_updates_summary">เลเยอร์ฮาร์ดแวร์กะพริบเป็นสีเขียว เมื่อมีการอัปเดต</string>
     <string name="debug_hw_overdraw">แก้ปัญหาการวาดทับด้วย GPU</string>
+    <string name="debug_hw_renderer">ตั้งค่า GPU Renderer</string>
     <string name="disable_overlays">ปิดใช้งานการวางซ้อน HW</string>
     <string name="disable_overlays_summary">ใช้ GPU ในการจัดวางองค์ประกอบหน้าจอเสมอ</string>
     <string name="simulate_color_space">จำลองระบบสี</string>
@@ -199,8 +229,6 @@
     <string name="debug_layout_summary">แสดงหน้าปกคลิป ขอบ ฯลฯ</string>
     <string name="force_rtl_layout_all_locales">บังคับทิศทางการจัดวาง RTL</string>
     <string name="force_rtl_layout_all_locales_summary">บังคับทิศทางการจัดวางหน้าจอเป็น RTL สำหรับทุกภาษา</string>
-    <string name="show_cpu_usage">แสดงการใช้ CPU</string>
-    <string name="show_cpu_usage_summary">การวางซ้อนหน้าจอที่แสดงการใช้ CPU ในปัจจุบัน</string>
     <string name="force_hw_ui">เร่งการแสดงผลของ GPU</string>
     <string name="force_hw_ui_summary">ต้องใช้ GPU สำหรับการวาดภาพ 2 มิติ</string>
     <string name="force_msaa">บังคับใช้ 4x MSAA</string>
@@ -217,6 +245,8 @@
     <string name="app_process_limit_title">ขีดจำกัดกระบวนการพื้นหลัง</string>
     <string name="show_all_anrs">แสดง ANR ทั้งหมด</string>
     <string name="show_all_anrs_summary">แสดงหน้าต่างแอปไม่ตอบสนอง สำหรับแอปพื้นหลัง</string>
+    <string name="show_notification_channel_warnings">แสดงคำเตือนจากช่องทางการแจ้งเตือน</string>
+    <string name="show_notification_channel_warnings_summary">แสดงคำเตือนบนหน้าจอเมื่อแอปโพสต์การแจ้งเตือนโดยไม่มีช่องทางที่ถูกต้อง</string>
     <string name="force_allow_on_external">บังคับให้แอปสามารถใช้ที่เก็บภายนอก</string>
     <string name="force_allow_on_external_summary">ทำให้สามารถเขียนแอปใดๆ ก็ตามไปยังพื้นที่เก็บข้อมูลภายนอกได้ โดยไม่คำนึงถึงค่าในไฟล์ Manifest</string>
     <string name="force_resizable_activities">บังคับให้กิจกรรมปรับขนาดได้</string>
@@ -234,8 +264,6 @@
     <string name="inactive_app_active_summary">ใช้งานอยู่ แตะเพื่อสลับ</string>
     <string name="runningservices_settings_title">บริการที่ทำงานอยู่</string>
     <string name="runningservices_settings_summary">ดูและควบคุมบริการที่ทำงานอยู่</string>
-    <string name="enable_webview_multiprocess">WebView แบบหลายขั้นตอน</string>
-    <string name="enable_webview_multiprocess_desc">เรียกใช้โหมดแสดงภาพ WebView แยกต่างหาก</string>
     <string name="select_webview_provider_title">การใช้งาน WebView</string>
     <string name="select_webview_provider_dialog_title">ตั้งค่าการใช้งาน WebView</string>
     <string name="select_webview_provider_toast_text">ตัวเลือกนี้ใช้ไม่ได้อีกต่อไป โปรดลองอีกครั้ง</string>
@@ -245,7 +273,7 @@
     <string name="title_convert_fbe">การแปลงเป็นการเข้ารหัสตามไฟล์</string>
     <string name="convert_to_fbe_warning">"แปลงพาร์ทิชันข้อมูลเป็นการเข้ารหัสแบบไฟล์
  !!คำเตือน!! การดำเนินการนี้จะลบข้อมูลทั้งหมดของคุณ
- คุณลักษณะนี้เป็นแบบอัลฟา และอาจทำงานไม่เป็นปกติ
+ ฟีเจอร์นี้เป็นแบบอัลฟา และอาจทำงานไม่เป็นปกติ
  กด \"ลบและแปลง...\" เพื่อดำเนินการต่อ"</string>
     <string name="button_convert_fbe">ลบและแปลง…</string>
     <string name="picture_color_mode">โหมดสีของรูปภาพ</string>
@@ -256,24 +284,24 @@
     <string name="daltonizer_mode_protanomaly">ตาบอดจางสีแดง (สีแดง/เขียว)</string>
     <string name="daltonizer_mode_tritanomaly">ตาบอดจางสีน้ำเงิน (สีน้ำเงิน/เหลือง)</string>
     <string name="accessibility_display_daltonizer_preference_title">การแก้สี</string>
-    <string name="accessibility_display_daltonizer_preference_subtitle">คุณลักษณะนี้เป็นแบบทดลองและอาจส่งผลต่อประสิทธิภาพการทำงาน</string>
+    <string name="accessibility_display_daltonizer_preference_subtitle">ฟีเจอร์นี้เป็นแบบทดลองและอาจส่งผลต่อประสิทธิภาพการทำงาน</string>
     <string name="daltonizer_type_overridden">แทนที่โดย %1$s</string>
-    <string name="power_remaining_duration_only">เหลืออีกประมาณ %1$s</string>
+    <string name="power_remaining_duration_only">อีกประมาณ %1$s</string>
+    <string name="power_remaining_charging_duration_only">อีก %1$s จึงจะชาร์จเต็ม</string>
     <string name="power_remaining_duration_only_short">เหลืออีก %1$s</string>
     <string name="battery_info_status_unknown">ไม่ทราบ</string>
     <string name="battery_info_status_charging">กำลังชาร์จ</string>
-    <string name="battery_info_status_charging_ac">กำลังชาร์จไฟ AC</string>
-    <string name="battery_info_status_charging_ac_short">กำลังชาร์จ</string>
-    <string name="battery_info_status_charging_usb">กำลังชาร์จผ่าน USB</string>
-    <string name="battery_info_status_charging_usb_short">กำลังชาร์จ</string>
-    <string name="battery_info_status_charging_wireless">กำลังชาร์จแบบไร้สาย</string>
-    <string name="battery_info_status_charging_wireless_short">กำลังชาร์จ</string>
+    <string name="battery_info_status_charging_lower">กำลังชาร์จ</string>
     <string name="battery_info_status_discharging">ไม่ได้ชาร์จ</string>
     <string name="battery_info_status_not_charging">ไม่ได้ชาร์จ</string>
     <string name="battery_info_status_full">เต็ม</string>
     <string name="disabled_by_admin_summary_text">ผู้ดูแลระบบเป็นผู้ควบคุม</string>
     <string name="enabled_by_admin">เปิดใช้โดยผู้ดูแลระบบ</string>
     <string name="disabled_by_admin">ปิดใช้โดยผู้ดูแลระบบ</string>
+    <string name="disabled">ปิดอยู่</string>
+    <string name="external_source_trusted">อนุญาต</string>
+    <string name="external_source_untrusted">ไม่อนุญาต</string>
+    <string name="install_other_apps">ติดตั้งแอปที่ไม่รู้จัก</string>
     <string name="home">หน้าแรกของการตั้งค่า</string>
     <string name="charge_length_format">%1$sที่ผ่านมา</string>
     <string name="remaining_length_format">เหลือ %1$s</string>
@@ -284,6 +312,16 @@
     <string name="screen_zoom_summary_extremely_large">ใหญ่ที่สุด</string>
     <string name="screen_zoom_summary_custom">กำหนดเอง (%d)</string>
     <string name="help_feedback_label">ความช่วยเหลือและความคิดเห็น</string>
+    <string name="content_description_menu_button">เมนู</string>
+    <string name="time_zone_gmt">GMT</string>
+    <string name="retail_demo_reset_message">ป้อนรหัสผ่านเพื่อรีเซ็ตค่าในโหมดสาธิต</string>
+    <string name="retail_demo_reset_next">ถัดไป</string>
+    <string name="retail_demo_reset_title">ต้องป้อนรหัสผ่าน</string>
+    <string name="active_input_method_subtypes">วิธีการป้อนข้อมูลที่ใช้งาน</string>
+    <string name="use_system_language_to_select_input_method_subtypes">ใช้ภาษาของระบบ</string>
+    <string name="failed_to_open_app_settings_toast">ไม่สามารถเปิดการตั้งค่าสำหรับ %1$s</string>
+    <string name="ime_security_warning">วิธีการป้อนข้อมูลนี้อาจเก็บข้อความทั้งหมดที่คุณพิมพ์ รวมถึงข้อมูลส่วนบุคคล เช่น รหัสผ่านและหมายเลขบัตรเครดิต โดยมาจากแอปพลิเคชัน %1$s ใช้วิธีการป้อนข้อมูลนี้หรือไม่</string>
+    <string name="direct_boot_unaware_dialog_message">หมายเหตุ: หลังจากเริ่มต้นใหม่ แอปนี้จะไม่สามารถเริ่มการทำงานได้จนกว่าคุณจะปลดล็อกโทรศัพท์</string>
     <string name="telecommAppLabel">การจัดการการโทร</string>
     <string name="userCallActivityLabel">โทรศัพท์</string>
     <string name="notification_missedCallTitle">สายไม่ได้รับ</string>
@@ -313,8 +351,9 @@
     <string name="no_vm_number_msg">ไม่พบหมายเลขบริการรับฝากข้อความเสียงในซิมการ์ด</string>
     <string name="add_vm_number_str">เพิ่มหมายเลข</string>
     <string name="change_default_dialer_dialog_title">ตั้ง %s เป็นแอปโทรศัพท์เริ่มต้น?</string>
-    <string name="change_default_dialer_with_previous_app_set_text">ใช้ %1$s เป็นแอปแป้นโทรศัพท์เริ่มต้นแทน %2$s ไหม</string>
-    <string name="change_default_dialer_no_previous_app_set_text">ใช้ %s เป็นแอปแป้นโทรศัพท์เริ่มต้นไหม</string>
+    <string name="change_default_dialer_dialog_affirmative">ตั้งเป็นแอปโทรศัพท์เริ่มต้น</string>
+    <string name="change_default_dialer_dialog_negative">ยกเลิก </string>
+    <string name="change_default_dialer_warning_message">%s จะสามารถวางและควบคุมทุกสิ่งทุกอย่างของการโทร ควรตั้งเฉพาะแอปที่คุณเชื่อถือได้เป็นแอปโทรศัพท์เริ่มต้นเท่านั้น</string>
     <string name="blocked_numbers">หมายเลขโทรศัพท์ที่ถูกบล็อค</string>
     <string name="blocked_numbers_msg">คุณจะไม่ได้รับสายหรือข้อความจากหมายเลขที่ถูกบล็อก</string>
     <string name="block_number">เพิ่มหมายเลขโทรศัพท์</string>
@@ -342,9 +381,22 @@
     <string name="test_account_3_short_description">Chat with Chat Network users</string>
     <string name="handle_restricted">RESTRICTED</string>
     <string name="toast_personal_call_msg">ใช้ต่อสายแบบกำหนดเอง</string>
-    <string name="toast_make_video_call_failed">ไม่สามารถวิดีโอคอลได้ หมายเลขที่คุณป้อนไม่ถูกต้อง</string>
-    <string name="headset_plugin_view_text">เสียบหูฟังแล้ว</string>
-    <string name="headset_plugin_view_title">เสียบหูฟัง</string>
+    <string name="notification_incoming_call">สายเรียกเข้าใน %1$s จาก %2$s</string>
+    <string name="notification_incoming_video_call">แฮงเอาท์วิดีโอเรียกเข้าใน %1$s จาก %2$s</string>
+    <string name="answering_ends_other_call">การรับสายนี้จะวางสายใน %1$s</string>
+    <string name="answering_ends_other_calls">การรับสายนี้จะวางสายใน %1$s</string>
+    <string name="answering_ends_other_video_call">การรับสายนี้จะวางสายแฮงเอาท์วิดีโอใน %1$s</string>
+    <string name="answering_ends_other_managed_call">การรับสายนี้จะวางสายที่สนทนาอยู่</string>
+    <string name="answering_ends_other_managed_calls">การรับสายนี้จะวางสายที่สนทนาอยู่</string>
+    <string name="answering_ends_other_managed_video_call">การรับสายนี้จะวางสายแฮงเอาท์วิดีโอที่สนทนาอยู่</string>
+    <string name="answer_incoming_call">รับสาย</string>
+    <string name="decline_incoming_call">ปฏิเสธ</string>
+    <string name="cant_call_due_to_ongoing_call">ไม่สามารถโทรออกได้เนื่องจากกำลังใช้สายอยู่ใน %1$s</string>
+    <string name="cant_call_due_to_ongoing_calls">ไม่สามารถโทรออกได้เนื่องจากกำลังใช้สายอยู่ใน %1$s</string>
+    <string name="cant_call_due_to_ongoing_unknown_call">ไม่สามารถโทรออกได้เนื่องจากกำลังใช้สายอยู่ในแอปอื่น</string>
+    <string name="notification_channel_incoming_call">สายโทรเข้า</string>
+    <string name="notification_channel_missed_call">สายที่ไม่ได้รับ</string>
+    <string name="alert_outgoing_call">การโทรออกนี้จะวางสายใน %1$s</string>
     <string name="voice_report_incoming_call">สายเรียกเข้า</string>
     <string name="voice_report_unknown_num">เลขหมายที่ไม่รู้จัก</string>
     <string name="incall_error_call_failed">ไม่สามารถโทรออกได้</string>
@@ -359,7 +411,7 @@
     <string name="callFailed_simError">ซิมการ์ดผิดพลาด</string>
     <string name="incall_error_supp_service_unknown">ไม่รองรับบริการดังกล่าว</string>
     <string name="incall_error_power_off">ปิดใช้งานโหมดเครื่องบินเพื่อทำการโทร</string>
-    <string name="change_default_dialer_dialog_affirmative">ตั้งเป็นแอปโทรศัพท์เริ่มต้น</string>
-    <string name="change_default_dialer_dialog_negative">ยกเลิก </string>
-    <string name="change_default_dialer_warning_message">%s จะสามารถวางและควบคุมทุกสิ่งทุกอย่างของการโทร ควรตั้งเฉพาะแอปที่คุณเชื่อถือได้เป็นแอปโทรศัพท์เริ่มต้นเท่านั้น</string>
+    <string name="toast_make_video_call_failed">ไม่สามารถวิดีโอคอลได้ หมายเลขที่คุณป้อนไม่ถูกต้อง</string>
+    <string name="headset_plugin_view_text">เสียบหูฟังแล้ว</string>
+    <string name="headset_plugin_view_title">เสียบหูฟัง</string>
 </resources>

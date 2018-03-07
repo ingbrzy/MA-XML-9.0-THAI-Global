@@ -3,7 +3,7 @@
     <string name="passport_account_label">บัญชี Mi</string>
     <string name="passport_notification_title">การเข้าสู่ระบบผิดพลาดสำหรับบัญชี %1$s</string>
     <string name="passport_login_prompt">ลงชื่อเข้าสู่บัญชี Mi เพื่อใช้บริการ Mi ทั้งหมด</string>
-    <string name="passport_login_using_other_ways">Other ways to sign in</string>
+    <string name="passport_login_using_other_ways">ลงชื่อเข้าใช้ด้วยวิธีอื่น</string>
     <string name="passport_login_title">เข้าสู่ระบบบัญชีของ Mi</string>
     <string name="passport_login">ลงชื่อเข้าใช้</string>
     <string name="passport_relogin">ลงชื่อเข้าใช้อีกครั้ง</string>

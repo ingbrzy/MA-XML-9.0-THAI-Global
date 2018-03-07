@@ -4,6 +4,10 @@
         <item>4x4</item>
         <item>4x5</item>
     </string-array>
+    <string-array name="cell_layout_size_values">
+        <item>4x4</item>
+        <item>4x5</item>
+    </string-array>
     <string-array name="editing_mode_entries">
         <item>ภาพพื้นหลัง</item>
         <item>วิดเจ็ต</item>
@@ -40,7 +44,6 @@
         <item>ค่าเริ่มต้น</item>
         <item>คลาสสิก</item>
     </string-array>
-    <array name="region_prefix" />
     <string-array name="transformation_entries">
         <item>สไลด์</item>
         <item>จางหาย</item>

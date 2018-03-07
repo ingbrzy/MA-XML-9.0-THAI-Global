@@ -53,6 +53,7 @@
     <string name="switchDesc">สลับ</string>
     <string name="scannerDesc">ตัวสแกน</string>
     <string name="reciprocalDesc">ซึ่งกันและกัน</string>
+    <string name="negDesc">สลับไปมาระหว่างอุณหภูมิสูงหรือต่ำกว่าศูนย์</string>
     <string name="home_title_calculator">เครื่องคิดเลข</string>
     <string name="item_title_calculator">เครื่องคิดเลข</string>
     <string name="item_title_scientific_calculator">วิทยาศาสตร์</string>

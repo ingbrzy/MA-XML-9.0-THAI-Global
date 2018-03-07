@@ -24,8 +24,8 @@
     <string name="other_settings_upload_debug_log_summary">ข้อมูลที่ทางเรารวบรวมจะใช้ในการระบุและวิเคราะห์ปัญหาในระบบ ซึ่งอาจจะประกอบด้วยข้อมูลส่วนบุคคล โดยจะไม่มีการนำข้อมูลมาใช้เพื่อระบุตัวตนของคุณ</string>
     <string name="other_settings_auto_update">ติดตั้งอัตโนมัติ</string>
     <string name="other_settings_auto_update_summary">MIUI จะเลือกเวลาที่ดีที่สุดในการติดตั้งการอัปเดต</string>
-    <string name="other_settings_ad_enable">Personalized Ad Recommendation</string>
-    <string name="other_settings_ad_enable_summary">Recommend personalized ads based on your behavior data</string>
+    <string name="other_settings_ad_enable">คำแนะนำเกี่ยวกับโฆษณาส่วนบุคคล</string>
+    <string name="other_settings_ad_enable_summary">แนะนำโฆษณาที่ปรับเปลี่ยนในแบบของคุณตามข้อมูลพฤติกรรมของคุณ</string>
     <string name="back">ย้อนกลับ</string>
     <string name="next">ถัดไป</string>
     <string name="skip_underline">ข้ามขั้นตอนนี้</string>

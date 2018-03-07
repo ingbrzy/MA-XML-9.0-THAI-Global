@@ -5,6 +5,12 @@
     <string name="unlockscreen_recharge_completed">แบตเต็มแล้ว</string>
     <string name="unlockscreen_low_battery">กรุณาชาร์จแบตทันที</string>
     <string name="lockscreen_charging_msg">กำลังชาร์จ</string>
+    <string name="reset_device_tip">ชาร์จช้า โปรดวางตำแหน่งโทรศัพท์ใหม่</string>
+    <string name="reset_device_detail_tip">ชาร์จแบบไร้สายโปรดจัดตำแหน่งฐานโทรศัพท์เพื่อให้แน่ใจว่าชาร์จเร็ว</string>
+    <string name="wireless_charge_stop">การชาร์จแบบไร้สายหยุดลงแล้ว</string>
+    <string name="change_to_ac_charging">เปลี่ยนเป็นการชาร์จแบบไร้สาย</string>
+    <string name="wireless_charge_dialog_title">ตำแหน่งชดเชย กรุณาเปลี่ยนตำแหน่ง</string>
+    <string name="wireless_charge_dialog_cancel">ยกเลิก </string>
     <string name="emergency_call_string">ฉุกเฉิน</string>
     <string name="forget_password_string">ลืมรหัสผ่าน</string>
     <string name="input_puk_code">ใส่ PUK</string>
@@ -47,6 +53,7 @@
     <string name="fingerprint_try_again_msg">ไม่สามารถยืนยันลายนิ้วมือได้ ลองใหม่อีกครั้ง</string>
     <string name="fingerprint_not_identified_title">ป้อนรหัสผ่าน</string>
     <string name="fingerprint_not_identified_msg">ผิดเกินจำนวนที่กำหนด กรุณาใส่รหัสผ่านหรือรออีกสักครู่จึงใช้วิธีสแกนนิ้ว</string>
+    <string name="fingerprint_not_identified_msg_lock">สแกนนิ้วมือผิดพลาดมากเกินไป กรุณาใส่รหัสผ่าน</string>
     <string name="fingerprint_again_identified_msg">ระบบได้จัดเก็บลายนิ้วมือของคุณเพื่อใช้ปลดล็อกเครื่องแทนรหัสผ่านไว้แล้ว</string>
     <string name="fingerprint_add_title">เพิ่มลายนิ้วมือ</string>
     <string name="fingerprint_add_text">อัพเดทอินเตอร์เฟซของลายนิ้วมือแล้ว เพิ่มลายนิ้วมือของคุณอีกครั้ง</string>
@@ -64,13 +71,10 @@
     <string name="lock_wallpaper_enter">ป้อน</string>
     <string name="custom_lock_wallpaper_enter">เข้าไป</string>
     <string name="fingerprint_enter_second_psw_title">ป้อนรหัสผ่านส่วนที่ 2</string>
-    <string name="fingerprint_enter_second_psw_msg">ป้อนรหัสผ่านส่วนที่ 2 หลังจากรีบูตอุปกรณ์เพื่อใช้การอ่านลายนิ้วมือ</string>
+    <string name="fingerprint_enter_second_psw_msg">ป้อนรหัสพื้นที่ทับซ้อนเพื่อเข้าใช้การอ่านลายนิ้วมือ</string>
     <string name="fingerprint_enter_second_psw_msg_oldman">ไม่สามารถเข้าสู่พื้นที่ทับซ้อนในขณะที่อยู่ในโหมดง่าย</string>
     <string name="keyguard_charging_info_click_to_detail">เรียกดูรายละเอียด</string>
     <string name="keyguard_quick_charging_info_click_to_detail">กำลังชาร์จแบบเร็ว แตะเพื่อดูรายละเอียด</string>
-    <string name="keyguard_quickly_charging_info_charging_text">กำลังชาร์จแบบเร็ว…</string>
-    <string name="keyguard_charging_info_finished_charging_text">แบตเตอรี่เต็ม</string>
-    <string name="keyguard_charging_info_charging_text">กำลังชาร์จ</string>
     <string name="keyguard_charging_info_last_charge_today_time">วันนี้ %s</string>
     <string name="keyguard_charging_info_last_charge_yesterday_time">เมื่อวาน %s</string>
     <string name="keyguard_charging_info_last_charge_time">d/M H:mm</string>
@@ -91,13 +95,17 @@
     <string name="face_data_introduction_title">การตรวจจับใบหน้า</string>
     <string name="face_data_introduction_msg">การใช้ข้อมูลใบหน้าสำหรับปลดล็อกหน้าจอหรือใช้ยืนยันตัวตนของคุณ คุณต้องกำหนดรหัสผ่านหน้าล็อกจอก่อนแล้วจึงกำหนดข้อมูลใบหน้า</string>
     <string name="face_data_introduction_next">ถัดไป</string>
-    <string name="face_data_suggesstion_first">การปลดล็อกหน้าจอด้วยใบหน้ามีความปลอดภัยน้อยกว่าการตั้งรหัสผ่าน ผู้ที่มีใบหน้าคล้ายคุณอาจสามารถปลดล็อคหน้าจอได้</string>
+    <string name="face_data_siggesstion_next">ถัดไป</string>
+    <string name="face_data_siggesstion_next_time">ถัดไป (%ds)</string>
+    <string name="face_data_suggesstion_first">ปัญหาด้านความปลอดภัย: การปลดล็อกด้วยใบมีความปลอดภัยน้อยกว่า PIN รหัสผ่านหรือรูปแบบ อุปกรณ์ของคุณอาจถูกปลดล็อกด้วยรูปถ่ายของคุณรวมถึงบุคคลหรือวัตถุที่มีลักษณะคล้ายกัน</string>
     <string name="face_data_suggesstion_second">ตรวจสอบให้แน่ใจว่าทุกส่วนของใบหน้าไม่ได้ถูกบดบังจากวัตถุต่างๆและมองเห็นได้ชัดเจน ใบหน้าของคุณควรมีความสว่างพอดี</string>
     <string name="face_data_input_camera_fail">ไม่สามารถโหลดกล้องได้</string>
     <string name="face_data_input_camera_ok">กำลังโหลดข้อมูลกล้อง…</string>
     <string name="face_data_input_msg">กรุณาวางใบหน้าของคุณลงในกรอบ</string>
     <string name="face_data_input_ok_title">เพิ่มเรียบร้อย</string>
     <string name="face_data_input_ok_msg">เปิดหน้าจอเพื่อปลดล็อกอุปกรณ์โดยใช้ข้อมูลใบหน้า</string>
+    <string name="face_data_input_ok_msg_angle">"ปลดล็อกอุปกรณ์ด้วยใบหน้าของคุณเมื่อหน้าจอเปิดอยู่ 
+(บันทึกข้อมูลใบหน้าของคุณรวมทั้งมุมที่จำเป็นทั้งหมด)"</string>
     <string name="face_data_input_cancel">ยกเลิก </string>
     <string name="face_data_input_cancel_msg">ไม่สามารถเพิ่มข้อมูลใบหน้าได้</string>
     <string name="face_data_input_ok">เสร็จสิ้น</string>
@@ -131,8 +139,14 @@
     <string name="face_unlock_offset_bottom">ลดโทรศัพท์ลงเล็กน้อย</string>
     <string name="face_unlock_rotated_left">หันหัวของคุณไปทางขวา</string>
     <string name="face_unlock_rotated_right">หันหัวของคุณไปทางซ้าย</string>
-    <string name="face_unlock_rise">ลดศีรษะลง</string>
+    <string name="face_unlock_rise">ก้มหน้าลง</string>
     <string name="face_unlock_down">เงยหน้าขึ้น</string>
     <string name="face_unlock_quality">ไม่สามารถมองเห็นใบหน้าของคุณได้ชัดเจน</string>
     <string name="lock_screen_no_sim_card">ไม่พบซิมการ์ด</string>
+    <string name="do_disclosure_generic">อุปกรณ์นี้จัดการโดยองค์กรของคุณ</string>
+    <string name="do_disclosure_with_name">อุปกรณ์นี้มีการจัดการโดย %s</string>
+    <string name="face_unlock_reenter_title">บันทึกข้อมูลใบหน้าของคุณอีกครั้ง</string>
+    <string name="face_unlock_reenter_content">กำลังอัปเดตอัลกอริทึมการปลดล็อกใบหน้า แตะเพื่อบันทึกข้อมูลใบหน้าอีกครั้ง</string>
+    <string name="digital_clock_dot">:</string>
+    <string name="keyguard_left_view_lock_wallpaper">ภาพพื้นหลังรายวัน</string>
 </resources>

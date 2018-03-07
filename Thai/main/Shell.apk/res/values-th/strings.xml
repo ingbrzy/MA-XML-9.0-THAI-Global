@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_label">เชลล์</string>
+    <string name="bugreport_notification_channel">รายงานข้อบกพร่อง</string>
     <string name="bugreport_in_progress_title">กำลังสร้างรายงานข้อบกพร่อง #%d</string>
     <string name="bugreport_finished_title">จับภาพรายงานข้อบกพร่องแล้ว</string>
     <string name="bugreport_updating_title">กำลังเพิ่มรายละเอียดในรายงานข้อบกพร่อง</string>
@@ -22,5 +23,6 @@
     <string name="bugreport_info_title">ชื่อข้อบกพร่อง</string>
     <string name="bugreport_info_description">สรุปข้อบกพร่อง</string>
     <string name="save">บันทึก</string>
+    <string name="bugreport_intent_chooser_title">แชร์รายงานข้อบกพร่อง</string>
     <string name="bugreport_confirm_repeat">แสดงข้อความนี้ในครั้งต่อไป</string>
 </resources>

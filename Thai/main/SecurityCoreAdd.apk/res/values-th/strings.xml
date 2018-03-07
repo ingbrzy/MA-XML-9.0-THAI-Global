@@ -161,16 +161,32 @@
 คุณลักษณะนี้จะถูกเพิ่มลงในพื้นที่ทับซ้อนโดยอัตโนมัติ"</string>
     <string name="openSuccess">เปิดใช้งานแล้ว</string>
     <string name="closeSuccess">ปิดใช้งานแล้ว</string>
-    <string name="settings_notification_and_switch">การสลับและการแจ้งเตือน</string>
+    <string name="settings_set_password_for_owner_space">ตั้งค่าล็อกหน้าจอในพื้นที่ปกติ</string>
+    <string name="settings_set_password_for_owner_space_desc">ตั้งค่าล็อกหน้าจอในพื้นที่ปกติเพื่อลบปุ่มลัดออกจากการตั้งค่า</string>
+    <string name="settings_set_password_for_sec_space">ตั้งค่าล็อกหน้าจอในพื้นที่ทับซ้อน</string>
+    <string name="settings_set_password_for_sec_space_desc">ตั้งค่าล็อกหน้าจอในพื้นที่ทับซ้อนเพื่อลบปุ่มลัดออกจากการตั้งค่า</string>
+    <string name="settings_notification_and_switch_owner_space">การตั้งค่าพื้นที่ปกติ</string>
+    <string name="settings_second_space_entrance_title">ปุ่มลัดในการตั้งค่า</string>
+    <string name="settings_second_space_entrance_summary">แสดงปุ่มลัดพื้นที่ทับซ้อนในการตั้งค่า</string>
+    <string name="settings_switch_shortcut_title">ปุ่มลัดหน้าจอหลัก</string>
+    <string name="settings_switch_space">สลับระหว่างพื้นที่</string>
+    <string name="settings_notification_from_second_space_title">แสดงการแจ้งเตือนจากพื้นที่ทับซ้อน</string>
+    <string name="settings_notification_and_switch_second_space">การตั้งค่าพื้นที่ทับซ้อน</string>
+    <string name="settings_notification_from_owner_space_title">แสดงการแจ้งเตือนจากพื้นที่ปกติ</string>
+    <string name="notification_from_owner_user">แสดงการแจ้งเตือนจากพื้นที่ปกติ</string>
+    <string name="notification_from_second_user">แสดงการแจ้งเตือนจากพื้นที่ทับซ้อน</string>
+    <string name="radio_button_icon_switch_title">ใช้ปุ่มลัด</string>
+    <string name="radio_button_password_switch_title">ใช้รหัสผ่าน</string>
     <string name="settings_cross_notification_title">การแจ้งเตือน</string>
     <string name="settings_cross_notification_summary">รับการแจ้งเตือนจากส่วน</string>
-    <string name="settings_switch_shortcut_title">แตะปุ่มลัดเพื่อสลับ</string>
     <string name="settings_switch_shortcut_summary">แสดงปุ่มลัดหน้าจอหลักในพื้นที่ปกติ</string>
     <string name="settings_space_data">ข้อมูล</string>
     <string name="settings_status_icon_title">ไอคอนพื้นที่ทับซ้อน</string>
     <string name="settings_status_icon_summary">แสดงไอคอนพื้นที่ทับซ้อนบนแถบสถานะ</string>
-    <string name="settings_msg_add_shortcut">เพิ่มปุ่มลัดไปยังพื้นที่ปกติ แล้ว</string>
-    <string name="settings_msg_remove_shortcut">ลบปุ่มลัดจากพื้นที่ปกติ แล้ว</string>
+    <string name="settings_msg_add_shortcut_to_owner_space">เพิ่มปุ่มลัดไปยังพื้นที่ปกติแล้ว</string>
+    <string name="settings_msg_add_shortcut_to_second_space">ปุ่มลัดถูกสร้างในพื้นที่ทับซ้อน</string>
+    <string name="settings_msg_remove_shortcut_from_owner_space">ลบปุ่มลัดจากพื้นที่ปกติแล้ว</string>
+    <string name="settings_msg_remove_shortcut_from_second_space">ปุ่มลัดถูกลบออกจากพื้นที่ทับซ้อน</string>
     <string name="start_setting_guide_desc_title">มีขั้นตอนการตั้งค่าเล็กน้อย</string>
     <string name="setting_is_show_text_contacts">ตั้งค่ารายชื่อและข้อความส่วนตัว</string>
     <string name="switch_data_app">ย้ายรายการไปยังพื้นที่ทับซ้อน</string>
@@ -342,4 +358,14 @@
     <string name="sdcradfs_dialog_in_sec_message">"ในการอัพเดตคุณควรลบพื้นที่ทับซ้อนของคุณแล้วสร้างใหม่อีกครั้ง ย้ายข้อมูลจากพื้นที่ทับซ้อนก่อน และรีบูตอุปกรณ์เพื่อทำการอัปเดตให้เสร็จสมบูรณ์
 หากคุณไม่อัปเดตแอปโคลนอาจทำงานไม่ปกติเช่นกัน"</string>
     <string name="space_created_success">สร้างพื้นที่ทับซ้อนเรียบร้อย</string>
+    <string name="space_create_guide_title_1">ป้องกันความเป็นส่วนตัวของคุณ</string>
+    <string name="space_create_guide_desc_1">จัดเก็บแอปและรูปภาพอย่างปลอดภัย</string>
+    <string name="space_create_guide_title_2">สร้างได้ตลอดเวลา</string>
+    <string name="space_create_guide_desc_2">พื้นที่ใช้สอยแยกอิสระพร้อมใช้งาน</string>
+    <string name="space_create_guide_title_3">ปราศจากความเสี่ยงอย่างแน่นอน</string>
+    <string name="space_create_guide_desc_3">พื้นที่ทับซ้อนจะไม่ส่งผลต่อรายการอื่นๆ บนอุปกรณ์ของคุณ</string>
+    <string name="space_create_guide_switchmode_title">สลับระหว่างพื้นที่</string>
+    <string name="second_space_desktop_tips_dialog_title">อัพเดทที่สำคัญ</string>
+    <string name="second_space_desktop_tips_dialog_positive_text">รับทราบ</string>
+    <string name="second_space_desktop_tips_dialog_message">หลังจากอัพเดตนี้ไอคอนสำหรับการย้ายข้อมูลและการจัดการพื้นที่ที่สองจะไม่ปรากฏบนหน้าจอหลักอีกต่อไป คุณจะสามารถเข้าถึงคุณลักษณะที่เกี่ยวข้องได้ในการตั้งค่า</string>
 </resources>
