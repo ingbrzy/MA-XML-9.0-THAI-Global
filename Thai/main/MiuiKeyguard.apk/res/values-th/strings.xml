@@ -147,6 +147,5 @@
     <string name="do_disclosure_with_name">อุปกรณ์นี้มีการจัดการโดย %s</string>
     <string name="face_unlock_reenter_title">บันทึกข้อมูลใบหน้าของคุณอีกครั้ง</string>
     <string name="face_unlock_reenter_content">กำลังอัปเดตอัลกอริทึมการปลดล็อกใบหน้า แตะเพื่อบันทึกข้อมูลใบหน้าอีกครั้ง</string>
-    <string name="digital_clock_dot">:</string>
     <string name="keyguard_left_view_lock_wallpaper">ภาพพื้นหลังรายวัน</string>
 </resources>
