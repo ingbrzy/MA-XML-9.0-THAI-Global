@@ -555,7 +555,6 @@
     <string name="you_liao_goddess_desc">อัพโหลดวิดีโอแบบปกติและขยายฐานแฟนเพจของคุณเพื่อรับสถานะสุภาพสตรี</string>
     <string name="default_user_desc">คนนี้ยังไม่ได้เพิ่มรายละเอียด</string>
     <string name="recommend">แนะนำ</string>
-    <string name="topic_message">&lt;font color=#fc7050>%1$s: &lt;/font>%2$s</string>
     <string name="message_my_received_praise">การถูกใจของฉัน</string>
     <string name="message_comment_prefix">"ความคิดเห็น: "</string>
     <string name="message_reply_prefix">ตอบกลับ</string>

@@ -96,7 +96,6 @@
     <string name="data_provided_by">ข้อมูลโดย</string>
     <string name="edit_alert_city_title">จัดการการแจ้งเตือน</string>
     <string name="edit_city">จัดการเมือง</string>
-    <string name="empty">" "</string>
     <string name="feedback_heavy_rain">ฝนตกหนัก</string>
     <string name="feedback_heavy_snow">หิมะตก</string>
     <string name="feedback_light_rain">ฝนเล็กน้อย</string>

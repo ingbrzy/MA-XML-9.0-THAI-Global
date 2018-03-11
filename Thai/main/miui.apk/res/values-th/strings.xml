@@ -64,7 +64,6 @@
     <string name="error_forbidden">การซิงค์ถูกปิด เนื่องจากเกิดข้อผิดพลาดกับบัญชี Mi ของคุณ</string>
     <string name="error_not_acceptable">การซิงค์ถูกปิดใช้งาน</string>
     <string name="more">เพิ่มเติม</string>
-    <string name="empty" />
     <string name="solar_term_slight_cold">เย็นเล็กน้อย</string>
     <string name="solar_term_great_cold">เย็นมาก</string>
     <string name="solar_term_spring_begins">เริ่มต้นฤดูใบไม้ผลิ</string>

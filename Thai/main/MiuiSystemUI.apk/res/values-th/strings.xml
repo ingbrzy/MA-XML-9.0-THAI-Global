@@ -86,7 +86,6 @@
     <string name="accessibility_wifi_two_bars">สัญญาณ WiFi สองขีด</string>
     <string name="accessibility_wifi_three_bars">สัญญาณ WiFi สามขีด</string>
     <string name="accessibility_wifi_signal_full">สัญญาณ WiFi เต็ม</string>
-    <string name="process_kernel_label">ระบบแอนดรอยด์</string>
     <string name="data_usage_uninstalled_apps">แอปที่ถูกลบ</string>
     <string name="data_usage_uninstalled_apps_users">แอปและผู้ใช้ที่ถูกลบ</string>
     <string name="tether_settings_title_usb">แชร์เครือข่ายผ่าน USB</string>
