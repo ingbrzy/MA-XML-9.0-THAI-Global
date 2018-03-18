@@ -381,7 +381,6 @@
     <string name="pref_camera_zoom_mode_entry_tele">TELE</string>
     <string name="pref_camera_zoom_mode_entry_standard">มาตรฐาน</string>
     <string name="pref_camera_zoom_mode_entry_high_pixel">พิกเซลสูง</string>
-    <string name="pref_camera_zoom_value_title">ซูม</string>
     <string name="pref_camera_portrait_mode_title">โหมดถ่ายภาพคน</string>
     <string name="pref_camera_portrait_mode_entry_off">โหมดถ่ายภาพคนปิดอยู่</string>
     <string name="pref_camera_portrait_mode_entry_on">โหมดถ่ายภาพคนเปิดอยู่</string>
