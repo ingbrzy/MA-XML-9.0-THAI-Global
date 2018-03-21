@@ -205,7 +205,6 @@
     <string name="add_flow_fail_vip_msg">ตัวเร่งการดาวน์โหลด Xunlei เปิดใช้งานอยู่</string>
     <string name="all_the_internet">เครือข่ายทั้งหมด</string>
     <string name="app_downloads">%s ดาวน์โหลด</string>
-    <string name="app_size">%1$s</string>
     <string name="auth_activity_title">บัญชี Xunlei</string>
     <string name="bind_xunlei_account">เพิ่มบัญชี Xunlei</string>
     <string name="bt_download">ดาวน์โหลด</string>
@@ -231,7 +230,6 @@
     <string name="download_list_open_xl_message">ตัวเร่งการดาวน์โหลด Xunlei ช่วยให้การดาวน์โหลดเร็วยิ่งขึ้น</string>
     <string name="download_list_open_xl_title">ตัวเร่งการดาวน์โหลด Xunlei</string>
     <string name="download_list_title_browser">ดาวน์โหลด</string>
-    <string name="download_num_size">%1$s | %2$s</string>
     <string name="dredge_xunlei_account">สร้างบัญชี Xunlei</string>
     <string name="edit_hint"> ป้อนที่อยู่ http, torrent หรือ eMule</string>
     <string name="engine_open">เปิด</string>
@@ -404,7 +402,6 @@
     <string name="xl_vip_semiannual">6 เดือน: %1$s Mi เครดิต × 6</string>
     <string name="xunlei_account_has_unbind_message">ลบบัญชี Xunlei แล้ว</string>
     <string name="xunlei_brand">สนับสนุนโดย Xunlei</string>
-    <string name="xunlei_brand_url">http://mobile.xunlei.com</string>
     <string name="xunlei_close_tips_button">เปิดใช้งาน</string>
     <string name="xunlei_close_tips_content">ตัวเร่งความเร็วดาวน์โหลด Xunlei</string>
     <string name="xunlei_close_tips_title">เพิ่มประสิทธิภาพในการดาวน์โหลด</string>
