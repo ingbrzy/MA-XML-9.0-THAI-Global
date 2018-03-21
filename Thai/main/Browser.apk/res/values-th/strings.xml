@@ -111,9 +111,9 @@
     <string name="bookmark_group_lable">กลุ่ม</string>
     <string name="bookmark_needs_title">หน้าที่คั่นจำเป็นต้องมีชื่อ</string>
     <string name="bookmark_needs_url">หน้าที่คั่นต้องมีลิงก์ URL</string>
-    <string name="bookmark_not_saved">ไม่สามารถบันทึกเป็นหน้าคั่นได้</string>
+    <string name="bookmark_not_saved">"Couldn't add to bookmarks"</string>
     <string name="bookmark_rename_group">เปลี่ยนชื่อกลุ่ม</string>
-    <string name="bookmark_saved">บันทึกไปยังหน้าที่คั่น</string>
+    <string name="bookmark_saved">Added to bookmarks</string>
     <string name="bookmark_title">ชื่อที่คั่นหน้า</string>
     <string name="bookmark_title_lable">ชื่อ</string>
     <string name="bookmark_url">ลิงก์ http://</string>
@@ -169,6 +169,7 @@
     <string name="color_picker_dialog_title">เลือกสี</string>
     <string name="color_picker_hue">โทนสี</string>
     <string name="color_picker_saturation">ความอิ่มตัวของสี</string>
+    <string name="color_picker_value">ค่า</string>
     <string name="comment_app_menu">ความคิดเห็น</string>
     <string name="comment_description">ความคิดเห็น</string>
     <string name="comment_hint">ความคิดเห็น</string>
@@ -517,8 +518,8 @@
     <string name="nav_screen_container_tab_normal">แท็ปปกติ</string>
     <string name="nav_screen_incognito_message">"ประวัติการเรียกดูและประวัติการค้นหาของคุณจะไม่ได้รับการบันทึกในโหมดไม่ระบุตัวตน
 กรุณาจำว่าไฟล์ที่คุณดาวน์โหลดและบุ๊กมาร์กที่คุณเพิ่มจะยังคงบันทึกอยู่"</string>
-    <string name="nav_screen_incognito_title">โหมดไม่ระบุตัวตน</string>
-    <string name="navigation_delete_all">ปัดซ้ายและขวาเพื่อปิดแท็บทั้งหมด</string>
+    <string name="nav_screen_incognito_title">Incognito mode</string>
+    <string name="navigation_delete_all">Swipe left or right to close all tabs</string>
     <string name="navigationbar_rightbutton_actiontext_cancle">ยกเลิก </string>
     <string name="navigationbar_rightbutton_actiontext_go">เริ่มเลย</string>
     <string name="navigationbar_rightbutton_actiontext_search">ค้นหา</string>

@@ -54,13 +54,17 @@
         <item>เมื่ออุปกรณ์ถูกล็อกหรือออกจากแอป</item>
         <item>เมื่ออุปกรณ์ถูกล็อกหรือหลังออกจากแอป 1 นาที</item>
     </string-array>
+    <string-array name="lock_mode_value">
+        <item>1</item>
+        <item>0</item>
+        <item>2</item>
+    </string-array>
     <string-array name="sort_type">
         <item>สถานะ</item>
         <item>ชื่อแอป</item>
         <item>ที่ใช้บ่อย</item>
         <item>พื้นที่เก็บข้อมูลที่ใช้</item>
         <item>เวลาการติดตั้ง</item>
-        <item>แอปสามารถถอนการติดตั้งได้</item>
     </string-array>
     <string-array name="sort_title">
         <item>เรียงตามสถานะ</item>
@@ -68,7 +72,6 @@
         <item>เรียงตามที่ใช้บ่อย</item>
         <item>เรียงตามพื้นที่เก็บข้อมูลที่ใช้</item>
         <item>เรียงตามเวลาการติดตั้ง</item>
-        <item>แสดงแอปที่สามารถถอนการติดตั้งได้ก่อน</item>
     </string-array>
     <string-array name="key_app_info">
         <item>install_source</item>
@@ -131,5 +134,10 @@
         <item>ไม่สั่น</item>
         <item>สั่นเมื่อปิดเสียง</item>
         <item>สั่นเสมอ</item>
+    </string-array>
+    <string-array name="power_dialog_vibration_items_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
     </string-array>
 </resources>

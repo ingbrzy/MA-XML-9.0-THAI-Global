@@ -368,4 +368,15 @@
     <string name="second_space_desktop_tips_dialog_title">อัพเดทที่สำคัญ</string>
     <string name="second_space_desktop_tips_dialog_positive_text">รับทราบ</string>
     <string name="second_space_desktop_tips_dialog_message">หลังจากอัพเดตนี้ไอคอนสำหรับการย้ายข้อมูลและการจัดการพื้นที่ที่สองจะไม่ปรากฏบนหน้าจอหลักอีกต่อไป คุณจะสามารถเข้าถึงคุณลักษณะที่เกี่ยวข้องได้ในการตั้งค่า</string>
+    <string name="green_guard">蜂巢</string>
+    <string name="bind_device">绑定设备</string>
+    <string name="green_guard_des1">一键绑定设备，操作简单快捷</string>
+    <string name="green_guard_title2">查看定位</string>
+    <string name="green_guard_des2">实时定位查询，守护外出安全</string>
+    <string name="green_guard_title3">管理应用</string>
+    <string name="green_guard_des3">管理设备应用，控制使用时间</string>
+    <string name="experience_more_features">绑定设备后可体验更多功能</string>
+    <string name="add_spare_text">守护中</string>
+    <string name="control_and_guarding">管控守护中</string>
+    <string name="can_not_switch_when_green_kid_active">家长守护中禁止切换分身</string>
 </resources>

@@ -165,6 +165,10 @@
         <item quantity="other">มอบสิทธิ์ %d รายการ</item>
         <item quantity="one">มอบสิทธิ์ %d รายการ</item>
     </plurals>
+    <plurals name="print_jobs_summary">
+        <item quantity="other">งานพิมพ์ %1$d รายการ</item>
+        <item quantity="one">งานพิมพ์ 1 รายการ</item>
+    </plurals>
     <plurals name="print_settings_summary">
         <item quantity="other">บริการการพิมพ์เปิดอยู่ %1$d รายการ</item>
         <item quantity="one">บริการการพิมพ์เปิดอยู่ 1 รายการ</item>

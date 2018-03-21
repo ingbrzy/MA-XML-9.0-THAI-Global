@@ -55,6 +55,6 @@
         <item quantity="other">เหลืออีก %d นาที</item>
     </plurals>
     <plurals name="view_realtime_clear">
-        <item quantity="other">แจ่มใส</item>
+        <item quantity="other">Clear</item>
     </plurals>
 </resources>

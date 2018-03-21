@@ -59,6 +59,8 @@
     <string name="sync_dspt_provision_title">Mi คลาวด์</string>
     <string name="sync_dspt_provision_header">ซิงค์</string>
     <string name="sync_dspt_provision">"ซิงค์รูปภาพ เบอร์โทรติดต่อ บันทึกย่อ และอื่นๆระหว่างอุปกรณ์ต่างๆของคุณได้ที่ "</string>
+    <string name="sync_dspt_provision2">i.mi.com</string>
+    <string name="sync_dspt_provision2_int">www.mi.com/micloud</string>
     <string name="sync_dspt_provision3">"คุณสามารถเปิด-ปิดการการใช้งานนี้จากเมนูการตั้งค่าได้ตลอดเวลา
 "</string>
     <string name="sync_dspt_entrance_provision">"ซิงค์รูปภาพ รายชื่อในโทรศัพท์ ประวัติการโทรและข้อความของคุณระหว่างเครื่อง คุณสามารถเข้าถึงสิ่งที่คุณซิงค์ไว้ผ่านเบราว์เซอร์ได้ที่ %s "</string>
@@ -70,6 +72,8 @@
     <string name="sync_dspt_entrance_provision_skip">ข้ามขั้นตอนนี้</string>
     <string name="sync_dspt_entrance_provision_network">แอปนี้ต้องการเชื่อมต่อกับอินเทอร์เน็ตเพื่อทำงานได้ตามปกติ การซิงค์ข้อมูลอาจต้องใช้การเชื่อมต่อข้อมูลมือถือและเปิด Wi-Fi</string>
     <string name="find_device_dspt_provision">ในกรณีที่เครื่องโทรศัพท์ของคุณหาย คุณสามารถเข้าไปที่ %s เพื่อค้นหาพิกัดเครื่อง ทำการล็อกหรือรีเซ็ต โดยคุณสามารถเปิด-ปิดคุณลักษณะนี้ได้ตลอดเวลาในเมนูการตั้งค่า</string>
+    <string name="find_device_dspt_provision_2">i.mi.com</string>
+    <string name="find_device_dspt_provision_2_int">www.mi.com/micloud</string>
     <string name="find_device_dspt_provision_3">"คุณสามารถเปิดและปิดการการใช้งานนี้ได้จากเมนูการตั้งค่าได้ตลอดเวลา
 "</string>
     <string name="find_device_dspt_provision_4">หากคุณเปลี่ยนซิมการ์ด ระบบจะส่งข้อความเพื่อเปิดใช้งานคุณลักษณะนี้โดยอัตโนมัติ</string>
@@ -122,6 +126,7 @@
     <string name="find_device_error_server">ข้อผิดพลาดจากเซิร์ฟเวอร์</string>
     <string name="find_device_success_title">ค้นหาอุปกรณ์</string>
     <string name="find_device_notice_p1">ไปที่</string>
+    <string name="find_device_notice_p2">i.mi.com</string>
     <string name="find_device_notice_p3">"ใช้ในการค้นหา ล็อกเครื่องหรือกู้คืนเครื่อง
 ในกรณีที่คุณสลับซิมการ์ด ระบบจะส่งข้อความอีกครั้งโดยอัตโนมัติเพื่อเปิดใช้งานบริการนี้"</string>
     <string name="i_know">ตกลง</string>
@@ -171,8 +176,7 @@
     <string name="micloud_user_space_usage">พื้นที่จัดเก็บ</string>
     <string name="micloud_web_discription_01">เข้าสู่ระบบที่ i.mi.com</string>
     <string name="micloud_web_discription_02">เพื่อจัดเก็บและเข้าถึงไฟล์ของคุณได้จากทุกที่</string>
-    <string name="micloud_web_discription">ไปที่ i.mi.com</string>
-    <string name="micloud_web_discription_international">ไปที่ www.mi.com/micloud</string>
+    <string name="micloud_web_discription_place_holder">เยี่ยม %1$s</string>
     <string name="micloud_full_influence_title">เมื่อ Mi คลาวด์ของคุณเต็ม…</string>
     <string name="micloud_warn_low_title">พื้นที่ใกล้เต็มแล้ว</string>
     <string name="micloud_warn_low_sum">คุณใช้พื้นที่ Mi คลาวด์ไปแล้ว 90%</string>
@@ -300,15 +304,15 @@
     <string name="micloud_detail_pause">พักการซิงค์ไว้</string>
     <string name="micloud_detail_need_charge_or_sleep">ชาร์จและปิดใช้งานหน้าจอเพื่อซิงค์</string>
     <string name="micloud_detail_battery_low">แบตเตอรี่ต่ำ</string>
-    <string name="micloud_privacy_cloud_off">การซิงค์ปิดอยู่</string>
+    <string name="micloud_privacy_cloud_off">ซิงค์ถูกปิด</string>
     <string name="micloud_privacy_licence_agreed">ยอมรับนโยบายความเป็นส่วนตัว Mi คลาวด์</string>
     <string name="micloud_privacy_licence_privacy_policy">นโยบายความเป็นส่วนตัว</string>
-    <string name="micloud_privacy_explanation">ใช้งาน Mi คลาวด์ หลังจากเปิดใช้งานการให้สิทธิ์</string>
-    <string name="micloud_privacy_cloud_sync">ใช้งาน Mi คลาวด์</string>
-    <string name="micloud_privacy_warning_title">คำแนะนำ</string>
-    <string name="micloud_privacy_warning_content">ไม่สามารถใช้งาน Mi คลาวด์ได้ ลองอีกครั้งในภายหลัง</string>
+    <string name="micloud_privacy_explanation">อนุญาตสิทธิ์เพื่อเปิดใช้งานบริการ Mi คลาวด์</string>
+    <string name="micloud_privacy_cloud_sync">เปิดใช้งานบริการ Mi คลาวด์</string>
+    <string name="micloud_privacy_warning_title">โปรดทราบ</string>
+    <string name="micloud_privacy_warning_content">ไม่สามารถปิดใช้บริการ Mi คลาวด์ ได้ กรุณารอ 1-2 นาทีแล้วลองใหม่อีกครั้ง</string>
     <string name="micloud_privacy_warning_button">ย้อนกลับ</string>
-    <string name="micloud_privacy_progress_content">ได้รับอนุมัติ</string>
+    <string name="micloud_privacy_progress_content">กำลังอนุญาตสิทธิ์…</string>
     <string name="micloud_privacy_more">เพิ่มเติม</string>
     <string name="micloud_check_sim_title">"ดูเหมือนคุณได้เปลี่ยนซิมการ์ด กรุณาเข้าสู่ระบบ
 บัญชี Mi เพื่อเปิดใช้งาน Mi คลาวด์"</string>
@@ -470,7 +474,7 @@
     <string name="micloud_notif_content_multi_user_error">คุณลงชื่อเข้าใช้ด้วยบัญชีเดียวกันกับพื้นที่ปกติ</string>
     <string name="micloud_notif_title_dirty_data">รายการที่คุณซิงค์แล้ว</string>
     <string name="micloud_notif_content_dirty_data">รายละเอียด</string>
-    <string name="micloud_notif_title_privacy_reopen_failed">ไม่สามารถเริ่มต้นบริการระบบคลาวด์ได้</string>
+    <string name="micloud_notif_title_privacy_reopen_failed">ไม่สามารถปิดใช้บริการ Mi คลาวด์ได้</string>
     <string name="micloud_notif_content_privacy_reopen_failed">เรียกดูรายละเอียด</string>
     <string name="micloud_find_device_guide_title">ลงชื่อเข้าใช้ &lt;font color=#FF0000>&lt;b>i.mi.com&lt;/b>&lt;/font> เพื่อค้นหาล็อกหรือลบข้อมูลอุปกรณ์ของคุณ ซึ่งอาจช่วยให้คุณสามารถค้นหาอุปกรณ์ของคุณได้ในกรณีที่สูญหาย &lt;br />หากคุณทำอุปกรณ์หายคุณสามารถติดต่อบริการรักษาความปลอดภัยของแอป ที่คุณใช้บ่อยๆ (เช่น Alipay, WeChat, QQ) เพื่อปกป้องบัญชีของคุณบน &lt;font color=#FF0000>&lt;b>i.mi.com&lt;/b>&lt;/font></string>
     <string name="micloud_find_device_guide_content">อาจมีข้อความ SMS ขาออกเพื่อเปิดใช้งานบริการนี้ ผู้ให้บริการของคุณจะเรียกเก็บเงินจากคุณสำหรับข้อความนี้ เมื่อคุณเปลี่ยนซิมการ์ดข้อความจะถูกส่งโดยอัตโนมัติเพื่อเปิดใช้งานคุณลักษณะนี้อีกครั้ง</string>
@@ -483,6 +487,8 @@
     <string name="micloud_find_device_opened">การค้นหาอุปกรณ์เปิดใช้งาน</string>
     <string name="micloud_find_device_open_fail">ไม่สามารถปิดใช้การค้นหาอุปกรณ์ได้</string>
     <string name="micloud_find_device_opened_content">ค้นหาอุปกรณ์ของคุณใน %s</string>
+    <string name="micloud_find_device_opened_content_url">i.mi.com</string>
+    <string name="micloud_find_device_opened_content_url_int">www.mi.com/micloud</string>
     <string name="micloud_find_device_verify_fail">ไม่สามารถเปิดใช้งานค้นหาอุปกรณ์อีกครั้งได้</string>
     <string name="micloud_find_device_close_fail">ไม่สามารถปิดใช้งานการค้นหาอุปกรณ์ได้</string>
     <string name="micloud_find_device_finish">เสร็จสิ้น</string>
@@ -508,8 +514,8 @@
     <string name="micloud_find_device_close_alert_content">หากปิดคุณลักษณะนี้คุณจะไม่สามารถค้นหาอุปกรณ์ของคุณได้ในกรณีที่อุปกรณ์สูญหาย</string>
     <string name="micloud_find_device_close_alert_positive">เปิดไว้</string>
     <string name="micloud_find_device_close_alert_negtive">ปิดใช้งาน</string>
-    <string name="find_device_gdpr_prompt">การเปิด \"ค้นหาอุปกรณ์\" หมายความว่าคุณยอมรับ \"นโยบายความเป็นส่วนตัว\" หากต้องการเพิกถอนการให้ความเป็นส่วนตัวโปรดปิดคุณลักษณะนี้</string>
-    <string name="find_device_gdpr_prompt_policy_doc_name">\"นโยบายความเป็นส่วนตัว\"</string>
+    <string name="find_device_gdpr_prompt">การเปิดการค้นหาอุปกรณ์ หมายความว่าคุณยอมรับนโยบายความเป็นส่วนตัว หากต้องการเพิกถอน กรุณาปิดคุณลักษณะนี้</string>
+    <string name="find_device_gdpr_prompt_policy_doc_name">นโยบายความเป็นส่วนตัว</string>
     <string name="activate_finddevice">กรุณาเชื่อมต่อเครือข่ายเพื่อเปิดใช้งานอุปกรณ์</string>
     <string name="account_related">อุปกรณ์ของคุณผูกอยู่กับบัญชีอื่นอยู่ก่อนแล้ว (%s) เชื่อมต่อเครือข่ายเพื่อยืนยันอุปกรณ์</string>
     <string name="connect_network">เชื่อมต่อกับ Wi-Fi หรือใส่ซิมการ์ด</string>
@@ -562,6 +568,8 @@
     <string name="micloud_main_head_menu_state_close">ปิด</string>
     <string name="micloud_main_head_menu_state_unavailable">ไม่พร้อมใช้</string>
     <string name="micloud_main_head_menu_finddevice_unavailable">ค้นหาอุปกรณ์ไม่พร้อมใช้งานในพื้นที่ทับซ้อน คุณสามารถใช้งานได้ในพื้นที่ปกติ</string>
+    <string name="micloud_footer_normal_url">i.mi.com</string>
+    <string name="micloud_footer_international_url">mi.com/micloud</string>
     <string name="ks_fingerprint_payment">การชำระเงินด้วยลายนิ้วมือ</string>
     <string name="ks_name_fido">FIDO</string>
     <string name="ks_name_alipay">IFAA</string>

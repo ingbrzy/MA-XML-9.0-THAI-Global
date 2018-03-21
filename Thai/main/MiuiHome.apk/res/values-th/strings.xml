@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="action_add_to_workspace">เพิ่มไปยังหน้าแรก</string>
     <string name="activity_not_found">ไม่พบการติดตั้งแอปในเครื่อง</string>
     <string name="add_screen">เพิ่มหน้าจอ</string>
@@ -81,6 +82,7 @@
     <string name="current_preview">ภาพตัวอย่าง</string>
     <string name="current_wallpaper">ปัจจุบัน</string>
     <string name="custom_wallpaper_picker">เรียกดู</string>
+    <string name="defalut_launcher_title">ค่าเริ่มต้นชุดเรียกใช้ระบบ</string>
     <string name="default_folder_title_claro">Claro</string>
     <string name="default_folder_title_game">เกมส์</string>
     <string name="default_folder_title_microsoft">Microsoft</string>
@@ -179,13 +181,16 @@
     <string name="invalid_contact_shortcut">รายชื่อไม่ถูกต้อง</string>
     <string name="is_setting_wallpaper_message">กำลังตั้งค่าภาพพื้นหลัง…</string>
     <string name="is_system_wallpaper_message">ไม่สามารถลบไฟล์ของระบบได้</string>
+    <string name="launcher_auto_fill_empty_title">เติมเต็มเซลล์ที่ว่างเปล่า</string>
     <string name="launcher_not_exist">เกิดข้อผิดพลาด ย้อนกลับหน้าจอหลักและลองอีกครั้ง</string>
+    <string name="launcher_title">หน้าจอหลัก &amp; ล่าสุด</string>
     <string name="like">ชื่นชอบ</string>
     <string name="liked">ชื่นชอบแล้ว</string>
     <string name="loading_desktop">รอสักครู่…</string>
     <string name="loading_wallpaper">รอสักครู่…</string>
     <string name="local_wallpaper">ดาวน์โหลดไว้</string>
     <string name="lock_screen">หน้าจอล็อก</string>
+    <string name="lock_screen_cells_title">รูปแบบล็อคหน้าจอหลัก</string>
     <string name="lock_screen_failed_message">กำหนดภาพพื้นหลังหน้าจอล็อกไม่ได้</string>
     <string name="lock_screen_success_message">ใช้เป็นหน้าจอล็อกแล้ว</string>
     <string name="lock_screen_wallpaper">ภาพพื้นหลังหน้าจอล็อก</string>
@@ -212,6 +217,7 @@
     <string name="menu_wallpaper">ภาพพื้นหลัง</string>
     <string name="menu_workspace_preview">ตัวอย่างรายการหน้าจอหลัก</string>
     <string name="mi_wallpaper">ร้านค้าธีม MIUI</string>
+    <string name="miui_screen_config_title">การตั้งค่าหน้าจอหลัก</string>
     <string name="mtzgadget_missing_text">วิดเจ็ทไม่สามารถใช้งานได้</string>
     <string name="multi_selecting_tips">เพื่อจัดระเบียบแอป ลากไอคอนและวางที่นี่</string>
     <string name="no_detail_page">ไม่มีหน้ารายละเอียด</string>
@@ -220,6 +226,11 @@
     <string name="notification_installed">ติดตั้งเรียบร้อย</string>
     <string name="notification_open_button">เปิด</string>
     <string name="online_wallpaper">ออนไลน์</string>
+    <string name="open_personal_assistant_dialog_btn_cancel">ยกเลิก</string>
+    <string name="open_personal_assistant_dialog_btn_confirm">ปิดใช้งาน</string>
+    <string name="open_personal_assistant_dialog_desc">คุณไม่สามารถใช้แอป vault และรับการอัพเดต ปิดใช้งานทันที?</string>
+    <string name="open_personal_assistant_dialog_title">ปิดใช้แอป vault</string>
+    <string name="open_personal_assistant_title">เปิดใช้แอป vault</string>
     <string name="out_of_space">ไม่มีที่ว่างบนหน้าจอหลักแล้ว</string>
     <string name="permdesc_install_shortcut">อนุญาตให้แอปเพิ่ม ปุ่มลัดโดยอัตโนมัติ</string>
     <string name="permdesc_install_widget">อนุญาตให้แอปเพิ่ม วิดเจ็ตโดยอัตโนมัติ</string>
@@ -249,6 +260,8 @@
     <string name="pref_wallpaper_scroll_type_title">ตำแหน่งภาพพื้นหลัง</string>
     <string name="preferences_general_title">การตั้งค่าเพิ่มเติม</string>
     <string name="preferences_title">การตั้งค่าชุดเรียกใช้ระบบ</string>
+    <string name="preferred_app_settings_not_selected">ไม่ได้เลือกไว้</string>
+    <string name="recents_config_title">ล่าสุด</string>
     <string name="recommend_apk_size_and_desc">%1$dMB | %2$s</string>
     <string name="recommend_apps_default_title">ว่าง</string>
     <string name="recommend_apps_no_data">ไม่มีข้อมูล</string>
@@ -258,6 +271,7 @@
     <string name="recommend_apps_tips">คุณลักษณะนี้จำเป็นต้องเชื่อมต่อกับอินเตอร์เน็ตเพื่อการใช้งานที่ปกติ โดยสามารถแตะที่ชื่อของโฟลเดอร์เพื่อปิดใช้งาน</string>
     <string name="recommend_loading">กำลังโหลด</string>
     <string name="reset_scene_prompt">หน้าจอจะรีเซ็ตการจัดหน้าเป็นค่าเริ่มต้น</string>
+    <string name="screen_cells_config_title">รูปแบบหน้าจอหลัก</string>
     <string name="screen_locked_toast">การจัดเรียงหน้าจอหลักล็อกอยู่</string>
     <string name="screen_number">หน้าจอที่ %d</string>
     <string name="select_all">เลือกทั้งหมด</string>
@@ -268,6 +282,7 @@
     <string name="settings_shortcut">การตั้งค่า</string>
     <string name="share">แชร์</string>
     <string name="show_all">แสดงทั้งหมด</string>
+    <string name="show_mem_info_title">แสดงสถานะหน่วยความจำ</string>
     <string name="sort_by_abc">เรียงลำดับตามชื่อ</string>
     <string name="sort_by_frequency">เรียงลำดับตามการใช้งาน</string>
     <string name="sort_by_not_defined">เรียงอัตโนมัติ</string>
@@ -278,6 +293,7 @@
     <string name="status_installing">กำลังติดตั้ง</string>
     <string name="status_paused">หยุดพัก</string>
     <string name="status_pending">กำลังรอ…</string>
+    <string name="title_jeejen">Jeejen หน้าจอหลัก</string>
     <string name="title_select_live_folder">เลือกโฟลเดอร์</string>
     <string name="title_select_shortcut">เลือกปุ่มลัด</string>
     <string name="toast_screen_icons_misplaced">เรียกคืนจากแหล่งข้อมูลอื่นๆ บางไอคอนอาจจะอยู่ผิดที่</string>
@@ -314,18 +330,4 @@
     <string name="widget_gadget_player">เพลง</string>
     <string name="widget_global_search">ค้นหา</string>
     <string name="widget_quick_function">ฟังค์ชั่นทางลัด</string>
-    <string name="defalut_launcher_title">ค่าเริ่มต้นชุดเรียกใช้ระบบ</string>
-    <string name="launcher_auto_fill_empty_title">เติมเต็มเซลล์ที่ว่างเปล่า</string>
-    <string name="launcher_title">หน้าจอหลัก &amp; ล่าสุด</string>
-    <string name="lock_screen_cells_title">รูปแบบล็อคหน้าจอหลัก</string>
-    <string name="miui_screen_config_title">การตั้งค่าหน้าจอหลัก</string>
-    <string name="open_personal_assistant_dialog_btn_cancel">ยกเลิก</string>
-    <string name="open_personal_assistant_dialog_btn_confirm">ปิดใช้งาน</string>
-    <string name="open_personal_assistant_dialog_desc">คุณไม่สามารถใช้แอป vault และรับการอัพเดต ปิดใช้งานทันที?</string>
-    <string name="open_personal_assistant_dialog_title">ปิดใช้แอป vault</string>
-    <string name="open_personal_assistant_title">เปิดใช้แอป vault</string>
-    <string name="recents_config_title">ล่าสุด</string>
-    <string name="screen_cells_config_title">รูปแบบหน้าจอหลัก</string>
-    <string name="show_mem_info_title">แสดงสถานะหน่วยความจำ</string>
-    <string name="title_jeejen">Jeejen หน้าจอหลัก</string>
 </resources>

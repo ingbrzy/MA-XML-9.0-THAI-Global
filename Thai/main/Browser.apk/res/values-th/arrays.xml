@@ -74,7 +74,7 @@
         <item>ติดตามการแข่งขันโอลิมปิกไปกับ Mi</item>
     </string-array>
     <string-array name="weather_type">
-        <item>แจ่มใส</item>
+        <item>Clear</item>
         <item>มีเมฆ</item>
         <item>มืดครึ้ม</item>
         <item>มีหมอกจัด</item>

@@ -5,12 +5,14 @@
     <string name="wifi_security_short_wpa">WPA</string>
     <string name="wifi_security_short_wpa2">WPA2</string>
     <string name="wifi_security_short_wpa_wpa2">WPA/WPA2</string>
+    <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
     <string name="wifi_security_short_eap">802.1x</string>
     <string name="wifi_security_none">ไม่มี</string>
     <string name="wifi_security_wep">WEP</string>
     <string name="wifi_security_wpa">WPA PSK</string>
     <string name="wifi_security_wpa2">WPA2 PSK</string>
     <string name="wifi_security_wpa_wpa2">WPA/WPA2 PSK</string>
+    <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
     <string name="wifi_security_eap">802.1x EAP</string>
     <string name="wifi_security_passpoint">Passpoint</string>
     <string name="wifi_security_short_WAPI_PSK">WAPI PSK</string>
@@ -86,6 +88,7 @@
     <string name="accessibility_wifi_two_bars">สัญญาณ WiFi สองขีด</string>
     <string name="accessibility_wifi_three_bars">สัญญาณ WiFi สามขีด</string>
     <string name="accessibility_wifi_signal_full">สัญญาณ WiFi เต็ม</string>
+    <string name="process_kernel_label">ระบบแอนดรอยด์</string>
     <string name="data_usage_uninstalled_apps">แอปที่ถูกลบ</string>
     <string name="data_usage_uninstalled_apps_users">แอปและผู้ใช้ที่ถูกลบ</string>
     <string name="tether_settings_title_usb">แชร์เครือข่ายผ่าน USB</string>
@@ -637,7 +640,7 @@ d MMMM"</string>
     <string name="settings_toggle_position_reset">คืนค่าปุ่มเปิด-ปิด</string>
     <string name="list_delimeter">", "</string>
     <string name="camera_key_action_setting_title">ปุ่ม Mi</string>
-    <string name="camera_key_action_category_title">ใช้หากแอปกล้องไม่เปิดอยู่</string>
+    <string name="camera_key_action_category_title">"Use if the Camera app isn't open"</string>
     <string name="camera_key_action_none_title">ไม่มีการกระทำ</string>
     <string name="camera_key_action_shortcut_title">ปุ่มลัด</string>
     <string name="camera_key_action_toggle_title">เปิดใช้ปุ่มเปิด-ปิด</string>
@@ -679,8 +682,9 @@ d MMMM"</string>
     <string name="ext_media_nomedia_notification_title">ถอดที่เก็บข้อมูล USB ออกแล้ว</string>
     <string name="ext_media_nomedia_notification_message">ถอดที่เก็บข้อมูล USB ออกแล้ว ใส่ที่เก็บข้อมูลอื่นได้</string>
     <string name="ext_media_mountable_notification_title">เชื่อมต่ออุปกรณ์ USB แล้ว</string>
-    <string name="ext_media_mountable_notification_message">แตะเพื่อเปิดใน ตัวจัดการไฟล์ Mi</string>
+    <string name="ext_media_mountable_notification_message">แตะเพื่อเปิดในตัวจัดการไฟล์</string>
     <string name="ext_media_safe_remove">ถอดออกได้อย่างปลอดภัย</string>
+    <string name="network_speed_suffix">%1$s%2$s</string>
     <string name="kilobyte_per_second">K/s</string>
     <string name="megabyte_per_second">M/s</string>
     <string name="status_bar_network_flow_today">วันนี้: %1$s</string>
@@ -759,6 +763,7 @@ d MMMM"</string>
     <string name="notification_header_title">การแจ้งเตือน</string>
     <string name="weather_publish_time">อัพเดทล่าสุด %1$s</string>
     <string name="no_weather_description">ขอรับข้อมูลสภาพอากาศ ></string>
+    <string name="weather_description_no_aqi">%1$s</string>
     <string name="accessibility_desc_notification_shade">แถบการแจ้งเตือน</string>
     <string name="accessibility_desc_quick_settings">การตั้งค่าด่วน</string>
     <string name="accessibility_desc_details_page">%1$s หน้ารายละเอียด</string>
@@ -804,6 +809,7 @@ d MMMM"</string>
     <string name="accessibility_brightness_slider">แถบเลื่อนความสว่าง</string>
     <string name="click_to_return_multi_window">แตะเพื่อย้อนไปหน้าแบ่งจอ</string>
     <string name="recent_dock_tip">แตะเพื่อเลือกแอป</string>
+    <string name="recent_cannot_dock">"Can't use Split screen in Second Space"</string>
     <string name="dock_keyguard_locked_failed_to_dock_text">ไม่สามารถแบ่งหน้าจอขณะล็อกหน้าจออยู่</string>
     <string name="un_important_notifications">การแจ้งเตือนที่ไม่สำคัญ</string>
     <string name="as_important">สำคัญ</string>
@@ -825,8 +831,8 @@ d MMMM"</string>
     <string name="fsg_demo_go_on">เรียนรู้</string>
     <string name="fs_gesture_back_home_summary">ปัดจากด้านล่างจอ</string>
     <string name="fs_gesture_switch_recents_summary">ปัดจากด้านล่างและหยุดชั่วคราว</string>
-    <string name="how_to_use_drawer">วิธีใช้ฟังก์ชันเลื่อนแอป</string>
-    <string name="how_to_use_drawer_summary">ปัดจากด้านบนซ้าย</string>
+    <string name="how_to_use_drawer">วิธีเปิดเมนูสไลด์ได้</string>
+    <string name="how_to_use_drawer_summary">กวาดนิ้วไปทางขวาในส่วนบนของหน้าจอ</string>
     <string name="fs_gesture_back_ready_title">ย้อนกลับ</string>
     <string name="fs_gesture_left_back_ready_summary">ปัดไปทางขวาจากขอบ</string>
     <string name="fs_gesture_right_back_ready_summary">ปัดไปทางซ้ายจากขอบ</string>

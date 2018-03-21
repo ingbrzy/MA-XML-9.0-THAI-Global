@@ -398,7 +398,7 @@
     <string name="dialog_restrict_all_wlan_title">จำกัดการเชื่อมต่อ Wi-Fi</string>
     <string name="dialog_restrict_all_wlan_summary">การเชื่อมต่อ Wifi จะถูกจำกัด สำหรับแอพทั้งหมดหลังจากนี้</string>
     <string name="dialog_restrict_all_mobile_title">จำกัด %s การเชื่อมต่อข้อมูลมือถือ</string>
-    <string name="dialog_restrict_all_mobile_summary">%s การเชื่อมต่อข้อมูลมือถือจะถูกจำกัด สำหรับแอพทั้งหมดหลังจากนี้</string>
+    <string name="dialog_restrict_all_mobile_summary">%s การเชื่อมต่อข้อมูลมือถือจะถูกจำกัดสำหรับแอปทั้งหมดหลังจากนี้</string>
     <string name="dialog_restrict_positive">ยกเลิก </string>
     <string name="dialog_restrict_negative">จำกัด</string>
     <string name="usage_sorted_activity_lable">การใช้ข้อมูล</string>
@@ -423,6 +423,7 @@
     <string name="detail_app_button">ข้อมูลแอป</string>
     <string name="pref_about_traffic_title">การตั้งค่าการใช้ข้อมูล</string>
     <string name="pref_traffic_manage_title">การใช้ข้อมูล</string>
+    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_package_traffic_settings">แพ็คเกจข้อมูล</string>
     <string name="pref_adjust_traffic_data">ตั้งการใช้ข้อมูล</string>
     <string name="pref_category_title_other">การตั้งค่าเพิ่มเติม</string>
@@ -942,6 +943,7 @@
     <string name="om_formatted_percent_string">%s%%</string>
     <string name="om_cpu_usage_warn_title_text">"แอปนี้อาจทำให้อุปกรณ์ของคุณ
 ช้าลง"</string>
+    <string name="om_memory_clean_memory_info_text">%1$s / %2$s</string>
     <string name="om_ill_proc_handle_unstaill_title">ถอนการติดตั้ง %s?</string>
     <string name="om_ill_proc_handle_uninstall_prompt">ถอนการติดตั้งแอปนี้เพื่อแก้ไขปัญหาการใช้แบตเตอรี่</string>
     <string name="om_ill_proc_type_wakelock_title">แอปบล็อกโหมดสลีปทำให้แบตเตอรี่หมดเร็ว</string>
@@ -1000,6 +1002,7 @@
     <string name="usage_type_data_send">ปริมาณข้อมูลขาออก</string>
     <string name="usage_type_no_coverage">ระยะเวลาที่อับสัญญาณ</string>
     <string name="usage_type_gps">GPS</string>
+    <string name="process_kernel_label">แอนดรอยด์</string>
     <string name="process_mediaserver_label">เซิร์ฟเวอร์สื่อมีเดีย</string>
     <string name="power_screen">หน้าจอ</string>
     <string name="power_wifi">Wi-Fi</string>
@@ -1345,6 +1348,7 @@
     <string name="menu_text_networkassistants">การใช้ข้อมูล</string>
     <string name="menu_text_networkassistants_remain">คงเหลือ %s</string>
     <string name="menu_text_networkassistants_danger">ใช้เกินไป %s</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_unit_gb">GB</string>
     <string name="menu_text_networkassistants_unit_mb">MB</string>
     <string name="menu_text_networkassistants_unit_kb">KB</string>
@@ -1705,6 +1709,7 @@
     <string name="card_main_deepclean_wechat_action">ล้าง</string>
     <string name="card_main_sectool_title">เครื่องมือ</string>
     <string name="card_main_monthreport_action">เรียกดู</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">ทดสอบเครือข่าย</string>
     <string name="card_main_netcheck_summary">ทดสอบการเชื่อมต่อสำหรับปัญหาเครือข่าย</string>
     <string name="card_main_netcheck_action">ทดสอบ</string>
@@ -1928,7 +1933,7 @@
     <string name="sponsored_sec_fb">ให้การสนับสนุน</string>
     <string name="add_game_notification_summary">แตะเปิดใช้&amp; เพิ่มความเร็ว</string>
     <string name="app_manager_title">จัดการแอป</string>
-    <string name="app_manager_app_lock">ล็อกแอป</string>
+    <string name="app_manager_uninstall">ถอนการติดตั้ง</string>
     <string name="app_manager_bipartition">แอปโคลน</string>
     <string name="app_manager_perm">การอนุญาต</string>
     <string name="app_manager_app_update">อัปเดต</string>
@@ -2035,8 +2040,6 @@
     <string name="app_manager_cache_size">หน่วยความจำแคช</string>
     <string name="app_manager_clear_all_data">ล้างข้อมูลทั้งหมด</string>
     <string name="app_manager_dlg_clear_cache_title">ล้างหน่วยความจำแคช?</string>
-    <string name="app_manager_support_uninstall">คุณสามารถถอนการติดตั้งแอปเหล่านี้ได้</string>
-    <string name="app_manager_not_support_uninstall">ไม่สามารถถอนการติดตั้งแอปเหล่านี้ได้</string>
     <string name="app_manager_comuting_size">กำลังประมวล…</string>
     <string name="app_manager_show_all_apps_opened">กำลังแสดงผลลัพธ์จากแอปทั้งหมด…</string>
     <string name="app_manager_search_prompt">ไม่พบผลการค้นหาใช่หรือไม่? ลองแสดงผลการค้นหาจากแอปทั้งหมด</string>
@@ -2197,6 +2200,25 @@
     <string name="gb_cutoff">|</string>
     <string name="gb_ad_game_size">MB</string>
     <string name="gb_new_feature">คุณลักษณะใหม่</string>
+    <string name="gb_sign_notification_title">เพิ่มความเร็วเครือข่ายสำหรับเกมส์</string>
+    <string name="gb_sign_notification_summary">เช็คอินทุกวันเพื่อรับ Xunyou บูสต์</string>
+    <string name="gs_sign_notification">เตือนความจำเพื่อเช็คอิน 8 PM ทุกวัน</string>
+    <string name="gb_sign_gift">เช็คอินเพื่อรับรางวัล</string>
+    <string name="signed_rule">กฎ</string>
+    <string name="signed_rule_one">1. ตรวจสอบวันที่ 10, 20 หรือ 28 วันเป็นรายเดือนเพื่อให้ได้รับ Xunyou บูสต์ เป็นเวลา 1, 2 หรือ 3 วันตามลำดับ</string>
+    <string name="signed_rule_two">2. คุณจะได้รับ Xunyou บูสต์เพียงหนึ่งครั้งต่อเดือนเท่านั้น</string>
+    <string name="signed_rule_three">3. วันเช็คอินจะถูกยกเลิกทุกๆต้นเดือน ไม่เหลือวันที่เหลือแล้ว</string>
+    <string name="gb_get_gift_right_now">เช็คอินทันที</string>
+    <string name="gb_have_signed">วันนี้เช็คอินแล้ว</string>
+    <string name="gb_sign_gift_button_text">รับ</string>
+    <string name="gb_xunyou_gift_type_one">Xunyou บูสต์ 1 วัน</string>
+    <string name="gb_xunyou_gift_type_two">Xunyou บูสต์ 2 วัน</string>
+    <string name="gb_xunyou_gift_type_three">Xunyou บูสต์ 3 วัน</string>
+    <string name="gb_signed_title">เช็คอินในเดือนนี้</string>
+    <string name="gb_network_status_bad">การเชื่อมต่อเกิดข้อผิดพลาด</string>
+    <string name="gs_open_game_booster_summary">เพิ่มความเร็วเครือข่ายสำหรับเกมส์</string>
+    <string name="gb_signed_gift_loading_summary">รอสักครู่…</string>
+    <string name="gb_signed_gift_loading_fail">ไม่สามารถโหลดได้</string>
     <string name="power_center_consume_rank">การใช้งานแบตเตอรี่</string>
     <string name="power_center_custom_title">ใช้โหมดพลังงาน</string>
     <string name="power_center_auto_shutdown_summary_default">ตั้งค่าการเปิดหรือปิดเครื่องตามเวลาที่กำหนดไว้ล่วงหน้า</string>

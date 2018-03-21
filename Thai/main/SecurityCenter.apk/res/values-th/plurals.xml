@@ -230,4 +230,7 @@
     <plurals name="net_booster_expire_notification_tip">
         <item quantity="other">%d วันที่เหลือก่อนที่เซสชั่นการเพิ่มความเร็วของเครือข่ายจะสิ้นสุดลง ต่ออายุเซสชันเพื่อหลีกเลี่ยงปัญหาความเร็วเครือข่าย</item>
     </plurals>
+    <plurals name="gb_signed_days_sum">
+        <item quantity="other">ลงชื่อเข้าใช้เป็นเวลา %d วันติดต่อกัน</item>
+    </plurals>
 </resources>

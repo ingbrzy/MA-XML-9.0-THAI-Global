@@ -1297,7 +1297,6 @@
     <string name="debug_networking_category">เครือข่าย</string>
     <string name="debug_view_attributes">เปิดใช้การตรวจสอบแอตทริบิวต์มุมมอง</string>
     <string name="decline_remote_bugreport_action">ปฏิเสธ</string>
-    <string name="defalut_launcher_title">ค่าเริ่มต้นชุดเรียกใช้ระบบ</string>
     <string name="default_admin_support_msg">การทำงานนี้ปิดอยู่ หากต้องการเรียนรู้เพิ่มเติม โปรดติดต่อผู้ดูแลระบบขององค์กร</string>
     <string name="default_app">(ค่าเริ่มต้น)</string>
     <string name="default_apps_title">ค่าเริ่มต้น</string>
@@ -1995,6 +1994,7 @@
     <string name="key_gesture_function_preview">กลวิธีการแตะและปุ่มที่ใช้งาน</string>
     <string name="key_gesture_function_shortcut">ฟังค์ชั่นปุ่มลัด</string>
     <string name="key_none">ไม่</string>
+    <string name="key_operation_diagram">แผนผังปฏิบัติการ</string>
     <string name="key_position_cat">ตำแหน่งปุ่ม</string>
     <string name="key_settings">ปุ่มและทางลัดในการสัมผัสหน้าจอ</string>
     <string name="key_settings_title">ปุ่มและทางลัดในการสัมผัสหน้าจอ</string>
@@ -2083,8 +2083,6 @@
     <string name="launch_google_search">เปิดใช้ตัวช่วย Google</string>
     <string name="launch_recents">เปิดใช้ล่าสุด</string>
     <string name="launch_voice_assistant">เปิดตัวตัวช่วยเสียง</string>
-    <string name="launcher_auto_fill_empty_title">เติมเต็มเซลล์ที่ว่างเปล่า</string>
-    <string name="launcher_title">หน้าจอหลัก &amp; ล่าสุด</string>
     <string name="launching_cit">กำลังเข้าสู่ CIT</string>
     <string name="launching_pho">กำลังเปิดใช้ข้อมูลโทรศัพท์…</string>
     <string name="launching_rep">กำลังรายงาน…</string>
@@ -2186,7 +2184,6 @@
     <string name="lock_profile_wipe_warning_content_pattern">หากคุณป้อนรูปแบบการทำงานที่ไม่ถูกต้องในความพยายามครั้งนี้ ระบบจะนำโปรไฟล์งานของคุณและข้อมูลที่เชื่อมโยงออกจากอุปกรณ์นี้</string>
     <string name="lock_profile_wipe_warning_content_pin">หากคุณป้อน PIN การทำงานที่ไม่ถูกต้องในความพยายามครั้งนี้ ระบบจะนำโปรไฟล์งานของคุณและข้อมูลที่เชื่อมโยงออกจากอุปกรณ์นี้</string>
     <string name="lock_profile_wipe_warning_title">การลองครั้งสุดท้าย</string>
-    <string name="lock_screen_cells_title">รูปแบบล็อคหน้าจอหลัก</string>
     <string name="lock_screen_intro_skip_dialog_text">จะไม่มีการเปิดใช้งานฟีเจอร์การปกป้องอุปกรณ์ คุณจะไม่สามารถป้องกันไม่ให้คนอื่นใช้โทรศัพท์นี้ได้หากโทรศัพท์สูญหายหรือถูกขโมย</string>
     <string name="lock_screen_intro_skip_dialog_text_frp">จะไม่มีการเปิดใช้งานฟีเจอร์การปกป้องอุปกรณ์ คุณจะไม่สามารถป้องกันไม่ให้ผู้อื่นใช้งานโทรศัพท์เครื่องนี้ได้หากโทรศัพท์สูญหาย ถูกขโมย หรือถูกล้างข้อมูล</string>
     <string name="lock_screen_notifications_interstitial_message">เมื่ออุปกรณ์ล็อกอยู่ คุณต้องการให้แสดงการแจ้งเตือนอย่างไร</string>
@@ -2443,9 +2440,12 @@
     <string name="memory_settings_title">หน่วยความจำ</string>
     <string name="memory_size">พื้นที่ทั้งหมด</string>
     <string name="memory_summary">ใช้หน่วยความจำไป %1$s จาก %2$s โดยเฉลี่ย</string>
+    <string name="memory_system_rom">พื้นที่ในระบบ</string>
+    <string name="memory_system_space">พื้นที่ในระบบ</string>
     <string name="memory_title">ใช้งานได้: %1$s\u0009\u0009ทั้งหมด: %2$s</string>
     <string name="memory_usage">การใช้หน่วยความจำ</string>
     <string name="memory_usage_apps">หน่วยความจำที่แอปใช้</string>
+    <string name="memory_use_running_format">%1$s/%2$s</string>
     <string name="memory_use_summary">ใช้หน่วยความจำเฉลี่ย %1$s ใน 3 ชั่วโมงล่าสุด</string>
     <string name="menu_cancel">ยกเลิก</string>
     <string name="menu_check">ประสบการณ์</string>
@@ -2494,7 +2494,6 @@
     <string name="miui_lab_taplus_desc">แตะค้างที่รายการใดเพื่อสร้างทางลัดสู่แอปแนะนำ</string>
     <string name="miui_lab_taplus_title">แตะค้างสร้างทางลัด</string>
     <string name="miui_master_clear_summary">ลบข้อมูลทั้งหมดบนโทรศัพท์</string>
-    <string name="miui_screen_config_title">การตั้งค่าหน้าจอหลัก</string>
     <string name="miui_updater">อัพเดทระบบ</string>
     <string name="mms_breathing_light_color_title">สีของไฟสถานะเมื่อมีข้อความใหม่</string>
     <string name="mms_breathing_light_freq_title">ความถี่การกระพริบข้อความ</string>
@@ -2664,8 +2663,8 @@
     <string name="nfc_more_title">เพิ่มเติม...</string>
     <string name="nfc_payment_default">แอปชำระเงินเริ่มต้น</string>
     <string name="nfc_payment_default_not_set">ไม่ได้ตั้งค่า</string>
-    <string name="nfc_payment_favor_default">ทุกครั้ง</string>
-    <string name="nfc_payment_favor_open">ยกเว้นเมื่อแอปการชำระเงินอื่นเปิดอยู่</string>
+    <string name="nfc_payment_favor_default">ใช้แอปเริ่มต้นเสมอ</string>
+    <string name="nfc_payment_favor_open">แทนที่แอปค่าเริ่มต้นเมื่อแอปชำระเงินอื่นๆเปิดอยู่</string>
     <string name="nfc_payment_how_it_works">วิธีการทำงาน</string>
     <string name="nfc_payment_no_apps">ชำระเงินโดยใช้โทรศัพท์ของคุณในร้านค้า</string>
     <string name="nfc_payment_pay_with">ที่เครื่องแตะและจ่าย ให้ชำระเงินด้วย:</string>
@@ -2839,11 +2838,6 @@
     <string name="open_demo_mode_warning_message">เมื่อเปิดใช้โหมดสาธิต นาฬิกาในแถบสถานะจะหยุด ไอคอนแบตเตอรี่และสัญญาณจะแสดงเป็นแบบเต็ม คุณสามารถปิดโหมดสาธิตหรือรีบูตเครื่องเพื่อเปลี่ยนได้</string>
     <string name="open_miui_optimization_title">เปิดใช้การเพิ่มประสิทธิภาพ MIUI</string>
     <string name="open_miui_optimization_warning_message">อุปกรณ์ของคุณจะรีบูตเพื่อนำการเปลี่ยนแปลงนี้ไปใช้</string>
-    <string name="open_personal_assistant_dialog_btn_cancel">ยกเลิก</string>
-    <string name="open_personal_assistant_dialog_btn_confirm">ปิดใช้งาน</string>
-    <string name="open_personal_assistant_dialog_desc">คุณไม่สามารถใช้แอป vault และรับการอัพเดต ปิดใช้งานทันที?</string>
-    <string name="open_personal_assistant_dialog_title">ปิดใช้แอป vault</string>
-    <string name="open_personal_assistant_title">เปิดใช้แอป vault</string>
     <string name="open_wifi_connect_summary">แตะเพื่อดูรายละเอียด</string>
     <string name="open_wifi_connect_title">เชื่อมต่อไปยัง %1$s</string>
     <string name="opening_paragraph_delete_profile_unknown_company">โปรไฟล์งานนี้ได้รับการจัดการโดย:</string>
@@ -2861,6 +2855,7 @@
     <string name="overlay_display_devices_title">จำลองจอแสดงผลที่สอง</string>
     <string name="overlay_settings">แสดงทับแอปอื่นๆ</string>
     <string name="owner_info_settings_edit_text_hint">เช่น Android ของสมชาย</string>
+    <string name="owner_info_settings_status">%1$d/%2$d</string>
     <string name="owner_info_settings_summary">ไม่มี</string>
     <string name="owner_info_settings_title">ลายเซ็นต์หน้าจอล็อก</string>
     <string name="owner_space">พื้นที่ปกติ</string>
@@ -3141,6 +3136,7 @@
     <string name="private_sms_recording_intro_header">วาดรูปแบบเพื่อปลดล็อก:</string>
     <string name="private_sms_reset_by_account">เข้าระบบบัญชี Mi ของคุณเพื่อรีเซ็ตรหัสผ่าน</string>
     <string name="process_dex2oat_label">การเพิ่มประสิทธิภาพแอป</string>
+    <string name="process_kernel_label">ระบบปฏิบัติการของ Android</string>
     <string name="process_provider_in_use_description">ตัวให้บริการ %1$s ถูกใช้งานอยู่</string>
     <string name="process_service_in_use_description">บริการ %1$s ถูกใช้งานอยู่</string>
     <string name="process_stats_bg_ram_use">การใช้ RAM (พื้นหลัง)</string>
@@ -3261,7 +3257,6 @@
     <string name="receiver_clean">ล้างขยะ</string>
     <string name="recent_location_requests_summary">แสดงการร้องขอของแอปที่ต้องเข้าถึงตำแหน่งพิกัดของคุณ</string>
     <string name="recent_location_requests_title">เข้าถึงตำแหน่งพิกัด</string>
-    <string name="recents_config_title">ล่าสุด</string>
     <string name="recommend_item_1">เคสโทรศัพท์</string>
     <string name="recommend_item_2">Mi แบนด์</string>
     <string name="recommend_item_3">พาวเวอร์แบงค์</string>
@@ -3386,7 +3381,6 @@
     <string name="screen">หน้าจอ</string>
     <string name="screen_button">ปุ่มหน้าจอ</string>
     <string name="screen_button_tips">ปัดลงเพื่อซ่อนปุ่มหน้าจอ</string>
-    <string name="screen_cells_config_title">รูปแบบหน้าจอหลัก</string>
     <string name="screen_color_and_optimize">สีและความเปรียบต่าง</string>
     <string name="screen_color_and_optimize_disabled">ไม่สามารถปรับอุณหภูมิสีในโหมดการอ่านได้</string>
     <string name="screen_color_temperature">สี</string>
@@ -3894,7 +3888,6 @@
     <string name="show_ime">แสดงแป้นพิมพ์เสมือน</string>
     <string name="show_ime_summary">เปิดทิ้งไว้บนหน้าจอในระหว่างใช้งานแป้นพิมพ์จริง</string>
     <string name="show_magnifier_when_input">แว่นขยายข้อความ</string>
-    <string name="show_mem_info_title">แสดงสถานะหน่วยความจำ</string>
     <string name="show_menu">แสดงเมนู</string>
     <string name="show_non_rect_clip">แก้ไขการทำงานของคลิปที่ไม่ใช่สี่เหลี่ยม</string>
     <string name="show_notification_channel_warnings">แสดงคำเตือนจากช่องทางการแจ้งเตือน</string>
@@ -4400,7 +4393,6 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="title_font_current2">รูปแบบอักษรของระบบ</string>
     <string name="title_font_size">ขนาดอักษร</string>
     <string name="title_hdmi_color_calibration">การแก้ไขสีที่ตั้งไว้</string>
-    <string name="title_jeejen">Jeejen หน้าจอหลัก</string>
     <string name="title_layout_current">ขนาดอักษร</string>
     <string name="title_layout_current2">ขนาดอักษร</string>
     <string name="toast_lockscreen_glogin_empty_password">ป้อนรหัสผ่าน</string>
@@ -4588,7 +4580,7 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="untitled_apn">ไม่มีชื่อ</string>
     <string name="update_new_version">พบอัพเดทใหม่</string>
     <string name="update_progress_for_updates">กำลังอัพเดท (%s)</string>
-    <string name="upload_debug_log_summary">ข้อมูลการวินิจฉัยอาจรวมถึงข้อมูลเกี่ยวกับการใช้ฮาร์ดแวร์ ระบบปฏิบัติการและแอปของคุณ ข้อมูลจะถูกใช้ในการวิเคราะห์และระบุปัญหาในระบบ โดยจะไม่ถูกนำมาใช้เพื่อเปิดเผยตัวตนของคุณ</string>
+    <string name="upload_debug_log_summary">สถิติการใช้งานที่ช่วยให้เราค้นหาและแก้ไขปัญหา อาจมีข้อมูลส่วนบุคคลของคุณ</string>
     <string name="upload_debug_log_title">ส่งข้อมูลการวินิจฉัยโดยอัตโนมัติ</string>
     <string name="usage">การใช้งาน</string>
     <string name="usage_access">การเข้าถึงการใช้งาน</string>
@@ -4738,7 +4730,7 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="user_exit_guest_dialog_remove">นำออก</string>
     <string name="user_exit_guest_title">นำผู้เข้าร่วมออก</string>
     <string name="user_experience_program">โปรแกรมประสบการณ์ผู้ใช้</string>
-    <string name="user_experience_program_summary">ช่วยปรับปรุง MIUI ให้ดีขึ้นโดยอนุญาตให้ส่งข้อมูลการใช้ที่ไม่ระบุชื่อ</string>
+    <string name="user_experience_program_summary">ช่วยพัฒนาสินค้าและบริการของเรา​ด้วยการแชร์สถิติการใช้ของคุณกับเรา</string>
     <string name="user_experience_program_title">โปรแกรมประสบการณ์ผู้ใช้</string>
     <string name="user_guest">ผู้เข้าร่วม</string>
     <string name="user_image_choose_photo">เลือกรูปภาพจากแกลเลอรี</string>
@@ -5466,9 +5458,5 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="zone_auto_summaryOn">ใช้เขตเวลาที่ระบุโดยเครือข่าย</string>
     <string name="zone_list_menu_sort_alphabetically">เรียงตามลำดับอักษร</string>
     <string name="zone_list_menu_sort_by_timezone">จัดเรียงตามเขตเวลา</string>
-    <string name="lock_screen_secure_after_timeout_immediately_never">ไม่ต้องใช้รหัสผ่าน</string>
-    <string name="lock_screen_secure_after_timeout_immediately_summary">ต้องการรหัสผ่านทันที</string>
-    <string name="lock_screen_secure_after_timeout_summary">จำเป็นต้องใส่รหัสผ่าน: %1$s</string>
-    <string name="lock_screen_secure_after_timeout_title">ต้องใส่รหัสผ่าน</string>
     <string name="master_clear_summary">ระบบจะรีเซ็ตพื้นที่เก็บข้อมูลภายในและข้อมูลทั้งหมด</string>
 </resources>
