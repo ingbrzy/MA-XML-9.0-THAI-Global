@@ -351,7 +351,6 @@
     <string name="choose_report_reason">ทำไมคุณถึงรายงานคลิปวิดีโอนี้?</string>
     <string name="input_memo_hint">ป้อนเหตุผลเพิ่มเติม (ระบุหรือไม่ก็ได้)</string>
     <string name="network_dialog_checkbox_tip">ไม่ต้องแสดงอีก</string>
-    <string name="video_tag">\# %s #</string>
     <string name="remote_video_report_success">ขอบคุณสำหรับข้อเสนอแนะของคุณ! พวกเราจะเร่งดำเนินการโดยเร็วที่สุด</string>
     <string name="video_status_review">อยู่ระหว่างตรวจสอบ</string>
     <string name="video_status_reject">ถูกปฏิเสธ</string>
@@ -436,7 +435,6 @@
     <string name="video_publish_hint">การอธิบายที่ดีช่วยให้ผู้อื่นหาวิดีโอของคุณเจอได้ง่ายมากขึ้น</string>
     <string name="video_publish_hint2">คำอธิบาย</string>
     <string name="video_comment_limit">เขียนได้อีก %1$s คำ</string>
-    <string name="video_tag_search_lead">\#</string>
     <string name="video_data_consumption_dialog_title">การแจ้งเตือนข้อมูลมือถือ</string>
     <string name="video_data_consumption_dialog_message">การอัพโหลดจะใช้ข้อมูลมือถือ %1$s</string>
     <string name="video_data_consumption_confirm">ตกลง</string>
@@ -566,7 +564,6 @@
     <string name="message_praise_comment">" ถูกใจความคิดเห็นนี้"</string>
     <string name="get_user_info_err">ไม่สามารถขอรับข้อมูลของบุคคลดังกล่าวได้</string>
     <string name="choose_report_comment_reason">ทำไมคุณถึงรายงานเกี่ยวกับความคิดเห็นนี้?</string>
-    <string name="add_one">+1</string>
     <string name="no_comment">ไม่มีความคิดเห็น</string>
     <string name="no_topic">ไม่พบหัวข้อ</string>
     <string name="no_message">ไม่พบข้อความ</string>
