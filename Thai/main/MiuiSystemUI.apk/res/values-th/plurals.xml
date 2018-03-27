@@ -20,7 +20,7 @@
         <item quantity="other">ซ่อนการแจ้งเตือนจาก %1$s&amp;%2$d แล้ว</item>
     </plurals>
     <plurals name="view_realtime_clear">
-        <item quantity="other">Clear</item>
+        <item quantity="other">ล้าง</item>
     </plurals>
     <plurals name="accessibility_desc_weather_temperature">
         <item quantity="other">สภาพอากาศ %d องศา</item>

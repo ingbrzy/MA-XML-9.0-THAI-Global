@@ -79,4 +79,11 @@
     <string name="base_info">ข้อมูลพื้นฐาน</string>
     <string name="search_input_txt_na">"&lt;font color='#ff0000'>%s&lt;/font>"</string>
     <string name="search_result_text">ไม่พบแอปไดๆ</string>
+    <string name="power_consume_abnormal_night">In night power consume abnormal</string>
+    <string name="enable_sleep_mode">Enabling sleep mode to optimize night standby</string>
+    <string name="sleepmode_privacy_title">Sleep mode</string>
+    <string name="sleepmode_privacy_content">This feature will use your phone system and device information data, which will not be uploaded to the server</string>
+    <string name="sleepmode_privacy_link">Detailed security and privacy</string>
+    <string name="sleepmode_disclaimer_cancel">Cancle</string>
+    <string name="sleepmode_disclaimer_agree">Agree</string>
 </resources>

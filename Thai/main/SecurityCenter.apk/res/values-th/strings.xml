@@ -176,7 +176,7 @@
     <string name="report_success">รายงานข้อความแล้ว</string>
     <string name="report_error">ไม่สามารถรายงานข้อความได้</string>
     <string name="report_warning">รายงาน %1$s ข้อความนี้ไปยัง Mi? ข้อความและหมายเลขโทรศัพท์เหล่านี้จะถูกส่งไปที่เซิร์ฟเวอร์ของ Mi เพื่อตรวจสอบ ข้อมูลส่วนตัวใดๆของคุณที่เกี่ยวข้องกับข้อความเหล่านั้นจะถูกเก็บไว้เป็นความลับ</string>
-    <string name="report_warning_title">รายงานข้อความ SMS</string>
+    <string name="report_warning_title">Attention</string>
     <string name="st_sub_title_customize_mode_name">ชื่อ</string>
     <string name="read_all_sms">อ่านทั้งหมด</string>
     <string name="loding">กำลังโหลดข้อมูล</string>
@@ -423,6 +423,7 @@
     <string name="detail_app_button">ข้อมูลแอป</string>
     <string name="pref_about_traffic_title">การตั้งค่าการใช้ข้อมูล</string>
     <string name="pref_traffic_manage_title">การใช้ข้อมูล</string>
+    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_package_traffic_settings">แพ็คเกจข้อมูล</string>
     <string name="pref_adjust_traffic_data">ตั้งการใช้ข้อมูล</string>
     <string name="pref_category_title_other">การตั้งค่าเพิ่มเติม</string>
@@ -942,6 +943,7 @@
     <string name="om_formatted_percent_string">%s%%</string>
     <string name="om_cpu_usage_warn_title_text">"แอปนี้อาจทำให้อุปกรณ์ของคุณ
 ช้าลง"</string>
+    <string name="om_memory_clean_memory_info_text">%1$s / %2$s</string>
     <string name="om_ill_proc_handle_unstaill_title">ถอนการติดตั้ง %s?</string>
     <string name="om_ill_proc_handle_uninstall_prompt">ถอนการติดตั้งแอปนี้เพื่อแก้ไขปัญหาการใช้แบตเตอรี่</string>
     <string name="om_ill_proc_type_wakelock_title">แอปบล็อกโหมดสลีปทำให้แบตเตอรี่หมดเร็ว</string>
@@ -1000,6 +1002,7 @@
     <string name="usage_type_data_send">ปริมาณข้อมูลขาออก</string>
     <string name="usage_type_no_coverage">ระยะเวลาที่อับสัญญาณ</string>
     <string name="usage_type_gps">GPS</string>
+    <string name="process_kernel_label">แอนดรอยด์</string>
     <string name="process_mediaserver_label">เซิร์ฟเวอร์สื่อมีเดีย</string>
     <string name="power_screen">หน้าจอ</string>
     <string name="power_wifi">Wi-Fi</string>
@@ -1345,6 +1348,7 @@
     <string name="menu_text_networkassistants">การใช้ข้อมูล</string>
     <string name="menu_text_networkassistants_remain">คงเหลือ %s</string>
     <string name="menu_text_networkassistants_danger">ใช้เกินไป %s</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_unit_gb">GB</string>
     <string name="menu_text_networkassistants_unit_mb">MB</string>
     <string name="menu_text_networkassistants_unit_kb">KB</string>
@@ -1705,6 +1709,7 @@
     <string name="card_main_deepclean_wechat_action">ล้าง</string>
     <string name="card_main_sectool_title">เครื่องมือ</string>
     <string name="card_main_monthreport_action">เรียกดู</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">ทดสอบเครือข่าย</string>
     <string name="card_main_netcheck_summary">ทดสอบการเชื่อมต่อสำหรับปัญหาเครือข่าย</string>
     <string name="card_main_netcheck_action">ทดสอบ</string>
@@ -2111,8 +2116,8 @@
     <string name="open_game">เปิด</string>
     <string name="try_game">ลอง</string>
     <string name="more_game">เกมส์เพิ่มเติม</string>
-    <string name="sys_title_gamebooster_unit_gb">G</string>
-    <string name="sys_title_gamebooster_unit_mb">M</string>
+    <string name="sys_title_gamebooster_unit_gb">GB</string>
+    <string name="sys_title_gamebooster_unit_mb">MB</string>
     <string name="gmscore_support_service">Google Services</string>
     <string name="gmscore_support_remind">เปิดใช้งานคุณลักษณะนี้หากคุณพบปัญหาในการใช้ Gmail, Google Maps และแอป Google อื่นๆ การดำเนินการนี้อาจจะใช้งานแบตเตอรี่เพิ่มขึ้น</string>
     <string name="google_base_app_install_choice">\"%s\" จำเป็นต้องใช้ Google Service Framework เพื่อให้ทำงานได้ตามปกติ ดาวน์โหลดและติดตั้งหรือไม่?</string>
@@ -2200,9 +2205,9 @@
     <string name="gs_sign_notification">เตือนความจำเพื่อเช็คอิน 8 PM ทุกวัน</string>
     <string name="gb_sign_gift">เช็คอินเพื่อรับรางวัล</string>
     <string name="signed_rule">กฎ</string>
-    <string name="signed_rule_one">1. ตรวจสอบวันที่ 10, 20 หรือ 28 วันเป็นรายเดือนเพื่อให้ได้รับ Xunyou บูสต์ เป็นเวลา 1, 2 หรือ 3 วันตามลำดับ</string>
-    <string name="signed_rule_two">2. คุณจะได้รับ Xunyou บูสต์เพียงหนึ่งครั้งต่อเดือนเท่านั้น</string>
-    <string name="signed_rule_three">3. วันเช็คอินจะถูกยกเลิกทุกๆต้นเดือน ไม่เหลือวันที่เหลือแล้ว</string>
+    <string name="signed_rule_one">1. Check in 10, 20, or 28 days in a row every month to get a Xunyou boost for 1, 2, or 3 days respectively.</string>
+    <string name="signed_rule_two">2. You can get only 1 Xunyou boost per month.</string>
+    <string name="signed_rule_three">"3. Days when you check in are annulled at the beginning of every month. The remaining days aren't rolled over."</string>
     <string name="gb_get_gift_right_now">เช็คอินทันที</string>
     <string name="gb_have_signed">วันนี้เช็คอินแล้ว</string>
     <string name="gb_sign_gift_button_text">รับ</string>

@@ -5,12 +5,14 @@
     <string name="wifi_security_short_wpa">WPA</string>
     <string name="wifi_security_short_wpa2">WPA2</string>
     <string name="wifi_security_short_wpa_wpa2">WPA/WPA2</string>
+    <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
     <string name="wifi_security_short_eap">802.1x</string>
     <string name="wifi_security_none">ไม่มี</string>
     <string name="wifi_security_wep">WEP</string>
     <string name="wifi_security_wpa">WPA PSK</string>
     <string name="wifi_security_wpa2">WPA2 PSK</string>
     <string name="wifi_security_wpa_wpa2">WPA/WPA2 PSK</string>
+    <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
     <string name="wifi_security_eap">802.1x EAP</string>
     <string name="wifi_security_passpoint">Passpoint</string>
     <string name="wifi_security_short_WAPI_PSK">WAPI PSK</string>
@@ -86,6 +88,7 @@
     <string name="accessibility_wifi_two_bars">สัญญาณ WiFi สองขีด</string>
     <string name="accessibility_wifi_three_bars">สัญญาณ WiFi สามขีด</string>
     <string name="accessibility_wifi_signal_full">สัญญาณ WiFi เต็ม</string>
+    <string name="process_kernel_label">ระบบแอนดรอยด์</string>
     <string name="data_usage_uninstalled_apps">แอปที่ถูกลบ</string>
     <string name="data_usage_uninstalled_apps_users">แอปและผู้ใช้ที่ถูกลบ</string>
     <string name="tether_settings_title_usb">แชร์เครือข่ายผ่าน USB</string>
@@ -637,7 +640,7 @@ d MMMM"</string>
     <string name="settings_toggle_position_reset">คืนค่าปุ่มเปิด-ปิด</string>
     <string name="list_delimeter">", "</string>
     <string name="camera_key_action_setting_title">ปุ่ม Mi</string>
-    <string name="camera_key_action_category_title">"Use if the Camera app isn't open"</string>
+    <string name="camera_key_action_category_title">ใช้หากแอปกล้องไม่เปิดอยู่</string>
     <string name="camera_key_action_none_title">ไม่มีการกระทำ</string>
     <string name="camera_key_action_shortcut_title">ปุ่มลัด</string>
     <string name="camera_key_action_toggle_title">เปิดใช้ปุ่มเปิด-ปิด</string>
@@ -681,6 +684,7 @@ d MMMM"</string>
     <string name="ext_media_mountable_notification_title">เชื่อมต่ออุปกรณ์ USB แล้ว</string>
     <string name="ext_media_mountable_notification_message">แตะเพื่อเปิดในตัวจัดการไฟล์</string>
     <string name="ext_media_safe_remove">ถอดออกได้อย่างปลอดภัย</string>
+    <string name="network_speed_suffix">%1$s%2$s</string>
     <string name="kilobyte_per_second">K/s</string>
     <string name="megabyte_per_second">M/s</string>
     <string name="status_bar_network_flow_today">วันนี้: %1$s</string>
@@ -732,6 +736,9 @@ d MMMM"</string>
     <string name="notification_low_battery_open_save_mode">เปิดใช้งานตัวประหยัดแบตเตอรี่</string>
     <string name="notification_low_battery_action_btn">เปิดใช้งาน</string>
     <string name="notification_low_battery_need_charge">แบตเตอรี่ต่ำ กรุณาชาร์จอุปกรณ์ของคุณ</string>
+    <string name="low_temperature_warning_title">Low temperature warning</string>
+    <string name="low_temperature_warning_message">The temperature is too low. Your phone may shut down anytime now. Make sure you save all the important changes.</string>
+    <string name="low_temperature_button_ok">รับทราบ</string>
     <string name="oldman_airplane_mode_text">เครื่องบิน</string>
     <string name="oldman_incall_text">ย้อนกลับไปยังการโทร</string>
     <string name="demo_mode">โหมดแสดงตัวอย่าง</string>
@@ -759,6 +766,7 @@ d MMMM"</string>
     <string name="notification_header_title">การแจ้งเตือน</string>
     <string name="weather_publish_time">อัพเดทล่าสุด %1$s</string>
     <string name="no_weather_description">ขอรับข้อมูลสภาพอากาศ ></string>
+    <string name="weather_description_no_aqi">%1$s</string>
     <string name="accessibility_desc_notification_shade">แถบการแจ้งเตือน</string>
     <string name="accessibility_desc_quick_settings">การตั้งค่าด่วน</string>
     <string name="accessibility_desc_details_page">%1$s หน้ารายละเอียด</string>
@@ -804,7 +812,7 @@ d MMMM"</string>
     <string name="accessibility_brightness_slider">แถบเลื่อนความสว่าง</string>
     <string name="click_to_return_multi_window">แตะเพื่อย้อนไปหน้าแบ่งจอ</string>
     <string name="recent_dock_tip">แตะเพื่อเลือกแอป</string>
-    <string name="recent_cannot_dock">"Can't use Split screen in Second Space"</string>
+    <string name="recent_cannot_dock">ไม่สามารถใช้หน้าจอแยกในพื้นที่ทับซ้อนได้</string>
     <string name="dock_keyguard_locked_failed_to_dock_text">ไม่สามารถแบ่งหน้าจอขณะล็อกหน้าจออยู่</string>
     <string name="un_important_notifications">การแจ้งเตือนที่ไม่สำคัญ</string>
     <string name="as_important">สำคัญ</string>

@@ -65,7 +65,7 @@
     <string name="input_password_after_boot_msg">เพื่อปลดล็อกอุปกรณ์ กรุณาป้อนรหัสผ่าน</string>
     <string name="input_password_after_boot_msg_must_enter_owner_space">คุณจำเป็นต้องเข้าสู่พื้นที่ปกติก่อนที่อุปกรณ์จะทำการรีบูต</string>
     <string name="input_password_after_boot_msg_can_not_switch_when_calling">ไม่สามารถสลับระหว่างพื้นที่ขณะโทรได้</string>
-    <string name="input_password_after_boot_msg_can_not_switch_when_greenkid_active">"Can't switch between spaces when green guard active"</string>
+    <string name="input_password_after_boot_msg_can_not_switch_when_greenkid_active">"Can't switch between spaces when parental controls are on"</string>
     <string name="input_password_handle_sdcard_fs">ไม่สามารถเข้าพื้นที่ทับซ้อนจากหน้าจอล็อกได้ กรุณาเข้าจากพื้นที่ปกติ</string>
     <string name="accessibility_enter_lock_wallpaper">แตะเพื่อเปิดภาพพื้นหลังรวม</string>
     <string name="wallpaper_global_des_drop_down_notify_text">ปล่อยเพื่อดูรายละเอียด</string>
@@ -149,5 +149,6 @@
     <string name="do_disclosure_with_name">อุปกรณ์นี้มีการจัดการโดย %s</string>
     <string name="face_unlock_reenter_title">บันทึกข้อมูลใบหน้าของคุณอีกครั้ง</string>
     <string name="face_unlock_reenter_content">กำลังอัปเดตอัลกอริทึมการปลดล็อกใบหน้า แตะเพื่อบันทึกข้อมูลใบหน้าอีกครั้ง</string>
+    <string name="digital_clock_dot">:</string>
     <string name="keyguard_left_view_lock_wallpaper">ภาพพื้นหลังรายวัน</string>
 </resources>

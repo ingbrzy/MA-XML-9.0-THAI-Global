@@ -358,6 +358,13 @@
     <string name="sdcradfs_dialog_in_sec_message">"ในการอัพเดตคุณควรลบพื้นที่ทับซ้อนของคุณแล้วสร้างใหม่อีกครั้ง ย้ายข้อมูลจากพื้นที่ทับซ้อนก่อน และรีบูตอุปกรณ์เพื่อทำการอัปเดตให้เสร็จสมบูรณ์
 หากคุณไม่อัปเดตแอปโคลนอาจทำงานไม่ปกติเช่นกัน"</string>
     <string name="space_created_success">สร้างพื้นที่ทับซ้อนเรียบร้อย</string>
+    <string name="encrypt_space_delete_dialog_title">Attention</string>
+    <string name="encrypt_space_delete_dialog_message">"You're about to update Android. After the update, Second space data will become incompatible. To avoid this, move all data to First space, delete Second space, and create it again."</string>
+    <string name="encrypt_space_delete_dialog_click_message">"*If you don't need to move data, %s"</string>
+    <string name="encrypt_space_delete_dialog_click_message_action">delete and create Second space now.</string>
+    <string name="encrypt_space_delete_dialog_positive_text">Move data</string>
+    <string name="encrypt_space_delete_notification_title">Second space</string>
+    <string name="encrypt_space_delete_notification_message">Delete your Second space and create a new one to update your device successfully.</string>
     <string name="space_create_guide_title_1">ป้องกันความเป็นส่วนตัวของคุณ</string>
     <string name="space_create_guide_desc_1">จัดเก็บแอปและรูปภาพอย่างปลอดภัย</string>
     <string name="space_create_guide_title_2">สร้างได้ตลอดเวลา</string>
@@ -368,15 +375,14 @@
     <string name="second_space_desktop_tips_dialog_title">อัพเดทที่สำคัญ</string>
     <string name="second_space_desktop_tips_dialog_positive_text">รับทราบ</string>
     <string name="second_space_desktop_tips_dialog_message">หลังจากอัพเดตนี้ไอคอนสำหรับการย้ายข้อมูลและการจัดการพื้นที่ที่สองจะไม่ปรากฏบนหน้าจอหลักอีกต่อไป คุณจะสามารถเข้าถึงคุณลักษณะที่เกี่ยวข้องได้ในการตั้งค่า</string>
-    <string name="green_guard">蜂巢</string>
-    <string name="bind_device">绑定设备</string>
-    <string name="green_guard_des1">一键绑定设备，操作简单快捷</string>
-    <string name="green_guard_title2">查看定位</string>
-    <string name="green_guard_des2">实时定位查询，守护外出安全</string>
-    <string name="green_guard_title3">管理应用</string>
-    <string name="green_guard_des3">管理设备应用，控制使用时间</string>
-    <string name="experience_more_features">绑定设备后可体验更多功能</string>
-    <string name="add_spare_text">守护中</string>
-    <string name="control_and_guarding">管控守护中</string>
-    <string name="can_not_switch_when_green_kid_active">家长守护中禁止切换分身</string>
+    <string name="green_guard">การควบคุมโดยผู้ปกครอง</string>
+    <string name="bind_device">เพิ่มอุปกรณ์</string>
+    <string name="green_guard_des1">เพิ่มอุปกรณ์เพื่อจัดการอุปกรณ์เหล่านั้นจากระยะไกล</string>
+    <string name="green_guard_title2">เรียกดูข้อมูลตำแหน่งพิกัด</string>
+    <string name="green_guard_des2">ทราบว่าอุปกรณ์ที่มีการจัดการทั้งหมดอยู่ที่ใด</string>
+    <string name="green_guard_title3">จัดการแอป</string>
+    <string name="green_guard_des3">ควบคุมแอปที่ติดตั้งไว้และจำกัดการใช้งาน</string>
+    <string name="experience_more_features">เพิ่มอุปกรณ์เพื่อดูคุณลักษณะทั้งหมด</string>
+    <string name="can_not_switch_when_green_kid_active">การสลับไปยังพื้นที่ทับซ้อนถูกจำกัด โดยการควบคุมโดยผู้ปกครอง</string>
+    <string name="need_network_when_bind">เชื่อมต่อกับเครือข่ายก่อนเพิ่มอุปกรณ์</string>
 </resources>
