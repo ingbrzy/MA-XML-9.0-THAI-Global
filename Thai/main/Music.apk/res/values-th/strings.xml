@@ -25,11 +25,12 @@
     <string name="s5">สร้างกิจกรรมในปฏิทิน</string>
     <string name="s6">อนุญาตให้โฆษณาสร้างกิจกรรมในปฏิทินไหม</string>
     <string name="s7">โฆษณาทดสอบ</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="account_and_cloud">บัญชี</string>
-    <string name="action_item_add">เพิ่ม</string>
+    <string name="action_item_add">เพิ่มไปยัง</string>
     <string name="action_item_add_song">เพิ่มในรายการเพลง</string>
-    <string name="action_item_add_to_current_playlist">รายการที่เล่นปัจจุบัน</string>
-    <string name="action_item_add_to_favorite_playlist">รายการเพลงโปรด</string>
+    <string name="action_item_add_to_current_playlist">คิว</string>
+    <string name="action_item_add_to_favorite_playlist">รายการโปรด</string>
     <string name="action_item_add_to_new_playlist">สร้างใหม่</string>
     <string name="action_item_delete">ลบ</string>
     <string name="action_item_download">ดาวน์โหลด</string>
@@ -38,14 +39,15 @@
     <string name="action_item_hide">ซ่อน</string>
     <string name="action_item_hifi">หูฟังและเสียงเอฟเฟกต์</string>
     <string name="action_item_play_all">ฟังทั้งหมด</string>
+    <string name="action_item_play_next">เล่นในภายหลัง</string>
     <string name="action_item_remove">เอาออก</string>
     <string name="action_item_remove_from_favorite">เลิกชื่นชอบ</string>
     <string name="action_item_share">แชร์</string>
     <string name="action_settings">การตั้งค่า</string>
     <string name="ad_close">ปิด</string>
     <string name="ad_data_exception">ข้อมูลโฆษณาผิดพลาด</string>
-    <string name="ad_recommend">ข้อเสนอแนะ</string>
-    <string name="ad_setting">การตั้งค่าโฆษณา</string>
+    <string name="ad_recommend">รับข้อเสนอแนะ</string>
+    <string name="ad_setting">การตั้งค่าเพิ่มเติม</string>
     <string name="add_music">เพิ่มเพลง</string>
     <string name="add_to_last_of_playlist">เพิ่มไว้ท้ายสุดของรายการเพลง</string>
     <string name="add_to_playlist_successful">เพิ่มเรียบร้อย</string>
@@ -53,6 +55,8 @@
     <string name="alaka_required">คุณต้องจ่ายเงินเพื่อฟังเพลงนี้</string>
     <string name="album_label">ปกอัลบั้ม</string>
     <string name="album_name">อัลบั้ม</string>
+    <string name="all_album_count">อัลบั้มทั้งหมด (%d)</string>
+    <string name="all_playlist_count">รายการเพลงทั้งหมด (%d)</string>
     <string name="all_tracks">เพลงทั้งหมด</string>
     <string name="already_download">กำลังดาวน์โหลด…</string>
     <string name="already_download_btn">กำลังดาวน์โหลด…</string>
@@ -86,7 +90,6 @@
     <string name="audio_recognition_setting_title">พบปกอัลบั้มและเนื้อเพลง</string>
     <string name="auto_payment">ต่ออายุโดยอัตโนมัติ</string>
     <string name="auto_payment_date">ชำระเงินครั้งหน้า: %s</string>
-    <string name="auto_upgrade">อัพเดตอัตโนมัติ</string>
     <string name="available_playlist_name_format">รายการเพลงใหม่ %d</string>
     <string name="avoid_to_use_traffic_summary">ห้ามใช้เครือข่ายมือถือในการเรียกฟังเพลง</string>
     <string name="avoid_to_use_traffic_title">สอบถามก่อนเมื่อใช้งานข้อมูลมือถือเพื่อเล่นเพลง</string>
@@ -133,6 +136,7 @@
     <string name="continue_backup">ดำเนินต่อ</string>
     <string name="cp_info_first">"บริการสตรีมเพลงออนไลน์
 ให้บริการโดย Ultimate Inc."</string>
+    <string name="cp_info_second">service1@ultimobi.com</string>
     <string name="create_order_fail">สร้างรายการสั่งซื้อไม่ได้ ลองอีกครั้ง</string>
     <string name="create_playlist">สร้างรายการเพลง</string>
     <string name="create_playlist_failure">สร้างรายการเพลงไม่ได้</string>
@@ -172,8 +176,6 @@
     <string name="dialog_insufficient_space_on_external">พื้นที่จัดเก็บแบบภายนอกไม่เพียงพอ</string>
     <string name="dialog_media_not_found">ไม่สามารถดาวน์โหลดได้ SD การ์ดไม่พร้อมใช้งาน</string>
     <string name="dialog_queued_body">ไฟล์นี้อยู่ในรายการดาวน์โหลดแล้ว</string>
-    <string name="dialog_show_more_backup">สำรองข้อมูลเพลงในเครื่อง</string>
-    <string name="dialog_show_more_optimize_all">เพิ่มประสิทธิภาพข้อมูลเพลง</string>
     <string name="dialog_song_sort_type">เรียงลำดับเพลง</string>
     <string name="dialog_song_sort_type_name">โดยชื่อ</string>
     <string name="dialog_song_sort_type_playing_times">โดยจำนวนครั้งที่เล่น</string>
@@ -183,7 +185,7 @@
     <string name="dialog_song_view_type_artist">โดยศิลปิน</string>
     <string name="dialog_song_view_type_folder">โดยโฟลเดอร์</string>
     <string name="dialog_song_view_type_song">โดยเพลง</string>
-    <string name="dialog_title_clearlist_tracks">ล้างรายการเพลง</string>
+    <string name="dialog_title_clearlist_tracks">ลบออกจากคิว</string>
     <string name="dialog_title_delete_tracks">ลบ</string>
     <string name="dialog_title_name_playlist">ชื่อรายการเพลง</string>
     <string name="dialog_title_not_available">ไม่สามารถดาวน์โหลดได้</string>
@@ -229,6 +231,7 @@
     <string name="download_method">ดาวน์โหลด</string>
     <string name="download_no_application_title">ไม่สามารถเปิดไฟล์ได้</string>
     <string name="download_paused_in_power_save_mode">การดาวน์โหลดจะถูกหยุดขณะอยู่ในโหมดประหยัดแบตเตอรี่</string>
+    <string name="download_percent">%d%%</string>
     <string name="download_processing">กำลังดาวน์โหลด…</string>
     <string name="download_quality">คุณภาพการดาวน์โหลด</string>
     <string name="download_quality_summary">การตั้งค่าเพิ่มเติมสำหรับเพลงที่ดาวน์โหลด</string>
@@ -264,6 +267,7 @@
     <string name="downloading_apk">กำลังดาวน์โหลด…ดูความคืบหน้าในแถบการแจ้งเตือน</string>
     <string name="downloading_empty">ว่างเปล่า</string>
     <string name="downloading_pause_apk">หยุดชั่วคราว ดาวน์โหลดต่อในแถบการแจ้งเตือน</string>
+    <string name="edit_playlist_info">แก้ไขข้อมูลรายการเพลง</string>
     <string name="empty_page_no_album">ไม่มีอัลบั้ม</string>
     <string name="empty_page_no_artist">ไม่มีศิลปิน</string>
     <string name="enable_auto_payment_fail">ไม่สามารถเปิดใช้งานได้</string>
@@ -295,6 +299,7 @@
     <string name="error_title">ไม่สามารถซิงค์กับบัญชี Mi ได้</string>
     <string name="error_unauthorized">การซิงค์ถูกปิดใช้เนื่องจากการล็อกอินไม่ถูกต้องเกินจำนวนครั้งที่ระบบกำหนด</string>
     <string name="expired">หมดอายุ</string>
+    <string name="facebook_not_installed">ติดตั้ง Facebook ก่อน.</string>
     <string name="fail_to_fetch_payment_page_url">ไม่สามารถรับข้อมูลชำระเงินได้</string>
     <string name="fail_to_play">ไม่สามารถเล่นเพลงได้</string>
     <string name="fav_login_msg">ลงชื่อเข้าสู่ระบบบัญชี Mi เพื่อดาวน์โหลดเพลง</string>
@@ -406,6 +411,7 @@
     <string name="local_page_custom_title">สำหรับคุณ</string>
     <string name="local_page_playlist">รายชื่อเพลงของฉัน</string>
     <string name="local_page_song_download_history">ดาวน์โหลด</string>
+    <string name="long_press_to_select_lyric">กด &amp; ค้างเพื่อเลือกไฟล์เพลงในเครื่อง</string>
     <string name="lrc_search_failed">ไม่พบเนื้อเพลง</string>
     <string name="lrc_searching">กำลังค้นหา…</string>
     <string name="lyric_is_empty">ไม่พบเนื้อเพลง</string>
@@ -443,12 +449,13 @@
     <string name="mobile_recommended_title">การใช้ข้อมูลมือถือ</string>
     <string name="modify_info_disable_note">หากต้องการแก้ไขข้อมูลด้วยตนเอง กรุณาปิด\"ค้นหาปกอัลบั้มและเนื้อเพลง\" ก่อน</string>
     <string name="modify_lyric">แก้ไขเนื้อเพลง</string>
+    <string name="modify_pic">แก้ไขหน้าปก</string>
     <string name="modify_progress">เปลี่ยนความเร็วในการเลื่อนเนื้อเพลง</string>
     <string name="modify_progress_helper">ลากขึ้นหรือลงเพื่อแก้ไขความเร็วเนื้อเพลง</string>
     <string name="modify_song_info">แก้ไขข้อมูลเพลง</string>
     <string name="modify_song_info_success">อัพเดทข้อมูลเพลงแล้ว</string>
     <string name="more">เพิ่มเติม</string>
-    <string name="more_add_song_list">เพิ่มไปยังรายการเพลงปัจจุบัน</string>
+    <string name="more_add_song_list">เพิ่มเพลงไปยังคิว</string>
     <string name="more_settings">การตั้งค่าขั้นสูง</string>
     <string name="more_settings_summary">การตั้งค่าดาวน์โหลด, ตั้งเวลาพักหน้าจอ, การจัดการข้อมูลมือถือ, ตัวกรองสำหรับไฟล์ ฯลฯ</string>
     <string name="more_share">แชร์</string>
@@ -477,12 +484,14 @@
     <string name="no_online_song_selected">ยังไม่ได้เลือกเพลง</string>
     <string name="no_results_return">ไม่มีผลลัพธ์การค้นหา</string>
     <string name="no_scanned_songs">ไม่มี</string>
-    <string name="no_song">ไม่มีเพลง</string>
     <string name="no_song_downloaded">ไม่สามารถเชื่อมต่อกับเซิร์ฟเวอร์ได้</string>
+    <string name="no_song_subtitle">ดื่มด่ำไปกับเสียง</string>
+    <string name="no_song_title">Mi เพลง</string>
     <string name="no_system_cropper_find">ระบบไม่มีตัวตัดภาพสำหรับรูปภาพ</string>
     <string name="normal_quality">ดี</string>
     <string name="not_login">ยังไม่ลงชื่อเข้าใช้</string>
     <string name="not_selected">กรุณาเลือกเพลง</string>
+    <string name="nothing_changed_toast">คุณยังไม่ได้เปลี่ยนแปลงอะไรเลย</string>
     <string name="notif_title_file_size">ทั้งหมด %1$d</string>
     <string name="notif_title_multiple_downloading">กำลังดาวน์โหลด %1$d ไฟล์</string>
     <string name="notif_title_single_downloading">กำลังดาวน์โหลด %1$s</string>
@@ -499,12 +508,10 @@
     <string name="nowplaying_circle_style">สไตล์ปุ่มเล่น</string>
     <string name="nowplaying_circle_style_rainbow">รุ้ง</string>
     <string name="nowplaying_circle_style_wave">คลื่น</string>
-    <string name="nowplaying_dialog_title_delete_tracks">ล้างรายการเพลงปัจจุบัน?</string>
-    <string name="nowplaying_menu_item_delete">ล้าง</string>
+    <string name="nowplaying_dialog_title_delete_tracks">ลบเพลงนี้ออกจากคิว?</string>
+    <string name="nowplaying_menu_item_delete">ลบออกจากคิว</string>
     <string name="ok">ตกลง</string>
     <string name="online_list_delete_message">เพลงที่ดาวน์โหลดทั้งหมดในรายการเพลงนี้จะถูกลบออกจากที่จัดเก็บข้อมูลภายใน</string>
-    <string name="online_music_enabled_summary">รับฟังและดาวน์โหลดเพลงโปรดของคุณ เรียกดูเพลงและรายการเพลงติดอันดับได้จากทุกที่ทั่วโลก!</string>
-    <string name="online_music_enabled_title">รับฟังฟรีได้ที่นี่</string>
     <string name="online_recommend">รายการเพลง</string>
     <string name="online_service_open_tip">บริการเพลงออนไลน์เปิดอยู่</string>
     <string name="online_service_title">บริการออนไลน์</string>
@@ -524,6 +531,8 @@
     <string name="paused_waiting_for_network">กำลังรอการเชื่อมต่อ</string>
     <string name="paused_waiting_to_retry">กำลังรอเพื่อลองใหม่</string>
     <string name="pay_now">บริการปัจจุบัน</string>
+    <string name="payment_success_message">ขอบคุณ! การชำระเงินของคุณได้รับการดำเนินการเรียบร้อยแล้ว เพลิดเพลินไปกับบริการ PRO</string>
+    <string name="payment_success_title">ยินดีด้วย!</string>
     <string name="pending_apk">กำลังรอ…</string>
     <string name="permission_declaration_message">อนุญาตการเข้าถึงที่จัดเก็บข้อมูลได้ที่แอป ความปลอดภัย > การอนุญาต > การอนุญาต > ที่จัดเก็บข้อมูล > เพลง เพื่อใช้แอปเพลงตามปกติ</string>
     <string name="permission_declaration_negative_text">ภายหลัง</string>
@@ -533,12 +542,16 @@
     <string name="pick_local_song">เพลงในเครื่อง</string>
     <string name="pick_recent_song">เล่นล่าสุด</string>
     <string name="play_all_song">ฟังทั้งหมด</string>
+    <string name="play_empty_playlist">ไม่สามารถเล่นเพลงได้ รายการเพลงว่างเปล่า</string>
     <string name="play_mode_all_loop">เล่นซ้ำทั้งหมด</string>
     <string name="play_mode_one_loop">ซ้ำเพลงเดียว</string>
     <string name="play_mode_play_all">เล่นทั้งหมด</string>
     <string name="play_mode_shuffle_all">สลับ</string>
     <string name="play_next">เล่นเพลงถัดไป</string>
     <string name="playlist_empty">ไม่พบรายการเพลง</string>
+    <string name="playlist_title">ชื่อรายการเพลง</string>
+    <string name="playlist_title_is_empty">ชื่อรายการเพลงไม่สามารถเว้นว่างได้</string>
+    <string name="playlist_title_is_invalid">มีรายการเพลงนี้อยู่ก่อนแล้ว</string>
     <string name="playlist_type_album">อัลบั้ม</string>
     <string name="playlist_type_artist">ศิลปิน</string>
     <string name="playlist_type_billboard">อันดับเพลง</string>
@@ -552,11 +565,13 @@
     <string name="priority_storage">เก็บไว้ใน SD การ์ดภายนอก</string>
     <string name="priority_storage_summary">ดาวน์โหลดเก็บไว้ใน SD การ์ดภายนอกโดยอัตโนมัติถ้ามี</string>
     <string name="privacy_policy">นโยบายความเป็นส่วนตัว</string>
+    <string name="privacy_policy_url">http://www.miui.com/res/doc/privacy.html?lang=en</string>
     <string name="project_device">Mi Phone</string>
     <string name="prompt_grant_write_settings_permission">อนุญาตให้มีการเปลี่ยนแปลงการตั้งค่าระบบ</string>
     <string name="pulluprefreshrecyclerview_loading_error">ไม่สามารถโหลดได้</string>
     <string name="pulluprefreshrecyclerview_loading_finished">โหลดเรียบร้อยแล้ว</string>
     <string name="pulluprefreshrecyclerview_loading_running">กำลังโหลด…</string>
+    <string name="queue_is_empty">คิวเล่นว่างเปล่า</string>
     <string name="radar">ACRCloud</string>
     <string name="radar_click_to_retry">แตะเพื่อลองอีกครัั้ง</string>
     <string name="radar_fail">ไม่พบผลลัพธ์</string>
@@ -604,22 +619,19 @@
     <string name="search_hint">ค้นหาศิลปิน เพลง อัลบั้มและข้อเสนอแนะ</string>
     <string name="search_history_clear_all">ล้าง</string>
     <string name="search_instant_online_music">ออนไลน์</string>
+    <string name="search_songs_count">เพลง: %d</string>
     <string name="search_title">ค้นหา</string>
     <string name="select_all">เลือกทั้งหมด</string>
     <string name="select_device">เลือกอุปกรณ์</string>
     <string name="select_displayed_folders">เลือกโฟลเดอร์ที่ต้องการแสดง</string>
-    <string name="select_local_album">เลือกอัลบั้ม</string>
-    <string name="select_local_lyric">เลือกเนื้อเพลง</string>
+    <string name="select_local_cover">เลือกหน้าปกในเครื่อง</string>
+    <string name="select_local_lyric_file">เลือกไฟล์เพลงในเครื่อง</string>
     <string name="select_none">ไม่เลือกทั้งหมด</string>
     <string name="selected_count">เลือกไว้ %1$d จากทั้งหมด %2$d</string>
     <string name="send_to_title">ส่งไป (%1$s)</string>
     <string name="server_error">เกิดข้อผิดพลาด รอประมาณ 1-2 นาทีแล้วลองใหม่อีกครั้ง</string>
     <string name="service_and_settings">บริการและการตั้งค่า</string>
     <string name="set_as_ring">ตั้งเป็นเสียงเรียกเข้า</string>
-    <string name="set_id3_failed">ไม่สามารถจัดเก็บข้อมูลได้</string>
-    <string name="set_id3_not_have_read_or_write_permission">คุณไม่ได้รับอนุญาตให้แก้ไขไฟล์นี้</string>
-    <string name="set_id3_not_support_format">แก้ไขรูปแบบไฟล์นี้ไม่ได้</string>
-    <string name="set_id3_successful">บันทึกข้อมูลเพลงแล้ว</string>
     <string name="set_ringtones_failed">ไม่สามารถตั้งเป็นเสียงเรียกเข้า</string>
     <string name="set_ringtones_successful">ตั้ง %s เป็นเสียงเรียกเข้าแล้ว</string>
     <string name="setting_feature_setting">การตั้งค่าคุณลักษณะ</string>
@@ -656,7 +668,7 @@
     <string name="sleep_mode_canceled">โหมดพักหน้าจอปิดใช้งาน</string>
     <string name="sleep_mode_summary">หยุดการเล่นเพลงในเวลาที่กำหนด</string>
     <string name="sleep_mode_title">ตั้งเวลาพักหน้าจอ</string>
-    <string name="song_exist_in_playlist">เพลงนี้มีอยู่ในรายการเพลงแล้ว</string>
+    <string name="song_exist_in_playlist">เพลงนี้มีอยู่ในคิวแล้ว</string>
     <string name="song_info">รายละเอียดเพลง</string>
     <string name="song_is_empty">ไม่สามารถเว้นว่างชื่อเพลงได้</string>
     <string name="song_name">เพลง</string>
@@ -726,6 +738,7 @@
     <string name="upgrade_music">อัพเดทเพลง</string>
     <string name="upgrade_music_message">ไฟล์อัพเดทพร้อมแล้ว รีสตาร์ทเพื่ออัพเดท</string>
     <string name="user_agreement">ข้อตกลงการใช้งาน</string>
+    <string name="user_agreement_url">http://www.miui.com/res/doc/eula.html?lang=en</string>
     <string name="version_info">เวอร์ชั่น</string>
     <string name="vip_after_tomorrow_auto_renew_message">การสมัครรับข้อมูลเพลงของคุณจะได้รับการต่ออายุโดยอัตโนมัติหลังเย็นของวันพรุ่งนี้ ตรวจดูให้แน่ใจว่าคุณมี Mi เครดิตพอในบัญชีของคุณสำหรับการชำระเงินนี้</string>
     <string name="vip_after_tomorrow_renew_message">คุณจะไม่สามารถสตรีมเสียงคุณภาพสูงได้ แต่บางเพลงสามารถฟังได้ในคุณภาพปกติ</string>
@@ -741,4 +754,11 @@
 
 แตะ %s เพื่อเริ่มต้นการดาวน์โหลดนี้ในครั้งต่อไปที่คุณเชื่อมต่อกับเครือข่าย Wi-Fi"</string>
     <string name="wifi_required_title">คุณต้องเชื่อมต่อกับ Wi-Fi เพื่อดาวน์โหลดไฟล์นี้</string>
+    <string name="auto_upgrade">อัพเดตอัตโนมัติ</string>
+    <string name="dialog_show_more_backup">สำรองข้อมูลเพลงในเครื่อง</string>
+    <string name="dialog_show_more_optimize_all">เพิ่มประสิทธิภาพข้อมูลเพลง</string>
+    <string name="set_id3_failed">ไม่สามารถจัดเก็บข้อมูลได้</string>
+    <string name="set_id3_not_have_read_or_write_permission">คุณไม่ได้รับอนุญาตให้แก้ไขไฟล์นี้</string>
+    <string name="set_id3_not_support_format">แก้ไขรูปแบบไฟล์นี้ไม่ได้</string>
+    <string name="set_id3_successful">บันทึกข้อมูลเพลงแล้ว</string>
 </resources>

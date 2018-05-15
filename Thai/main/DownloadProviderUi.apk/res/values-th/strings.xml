@@ -197,6 +197,9 @@
     <string name="toast_only_wifi_download">เชื่อมต่อกับ Wi-Fi เพื่อดาวน์โหลดรายการนี้</string>
     <string name="total_speedup">เพิ่มความเร็ว (ทั้งหมด)</string>
     <string name="version">เวอร์ชั่น %s</string>
-    <string name="app_downloads">%s ดาวน์โหลด</string>
-    <string name="dialog_confirm_delete_downloads_message">ลบงานที่เลือก?</string>
+    <string name="get_data_failed">ไม่สามารถรับข้อมูลได้ รอประมาณ 1-2 นาทีแล้วลองใหม่อีกครั้ง.</string>
+    <string name="load_finish_hint">นั่นคือทั้งหมดตอนนี้</string>
+    <string name="loading">รอสักครู่…</string>
+    <string name="net_error">เชื่อมต่อกับอินเตอร์เน็ตก่อนแล้วลองใหม่อีกครั้ง</string>
+    <string name="rank_app_list">ดาวน์โหลดสูงสุด</string>
 </resources>

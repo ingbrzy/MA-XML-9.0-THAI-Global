@@ -19,7 +19,7 @@
         <item quantity="other">ใน %1$d วัน %2$s</item>
     </plurals>
     <plurals name="Ndays_ago_at">
-        <item quantity="other">%1$d วันที่ผ่านมา %2$s</item>
+        <item quantity="other">%1$d วันก่อน %2$s</item>
     </plurals>
     <plurals name="Nweeks">
         <item quantity="other">%d สัปดาห์ก่อน</item>

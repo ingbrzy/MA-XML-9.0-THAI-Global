@@ -19,7 +19,7 @@
     <string name="debug_dump_email_sender_picker">เลือกโปรแกรมที่จะใช้ส่งไฟล์ของคุณ</string>
     <string name="debug_dump_email_subject">แนบรายชื่อ Db แล้ว</string>
     <string name="debug_dump_email_body">สิ่งที่แนบมานี้คือฐานข้อมูลรายชื่อ รวมถึงรายการติดต่อทั้งหมด กรุณาระมัดระวัง</string>
-    <string name="pound_search_tip">ใส่หมายเลขโทรศัพท์ต่อจาก # เพื่อค้นหารายชื่อ</string>
+    <string name="pound_search_tip">ใส่หมายเลขโทรศัพท์หลังจาก # เพื่อค้นหารายชื่อ</string>
     <string name="create_contact">สร้างรายชื่อ</string>
     <string name="video_call">วิดีโอคอล</string>
     <string name="send_sms">ส่งข้อความ</string>
@@ -30,5 +30,5 @@
     <string name="low_memory_toast">ไม่สามารถดำเนินการต่อได้ เนื่องจากหน่วยความจำเหลือน้อย</string>
     <string name="update_accounts_changed">บัญชีมีการเปลี่ยนแปลง</string>
     <string name="sim_state_changed">เปลี่ยนซิมการ์ดแล้ว</string>
-    <string name="voicemail_cleanup">ทำความสะอาดข้อความเสียง</string>
+    <string name="voicemail_cleanup">ล้างข้อความเสียง</string>
 </resources>

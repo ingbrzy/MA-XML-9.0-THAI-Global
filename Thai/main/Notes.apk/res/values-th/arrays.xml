@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="folder_operations">
-        <item>แก้ไขชื่อ</item>
-        <item>ลบ</item>
-    </string-array>
     <string-array name="attachment_chooser">
         <item>กล้อง</item>
         <item>คลังภาพ</item>
-    </string-array>
-    <string-array name="note_sort_way">
-        <item>ตามวันที่สร้าง</item>
-        <item>ตามวันที่แก้ไข</item>
     </string-array>
     <string-array name="contact_entries">
         <item>ชื่อ</item>
@@ -25,11 +17,19 @@
         <item>ที่อยู่</item>
         <item>บันทึก</item>
     </string-array>
+    <string-array name="folder_operations">
+        <item>แก้ไขชื่อ</item>
+        <item>ลบ</item>
+    </string-array>
     <string-array name="font_size_names">
         <item>เล็ก</item>
         <item>ปานกลาง</item>
         <item>ใหญ่</item>
         <item>ใหญ่มาก</item>
+    </string-array>
+    <string-array name="note_sort_way">
+        <item>ตามวันที่สร้าง</item>
+        <item>ตามวันที่แก้ไข</item>
     </string-array>
     <string-array name="welcome_notes_content">
         <item>"ยินดีต้อนรับเข้าสู่บันทึกย่อ

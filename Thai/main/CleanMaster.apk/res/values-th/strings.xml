@@ -90,6 +90,7 @@
     <string name="hints_apk_header_left">แพ็คเกจ</string>
     <string name="hints_residual_header_left">ไฟล์ตกค้าง</string>
     <string name="hints_memory_header_left">หน่วยความจำ</string>
+    <string name="hints_header_left">%d</string>
     <string name="hints_large_file_header_left">ไฟล์ใหญ่: %d</string>
     <string name="hints_installed_apps_header_left">แอปที่ติดตั้งไว้: %d</string>
     <string name="toast_resolve_apk_error">แก้ไขข้อผิดพลาดไฟล์ APK</string>
@@ -127,8 +128,8 @@
     <string name="msg_update_error_code_no_newer_db">ตัวทำความสะอาดอัพเดทเป็นปัจจุบันแล้ว</string>
     <string name="msg_update_error_code_already_running">กำลังอัพเดท…</string>
     <string name="msg_update_error_code_network_error">ไม่สามารถเชื่อมต่อกับเครือข่ายได้</string>
-    <string name="msg_update_error_code_unknown_error">พบข้อผิดพลาด</string>
-    <string name="msg_cleanup_db_update_time_unknown">ไม่ทราบการอัพเดทล่าสุด</string>
+    <string name="msg_update_error_code_unknown_error">Servers are busy. Wait a minute or two and try again.</string>
+    <string name="msg_cleanup_db_update_time_unknown">Last update: Unknown</string>
     <string name="item_title_process_mode">เลือกการดำเนินการ</string>
     <string name="clean_content_zero">ไม่มี</string>
     <string name="clean_content_one">1 รายการ</string>
@@ -265,12 +266,13 @@
     <string name="hints_cleanfinish">เสร็จสิ้นการทำความสะอาด</string>
     <string name="hints_num">0</string>
     <string name="mainbtn_text_quick_cleanup">ทำความสะอาด %s</string>
+    <string name="mainbtn_text_no_trash">ข้าม</string>
     <string name="mainbtn_text_quick_cleanup_default">ทำความสะอาด</string>
     <string name="pref_title_open_optimizer_memory_scan">สแกนหน่วยความจำ</string>
     <string name="toast_select_white_need_remove">เลือกรายการที่ต้องการลบออก</string>
     <string name="network_not_available">เชื่อมต่อเครือข่ายไม่ได้</string>
     <string name="no_network_btn">ลองอีกครั้ง</string>
-    <string name="name_debuglog_dir">บันทึกของ Bsp ดีบัก</string>
+    <string name="name_debuglog_dir">BSP debug log</string>
     <string name="just_now">เมื่อสักครู่</string>
     <string name="yesterday">เมื่อวานนี้</string>
     <string name="month_day_format">dd MMM</string>
@@ -296,6 +298,7 @@
     <string name="downloading">กำลังดาวน์โหลด</string>
     <string name="installing">กำลังติดตั้ง</string>
     <string name="start_install">ติดตั้งตอนนี้</string>
+    <string name="empty">" "</string>
     <string name="open_browser">เปิดด้วยเบราว์เซอร์</string>
     <string name="title_share_link">แชร์ลิงก์ URL</string>
     <string name="connecting">กำลังเชื่อมต่อ…</string>
@@ -495,4 +498,25 @@
     <string name="auto_clean_time_three_day">ทุก 3 วัน</string>
     <string name="auto_clean_time_seven_day">ทุก 7 วัน</string>
     <string name="auto_clean_time_fifteen_day">ทุก 15 วัน</string>
+    <string name="pref_category_title_auto_clean_config_settings">ทำความสะอาดอัตโนมัติ</string>
+    <string name="pref_title_auto_clean">ทำความสะอาดโดยอัตโนมัติ</string>
+    <string name="pref_title_auto_clean_operation">ทำความสะอาดวิธีการ</string>
+    <string name="pref_title_auto_clean_trigger">ทำความสะอาดที่จัดเก็บข้อมูล</string>
+    <string name="auto_clean_operation_dialog_title">ทำความสะอาดวิธีการ</string>
+    <string name="auto_clean_operation_clean_and_alert">เตือนความจำและทำความสะอาด</string>
+    <string name="auto_clean_operation_just_clean">ทำความสะอาดเท่านั้น</string>
+    <string name="auto_clean_trigger_dialog_title">ทำความสะอาดที่จัดเก็บข้อมูล</string>
+    <string name="auto_clean_trigger_percent_ninety">เมื่อการใช้ถึง 90%</string>
+    <string name="auto_clean_trigger_percent_eighty">เมื่อการใช้ถึง 80%</string>
+    <string name="auto_clean_trigger_percent_sixty">เมื่อการใช้ถึง 60%</string>
+    <string name="auto_clean_notification_title">แจ้งเตือนทำความสะอาด</string>
+    <string name="auto_clean_notification_content">ทำความสะอาดขยะของ %s</string>
+    <string name="guide_secure_dialog_title">เพิ่มประสิทธิภาพ</string>
+    <string name="guide_secure_dialog_message">ประสิทธิภาพอุปกรณ์ของคุณต่ำกว่า 80 เพิ่มประสิทธิภาพตอนนี้หรือไม่?</string>
+    <string name="guide_secure_dialog_positive">เพิ่มประสิทธิภาพ</string>
+    <string name="guide_secure_dialog_negative">ยกเลิก </string>
+    <string name="guide_virus_dialog_title">สแกนป้องกันไวรัส</string>
+    <string name="guide_virus_dialog_message">สแกนแอปและติดตั้งแพ็คเกจเพื่อปกป้องอุปกรณ์ของคุณจากไวรัสและมัลแวร์ สแกนอุปกรณ์ของคุณตอนนี้?</string>
+    <string name="guide_virus_dialog_positive">สแกน</string>
+    <string name="guide_virus_dialog_negative">ยกเลิก </string>
 </resources>

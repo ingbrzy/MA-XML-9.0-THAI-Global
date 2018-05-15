@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="sync_items_close">
-        <item quantity="other">%d ปิดอยู่</item>
-    </plurals>
     <plurals name="items_unsynced">
         <item quantity="other">รายการที่กำลังรอการซิงค์: %d</item>
-    </plurals>
-    <plurals name="items_waiting_to_sync">
-        <item quantity="other">มี %d รายการกำลังรอการซิงค์</item>
     </plurals>
     <plurals name="dirty_contacts_count">
         <item quantity="other">รายชื่อผู้ติดต่อ %d รายการ</item>

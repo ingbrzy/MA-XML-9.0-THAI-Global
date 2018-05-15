@@ -33,7 +33,7 @@
     <string name="attach_sound">เสียง</string>
     <string name="attach_subject">ชื่อเรื่อง</string>
     <string name="attach_take_photo">ถ่ายภาพ</string>
-    <string name="attach_transaction">ส่งเงิน</string>
+    <string name="attach_transaction">โอนเงิน</string>
     <string name="attach_video">วิดีโอ</string>
     <string name="audio_download_failed">ไม่สามารถดาวน์โหลดไฟล์เสียง</string>
     <string name="audio_message_expired">ข้อความเสียงหมดอายุแล้ว</string>
@@ -51,6 +51,16 @@
     <string name="bookmark_confirm_delete_message">ยกเลิกการชอบข้อความที่เลือก?</string>
     <string name="bookmark_empty">ไม่มีข้อความที่ชอบ</string>
     <string name="bookmark_list_title">ติดดาว</string>
+    <string name="button_emoji_creature">Creature Emoji</string>
+    <string name="button_emoji_lifestyle">Lifestyle Emoji</string>
+    <string name="button_emoji_smiley">Smiley Emoji</string>
+    <string name="button_emoji_symbol">Symbol Emoji</string>
+    <string name="button_emoji_text">Text Emoji</string>
+    <string name="button_fold">fold</string>
+    <string name="button_next_slide">Next</string>
+    <string name="button_pre_slide">Previous</string>
+    <string name="button_resend_message">Resend</string>
+    <string name="button_unfold">Unfold</string>
     <string name="call_sender">โทรหาผู้ส่ง</string>
     <string name="cannot_add_picture_and_video">ไม่สามารถเพิ่มวิดีโอและรูปภาพในหนึ่งสไลด์</string>
     <string name="cannot_add_slide_anymore">ไม่สามารถเพิ่มสไลด์ได้</string>
@@ -138,6 +148,7 @@
     <string name="download_later">ไม่สามารถดาวน์โหลดตอนนี้ ลองใหม่ในภายหลัง</string>
     <string name="downloading">กำลังดาวน์โหลด</string>
     <string name="downloading_file_can_not_play">กรุณารอจนกว่าตัวบันทึกจะดาวน์โหลดไฟล์ครบถ้วน</string>
+    <string name="draft">Draft</string>
     <string name="duration_not_a_number">ระยะเวลาต้องเป็นตัวเลข</string>
     <string name="duration_sec">ระยะเวลา (%s วินาที)</string>
     <string name="duration_selector_title">"ระยะเวลาสำหรับสไลด์ "</string>
@@ -168,7 +179,6 @@
     <string name="failed_to_resize_image">รูปภาพไม่ถูกปรับขนาด</string>
     <string name="fake_cell_alert_hint">ดูเหมือนว่าข้อความนี้ถูกส่งมาจากหมายเลขโทรศัพท์ซึ่งจะแตกต่างจากที่แสดง กรุณาระมัดระวังข้อความ SMS ที่มีการเรียกร้องด้านการเงิน</string>
     <string name="fake_cell_checking_hint">กำลังตรวจสอบความปลอดภัย…</string>
-    <string name="fake_cell_detection_entry">ป้องกันสถานีฐานปลอมแปลง</string>
     <string name="fake_cell_safe_hint">ข้อความนี้ปลอดภัย</string>
     <string name="fake_cell_timeout_hint">ไม่สามารถตรวจสอบความปลอดภัยได้</string>
     <string name="favorite_at_time">วันที่เก็บ: %1s</string>
@@ -179,6 +189,7 @@
     <string name="file_size">ขนาด:</string>
     <string name="file_title">ชื่อ:</string>
     <string name="file_width_height">ขนาด:</string>
+    <string name="flatshow_page_no">%1$d</string>
     <string name="force_touch_new_message_title">ข้อความใหม่</string>
     <string name="forward_from">ส่งต่อจาก:</string>
     <string name="forward_prefix">"ส่งต่อ: "</string>
@@ -447,7 +458,7 @@
     <string name="privacy_password_title4">อัพเดทรหัสผ่านแล้ว</string>
     <string name="private_message">การรับ-ส่งข้อความส่วนบุคคล</string>
     <string name="private_new_notification">แจ้งเตือนข้อความใหม่</string>
-    <string name="private_protect">รหัสผ่าน</string>
+    <string name="private_protect">Privacy protection</string>
     <string name="private_settings">การตั้งค่าข้อความส่วนบุคคล</string>
     <string name="processing">กำลังดำเนินการ…</string>
     <string name="prvate_contact">รายชื่อส่วนบุคคล</string>
@@ -527,6 +538,7 @@
     <string name="send_signature_confirm_dialog_title">ส่งข้อความ</string>
     <string name="send_sms">ส่งข้อความ</string>
     <string name="send_to">ถึง:</string>
+    <string name="send_to_index_contact">%1$s/%2$s</string>
     <string name="sent_at_time">วันที่ส่ง: %1s</string>
     <string name="sent_label">"ส่ง: "</string>
     <string name="service_message_not_found">ข้อความหมดอายุหรือไม่มีข้อความ</string>
@@ -656,4 +668,5 @@
     <string name="wild_msg_title">เลือกหมายเลขโทรศัพท์เพื่อซิงค์</string>
     <string name="yes">ตกลง</string>
     <string name="yesterday">เมื่อวาน</string>
+    <string name="fake_cell_detection_entry">ป้องกันสถานีฐานปลอมแปลง</string>
 </resources>

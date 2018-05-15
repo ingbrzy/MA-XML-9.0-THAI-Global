@@ -75,7 +75,7 @@
     <string name="pause">พัก</string>
     <string name="back">ย้อนกลับ</string>
     <string name="menu">เมนู</string>
-    <string name="toast_uninstall_fileexplorer">ไม่ได้ติดตั้งแอปจัดการไฟล์</string>
+    <string name="toast_uninstall_fileexplorer">ไม่ได้ติดตั้งตัวจัดการไฟล์</string>
     <string name="record_download">ดาวน์โหลดจาก Mi คลาวด์</string>
     <string name="record_download_msg">สามารถฟังเสียงบันทึกได้ก็ต่อเมื่อดาวน์โหลดเสร็จสิ้นแล้ว</string>
     <string name="record_download_msg_reload">ไม่พบไฟล์เสียงบันทึก</string>

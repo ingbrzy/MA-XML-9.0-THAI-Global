@@ -2,6 +2,7 @@
 <resources>
     <string name="accept">ยอมรับ</string>
     <string name="accept_or_deny">%1$s แชร์อัลบั้ม %2$s กับคุณ</string>
+    <string name="actionbar_overflow_item_desc">ตัวเลือกเพิ่มเติม</string>
     <string name="add_automatically_alert_msg">เพิ่มรูปภาพจาก \"%1$s\" ไปยังอัลบั้มนี้โดยอัตโนมัติ?</string>
     <string name="add_automatically_alert_title">เพิ่มรูปภาพโดยอัตโนมัติ</string>
     <string name="add_secret_ensure_title">ซ่อน</string>
@@ -19,6 +20,7 @@
     <string name="add_to_secret_failed_with_reason">ไม่สามารถเพิ่มไปยังอัลบั้มซ่อนได้ %1$s</string>
     <string name="add_to_secret_successful">เพิ่มไว้ในอัลบั้มซ่อนแล้ว</string>
     <string name="add_to_share_album_not_delete">ไม่สามารถลบรูปภาพจากอัลบั้มแชร์ได้</string>
+    <string name="added_to_favorites">เพิ่มไปยังรายการโปรดแล้ว</string>
     <string name="added_to_favorites_tip">เพิ่มลงในอัลบั้ม \"รายการโปรด\"</string>
     <string name="adding">กำลังเพิ่ม…</string>
     <string name="adding_recipients">กำลังเพิ่มผู้รับ…</string>
@@ -90,6 +92,7 @@
     <string name="app_name">คลังภาพ</string>
     <string name="app_name_view_picture">ดูรูปภาพ</string>
     <string name="app_name_view_video">เรียกดูวิดีโอ</string>
+    <string name="application_icon">ไอคอนแอป</string>
     <string name="apply">นำไปใช้</string>
     <string name="assistant_page_label">ตัวช่วย</string>
     <string name="associate_face_album">เลือกอัลบั้ม</string>
@@ -109,11 +112,13 @@
     <string name="baby_album_needs_auto_backup_tip">ปิดใช้งานการสำรองข้อมูลสำหรับอัลบั้มลูกไม่ได้</string>
     <string name="baby_album_new_photo_remind">มีรูปภาพใหม่ในอัลบั้มลูกของคุณ</string>
     <string name="baby_album_setting_title">ข้อมูลลูก</string>
+    <string name="baby_album_settings">การตั้งค่าอัลบั้มลูก</string>
     <string name="baby_album_sharer_accept_dialog_msg">"%2$sของ%1$s 
 %4$sของ%3$sได้แชร์อัลบั้มของ%5$sไปให้คุณ"</string>
     <string name="baby_album_sharer_recommand_face">เพิ่มรูปภาพที่มีอยู่ของ%1$s?</string>
     <string name="baby_album_sharers_page_title">แชร์ไปยังครอบครัว</string>
     <string name="baby_birthday">วันเกิด</string>
+    <string name="baby_face_desc">อัลบั้มลูก</string>
     <string name="baby_lock_wallpaper">ภาพพื้นหลังหน้าจอล็อก</string>
     <string name="baby_lock_wallpaper_cancelled">เปลี่ยนเป็นภาพพื้นหลังเริ่มต้นในหน้าจอล็อกแล้ว</string>
     <string name="baby_lock_wallpaper_save_settings_msg">นำการตั้งค่าปัจจุบันไปใช้</string>
@@ -125,6 +130,7 @@
     <string name="baby_nick_name">ชื่อเล่น</string>
     <string name="baby_sexy">เพศ</string>
     <string name="baby_suffix">ลูก</string>
+    <string name="back">ย้อนกลับ</string>
     <string name="backup_automatically_summary">สำรองข้อมูลรูปภาพและวิดีโอบนอุปกรณ์ทั้งหมดไปยัง Mi คลาวด์ คุณสามารถเรียกดู, เรียงลำดับ, แก้ไข รวมถึงแชร์รูปภาพและวิดีโอบนอุปกรณ์ทั้งหมดได้อย่างสะดวก</string>
     <string name="backup_automatically_title">สำรองข้อมูลโดยอัตโนมัติ</string>
     <string name="backup_battery_low_desc">คุณสามารถเลือกดำเนินการสำรองข้อมูลรายการต่อได้</string>
@@ -223,6 +229,8 @@
     <string name="cleaner_stop_scan">หยุดการสแกน</string>
     <string name="click_download_gif">แตะดาวน์โหลดไฟล์ GIF</string>
     <string name="click_top_right">แตะที่ไอคอนนี้</string>
+    <string name="close">ปิด</string>
+    <string name="close_dialog_desc">ปิดกล่องสนทนา</string>
     <string name="cloud_camera_display_name">รูปภาพจากกล้อง</string>
     <string name="cloud_guide_auto_backup_title">เลือกอัลบั้มที่ต้องการสำรองข้อมูล</string>
     <string name="cloud_guide_login_title">สำรองข้อมูลรูปภาพและวิดีโอโดยอัตโนมัติ</string>
@@ -245,6 +253,7 @@
     <string name="cloudfolder_contain_invalidate_char">"ชื่ออัลบั้มต้องไม่มีประกอบ '%s'"</string>
     <string name="cloudfolder_name_cannot_empty">ป้อนชื่ออัลบั้ม</string>
     <string name="cloudfolder_name_reserved">ชื่อโฟลเดอร์นี้ถูกสงวนไว้</string>
+    <string name="collage__talkback_effect">%d เอฟเฟกต์</string>
     <string name="collage_choose">เลือก</string>
     <string name="collage_margin_text">กรอบ</string>
     <string name="collage_mirror">กระจก</string>
@@ -282,6 +291,9 @@
     <string name="context_menu_add_contact">เพิ่มไปยังรายชื่อ</string>
     <string name="context_menu_copy">คัดลอก</string>
     <string name="context_menu_copy_notice">คัดลอกไปยังคลิปบอร์ดแล้ว</string>
+    <string name="correct_photo_time">วันที่และเวลาถูกต้องสำหรับรูปภาพ</string>
+    <string name="correct_time_success">ทำให้ถูกต้องเรียบร้อยแล้ว</string>
+    <string name="correct_time_tip">วันที่และเวลาถูกต้อง…</string>
     <string name="create_baby_album">สร้างอัลบั้มลูก</string>
     <string name="create_baby_album_dialog_msg">สร้างอัลบั้มสำหรับ \"%s\"?</string>
     <string name="create_baby_album_later_toast">สร้างอัลบั้มลูกได้ตลอดเวลาในเมนูการตั้งค่า</string>
@@ -295,6 +307,7 @@
     <string name="custom_select_title_quickly_share">แชร์</string>
     <string name="custom_select_title_select_all">เลือกทั้งหมด</string>
     <string name="custom_select_title_select_item">เลือกรายการ</string>
+    <string name="debugging_info">ข้อมูลข้อบกพร่องถูกสร้างเรียบร้อยแล้ว แตะ ตกลง เพื่อเปิดโฟลเดอร์</string>
     <string name="debugging_tip">กำลังสร้างข้อมูลปรับแก้ไข</string>
     <string name="default_relation_name">กลุ่มใหม่</string>
     <string name="define_by_user">กำหนดเอง</string>
@@ -424,6 +437,7 @@
     <string name="exit_share_in_process">กำลังออกจากอัลบั้ม \"%s\"…</string>
     <string name="exit_share_successfully">ออก %1$s</string>
     <string name="exit_video_play">ออก</string>
+    <string name="expand_desc">เพิ่มเติม</string>
     <string name="expand_people">แสดงบุคคลเพิ่มเติม</string>
     <string name="face_album_detecting_tip">รอสักครู่…</string>
     <string name="face_album_empty">"มีภาพถ่ายไม่เพียงพอที่จะยืนยันบุคคลได้
@@ -444,12 +458,15 @@
     <string name="face_name_edit">แก้ไข</string>
     <string name="face_name_input">ป้อนชื่อ</string>
     <string name="face_recommend">ข้อเสนอแนะ</string>
+    <string name="face_recommend_group_number">%1$d/%2$d</string>
     <string name="fail_hint">ดำเนินการไม่เสร็จสิ้น</string>
     <string name="fail_to_pick_email">ที่อยู่อีเมลไม่ถูกต้อง</string>
     <string name="fail_to_sync_album">ไม่สามารถซิงค์อัลบั้ม ตรวจสอบการเชื่อมต่อเครือข่ายแล้วลองใหม่อีกครั้ง</string>
     <string name="family_member_invitation_text">สมาชิกอื่นในครอบครัว</string>
+    <string name="fancy_color_desc">สี</string>
     <string name="fast_share_auto_render">โหมดฟรุ๊งฟริ๊ง</string>
     <string name="fast_share_auto_render_finish">ใช้โหมดฟรุ๊งฟริ๊งอยู่</string>
+    <string name="fileSizeSuffix">%1$s%2$s</string>
     <string name="filter_bi_memory">ความทรงจำ</string>
     <string name="filter_bi_mono">โมโน</string>
     <string name="filter_bi_pink">ชมพู</string>
@@ -463,6 +480,7 @@
     <string name="filter_bi_young">วันรุ่น</string>
     <string name="filter_category_film">ฟิล์ม</string>
     <string name="filter_category_food">อาหาร</string>
+    <string name="filter_category_master">มาสเตอร์</string>
     <string name="filter_category_portrait">บุคคล</string>
     <string name="filter_category_scene">ทิวทัศน์</string>
     <string name="filter_film_blackwhite">ดำ&amp;ขาว</string>
@@ -481,15 +499,23 @@
     <string name="filter_food_latte">ลาเต้</string>
     <string name="filter_food_softdrink">โซดา</string>
     <string name="filter_food_wholemeal">เกรน</string>
+    <string name="filter_master_hazy">หมอก</string>
+    <string name="filter_master_mellow">กลมกล่อม</string>
+    <string name="filter_master_memoire">ความฝัน</string>
+    <string name="filter_master_rise">แรกพบ</string>
+    <string name="filter_master_somber">เศร้าหมอง</string>
     <string name="filter_original">ไม่มี</string>
     <string name="filter_people_fairytale">เทพนิยาย</string>
     <string name="filter_people_heart">อารมณ์</string>
     <string name="filter_people_japanese">สดใส</string>
     <string name="filter_people_maze">เขาวงกต</string>
     <string name="filter_people_mint">มิ้นท์</string>
+    <string name="filter_people_movie">ภาพยนตร์</string>
     <string name="filter_people_nature">ธรรมชาติ</string>
     <string name="filter_people_pink">หวานฉ่ำ</string>
+    <string name="filter_people_riddle">ปริศนา</string>
     <string name="filter_people_roman">โรแมนติก</string>
+    <string name="filter_people_story">เรื่องราว</string>
     <string name="filter_scene_city">เมือง</string>
     <string name="filter_scene_df">หมอก</string>
     <string name="filter_scene_koizora">ความรัก</string>
@@ -502,12 +528,14 @@
     <string name="finish_fill_baby">สร้าง</string>
     <string name="flash_off">ปิดแฟลช</string>
     <string name="flash_on">เปิดแฟลช</string>
+    <string name="free_view_desc">มุมมอง 3 มิติ</string>
     <string name="gallery_setting">การตั้งค่า</string>
     <string name="gallery_sync_disable_toast">การซิงค์คลังภาพปิดอยู่</string>
     <string name="get_album_info_in_process">กำลังร้องขอรายละเอียดของอัลบั้มแชร์…</string>
     <string name="gif_tip">ไฟล์ GIF</string>
     <string name="gigabyteShort">GB</string>
     <string name="grant_permission_go_and_set">ตั้งค่า</string>
+    <string name="grant_permission_item">\"%s\"</string>
     <string name="grant_permission_text">"คลังภาพต้องการเข้าถึง 
 %s
  เพื่อให้ทำงานได้ตามปกติ แตะ \"ตั้งค่า\" เพื่อไปยังการอนุญาต"</string>
@@ -701,6 +729,7 @@
     <string name="people_mark_mode_title_no_mark_name">เลือกสักคน</string>
     <string name="people_page_label">บุคคล</string>
     <string name="people_page_unname">ไม่มีชื่อ</string>
+    <string name="percent_sign">%</string>
     <string name="pet_album_display_name">รูปภาพสัตว์เลี้ยง</string>
     <string name="petabyteShort">PB</string>
     <string name="photo">รูปภาพ</string>
@@ -746,6 +775,27 @@
     <string name="photo_editor_rotate">หมุนภาพ</string>
     <string name="photo_editor_saving">กำลังบันทึก…</string>
     <string name="photo_editor_sticker">สติกเกอร์</string>
+    <string name="photo_editor_talkback_cancel">ยกเลิก </string>
+    <string name="photo_editor_talkback_confirm">ยืนยัน</string>
+    <string name="photo_editor_talkback_crop_16_9">สิบหกต่อเก้า</string>
+    <string name="photo_editor_talkback_crop_1_1">หนึ่งต่อหนึ่ง</string>
+    <string name="photo_editor_talkback_crop_3_4">สามต่อสี่</string>
+    <string name="photo_editor_talkback_crop_4_3">สี่ต่อสาม</string>
+    <string name="photo_editor_talkback_crop_9_16">เก้าต่อสิบหก</string>
+    <string name="photo_editor_talkback_crop_free">อิสระ</string>
+    <string name="photo_editor_talkback_crop_mirror">กระจก</string>
+    <string name="photo_editor_talkback_crop_original">ต้นฉบับ</string>
+    <string name="photo_editor_talkback_crop_rotate">หมุน</string>
+    <string name="photo_editor_talkback_doodle_arrow">ลูกศร</string>
+    <string name="photo_editor_talkback_doodle_circular">วงกลม</string>
+    <string name="photo_editor_talkback_doodle_line">เส้น</string>
+    <string name="photo_editor_talkback_doodle_path">แปรง</string>
+    <string name="photo_editor_talkback_doodle_rectangle">เหลี่ยม</string>
+    <string name="photo_editor_talkback_effect">%d เอฟเฟกต์</string>
+    <string name="photo_editor_talkback_eraser">ลบ</string>
+    <string name="photo_editor_talkback_recently">ที่ใช้ล่าสุด</string>
+    <string name="photo_editor_talkback_redo">ทำซ้ำ</string>
+    <string name="photo_editor_talkback_undo">เลิกทำ</string>
     <string name="photo_editor_text">ข้อความ</string>
     <string name="photo_page_save_uri_image_fail">ไม่สามารถบันทึกไปยังคลังภาพได้</string>
     <string name="photo_page_save_uri_image_ok">รูปภาพถูกบันทึกไปยังคลังภาพแล้ว</string>
@@ -795,6 +845,8 @@
     <string name="picker_title_specify_format_one">เลือก %d รูป</string>
     <string name="picker_title_unlimit">เลือกรูปภาพ</string>
     <string name="places_album_empty_title">ภาพถ่ายสามารถจัดเรียงตามสถานที่ได้</string>
+    <string name="play_gif_desc">เล่น GIF</string>
+    <string name="play_video_desc">เล่นวิดีโอ</string>
     <string name="preparing_data">รอสักครู่…</string>
     <string name="projection_cancel">ยกเลิก</string>
     <string name="projection_checkbox_text">จดจำอุปกรณ์แสดงผลนี้</string>
@@ -820,6 +872,19 @@
     <string name="recovery_merge_or_rename">ควบรวมอัลบั้ม</string>
     <string name="recovery_merge_or_rename_message">มีอัลบั้มที่มีชื่อนี้อยู่แล้ว ควบรวมทันทีหรือไม่?</string>
     <string name="recovery_rename">เปลี่ยนชื่อ</string>
+    <string name="refocus_desc">โฟกัสอีกครั้ง</string>
+    <string name="refocus_discard_confirm_message">บันทึกการเปลี่ยนแปลง?</string>
+    <string name="refocus_discard_negative_btn">ละทิ้ง</string>
+    <string name="refocus_discard_positive_btn">บันทึก</string>
+    <string name="refocus_photo_not_support">ไม่สามารถเบลอรูปภาพนี้ได้</string>
+    <string name="refocus_save_cancel">ยกเลิก </string>
+    <string name="refocus_save_title">เลือกรูปแบบ</string>
+    <string name="refocus_save_to_photo">บันทึกเป็นรูปภาพ</string>
+    <string name="refocus_save_to_video">บันทึกเป็นวิดีโอ</string>
+    <string name="refocus_saving">กำลังบันทึก…</string>
+    <string name="refocus_title">เบลอ</string>
+    <string name="refocus_type_static">ระดับการเบลอ</string>
+    <string name="refocus_type_video">เส้นทางแสง</string>
     <string name="relation_text_empty_alert">เพิ่มข้อมูลความสัมพันธ์</string>
     <string name="relation_text_family">สมาชิกในครอบครัว</string>
     <string name="relation_text_father">พ่อ</string>
@@ -906,6 +971,7 @@
     <string name="search_setting_title">สืบค้นรูปภาพจากคลังภาพ</string>
     <string name="search_syncing">กำลังซิงค์ข้อมูล กรุณารอสักครู่</string>
     <string name="search_title_album">อัลบั้ม</string>
+    <string name="search_title_app_screenshot">ภาพหน้าจอแอป</string>
     <string name="search_title_history">ค้นหาประวัติ</string>
     <string name="search_title_location">ตำแหน่งพิกัด</string>
     <string name="search_title_more">เพิ่มเติม</string>
@@ -914,6 +980,9 @@
     <string name="search_title_recommend">แนะนำ</string>
     <string name="search_title_suggestion">ข้อเสนอแนะ</string>
     <string name="search_title_tag">สิ่งของ</string>
+    <string name="search_transition_element_icon">search_icon</string>
+    <string name="search_transition_element_input">search_input</string>
+    <string name="search_transition_element_voice">search_voice</string>
     <string name="searching_cast_devices">กำลังมองหาโปรเจคเตอร์...</string>
     <string name="secret_album_card_description">ที่ที่ดีที่สุดสำหรับความลับทั้งหมดของคุณ</string>
     <string name="secret_album_card_title">เปิดอัลบั้มที่ซ่อนไว้</string>
@@ -934,8 +1003,11 @@
     <string name="see_ignore_faces">เรียกดูบุคคลที่คุณละเว้น</string>
     <string name="select_item_face">"บุคคลนี้คือ '%s'?"</string>
     <string name="select_origin_tip">ไฟล์ต้นฉบับ (%s)</string>
+    <string name="send_file_beautify_failed">ไม่สามารถแชร์ได้</string>
     <string name="send_multiple_files_hint_format">ส่ง (%s)</string>
     <string name="send_public_url">ส่ง URL อัลบั้ม</string>
+    <string name="send_secret_file_failed">ไม่สามารถแชร์ได้</string>
+    <string name="send_secret_file_space_low">พื้นที่จัดเก็บไม่เพียงพอ</string>
     <string name="send_too_many_files_error">สามารถส่งได้มากสุด %d ไฟล์ต่อครั้ง</string>
     <string name="set_as_baby_lock_wallpaper">ตั้งเป็นภาพพื้นหลังของหน้าจอล็อก</string>
     <string name="set_as_wallpaper_description">รูปภาพนี้เป็นเพียงภาพหน้าปก ต้องการดาวน์โหลดไฟล์ดั้งเดิมหรือไม่?</string>
@@ -951,6 +1023,7 @@
     <string name="share">แชร์</string>
     <string name="share_album">แชร์อัลบั้ม</string>
     <string name="share_album_needs_auto_upload_tip">ไม่สามารถปิดใช้การสำรองข้อมูลอัลบั้มแชร์ได้</string>
+    <string name="share_album_qr_code">รหัส QR ของอัลบั้ม</string>
     <string name="share_by_email_start">แชร์ %1$s บนพื้นหลัง</string>
     <string name="share_by_email_successfully">แชร์ %1$s</string>
     <string name="share_public_url_text">ฉันได้แชร์อัลบั้ม %1$s กับคุณ ดูที่ %2$s</string>
@@ -1136,7 +1209,9 @@
     <string name="video_not_exist">ไม่มีวิดีโอ</string>
     <string name="view_by_gallery_tip">คลังภาพ MIUI</string>
     <string name="view_face_album">ดูอัลบั้ม</string>
+    <string name="view_more_face_desc">เรียกดูบุคคลเพิ่มเติม</string>
     <string name="view_queuing_status">ตรวจสอบสถานะ</string>
+    <string name="welcome_to_auto_backup">@string/welcome_to_micloud</string>
     <string name="welcome_to_micloud">ยินดีต้อนรับสู่ Mi คลาวด์</string>
     <string name="where_is_barcode">รหัส QR อยู่ที่ไหน?</string>
     <string name="who_is_this">บุคคลนี้คือใคร?</string>

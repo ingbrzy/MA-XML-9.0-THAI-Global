@@ -34,10 +34,10 @@
         <item quantity="other">อนุญาตให้ %d แอปเริ่มต้นทำงานอัตโนมัติ</item>
     </plurals>
     <plurals name="bg_network_allow_count">
-        <item quantity="other">%d apps can connect to the network</item>
+        <item quantity="other">%d แอปสามารถเชื่อมต่อกับเครือข่ายได้</item>
     </plurals>
     <plurals name="bg_network_restrict_count">
-        <item quantity="other">"%d apps can't connect to the network"</item>
+        <item quantity="other">%d แอปไม่สามารถเชื่อมต่อกับเครือข่ายได้</item>
     </plurals>
     <plurals name="connected_devices_number">
         <item quantity="other">%d อุปกรณ์</item>
@@ -87,7 +87,7 @@
         <item quantity="one">มีแอปอย่างน้อย %d แอป</item>
     </plurals>
     <plurals name="firewall_item_summary">
-        <item quantity="other">Restricted connection for %s apps</item>
+        <item quantity="other">จำกัดการเชื่อมต่อสำหรับ %s แอป</item>
     </plurals>
     <plurals name="free_wifi_connected_count">
         <item quantity="other">%1$d คนเชื่อมต่ออยู่</item>

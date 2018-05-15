@@ -226,6 +226,7 @@
     <string name="battery_saver">ตัวประหยัดแบตเตอรี่</string>
     <string name="battery_saver_keywords">ตัวประหยัดแบตเตอรี่;แบตเตอรี่อีเมล</string>
     <string name="bcc">สำเนาลับถึง</string>
+    <string name="bcc_heading">"สำเนาลับถึง: "</string>
     <string name="bill_center_setting">การตั้งค่าการเรียกเก็บเงิน</string>
     <string name="bill_center_setting_head">นำเข้าข้อมูลจากบัญชีเหล่านี้</string>
     <string name="bill_cycle_text">รอบบิล</string>
@@ -246,6 +247,7 @@
     <string name="cancel_pop3_attchemt_downloading">บัญชี POP3 ไม่สามารถยกเลิกการดาวน์โหลดไฟล์แนบได้</string>
     <string name="cant_move_or_change_labels">ไม่สามารถย้ายรายการจากต่างบัญชีได้</string>
     <string name="cc">สำเนาถึง</string>
+    <string name="cc_attribution">สำเนาถึง: %1$s&lt;br></string>
     <string name="cc_bcc">สำเนา/สำเนาลับ</string>
     <string name="cc_heading">"สำเนาถึง: "</string>
     <string name="change_folders_selection_dialog_title">เลือกโฟลเดอร์</string>
@@ -263,6 +265,7 @@
     <string name="click_download_all_content">[ แตะเพื่อดาวน์โหลดเนื้อหา ]</string>
     <string name="click_to_reload">แตะหน้าจอเพื่อรีเฟรช</string>
     <string name="collapse_recipient_details">ซ่อนรายละเอียดผู้รับ</string>
+    <string name="colon">:</string>
     <string name="compose">เขียน</string>
     <string name="compose_attachment_number_limit">ไม่สามารถเพิ่มไฟล์แนบมากกว่า 10 รายการ</string>
     <string name="compose_paste_address_oob">อักขระมากเกินไป</string>
@@ -339,6 +342,8 @@
     <string name="date_heading">"วันที่: "</string>
     <string name="date_message_received">%1$s %2$s</string>
     <string name="date_message_received_today">วันนี้ %1$s</string>
+    <string name="debug_mode_preferencecategory">ตั้งค่าส่งออกบันทึก</string>
+    <string name="debug_mode_settings">การตั้งค่าโหมดข้อบกพร่อง</string>
     <string name="default_">ค่าเริ่มต้น</string>
     <string name="default_setup">การตั้งค่าเริ่มต้น</string>
     <string name="default_signature">ส่งจากมือถือ Mi</string>
@@ -437,6 +442,7 @@
     <string name="file_rar_not_support">ไม่สามารถเปิดไฟล์ rar ที่เข้ารหัสได้</string>
     <string name="file_save_path_dialog_cancel">รับทราบ</string>
     <string name="file_save_path_dialog_ok">แก้ไขตอนนี้</string>
+    <string name="file_save_term">ระยะเวลาเก็บเอกสาร</string>
     <string name="filtered_tag">" [%1$s]%2$s"</string>
     <string name="first_quick_default_reply">แตะปุ่มเพื่อส่ง \"%s\" ให้ทุกคนในการสนทนา</string>
     <string name="folder_list_display_all">แสดงโฟลเดอร์ทั้งหมด</string>
@@ -445,6 +451,7 @@
     <string name="folder_removed">ลบออกจาก %1$s แล้ว</string>
     <string name="folder_shortcut_widget_label">กล่องอีเมล</string>
     <string name="folder_synchronization_mail_settings">การตั้งค่าซิงค์โฟลเดอร์</string>
+    <string name="forever">เสมอ</string>
     <string name="forward">ส่งต่อ</string>
     <string name="forward_attachment">ส่งต่อ</string>
     <string name="forward_attribution">---------- ข้อความที่ส่งต่อ ----------&lt;br>จาก: %1$s&lt;br>วันที่: %2$s&lt;br>Subject: %3$s&lt;br>ถึง: %4$s&lt;br></string>
@@ -473,6 +480,7 @@
     <string name="gmail_web_login_go">ตกลง</string>
     <string name="gmail_web_login_required_message">ลงชื่อเข้าใช้งาน Gmail</string>
     <string name="header_category_account">บัญชี</string>
+    <string name="header_category_general">@string/header_label_general_preferences</string>
     <string name="header_category_other">ข้อเสนอแนะ</string>
     <string name="header_label_general_preferences">ทั่วไป</string>
     <string name="help_and_info">วิธีใช้</string>
@@ -494,12 +502,14 @@
     <string name="invalid_recipient">ที่อยู่บัญชี %s ไม่ถูกต้อง</string>
     <string name="invalid_recipient_title">ชื่อผู้รับไม่ถูกต้อง</string>
     <string name="kilobytes">%s KB</string>
+    <string name="label_notification_ticker" formatted="false">%s: %s</string>
     <string name="load_from_remote">ค้นหาในกล่องข้อความบนเซิร์ฟเวอร์</string>
     <string name="load_more">โหลดเพิ่มเติม</string>
     <string name="loading_conversation">กำลังโหลด…</string>
     <string name="loading_conversations">กำลังโหลด…</string>
     <string name="loading_from_remote">กำลังโหลด…</string>
     <string name="local_search">ค้นในอุปกรณ์นี้</string>
+    <string name="log_save_path">แพตบันทึกการใช้</string>
     <string name="login">เข้าสู่ระบบ</string>
     <string name="login139">เข้าสู่ระบบ ด้วยไชน่าโมบาย</string>
     <string name="login_failed_ticker">%s เข้าสู่ระบบไม่สำเร็จ</string>
@@ -659,6 +669,9 @@
     <string name="oauth_login_usr_proxy">ลงชื่อเข้าใช้พร็อกซี่</string>
     <string name="ok">ตกลง</string>
     <string name="okay_action">ตกลง</string>
+    <string name="one_day">1 วัน</string>
+    <string name="one_month">1 เดือน</string>
+    <string name="one_week">1 สัปดาห์</string>
     <string name="open_calendar_and_contacts_permission">อนุญาตจดหมายเพื่อเข้าถึงรายชื่อผู้ติดต่อและข้อมูลปฏิทินในการตั้งค่า</string>
     <string name="open_external_storage_and_calendar_permission">อนุญาตจดหมายเพื่อเข้าถึงที่จัดเก็บข้อมูลและข้อมูลปฏิทินในการตั้งค่า</string>
     <string name="open_external_storage_and_contacts_and_calendar_permission">อนุญาตจดหมายเพื่อเข้าถึงที่จัดเก็บข้อมูล ผู้ติดต่อ และข้อมูลปฏิทินในการตั้งค่า</string>
@@ -684,6 +697,10 @@
     <string name="outbox_alert_select_operation">เลือกการดำเนินการ</string>
     <string name="outbox_alert_title_sent_failed">ส่งอีเมลไม่สำเร็จ</string>
     <string name="outbox_no_mails">ว่าง</string>
+    <string name="output_all_log">ส่งออกบันทึกทั้งหมด</string>
+    <string name="output_db_summary">เกี่ยวกับการส่งออกฐานข้อมูลของคุณ</string>
+    <string name="output_db_title">ฐานข้อมูลการส่งออก</string>
+    <string name="output_to_disk">บันทึกแฟ้มบันทึกในไฟล์</string>
     <string name="over_due">เกินกำหนด</string>
     <string name="parase_setup_data">กำลังรับข้อมูล…</string>
     <string name="parse_bill_discribe">การประมวลค่าใช้จ่ายผลบัตรเครดิต…</string>
@@ -824,14 +841,16 @@
     <string name="recognize_hotel_other_money">ค่าใช้จ่ายอื่นๆ %1$s</string>
     <string name="recognize_hotel_reverse_date">เช็คอินก่อน %1$s:%2$s %3$s</string>
     <string name="recognize_hotel_room_type">ห้อง</string>
+    <string name="recognize_hotel_room_type_value">%1$s × %2$s</string>
     <string name="recognize_hotel_title">จองห้องพัก</string>
     <string name="recognize_hotel_user_names">ผู้เยี่ยมชม</string>
+    <string name="recognize_hotel_user_names_value">%1$s+%2$s</string>
     <string name="recognize_setting_title">การตั้งค่าการเดินทาง</string>
     <string name="recognize_ticket_air_notification_content">ขอให้มีความสุขกับการเดินทาง!</string>
     <string name="recognize_ticket_air_notification_title">เที่ยวบิน %3$s (วันที่ %2$s/%1$s) กำลังจะขึ้นบิน กรุณาตรวจสอบข้อมูลเที่ยวบินของคุณ</string>
     <string name="recognize_ticket_air_state_stopover">หยุดพักชั่วคราว</string>
     <string name="recognize_ticket_air_state_transfer">โอนย้าย</string>
-    <string name="recognize_ticket_air_user_name">ผู้โดยสาร:</string>
+    <string name="recognize_ticket_air_user_name">ผู้โดยสาร: %1$s</string>
     <string name="recognize_ticket_title">ตั๋วเครื่องบิน&amp; รถไฟ</string>
     <string name="recognize_ticket_train_alter">แก้ไขแล้ว</string>
     <string name="recognize_ticket_train_depart_date">ออกเดินทางวันที่ %2$s/%1$s เวลา %3$s:%4$s</string>
@@ -856,6 +875,7 @@
     <string name="reply_attribution" formatted="false">เมื่อวันที่ %s, %s เขียนว่า:</string>
     <string name="report_phishing">รายงานว่าเป็นฟิชชิ่ง</string>
     <string name="report_spam">รายงานสแปม</string>
+    <string name="request_copy_db_to_disk">จดหมายกำลังร้องขอเพื่อคัดลอกฐานข้อมูลของคุณลงในไฟล์</string>
     <string name="request_entity_large">ไฟล์ใหญ่เกินไป</string>
     <string name="respond_inline">"   ตอบเมลแทรกระหว่างบรรทัด"</string>
     <string name="retry_login">ลงชื่อเข้าสู่ระบบอีกครั้ง</string>
@@ -884,6 +904,7 @@
          ด้านความปลอดภัย"</string>
     <string name="security_notification_content_update_title">จำเป็นต้องอัพเดทความปลอดภัย</string>
     <string name="security_unsupported_ticker_fmt">ไม่สามารถซิงค์ข้อมูลบัญชีผู้ใช้ \"%s\"ได้เนื่องจากเงื่อนไขด้านความปลอดภัย</string>
+    <string name="see_more_content">ดูเพิ่มเติม</string>
     <string name="select_attachment_type">เลือกไฟล์แนบจาก</string>
     <string name="select_no_file">ยังไม่ได้เลือกไฟล์แนบ</string>
     <string name="select_path">เลือกโฟลเดอร์จัดเก็บ</string>
@@ -928,6 +949,7 @@
     <string name="silent_ringtone">ปิดเสียง</string>
     <string name="single_new_message_notification_big_text">"%1$s
 %2$s"</string>
+    <string name="single_new_message_notification_title">%1$s: %2$s</string>
     <string name="smtp_password_error">รหัสผ่านสำหรับเซิร์ฟเวอร์อีเมลขาออกไม่ถูกต้อง</string>
     <string name="sort_attachment">เรียงตาม</string>
     <string name="storage">พื้นที่</string>
@@ -957,6 +979,7 @@
     <string name="tablet">แท็บเล็ต</string>
     <string name="tap_to_configure">กรุณาแตะเพื่อตั้งค่า</string>
     <string name="tap_to_enable_sync">แตะเพื่อเปิดการซิงค์</string>
+    <string name="three_day">3 วัน</string>
     <string name="to">ถึง</string>
     <string name="to_heading">"ถึง: "</string>
     <string name="toast_bar_fail_synchronization">ไม่สามารถเชื่อมต่อเครือข่ายได้</string>

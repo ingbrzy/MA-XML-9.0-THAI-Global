@@ -3,6 +3,9 @@
     <plurals name="confirm_delete_downloads_message">
         <item quantity="other">%d ไฟล์ดาวน์โหลดถูกลบออก</item>
     </plurals>
+    <plurals name="dialog_confirm_delete_downloads_message">
+        <item quantity="other">ลบ %d การดำเนินงาน?</item>
+    </plurals>
     <plurals name="download_info_count_deleted_tasks">
         <item quantity="other">ลบ %1$d การดาวน์โหลด</item>
     </plurals>

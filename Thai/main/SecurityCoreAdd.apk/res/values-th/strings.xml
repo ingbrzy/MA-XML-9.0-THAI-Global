@@ -24,6 +24,7 @@
     <string name="title_switch_file">ลบไฟล์เหล่านี้?</string>
     <string name="msg_switch_photo">ลบรูปภาพเหล่านี้ในพื้นที่ปกติ หลังจากที่ถูกย้าย?</string>
     <string name="msg_switch_file">ลบไฟล์เหล่านี้ในพื้นที่ปกติ หลังจากที่ถูกย้าย?</string>
+    <string name="msg_switch_file_second">ลบไฟล์เหล่านี้ในพื้นที่ทับซ้อน หลังจากที่ถูกย้าย?</string>
     <string name="delete_src_photo">ลบรูปภาพ</string>
     <string name="delete_src_file">ลบไฟล์</string>
     <string name="retain_src_photo">เก็บรูปภาพไว้</string>
@@ -58,6 +59,8 @@
     <string name="wating">รอสักครู่…</string>
     <string name="Active">เปิดใช้งาน</string>
     <string name="ok_button">ตกลง</string>
+    <string name="remove_button">ลบออกและรีบูต</string>
+    <string name="remove_button_time">ลบออกและรีบูต(%ds)</string>
     <string name="cancel_button">ยกเลิก</string>
     <string name="list_empty_text">ว่างเปล่า</string>
     <string name="list_empty_text_xspace">ติดตั้ง WeChat/QQ/Weibo, สร้างแอปโคลน และลองใหม่</string>
@@ -65,6 +68,8 @@
     <string name="xspace_setting_label">การตั้งค่าแอปโคลน</string>
     <string name="xspace_account">บัญชีแอปโคลน</string>
     <string name="declare_dialog_title">เกี่ยวแอปโคลน</string>
+    <string name="stop_xspace_alert_title">กำลังลบบัญชีแอปโคลน</string>
+    <string name="stop_xspace_alert_content">คุณลบแอปโคลนทั้งหมด ลบบัญชีแอปโคลนและข้อมูลแอปจริงหรือไม่? หลังจากที่ลบแล้ว คุณสามารถสร้างแอปโคลนได้อีก เมื่อของคุณต้องการ</string>
     <string name="xspace_loading_msg">กำลังโหลดแอป…</string>
     <string name="xspace_header">แอปโคลน</string>
     <string name="xspace_introduce">แนะนำ</string>
@@ -77,6 +82,7 @@
     <string name="xspace_install_failed">ไม่สามารถสร้างได้</string>
     <string name="xspace_uninstalling">กำลังถอนการติดตั้ง…</string>
     <string name="xspace_install_completed">เพิ่มไอคอนไปยังหน้าจอหลักแล้ว</string>
+    <string name="xspace_install_completed_global">ไอคอนเพิ่มไปยังตัววาดแล้ว</string>
     <string name="xspace_uninstall_completed">ถอนการติดตั้งแอปโคลนเรียบร้อยแล้ว</string>
     <string name="xspace_uninstall_dialog_title">ถอนการติดตั้งแอปโคลน</string>
     <string name="xspace_uninstall_dialog_content">เมื่อถอนการติดตั้งแอปที่โคลนไว้ ข้อมูลแอปทั้งหมดจะถูกลบออก</string>
@@ -177,6 +183,10 @@
     <string name="notification_from_second_user">แสดงการแจ้งเตือนจากพื้นที่ทับซ้อน</string>
     <string name="radio_button_icon_switch_title">ใช้ปุ่มลัด</string>
     <string name="radio_button_password_switch_title">ใช้รหัสผ่าน</string>
+    <string name="reset_password_dialog_title">ไม่สามารถซ่อนปุ่มลัดพื้นที่ทับซ้อนได้</string>
+    <string name="reset_password_dialog_message">คุณใช้รหัสผ่านที่แตกต่างกันสำหรับพื้นที่ปกติและพื้นที่ทับซ้อน พื้นที่ทับซ้อนควรใช้รหัสผ่านเดียวกันกับพื้นที่ปกติสำหรับปุ่มลัดที่จะซ่อนไว้</string>
+    <string name="reset_password_dialog_positve_btn_title">เปลี่ยน</string>
+    <string name="entrance_reopen_toast_msg">แสดงปุ่มลัดพื้นที่ทับซ้อนกำหนดเพื่อสร้างประเภทรหัสผ่านต่างกัน</string>
     <string name="settings_cross_notification_title">การแจ้งเตือน</string>
     <string name="settings_cross_notification_summary">รับการแจ้งเตือนจากส่วน</string>
     <string name="settings_switch_shortcut_summary">แสดงปุ่มลัดหน้าจอหลักในพื้นที่ปกติ</string>
@@ -279,6 +289,7 @@
     <string name="xspace_weixin_title">WeChat</string>
     <string name="weixin_pay">WeChat Pay</string>
     <string name="weixin_share_sign">ลงชื่อเข้าใช้และแชร์</string>
+    <string name="use_xiaoai_open">ปลุกโดยใช้การสั่งงานด้วยเสียง</string>
     <string name="xspace_weibo_title">Weibo</string>
     <string name="weibo_send">ส่งไปที่ Weibo</string>
     <string name="xspace_qq_title">QQ</string>
@@ -358,13 +369,13 @@
     <string name="sdcradfs_dialog_in_sec_message">"ในการอัพเดตคุณควรลบพื้นที่ทับซ้อนของคุณแล้วสร้างใหม่อีกครั้ง ย้ายข้อมูลจากพื้นที่ทับซ้อนก่อน และรีบูตอุปกรณ์เพื่อทำการอัปเดตให้เสร็จสมบูรณ์
 หากคุณไม่อัปเดตแอปโคลนอาจทำงานไม่ปกติเช่นกัน"</string>
     <string name="space_created_success">สร้างพื้นที่ทับซ้อนเรียบร้อย</string>
-    <string name="encrypt_space_delete_dialog_title">Attention</string>
-    <string name="encrypt_space_delete_dialog_message">"You're about to update Android. After the update, Second space data will become incompatible. To avoid this, move all data to First space, delete Second space, and create it again."</string>
-    <string name="encrypt_space_delete_dialog_click_message">"*If you don't need to move data, %s"</string>
-    <string name="encrypt_space_delete_dialog_click_message_action">delete and create Second space now.</string>
-    <string name="encrypt_space_delete_dialog_positive_text">Move data</string>
-    <string name="encrypt_space_delete_notification_title">Second space</string>
-    <string name="encrypt_space_delete_notification_message">Delete your Second space and create a new one to update your device successfully.</string>
+    <string name="encrypt_space_delete_dialog_title">โปรดทราบ</string>
+    <string name="encrypt_space_delete_dialog_message">คุณกำลังจะอัปเดตแอนดรอยด์ หลังจากการอัพเดตข้อมูลพื้นที่ทับซ้อนจะไม่สามารถใช้ร่วมกันได้ เพื่อหลีกเลี่ยงปัญหานี้ให้ย้ายข้อมูลทั้งหมดไปยังพื้นที่ปกติ ลบพื้นที่ทับซ้อนและสร้างใหม่อีกครั้ง</string>
+    <string name="encrypt_space_delete_dialog_click_message">*หากคุณไม่ต้องการที่จะย้ายข้อมูล %s</string>
+    <string name="encrypt_space_delete_dialog_click_message_action">ลบและสร้างพื้นที่ทับซ้อนตอนนี้</string>
+    <string name="encrypt_space_delete_dialog_positive_text">ย้ายข้อมูล</string>
+    <string name="encrypt_space_delete_notification_title">พื้นที่ทับซ้อน</string>
+    <string name="encrypt_space_delete_notification_message">ลบพื้นที่ทับซ้อนของคุณและสร้างใหม่ อัพเดทอุปกรณ์ของคุณให้สำเร็จ</string>
     <string name="space_create_guide_title_1">ป้องกันความเป็นส่วนตัวของคุณ</string>
     <string name="space_create_guide_desc_1">จัดเก็บแอปและรูปภาพอย่างปลอดภัย</string>
     <string name="space_create_guide_title_2">สร้างได้ตลอดเวลา</string>
@@ -385,4 +396,7 @@
     <string name="experience_more_features">เพิ่มอุปกรณ์เพื่อดูคุณลักษณะทั้งหมด</string>
     <string name="can_not_switch_when_green_kid_active">การสลับไปยังพื้นที่ทับซ้อนถูกจำกัด โดยการควบคุมโดยผู้ปกครอง</string>
     <string name="need_network_when_bind">เชื่อมต่อกับเครือข่ายก่อนเพิ่มอุปกรณ์</string>
+    <string name="net_work_notice">Parental controls need to connect to the internet and get access to your location to work normally. This permissions are required to send the info about battery levels, step count, and your location to the controlled devices. Allow?</string>
+    <string name="agree">Agree</string>
+    <string name="disagree">"Don't agree"</string>
 </resources>

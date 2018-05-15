@@ -415,10 +415,10 @@
     <string name="find_device_prompt_message">อุปกรณ์ล็อกอยู่ ข้อความ: %1$s</string>
     <string name="find_device_activate_account">เปิดใช้งานบัญชี</string>
     <string name="login_check_find_device">กำลังขอรับข้อมูลด้านความปลอดภัยของอุปกรณ์…</string>
-    <string name="unlock_help_notice">"Help:
-1. If you forgot your password, go to id.mi.com to reset it.
-2. If you can't reset your password or somebody locked your device, go to i.mi.com to unlock it.
-3. Your unlock number: %s"</string>
+    <string name="unlock_help_notice">"ช่วยเหลือ:
+1. หากของคุณลืมรหัสผ่านของคุณ กรุณาไปยัง id.mi.com เพื่อรีเซ็ต
+2. หากของคุณไม่สามารถรีเซ็ตรหัสผ่านได้หรือมีผู้อื่นล็อกอุปกรณ์ของคุณ กรุราไปที่ i.mi.com เพื่อปลดล็อก
+3. หมายเลขปลดล็อกของคุณ: %s"</string>
     <string name="login_find_device_bind">อุปกรณ์เครื่องนี้ถูกผูกไว้กับบัญชี Mi อื่นอยู่ก่อนแล้ว (%s)</string>
     <string name="find_device_locked_account_phone" formatted="false">%s, ผูกกับหมายเลขโทรศัพท์: %s</string>
     <string name="find_device_locked_account_email" formatted="false">%s, ผูกกับที่อยู่อีเมล: %s</string>

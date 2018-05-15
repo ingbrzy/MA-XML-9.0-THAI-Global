@@ -3,7 +3,7 @@
     <string name="paused_waiting_for_network">กำลังรอการเชื่อมต่อเครือข่าย</string>
     <string name="notif_title_file_size">ทั้งหมด %1$d</string>
     <string name="notif_title_single_downloading">กำลังดาวน์โหลด %1$s</string>
-    <string name="download_filesize_unknown">Unknown</string>
+    <string name="download_filesize_unknown">ไม่รู้จัก</string>
     <string name="app_label">ดาวน์โหลด</string>
     <string name="permlab_downloadManager">เข้าถึงการดาวน์โหลด</string>
     <string name="permdesc_downloadManager">อนุญาตให้แอปพลิเคชันเข้าถึงตัวจัดการการดาวน์โหลดและใช้ตัวจัดการนี้ในการดาวน์โหลดไฟล์ แอปพลิเคชันที่เป็นอันตรายสามารถใช้การทำงานนี้เพื่อขัดขวางการดาวน์โหลดและการเข้าถึงข้อมูลส่วนตัว</string>

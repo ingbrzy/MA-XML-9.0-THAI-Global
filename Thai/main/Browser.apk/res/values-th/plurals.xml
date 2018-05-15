@@ -55,6 +55,6 @@
         <item quantity="other">เหลืออีก %d นาที</item>
     </plurals>
     <plurals name="view_realtime_clear">
-        <item quantity="other">Clear</item>
+        <item quantity="other">ล้าง</item>
     </plurals>
 </resources>

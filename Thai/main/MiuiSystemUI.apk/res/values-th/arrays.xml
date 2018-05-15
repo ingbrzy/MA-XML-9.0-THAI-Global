@@ -7,11 +7,11 @@
         <item>กำลังตรวจสอบสิทธิ์…</item>
         <item>กำลังรับที่อยู่ IP…</item>
         <item>เชื่อมต่อแล้ว</item>
-        <item>ระงับ</item>
-        <item>กำลังยกเลิกการเชื่อมต่อ…</item>
-        <item>ไม่เชื่อมต่อ</item>
+        <item>ระงับแล้ว</item>
+        <item>กำลังตัดการเชื่อมต่อ…</item>
+        <item>ตัดการเชื่อมต่อ</item>
         <item>ไม่สำเร็จ</item>
-        <item>ถูกบล็อก</item>
+        <item>บล็อกแล้ว</item>
         <item>หลีกเลี่ยงการเชื่อมต่อที่ไม่ดี</item>
     </string-array>
     <string-array name="wifi_status_with_ssid">
@@ -21,7 +21,7 @@
         <item>การรับรองความถูกต้องด้วย %1$s…</item>
         <item>ได้รับที่อยู่ IP จาก %1$s…</item>
         <item>กำลังเชื่อมต่อกับ %1$s</item>
-        <item>ระงับ</item>
+        <item>ระงับแล้ว</item>
         <item>กำลังตัดการเชื่อมต่อจาก %1$s…</item>
         <item>ตัดการเชื่อมต่อ</item>
         <item>ไม่สำเร็จ</item>
@@ -43,111 +43,116 @@
         <item>AVRCP 1.5</item>
         <item>AVRCP 1.6</item>
     </string-array>
+    <string-array name="bluetooth_avrcp_version_values">
+        <item>avrcp14</item>
+        <item>avrcp15</item>
+        <item>avrcp16</item>
+    </string-array>
     <string-array name="bluetooth_a2dp_codec_titles">
-        <item>ใช้การเลือกระบบ (ค่าเริ่มต้น)</item>
+        <item>การตั้งค่าระบบที่ใช้ (ค่าเริ่มต้น)</item>
         <item>SBC</item>
         <item>AAC</item>
         <item>aptX</item>
         <item>aptX HD</item>
         <item>LDAC</item>
-        <item>เปิดใช้ตัวแปลงรหัสที่ไม่บังคับ</item>
-        <item>ปิดใช้ตัวแปลงรหัสที่ไม่บังคับ</item>
+        <item>เปิดใช้งานตัวแปลงสัญญาณตัวเลือก</item>
+        <item>ปิดใช้งานตัวแปลงสัญญาณตัวเลือก</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_summaries">
-        <item>ใช้การเลือกระบบ (ค่าเริ่มต้น)</item>
+        <item>การตั้งค่าระบบที่ใช้ (ค่าเริ่มต้น)</item>
         <item>SBC</item>
         <item>AAC</item>
         <item>aptX</item>
         <item>aptX HD</item>
         <item>LDAC</item>
-        <item>เปิดใช้ตัวแปลงรหัสที่ไม่บังคับ</item>
-        <item>ปิดใช้ตัวแปลงรหัสที่ไม่บังคับ</item>
+        <item>เปิดใช้งานตัวแปลงสัญญาณตัวเลือก</item>
+        <item>ปิดใช้งานตัวแปลงสัญญาณตัวเลือก</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
-        <item>ใช้การเลือกระบบ (ค่าเริ่มต้น)</item>
+        <item>การตั้งค่าระบบที่ใช้ (ค่าเริ่มต้น)</item>
         <item>44.1 kHz</item>
         <item>48.0 kHz</item>
         <item>88.2 kHz</item>
         <item>96.0 kHz</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
-        <item>ใช้การเลือกระบบ (ค่าเริ่มต้น)</item>
+        <item>การตั้งค่าระบบที่ใช้ (ค่าเริ่มต้น)</item>
         <item>44.1 kHz</item>
         <item>48.0 kHz</item>
         <item>88.2 kHz</item>
         <item>96.0 kHz</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
-        <item>ใช้การเลือกระบบ (ค่าเริ่มต้น)</item>
-        <item>16 บิต/ตัวอย่าง</item>
-        <item>24 บิต/ตัวอย่าง</item>
-        <item>32 บิต/ตัวอย่าง</item>
+        <item>การตั้งค่าระบบที่ใช้ (ค่าเริ่มต้น)</item>
+        <item>16 bits/sample</item>
+        <item>24 bits/sample</item>
+        <item>32 bits/sample</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
-        <item>ใช้การเลือกระบบ (ค่าเริ่มต้น)</item>
-        <item>16 บิต/ตัวอย่าง</item>
-        <item>24 บิต/ตัวอย่าง</item>
-        <item>32 บิต/ตัวอย่าง</item>
+        <item>การตั้งค่าระบบที่ใช้ (ค่าเริ่มต้น)</item>
+        <item>16 bits/sample</item>
+        <item>24 bits/sample</item>
+        <item>32 bits/sample</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
-        <item>ใช้การเลือกระบบ (ค่าเริ่มต้น)</item>
+        <item>การตั้งค่าระบบที่ใช้ (ค่าเริ่มต้น)</item>
         <item>โมโน</item>
         <item>สเตอริโอ</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
-        <item>ใช้การเลือกระบบ (ค่าเริ่มต้น)</item>
+        <item>การตั้งค่าระบบที่ใช้ (ค่าเริ่มต้น)</item>
         <item>โมโน</item>
         <item>สเตอริโอ</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
-        <item>เพิ่มประสิทธิภาพสำหรับคุณภาพเสียง (990 kbps/909 kbps)</item>
-        <item>คุณภาพเสียงและการเชื่อมต่อที่สมดุล (660 kbps/606 kbps)</item>
-        <item>เพิ่มประสิทธิภาพสำหรับคุณภาพการเชื่อมต่อ (330 kbps/303 kbps)</item>
-        <item>ความพยายามอย่างเต็มที่ (ปรับอัตราบิตอัตโนมัติ)</item>
+        <item>เพิ่มประสิทธิภาพคุณภาพเสียง (990kbps/909kbps)</item>
+        <item>สมดุลคุณภาพเสียงและการเชื่อมต่อ (660kbps/606kbps)</item>
+        <item>เพิ่มประสิทธิภาพคุณภาพการเชื่อมต่อ (330kbps/303kbps)</item>
+        <item>ความพยายามที่ดีที่สุด (ปรับเปลี่ยนอัตราบิต)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
-        <item>เพิ่มประสิทธิภาพสำหรับคุณภาพเสียง</item>
-        <item>คุณภาพเสียงและการเชื่อมต่อที่สมดุล</item>
-        <item>เพิ่มประสิทธิภาพสำหรับคุณภาพการเชื่อมต่อ</item>
-        <item>ความพยายามอย่างเต็มที่ (ปรับอัตราบิตอัตโนมัติ)</item>
+        <item>เพิ่มประสิทธิภาพคุณภาพเสียง</item>
+        <item>สมดุลคุณภาพเสียงและการเชื่อมต่อ</item>
+        <item>เพิ่มประสิทธิภาพคุณภาพการเชื่อมต่อ</item>
+        <item>ความพยายามที่ดีที่สุด (ปรับเปลี่ยนอัตราบิต)</item>
     </string-array>
     <string-array name="select_logd_size_titles">
         <item>ปิด</item>
-        <item>64KB</item>
-        <item>256KB</item>
-        <item>1MB</item>
-        <item>4MB</item>
-        <item>16MB</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+        <item>4M</item>
+        <item>16M</item>
     </string-array>
     <string-array name="select_logd_size_lowram_titles">
         <item>ปิด</item>
-        <item>64KB</item>
-        <item>256KB</item>
-        <item>1MB</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
     </string-array>
     <string-array name="select_logd_size_summaries">
         <item>ปิด</item>
-        <item>64KB ต่อแต่ละบันทึกบัฟเฟอร์</item>
-        <item>256KB ต่อแต่ละบันทึกบัฟเฟอร์</item>
-        <item>1MB ต่อแต่ละบันทึกบัฟเฟอร์</item>
-        <item>4MB ต่อแต่ละบันทึกบัฟเฟอร์</item>
-        <item>16MB ต่อแต่ละบันทึกบัฟเฟอร์</item>
+        <item>64K ต่อแต่ละบันทึกบัฟเฟอร์</item>
+        <item>256K ต่อแต่ละบันทึกบัฟเฟอร์</item>
+        <item>1M ต่อแต่ละบันทึกบัฟเฟอร์</item>
+        <item>4M ต่อแต่ละบันทึกบัฟเฟอร์</item>
+        <item>16M ต่อแต่ละบันทึกบัฟเฟอร์</item>
     </string-array>
     <string-array name="select_logpersist_titles">
         <item>ปิด</item>
         <item>ทั้งหมด</item>
-        <item>ทั้งหมดเว้นวิทยุ</item>
-        <item>เฉพาะเคอร์เนล</item>
+        <item>วิทยุยกเว้นทั้งหมด</item>
+        <item>เคอร์เนลเท่านั้น</item>
     </string-array>
     <string-array name="select_logpersist_summaries">
         <item>ปิด</item>
-        <item>บัฟเฟอร์บันทึกทั้งหมด</item>
-        <item>ทั้งหมดยกเว้นบัฟเฟอร์บันทึกวิทยุ</item>
-        <item>เฉพาะบัฟเฟอร์ไฟล์บันทึกเคอร์เนล</item>
+        <item>บันทึกบัฟเฟอร์ทั้งหมด</item>
+        <item>ทั้งหมดไม่ใช่วิทยุยกเว้นบันทึกบัฟเฟอร์</item>
+        <item>เคอร์เนลบันทึกบัฟเฟอร์เท่านั้น</item>
     </string-array>
     <string-array name="window_animation_scale_entries">
         <item>ปิดภาพเคลื่อนไหว</item>
-        <item>ภาพเคลื่อนไหวซูม 0.5x</item>
+        <item>ภาพเคลื่อนไหวซูม .5x</item>
         <item>ภาพเคลื่อนไหวซูม 1x</item>
         <item>ภาพเคลื่อนไหวซูม 1.5x</item>
         <item>ภาพเคลื่อนไหวซูม 2x</item>
@@ -156,7 +161,7 @@
     </string-array>
     <string-array name="transition_animation_scale_entries">
         <item>ปิดภาพเคลื่อนไหว</item>
-        <item>ภาพเคลื่อนไหวซูม 0.5x</item>
+        <item>ภาพเคลื่อนไหวซูม .5x</item>
         <item>ภาพเคลื่อนไหวซูม 1x</item>
         <item>ภาพเคลื่อนไหวซูม 1.5x</item>
         <item>ภาพเคลื่อนไหวซูม 2x</item>
@@ -165,7 +170,7 @@
     </string-array>
     <string-array name="animator_duration_scale_entries">
         <item>ปิดภาพเคลื่อนไหว</item>
-        <item>ภาพเคลื่อนไหวซูม 0.5x</item>
+        <item>ภาพเคลื่อนไหวซูม .5x</item>
         <item>ภาพเคลื่อนไหวซูม 1x</item>
         <item>ภาพเคลื่อนไหวซูม 1.5x</item>
         <item>ภาพเคลื่อนไหวซูม 2x</item>
@@ -173,7 +178,7 @@
         <item>ภาพเคลื่อนไหวซูม 10x</item>
     </string-array>
     <string-array name="overlay_display_devices_entries">
-        <item>ไม่ตั้ง</item>
+        <item>ไม่มี</item>
         <item>480p</item>
         <item>480p (ปลอดภัย)</item>
         <item>720p</item>
@@ -208,8 +213,8 @@
         <item>แสดงพื้นที่สำหรับตาบอดสี (Deuteranomaly)</item>
     </string-array>
     <string-array name="debug_hw_renderer_entries">
-        <item>OpenGL (ค่าเริ่มต้น)</item>
-        <item>OpenGL (Skia)</item>
+        <item>โอเพนจีแอล (ค่าเริ่มต้น)</item>
+        <item>โอเพนจีแอล (เงา)</item>
     </string-array>
     <string-array name="app_process_limit_entries">
         <item>ขอบเขตมาตรฐาน</item>
@@ -220,7 +225,7 @@
         <item>ไม่เกิน 4 การดำเนินการ</item>
     </string-array>
     <string-array name="usb_configuration_titles">
-        <item>ชาร์จแบต</item>
+        <item>กำลังชาร์จ</item>
         <item>MTP (โอนไฟล์)</item>
         <item>PTP (โอนรูปภาพ)</item>
         <item>RNDIS (ต่อ USB)</item>
@@ -238,6 +243,17 @@
         <item>อย่างเร็วมาก</item>
         <item>เร็วที่สุด</item>
     </string-array>
+    <string-array name="tts_rate_values">
+        <item>60</item>
+        <item>80</item>
+        <item>100</item>
+        <item>150</item>
+        <item>200</item>
+        <item>250</item>
+        <item>300</item>
+        <item>350</item>
+        <item>400</item>
+    </string-array>
     <string-array name="color_mode_names">
         <item>สดใส (ค่าเริ่มต้น)</item>
         <item>ธรรมชาติ</item>
@@ -252,6 +268,24 @@
         <item>0%</item>
         <item>50%</item>
         <item>100%</item>
+    </string-array>
+    <string-array name="aqi_title_prefix">
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+    </string-array>
+    <string-array name="aqi_title_append">
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
     </string-array>
     <string-array name="aqi_title">
         <item>%1$s</item>

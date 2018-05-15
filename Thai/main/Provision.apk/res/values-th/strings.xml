@@ -15,6 +15,7 @@
     <string name="sim_card_detection_info">กรุณาใส่ซิมการ์ดและอ่านคำแนะนำที่ได้รับมาพร้อมกับอุปกรณ์ของคุณ</string>
     <string name="sim_card_detecting">กำลังตรวจหาซิมการ์ด…</string>
     <string name="sim_card_detecting_check">ไม่พบซิมการ์ด ตรวจสอบให้แน่ใจว่าซิมการ์ดถูกติดตั้งอย่างเหมาะสม และตรวจสอบว่ามียอดเงินคงเหลืออยู่</string>
+    <string name="sim_card_detecting_confirm_turn_on_network">อนุญาตให้เชื่อมต่อกับเครือข่ายข้อมูลมือถือหรือไม่? หากคุณทำเช่นนั้นซิมการ์ดที่คุณใส่จะใช้เพื่อเชื่อมต่อกับเครือข่ายข้อมูลมือถือ</string>
     <string name="other_settings">ตั้งค่าเพิ่มเติม</string>
     <string name="other_settings_location">ตำแหน่งพิกัด</string>
     <string name="other_settings_location_summary">อนุญาตให้แอปเข้าถึงตำแหน่งพิกัดของคุณ</string>

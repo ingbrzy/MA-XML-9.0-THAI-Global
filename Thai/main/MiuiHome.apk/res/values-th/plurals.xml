@@ -19,6 +19,6 @@
         <item quantity="other">ไม่สามารถถอนการติดตั้งแอป %1$d ได้</item>
     </plurals>
     <plurals name="uninstall_result_multi_succeeded">
-        <item quantity="other">ถอนการติดตั้งแล้ว %1$d แอป</item>
+        <item quantity="other">ถอนการติดตั้ง %1$d แอป</item>
     </plurals>
 </resources>

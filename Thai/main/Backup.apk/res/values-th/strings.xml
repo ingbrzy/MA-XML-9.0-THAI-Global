@@ -6,6 +6,9 @@
     <string name="xiaomi_update_dialog_message_diff">"เวอร์ชั่นแนะนำ %1$s
 ขนาด %2$s"</string>
     <string name="xiaomi_external_storage_unavailable">ที่จัดเก็บข้อมูลไม่พร้อมใช้งาน ตรวจสอบ SD การ์ดของคุณ</string>
+    <string name="xiaomi_bytes_unit">%1$sB</string>
+    <string name="xiaomi_kilobytes_unit">%1$sKB</string>
+    <string name="xiaomi_megabytes_unit">%1$sMB</string>
     <string name="xiaomi_connect_download_manager_fail">ไม่สามารถเริ่มการดาวน์โหลดได้ ตรวจสอบให้แน่ใจว่าตัวจัดการการดาวน์โหลดทำงานปกติ</string>
     <string name="app_name">สำรองข้อมูล</string>
     <string name="local_app_name">สำรองข้อมูล</string>
@@ -134,7 +137,7 @@
     <string name="restore_failed">การคืนค่าล้มเหลว</string>
     <string name="local_select_sysdata">ระบบ</string>
     <string name="local_select_userapp">แอป</string>
-    <string name="local_select_account_contact">บัญชีและรายชื่อ</string>
+    <string name="local_select_account_contact">บัญชี &amp; รายชื่อ</string>
     <string name="local_select_files">SD การ์ด</string>
     <string name="local_select_image">รูปภาพ</string>
     <string name="local_select_audio">ไฟล์เสียง</string>
@@ -195,7 +198,7 @@
     <string name="enable_encrypt_summery1">ลงชื่อเข้าสู่บัญชี Mi ของคุณเพื่อเรียกใช้ข้อมูลสำรองที่เข้ารหัสไว้</string>
     <string name="enable_encrypt_summery2">ระบบจะทำการเข้ารหัสข้อมูลสำรองของคุณโดยอัตโนมัติ คุณต้องเข้าสู่บัญชี Mi ก่อนจึงจะสามารถเข้าถึงข้อมูลดังกล่าวได้</string>
     <string name="enable_encrypt_xiaomi_account">การสำรองข้อมูลนี้สร้างขึ้นโดย %1$s เพื่อคืนค่า ให้ลบบัญชีปัจจุบัน และเข้าสู่ระบบด้วย %2$s</string>
-    <string name="enable_encrypt_ok">ตกลง</string>
+    <string name="button_got_it">ตกลง</string>
     <string name="no_encrypt_password">ไม่มีรหัสผ่าน</string>
     <string name="enable_encrypt_fail">การเข้ารหัสผิดพลาด</string>
     <string name="read_encrypt_fail">ไม่สามารถอ่านการสำรองข้อมูลที่เข้ารหัสได้</string>
@@ -226,6 +229,7 @@
     <string name="restore_backup">คืนค่า</string>
     <string name="enable_encrypt_description">เข้ารหัส</string>
     <string name="disable_encrypt_description">ไม่ได้เข้ารหัส</string>
+    <string name="digit_percent">%</string>
     <string name="state_waiting">รอสักครู่…</string>
     <string name="state_mounting">กำลังเข้าถึงพื้นที่จัดเก็บข้อมูลเราเตอร์…</string>
     <string name="abort_backup_confirm">ยังสำรองข้อมูลไม่เสร็จ ยกเลิกหรือไม่?</string>
@@ -248,6 +252,10 @@
     <string name="err_router_disconnected">ตรวจสอบการเชื่อมต่อเราเตอร์ของคุณแล้วลองอีกครั้ง</string>
     <string name="err_router_files_delete">ไม่สามารถลบไฟล์ข้อมูลสำรองบนเราเตอร์ได้</string>
     <string name="err_not_allow">ไม่รองรับ</string>
+    <string name="err_bakfile_not_exist">ไม่พบไฟล์ข้อมูลสำรองดังกล่าว</string>
+    <string name="err_pkg_not_exist">ไม่พบแอป</string>
+    <string name="err_user_abort">ถูกยกเลิกโดยผู้ใช้</string>
+    <string name="err_binder_died">แอปหยุดกระทันหัน</string>
     <string name="backup_is_running">สำรองข้อมูลเครื่อง</string>
     <string name="restore_is_running">เรียกคืนข้อมูลเครื่อง</string>
     <string name="notif_backup_title">สำรองข้อมูล</string>
@@ -288,8 +296,7 @@
     <string name="trans_receiver_time_remained">"เหลืออีก %sจะเสร็จ
 ห้ามปิด Wi-Fi ฮอตสปอต
 และวางเครื่องทั้งสองให้อยู่ใกล้กัน"</string>
-    <string name="trans_time_spent">"
-ใช้เวลา: %s"</string>
+    <string name="trans_time_spent">ใช้เวลา: %s</string>
     <string name="trans_restoring_no_items">กำลังซิงค์หลายรายการ</string>
     <string name="trans_detail_category_sysdata">ข้อมูลระบบ (รวมถึงข้อความ รายชื่อและประวัติการโทร)</string>
     <string name="trans_detail_category_userdata">แอป</string>
@@ -355,21 +362,27 @@
  แล้วแตะ \"เชื่อมต่ออีกครั้ง\" เพื่อสร้างรหัส QR"</string>
     <string name="trans_operate_reconnect_old_tips">"รอจนกว่าโทรศัพท์แสดง \"ถูกตัดการเชื่อมต่อ\"
  แล้วแตะ \"เชื่อมต่ออีกครั้ง\" เพื่อสแกนรหัส QR"</string>
+    <string name="trans_generating_qrcode">สร้างรหัส QR…</string>
+    <string name="trans_generate_qrcode_failed">ไม่สามารถสร้างรหัส QR ได้ ลองใหม่</string>
     <string name="trans_wait_trans_data">"เชื่อมต่อเครื่องเดิมแล้ว
 กำลังรอการถ่ายโอน…"</string>
     <string name="trans_select_data">เลือกรายการที่จะส่ง</string>
     <string name="trans_select_data_tips">"เลือกไฟล์ที่ต้องการถ่ายโอน
 ไฟล์ที่คล้ายกันบนอุปกรณ์ใหม่จะถูกเขียนทับ"</string>
-    <string name="trans_select_data_no_space">"ไม่มีพื้นที่ว่างเพียงพอบนอุปกรณ์ใหม่
-เลือกไฟล์อีกครั้งหรือล้างพื้นที่จัดเก็บ %s บนอุปกรณ์ใหม่"</string>
+    <string name="trans_select_data_no_space">"อุปกรณ์ใหม่พื้นที่จัดเก็บข้อมูลไม่เพียงพอ (พร้อมใช้งาน %s)
+เพิ่มพื้นที่จัดเก็บข้อมูลหรือถ่ายโอนรายการที่สำคัญเท่านั้น"</string>
     <string name="trans_select_data_too_large">"คุณเลือกรายการที่จะถ่ายโอนมากเกินไป 
  เลือกรายการที่สำคัญเท่านั้นเพื่อให้ถ่ายโอนได้เร็วขึ้น"</string>
     <string name="trans_calculating_base_size">กำลังประมวลขนาดข้อมูล</string>
     <string name="trans_calculating">กำลังประมวล…</string>
-    <string name="trans_native_no_space">"ไม่มีพื้นที่ว่างเพียงพอบนอุปกรณ์นี้
-ล้างพื้นที่จัดเก็บออกอย่างน้อย %s"</string>
+    <string name="trans_native_no_space">"อุปกรณ์เก่าพื้นที่จัดเก็บข้อมูลไม่เพียงพอ (พร้อมใช้งาน %s)
+เพิ่มพื้นที่จัดเก็บข้อมูลหรือถ่ายโอนรายการที่สำคัญเท่านั้น"</string>
     <string name="trans_calculating_app_sd_size">กำลังประมวลขนาด: %s</string>
     <string name="trans_please_waiting">รอสักครู่…</string>
+    <string name="trans_old_phone_low_space_title">พื้นที่จัดเก็บไม่เพียงพอ</string>
+    <string name="trans_old_phone_low_space_msg">Mi Mover จำเป็นต้องมีพื้นที่จัดเก็บข้อมูลเพียงพอที่จะถ่ายโอนข้อมูล แต่ดูเหมือนว่าพื้นที่จัดเก็บข้อมูลบนอุปกรณ์เก่าไม่เพียงพอ เพิ่มพื้นที่ได้ใน\"ความปลอดภัย\" หรือถ่ายโอนข้อมูลที่สำคัญเท่านั้น</string>
+    <string name="button_clean_garbage">เพิ่มพื้นที่</string>
+    <string name="button_quit">ออก</string>
     <string name="size_byte">B</string>
     <string name="size_kilo_byte">KB</string>
     <string name="size_mega_byte">MB</string>
@@ -424,6 +437,7 @@
     <string name="trans_disconnected_tips_title">อุปกรณ์ระยะไกลขาดการเชื่อมต่อ</string>
     <string name="trans_disconnected_tips_message">อุปกรณ์ระยะไกลขาดการเชื่อมต่อ เชื่อมต่อด้วยตนเองอีกครั้งหรือยกเลิกการถ่ายโอน</string>
     <string name="trans_button_cancel">ยกเลิก </string>
+    <string name="trans_failed_details_page_title">โอนไม่สำเร็จ</string>
     <string name="close_twice_auth_tutor">ปิดการตรวจสอบสิทธิ์ appleID สองขั้นตอน</string>
     <string name="close_twice_auth_steps">ทำตามขั้นตอนนี้เพื่อปิดการตรวจสอบสิทธิ์ appleID สองขั้นตอน</string>
     <string name="close_twice_auth_step_1">1. เปิดเว็บเบราว์เซอร์ไดก็ได้บนคอมพิวเตอร์และไปยัง appleid.apple.com</string>
@@ -490,6 +504,7 @@ https://appleid.apple.com/#!&amp;page=signin"</string>
 คุณต้องสำรองข้อมูลก่อน iCloud"</string>
     <string name="list_footer_tip_title">เคล็ดลับ:</string>
     <string name="import_tip_summary">ข้อกำหนดปัญหาความเข้ากันได้ สำหรับอุปกรณ์ iOS คุณสามารถถ่ายโอนได้เฉเพาะข้อมูลบางส่วนเท่านั้น ตรวจสอบให้แน่ใจว่าคุณได้สำรองข้อมูลก่อนการเริ่มการถ่ายโอน</string>
+    <string name="import_tip_message">@string/icloud_how_to_backup_tip_steps</string>
     <string name="button_import">นำเข้า</string>
     <string name="select_empty">เลือกรายการที่จะนำเข้า</string>
     <string name="select_item_summary_wait">กำลังรอ…</string>

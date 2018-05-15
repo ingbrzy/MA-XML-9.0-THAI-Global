@@ -97,8 +97,8 @@
     <string name="pref_camera_ai_scene_title">กล้อง AI</string>
     <string name="pref_camera_front_ai_scene_entry_on">กล้อง AI</string>
     <string name="pref_camera_front_ai_scene_entry_off">กล้อง AI ปิดอยู่</string>
-    <string name="ai_scene_mode_use_hint_text">"เปิดกล้อง Ai-Scene ให้ระบุฉากของภาพสำหรับคุณ 
- และปรับภาพให้เหมาะกับฉาก"</string>
+    <string name="ai_scene_mode_use_hint_text">"กล้อง AI ตรวจพบฉากโดยอัตโนมัติ
+และปรับแต่งรูปภาพโดยใช้ข้อมูลนี้"</string>
     <string name="pref_camera_coloreffect_entry_none">ปกติ</string>
     <string name="pref_camera_coloreffect_entry_instagram_rise">โลโม่</string>
     <string name="pref_camera_coloreffect_entry_instagram_clarendon">สดใส</string>
@@ -145,6 +145,9 @@
     <string name="portait_effect_entry_maze">เขาวงกต</string>
     <string name="portait_effect_entry_cool">มิ้นท์</string>
     <string name="portait_effect_entry_blackwhite">ดำ&amp;ขาว</string>
+    <string name="portait_effect_entry_story">เรื่องราว</string>
+    <string name="portait_effect_entry_riddle">ปริศนา</string>
+    <string name="portait_effect_entry_movie">ภาพยนตร์</string>
     <string name="pref_camera_touchafaec_entry_off">ปิด</string>
     <string name="pref_camera_touchafaec_entry_on">เปิด</string>
     <string name="pref_camera_multilevel_entry_lowest">ต่ำสุด</string>
@@ -245,6 +248,7 @@
     <string name="pref_camera_video_duration_entry_120">ไม่จำกัด</string>
     <string name="pref_camera_zsl_entry_off">ปิด</string>
     <string name="pref_camera_zsl_entry_on">เปิด</string>
+    <string name="pref_camera_facedetection_title">การตรวจจับใบหน้า</string>
     <string name="camera_facedetection_sub_option_hint">คุณลักษณะทดลอง</string>
     <string name="pref_camera_hand_night_title">HHT</string>
     <string name="camera_settings_label">การตั้งค่ากล้อง</string>
@@ -413,6 +417,7 @@
     <string name="pref_camera_zoom_mode_entry_tele">TELE</string>
     <string name="pref_camera_zoom_mode_entry_standard">ปกติ</string>
     <string name="pref_camera_zoom_mode_entry_high_pixel">แสงน้อย</string>
+    <string name="pref_camera_zoom_value_title">ซูม</string>
     <string name="pref_camera_portrait_mode_title">โหมดถ่ายภาพคน</string>
     <string name="pref_camera_portrait_mode_entry_off">โหมดถ่ายภาพคนปิดอยู่</string>
     <string name="pref_camera_portrait_mode_entry_on">โหมดถ่ายภาพคนเปิดอยู่</string>
@@ -422,6 +427,7 @@
     <string name="portrait_mode_depth_effect_success_hint">หน้าชัดหลังเบลอ</string>
     <string name="portrait_mode_use_hint">"โหมดภาพบุคคลจะทำให้พื้นหลังเบลอ
 และทำให้คนดูเด่นขึ้น"</string>
+    <string name="portrait_mode_use_hint_with_switch">@string/portrait_mode_use_hint</string>
     <string name="pref_camera_square_mode_title">รูปสี่เหลี่ยม</string>
     <string name="simple_mode_button_text_square">ปิดใช้รูปสี่เหลี่ยม</string>
     <string name="face_beauty_smart">อัจฉริยะ</string>
@@ -436,6 +442,7 @@
     <string name="pref_camera_beautify_entry_low">ต่ำ</string>
     <string name="pref_camera_beautify_entry_normal">ปานกลาง</string>
     <string name="pref_camera_beautify_entry_high">สูง</string>
+    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="camera_mode_options">โหมด</string>
     <string name="button_front_camera_title">ถ่ายเซลฟี่</string>
     <string name="button_normal_video_title">บันทึกวิดีโอ</string>
@@ -505,4 +512,6 @@
 ถ้าคุณหมุนโทรศัพท์ของคุณ"</string>
     <string name="text_ai_scene_selector_text_on">ภาพเงา</string>
     <string name="text_ai_scene_selector_text_off">ไฟพื้นหลัง</string>
+    <string name="pref_camera_asd_popup_title">แจ้งเตือนเมื่อควรเปิดแฟลช</string>
+    <string name="pref_video_captrue_ability_title">ถ่ายภาพนิ่งขณะบันทึกวิดีโอ</string>
 </resources>

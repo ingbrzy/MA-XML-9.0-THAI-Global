@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="common_google_play_services_enable_button">เปิดใช้</string>
+    <string name="common_google_play_services_enable_text">%1$s จะไม่ทำงานจนกว่าคุณจะเปิดใช้บริการ Google Play</string>
+    <string name="common_google_play_services_enable_title">เปิดใช้บริการ Google Play</string>
+    <string name="common_google_play_services_install_button">ติดตั้ง</string>
+    <string name="common_google_play_services_install_text">%1$s จะไม่ทำงานหากไม่มีบริการ Google Play ซี่งไม่มีในอุปกรณ์ของคุณ</string>
+    <string name="common_google_play_services_install_title">ติดตั้งบริการ Google Play</string>
+    <string name="common_google_play_services_notification_ticker">ข้อผิดพลาดของบริการ Google Play</string>
     <string name="common_google_play_services_unknown_issue">%1$s มีปัญหาเกี่ยวกับบริการของ Google Play โปรดลองอีกครั้ง</string>
+    <string name="common_google_play_services_unsupported_text">%1$s จะไม่ทำงานหากไม่มีบริการ Google Play ซึ่งอุปกรณ์ของคุณไม่สนับสนุน</string>
+    <string name="common_google_play_services_update_button">อัปเดต</string>
+    <string name="common_google_play_services_update_text">%1$s จะไม่ทำงานจนกว่าคุณจะอัปเดตบริการ Google Play</string>
+    <string name="common_google_play_services_update_title">อัปเดตบริการ Google Play</string>
+    <string name="common_google_play_services_updating_text">%1$s จะไม่ทำงานหากไม่มีบริการ Google Play ซึ่งกำลังอัปเดตอยู่ในขณะนี้</string>
+    <string name="common_google_play_services_wear_update_text">จำเป็นต้องใช้บริการ Google Play เวอร์ชันใหม่ ซึ่งจะอัปเดตอัตโนมัติในอีกไม่ช้า</string>
+    <string name="common_open_on_phone">เปิดบนโทรศัพท์</string>
+    <string name="common_signin_button_text">ลงชื่อเข้าใช้</string>
+    <string name="common_signin_button_text_long">ลงชื่อเข้าใช้ด้วย Google</string>
+    <string name="s1">บันทึกรูปภาพ</string>
+    <string name="s2">อนุญาตให้โฆษณาจัดเก็บรูปภาพในแกลเลอรีภาพไหม</string>
+    <string name="s3">ยอมรับ</string>
+    <string name="s4">ปฏิเสธ</string>
+    <string name="s5">สร้างกิจกรรมในปฏิทิน</string>
+    <string name="s6">อนุญาตให้โฆษณาสร้างกิจกรรมในปฏิทินไหม</string>
     <string name="abc_action_bar_home_description">ไปยังหน้าเริ่มต้น</string>
     <string name="abc_action_bar_up_description">ขึ้นไป</string>
     <string name="abc_action_menu_overflow_description">เพิ่มเติม</string>
@@ -51,6 +73,8 @@
     <string name="actionbar_textselection_title">การเลือกข้อความ</string>
     <string name="actionbar_web_search">ค้นหาเว็บ</string>
     <string name="ad_btn_default_text">ติดตั้ง</string>
+    <string name="ad_mark">โฆษณา</string>
+    <string name="ad_sponsored">ให้การสนับสนุน</string>
     <string name="adblock_force_updating_rules_toast">กำลังอัพเดทตัวบล็อกโฆษณา</string>
     <string name="adblock_rules_not_updated_toast">ไม่สามารถอัพเดทได้</string>
     <string name="adblock_rules_restore">ปลดบล็อก</string>
@@ -88,6 +112,7 @@
     <string name="aqi_quality_index_moderate">ปานกลาง</string>
     <string name="aqi_quality_index_pure">ยอดเยี่ยม</string>
     <string name="aqi_quality_index_unhealthy">ไม่ดีต่อสุขภาพ</string>
+    <string name="articles_updated">อัพเดต %1$d รายการแล้ว</string>
     <string name="autoSwithcingSearchEngineTips">เปลี่ยนไปใช้เครื่องมือค้นหาที่ใช้บ่อย</string>
     <string name="autofill_keyboard_accessory_content_description">ข้อเสนอแนะพร้อมใช้งาน</string>
     <string name="autofill_popup_content_description">ใช้การแสดงหน้าต่างกรอกอัตโนมัติอยู่</string>
@@ -111,9 +136,9 @@
     <string name="bookmark_group_lable">กลุ่ม</string>
     <string name="bookmark_needs_title">หน้าที่คั่นจำเป็นต้องมีชื่อ</string>
     <string name="bookmark_needs_url">หน้าที่คั่นต้องมีลิงก์ URL</string>
-    <string name="bookmark_not_saved">"Couldn't add to bookmarks"</string>
+    <string name="bookmark_not_saved">ไม่สามารถเพิ่มไปยังหน้าคั่นได้</string>
     <string name="bookmark_rename_group">เปลี่ยนชื่อกลุ่ม</string>
-    <string name="bookmark_saved">Added to bookmarks</string>
+    <string name="bookmark_saved">เพิ่มไปยังหน้าที่คั่น</string>
     <string name="bookmark_title">ชื่อที่คั่นหน้า</string>
     <string name="bookmark_title_lable">ชื่อ</string>
     <string name="bookmark_url">ลิงก์ http://</string>
@@ -135,11 +160,14 @@
     <string name="cancel">ยกเลิก </string>
     <string name="cannot_download">สามารถดาวน์โหลดได้แค่ลิงก์ \"http\" หรือ \"https\" เท่านั้น</string>
     <string name="card_setting_close_recommend">รับข้อเสนอแนะ</string>
+    <string name="channels_edit">แก้ไข</string>
+    <string name="channels_finish">เสร็จสิ้น</string>
     <string name="choosertitle_sharevia">แชร์ผ่าน</string>
     <string name="clear_history">ลบประวัติ</string>
     <string name="clear_most_visited">ประวัติล่าสุด</string>
     <string name="clear_search_history">ลบประวัติ</string>
     <string name="clear_video_download">ล้างวิดีโอ</string>
+    <string name="click_to_refresh">พักชั่วคราวตอนนี้ แตะเพื่อรีเฟรช</string>
     <string name="clip_dialog_title">เปิด URL ที่คัดลอก?</string>
     <string name="close_ads_choice_no">อนุญาต</string>
     <string name="close_ads_choice_yes">บล็อค</string>
@@ -169,6 +197,7 @@
     <string name="color_picker_dialog_title">เลือกสี</string>
     <string name="color_picker_hue">โทนสี</string>
     <string name="color_picker_saturation">ความอิ่มตัวของสี</string>
+    <string name="color_picker_value">ค่า</string>
     <string name="comment_app_menu">ความคิดเห็น</string>
     <string name="comment_description">ความคิดเห็น</string>
     <string name="comment_hint">ความคิดเห็น</string>
@@ -198,6 +227,7 @@
     <string name="contextmenu_webpage_snapshot">บันทึกหน้าเพจ</string>
     <string name="copy_to_clipboard_failure_message">ไม่สามารถบันทึกไปยังคลิปบอร์ดได้</string>
     <string name="copy_url">คัดลอก URL</string>
+    <string name="could_not_load_data">ไม่สามารถกำลังโหลดข้อมูลได้ รีเฟรชและลองใหม่</string>
     <string name="create_qr_code">รหัส QR</string>
     <string name="current_version_pad">แพด</string>
     <string name="current_version_pc">เดสท็อป</string>
@@ -205,7 +235,8 @@
     <string name="custom_head_card_text">เชื่ออยู่เสมอว่าสิ่งดีๆ กำลังจะเกิดขึ้น</string>
     <string name="custom_head_card_text_incognito">"คุณอยู่ในโหมดไม่ระบุตัวตน!
 หน้าที่คุณเปิดจะไม่ปรากฏอยู่ในประวัติการเข้าชม"</string>
-    <string name="data_traffic_prompt_change">การรับชมวิดีโอนี้ผ่านเครือข่ายข้อมูลมือถือต้องใช้ปริมาณการถ่ายโอนข้อมูลสูง ซึ่งหากใช้ไปเกินแพ็คเกจที่กำหนดแล้วอาจทำให้คุณต้องเสียค่าบริการที่เพิ่มขึ้นให้แก่ผู้ให้บริการเครือข่าย</string>
+    <string name="data_error">ข้อมูลผิดพลาด</string>
+    <string name="data_traffic_prompt_change">การชมวิดีโอนี้ผ่านเครือข่ายข้อมูลมือถือต้องใช้ปริมาณการถ่ายโอนข้อมูลสูง ซึ่งหากใช้เกินกว่าที่แพ็คเกจจำกัดไว้ อาจทำให้คุณต้องเสียค่าบริการเพิ่มเติมให้แก่ผู้ให้บริการเครือข่าย</string>
     <string name="data_traffic_prompt_message">การเลือกดูวิดีโอผ่านเครือข่ายมือถือต้องใช้ปริมาณการถ่ายโอนข้อมูลสูง ซึ่งหากใช้เกินกว่าแพ็คเกจที่กำหนดไว้ อาจทำให้คุณต้องเสียค่าบริการที่เพิ่มขึ้นให้แก่ผู้ให้บริการเครือข่าย</string>
     <string name="data_traffic_prompt_message_short">การใช้ข้อมูลมือถือในการสตรีมวิดีโออาจทำให้การใช้ข้อมูลของคุณเกินกว่าแพ็คเกจที่กำหนด</string>
     <string name="data_traffic_prompt_title">แจ้งเตือนการใช้ข้อมูล</string>
@@ -255,14 +286,14 @@
     <string name="download_dialog_file_length_nolength_txt">รอสักครู่…</string>
     <string name="download_failed">การดาวน์โหลดไม่สมบูรณ์</string>
     <string name="download_filter_all">ทั้งหมด</string>
-    <string name="download_filter_apk">Apk</string>
+    <string name="download_filter_apk">APK</string>
     <string name="download_filter_application">แอป</string>
     <string name="download_filter_audio">เพลง</string>
     <string name="download_filter_image">รูปภาพ</string>
     <string name="download_filter_others">อื่นๆ</string>
-    <string name="download_filter_text">ไฟล์</string>
+    <string name="download_filter_text">เอกสาร</string>
     <string name="download_filter_video">วิดีโอ</string>
-    <string name="download_filter_zip">Zip</string>
+    <string name="download_filter_zip">ZIP</string>
     <string name="download_in_process">กำลังดาวน์โหลด…</string>
     <string name="download_list_open_xl_ok">ตกลง</string>
     <string name="download_memory_info_avai">" ใช้ได้อีก %s|"</string>
@@ -366,11 +397,11 @@
     <string name="keep_queued_download">เก็บไว้</string>
     <string name="last_month">เดือนล่าสุด</string>
     <string name="license_activity_title">การอนุญาตให้ใช้ระบบเรียกดูผ่านเว็ป</string>
-    <string name="load_more">เรียกดูเพิ่มเติม</string>
     <string name="loading_tips">ลากลงเพื่อรีเฟรชหน้าจอ</string>
     <string name="local_bookmarks">Mi</string>
     <string name="login_failed_toast">ไม่สามารถเข้าสู่ระบบได้ รีเฟรชและลองใหม่</string>
-    <string name="low_memory_error">การดำเนินการก่อนหน้านี้ไม่สำเร็จเนื่องจากหน่วยความจำในเครื่องไม่เพียงพอ.</string>
+    <string name="long_press_edit">แตะค้างไว้เพื่อแก้ไข</string>
+    <string name="low_memory_error">การดำเนินการก่อนหน้านี้ไม่สำเร็จเนื่องจากหน่วยความจำในเครื่องไม่เพียงพอ</string>
     <string name="low_memory_toast">บราวเซอร์ไม่สามารถใช้งานได้ เนื่องจากหน่วยความจำเหลือน้อย</string>
     <string name="max_tabs_warning">ไม่สามารถเปิดแท็ปเพิ่มได้อีก</string>
     <string name="maximum_input_alert">รองรับได้ไม่เกิน 2048 ตัวอักษร</string>
@@ -387,7 +418,7 @@
     <string name="media_player_error_text_invalid_progressive_playback">วิดีโอนี้ไม่สามารถเล่นบนอุปกรณ์นี้ได้</string>
     <string name="media_player_error_text_unknown">ไม่สามารถเล่นวิดีโอนี้ได้</string>
     <string name="media_player_error_title">ไม่สามารถเล่นวิดีโอได้</string>
-    <string name="media_player_loading_video">กำลังโหลดวีดีโอ</string>
+    <string name="media_player_loading_video">รอสักครู่…</string>
     <string name="menu_addtodesk">เพิ่มไปยังหน้าจอหลัก</string>
     <string name="menu_exit_nightmode">ออก</string>
     <string name="menu_hv_swap">ปรับจอแนวตั้ง/แนวนอน</string>
@@ -510,6 +541,7 @@
     <string name="month_picker_dialog_title">ตั้งค่าเดือน</string>
     <string name="more_description">เมนู</string>
     <string name="more_option">ตัวเลือกอื่นๆ</string>
+    <string name="my_cahnnel">ช่องสัญญาณของฉัน</string>
     <string name="nav_bottom_bar_back">ย้อนกลับ</string>
     <string name="nav_bottom_bar_close_all">ปิดทั้งหมด</string>
     <string name="nav_bottom_bar_new_tab">แท็ปใหม่</string>
@@ -517,16 +549,21 @@
     <string name="nav_screen_container_tab_normal">แท็ปปกติ</string>
     <string name="nav_screen_incognito_message">"ประวัติการเรียกดูและประวัติการค้นหาของคุณจะไม่ได้รับการบันทึกในโหมดไม่ระบุตัวตน
 กรุณาจำว่าไฟล์ที่คุณดาวน์โหลดและบุ๊กมาร์กที่คุณเพิ่มจะยังคงบันทึกอยู่"</string>
-    <string name="nav_screen_incognito_title">Incognito mode</string>
-    <string name="navigation_delete_all">Swipe left or right to close all tabs</string>
+    <string name="nav_screen_incognito_title">โหมดไม่ระบุตัวตน</string>
+    <string name="navigation_delete_all">ปัดซ้ายหรือขวาเพื่อปิดแท็บทั้งหมด</string>
     <string name="navigationbar_rightbutton_actiontext_cancle">ยกเลิก </string>
     <string name="navigationbar_rightbutton_actiontext_go">เริ่มเลย</string>
     <string name="navigationbar_rightbutton_actiontext_search">ค้นหา</string>
+    <string name="net_error">เครือข่ายผิดพลาด</string>
     <string name="network_show_wifi_setting_tip_dialog_description">พบฮอตสปอต Wi-Fi บริเวณใกล้เคียง ลองเชื่อมต่อไหม?</string>
     <string name="network_show_wifi_setting_tip_dialog_title">มีสัญญาณ Wi-Fi ที่สามารถเชื่อมต่อได้</string>
+    <string name="news_load_failed">แตะเพื่อลองอีกครัั้ง</string>
+    <string name="news_loading">กำลังโหลด…</string>
     <string name="next_button_label">ถัดไป</string>
     <string name="no_app_open_document">ไม่พบแอปที่สามารถดำเนินการนี้ได้</string>
+    <string name="no_items">ไม่มีรายการเพิ่มเติมที่นี่ กรุณาลองหมวดหมู่อื่นๆ.</string>
     <string name="no_matches">ไม่พบผลลัพธ์</string>
+    <string name="no_network">กรุณาตรวจสอบการเชื่อมต่อเครือข่ายแล้วลองใหม่</string>
     <string name="no_space_alert_cancel">ในภายหลัง</string>
     <string name="no_space_alert_clean">เพิ่มพื้นที่</string>
     <string name="no_space_alert_text">พื้นที่จัดเก็บไม่เพียงพอ</string>
@@ -542,9 +579,9 @@
     <string name="onews__category_reddit">Reddit</string>
     <string name="open_app_confirm_message">อนุญาตให้หน้านี้เปิด %s?</string>
     <string name="open_file_explorer_failed">เปิดตัวจัดการไฟล์ไม่ได้</string>
-    <string name="open_private_folder">ปล่อยเพื่อแสดงโฟลเดอร์ซ่อน</string>
     <string name="open_voice_permission">อนุญาตไมค์เพื่อเชื่อมต่ออินเตอร์เน็ต</string>
     <string name="opening_file_error">ไม่สามารถเปิดไฟล์ที่เลือกไว้ได้</string>
+    <string name="other_channel">คลิกเพื่อเพิ่มช่องสัญญาณ</string>
     <string name="page_info">ข้อมูลเพจ</string>
     <string name="page_info_address">ที่อยู่:</string>
     <string name="page_info_view">ดูข้อมูลเพจ</string>
@@ -589,6 +626,7 @@
     <string name="pref_content_night_read_mode">โหมดกลางคืน</string>
     <string name="pref_content_search_engine">เครื่องมือค้นหาบนแถบที่อยู่ลิงก์</string>
     <string name="pref_content_search_engine_summary">เลือกเครื่องมือค้นหา</string>
+    <string name="pref_develop_mode">โหมดนักพัฒนา</string>
     <string name="pref_enable_adblock_notification">แสดงการแจ้งเตือนตัวบล็อกโฆษณา</string>
     <string name="pref_enable_news">ข่าว</string>
     <string name="pref_enable_novels">หนังสือ</string>
@@ -666,6 +704,7 @@
     <string name="profiler_started_toast">เริ่มต้นใช้โปรไฟล์แล้ว</string>
     <string name="profiler_stopped_toast">ตั้งโปรไฟล์สำเร็จ ผลลัพธ์ในอีก %1$s</string>
     <string name="progress_dialog_setting_wallpaper">กำลังตั้งค่าภาพพื้นหลัง…</string>
+    <string name="pull_to_refresh">ลากลงเพื่อรีเฟรชหน้าจอ</string>
     <string name="pull_to_refresh_pull_label">ลางลงเพื่อรีเฟรช</string>
     <string name="pull_to_refresh_release_label">ปล่อยเพื่อทำการแนะนำและรีเฟรช</string>
     <string name="qr_code_title">รหัส QR</string>
@@ -696,6 +735,11 @@
     <string name="readmode_recommend_message">คุณได้อ่านหนังสือเล่มนี้เรียบร้อยแล้ว :)</string>
     <string name="readmode_refresh">รีเฟรช</string>
     <string name="readmodelist_bookmarks_to_show">รายการอ่าน</string>
+    <string name="refresh">รีเฟรช</string>
+    <string name="refresh_fail">ไม่สามารถโหลดข้อมูลได</string>
+    <string name="refresh_success">พบ %1$d บทความที่คุณอาจจะชอบ</string>
+    <string name="refreshing">กำลังรีเฟรช…</string>
+    <string name="release_to_refresh">ปล่อยเพื่อรีเฟรช</string>
     <string name="remember_passwords_confirm_message">การปิดคุณลักษณะนี้จะมีผลต่อการใช้งาน</string>
     <string name="remove_bookmark">ลบหน้าที่คั่น</string>
     <string name="remove_bookmark_group">ลบกลุ่ม</string>
@@ -709,11 +753,6 @@
     <string name="retry_after_network_available">ไม่สามารถเชื่อมต่อกับเครือข่ายได้</string>
     <string name="retry_download">ลองอีกครั้ง</string>
     <string name="return_to_homepage">กลับไปยังหน้าเริ่มต้น</string>
-    <string name="rlv_last_refreshing_time">อัพเดทเมื่อ %1$s</string>
-    <string name="rlv_loading_more">รอสักครู่…</string>
-    <string name="rlv_pull_to_refresh">ลากลงเพื่อรีเฟรช</string>
-    <string name="rlv_refreshing">กำลังรีเฟรช…</string>
-    <string name="rlv_release_to_refresh">ปล่อยเพื่อรีเฟรช</string>
     <string name="rlz_access_point">Y1</string>
     <string name="root_folder_lable">ไม่ตั้ง</string>
     <string name="router_download_exist">มีไฟล์นี้อยู่แล้ว</string>
@@ -723,7 +762,7 @@
     <string name="same_folder_name_warning">มีชื่อกลุ่มนี้อยู่แล้ว</string>
     <string name="save_button_text">บันทึก</string>
     <string name="save_dialog_title">บันทึก</string>
-    <string name="save_file">บันทึก %s ไฟล์</string>
+    <string name="save_file">บันทึก %s</string>
     <string name="save_file_already_exist_alert_message">ไฟล์มีชื่อซ้ำกับไฟล์ที่มีอยู่ ต้องการแทนที่ไหม?</string>
     <string name="save_file_already_exist_alert_title">แทนที่ไฟล์ไหม?</string>
     <string name="save_form_data_confirm_message">การปิดคุณลักษณะนี้จะมีผลต่อการใช้งาน</string>
@@ -772,14 +811,10 @@
     <string name="select_download_device">เลือกอุปกรณ์</string>
     <string name="send_comment_button">ส่ง</string>
     <string name="send_comment_title">ความคิดเห็น</string>
-    <string name="senddesktop">ภาพพื้นหลัง</string>
+    <string name="senddesktop">หน้าจอหลัก</string>
     <string name="sendstartpage">หน้าเริ่มต้น</string>
     <string name="share_image_text">ดูซิว่าฉันแชร์อะไร! @MIUI</string>
     <string name="share_page_text">ดูซิว่าฉันแชร์อะไร: %1$s @MIUI| %2$s</string>
-    <string name="show_check_security_url_check_tip_dialog_description">เบราว์เซอร์ต้องการเชื่อมต่ออินเตอร์เน็ตเพื่อให้ทำงานได้ตามปกติ เพื่อปรับปรุงความปลอดภัยและรับข้อเสนอแนะที่เกี่ยวเนื่องกันเพิ่มเติม กรุณาอนุญาตเบราว์เซอร์เพื่อรับ URL ของเว็บไซต์ที่คุณได้เยี่ยมชมและเข้าถึงข้อมูลตำแหน่งพิกัดของคุณ</string>
-    <string name="show_check_security_url_check_tip_dialog_description_international">เบราว์เซอร์ต้องการเชื่อมต่ออินเตอร์เน็ตเพื่อให้ทำงานได้ตามปกติ เพื่อรับข้อเสนอแนะที่เกี่ยวเนื่องกันเพิ่มเติม กรุณาอนุญาตเบราว์เซอร์เพื่อรับ URL ของเว็บไซต์ที่คุณได้เยี่ยมชมและเข้าถึงข้อมูลตำแหน่งพิกัดของคุณ</string>
-    <string name="show_security_tip_dialog_title">เงื่อนไขการให้บริการ</string>
-    <string name="show_weather_location_getter_tip_dialog_description">เบราว์เซอร์ต้องการเชื่อมต่ออินเตอร์เน็ตเพื่อให้ทำงานได้ตามปกติ เพื่อปรับปรุงความปลอดภัยและรับข้อเสนอแนะที่เกี่ยวเนื่องกันเพิ่มเติมและข้อมูลสภาพอากาศ กรุณาอนุญาตเบราว์เซอร์เพื่อรับ URL ของเว็บไซต์ที่คุณได้เยี่ยมชมและเข้าถึงข้อมูลตำแหน่งพิกัดของคุณ</string>
     <string name="sign_in_to" formatted="false">ลงชื่อเข้าใช้ %s1 %s2\"</string>
     <string name="site_sort_des">จัดเรียงรายการใหม่</string>
     <string name="skip_button_label">ข้าม</string>
@@ -829,6 +864,7 @@
     <string name="time_picker_dialog_pm">PM</string>
     <string name="time_picker_dialog_second_subsecond_separator">.</string>
     <string name="time_picker_dialog_title">ตั้งเวลา</string>
+    <string name="tip_drag">กดค้างเพื่อแก้ไขและลากเพื่อเรียงลำดับ</string>
     <string name="title_bar_loading">กำลังโหลด…</string>
     <string name="too_many_windows_dialog_message">ไม่สามารถเปิดแท็บใหม่จนกว่าจะปิดแท็บที่ค้างอยู่ก่อน</string>
     <string name="too_many_windows_dialog_title">ไม่สามารถเปิดแท็ปเพิ่มได้อีก</string>
@@ -838,7 +874,7 @@
     <string name="unsecurity_url_toast">เว็บไซต์นี้ไม่ปลอดภัย</string>
     <string name="up_to_loading_tips">ปล่อยเพื่อรีเฟรช</string>
     <string name="update_no_network_toast">ไม่สามารถเชื่อมต่อกับเครือข่ายได้</string>
-    <string name="updating_chrome">กำลังอัพเดทโคม‧</string>
+    <string name="updating_chrome">กำลังอัพเดทโครม…</string>
     <string name="uploads_disabled">การอัพโหลดไฟล์ถูกปิดใช้งาน</string>
     <string name="url_copy_done">คัดลอก URL ไปยังคลิปบอร์ดแล้ว</string>
     <string name="url_find_on_page_result">ดูในเบราเซอร์</string>
@@ -866,7 +902,7 @@
     <string name="version_check_button_no_network">ไม่สามารถเชื่อมต่อกับเครือข่ายได้</string>
     <string name="version_check_button_resume_download">ดาวน์โหลดต่อ</string>
     <string name="version_check_button_update">อัพเดท</string>
-    <string name="version_check_failed">ไม่สามารถตรวจหาไฟล์อัพเดทได้</string>
+    <string name="version_check_failed">ไม่สามารถตรวจสอบค้นหาอัพเดตได้</string>
     <string name="version_dialog_buttion_ok">ตกลง</string>
     <string name="version_dialog_buttion_update">อัพเดท</string>
     <string name="version_update_file_download_toast">กำลังดาวน์โหลด</string>

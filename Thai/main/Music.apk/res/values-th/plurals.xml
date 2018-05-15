@@ -45,6 +45,10 @@
     <plurals name="dialog_confirm_delete_downloads_message">
         <item quantity="other">ลบ %d รายการ?</item>
     </plurals>
+    <plurals name="dialog_confirm_delete_downloads_message_with_file">
+        <item quantity="other">"ลบ %d รายการ?
+หมายเหตุ: ไฟล์จะถูกลบออกจากอุปกรณ์นี้เช่นกัน"</item>
+    </plurals>
     <plurals name="dialog_delete_descript">
         <item quantity="other">ลบ %d เพลง?</item>
     </plurals>

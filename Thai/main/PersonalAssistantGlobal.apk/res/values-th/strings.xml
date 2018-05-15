@@ -199,6 +199,7 @@
     <string name="ola_trip">โทรเรียกรถ</string>
     <string name="ola_trip_content">ประเมินค่าโดยสารและโทรเรียกรถ</string>
     <string name="ola_trip_content_detail">ประมาณค่าโดยสารโดยประมาณและโทรหา Ola</string>
+    <string name="phone_check">Optimization</string>
     <string name="place_label">ตำแหน่งที่ใช้บ่อย</string>
     <string name="record_name">บันทึก</string>
     <string name="record_parent">บันทึกเสียง</string>
@@ -259,6 +260,7 @@
     <string name="stock_change_rate_format">%.2f%%</string>
     <string name="stock_color_schema">โทนสี</string>
     <string name="stock_list_empty_text">คุณยังไม่ได้ติดตามบริษัทใดๆ</string>
+    <string name="stock_provider">ราคาหุ้นของตลาดหลักทรัพย์โดย Webull</string>
     <string name="stock_search_empty">ไม่พบหุ้น</string>
     <string name="stock_title">หุ้น</string>
     <string name="stock_title_schema">ตัวเลือกแสดงหุ้น</string>
@@ -301,6 +303,7 @@
     <string name="upgrade_now">อัพเดต</string>
     <string name="user_id">ID ผู้ใช้: %s</string>
     <string name="walk">เดิน</string>
+    <string name="webull_title">Webull</string>
     <string name="which_transport">ปกติคุณเดินทางไปยังจุดหมายปลายทางได้อย่างไร?</string>
     <string name="year_month_day_all_format_en">dd/MM/yyyy HH:mm:ss</string>
     <string name="year_month_day_format">dd/MM/yyyy</string>

@@ -22,8 +22,9 @@
     <string name="find_device_noise_title">ค้นหาอุปกรณ์ที่เตือนภัย</string>
     <string name="find_device_success_title">ค้นหาอุปกรณ์</string>
     <string name="find_device_notice_p1">ไปที่</string>
-    <string name="find_device_notice_p3">"ใช้ในการค้นหา สั่งล็อกเครื่องหรือกู้คืนเครื่อง
-ในกรณีที่คุณเปลี่ยนซิมการ์ด ระบบจะส่งข้อความอีกครั้งโดยอัตโนมัติเพื่อเปิดใช้งานบริการนี้"</string>
+    <string name="find_device_notice_p2">i.mi.com</string>
+    <string name="find_device_notice_p3">เพื่อค้นหาตำแหน่ง ล็อก หรือเรียกคืนค่าอุปกรณ์ของคุณ</string>
+    <string name="find_device_notice_sms_alert">หากคุณเปลี่ยนซิมการ์ด ระบบจะส่งข้อความอีกครั้งเพื่อเปิดใช้งานบริการดังกล่าวโดยอัตโนมัติ</string>
     <string name="i_know">ตกลง</string>
     <string name="unlock_error_network">เชื่อมต่อเครือข่ายไม่ได้</string>
     <string name="unlock_error_device_id">ไม่พบรหัสประจำตัวเครื่อง</string>
@@ -58,7 +59,7 @@
     <string name="change_find_device_status_failed">ไม่สามารถปลดล็อก %s ได้</string>
     <string name="unlock_help_title">คำแนะนำปลดล็อก:</string>
     <string name="unlock_help">"เชื่อมต่อเครือข่ายไว้ตลอดเวลา
-ตรวจสอบให้แน่ใจว่าใส่ซิมการ์ดที่ใช้งานได้ และเครื่องไม่ได้เชื่อมต่อกับ Wi-Fi ที่ช้าหรือใช้งานไม่ได้
+ตรวจสอบให้แน่ใจว่าใส่ซิมการ์ดที่ใช้งานได้(หากอุปกรณ์ของคุณรองรับ) และเครื่องไม่ได้เชื่อมต่อกับ Wi-Fi ที่ช้าหรือใช้งานไม่ได้
 
 กรณีที่ลืมรหัสผ่าน
 เข้าไปที่ id.mi.com เพื่อตั้งรหัสผ่านใหม่
@@ -78,8 +79,8 @@
     <string name="default_lock_msg_words_with_phone">สวัสดี พอดีโทรศัพท์ของฉันหาย! กรุณาช่วยติดต่อฉันได้มั้ย? ขอบคุณ!</string>
     <string name="default_lock_msg_words">อุปกรณ์ดังกล่าวผูกอยู่กับบัญชี Mi เนื่องจากเหตุผลด้านความปลอดภัย คุณจำเป็นต้องป้อนรหัสเพื่อยืนยันอุปกรณ์</string>
     <string name="lock_msg_phone">ข้อมูลผู้ติดต่อ: %s</string>
-    <string name="emergency_call">Emergency Call</string>
-    <string name="return_to_call">Return to Call</string>
+    <string name="emergency_call">โทรฉุกเฉิน</string>
+    <string name="return_to_call">กลับไปยังการโทร</string>
     <string name="default_debt_msg_words">"อุปกรณ์นี้ถูกล็อกเนื่องจากติดค้างการชำระเงิน
 ติดต่อตัวแทนจำหน่ายเพื่อขอรายละเอียด"</string>
     <string name="sys_notification_async_verify_title">เปิดใช้งานค้นหาอุปกรณ์อีกครั้ง</string>

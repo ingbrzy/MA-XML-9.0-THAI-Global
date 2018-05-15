@@ -27,6 +27,9 @@
     <string name="power_usage">การใช้พลังงาน</string>
     <string name="power_mode">การตั้งค่าพลังงาน</string>
     <string name="performance_category">โหมดประสิทธิภาพสูง</string>
+    <string name="pref_config_title">การเพิ่มประสิทธิภาพ</string>
+    <string name="app_preload_policies_title">AI โหลดล่วงหน้า</string>
+    <string name="app_preload_policies_summary">ใช้เครื่องเรียนรู้เพื่อคาดเดาแอปที่คุณมักใช้และโหลดทรัพยากรล่วงหน้า</string>
     <string name="scenario_policies_warmcontrol">ควบคุมอุณหภูมิ</string>
     <string name="warm_configure">การตั้งค่าควบคุมอุณหภูมิ</string>
     <string name="important_warning">คำเตือน</string>
@@ -72,18 +75,18 @@
     <string name="update_profile_sucess">อัพเดทฟอร์มเซิร์ฟเวอร์เรียบร้อย</string>
     <string name="update_profile_failture_not_connect_wifi">ไม่สามารถอัพเดทได้ กรุณาเชื่อมต่อกับ Wi-Fi แล้วลองใหม่</string>
     <string name="sucess">เสร็จสิ้น</string>
-    <string name="failure">ล้มเหลว</string>
+    <string name="failure">ผิดพลาด</string>
     <string name="cloud_addr_info">ข้อมูลคลาวด์</string>
     <string name="lasttime_feature_cloud">อัพเดทคุณลักษณะ:</string>
     <string name="lasttime_applist_cloud">อัพเดทแอป:</string>
     <string name="base_info">ข้อมูลพื้นฐาน</string>
     <string name="search_input_txt_na">"&lt;font color='#ff0000'>%s&lt;/font>"</string>
     <string name="search_result_text">ไม่พบแอปไดๆ</string>
-    <string name="power_consume_abnormal_night">In night power consume abnormal</string>
-    <string name="enable_sleep_mode">Enabling sleep mode to optimize night standby</string>
-    <string name="sleepmode_privacy_title">Sleep mode</string>
-    <string name="sleepmode_privacy_content">This feature will use your phone system and device information data, which will not be uploaded to the server</string>
-    <string name="sleepmode_privacy_link">Detailed security and privacy</string>
-    <string name="sleepmode_disclaimer_cancel">Cancle</string>
-    <string name="sleepmode_disclaimer_agree">Agree</string>
+    <string name="power_consume_abnormal_night">แบตเตอรี่หมดในเวลากลางคืน</string>
+    <string name="enable_sleep_mode">เปิดโหมดสลีปเพื่อเพิ่มประสิทธิภาพการใช้แบตเตอรี่เวลากลางคืน</string>
+    <string name="sleepmode_privacy_title">โหมดพักหน้าจอ</string>
+    <string name="sleepmode_privacy_content">คุณลักษณะนี้จะใช้ข้อมูลของระบบโทรศัพท์และอุปกรณ์ของคุณ นั่นจะไม่สามารถอัพโหลดไปยังเซิร์ฟเวอร์ได้</string>
+    <string name="sleepmode_privacy_link">เรียนรู้เพิ่มเติมเกี่ยวกับความเป็นส่วนตัวและความปลอดภัย</string>
+    <string name="sleepmode_disclaimer_cancel">ยกเลิก </string>
+    <string name="sleepmode_disclaimer_agree">ยอมรับ</string>
 </resources>

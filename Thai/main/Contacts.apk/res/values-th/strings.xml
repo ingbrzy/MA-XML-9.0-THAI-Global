@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="accessibility_calllog_detail">รายละเอียดประวัติการโทร</string>
     <string name="accessibility_contact_detail">รายละเอียดผู้ติดต่อ</string>
     <string name="account_container_title">นำเข้าจาก</string>
-    <string name="account_default">โทรศัพท์</string>
-    <string name="account_phone">เฉพาะโทรศัพท์ ยังไม่ได้ซิงค์</string>
+    <string name="account_default">ในเครื่อง</string>
+    <string name="account_phone">เฉพาะอุปกรณ์ ยังไม่ได้ซิงค์</string>
+    <string name="account_sdn">SDN</string>
+    <string name="account_sdn2">SDN %d</string>
     <string name="account_sim">ซิมการ์ด</string>
     <string name="account_sim2">ซิมการ์ด %d</string>
     <string name="account_type_format">รายชื่อ %1$s</string>
@@ -35,7 +38,7 @@
     <string name="add_xiaomi_account_dialog_title">เลือกบัญชี</string>
     <string name="aggregation_suggestion_edit_dialog_message">เปลี่ยนเป็นการแก้ไข ผู้ติดต่อชื่อเดียวกันหรือไม่ ข้อมูลที่คุณป้อนจนถึงตอนนี้จะถูกคัดลอก</string>
     <string name="aggregation_suggestion_edit_dialog_title">ชื่อเดียวกัน</string>
-    <string name="aggregation_suggestion_join_dialog_message">รวม รายชื่อปัจจุบันกับผู้ติดต่อที่เลือกไว้หรือไม่</string>
+    <string name="aggregation_suggestion_join_dialog_message">รวม รายชื่อปัจจุบันกับผู้ติดต่อที่เลือกไว้หรือไม่?</string>
     <string name="all_list_empty">ไม่มีรายชื่อ</string>
     <string name="antispam_mark_my_contribution">แก้ไขข้อมูลรายงาน</string>
     <string name="antispam_provider_format">รายงานโดย %s</string>
@@ -55,7 +58,7 @@
     <string name="button_join_service_number">เพิ่มเลขหมายบริการ</string>
     <string name="button_my_center">โปรไฟล์</string>
     <string name="button_scan">สแกนซ้ำ</string>
-    <string name="caching_vcard_message">กำลังแคช vCard ไปยังโทรศัพท์…</string>
+    <string name="caching_vcard_message">กำลังแคช vCard ไปยังอุปกรณ์…</string>
     <string name="caching_vcard_title">กำลังแคช</string>
     <string name="callAgain">โทรใหม่</string>
     <string name="callBack">โทรกลับ</string>
@@ -97,6 +100,7 @@
     <string name="call_sim_menu_title_suffix">(หลัก)</string>
     <string name="call_telex">โทรเทเล็กซ์</string>
     <string name="call_tty_tdd">โทร TTY/TDD</string>
+    <string name="call_type_and_date">%1$s %2$s     </string>
     <string name="call_unit">CNY</string>
     <string name="call_work">โทรเบอร์ที่ทำงาน</string>
     <string name="call_work_mobile">โทรมือถือที่ทำงาน</string>
@@ -107,7 +111,7 @@
     <string name="calllog_menu_edit_before_call">แก้ไข</string>
     <string name="calllog_menu_send_sms">ส่งข้อความ</string>
     <string name="callrecordview_item_newcontact">สร้างรายชื่อใหม่</string>
-    <string name="callrecordview_item_op_time_minutes_seconds">%1$d น %2$d วิ</string>
+    <string name="callrecordview_item_op_time_minutes_seconds">%1$dนาที %2$dวิ</string>
     <string name="callrecordview_item_op_time_missed">โทรไม่ติด</string>
     <string name="callrecordview_item_op_time_only_minutes">%d นาที</string>
     <string name="callrecordview_item_op_time_only_seconds">%d วินาที</string>
@@ -144,7 +148,7 @@
     <string name="callrecordview_menu_show_missed">สายไม่ได้รับ</string>
     <string name="callrecordview_menu_show_new">รายชื่อใหม่</string>
     <string name="callrecordview_menu_show_sim">สายของซิม %s</string>
-    <string name="callrecordview_menu_show_stranger">สายเรียกเข้าจากเลขหมายที่ไม่รู้จัก</string>
+    <string name="callrecordview_menu_show_stranger">สายเรียกเข้าจากหมายเลขที่ไม่รู้จัก</string>
     <string name="callrecordview_menu_show_title">แสดงประวัติการโทร</string>
     <string name="cancel_confirmation_dialog_message">ยกเลิกการเปลี่ยนแปลงหรือไม่</string>
     <string name="cancel_confirmation_dialog_title">ยกเลิก</string>
@@ -162,7 +166,7 @@
     <string name="chat_qq">แชทด้วย QQ</string>
     <string name="chat_skype">แชทด้วย Skype</string>
     <string name="chat_yahoo">แชทด้วย Yahoo</string>
-    <string name="checkhint">ตรวจสอบโทรศัพท์เป้าหมาย</string>
+    <string name="checkhint">ตรวจสอบเครื่องเป้าหมาย</string>
     <string name="clearCallLogConfirmation">รายการโทรเข้าออกทั้งหมดจะถูกลบออก</string>
     <string name="clearCallLogConfirmation_title">ลบรายการโทรเข้าออกทั้งหมด?</string>
     <string name="clearCallLogProgress_title">กำลังล้างรายการโทรเข้าออก…</string>
@@ -187,7 +191,7 @@
     <string name="combined_title_and_miprofile_swaped_huge_mode">"%1$s
 %2$s"</string>
     <string name="composer_failed_to_get_database_infomation">ไม่สามารถรับข้อมูลฐานข้อมูล</string>
-    <string name="composer_has_no_exportable_contact">ไม่มีรายชื่อที่ส่งออกได้ หากไม่พบรายชื่อบนแท็บเล็ตของคุณ อาจเนื่องมาจาดผู้ให้บริการข้อมูลบางรายไม่อนุญาตให้ส่งออกรายชื่อจากโทรศัพท์</string>
+    <string name="composer_has_no_exportable_contact">ไม่มีรายชื่อที่ส่งออกได้ หากไม่พบรายชื่อบนแท็บเล็ตของคุณ อาจเนื่องมาจาดผู้ให้บริการข้อมูลบางรายไม่อนุญาตให้ส่งออกรายชื่อจากอุปกรณ์</string>
     <string name="composer_not_initialized">ตัวสร้างไฟล์ vCard ไม่สามารถเริ่มทำงานได้</string>
     <string name="confirm_delete_contact_all_call_logs">ล้างประวัติการโทร?</string>
     <string name="confirm_delete_selected_all_call_logs">ล้างประวัติการโทร?</string>
@@ -287,11 +291,11 @@
     <string name="date_year_toggle">ระบุปี</string>
     <string name="default_ringtone">เสียงเรียกเข้าเริ่มต้น</string>
     <string name="deleteConfirmation">รายชื่อนี้จะถูกลบ</string>
-    <string name="deleteConfirmationDetail">ลบ \"%s\" หรือไม่</string>
+    <string name="deleteConfirmationDetail">ลบ \"%s\" หรือไม่?</string>
     <string name="deleteConfirmation_title">ลบรายชื่อนี้?</string>
     <string name="delete_call_log_message">ล้างประวัติการโทร?</string>
     <string name="delete_call_log_selected_title">ลบประวัติการโทรที่เลือกไว้?</string>
-    <string name="delete_call_log_title">เลือกประวัติการโทร</string>
+    <string name="delete_call_log_title">ลบประวัติการโทร</string>
     <string name="delete_contact_calllog_title">ล้างประวัติการโทร?</string>
     <string name="delete_dial_input">ลบ</string>
     <string name="delete_duplicate">ควบรวม</string>
@@ -328,7 +332,7 @@
     <string name="description_image_button_nine">เก้า</string>
     <string name="description_image_button_one">หนึ่ง</string>
     <string name="description_image_button_plus">บวก</string>
-    <string name="description_image_button_pound">Pound</string>
+    <string name="description_image_button_pound">สี่เหลี่ยม</string>
     <string name="description_image_button_seven">เจ็ด</string>
     <string name="description_image_button_sim1_dial">โทรโดยใช้ซิม 1</string>
     <string name="description_image_button_sim2_dial">โทรโดยใช้ซิม 2</string>
@@ -362,9 +366,9 @@
     <string name="device_import_progress_message">กำลังนำเข้า…</string>
     <string name="device_import_progress_toast">นำเข้ารายชื่อ %1$d รายการ</string>
     <string name="device_import_title">นำเข้า</string>
-    <string name="device_list_title">เลือกโทรศัพท์</string>
-    <string name="device_other_guide">โทรศัพท์อื่นๆรองรับบลูทูธ?</string>
-    <string name="device_other_title">นำเข้าจากโทรศัพท์อื่น</string>
+    <string name="device_list_title">เลือกอุปกรณ์</string>
+    <string name="device_other_guide">อุปกรณ์อื่นๆรองรับบลูทูธ?</string>
+    <string name="device_other_title">นำเข้าจากอุปกรณ์อื่น</string>
     <string name="device_paired_dialog_message">กำลังดึงรายชื่อ…</string>
     <string name="device_paired_dialog_title">กำลังดึงรายชื่อ…</string>
     <string name="device_pairing_dialog_message">กำลังจับคู่…</string>
@@ -414,10 +418,10 @@
     <string name="display_more_groups">กลุ่มเพิ่มเติม…</string>
     <string name="display_only_phones">ซ่อนเลขหมายที่ไม่ครบ</string>
     <string name="display_options_sort_by_family_name">นามสกุล</string>
-    <string name="display_options_sort_by_given_name">ชื่อตัว</string>
+    <string name="display_options_sort_by_given_name">ชื่อ</string>
     <string name="display_options_sort_list_by">เรียงรายการตาม</string>
     <string name="display_options_view_family_name_first">นามสกุลก่อน</string>
-    <string name="display_options_view_given_name_first">ชื่อตัวก่อน</string>
+    <string name="display_options_view_given_name_first">ชื่ออยู่ก่อน</string>
     <string name="display_options_view_names_as">ดูชื่อผู้ติดต่อเป็น</string>
     <string name="display_sim_contacts">แสดงรายชื่อใน SIM</string>
     <string name="display_ungrouped">รายชื่ออื่นทั้งหมด</string>
@@ -454,7 +458,7 @@
     <string name="export_to_sim2">ส่งออกไปยังซิมการ์ด 2</string>
     <string name="export_to_sim_prepare_title">กำลังเตรียม…</string>
     <string name="export_to_sim_title">กำลังส่งออก…</string>
-    <string name="export_vcard_description">ส่งออก vCard ไปยังที่จัดเก็บข้อมูลโทรศัพท์</string>
+    <string name="export_vcard_description">ส่งออก vCard ไปยังที่จัดเก็บข้อมูลอุปกรณ์</string>
     <string name="exporting_contact_failed_message">"ข้อมูลรายชื่อไม่ถูกส่งออก
 เหตุผล: \"%s\""</string>
     <string name="exporting_contact_failed_title">ไม่สามารถส่งออก</string>
@@ -475,7 +479,7 @@
     <string name="fail_reason_not_supported">ไม่รองรับรูปแบบนี้</string>
     <string name="fail_reason_too_long_filename">ชื่อไฟล์ที่ต้องการยาวเกินไป (\"%s\")</string>
     <string name="fail_reason_too_many_vcard">มีไฟล์ vCard ในที่เก็บข้อมูลมากเกินไป</string>
-    <string name="fail_reason_unknown">ข้อผิดพลาดไม่รู้จัก</string>
+    <string name="fail_reason_unknown">ข้อผิดพลาดที่ไม่รู้จัก</string>
     <string name="fail_reason_vcard_parse_error">ไม่สามารถแยก vCard ด้วยเหตุผลที่ไม่คาดคิด</string>
     <string name="favoritesFrequentCalled">การโทรที่โทรบ่อย</string>
     <string name="favoritesFrequentContacted">รายชื่อที่โทรบ่อย</string>
@@ -485,6 +489,7 @@
     <string name="force_touch_new_contact">รายชื่อใหม่</string>
     <string name="foundTooManyContacts">พบมากกว่า %d รายการ</string>
     <string name="frequentList">ใช้บ่อย</string>
+    <string name="from_account_format">%1$s</string>
     <string name="full_name">ชื่อ</string>
     <string name="gallery">คลังภาพ</string>
     <string name="generic_no_account_prompt">รักษาข้อมูลรายชื่อให้ปลอดภัย หากคุณทำโทรศัพท์หาย: ซิงค์กับบริการออนไลน์</string>
@@ -532,7 +537,7 @@
     <string name="import_contact_card_button">นำเข้ารายชื่อ</string>
     <string name="import_failure_no_vcard_file">ไม่พบไฟล์ vCard ในที่เก็บข้อมูล</string>
     <string name="import_from_onekey_migrate">นำเข้าโดยใช้ Mi Mover</string>
-    <string name="import_from_other_phone">นำเข้าจากโทรศัพท์เครื่องอื่น</string>
+    <string name="import_from_other_device">นำเข้าจากอุปกรณ์อื่นๆ</string>
     <string name="import_from_sdcard">นำเข้าจากอุปกรณ์จัดเก็บ</string>
     <string name="import_from_sim">นำเข้าจากซิมการ์ด</string>
     <string name="import_from_sim1">นำเข้าจากซิมการ์ด 1</string>
@@ -550,7 +555,7 @@
     <string name="import_to_xiaomi_account_progress_message">กำลังนำเข้า…</string>
     <string name="import_to_xiaomi_account_progress_title">นำเข้ารายชื่อไปยังบัญชี Xiaomi</string>
     <string name="import_to_xiaomi_account_title">นำเข้าไปยังบัญชี Mi</string>
-    <string name="import_vcard_description">นำเข้ารายชื่อจากที่จัดเก็บข้อมูลโทรศัพท์ของคุณ</string>
+    <string name="import_vcard_description">นำเข้ารายชื่อจากที่จัดเก็บข้อมูลอุปกรณ์ของคุณ</string>
     <string name="import_vcard_dialog_message">นำเข้า vCard?</string>
     <string name="importing_sim_contacts_miui">กำลังนำเข้ารายชื่อจากซิมการ์ด…</string>
     <string name="importing_sim_contacts_miui_prepare">กำลังจัดเตรียมรายชื่อ…</string>
@@ -563,6 +568,7 @@
     <string name="keep_local">ไม่ต้องซิงค์</string>
     <string name="keep_local_btn">ใช้ที่จัดเก็บในเครื่องของโทรศัพท์</string>
     <string name="label_custom_type">กำหนดเอง</string>
+    <string name="label_duplicate_count">(%1$d)</string>
     <string name="label_no_duplicate_contacts">ไม่พบข้อมูลซ้ำ</string>
     <string name="label_notes">บันทึก</string>
     <string name="label_sip_address">การโทรทางอินเทอร์เน็ต</string>
@@ -593,7 +599,7 @@
     <string name="low_memory_toast">คุณลักษณะนี้ไม่สามารถใช้งานได้ เนื่องจากหน่วยความจำเหลือน้อย</string>
     <string name="lunarBirthdayLabelsGroup">วันเกิดตามจันทรคติ</string>
     <string name="make_primary">จดจำตัวเลือกนี้</string>
-    <string name="map_custom">ดู %s ที่อยู่</string>
+    <string name="map_custom">ดูที่อยู่ %s</string>
     <string name="map_home">ดูที่อยู่บ้าน</string>
     <string name="map_other">ดูที่อยู่</string>
     <string name="map_work">ดูที่อยู่ที่ทำงาน</string>
@@ -666,20 +672,21 @@
     <string name="miprofile_contact_header">รายชื่อที่เพิ่มนามบัตรได้</string>
     <string name="miprofile_contact_meaasge">รายชื่อในเครื่อง</string>
     <string name="miprofile_contact_verifying">กำลังยืนยัน</string>
+    <string name="miprofile_delete_alertdialog_message">@string/miprofile_switch_off_alertdialog_message</string>
     <string name="miprofile_edit_title">แก้ไขข้อมูลส่วนตัว</string>
     <string name="miprofile_error_accept_self">ไม่สามารถแลกนามบัตรกับตนเองได้</string>
     <string name="miprofile_error_no_miaccount">ลงชื่อเข้าใช้บัญชี Mi ของคุณ</string>
     <string name="miprofile_error_not_opened">ปิดใช้งานนามบัตร</string>
     <string name="miprofile_error_not_set">คุณยังไม่ได้ซิงค์นามบัตรไปยังเซิร์ฟเวอร์</string>
-    <string name="miprofile_error_unknown">ขัดข้องไม่ทราบสาเหตุ</string>
+    <string name="miprofile_error_unknown">ขัดข้องที่ไม่ทราบสาเหตุ</string>
     <string name="miprofile_find_miprofile_title">เพิ่มเพื่อดูข้อมูลทั้งหมด</string>
     <string name="miprofile_find_profile_batch_add">เพิ่มทั้งหมด</string>
     <string name="miprofile_find_profile_batch_finish">เสร็จสิ้น</string>
-    <string name="miprofile_find_profile_batch_request_failed">ไม่สามารถเพิ่มโปรไฟล์แล้ว</string>
+    <string name="miprofile_find_profile_batch_request_failed">ไม่สามารถเพิ่มโปรไฟล์ได้</string>
     <string name="miprofile_find_profile_loading">กำลังโหลด…</string>
     <string name="miprofile_find_profile_no_recommend">ไม่มีโปรไฟล์แนะนำ</string>
     <string name="miprofile_finding_label">ค้นหานามบัตร</string>
-    <string name="miprofile_name">ข้อมูลส่วนตัว</string>
+    <string name="miprofile_name">โปรไฟล์ของฉัน</string>
     <string name="miprofile_nick_name_divider">"  |  "</string>
     <string name="miprofile_nick_name_edit">แก้ไขชื่อเล่นของรายชื่อ</string>
     <string name="miprofile_nick_name_edit_dialog_hint">ป้อนชื่อเล่น</string>
@@ -762,10 +769,11 @@
 •สำรองข้อมูลรายชื่อผู้ติดต่อได้อย่างปลอดภัย"</string>
     <string name="no_contact_details">ไม่มีข้อมูลเพิ่มเติมสำหรับรายชื่อนี้</string>
     <string name="no_contact_in_other_phone">ไม่พบรายชื่อ</string>
-    <string name="no_contacts_dialog_message">รายชื่อของคุณอาจเก็บอยู่ในซิมการ์ด ลองนำเข้ารายชื่อจากซิมการ์ดไปยังที่จัดเก็บในเครื่องโทรศัพท์ของคุณ แล้วลองอีกครั้ง</string>
-    <string name="no_contacts_dialog_title">ไม่สามารถค้นหารายชื่อ</string>
+    <string name="no_contacts_dialog_message">รายชื่ออาจจัดเก็บอยู่ในซิมการ์ด ลองนำเข้ารายชื่อจากซิมการ์ดไปยังที่จัดเก็บภายในเครื่องก่อน แล้วลองใหม่อีกครั้ง</string>
+    <string name="no_contacts_dialog_title">ไม่สามารถค้นหารายชื่อได้</string>
     <string name="no_contacts_selected">ไม่มีรายชื่อที่เลือก</string>
     <string name="no_sdcard_message">ไม่พบ SD การ์ด</string>
+    <string name="no_setting_menu">ไม่มีตัวเลือกเมนูที่พร้อมใช้งาน</string>
     <string name="non_phone_add_to_contacts">เพิ่มไปยังรายชื่อที่มีอยู่</string>
     <string name="non_phone_caption">หมายเลขโทรศัพท์</string>
     <string name="non_phone_close">ปิด</string>
@@ -786,12 +794,12 @@
     <string name="option_rename_group">เปลี่ยนชื่อ</string>
     <string name="option_send_to_desktop">วางบนหน้าจอหลัก</string>
     <string name="option_send_to_others">ส่งต่อ</string>
-    <string name="option_view_contact">แสดง</string>
+    <string name="option_view_contact">เรียกดู</string>
     <string name="option_view_group">แสดง</string>
     <string name="organizationLabelsGroup">องค์กร</string>
     <string name="organization_company_and_title">%1$s, %2$s</string>
     <string name="other_contacts">รายชื่ออื่น</string>
-    <string name="other_phone">โทรศัพท์เครื่องอื่น</string>
+    <string name="other_phone">เครื่องอื่นๆ</string>
     <string name="path_batch_delete">แอประบบ/รายชื่อ/จัดการรายชื่อ/ลบแบบหลายรายการ</string>
     <string name="path_contacts_display">แอประบบ/รายชื่อ/การตั้งค่าการแสดงผล</string>
     <string name="path_contacts_more">แอประบบ/รายชื่อ/จัดการรายชื่อ</string>
@@ -818,10 +826,13 @@
     <string name="path_wipe_data">แอประบบ/รายชื่อ/จัดการรายชื่อ/ล้างข้อมูล</string>
     <string name="payphone">โทรศัพท์สาธารณะ</string>
     <string name="people">รายชื่อ</string>
+    <string name="percent_sign">%</string>
+    <string name="percentage">%s%%</string>
     <string name="phoneLabelsGroup">โทรศัพท์</string>
+    <string name="phone_info_divider">" ｜ "</string>
     <string name="phone_number_too_long_toast">หมายเลขยาวเกินไป</string>
     <string name="phone_primary">หลัก</string>
-    <string name="photoPickerNotFoundText">ไม่มีรูปภาพในโทรศัพท์</string>
+    <string name="photoPickerNotFoundText">ไม่มีรูปภาพในเครื่อง</string>
     <string name="photo_fragment">รูปภาพ</string>
     <string name="photo_load_failed">โหลดรูปภาพไม่ได้</string>
     <string name="pick_new_photo">เลือกรูปภาพใหม่จาก %s</string>
@@ -854,6 +865,9 @@
     <string name="pref_key_photo_word_title">กำหนดรูปผู้ติดต่อ</string>
     <string name="pref_key_rebuild_t9_index_message">สร้างข้อมูลดัชนีใหม่แก้ปัญหาการค้นหา</string>
     <string name="pref_key_rebuild_t9_index_title">สร้างข้อมูลดัชนีใหม่</string>
+    <string name="pref_key_sdn_manage">เรียกดู SDN</string>
+    <string name="pref_key_sdn_manage1">เรียกดู SDN การ์ด 1</string>
+    <string name="pref_key_sdn_manage2">เรียกดู SDN การ์ด 2</string>
     <string name="pref_key_sim_manage">ซิมการ์ด</string>
     <string name="pref_key_sim_manage1">ตั้งค่าซิมการ์ด 1</string>
     <string name="pref_key_sim_manage2">ตั้งค่าซิมการ์ด 2</string>
@@ -883,7 +897,7 @@
     <string name="preference_key_trash_bin_title">กู้คืนรายชื่อผู้ติดต่อ</string>
     <string name="preference_other">อื่นๆ</string>
     <string name="preference_others">อื่นๆ</string>
-    <string name="preference_phone">โทรศัพท์</string>
+    <string name="preference_phone">อุปกรณ์</string>
     <string name="preference_phone_more_title">การตั้งค่าการโทร</string>
     <string name="preference_remove_duplicate">ควบรวมรายชื่อซ้ำเข้าด้วยกัน</string>
     <string name="preference_show_yellowpage_tab_description">สมุดหน้าเหลืองอาจไม่ทำงานอย่างถูกต้องเมื่อปิดคุณลักษณะนี้</string>
@@ -975,12 +989,14 @@
     <string name="scan_qrcode_card_hint2" />
     <string name="scanning_sdcard_failed_message">เหตุผล: \"%s\"</string>
     <string name="scanning_sdcard_failed_title">ไม่สามารถสแกนอุปกรณ์จัดเก็บได้</string>
+    <string name="sdnContacts_empty">ไม่มี SDN</string>
+    <string name="sdnContacts_emptyLoading">กำลังโหลด SDN…</string>
     <string name="searchHint">ค้นหารายชื่อ</string>
     <string name="search_batch_delete">จัดการ;รายชื่อ</string>
     <string name="search_contacts_display">รายชื่อ;แสดง</string>
     <string name="search_contacts_more">จัดการ;รายชื่อ</string>
     <string name="search_contacts_recovery">รายชื่อ</string>
-    <string name="search_contacts_setting">การตั้งค่ารายชื่อ;รูปภาพและข้อมูลที่แสดง;กำหนดรูปภาพรายชื่อ;นำเข้าและส่งออก;แชร์; นำเข้าจาก SD การ์ด;นำเข้าจากซิมการ์ด;นำเข้าจากโทรศัพท์อื่น;ส่งออกจาก SD การ์ด;ส่งออกจากซิมการ์ด;แชร์รายชื่อ; การตั้งค่าการแสดงผล;ซ่อนเลขหมายที่ไม่สมบูรณ์;แสดงรายชื่อซิม;ตั้งค่ารายชื่อ;กลุ่มอัจฉริยะ;จัดการรายชื่อ; ควบรวมรายชื่อซ้ำเข้าด้วยกัน;ลบแบบหลายรายการ;ล้างข้อมูล;สร้างข้อมูลดัชนีรายชื่อใหม่;t9;ซิมการ์ด;ที่จัดเก็บข้อมูลซิมการ์ด;แนะนำการกู้คืนรายชื่อผู้ติดต่อ;รายการรูปภาพ</string>
+    <string name="search_contacts_setting">การตั้งค่ารายชื่อ;รูปภาพและข้อมูลที่แสดง;กำหนดรูปภาพรายชื่อ;นำเข้าและส่งออก;แชร์; นำเข้าจากที่จัดเก็บข้อมูล;นำเข้าจากซิมการ์ด;นำเข้าจากโทรศัพท์อื่น;ส่งออกจากที่จัดเก็บข้อมูล;ส่งออกจากซิมการ์ด;แชร์รายชื่อ; การตั้งค่าการแสดงผล;ซ่อนเลขหมายที่ไม่สมบูรณ์;แสดงรายชื่อซิม;ตั้งค่ารายชื่อ;กลุ่มอัจฉริยะ;จัดการรายชื่อ; ควบรวมรายชื่อซ้ำเข้าด้วยกัน;ลบแบบหลายรายการ;ล้างข้อมูล;สร้างข้อมูลดัชนีรายชื่อใหม่;t9;ซิมการ์ด;ที่จัดเก็บข้อมูลซิมการ์ด;แนะนำการกู้คืนรายชื่อผู้ติดต่อ;รายการรูปภาพ</string>
     <string name="search_display_only_phones">รายชื่อ;แสดง</string>
     <string name="search_display_sim_contacts">รายชื่อ;แสดง</string>
     <string name="search_export_to_sdcard">รายชื่อ;ส่งออก;ที่จัดเก็บข้อมูล</string>
@@ -1003,12 +1019,12 @@
     <string name="search_simple_mode">แสดง;ข้อมูล;รูปภาพ;รายชื่อ</string>
     <string name="search_smart_group_title">รายชื่อ;แสดง</string>
     <string name="search_wipe_data">จัดการ;รายชื่อ</string>
-    <string name="searching_vcard_message">กำลังค้นหาข้อมูล vCard ใน SD การ์ด…</string>
+    <string name="searching_vcard_message">กำลังค้นหาข้อมูล vCard จากอุปกรณ์…</string>
     <string name="select_all">เลือกทั้งหมด</string>
     <string name="select_all_exceed">เลือกได้ไม่เกิน %1$d ไม่สามารถเลือกทั้งหมดได้</string>
     <string name="select_exceed">เลือกได้ไม่เกิน %1$d</string>
     <string name="select_groups">เลือกกลุ่ม</string>
-    <string name="select_none">ไม่มีรายการที่เลือก</string>
+    <string name="select_none">ไม่ได้เลือกรายการ</string>
     <string name="select_show_contacts">รายชื่อผู้ติดต่อ</string>
     <string name="select_vcard_title">เลือกไฟล์ vCard</string>
     <string name="send_contact_shortcut_todesktop_success">เพิ่มในหน้าจอหลักแล้ว</string>
@@ -1023,7 +1039,7 @@
     <string name="set_photo_failed_msg">ไม่สามารถส่งรูปภาพได้</string>
     <string name="share_error">ไม่สามารถแชร์รายชื่อนี้</string>
     <string name="share_over_limit">ไม่สามารถแชร์เกินกว่า 1000 รายชื่อได้</string>
-    <string name="share_via">ส่งโดยใช้แอป</string>
+    <string name="share_via">ส่งโดยใช้</string>
     <string name="share_visible_contacts">แชร์รายชื่อ</string>
     <string name="shortcutActivityTitle">เลือกผู้ติดต่อที่จะตั้งปุ่มลัด</string>
     <string name="shortcutContact">รายชื่อ</string>
@@ -1059,6 +1075,7 @@
     <string name="sim_unloaded">ซิมการ์ดไม่ได้ติดตั้ง</string>
     <string name="sina_weibo">Sina Weibo</string>
     <string name="single_group_list_empty">ไม่มีสมาชิกกลุ่ม</string>
+    <string name="smart_group_action_bar_title">%1$s: %2$s (%3$s)</string>
     <string name="smart_group_company_label">บริษัท</string>
     <string name="smart_group_company_unavailable">ไม่มีข้อมูลบริษัท</string>
     <string name="smart_group_frequency_1">ภายในเดือนที่ผ่านมา</string>
@@ -1095,6 +1112,7 @@
     <string name="sms_work_pager">ส่งข้อความเพจเจอร์ที่ทำงาน</string>
     <string name="social_widget_label">ผู้ติดต่อ</string>
     <string name="social_widget_loading">กำลังโหลด…</string>
+    <string name="special_code_security_exception">ไม่สามารถการดำเนินการเสร็จสิ้นได้ นี่ไม่ใช่ปุ่มโทรเริ่มต้นของคุณ</string>
     <string name="splitConfirmation">รายชื่อผู้ติดต่อนี้จะถูกแยกออกตามหมายเลขโทรศัพท์</string>
     <string name="splitConfirmation_title">แยกรายชื่อออกจากกัน?</string>
     <string name="starredList">ติดดาว</string>
@@ -1105,6 +1123,7 @@
     <string name="strequentList">รายการโปรด</string>
     <string name="success_message_import_from_account">นำเข้ารายชื่อแล้ว</string>
     <string name="summary_kind_title">สรุป</string>
+    <string name="sv">SV</string>
     <string name="t9_search_empty_create_contact">สร้างรายชื่อใหม่</string>
     <string name="t9_search_empty_edit_contact">เพิ่มไปยังรายชื่อ</string>
     <string name="t9_search_empty_send_sms">ส่งข้อความ</string>
@@ -1122,8 +1141,8 @@
     <string name="toast_copy_done">เสร็จสิ้น</string>
     <string name="toast_copying">กำลังคัดลอก…</string>
     <string name="toast_displaying_all_contacts">กำลังแสดงรายชื่อทั้งหมด</string>
-    <string name="toast_finish_delete_call_log">ลบประวัติการโทรแล้ว</string>
-    <string name="toast_finish_delete_selected_call_log">ลบประวัติการโทรแล้ว</string>
+    <string name="toast_finish_delete_call_log">ล้างเรียบร้อยแล้ว</string>
+    <string name="toast_finish_delete_selected_call_log">ล้างเรียบร้อยแล้ว</string>
     <string name="toast_for_failed_saving_nickname">ไม่สามารถบันทึกชื่อเล่น</string>
     <string name="toast_for_saving_nickname">ชื่อเล่นถูกบันทึกแล้ว</string>
     <string name="toast_join_with_empty_contact">พิมพ์ชื่อผู้ติดต่อก่อนที่จะรวม กับชื่ออื่น</string>
@@ -1190,6 +1209,7 @@
     <string name="voip_audio_description">โทรผ่านเน็ต</string>
     <string name="voip_video_description">วิดีโอคอลผ่านเน็ต</string>
     <string name="websiteLabelsGroup">เว็บไซต์</string>
+    <string name="widget_name_and_phonetic">%1$s (%2$s)</string>
     <string name="wipe_data">ล้างข้อมูล</string>
     <string name="yellowPageNavigationIconLabel">สมุดหน้าเหลือง</string>
     <string name="yellowPageNavigationLabel">สมุดหน้าเหลือง</string>
@@ -1204,7 +1224,7 @@
     <string name="yellowpage_navigation_search_city_name_hint">เมือง</string>
     <string name="yellowpage_navigation_search_history">ประวัติ</string>
     <string name="yellowpage_navigation_search_offline_hint">คุณกำลังออฟไลน์</string>
-    <string name="yellowpage_navigation_search_result_average_price">เฉลี่ย %d RMB</string>
+    <string name="yellowpage_navigation_search_result_average_price">เฉลี่ย %d CNY</string>
     <string name="yellowpage_navigation_search_result_network_error">ไม่สามารถเชื่อมต่อกับเครือข่ายได้</string>
     <string name="yellowpage_navigation_search_result_no_more">ไม่มีผลลัพธ์เพิ่มเติม</string>
     <string name="yellowpage_navigation_search_result_service_error">บริการไม่พร้อมใช้งาน</string>
