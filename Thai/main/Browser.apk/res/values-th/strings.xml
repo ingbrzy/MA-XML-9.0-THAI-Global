@@ -197,7 +197,6 @@
     <string name="color_picker_dialog_title">เลือกสี</string>
     <string name="color_picker_hue">โทนสี</string>
     <string name="color_picker_saturation">ความอิ่มตัวของสี</string>
-    <string name="color_picker_value">ค่า</string>
     <string name="comment_app_menu">ความคิดเห็น</string>
     <string name="comment_description">ความคิดเห็น</string>
     <string name="comment_hint">ความคิดเห็น</string>
