@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="action_add_to_workspace">เพิ่มไปยังหน้าแรก</string>
     <string name="activity_not_found">ไม่พบการติดตั้งแอปในเครื่อง</string>
     <string name="add_screen">เพิ่มหน้าจอ</string>
+    <string name="announce_for_checked">%1$s เลือกแล้ว</string>
     <string name="announce_for_choose_default_screen">ตั้งค่าหน้าจอ %1$d เป็นหน้าจอหลักเริ่มต้น</string>
     <string name="announce_for_close_default_preview">ปิดการตั้งค่าหน้าจอหลักเริ่มต้นแล้ว</string>
     <string name="announce_for_close_folder">ปิดโฟลเดอร์</string>
@@ -22,10 +24,13 @@
     <string name="announce_for_drop_workspace">หน้าที่ %1$d วรรคที่ %2$d บรรทัดที่ %3$d</string>
     <string name="announce_for_edit_mode">เข้าโหมดแก้ไข</string>
     <string name="announce_for_edit_mode_disable">เข้าโหมดแก้ไข</string>
+    <string name="announce_for_move">ย้ายไปที่แถว %1$d คอลัมน์ %2$d</string>
+    <string name="announce_for_move_hotseat">เลื่อนไปที่แถบด้านล่างตำแหน่งที่ %1$d</string>
     <string name="announce_for_open_default_preview">เปิดการตั้งค่าหน้าจอหลักเริ่มต้น</string>
     <string name="announce_for_open_folder">เปิดโฟลเดอร์ %1$s</string>
     <string name="announce_for_open_launcher_menu">เปิดเมนูแล้ว</string>
     <string name="announce_for_show_uninstall_dialog">มีการถอนการติดตั้งกล่องโต้ตอบ ยกเลิกหรือยืนยัน</string>
+    <string name="announce_for_unchecked">%1$s ยังไม่เลือก</string>
     <string name="app_already_exist">มีแอปนี้อยู่ในเครื่องแล้ว</string>
     <string name="app_being_backup_message">ระบบกำลังสำรองข้อมูลแอป</string>
     <string name="app_being_restored_message">กำลังเรียกคืนค่าแอป</string>
@@ -36,7 +41,7 @@
     <string name="app_category_games">เกมส์</string>
     <string name="app_category_health">สุขภาพ</string>
     <string name="app_category_lifestyle">ไลฟ์สไตล์</string>
-    <string name="app_category_music_movie">ทีวี&amp; เพลง</string>
+    <string name="app_category_music_movie">ทีวี &amp; เพลง</string>
     <string name="app_category_news">ข่าว</string>
     <string name="app_category_photos">รูปถ่าย</string>
     <string name="app_category_productivity">ผลิตภาพ</string>
@@ -55,9 +60,10 @@
     <string name="aqi_quality_index_dangerous">อันตราย</string>
     <string name="aqi_quality_index_good">ดี</string>
     <string name="aqi_quality_index_hazardous">อันตรายมาก</string>
-    <string name="aqi_quality_index_light_pollution">เฝ้าระวัง</string>
+    <string name="aqi_quality_index_light_pollution">ควรระวัง</string>
     <string name="aqi_quality_index_moderate">ปานกลาง</string>
     <string name="aqi_quality_index_unhealthy">ไม่ดีต่อสุขภาพ</string>
+    <string name="backup_fail">ไม่สามารถเปิดใช้การสำรองข้อมูลได้</string>
     <string name="bad_wallpaper_source_prompt">ไม่สามารถโหลดภาพพื้นหลังได้</string>
     <string name="buffering">กำลังบัฟเฟอร์…</string>
     <string name="cancel_action">ยกเลิก</string>
@@ -87,6 +93,7 @@
     <string name="default_folder_title_microsoft">Microsoft</string>
     <string name="default_folder_title_recommend">แอปเพิ่มเติม</string>
     <string name="default_folder_title_security">ระบบ</string>
+    <string name="default_folder_title_services">บริการ</string>
     <string name="default_folder_title_telcel">Telcel</string>
     <string name="default_folder_title_tools">เครื่องมือ</string>
     <string name="default_screen_preview_title">แตะเพื่อตั้งค่าหน้าจอเริ่มต้น</string>
@@ -175,7 +182,8 @@
     <string name="guide_install_app_title">ต้องการค้นหาและติดตั้งแอปหรือไม่?</string>
     <string name="guide_tips_editing_mode">แตะ &amp; ค้างไว้เพื่อเลือกวิดเจ็ต</string>
     <string name="home_screen">หน้าจอหลัก</string>
-    <string name="image_too_small_message">รูปภาพต้นฉบับขนาดเล็กเกินไป.</string>
+    <string name="icon_reorganize_channel">จัดเรียงไอคอน</string>
+    <string name="image_too_small_message">รูปภาพต้นฉบับขนาดเล็กเกินไป</string>
     <string name="install">ติดตั้ง</string>
     <string name="invalid_contact_shortcut">รายชื่อไม่ถูกต้อง</string>
     <string name="is_setting_wallpaper_message">กำลังตั้งค่าภาพพื้นหลัง…</string>
@@ -224,12 +232,14 @@
     <string name="normal_wallpaper">ภาพพื้นหลัง</string>
     <string name="notification_installed">ติดตั้งเรียบร้อย</string>
     <string name="notification_open_button">เปิด</string>
+    <string name="notification_reset_title">จัดเรียงไอคอนเรียบร้อยแล้ว</string>
     <string name="online_wallpaper">ออนไลน์</string>
     <string name="open_personal_assistant_dialog_btn_cancel">ยกเลิก</string>
     <string name="open_personal_assistant_dialog_btn_confirm">ปิดใช้งาน</string>
     <string name="open_personal_assistant_dialog_desc">คุณไม่สามารถใช้แอป vault และรับการอัพเดต ปิดใช้งานทันที?</string>
+    <string name="open_personal_assistant_dialog_desc_international">คุณจะไม่สามารถใช้การ์ด App Vault (สต็อก, ปุ่มลัด ฯลฯ) และรับการอัพเดตหลังจากปิดคุณลักษณะนี้</string>
     <string name="open_personal_assistant_dialog_title">ปิดใช้แอป vault</string>
-    <string name="open_personal_assistant_title">เปิดใช้แอป vault</string>
+    <string name="open_personal_assistant_title">App vault</string>
     <string name="out_of_space">ไม่มีที่ว่างบนหน้าจอหลักแล้ว</string>
     <string name="permdesc_install_shortcut">อนุญาตให้แอปเพิ่ม ปุ่มลัดโดยอัตโนมัติ</string>
     <string name="permdesc_install_widget">อนุญาตให้แอปเพิ่ม วิดเจ็ตโดยอัตโนมัติ</string>
@@ -247,19 +257,20 @@
     <string name="pref_cell_layout_size">เค้าโครงไอคอนแอป</string>
     <string name="pref_enable_drawing_cache_summary">ปิดเพื่อเพิ่มหน่วยความจำ แต่อาจทำให้ประสิทธิภาพการทำงานช้าลง</string>
     <string name="pref_enable_drawing_cache_title">แคชการวาด</string>
-    <string name="pref_icon_shadow_summary">แสดงเงาและสะท้อนรูปไอคอนของแอปที่ใช้บ่อย.</string>
+    <string name="pref_icon_shadow_summary">แสดงเงาและสะท้อนรูปไอคอนของแอปที่ใช้บ่อย</string>
     <string name="pref_icon_shadow_title">เงาแอป</string>
-    <string name="pref_keep_in_memory_summary">ให้ชุดเรียกใช้ระบบทำงานต่อไปเมื่อหน่วยความจำต่ำ.</string>
+    <string name="pref_keep_in_memory_summary">ให้ชุดเรียกใช้ระบบทำงานต่อไปเมื่อหน่วยความจำต่ำ</string>
     <string name="pref_keep_in_memory_title">ล็อก MIUI ไว้ในหน่วยความจำ</string>
-    <string name="pref_keep_layout_summary">การเปลี่ยนแปลงรูปแบบหน้าจอหลักจะไม่ส่งผลต่อตำแหน่งของแอปโดยลำดับ.</string>
+    <string name="pref_keep_layout_summary">การเปลี่ยนแปลงรูปแบบหน้าจอหลักจะไม่ส่งผลต่อตำแหน่งของแอปโดยลำดับ</string>
     <string name="pref_keep_layout_title">ล็อกตำแหน่งไอคอน</string>
-    <string name="pref_render_in_truecolor_summary">ปิดคุณลักษณะนี้เพื่อช่วยเพิ่มประสิทธิภาพการทำงานวาดรูป.</string>
+    <string name="pref_render_in_truecolor_summary">ปิดคุณลักษณะนี้เพื่อช่วยเพิ่มประสิทธิภาพการทำงานวาดรูป</string>
     <string name="pref_render_in_truecolor_title">กราฟฟิคคุณภาพสูง</string>
     <string name="pref_screen_transformation_type_title">เอฟเฟกต์เปลี่ยนหน้าจอ</string>
     <string name="pref_wallpaper_scroll_type_title">ตำแหน่งภาพพื้นหลัง</string>
     <string name="preferences_general_title">การตั้งค่าเพิ่มเติม</string>
     <string name="preferences_title">การตั้งค่าชุดเรียกใช้ระบบ</string>
     <string name="preferred_app_settings_not_selected">ไม่ได้เลือกไว้</string>
+    <string name="quick_app">แอปด่วน</string>
     <string name="recents_config_title">ล่าสุด</string>
     <string name="recommend_apk_size_and_desc">%1$dMB | %2$s</string>
     <string name="recommend_apps_default_title">ว่าง</string>
@@ -269,7 +280,12 @@
     <string name="recommend_apps_switch_title">แอปที่แนะนำ</string>
     <string name="recommend_apps_tips">คุณลักษณะนี้จำเป็นต้องเชื่อมต่อกับอินเตอร์เน็ตเพื่อการใช้งานที่ปกติ โดยสามารถแตะที่ชื่อของโฟลเดอร์เพื่อปิดใช้งาน</string>
     <string name="recommend_loading">กำลังโหลด</string>
+    <string name="refresh">รีเฟรช</string>
+    <string name="reset_description_first_time">คุณสามารถคืนค่ารูปแบบจาก %1$s ภายใน 2 ชั่วโมง</string>
+    <string name="reset_description_others">คุณสามารถคืนค่ารูปแบบจาก %1$s</string>
+    <string name="reset_fail">ไม่สามารถกู้คืนไฟล์ได้</string>
     <string name="reset_scene_prompt">หน้าจอจะรีเซ็ตการจัดหน้าเป็นค่าเริ่มต้น</string>
+    <string name="reset_title">เรียกคืนค่า</string>
     <string name="screen_cells_config_title">รูปแบบหน้าจอหลัก</string>
     <string name="screen_locked_toast">การจัดเรียงหน้าจอหลักล็อกอยู่</string>
     <string name="screen_number">หน้าจอที่ %d</string>

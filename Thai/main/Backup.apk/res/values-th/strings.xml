@@ -6,6 +6,9 @@
     <string name="xiaomi_update_dialog_message_diff">"เวอร์ชั่นแนะนำ %1$s
 ขนาด %2$s"</string>
     <string name="xiaomi_external_storage_unavailable">ที่จัดเก็บข้อมูลไม่พร้อมใช้งาน ตรวจสอบ SD การ์ดของคุณ</string>
+    <string name="xiaomi_bytes_unit">%1$sB</string>
+    <string name="xiaomi_kilobytes_unit">%1$sKB</string>
+    <string name="xiaomi_megabytes_unit">%1$sMB</string>
     <string name="xiaomi_connect_download_manager_fail">ไม่สามารถเริ่มการดาวน์โหลดได้ ตรวจสอบให้แน่ใจว่าตัวจัดการการดาวน์โหลดทำงานปกติ</string>
     <string name="app_name">สำรองข้อมูล</string>
     <string name="local_app_name">สำรองข้อมูล</string>
@@ -226,11 +229,14 @@
     <string name="restore_backup">คืนค่า</string>
     <string name="enable_encrypt_description">เข้ารหัส</string>
     <string name="disable_encrypt_description">ไม่ได้เข้ารหัส</string>
+    <string name="digit_percent">%</string>
     <string name="state_waiting">รอสักครู่…</string>
     <string name="state_mounting">กำลังเข้าถึงพื้นที่จัดเก็บข้อมูลเราเตอร์…</string>
     <string name="abort_backup_confirm">ยังสำรองข้อมูลไม่เสร็จ ยกเลิกหรือไม่?</string>
     <string name="abort_restore_confirm">การเรียกคืนค่ายังไม่เสร็จสิ้น ต้องการที่จะยุติ?</string>
     <string name="feature_title_call_log">ประวัติการโทร</string>
+    <string name="feature_title_contacts">รายชื่อ</string>
+    <string name="feature_title_sms">ข้อความ</string>
     <string name="feature_title_mms">MMS</string>
     <string name="feature_title_account">บัญชี Mi</string>
     <string name="feature_title_antispam">รายการบล็อก</string>
@@ -247,6 +253,7 @@
     <string name="err_filesystem_mount">ไม่สามารถเข้าถึงพื้นที่จัดเก็บข้อมูลเราเตอร์</string>
     <string name="err_router_disconnected">ตรวจสอบการเชื่อมต่อเราเตอร์ของคุณแล้วลองอีกครั้ง</string>
     <string name="err_router_files_delete">ไม่สามารถลบไฟล์ข้อมูลสำรองบนเราเตอร์ได้</string>
+    <string name="err_acquire_system_service">ไม่สามารถเริ่มต้นบริการระบบได้</string>
     <string name="err_not_allow">ไม่รองรับ</string>
     <string name="err_bakfile_not_exist">ไม่พบไฟล์ข้อมูลสำรองดังกล่าว</string>
     <string name="err_pkg_not_exist">ไม่พบแอป</string>
@@ -293,7 +300,7 @@
 ห้ามปิด Wi-Fi ฮอตสปอต
 และวางเครื่องทั้งสองให้อยู่ใกล้กัน"</string>
     <string name="trans_time_spent">ใช้เวลา: %s</string>
-    <string name="trans_restoring_no_items">กำลังซิงค์หลายรายการ</string>
+    <string name="trans_restoring_no_items">กำลังรับข้อมูล…</string>
     <string name="trans_detail_category_sysdata">ข้อมูลระบบ (รวมถึงข้อความ รายชื่อและประวัติการโทร)</string>
     <string name="trans_detail_category_userdata">แอป</string>
     <string name="trans_detail_category_account">บัญชีและรายชื่อผู้ติดต่อ</string>
@@ -341,6 +348,8 @@
     <string name="trans_connecting_toast">กำลังเชื่อมต่อ…</string>
     <string name="trans_switching_5g">กำลังสลับไปยัง Wi-Fi 5GHz…</string>
     <string name="trans_connect_failed_toast">เชื่อมต่อไม่ได้</string>
+    <string name="trans_open_camera_failed_title">ไม่สามารถเชื่อมต่อกับกล้องได้</string>
+    <string name="trans_open_camera_failed_message">รีบูตอุปกรณ์ของคุณหรือตรวจสอบ Mi Mover การอนุญาตให้ใช้ &lt;b>กล้อง&lt;/b>ใช่หรือไม่</string>
     <string name="trans_generate_qr_code_failed">ไม่สามารถสร้างรหัส QR</string>
     <string name="trans_scan_invalid_qrcode">รหัส QR ไม่ถูกต้อง</string>
     <string name="trans_scan_qr_code_tips">สแกนรหัส QR เพื่อใช้อุปกรณ์ใหม่</string>
@@ -354,6 +363,7 @@
 2. เปิดแอปและแตะเริ่มต้น
 3. สแกนรหัส QR ด้วยเครื่องเดิมของคุณ"</string>
     <string name="trans_operate_old_phone_tips2">ไปที่ เมนูการตั้งค่า > การตั้งค่าเพิ่มเติม > ถ่ายโอน แตะ [เครื่องนี้เป็นผู้ส่ง]</string>
+    <string name="trans_operate_tip_for_other_android">เปิด Mi Mover บนโทรศัพท์เดิมของคุณ แตะ \"เริ่ม\" และสแกนรหัส QR ด้านบน</string>
     <string name="trans_operate_reconnect_new_tips">"รอจนกว่าโทรศัพท์ใหม่แสดง \"ถูกตัดการเชื่อมต่อ\"
  แล้วแตะ \"เชื่อมต่ออีกครั้ง\" เพื่อสร้างรหัส QR"</string>
     <string name="trans_operate_reconnect_old_tips">"รอจนกว่าโทรศัพท์แสดง \"ถูกตัดการเชื่อมต่อ\"
@@ -369,16 +379,25 @@
 เพิ่มพื้นที่จัดเก็บข้อมูลหรือถ่ายโอนรายการที่สำคัญเท่านั้น"</string>
     <string name="trans_select_data_too_large">"คุณเลือกรายการที่จะถ่ายโอนมากเกินไป 
  เลือกรายการที่สำคัญเท่านั้นเพื่อให้ถ่ายโอนได้เร็วขึ้น"</string>
-    <string name="trans_calculating_base_size">กำลังประมวลขนาดข้อมูล</string>
     <string name="trans_calculating">กำลังประมวล…</string>
+    <string name="trans_calculating_tip">กำลังคำนาณ %s…</string>
+    <string name="trans_calculating_media_description">ไฟล์สื่อมีเดีย</string>
+    <string name="trans_calculating_app_sd_description">ข้อมูลบน SD การ์ด</string>
     <string name="trans_native_no_space">"อุปกรณ์เก่าพื้นที่จัดเก็บข้อมูลไม่เพียงพอ (พร้อมใช้งาน %s)
 เพิ่มพื้นที่จัดเก็บข้อมูลหรือถ่ายโอนรายการที่สำคัญเท่านั้น"</string>
-    <string name="trans_calculating_app_sd_size">กำลังประมวลขนาด: %s</string>
     <string name="trans_please_waiting">รอสักครู่…</string>
     <string name="trans_old_phone_low_space_title">พื้นที่จัดเก็บไม่เพียงพอ</string>
     <string name="trans_old_phone_low_space_msg">Mi Mover จำเป็นต้องมีพื้นที่จัดเก็บข้อมูลเพียงพอที่จะถ่ายโอนข้อมูล แต่ดูเหมือนว่าพื้นที่จัดเก็บข้อมูลบนอุปกรณ์เก่าไม่เพียงพอ เพิ่มพื้นที่ได้ใน\"ความปลอดภัย\" หรือถ่ายโอนข้อมูลที่สำคัญเท่านั้น</string>
     <string name="button_clean_garbage">เพิ่มพื้นที่</string>
     <string name="button_quit">ออก</string>
+    <string name="trans_install_guide_page_title">ติดตั้ง Mi Mover บนโทรศัพท์เดิมของคุณ</string>
+    <string name="trans_install_guide_scan_install_tip">"สแกนรหัส QR นี้ด้วยโทรศัพท์เดิมของคุณ
+เพื่อดาวน์โหลดและติดตั้ง Mi Mover"</string>
+    <string name="trans_install_guide_step1_title">ขั้นตอนที่ 1</string>
+    <string name="trans_install_guide_step1_content">สแกนรหัส QR ด้วยโทรศัพท์เดิมของคุณเพื่อดาวน์โหลดและติดตั้ง \"Mi Mover\"</string>
+    <string name="trans_install_guide_step2_title">ขั้นตอนที่ 2</string>
+    <string name="trans_install_guide_step2_content">หลังจากติดตั้งเรียบร้อยแล้ว แตะ \"เริ่ม\" ที่ด้านล่าง</string>
+    <string name="trans_install_guide_button_start">เริ่ม</string>
     <string name="size_byte">B</string>
     <string name="size_kilo_byte">KB</string>
     <string name="size_mega_byte">MB</string>
@@ -401,11 +420,13 @@
     <string name="trans_intro_title_new">เปิดโทรศัพท์ใหม่:</string>
     <string name="trans_intro_desc_new">แตะ \"ฉันเป็นผู้รับ\" รหัส QR จะถูกสร้างขึ้น</string>
     <string name="trans_intro_title_old">เปิดโทรศัพท์เดิม:</string>
-    <string name="trans_intro_desc_old">แตะ \"ฉํนเป็นผู้ส่ง\" สแกนรหัส QR ด้วยโทรศัพท์ใหม่ รอจนกว่า Mi Mover จะหาไฟล์ที่จะส่งและแตะ \"ส่ง\"</string>
+    <string name="trans_intro_desc_old">แตะ \"ฉันเป็นผู้ส่ง\" สแกนรหัส QR ด้วยโทรศัพท์ใหม่ รอจนกว่า Mi Mover จะหาไฟล์ที่จะส่งและแตะ \"ส่ง\"</string>
+    <string name="trans_intro_desc_old_market">แตะ \"เริ่ม\" สแกนรหัส QR ด้วยโทรศัพท์ใหม่ รอจนกว่า Mi Mover จะหาไฟล์ที่จะส่งและแตะ \"ส่ง\"</string>
     <string name="trans_intro_question_3">%d. ฉันควรทำอย่างไรหาก Mi Mover ติดค้างในขั้นตอนหนึ่ง?</string>
     <string name="trans_intro_desc_3">ยกเลิกการถ่ายโอน ออกจาก Mi Mover และเริ่มต้นใหม่ ไฟล์ที่ซ้ำจะถูกเขียนทับระหว่างการถ่ายโอนใหม่</string>
     <string name="trans_intro_question_4">%d. เหตุใดฉันจึงไม่สามารถใช้ Wi-Fi ระหว่างการถ่ายโอนได้?</string>
     <string name="trans_intro_desc_4">Mi Mover ใช้ Wi-Fi เพื่อถ่ายโอนไฟล์ นั่นเป็นเหตุผลที่คุณไม่สามารถเชื่อมต่ออินเทอร์เน็ตโดยใช้ Wi-Fi ในอุปกรณ์ใดก็ได้ระหว่างการโอน คุณยังคงสามารถใช้ข้อมูลมือถือได้ อย่างไรก็ตามอุปกรณ์รุ่นใหม่ๆ (เช่น Mi 6) จะยังคงสามารถเชื่อมต่อกับอินเทอร์เน็ตโดยใช้ Wi-Fi ระหว่างการถ่ายโอนได้</string>
+    <string name="trans_intro_desc_4_market">Mi Mover ใช้ Wi-Fi เพื่อถ่ายโอนไฟล์ ระหว่างการโอนคุณไม่สามารถเชื่อมต่ออินเทอร์เน็ตโดยใช้ Wi-Fi ในอุปกรณ์ทั้งสองได้ แต่คุณยังคงสามารถใช้ข้อมูลมือถือได้</string>
     <string name="trans_intro_question_5">%d. ทำไม Mi Mover จึงบอกฉันว่ามีพื้นที่เก็บข้อมูลไม่เพียงพอในโทรศัพท์เก่าของฉัน?</string>
     <string name="trans_intro_desc_5">พื้นที่เก็บข้อมูลบนโทรศัพท์เก่าใช้สำหรับสร้างแพ็กเกจการโอนย้าย ตรวจสอบว่าคุณมีพื้นที่เก็บข้อมูลอย่างน้อย 500MB - 1GB บนโทรศัพท์เครื่องเก่าของคุณก่อนที่จะเริ่มถ่ายโอน</string>
     <string name="trans_intro_question_6">%d. เหตุใดแอปบางแอปจึงไม่สามารถโอนได้?</string>
@@ -423,16 +444,32 @@
     <string name="trans_intro_desc_multiuser">Mi Mover ไม่สามารถเข้าถึงรายการในพื้นที่ทับซ้อนได้ ย้ายรายการไปยังพื้นที่ปกติและเปิดใช้ Mi Mover ที่นั่น</string>
     <string name="trans_intro_title_multiapp">ข้อมูลแอปโคลน:</string>
     <string name="trans_intro_desc_multiapp">Mi Mover จะไม่ถ่ายโอนข้อมูลในแอปโคลนเพราะข้อมูลในไฟล์อาจทับซ้อนกันได้</string>
+    <string name="trans_intro_question_9_market">%d. ข้อเสนอแนะ</string>
+    <string name="trans_intro_desc_9_method_1_title">1. แชร์ข้อเสนอแนะของคุณโดยใช้แอป \"ข้อเสนอแนะ\"</string>
+    <string name="trans_intro_desc_9_method_1_dec">ไปยังหน้าจอหลัก> เครื่องมือ> ข้อเสนอแนะ</string>
+    <string name="trans_intro_desc_9_method_2_title">2. ส่งข้อเสนอแนะโดยอีเมล</string>
+    <string name="trans_intro_desc_9_method_2_dec">ส่งข้อเสนอแนะของคุณไปยัง miui-mover@xiaomi.com</string>
+    <string name="trans_intro_desc_9_method_3_title">3. รายงานปัญหาผ่านกลุ่ม QQ</string>
+    <string name="trans_intro_desc_9_method_3_dec">กลุ่ม QQ ของ Mi Mover: 687338378</string>
     <string name="btn_got_it">รับทราบ</string>
     <string name="backup_security_tips_title">การสำรองข้อมูลอาจไม่ทำงาน</string>
     <string name="backup_security_tips_message">แอปบางแอปอาจไม่สามารถสำรองข้อมูลหรือเรียกคืนค่าได้</string>
     <string name="trans_security_tips_title">ความเข้ากันได้ Mi Mover</string>
     <string name="trans_security_tips_message">บางแอปไม่สนับสนุน Mi Mover</string>
+    <string name="trans_cancel_selection_title">อยู่ที่ Mi Mover ต่อ</string>
+    <string name="trans_cancel_selection_message">ถ้าคุณออกจาก Mi Mover การถ่ายโอนข้อมูลจะถูกขัดจังหวะ กรุณารอจนกว่าการโอนจะเสร็จสมบูรณ์</string>
+    <string name="trans_select_notification_title">Mi Mover กำลังทำงาน…</string>
+    <string name="trans_select_notification_message">แตะเพื่อเรียกดู</string>
+    <string name="trans_button_stay">อยู่ต่อ</string>
+    <string name="trans_button_exit">ออก</string>
     <string name="trans_wlan_tips_title">ห้ามปิดใช้งาน Wi-Fi</string>
     <string name="trans_wlan_tips_message">ห้ามปิดใช้งานหรือสลับการเชื่อมต่อ Wi-fi ระหว่างการโอนย้าย. มิฉะนั้น Mi Mover จะไม่สามารถโอนย้ายข้อมูลได้</string>
     <string name="trans_disconnected_tips_title">อุปกรณ์ระยะไกลขาดการเชื่อมต่อ</string>
     <string name="trans_disconnected_tips_message">อุปกรณ์ระยะไกลขาดการเชื่อมต่อ เชื่อมต่อด้วยตนเองอีกครั้งหรือยกเลิกการถ่ายโอน</string>
     <string name="trans_button_cancel">ยกเลิก </string>
+    <string name="trans_success_dialog_market_comment_title">"โอนข้อมูลเข้าอุปกรณ์ใหม่เรียบร้อยแล้ว
+คุณชอบ Mi Mover?"</string>
+    <string name="trans_success_dialog_button_market_favourable_comment">ให้คะแนน Mi Mover</string>
     <string name="trans_failed_details_page_title">โอนไม่สำเร็จ</string>
     <string name="close_twice_auth_tutor">ปิดการตรวจสอบสิทธิ์ appleID สองขั้นตอน</string>
     <string name="close_twice_auth_steps">ทำตามขั้นตอนนี้เพื่อปิดการตรวจสอบสิทธิ์ appleID สองขั้นตอน</string>
@@ -446,7 +483,8 @@
 https://appleid.apple.com/#!&amp;page=signin"</string>
     <string name="platform_chooser_title">เลือกอุปกรณ์เก่า</string>
     <string name="platform_chooser_item_ios">นำเข้าจากอุปกรณ์ iOS</string>
-    <string name="platform_chooser_item_android">นำเข้าจากอุปกรณ์แอนดรอยด์</string>
+    <string name="platform_chooser_item_android_mi">โทรศัพท์ Mi</string>
+    <string name="platform_chooser_item_android_others">แบรนด์อื่นๆ</string>
     <string name="icloud_need_wifi_title">เชื่อมต่อกับ Wi-Fi</string>
     <string name="icloud_need_wifi_message">คุณไม่ได้เชื่อมต่อกับ Wi-Fi ขณะนี้ เพื่อนำเข้าข้อมูลจาก iCloud, กรุณาเชื่อมต่อ Wi-Fi</string>
     <string name="icloud_login_title">ลงชื่อเข้าใช้ iCloud</string>
@@ -500,6 +538,7 @@ https://appleid.apple.com/#!&amp;page=signin"</string>
 คุณต้องสำรองข้อมูลก่อน iCloud"</string>
     <string name="list_footer_tip_title">เคล็ดลับ:</string>
     <string name="import_tip_summary">ข้อกำหนดปัญหาความเข้ากันได้ สำหรับอุปกรณ์ iOS คุณสามารถถ่ายโอนได้เฉเพาะข้อมูลบางส่วนเท่านั้น ตรวจสอบให้แน่ใจว่าคุณได้สำรองข้อมูลก่อนการเริ่มการถ่ายโอน</string>
+    <string name="import_tip_message">@string/icloud_how_to_backup_tip_steps</string>
     <string name="button_import">นำเข้า</string>
     <string name="select_empty">เลือกรายการที่จะนำเข้า</string>
     <string name="select_item_summary_wait">กำลังรอ…</string>
@@ -540,4 +579,36 @@ https://appleid.apple.com/#!&amp;page=signin"</string>
     <string name="alert_message_restore_from_miasist">Mi PC Suite กำลังขอสิทธิ์ในการเรียกคืนรายการในโทรศัพท์ของคุณ อนุญาตหรือไม่?</string>
     <string name="alert_button_deny">ปฏิเสธ</string>
     <string name="alert_button_agree_and_continue">อนุญาต</string>
+    <string name="trans_open_location_button">เปิดใช้งาน</string>
+    <string name="trans_open_location_title">เปิดใช้งานบริการตำแหน่งพิกัด</string>
+    <string name="trans_open_location_message">เปิดใช้งานการระบุตำแหน่งพิกัดเพื่อรับรายชื่อเครือข่าย Wi-Fi ที่พร้อมใช้งาน</string>
+    <string name="perm_camera">กล้อง</string>
+    <string name="perm_read_contacts">อ่านรายชื่อ</string>
+    <string name="perm_location">ตำแหน่งพิกัด</string>
+    <string name="perm_read_phone_state">อ่านสถานะของโทรศัพท์</string>
+    <string name="perm_read_call_log">อ่านประวัติการโทร</string>
+    <string name="perm_read_sms">อ่าน SMS</string>
+    <string name="perm_storage">อ่านและเขียนที่บนที่จัดเก็บข้อมูลภายนอก</string>
+    <string name="lack_perm_title">สิทธิ์ที่จำเป็น</string>
+    <string name="lack_perm_msg">Mi Mover จำเป็นต้องได้รับการอนุญาตต่อไปนี้: &lt;b>%s&lt;/b></string>
+    <string name="flash_drive_backup_restore">ข้อมูลสำรอง USB</string>
+    <string name="flash_drive_backup_note">"สำรองข้อมูลไปยังที่เก็บข้อมูล USB 
+ตรวจสอบให้แน่ใจว่าที่เก็บข้อมูล USB มีพื้นที่เพียงพอก่อนเริ่มดำเนินการ"</string>
+    <string name="flash_drive_backup_btn">สำรองข้อมูลไปยังที่เก็บข้อมูล USB</string>
+    <string name="flash_drive_restore_btn">เรียกคืนค่าจากที่เก็บข้อมูล USB</string>
+    <string name="usb_backup_select_data_too_large">"ไฟล์ที่เลือกมีขนาดใหญ่ ตรวจสอบให้แน่ใจว่าที่เก็บข้อมูล USB มีพื้นที่เพี่ยงพอ 
+โอนเฉพาะรายการที่สำคัญเท่านั้น"</string>
+    <string name="flash_drive_search_backup_files">"กำลังค้นหาสำหรับข้อมูลสำรอง USB …
+ ห้ามแก้ไขหรือเปลี่ยนชื่อไฟล์ข้อมูลสำรอง"</string>
+    <string name="flash_drive_connection_failed">ที่เก็บข้อมูล USB ถูกตัดการเชื่อมต่อ</string>
+    <string name="storage_sd_card">SD การ์ด</string>
+    <string name="storage_usb">ที่เก็บข้อมูล USB</string>
+    <string name="usb_trans_select_data_no_space">"ที่จัดเก็บข้อมูล USB เหลือใช้แค่ %s เท่านั้น
+เพิ่มพื้นที่หรือถ่ายโอนเฉพาะรายการที่สำคัญเท่านั้น"</string>
+    <string name="usb_restore_select_data_too_large">"ไฟล์ข้อมูลสำรองมีขนาดใหญ่ อาจทำให้การเรียกคืนค่าใช้เวลานาน 
+หากเรียกคืนค่าเฉพาะรายการที่สำคัญเท่านั้นจะเร็วขึ้น"</string>
+    <string name="usb_trans_native_no_space">"อุปกรณ์ของคุณมีพื้นที่เหลือแค่ %s เท่านั้น
+เพิ่มพื้นที่หรือแบ่งการโอนเป็นหลายครั้ง"</string>
+    <string name="usb_trans_old_phone_low_space_title">พื้นที่จัดเก็บไม่เพียงพอ</string>
+    <string name="usb_trans_old_phone_low_space_msg">ที่จัดเก็บข้อมูลเพิ่มเติมต้องการจัดเตรียมข้อมูลสำรองของคุณ พื้นที่จัดเก็บข้อมูลไม่เพียงพอต่อการโอน คุณสามารถเพิ่มพื้นที่ว่างและลบไฟล์ที่ไม่จำเป็นใน ความปลอดภัย หรือทำการโอนเฉพาะรายการที่สำคัญเท่านั้น</string>
 </resources>

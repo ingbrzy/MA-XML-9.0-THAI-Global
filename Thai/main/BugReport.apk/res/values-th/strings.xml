@@ -46,7 +46,7 @@
     <string name="michat_cant_join_artificial">ไม่สามารถเชื่อมเครือข่ายได้เนื่องจากเครือข่ายขัดข้อง</string>
     <string name="michat_lose_artificial">เครือข่ายขัดข้อง คุณออกจากแชทแล้ว</string>
     <string name="michat_transfer_message">กำลังมองหาบุคคลที่ช่วยคุณ…</string>
-    <string name="michat_queue_pos_update">มี %1$d คนอยู่หน้าคุณ รอสักครู่...</string>
+    <string name="michat_queue_pos_update">มี %1$d คนอยู่หน้าคุณ รอสักครู่…</string>
     <string name="michat_in_artificial_customer_state">ไม่สามารถดำเนินการนี้ได้ขณะได้รับความช่วยเหลือจากผู้อื่น</string>
     <string name="michat_pull_to_refresh_pull_label">ลากลงเพื่อดูประวัติ</string>
     <string name="michat_pull_to_refresh_release_label">ปล่อยเพื่อดูประวัติ</string>
@@ -57,6 +57,7 @@
     <string name="save_pic_success">บันทึกรูปภาพไปยัง %s</string>
     <string name="save_pic_fail">ไม่สามารถบันทึกรูปภาพได้ ตรวจสอบ SD การ์ดของคุณ</string>
     <string name="pic_not_exist">ไม่พบรูปภาพดังกล่าว</string>
+    <string name="pic_view_format">%1$s\"/\"%2$s</string>
     <string name="michat_skillset_product_title">เลือกผลิตภัณฑ์</string>
     <string name="michat_skillset_business_type_title">เลือกบริการ</string>
     <string name="michat_close_text">การแชทสิ้นสุดลง</string>
@@ -107,7 +108,7 @@
     <string name="err_type_bluetooth">บลูทูธ</string>
     <string name="err_type_appstore">แอปสโตร์</string>
     <string name="err_type_translate">ภาษา</string>
-    <string name="err_type_camera">กล้องถ่ายรูป</string>
+    <string name="err_type_camera">กล้อง</string>
     <string name="err_type_systemapp">แอป MIUI</string>
     <string name="err_type_nonsystemapp">แอปอื่นๆ</string>
     <string name="err_type_app">แอป</string>
@@ -145,7 +146,7 @@
     <string name="discard_draft_dialog_button_discard">ยกเลิก</string>
     <string name="discard_draft_dialog_button_cancel">กลับมาที่ฉบับร่าง</string>
     <string name="network_unavailable_dialog_title">ไม่สามารถใช้งานเครือข่ายได้</string>
-    <string name="network_unavailable_dialog_content">ข้อเสนอแนะจะถูกส่งเมื่อมีการเชื่อมต่อเครือข่าย</string>
+    <string name="network_unavailable_dialog_content">ข้อเสนอแนะจะถูกส่งเมื่อมีการเชื่อมต่อข้อมูล</string>
     <string name="network_unavailable_dialog_button_ok">ตกลง</string>
     <string name="packaging_dialog_content">กำลังสร้างรายงาน…</string>
     <string name="loading_apps">กำลังโหลดรายชื่อ…</string>
@@ -181,7 +182,7 @@
     <string name="bugreport_dump_start_notification_title">กำลังสร้างรายงานข้อบกพร่อง…</string>
     <string name="bugreport_dump_start_notification_summary">ใช้เวลาประมาณสองสามนาที</string>
     <string name="bugreport_dump_complete_notification_title">สร้างรายงานปัญหาแล้ว</string>
-    <string name="bugreport_dump_complete_notification_summary" />
+    <string name="bugreport_dump_complete_notification_summary">แตะเพื่อแสดง</string>
     <string name="plus_one_submit_dialog_content">ข้อเสนอแนะที่คุณระบุไว้พร้อมทั้งบันทึกข้อบกพร่องจะถูกส่งไปยังเซิร์ฟเวอร์ของ Mi</string>
     <string name="plus_one_submit_dialog_not_show_again">จำตัวเลือกนี้</string>
     <string name="toast_fill_brackets">รายงานของคุณไม่ครบถ้วน</string>
@@ -254,6 +255,12 @@
     <string name="feedback_status_jira_comment">เพิ่มความคิดเห็น</string>
     <string name="feedback_status_forum_reply">ตอบกลับ</string>
     <string name="feedback_status_submit_attachment">ส่งไฟล์แนบเรียบร้อยแล้ว</string>
+    <string name="feedback_status_collect_log_failed">รับบันทึกการใช้ไม่ได้</string>
+    <string name="feedback_status_submit_feedback_failed">ไม่สามารถส่งข้อเสนอแนะได้</string>
+    <string name="feedback_status_save_log_info_failed">ไม่สามารถเปลี่ยน URL ที่แนบได้</string>
+    <string name="feedback_status_submit_bbs_failed">ไม่สามารถส่งเนื้อหาข้อเสนอแนะได้</string>
+    <string name="feedback_status_get_and_save_bbs_info_failed">ไม่สามารถรับ URL ที่แนบได้</string>
+    <string name="feedback_status_upload_log_failed">ไม่สามารถอัพโหลดสิ่งที่แนบได้</string>
     <string name="feedback_status_change_notification_title">ความคืบหน้ารายงานของคุณมีการอัพเดท</string>
     <string name="feedback_bug_status_change_notification_desc">%1$s ปัญหา \"%2$s\"</string>
     <string name="feedback_suggestion_status_change_notification_desc">%1$s ข้อเสนอแนะ \"%2$s\"</string>
@@ -266,7 +273,7 @@
     <string name="second_position">3#</string>
     <string name="floor">%1$s#</string>
     <string name="error_no_connection">ไม่สามารถเชื่อมต่อกับเครือข่ายได้</string>
-    <string name="feedback_phone_model_label">รุ่นโทรศัพท์</string>
+    <string name="feedback_phone_model_label">โมเดลโทรศัพท์</string>
     <string name="feedback_version_label">เวอร์ชั่น</string>
     <string name="feedback_probability_label">ความเป็นไปได้</string>
     <string name="feedback_description_label">คำอธิบาย</string>
@@ -307,7 +314,7 @@
     <string name="module_search">ค้นหา</string>
     <string name="module_google_apps">Google apps</string>
     <string name="app_search">ค้นหาแอป</string>
-    <string name="feedback_submit_hint">รายงานข้อผิดพลาดเวลาที่คุณพบปัญหาเพื่อช่วยให้เราแก้ปัญหาได้เร็วขึ้น กรุณาใช้ภาษาไทยหรืออังกฤษ</string>
+    <string name="feedback_submit_hint">รายงานข้อผิดพลาดเวลาที่คุณพบปัญหาเพื่อช่วยให้เราแก้ปัญหาได้เร็วขึ้น</string>
     <string name="feedback_submit_hint_gone">ปิดข้อความ</string>
     <string name="toast_post_deleted">หัวข้อนี้ไม่มีอยู่ ถูกลบแล้ว หรือแก้ไขแล้ว</string>
     <string name="toast_log_not_exists">บันทึกการใช้ที่จำเป็นถูกลบหรือไม่มีอยู่</string>

@@ -28,7 +28,7 @@
         <item quantity="other">%d รูปภาพ</item>
     </plurals>
     <plurals name="album_count_and_size">
-        <item quantity="other">%1$d รายการ| %2$s</item>
+        <item quantity="other">%1$d รายการ  |  %2$s</item>
     </plurals>
     <plurals name="album_item_msg_format">
         <item quantity="other">(%d รายการ)</item>

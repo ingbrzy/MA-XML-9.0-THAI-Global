@@ -294,6 +294,7 @@
     <string name="weibo_send">ส่งไปที่ Weibo</string>
     <string name="xspace_qq_title">QQ</string>
     <string name="qq_send">ส่งไปยังเพื่อน QQ/คอม</string>
+    <string name="qq_login">ลงชื่อเข้าใช้ QQ</string>
     <string name="xspace_default_setting_label">แอปเริ่มต้น</string>
     <string name="xspace_default_app_title">แอปเริ่มต้น</string>
     <string name="xspace_default_app_summary">ตั้งค่าแอปเริ่มต้นสำหรับการชำระเงิน การแชร์ รายการโปรด และอื่นๆ</string>
@@ -331,7 +332,7 @@
     <string name="can_not_delete_when_calling">ไม่สามารถลบพื้นที่ขณะโทรได้</string>
     <string name="support_desc">บริการรักษาความปลอดภัยโดย Spaces Mobile</string>
     <string name="sdcardfs_dialog_title">อัพเดทที่สำคัญ</string>
-    <string name="sdcardfs_dialog_message">MIUI 9 มีระบบไฟล์ใหม่ ข้อมูลเก่าอาจไม่เข้ากับข้อมูลดังกล่าว เมื่อต้องการแก้ปัญหานี้ให้ทำตามขั้นตอนเพื่อติดตั้งการอัพเดทอุปกรณ์ของคุณจะรีบูตเครื่องสองครั้งระหว่างการอัปเดตนี้</string>
+    <string name="sdcardfs_dialog_message">ระบบไฟล์ใหม่ถูกนำมาใช้ในการอัพเดทนี้ ข้อมูลเก่าอาจไม่เข้ากับข้อมูลดังกล่าว เมื่อต้องการแก้ปัญหานี้ให้ทำตามขั้นตอน เพื่อติดตั้งการอัพเดท อุปกรณ์ของคุณจะรีบูตเครื่องอีกครั้งระหว่างการอัพเดทนี้</string>
     <string name="do_not_ask">ไม่ต้องถามอีก</string>
     <string name="gpg_message">การสร้างแอปโคลนสำหรับเกมต้องใช้ Google Play Games สร้างแอปโคลนสำหรับ Google Play Games หรือไม่?</string>
     <string name="gpg_title">แอปโคลนสำหรับเกมส์ Google Play</string>
@@ -363,14 +364,14 @@
     <string name="remove_user_click_message">* ถ้าคุณไม่มีรายการที่สำคัญในพื้นที่ทับซ้อน %s</string>
     <string name="remove_user_click_message_action">คุณสามารถลบพื้นที่ทับซ้อนและรีบูตอุปกรณ์ของคุณตอนนี้</string>
     <string name="sdcradfs_dialog_in_owner_title">พื้นที่ทับซ้อน</string>
-    <string name="sdcradfs_dialog_in_owner_message">"MIUI 9 มีระบบไฟล์ใหม่ ข้อมูลเก่าอาจไม่เข้ากับข้อมูลดังกล่าว หากต้องการอัปเดตย้ายรายการจากพื้นที่ทับซ้อนรีบูตอุปกรณ์ของคุณและสร้างพื้นที่ทับซ้อนอีกครั้ง 
- หากคุณไม่อัปเดต แอปโคลนอาจทำงานไม่ปกติเช่นกัน"</string>
+    <string name="sdcradfs_dialog_in_owner_message">"ระบบไฟล์ใหม่ถูกนำมาใช้ในการอัพเดทนี้ ข้อมูลเก่าอาจไม่เข้ากับข้อมูลดังกล่าว หากต้องการอัพเดทให้ย้ายรายการจากพื้นที่ทับซ้อน รีบูตอุปกรณ์ของคุณ และสร้างพื้นที่ทับซ้อนอีกครั้ง
+หากคุณไม่อัปเดต แอปโคลนอาจทำงานไม่ถูกต้องเช่นกัน"</string>
     <string name="sdcradfs_dialog_in_sec_title">อัพเดทที่สำคัญ</string>
     <string name="sdcradfs_dialog_in_sec_message">"ในการอัพเดตคุณควรลบพื้นที่ทับซ้อนของคุณแล้วสร้างใหม่อีกครั้ง ย้ายข้อมูลจากพื้นที่ทับซ้อนก่อน และรีบูตอุปกรณ์เพื่อทำการอัปเดตให้เสร็จสมบูรณ์
 หากคุณไม่อัปเดตแอปโคลนอาจทำงานไม่ปกติเช่นกัน"</string>
     <string name="space_created_success">สร้างพื้นที่ทับซ้อนเรียบร้อย</string>
     <string name="encrypt_space_delete_dialog_title">โปรดทราบ</string>
-    <string name="encrypt_space_delete_dialog_message">คุณกำลังจะอัปเดตแอนดรอยด์ หลังจากการอัพเดตข้อมูลพื้นที่ทับซ้อนจะไม่สามารถใช้ร่วมกันได้ เพื่อหลีกเลี่ยงปัญหานี้ให้ย้ายข้อมูลทั้งหมดไปยังพื้นที่ปกติ ลบพื้นที่ทับซ้อนและสร้างใหม่อีกครั้ง</string>
+    <string name="encrypt_space_delete_dialog_message">คุณกำลังดำเนินการอัพเดทระบบ หลังจากการอัพเดตข้อมูลพื้นที่ทับซ้อนจะไม่สามารถใช้ร่วมกันได้ เพื่อหลีกเลี่ยงปัญหานี้ให้ย้ายข้อมูลทั้งหมดไปยังพื้นที่ปกติ ลบพื้นที่ทับซ้อนและสร้างใหม่อีกครั้ง</string>
     <string name="encrypt_space_delete_dialog_click_message">*หากคุณไม่ต้องการที่จะย้ายข้อมูล %s</string>
     <string name="encrypt_space_delete_dialog_click_message_action">ลบและสร้างพื้นที่ทับซ้อนตอนนี้</string>
     <string name="encrypt_space_delete_dialog_positive_text">ย้ายข้อมูล</string>
@@ -396,7 +397,5 @@
     <string name="experience_more_features">เพิ่มอุปกรณ์เพื่อดูคุณลักษณะทั้งหมด</string>
     <string name="can_not_switch_when_green_kid_active">การสลับไปยังพื้นที่ทับซ้อนถูกจำกัด โดยการควบคุมโดยผู้ปกครอง</string>
     <string name="need_network_when_bind">เชื่อมต่อกับเครือข่ายก่อนเพิ่มอุปกรณ์</string>
-    <string name="net_work_notice">Parental controls need to connect to the internet and get access to your location to work normally. This permissions are required to send the info about battery levels, step count, and your location to the controlled devices. Allow?</string>
-    <string name="agree">Agree</string>
-    <string name="disagree">"Don't agree"</string>
+    <string name="this_function_can_not_use_in_second_space">คุณลักษณะนี้สามารถใช้ได้ในพื้นที่ปกติเท่านั้น</string>
 </resources>

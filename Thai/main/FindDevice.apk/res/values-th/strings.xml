@@ -21,8 +21,7 @@
     <string name="find_device_stop_noise">แตะปุ่มตกลงเพื่อปิดเสียง</string>
     <string name="find_device_noise_title">ค้นหาอุปกรณ์ที่เตือนภัย</string>
     <string name="find_device_success_title">ค้นหาอุปกรณ์</string>
-    <string name="find_device_notice_p1">ไปที่</string>
-    <string name="find_device_notice_p3">เพื่อค้นหาตำแหน่ง ล็อก หรือเรียกคืนค่าอุปกรณ์ของคุณ</string>
+    <string name="find_device_notice">ไปยัง&lt;br />&lt;b>&lt;font color=#e84700>i.mi.com&lt;/font>&lt;/b>&lt;br />เพื่อค้นหาตำแหน่ง ล็อก หรือเรียกคืนอุปกรณ์ของคุณ</string>
     <string name="find_device_notice_sms_alert">หากคุณเปลี่ยนซิมการ์ด ระบบจะส่งข้อความอีกครั้งเพื่อเปิดใช้งานบริการดังกล่าวโดยอัตโนมัติ</string>
     <string name="i_know">ตกลง</string>
     <string name="unlock_error_network">เชื่อมต่อเครือข่ายไม่ได้</string>

@@ -3,6 +3,7 @@
     <string name="menu_clear">ล้าง</string>
     <string name="menu_view">เรียกดูในโฟลเดอร์</string>
     <string name="menu_install">ติดตั้งแอปนี้</string>
+    <string name="menu_open">เปิด</string>
     <string name="menu_add_to_white_list">เพิ่มไปยังรายการยกเว้น</string>
     <string name="text_optimizer">ชื่อโฟลเดอร์สำหรับอัพโหลด</string>
     <string name="summary_optimizer">คุณลักษณะการใช้งานนี้จะอัพโหลดชื่อโฟลเดอร์ไปยังฐานข้อมูลออนไลน์ของ Cheetah Mobile และต้องแสดงรหัสประจำเครื่องของคุณ</string>
@@ -90,6 +91,7 @@
     <string name="hints_apk_header_left">แพ็คเกจ</string>
     <string name="hints_residual_header_left">ไฟล์ตกค้าง</string>
     <string name="hints_memory_header_left">หน่วยความจำ</string>
+    <string name="hints_header_left">%d</string>
     <string name="hints_large_file_header_left">ไฟล์ใหญ่: %d</string>
     <string name="hints_installed_apps_header_left">แอปที่ติดตั้งไว้: %d</string>
     <string name="toast_resolve_apk_error">แก้ไขข้อผิดพลาดไฟล์ APK</string>
@@ -127,8 +129,8 @@
     <string name="msg_update_error_code_no_newer_db">ตัวทำความสะอาดอัพเดทเป็นปัจจุบันแล้ว</string>
     <string name="msg_update_error_code_already_running">กำลังอัพเดท…</string>
     <string name="msg_update_error_code_network_error">ไม่สามารถเชื่อมต่อกับเครือข่ายได้</string>
-    <string name="msg_update_error_code_unknown_error">Servers are busy. Wait a minute or two and try again.</string>
-    <string name="msg_cleanup_db_update_time_unknown">Last update: Unknown</string>
+    <string name="msg_update_error_code_unknown_error">เซิร์ฟเวอร์ไม่ว่าง รอสักครู่แล้วลองอีกครั้ง</string>
+    <string name="msg_cleanup_db_update_time_unknown">อัพเดตครั้งล่าสุด: ไม่ทราบ</string>
     <string name="item_title_process_mode">เลือกการดำเนินการ</string>
     <string name="clean_content_zero">ไม่มี</string>
     <string name="clean_content_one">1 รายการ</string>
@@ -166,7 +168,7 @@
     <string name="hints_quick_scanning">กำลังสแกน…</string>
     <string name="hints_quick_cleanuping">กำลังปรับแต่งระบบ…</string>
     <string name="hints_deepclean_scanning">กำลังสแกน %s</string>
-    <string name="cache_title_system_cache">แคชของระบบ</string>
+    <string name="cache_title_system_cache">ข้อมูลหน่วยความจำแคช</string>
     <string name="hints_storage_free">ปลดแคชออก</string>
     <string name="hints_storage_free_size">รวมทั้งหมด %1$s ใช้งานได้ %2$s</string>
     <string name="apps_sort_type_title">เรียงตาม</string>
@@ -271,7 +273,7 @@
     <string name="toast_select_white_need_remove">เลือกรายการที่ต้องการลบออก</string>
     <string name="network_not_available">เชื่อมต่อเครือข่ายไม่ได้</string>
     <string name="no_network_btn">ลองอีกครั้ง</string>
-    <string name="name_debuglog_dir">BSP debug log</string>
+    <string name="name_debuglog_dir">บันทึกการแก้ปัญหา BSP</string>
     <string name="just_now">เมื่อสักครู่</string>
     <string name="yesterday">เมื่อวานนี้</string>
     <string name="month_day_format">dd MMM</string>
@@ -297,6 +299,7 @@
     <string name="downloading">กำลังดาวน์โหลด</string>
     <string name="installing">กำลังติดตั้ง</string>
     <string name="start_install">ติดตั้งตอนนี้</string>
+    <string name="empty">" "</string>
     <string name="open_browser">เปิดด้วยเบราว์เซอร์</string>
     <string name="title_share_link">แชร์ลิงก์ URL</string>
     <string name="connecting">กำลังเชื่อมต่อ…</string>
@@ -307,7 +310,7 @@
     <string name="seton_immediately">เปิดใช้งาน</string>
     <string name="notify_when">แจ้งเตือนเมื่อขนาดไฟล์ขยะเกิน 100MB</string>
     <string name="goto_set">กำหนด</string>
-    <string name="virus_scan">สแกนด้านความปลอดภัย</string>
+    <string name="virus_scan">สแกนไวรัส</string>
     <string name="tips_of_virus_scan">ทำการสแกนไวรัสสม่ำเหมอเพื่อความปลอดภัยของเครื่อง</string>
     <string name="conn_of_function_safe">การเชื่อมต่อเครือข่ายของแอปความปลอดภัย</string>
     <string name="tips_of_connect">เชื่อมกับต่ออินเตอร์เน็ตเพื่อให้แอปความปลอดภัยทำงานได้อย่างเต็มประสิทธิภาพ</string>
@@ -517,4 +520,14 @@
     <string name="guide_virus_dialog_message">สแกนแอปและติดตั้งแพ็คเกจเพื่อปกป้องอุปกรณ์ของคุณจากไวรัสและมัลแวร์ สแกนอุปกรณ์ของคุณตอนนี้?</string>
     <string name="guide_virus_dialog_positive">สแกน</string>
     <string name="guide_virus_dialog_negative">ยกเลิก </string>
+    <string name="tips_low_storage_dialog_title">พื้นที่จัดเก็บสำหรับใช้งานต่ำ</string>
+    <string name="tips_low_storage_dialog_msg_storage">คุณใช้พื้นที่เก็บข้อมูล 90% ถอนการติดตั้งแอปที่คุณไม่ได้ใช้</string>
+    <string name="tips_low_storage_dialog_msg_wechat">ขนาดแคชของ WeChat มากถึง 3GB อาจทำให้อุปกรณ์ของคุณทำงานช้าลง ล้างแคช WeChat เดี๋ยวนี้หรือไม่?</string>
+    <string name="tips_low_storage_dialog_msg_qq">ขนาดแคชของ QQ มากถึง 3GB อาจทำให้อุปกรณ์ของคุณทำงานช้าลง ล้างแคช QQ เดี๋ยวนี้หรือไม่?</string>
+    <string name="tips_low_storage_dialog_ok_storage">เพิ่มพื้นที่</string>
+    <string name="tips_low_storage_dialog_ok">ล้าง</string>
+    <string name="tips_low_storage_dialog_cancel">ยกเลิก </string>
+    <string name="wechat_msg_time_long">dd-MM-yyyy</string>
+    <string name="wechat_msg_time_short">dd-MM</string>
+    <string name="wechat_video_time">%1$s:%2$s</string>
 </resources>

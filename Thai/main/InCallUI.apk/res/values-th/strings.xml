@@ -14,7 +14,7 @@
     <string name="callFailed_out_of_network">โทรนอกเครือข่าย</string>
     <string name="callFailed_server_error">เซิร์ฟเวอร์ผิดพลาด กรุณาลองอีกครั้ง</string>
     <string name="callFailed_noSignal">ไม่มีสัญญาณ</string>
-    <string name="callFailed_limitExceeded">ACM เกินจำนวนที่กำหนด</string>
+    <string name="callFailed_limitExceeded">เกินขีดจำกัด ACM แล้ว</string>
     <string name="callFailed_powerOff">เสาอากาศปิดอยู่</string>
     <string name="callFailed_simError">ซิมการ์ดผิดพลาด</string>
     <string name="callFailed_outOfService">นอกพื้นที่บริการ</string>
@@ -30,7 +30,7 @@
     <string name="callFailed_unobtainable_number">เลขหมายไม่ถูกต้อง</string>
     <string name="incall_error_supp_service_unknown">ไม่รองรับบริการดังกล่าว</string>
     <string name="incall_error_supp_service_switch">ไม่สามารถสลับสายได้</string>
-    <string name="incall_error_supp_service_separate">ไม่สามารถแยกรับสายได้</string>
+    <string name="incall_error_supp_service_separate">ไม่สามารถแยกสายได้</string>
     <string name="incall_error_supp_service_transfer">ไม่สามารถโอนสายได้</string>
     <string name="incall_error_supp_service_conference">ไม่สามารถใช้ประชุมสายได้</string>
     <string name="incall_error_supp_service_reject">ไม่สามารถปฏิเสธสายได้</string>
@@ -79,7 +79,6 @@
     <string name="respond_via_sms_custom_message">ข้อความกำหนดเอง</string>
     <string name="manageConferenceLabel">การจัดการประชุมทางโทรศัพท์</string>
     <string name="emergency_call_dialog_number_for_display">เลขหมายฉุกเฉิน</string>
-    <string name="call_extension_conference_mode">โหมดประชุมสาย</string>
     <string name="notification_dialing">กำลังต่อสาย</string>
     <string name="notification_ongoing_call">ใช้สายอยู่</string>
     <string name="notification_on_hold">พักสายอยู่</string>
@@ -112,7 +111,7 @@
     <string name="description_image_button_hangup">วางสาย</string>
     <string name="description_image_button_dialpad">แป้นโทร</string>
     <string name="description_image_button_tools">ตัวเลือก</string>
-    <string name="description_target_answer">คำตอบ</string>
+    <string name="description_target_answer">รับสาย</string>
     <string name="ok">ตกลง</string>
     <string name="cancel">ยกเลิก</string>
     <string name="wait_prompt_str">"ส่งสัญญาณโทนเสียงนี้?
@@ -138,16 +137,17 @@
     <string name="call_recording_error_unknown">ขัดข้องไม่ทราบสาเหตุ</string>
     <string name="call_recording_notification_title">บันทึกการสนทนาแล้ว</string>
     <string name="call_recording_notification_title_error">บันทึกการสนทนาไม่ได้</string>
-    <string name="call_recording_notification_message">แตะเพื่อเรียกฟัง</string>
+    <string name="call_recording_notification_message">แตะเพื่อฟัง</string>
     <string name="call_recording_notification_message_low_storage">SD การ์ดเต็ม</string>
     <string name="call_recording_notification_message_sd_unmounted">ไม่พบ SD การ์ด</string>
     <string name="call_recording_deny_permission_msg">คุณปฏิเสธสิทธิการบันทึก ไม่สามารถบันทึกได้</string>
     <string name="call_contacts_deny_permission_msg">คุณปฏิเสธสิทธิการอ่านรายชื่อ ไม่สามารถเรียกดูข้อมูลรายชื่อได้</string>
+    <string name="conference_call_recorder_title">ประชุมทางโทรศัพท์</string>
     <string name="antispam_marked_count">รายงานโดย %1$d ผู้ใช้ MIUI</string>
-    <string name="antispam_local_marked">การปักหมุดในเครื่อง</string>
+    <string name="antispam_local_marked">ทำเครื่องหมายเฉพาะที่</string>
     <string name="antispam_provider">ระบุโดย %s</string>
     <string name="antispam_notification_title">เลขหมายที่ไม่รู้จัก</string>
-    <string name="suspect_info">โปรดระวังข้อมูลส่วนตัวของคุณ</string>
+    <string name="suspect_info">ระวังข้อมูลส่วนบุคคลของคุณ</string>
     <string name="card_title_video_call_paused">พักสายวิดีโอไว้แล้ว</string>
     <string name="card_title_incoming_conference_call">สายเรียกเข้าแบบประชุมสาย</string>
     <string name="onscreen_change_to_voice">โทร (เสียง)</string>
@@ -178,7 +178,7 @@
     <string name="call_button_tools_text">คุณลักษณะ</string>
     <string name="call_button_dialer_text">แป้นพิมพ์</string>
     <string name="call_button_mute_text">ปิดเสียง</string>
-    <string name="call_button_conference_manager_text">ตัวจัดการประชุมสาย</string>
+    <string name="call_button_conference_manager_text">จัดการ</string>
     <string name="select_audio_dialog_title">กรุณาเลือกโหมดรับสาย</string>
     <string name="incoming_circle_text_reject_p">เลื่อนขึ้น</string>
     <string name="incoming_circle_text_reject">ปล่อย</string>
@@ -196,5 +196,5 @@
     <string name="dialpad_seven">7</string>
     <string name="dialpad_eight">8</string>
     <string name="dialpad_nine">9</string>
-    <string name="prompt_no_volte_when_failed">บริการ VoLTE ไม่พร้อมใช้งาน</string>
+    <string name="prompt_no_volte_when_failed">ไม่สามารถโทรได้ ตรวจสอบให้แน่ใจว่าอุปกรณ์ของคุณเชื่อมต่อเครือข่าย 4G และรองรับ VoLTE</string>
 </resources>

@@ -9,10 +9,7 @@
     <string name="power_config_apps">ตัวประหยัดแบตเตอรี่</string>
     <string name="app_list_title">เลือกแอปที่ต้องการ</string>
     <string name="power_hide_mode_app_list_summary">ช่วยประหยัดแบตตัวเครื่องขณะทำงานในพื้นหลัง</string>
-    <string name="enable_hide_mode">เปิดใช้งานตัวประหยัดแบตเตอรี่</string>
-    <string name="disable_hide_mode">ปิดโหมดประหยัดแบต</string>
     <string name="about_hide_mode">เกี่ยวกับตัวประหยัดแบตเตอรี่</string>
-    <string name="disable_hide_mode_warning">การปิดตัวประหยัดแบตเตอรี่อาจเพิ่มการใช้พลังงานของอุปกรณ์ของคุณ</string>
     <string name="show_system_app">แสดงแอประบบ</string>
     <string name="hide_system_app">ซ่อนแอประบบ</string>
     <string name="scenario_policies_title">รูปแบบอัจฉริยะ</string>

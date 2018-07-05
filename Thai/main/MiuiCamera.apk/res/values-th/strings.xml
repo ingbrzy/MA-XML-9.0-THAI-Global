@@ -3,6 +3,7 @@
     <string name="camera_setting">กล้อง</string>
     <string name="path_settings">แอประบบ/กล้อง/การตั้งค่า</string>
     <string name="search_settings">การตั้งค่ากล้อง;คุณภาพ;คุณภาพรูปถ่าย;ตำแหน่งรูป;ตำแหน่งรูปภาพ;การตรวจจับใบหน้า;เสียงกล้อง</string>
+    <string name="hibernate_hint">แตะที่หน้าจอเพื่อใช้กล้อง</string>
     <string name="camera_error_title">กล้องเกิดข้อผิดพลาด</string>
     <string name="cannot_connect_camera_once">ไม่สามารถเชื่อมต่อกล้องได้</string>
     <string name="cannot_connect_camera_twice">ยังคงไม่สามารถเชื่อมต่อกับกล้อง ลองปิด-เปิดเครื่องของคุณใหม่</string>
@@ -33,10 +34,15 @@
     <string name="pref_front_mirror_title">แสดงกล้องหน้ากลับข้างซ้ายขวา</string>
     <string name="pref_video_quality_title">คุณภาพของวิดีโอ</string>
     <string name="pref_video_hfr_title">วิดีโอ HFR</string>
-    <string name="pref_video_quality_entry_4kuhd">UHD 4K</string>
-    <string name="pref_video_quality_entry_1080p">FHD 1080P</string>
-    <string name="pref_video_quality_entry_720p">HD 720P</string>
-    <string name="pref_video_quality_entry_480p">SD 480P</string>
+    <string name="pref_video_quality_entry_4kuhd">UHD 4K, 30fps</string>
+    <string name="pref_video_quality_entry_4kuhd_60fps">UHD 4K, 60fps</string>
+    <string name="pref_video_quality_entry_1080p">FHD 1080P, 30fps</string>
+    <string name="pref_video_quality_entry_1080p_60fps">FHD 1080P, 60fps</string>
+    <string name="pref_video_quality_entry_720p">HD 720P, 30fps</string>
+    <string name="pref_video_quality_entry_480p">SD 480P, 30fps</string>
+    <string name="pref_video_encoder_title">การเข้ารหัสวิดีโอ</string>
+    <string name="pref_video_encoder_entry_h264">ความเข้ากันได้สูง H.264</string>
+    <string name="pref_video_encoder_entry_h265">ประสิทธิภาพสูง H.265</string>
     <string name="pref_video_time_lapse_frame_interval_title">ช่วงเวลาภาพเคลื่อนไหวเร็ว</string>
     <string name="pref_video_time_lapse_frame_interval_entry_2">2X (ช่วงเวลา 0.06-วินาที)</string>
     <string name="pref_video_time_lapse_frame_interval_entry_4">4X (ช่วงเวลา 0.12-วินาที)</string>
@@ -94,11 +100,6 @@
     <string name="pref_camera_coloreffect_entry_negative" />
     <string name="pref_camera_coloreffect_entry_posterize" />
     <string name="pref_camera_coloreffect_entry_aqua" />
-    <string name="pref_camera_ai_scene_title">กล้อง AI</string>
-    <string name="pref_camera_front_ai_scene_entry_on">กล้อง AI</string>
-    <string name="pref_camera_front_ai_scene_entry_off">กล้อง AI ปิดอยู่</string>
-    <string name="ai_scene_mode_use_hint_text">"กล้อง AI ตรวจพบฉากโดยอัตโนมัติ
-และปรับแต่งรูปภาพโดยใช้ข้อมูลนี้"</string>
     <string name="pref_camera_coloreffect_entry_none">ปกติ</string>
     <string name="pref_camera_coloreffect_entry_instagram_rise">โลโม่</string>
     <string name="pref_camera_coloreffect_entry_instagram_clarendon">สดใส</string>
@@ -219,6 +220,8 @@
     <string name="accessibility_filter_close_panel">ปิดเมนูฟิลเตอร์</string>
     <string name="accessibility_bokeh_normal">กล้องหน้าเบลอพื้นหลังปิดอยู่</string>
     <string name="accessibility_bokeh_on">กล้องหน้าเบลอพื้นหลังเปิดอยู่</string>
+    <string name="accessibility_ai_scene_on">กล้อง AI เปิดอยู่</string>
+    <string name="accessibility_ai_scene_off">กล้อง AI ปิดอยู่</string>
     <string name="accessibility_more">เพิ่มเติม</string>
     <string name="accessibility_setting">การตั้งค่า</string>
     <string name="accessibility_protrait">ภาพบุคคล</string>
@@ -410,6 +413,7 @@
     <string name="dual_camera_lens_covered_toast">เลนส์ถูกบดบัง</string>
     <string name="dual_camera_use_hint">ตรวจสอบให้แน่ใจว่าวัตถุอยู่หาประมาณ 2 เมตร</string>
     <string name="bokeh_use_hint">หน้าชัดหลังเบลอ</string>
+    <string name="back_bokeh_use_hint">ตรวจสอบให้แน่ใจว่าวัตถุอยู่หาประมาณ 1.5 เมตร</string>
     <string name="pref_camera_zoom_ratio_wide">100</string>
     <string name="pref_camera_zoom_ratio_tele">200</string>
     <string name="pref_camera_zoom_mode_title">เลนส์</string>
@@ -417,6 +421,7 @@
     <string name="pref_camera_zoom_mode_entry_tele">TELE</string>
     <string name="pref_camera_zoom_mode_entry_standard">ปกติ</string>
     <string name="pref_camera_zoom_mode_entry_high_pixel">แสงน้อย</string>
+    <string name="pref_camera_zoom_value_title">ซูม</string>
     <string name="pref_camera_portrait_mode_title">โหมดถ่ายภาพคน</string>
     <string name="pref_camera_portrait_mode_entry_off">โหมดถ่ายภาพคนปิดอยู่</string>
     <string name="pref_camera_portrait_mode_entry_on">โหมดถ่ายภาพคนเปิดอยู่</string>
@@ -426,6 +431,7 @@
     <string name="portrait_mode_depth_effect_success_hint">หน้าชัดหลังเบลอ</string>
     <string name="portrait_mode_use_hint">"โหมดภาพบุคคลจะทำให้พื้นหลังเบลอ
 และทำให้คนดูเด่นขึ้น"</string>
+    <string name="portrait_mode_use_hint_with_switch">@string/portrait_mode_use_hint</string>
     <string name="pref_camera_square_mode_title">รูปสี่เหลี่ยม</string>
     <string name="simple_mode_button_text_square">ปิดใช้รูปสี่เหลี่ยม</string>
     <string name="face_beauty_smart">อัจฉริยะ</string>
@@ -440,6 +446,7 @@
     <string name="pref_camera_beautify_entry_low">ต่ำ</string>
     <string name="pref_camera_beautify_entry_normal">ปานกลาง</string>
     <string name="pref_camera_beautify_entry_high">สูง</string>
+    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="camera_mode_options">โหมด</string>
     <string name="button_front_camera_title">ถ่ายเซลฟี่</string>
     <string name="button_normal_video_title">บันทึกวิดีโอ</string>
@@ -461,6 +468,7 @@
     <string name="hint_fast_motion">วีดีโอที่คุณถ่ายจะเล่นได้เร็วขึ้น</string>
     <string name="hint_slow_motion">วีดีโอที่คุณถ่ายจะเล่นได้ช้าลง</string>
     <string name="hunt_dual_water_mark">ลายน้ำของกล้องถ่ายรูปคู่จะถูกเพิ่มโดยอัตโนมัติ</string>
+    <string name="hint_ae_af_lock">โฟกัสอัตโนมัติ / การเปิดรับแสงอัตโนมัติถูกล็อก</string>
     <string name="hint_device_water_mark">ภาพลายน้ำของอุปกรณ์จะถูกเพิ่มโดยอัตโนมัติ</string>
     <string name="module_name_fun">วิดีโอสั้น</string>
     <string name="module_name_video">วิดีโอ</string>
@@ -482,16 +490,26 @@
     <string name="config_name_super_resolution">ความละเอียดสุดยอด</string>
     <string name="beauty_fragment_tab_name_beauty">บิวตี้</string>
     <string name="beauty_fragment_tab_name_makeup">ขั้นสูง</string>
+    <string name="beauty_fragment_tab_name_3d_beauty">บิวตี้</string>
+    <string name="beauty_fragment_tab_name_3d_remodeling">การเปลี่ยนแปลง</string>
     <string name="edit_skin_white">โทน</string>
     <string name="edit_skin_smooth">ผิวเนียน</string>
     <string name="edit_eye_large">ตาโต</string>
     <string name="edit_face_slender">หน้าเรียว</string>
     <string name="edit_face_ruddy">ฟรุ๊งฟริ๊ง</string>
+    <string name="edit_nose">จมูก</string>
+    <string name="edit_risorius">โหนกแก้ม</string>
+    <string name="edit_lips">ลิปส์</string>
+    <string name="edit_chin">คาง</string>
+    <string name="edit_neck">คอ</string>
+    <string name="edit_smile">ยิ้ม</string>
+    <string name="edit_slim_nose">จมูก</string>
+    <string name="popup_tip_3d_beauty_intro_text">3D บิวตี้</string>
     <string name="sticker_tab1">น่ารัก</string>
     <string name="sticker_tab2">ตลก</string>
     <string name="user_agreement2">เงื่อนไขการให้บริการ</string>
     <string name="user_agreement4">นโยบายความเป็นส่วนตัว</string>
-    <string name="user_agree">ตกลง</string>
+    <string name="user_agree">ยอมรับ</string>
     <string name="do_not_remind_me">ไม่ต้องแสดงอีก</string>
     <string name="user_notice_identify_summary_format">การใช้บริการนี้ คุณจะต้องยอมรับ%1$sและ%2$sของทาง Xiaomi</string>
     <string name="user_notice_title">ข้อตกลงและเงื่อนไข</string>
@@ -507,8 +525,20 @@
     <string name="front_camera_hint_text_rotate">หมุนโทรศัพท์ของคุณ</string>
     <string name="front_camera_hint_text_place">"ถ่ายเซลฟี่ง่ายขึ้น
 ถ้าคุณหมุนโทรศัพท์ของคุณ"</string>
+    <string name="pref_camera_ai_scene_title">กล้อง AI</string>
+    <string name="pref_camera_front_ai_scene_entry_on">กล้อง AI</string>
+    <string name="pref_camera_front_ai_scene_entry_off">กล้อง AI ปิดอยู่</string>
     <string name="text_ai_scene_selector_text_on">ภาพเงา</string>
     <string name="text_ai_scene_selector_text_off">ไฟพื้นหลัง</string>
+    <string name="ai_scene_mode_use_hint_text">"กล้อง AI ตรวจพบฉากโดยอัตโนมัติ
+และปรับแต่งรูปภาพโดยใช้ข้อมูลนี้"</string>
     <string name="pref_camera_asd_popup_title">แจ้งเตือนเมื่อควรเปิดแฟลช</string>
     <string name="pref_video_captrue_ability_title">ถ่ายภาพนิ่งขณะบันทึกวิดีโอ</string>
+    <string name="face_analyze_info">อายุ: %2$s (%1$s)</string>
+    <string name="pref_camera_picturesize_entry_standard">มาตรฐาน 4:3</string>
+    <string name="pref_camera_picturesize_entry_fullscreen">เต็มหน้าจอ 16:9</string>
+    <string name="lens_dirty_detected_title_back">เลนส์กล้องหลังสกปรก</string>
+    <string name="lens_dirty_detected_title_front">เลนส์กล้องหน้าสกปรก</string>
+    <string name="lens_dirty_detected_content">"ดูเหมือนว่าเลนส์กล้องของคุณจะสกปรก
+ทำความสะอาดเลนส์เพื่อให้ถ่ายได้ดีขึ้น"</string>
 </resources>

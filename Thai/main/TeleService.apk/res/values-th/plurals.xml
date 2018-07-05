@@ -24,7 +24,4 @@
         <item quantity="other">"
 ป้อนผิดได้อีกแค่ %d ครั้ง"</item>
     </plurals>
-    <plurals name="phone_in_ecm_notification_time">
-        <item quantity="other">ไม่มีการเชื่อมต่อข้อมูลเป็นเวลา %s นาที</item>
-    </plurals>
 </resources>

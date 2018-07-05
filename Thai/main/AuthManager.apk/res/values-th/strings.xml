@@ -25,8 +25,6 @@
     <string name="HIPS_Perm_VideoRecorder_Desc">ใช้งานกล้องเพื่อถ่ายภาพหรือวิดีโอ</string>
     <string name="HIPS_Perm_AudioRecorder">บันทึกเสียง</string>
     <string name="HIPS_Perm_AudioRecorder_Desc">บันทึกเสียงและการสนทนาทางโทรศัพท์</string>
-    <string name="HIPS_Perm_Mobile_Connectivity">แก้ไขการเชื่อมต่อข้อมูลมือถือ</string>
-    <string name="HIPS_Perm_Mobile_Connectivity_Desc">เปิดหรือปิดการใช้ข้อมูลมือถือ</string>
     <string name="HIPS_Perm_WIFI_Connectivity">แก้ไขการเชื่อมต่อกับ Wi-Fi</string>
     <string name="HIPS_Perm_WIFI_Connectivity_Desc">เปิดหรือปิด Wi-Fi</string>
     <string name="HIPS_Perm_Bluetooth_Connectivity">แก้ไขการเชื่อมต่อบลูทูธ</string>

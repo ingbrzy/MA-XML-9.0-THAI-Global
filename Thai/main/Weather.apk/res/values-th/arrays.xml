@@ -57,7 +57,6 @@
         <item>นิวเดลี</item>
         <item>มุมไบ</item>
         <item>มอสโก</item>
-        <item>ไฮเดอราบาด</item>
         <item>เจนไน</item>
         <item>อิสตันบูล</item>
         <item>รีโอเดจาเนโร</item>
@@ -69,22 +68,9 @@
         <item>ชิคาโก</item>
         <item>โตเกียว</item>
         <item>ปารีส</item>
-        <item>กรุงเทพมหานคร</item>
+        <item>กรุงเทพ</item>
         <item>โซล</item>
         <item>กัวลาลัมเปอร์</item>
-    </string-array>
-    <string-array name="indices_car_wash">
-        <item>เหมาะสม</item>
-        <item>ไม่เหมาะสม</item>
-    </string-array>
-    <string-array name="indices_sport">
-        <item>เหมาะสม</item>
-        <item>ไม่เหมาะสม</item>
-    </string-array>
-    <string-array name="indices_uv_level">
-        <item>ต่ำ</item>
-        <item>ปานกลาง</item>
-        <item>สูง</item>
     </string-array>
     <string-array name="minute_rain_array">
         <item>หนักมาก</item>
@@ -177,12 +163,5 @@
         <item>%1$s ม./วิ</item>
         <item>%1$s ไมล์./ชม.</item>
         <item>%1$skn</item>
-    </string-array>
-    <string-array name="wind_unit_simple">
-        <item>ระดับโบฟอร์ต</item>
-        <item>กม./ชม.</item>
-        <item>ม./วิ</item>
-        <item>ไมล์/ชม.</item>
-        <item>kn</item>
     </string-array>
 </resources>

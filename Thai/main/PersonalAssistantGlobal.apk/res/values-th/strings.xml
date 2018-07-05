@@ -1,22 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="abc_action_bar_home_description">นำทางไปหน้าแรก</string>
-    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
-    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
-    <string name="abc_action_bar_up_description">นำทางขึ้น</string>
-    <string name="abc_action_menu_overflow_description">ตัวเลือกอื่น</string>
-    <string name="abc_action_mode_done">เสร็จสิ้น</string>
-    <string name="abc_activity_chooser_view_see_all">ดูทั้งหมด</string>
-    <string name="abc_activitychooserview_choose_application">เลือกแอป</string>
-    <string name="abc_search_hint">ค้นหา…</string>
-    <string name="abc_searchview_description_clear">ล้างข้อความค้นหา</string>
-    <string name="abc_searchview_description_query">ข้อความค้นหา</string>
-    <string name="abc_searchview_description_search">ค้นหา</string>
-    <string name="abc_searchview_description_submit">ส่งข้อความค้นหา</string>
-    <string name="abc_searchview_description_voice">ค้นหาด้วยเสียง</string>
-    <string name="abc_shareactionprovider_share_with">แชร์กับ</string>
-    <string name="abc_shareactionprovider_share_with_application">แชร์กับ %s</string>
-    <string name="abc_toolbar_collapse_description">ยุบ</string>
     <string name="common_google_play_services_api_unavailable_text">%1$s ต้องใช้บริการ Google Play อย่างน้อย 1 บริการ ซึ่งไม่พร้อมใช้งานในปัจจุบัน โปรดติดต่อนักพัฒนาซอฟต์แวร์เพื่อขอความช่วยเหลือ</string>
     <string name="common_google_play_services_enable_button">เปิดใช้งานบริการ Google Play</string>
     <string name="common_google_play_services_enable_text">%1$s จะไม่ทำงานจนกว่าคุณจะเปิดใช้บริการ Google Play</string>
@@ -48,7 +31,6 @@
     <string name="common_open_on_phone">เปิดบนโทรศัพท์</string>
     <string name="common_signin_button_text">ลงชื่อเข้าใช้</string>
     <string name="common_signin_button_text_long">ลงชื่อเข้าใช้ด้วย Google</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="Clock_main">การปลุก</string>
     <string name="Clock_parent">นาฬิกา</string>
     <string name="MiDrop_main">ส่ง</string>
@@ -82,6 +64,37 @@
     <string name="ball_dialog_content">ติดตั้ง HuPu Sports เพื่อใช้คุณลักษณะนี้ ติดตั้งตอนนี้?</string>
     <string name="ball_dialog_tip">ไม่ต้องแสดงอีก</string>
     <string name="ball_dialog_title">ติดตั้งแอปก่อน</string>
+    <string name="ball_football_brief">ทีมข้อมูลเกี่ยวกับรายการโปรดของคุณทั้งหมด</string>
+    <string name="ball_football_brief_detail">ดูข้อมูล ผลการแข่งขันและติดตามผลฟุตบอลได้ถึง 4 ทีม</string>
+    <string name="ball_football_check_full_schedule">ดูการแข่งขันทั้งหมด</string>
+    <string name="ball_football_final">ชิงชนะเลิศ</string>
+    <string name="ball_football_full_schedule">การแข่งขันทั้งหมด</string>
+    <string name="ball_football_group_competition">รอบแบ่งกลุ่ม</string>
+    <string name="ball_football_news">ข่าวสาร</string>
+    <string name="ball_football_quarter_finals">ก่อนรองชนะเลิศ</string>
+    <string name="ball_football_rank_team">ทีม</string>
+    <string name="ball_football_recent_finished">สิ้นสุดแล้ว</string>
+    <string name="ball_football_recent_next_game">การแข่งขันถัดไป: %s</string>
+    <string name="ball_football_recent_playing">สด</string>
+    <string name="ball_football_recent_starting_time">เริ่ม: %s</string>
+    <string name="ball_football_recent_time">dd/MM HH:mm</string>
+    <string name="ball_football_round_of_16">รอบ 16</string>
+    <string name="ball_football_round_one">รอบแบ่งกลุ่ม (รอบ 1)</string>
+    <string name="ball_football_round_three">รอบแบ่งกลุ่ม (รอบ 3)</string>
+    <string name="ball_football_round_two">รอบแบ่งกลุ่ม (รอบ 2)</string>
+    <string name="ball_football_semi_finals">รอบรองชนะเลิศ</string>
+    <string name="ball_football_tab_GroupA">กลุ่ม A</string>
+    <string name="ball_football_tab_GroupB">กลุ่ม B</string>
+    <string name="ball_football_tab_GroupC">กลุ่ม C</string>
+    <string name="ball_football_tab_GroupD">กลุ่ม D</string>
+    <string name="ball_football_tab_GroupE">กลุ่ม E</string>
+    <string name="ball_football_tab_GroupF">กลุ่ม F</string>
+    <string name="ball_football_tab_GroupG">กลุ่ม G</string>
+    <string name="ball_football_tab_GroupH">กลุ่ม H</string>
+    <string name="ball_football_tab_hot">ยอดนิยม</string>
+    <string name="ball_football_third_place_playoff">ชิงที่สาม</string>
+    <string name="ball_football_word_cup">ฟุตบอลโลก</string>
+    <string name="ball_football_your_teams" formatted="false">เลือกทีมเพื่อติดตาม (%d/%d)</string>
     <string name="ball_net_errot">ไม่สามารถเชื่อมต่อกับเครือข่ายได้</string>
     <string name="ball_recent_no_data">ไม่มีข้อมูลเกี่ยวกับการแข่งขันที่กำลังจะมา</string>
     <string name="bicycle">จักรยาน</string>
@@ -171,6 +184,7 @@
     <string name="memory_clear_result">ล้างแล้ว %1$s</string>
     <string name="mi_agenda">ปฏิทินกิจกรรม</string>
     <string name="mi_function">ปุ่มลัด</string>
+    <string name="minus_screen_search_label">ค้นหา</string>
     <string name="month_day_format">dd/MM</string>
     <string name="month_format_en">dd/MM</string>
     <string name="more_stock_infos">ข้อมูลเพิ่มเติม</string>
@@ -199,7 +213,7 @@
     <string name="ola_trip">โทรเรียกรถ</string>
     <string name="ola_trip_content">ประเมินค่าโดยสารและโทรเรียกรถ</string>
     <string name="ola_trip_content_detail">ประมาณค่าโดยสารโดยประมาณและโทรหา Ola</string>
-    <string name="phone_check">Optimization</string>
+    <string name="phone_check">การเพิ่มประสิทธิภาพ</string>
     <string name="place_label">ตำแหน่งที่ใช้บ่อย</string>
     <string name="record_name">บันทึก</string>
     <string name="record_parent">บันทึกเสียง</string>

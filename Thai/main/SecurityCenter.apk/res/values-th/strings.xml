@@ -417,7 +417,7 @@
     <string name="deleted_apps">แอปที่ถูกลบ</string>
     <string name="root">เข้าถึงรูท</string>
     <string name="app_detail">รายละเอียด</string>
-    <string name="app_version">เวอร์ชั่น</string>
+    <string name="app_version">เวอร์ชั่น:</string>
     <string name="app_mobile">มือถือ</string>
     <string name="app_wifi">Wi-Fi</string>
     <string name="traffic_none">ไม่มี</string>
@@ -432,6 +432,7 @@
     <string name="managed_user_title">แอปที่ทำงานทั้งหมด</string>
     <string name="pref_about_traffic_title">การตั้งค่าการใช้ข้อมูล</string>
     <string name="pref_traffic_manage_title">การใช้ข้อมูล</string>
+    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_package_traffic_settings">แพ็คเกจข้อมูล</string>
     <string name="pref_adjust_traffic_data">ตั้งการใช้ข้อมูล</string>
     <string name="pref_category_title_other">การตั้งค่าเพิ่มเติม</string>
@@ -874,7 +875,7 @@
     <string name="sms_detail_fragment_title_bill">ยอดโทรคงเหลือ</string>
     <string name="menu_report">รายงานผิดพลาด</string>
     <string name="menu_charge_traffic">ซื้อข้อมูล</string>
-    <string name="menu_setting_traffic">Set manually</string>
+    <string name="menu_setting_traffic">ตั้งค่าด้วยตนเอง</string>
     <string name="menu_charge_bill">เติมเงิน</string>
     <string name="privacy_dialog_message">เมื่อคุณเชื่อมต่ออินเทอร์เน็ต ข้อความนี้กับข้อมูลผู้ให้บริการจะได้รับการเข้ารหัสและอัปโหลดไปยังเซิร์ฟเวอร์ของ Mi เพื่อช่วยเราในการปรับปรุงการตรวจสอบการใช้ข้อมูล</string>
     <string name="status_bar_network_flow_purchase">"   ซื้อเพิ่ม >"</string>
@@ -919,7 +920,7 @@
     <string name="optimize_result_header_view_summary">เพิ่มความเร็ว</string>
     <string name="optimize_result_available_memory_info">หน่วยความจำพร้อมใช้งาน</string>
     <string name="optimize_result_title_uninstall_apps">แอป</string>
-    <string name="om_settings_title">การตั้งค่าการเพิ่มประสิทธิภาพ</string>
+    <string name="om_settings_title">การตั้งค่า</string>
     <string name="om_settings_lock_app_manage">ล็อกแอป</string>
     <string name="om_settings_lock_app">ล็อกแอป</string>
     <string name="om_settings_speed_up_auto">เร่งความเร็วอัตโนมัติ</string>
@@ -955,6 +956,7 @@
     <string name="om_formatted_percent_string">%s%%</string>
     <string name="om_cpu_usage_warn_title_text">"แอปนี้อาจทำให้อุปกรณ์ของคุณ
 ช้าลง"</string>
+    <string name="om_memory_clean_memory_info_text">%1$s / %2$s</string>
     <string name="om_ill_proc_handle_unstaill_title">ถอนการติดตั้ง %s?</string>
     <string name="om_ill_proc_handle_uninstall_prompt">ถอนการติดตั้งแอปนี้เพื่อแก้ไขปัญหาการใช้แบตเตอรี่</string>
     <string name="om_ill_proc_type_wakelock_title">แอปบล็อกโหมดสลีปทำให้แบตเตอรี่หมดเร็ว</string>
@@ -1013,6 +1015,7 @@
     <string name="usage_type_data_send">ปริมาณข้อมูลขาออก</string>
     <string name="usage_type_no_coverage">ระยะเวลาที่อับสัญญาณ</string>
     <string name="usage_type_gps">GPS</string>
+    <string name="process_kernel_label">แอนดรอยด์</string>
     <string name="process_mediaserver_label">เซิร์ฟเวอร์สื่อมีเดีย</string>
     <string name="power_screen">หน้าจอ</string>
     <string name="power_wifi">Wi-Fi</string>
@@ -1358,6 +1361,7 @@
     <string name="menu_text_networkassistants">การใช้ข้อมูล</string>
     <string name="menu_text_networkassistants_remain">คงเหลือ %s</string>
     <string name="menu_text_networkassistants_danger">ใช้เกินไป %s</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_unit_gb">GB</string>
     <string name="menu_text_networkassistants_unit_mb">MB</string>
     <string name="menu_text_networkassistants_unit_kb">KB</string>
@@ -1732,6 +1736,7 @@
     <string name="card_main_deepclean_wechat_action">ล้าง</string>
     <string name="card_main_sectool_title">เครื่องมือ</string>
     <string name="card_main_monthreport_action">เรียกดู</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">ทดสอบเครือข่าย</string>
     <string name="card_main_netcheck_summary">ทดสอบการเชื่อมต่อสำหรับปัญหาเครือข่าย</string>
     <string name="card_main_netcheck_action">ทดสอบ</string>
@@ -1772,6 +1777,7 @@
     <string name="ac_notification_contentTitle">ป้องกันแอปด้วยล็อกแอป</string>
     <string name="ac_pre_notification_contentTitle">ลองล็อกแอป</string>
     <string name="ac_post_notification_contentTitle">เปิดใช้ล็อกแอป</string>
+    <string name="midrop_post_notification_contentTitle">ต้องการโอนไฟล์หรือไม่?</string>
     <string name="notification_masked_item">ซ่อนการแจ้งเตือน</string>
     <string name="lock_mode_title">การตั้งค่าการล็อก</string>
     <string name="after_the_lock_screen">ล็อคแอปพร้อมกับหน้าจอ</string>
@@ -1781,6 +1787,7 @@
     <string name="ac_notification_contentText">แตะเพื่อเปิดใช้งาน</string>
     <string name="ac_pre_notification_contentText">ป้องกันข้อมูลส่วนตัวของคุณ</string>
     <string name="ac_post_notification_contentText">รับการป้องกันระดับระบบ</string>
+    <string name="midrop_post_notification_contentText">ลองใช้ Mi Drop รวดเร็วและไม่มีโฆษณา</string>
     <string name="notification_masked_subtitle">ซ่อนการแจ้งเตือนจากแอปป้องกันกับล็อกแอป</string>
     <string name="ac_enter_applock">เข้าสู่การล็อกแอป</string>
     <string name="ac_mask_all_apps">ซ่อนสำหรับแอปทั้งหมด</string>
@@ -2077,6 +2084,7 @@
     <string name="app_manager_open_show_all_apps_immediate">แสดงผลลัพธ์ทั้งหมด</string>
     <string name="app_manager_mobile_slot1">ข้อมูลมือถือ (ซิม 1)</string>
     <string name="app_manager_mobile_slot2">ข้อมูลมือถือ (ซิม 2)</string>
+    <string name="app_manager_details_title">ข้อมูลแอป</string>
     <string name="ad_btn_default_text">เรียนรู้เพิ่มเติม</string>
     <string name="open_activity_err">ไม่พบแอ็พพลิเคชัน</string>
     <string name="low_memory_warning_dialog_title">พื้นที่จัดเก็บไม่เพียงพอ</string>
@@ -2098,6 +2106,8 @@
     <string name="gs_anto_clean_memory_whitelist">รายการยกเว้น</string>
     <string name="gs_call_handsfree">รับสายเปิดลำโพงอัตโนมัติ</string>
     <string name="gs_call_handsfree_mute">โหมดเงียบ</string>
+    <string name="gs_gamebox">ปุ่มลัดเกมส์</string>
+    <string name="gs_gamebox_detail">แผงหน้าจอแสดงปุ่มลัดเกมส์</string>
     <string name="gs_forbid_autosync">จำกัดการซิงค์ในพื้นหลัง</string>
     <string name="gs_app_back_self_start">ตัวประหยัดแบตเตอรี่</string>
     <string name="gs_only_self_start_for_list">จำกัดการดำเนินการของพื้นหลังเพื่อประหยัดแบตเตอรี่ในการเล่นเกม</string>
@@ -2221,7 +2231,7 @@
     <string name="game_booster_close">ตัวเร่งความเร็วในการเล่นเกมปิดอยู่</string>
     <string name="databooster_tips_title">คำเตือน</string>
     <string name="databooster_tips_message">เปิดใช้งานจำกัดซิมทั้งหมดยกเว้นการ์ดข้อมูล ปิดคุณลักษณะนี้หากมีข้อผิดพลาดเกิดขึ้นในเกมที่คุณเลือก</string>
-    <string name="gb_description_image_button_answer">คำตอบ</string>
+    <string name="gb_description_image_button_answer">รับสาย</string>
     <string name="gb_description_image_button_video_answer">วิดีโอคอล</string>
     <string name="gb_description_image_button_reject">ปฏิเสธ</string>
     <string name="gs_autobooster">เพิ่มอัตโนมัติ</string>
@@ -2254,9 +2264,17 @@
     <string name="gb_msg_quickly_answer">อนุญาตข้อความตอบด่วน</string>
     <string name="gb_msg_transparent_dispaly">การแจ้งเตือนที่มีพื้นหลังโปร่งใส</string>
     <string name="gb_msg_completely_shielded_summary">ซ่อน</string>
+    <string name="gb_msg_not_shielded_summary">แสดง</string>
     <string name="gb_msg_quickly_answer_summary">ตอบด่วน</string>
     <string name="gb_msg_transparent_dispaly_summary">โปร่งแสง</string>
     <string name="exit_dialog_homepage_optimise_message">คะแนนประสิทธิภาพของอุปกรณ์ของคุณต่ำกว่า 80 คะแนน เพิ่มประสิทธิภาพตอนนี้?</string>
+    <string name="screenrecord_not_find">ติดตั้งตัวบันทึกหน้าจอให้เป็นเวอร์ชั่นล่าสุดและลองใหม่</string>
+    <string name="gamebox_qq_not_find">ติดตั้ง QQ และลองใหม่</string>
+    <string name="gamebox_wechat_not_find">ติดตั้ง WeChat และลองใหม่</string>
+    <string name="gamebox_type_close">ไม่ต้องแสดง</string>
+    <string name="gamebox_type_float">แก้ไขปุ่มลัด</string>
+    <string name="gamebox_type_gesture">ปัดเพื่อแสดง</string>
+    <string name="notify_channel_name_security">ความปลอดภัยของระบบ</string>
     <string name="power_center_consume_rank">การใช้งานแบตเตอรี่</string>
     <string name="power_center_custom_title">ใช้โหมดพลังงาน</string>
     <string name="power_center_auto_shutdown_summary_default">ตั้งค่าการเปิดหรือปิดเครื่องตามเวลาที่กำหนดไว้ล่วงหน้า</string>

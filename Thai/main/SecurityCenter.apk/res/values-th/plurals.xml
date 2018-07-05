@@ -68,6 +68,12 @@
     <plurals name="power_center_battery_minute">
         <item quantity="other">"%d นาที "</item>
     </plurals>
+    <plurals name="power_center_battery_volume">
+        <item quantity="other">%d mAh</item>
+    </plurals>
+    <plurals name="power_center_battery_temperature">
+        <item quantity="other">%d ℃</item>
+    </plurals>
     <plurals name="deep_clean_auto_memory_clean">
         <item quantity="other">ในอีก %1$d นาที</item>
     </plurals>
